@@ -1,0 +1,180 @@
+{
+    "preferences_title":{
+        "locator": {
+            "css selector": "div[data-testid='settings-prefrences-title']"
+        },
+        "localization": {
+                "en": "Preferences"
+        }
+    },
+    "preferences_title_desc":{
+    "locator": {
+        "css selector": "div[data-testid='settings-description']"
+        },
+        "localization": {
+            "en": "Manage your privacy preferences."
+        }
+    },
+    "notifications_tab_title":{
+    "locator": {
+        "css selector": "div#preferences-notifications-tab>span"
+        },
+        "localization": {
+            "en": "Notifications"
+        }
+    },
+    "privacy_tab_title":{
+    "locator": {
+        "css selector": "div#preferences-privacy-tab>span"
+        },
+        "localization": {
+            "en": "Privacy"
+        }
+    },
+    "language_tab_title":{
+    "locator": {
+        "css selector": "div#preferences-language-tab>span"
+        },
+        "localization": {
+            "en": "Language"
+        }
+    },
+    "notifications_tab_title_desc":{
+    "locator": {
+        "css selector": "div[data-testid='body-notification']"
+        },
+        "localization": {
+            "en": "Manage the types of notification you would like to receive."
+        }
+    },
+    "preferences_tab":{
+        "locator": {
+            "css selector": "div[data-testid='setting-preferences']"
+            }
+    },
+    "printer_type_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-title']"
+            },
+        "localization": {
+            "en": "Printer & Service status"
+        }
+    },
+    "billing_type_title":{
+        "locator": {
+            "css selector": "div[data-testid='billing-title']"
+            },
+        "localization": {
+            "en": "Account and Billing"
+        }
+    },
+    "promotions_type_title":{
+        "locator": {
+            "css selector": "div[data-testid='promotions-title']"
+            },
+        "localization": {
+            "en": "Promotions"
+        }
+    },
+    "feature_type_title":{
+        "locator": {
+            "css selector": "div[data-testid='feature-title']"
+            },
+        "localization": {
+                "en": "Feature Awareness"
+            }
+    },
+    "printer_type_title_desc":{
+        "locator": {
+            "css selector": "div[data-testid='printer-description']"
+            },
+        "localization": {
+                "en": "Get notifications for printer status updates."
+            }
+    },
+    "billing_type_title_desc":{
+        "locator": {
+            "css selector": "div[data-testid='billing-description']"
+            },
+        "localization": {
+                "en": "Receive information about your account transactions."
+            }
+    },
+    "promotions_type_title_desc":{
+        "locator": {
+            "css selector": "div[data-testid='promotions-description']"
+            },
+        "localization": {
+                "en": "Receive information about new HP products, services, offers and other promotional messages."
+            }
+    },
+    "feature_type_title_desc":{
+        "locator": {
+            "css selector": "div[data-testid='feature-description']"
+            },
+        "localization": {
+                "en": "To make sure you get the most out of your printer and HP account, receive feature awareness notifications."
+            }
+    },
+    "printer_type_toggle":{
+        "locator":{
+            "css selector":"tr:nth-child(1) input[data-testid='action-toggle']+span"
+        }
+    },
+    "billing_type_toggle":{
+        "locator":{
+            "css selector":"tr:nth-child(2) input[data-testid='action-toggle']+span"
+        }
+    },
+    "promotions_type_toggle":{
+        "locator":{
+            "css selector":"tr:nth-child(3) input[data-testid='action-toggle']+span"
+        }
+    },
+    "feature_type_toggle":{
+        "locator":{
+            "css selector":"tr:nth-child(4) input[data-testid='action-toggle']+span"
+        }
+    },
+    "printer_type_status":{
+        "locator":{
+            "css selector":"tr:nth-child(1) input[data-testid='action-toggle'] +span +span"
+        }
+    },
+    "billing_type_status":{
+        "locator":{
+            "css selector":"tr:nth-child(2) input[data-testid='action-toggle'] +span +span"
+        }
+    },
+    "promotions_type_status":{
+        "locator":{
+            "css selector":"tr:nth-child(3) input[data-testid='action-toggle'] +span +span"
+        }
+    },
+    "feature_type_status":{
+        "locator":{
+            "css selector":"tr:nth-child(4) input[data-testid='action-toggle'] +span +span"
+        }
+    },
+    "positive_toast_notification":{
+        "locator":{
+            "css selector":"div[role='alert'] div>span"
+        },
+        "localization": {
+            "en": "Changes on preference settings were saved successfully."
+        }
+    },
+    "negative_toast_notification":{
+        "locator":{
+            "css selector":"div[role='alert'] div>span"
+        },
+        "localization": {
+            "en": "Unable to save changes on preference settings. Try again later."
+        }
+    },
+    "notification_table_headers":{
+        "locator":{
+            "css selector":"div#extended-preferences-notifications-tab tr th"
+        }
+    }   
+}

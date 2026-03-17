@@ -1,0 +1,32 @@
+{
+  "data_collection_service_tab_nav": {
+    "locator": {
+      "id": "data_collection_service_page"
+    }
+  },
+  "retargeting_data_tab_nav": {
+    "locator": {
+      "id": "retargeting_data_page"
+    }
+  },
+  "cached_bindings_tab_nav": {
+    "locator": {
+      "id": "cached_bindings_page"
+    }
+  },
+  "filter_cdm_ledm_tab_nav": {
+    "locator": {
+      "id": "filter_cdm_ledm_page"
+    }
+  },
+  "webview_tab_nav": {
+    "locator": {
+      "id": "webview_page"
+    }
+  },
+  "settings_btn": {
+    "locator": {
+      "id": "app_menu_settings_item"
+    }
+  }
+}

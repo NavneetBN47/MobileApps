@@ -1,0 +1,160 @@
+{
+    "start_btn": {
+        "_comment": "Start button",
+        "locator": {
+            "id": "StartButton"
+            }
+    },
+    "diagnose_and_fix_title": {
+        "_comment": "Diagnose and Fix title",
+        "locator": {
+        "id": "DiagnoseTitle"
+        }
+    },
+    "diagnose_and_fix_text": {
+        "_comment": "Diagnose and Fix text",
+        "locator": {
+        "id": "DiagnoseMessage"
+        }
+    },
+    "diagnose_and_fix_progress": {
+        "_comment": "Diagnose and Fix progress",
+        "locator": {
+            "id": "DiagnoseProgressTitle",
+            "xpath": "//Text[@Name='Diagnose and fix']"
+        }
+    },
+    "back_btn": {
+        "_comment": "Back button on Diagnose & Fix",
+        "locator": {
+            "id": "ExitSetupButton"
+        }
+    },
+    "diagnosing_and_fixing_text": {
+        "_comment": "Diagnosing and fixing issues...",
+        "locator": {
+            "id" : "DiagnoseWarningMessageDiagnoseWarningMessage",
+            "xpath": "//Text[@Name='Do not close the HP app while this tool is running.']"
+        }
+    },
+    "image": {
+        "_comment": "image on Diagnosing and fixing issues...",
+        "locator": {
+            "id": "Spinner"
+        }
+    },
+    "no_issue_found_title": {
+        "_comment": "Diagnosis complete and no issues found",
+        "locator": {
+            "id": "DiagnoseFoundNoIssues"
+        }
+    },
+    "no_issue_found_text": {
+        "_comment": "Check out",
+        "locator": {
+            "xpath": "//Text[@Name='Print a test page to make sure all issues are fixed.']"
+        }
+    },
+    "chat_with_virtual_agent_link": {
+        "_comment": "Chat with virtual agent",
+        "locator": {
+            "xpath": "//HyperLink[@Name='Chat with Virtual Agent']"
+        }
+    },
+    "online_troubleshooting_link": {
+        "_comment": "Online troubleshooting",
+        "locator": {
+            "xpath": "//HyperLink[@Name='Online Troubleshooting']"
+        }
+    },
+    "hp_support_forum_link": {
+        "_comment": "HP support forum",
+        "locator": {
+            "id": "HPSupport"
+        }
+    },
+    "first_btn": {
+        "_comment": "Test print/Done button on screen",
+        "locator": {
+            "xpath": "//List[@AutomationId='DiagnoseResultListView']/following-sibling::Button[1]"
+        }
+    },
+    "second_btn": {
+        "_comment": "Test print/Done button on screen",
+        "locator": {
+            "xpath": "//List[@AutomationId='DiagnoseResultListView']/following-sibling::Button[2]"
+        }
+    },
+    "1st_btn": {
+        "_comment": "Test print/Done button on if you're still having problem... screen",
+        "locator": {
+            "xpath": "//HyperLink[@AutomationId='HPSupport']/following-sibling::Button[1]"
+        }
+    },
+    "2nd_btn": {
+        "_comment": "Test print/Done button on if you're still having problem... screen",
+        "locator": {
+            "xpath": "//HyperLink[@AutomationId='HPSupport']/following-sibling::Button[2]"
+        }
+    },
+    "diagnosis_complete_title": {
+        "_comment": "Diagnosis complete",
+        "locator": {
+            "id": "DiagnoseResultHeader"
+        }
+    },
+    "diagnosis_complete_text": {
+        "_comment": "Diagnosis complete",
+        "locator": {
+            "id": "DiagnoseResultSubHeader"
+        }
+    },
+    "print_test_page_btn": {
+        "_comment": "Print test page button",
+        "locator": {
+            "xpath": "//List[@AutomationId='DiagnoseResultListView']/following-sibling::Button[2]"
+        }   
+    },
+    "done_btn": {
+        "_comment": "Done button",
+        "locator": {
+            "xpath": "//List[@AutomationId='DiagnoseResultListView']/following-sibling::Button[1]"
+        }   
+    },
+    "did_that_solve_the_problem_title": {
+        "_comment": "Did that solve the problem?",
+        "locator": {
+            "xpath": "//Text[@Name='Did that solve the problem?']"
+        }
+    },
+    "checkout_text": {
+        "_comment": "If not, check out these additional resources:",
+        "locator": {
+            "xpath": "//Text[@Name='If not, check out these additional resources:']"
+        }
+    },
+    "try_again_btn": {
+        "_comment": "Try Again button",
+        "locator": {
+            "xpath": "//Button[@Name='Try Again']"
+        }
+    },
+    "next_btn": {
+        "_comment": "Next button",
+        "locator": {
+            "xpath": "//Button[@Name='Next']"
+        }
+    },
+    "not_fixed_text": {
+        "_comment": "Not fixed text",
+        "locator": {
+            "xpath": "//Text[contains(@Name,'Please make sure that your printer is powered on and connected to the same network as this computer')]"
+        }
+    },
+    "still_having_problems_title": {
+        "_comment": "Not fixed text",
+        "locator": {
+            "xpath": "//Text[contains(@Name,'check out these additional resources')]"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+import pytest
+from time import sleep
+from SAF.misc import saf_misc
+from MobileApps.libs.ma_misc import ma_misc
+pytest.app_info = "ECP"
+
+class Test_04_Users(object):
+
+    @pytest.fixture(scope="class", autouse="true")
+    def class_setup(self, ecp_setup, request):
+        self = self.__class__
+        self.driver, self.fc = ecp_setup
+        self.driver.set_size("max")
+        self.stack = request.config.getoption("--stack")
+        self.home = self.fc.fd["home"]
+        self.login = self.fc.fd["login"]
+        self.hpid = self.fc.fd["hpid"]
+        self.user = self.fc.fd["users"]
+        self.account = ma_misc.get_ecp_account_info(self.stack + "_journey_testing")
+        self.hpid_username = self.account["alt-email"]
+        self.hpid_password = self.account["alt-password"]
+        
+        yield # Cleanup:
+        try:
+            self.home.logout()
+        except TimeoutException as err:
+            # logout is 'best effort' only for this journey. We don't care if the logout fails here
+            print(f"Unable to complete teardown. {err}")
+
+
+    def test_04_verify_user_role(self):
+        #https://hp-testrail.external.hp.com/index.php?/cases/view/29236562
+        #Verify that user can locate a known user with a known role in the users page.
+        print(f"Using account: {self.hpid_username}")
+        self.fc.go_home(self.stack, self.hpid_username, self.hpid_password, retry=2, raise_e=True)
+        self.home.verify_notification_mfe_card()
+        self.home.click_users_menu_btn()
+        self.user.verify_users_page()
+        assert self.user.verify_role_by_email(self.account["user_list_test_account"]["email"], self.account["user_list_test_account"]["role"])

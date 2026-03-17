@@ -1,0 +1,184 @@
+{
+    "printer_scannerers_text": {
+        "locator": {"xpath": "/Pane/Window[1]/window[1]/Group[1]/Text[1]"}
+    },
+    "add_a_printer_or_scanner_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='SystemSettings_Printer_Add_Button']"}
+    },
+    "printer_add_progress_bar": {
+        "locator": {"id": "SystemSettings_Printer_Add_ProgressBar"}
+    },
+    "dynamic_add_printer_item": {
+        "locator": {"xpath": "//List[@AutomationId='SystemSettings_Printer_Add_ListView']/ListItem[{}]"}
+    },
+    "add_printer_item_by_name": {
+        "locator": {"xpath": "//List[@AutomationId='SystemSettings_Printer_Add_ListView']/ListItem[contains(@Name, '{}')]"}
+    },                                                                                             
+    "add_device_btn": {
+        "locator": {"xpath": "//Button[@Name='Add device']"}
+    },
+    "popup_add_btn": {
+        "_comment": "Windows Settings: HP Smart is installed ",
+        "locator": {"xpath": "//Button[@Name='Add']"}
+    },
+    "open_printer_app_btn": {
+        "_comment": "Windows Settings: HP Smart is installed ",
+        "locator": {"xpath": "//Button[@Name='Open printer app']"}
+    },
+    "get_app_btn": {
+        "_comment": "Windows Settings: HP Smart is uninstalled ",
+        "locator": {"xpath": "//List[@AutomationId='SystemSettings_Printer_Add_ListView']/descendant::Button[@Name='Get app']"}
+    },
+    "microsoft_store_screen": {
+        "_comment": "Microsoft Store: HP Smart",
+        "locator": {"id": "ContentContainerScrollViewer"}
+    },
+    "ms_get_btn": {
+        "_comment": "Microsoft Store: HP Smart",
+        "locator": {"id": ["AppIdentityBuyButton", "AppIdentityInstallButton", "CtaPanel", "RootButton"],
+                    "xpath": ["//Button[contains(@Name, 'Get')]", "//Button[@Name='Install']"]}
+    },
+    "ms_retry_btn": {
+        "_comment": "Microsoft Store: HP Smart",
+        "locator": {"xpath": ["//Button[@Name='Retry']"]}
+    },
+    "ms_open_btn": {
+        "_comment": "Microsoft Store: HP Smart",
+        "locator": {"id": ["AppIdentityOpenButton"],
+                    "xpath": ["//Text[@Name='Open']", "//Button[@Name='Owned']"]}
+    },
+    "ms_install_progress_ring": {
+        "_comment": "Microsoft Store: HP Smart",
+        "locator": {"id": "ProgressRing"}
+    },
+    "ms_username_edit": {
+        "_comment": "Microsoft screen",
+        "locator": {"id": "i0116"}
+    },
+    "ms_next_btn": {
+        "_comment": "Microsoft screen",
+        "locator": {"id": "idSIButton9"}
+    },
+    "ms_password_edit": {
+        "_comment": "Microsoft screen",
+        "locator": {"id": "i0118"}
+    },
+    "ms_sign_in_btn": {
+        "_comment": "Microsoft screen",
+        "locator": {"id": "idSIButton9"}
+    },
+    "ms_account_item": {
+        "_comment": "Microsoft screen",
+        "locator": {"id": "Account_0"}
+    },
+    "ms_continue_btn": {
+        "_comment": "Microsoft screen",
+        "locator": {"id": "ContinueButton"}
+    },
+    "ms_apps_item": {
+        "_comment": "Microsoft Store: Apps",
+        "locator": {"id": "productivity"}
+    },
+    "ms_search_box": {
+        "_comment": "Microsoft Store: HP Smart",
+        "locator": {"id": "TextBox"}
+    },
+    "ms_hp_card": {
+        "_comment": "Microsoft Store: HP Smart",
+        "locator": {"xpath": "//Pane[@AutomationId='RootScrollViewer']/Button[contains(@Name, 'HP Smart')]"}
+    },
+    "ms_home_control": {
+        "_comment": "Microsoft Store",
+        "locator": {"id": "NavigationControl"}
+    },
+    "ms_account_btn": {
+        "_comment": "Microsoft Store",
+        "locator": {"id": "ProfileButton"}
+    },
+    "ms_sign_out_group": {
+        "_comment": "Microsoft Store",
+        "locator": {"id": "ProfileDetailMenuFlyoutItem"}
+    },
+    "ms_sign_in_menu": {
+        "_comment": "Microsoft Store",
+        "locator": {"id": "MsaSignInItem"}
+    },
+    "web_next_btn": {
+        "_comment": "123.hp.com",
+        "locator": {"id": "btn-begin"}
+    },
+    "web_edit_bar": {
+        "_comment": "123.hp.com",
+        "locator": {"xpath": "//ToolBar[1]/Pane[last()]/Edit[1]"}
+    },
+    "web_enter_printer_name_edit": {
+        "_comment": "123.hp.com",
+        "locator": {"id": "printer-searchlist"}
+    },
+    "web_printer_name_list": {
+        "_comment": "123.hp.com",
+        "locator": {"xpath": "//Edit[@AutomationId='printer-searchlist']/following-sibling::List[1]"}
+    },
+    "web_printer_name": {
+        "_comment": "123.hp.com",
+        "locator": {"xpath": "//Edit[@AutomationId='printer-searchlist']/following-sibling::List[1]/ListItem[1]"}
+    },
+    "web_open_ms_btn": {
+        "_comment": "123.hp.com",
+        "locator": {"xpath": "//Button[@Name='Open Microsoft Store']"}
+    },
+    "web_install_hp_smart_btn": {
+        "_comment": "123.hp.com",
+        "locator": {"id": "appstore-button"}
+    },
+    "win_start_btn": {
+        "_comment": "Win Start",
+        "locator": {"xpath": "//Pane[@Name='Taskbar']/Button[@Name='Start']"}
+    },
+    "win_app_list": {
+        "_comment": "Win Start",
+        "locator": {"id": "AppsList"}
+    },
+    "win_head_app_letter": {
+        "_comment": "Win Start",
+        "locator": {"xpath": "//List[@AutomationId='AppsList']/Group[1]"}
+    },
+    "win_h_app_letter": {
+        "_comment": "Win Start",
+        "locator": {"xpath": "//List[@AutomationId='AppsList']/Group[@Name='H']"}
+    },
+    "win_h_app_group": {
+        "_comment": "Win Start",
+        "locator": {"xpath": "//List[@AutomationId='ZoomAppsList']/ListItem[@Name='H']"}
+    },
+    "win_hp_smart_item": {
+        "_comment": "Win Start",
+        "locator": {"xpath": "//ListItem[contains(@Name, 'HP Smart')]"}
+    },
+    "win_uninstall_btn": {
+        "_comment": "Win Start -> HP Smart -> right click -> uninstall",
+        "locator": {"id": "Tile.Uninstall"}
+    },
+    "win_uninstall_info_btn": {
+        "_comment": "Win Start -> HP Smart -> right click -> uninstall-> uninstall",
+        "locator": {"xpath": "//Window[@Name='Popup']/Pane[1]/Button[1]"}
+    },
+    "pinned_hp_smart_listitem": {
+        "_comment": "HP Smart pin to start",
+        "locator": {"id": "tile-P~AD2F1837.HPPrinterControl_v10z8vjag6ke6!AD2F1837.HPPrinterControl:HPSmart"}
+    },
+    "toast_launch_app_btn": {
+        "_comment": "Toast Message",
+        "locator": {"xpath": "//Button[@AutomationId='VerbButton']"}
+    },
+    "network_status_text": {
+        "locator": {"id": "Settings_Group_NetworkStatus_GroupTitleTextBlock"}
+    },
+    "win_settints_printers_and_scanners": {
+        "locator": {"id": "SettingsGroupPrinterAddRemove_GroupTitleTextBlock"}
+    },
+    "hp_smart_taskbar": {
+        "_comment": "HP Smart icon in the tackbar",
+        "locator": {"id": "AD2F1837.HPPrinterControl_v10z8vjag6ke6!AD2F1837.HPPrinterControl"}
+    }
+} 

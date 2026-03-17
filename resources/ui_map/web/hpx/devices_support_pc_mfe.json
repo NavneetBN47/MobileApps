@@ -1,0 +1,1038 @@
+{
+    "support_card":{    
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.GetHelp']"
+        }
+    },
+    "start_virtual_assist_btn": {
+        "locator": {
+            "name": "Start Virtual Assistant",
+            "xpath": "//*[@AutomationId = 'clientos-ui-toolkit__cta-card-button']"
+        }
+    },
+    "endsession_btn": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'clientos-ui-toolkit-button label clientos-ui-toolkit-button__tertiary clientos-ui-toolkit-button__medium css-c73gym']"
+        }
+    },
+    "close_btn": {
+        "locator": {
+            "name":"Close",
+            "xpath": "//*[@ClassName = 'clientos-ui-toolkit-button label clientos-ui-toolkit-button__secondary clientos-ui-toolkit-button__medium css-l3jais']"
+        }
+    },
+    "keep_on_btn": {
+        "locator": {
+            "name": "Keep open",
+            "xpath": "//*[@ClassName = 'clientos-ui-toolkit-button label clientos-ui-toolkit-button__primary clientos-ui-toolkit-button__medium css-l3jais']"
+        }
+    },
+    "keep_open_btn": {
+        "locator": {
+            "name": "Keep open"
+        }
+    },
+    "start_new_btn": {
+        "locator": {
+            "name": "Start new"
+        }
+    },
+    "webchat_input":{
+        "locator": {
+            "xpath": "//*[@ClassName = 'webchat__send-box-text-box__input']"
+        }
+    },
+    "send_btn":{    
+        "locator": {
+            "xpath": "//*[contains(@ClassName, 'webchat__send-button')]"
+        }
+    },
+    "manual_guided_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.SeeManualsGuidesButton']"
+        }
+    },
+    "hp_service_with_wechat":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.HPServiceWithWeChatButton']"
+        }
+    },
+    "hp_support_service_list":{
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'Support.SupportCard')]"
+        }
+    },
+    "redirect_failure_text":{
+        "locator": {
+            "xpath": "//*[@Name = 'Redirect Failure']"
+        }
+    },
+    "redirect_failure_confirm_btn":{
+        "locator": {
+            "xpath": "//*[@Name = 'OK']"
+        }
+    },
+    "service_center_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.MetalocatorButton']"
+        }
+    },
+    "find_repair_center_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.FindRepairButton']"
+        }
+    },
+    "support_device_card":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportDeviceList.DeviceCard-{}__content']"
+        }
+    },
+    "virtual_repair_center_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.StartRepairButton']"
+        }
+    },
+    "product_support_center_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.ProductPageButton']"
+        }
+    },
+    "warranty_dispute_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.WarrantyDisputeButton']"
+        }
+    },
+    "contact_us_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.ContactUsButton']", 
+            "name": "Contact us"
+        }
+    },
+    "community_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUs.HPCommunityButton']"
+        }
+    },
+    "chat_agent_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUs.ChatWithAgentButton']"
+        }
+    },
+    "smart_friend_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUs.SmartfriendButton']"
+        }
+    },
+    "speak_agent_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUs.SpeakToAgentButton']"
+        }
+    },
+    "hardware_issue_btn" : {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUsInstantInk.HardwareissueButton']"   
+        }
+    }, 
+    "instant_ink_issue_btn" : {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUsInstantInk.InstantinkissueButton']"
+        }
+    },
+    "phone_page_title":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'clientos-ui-toolkit-generic-card-header__title']"
+        }
+    },
+    "chat_page_title":{
+        "locator": {
+            "name": "Chat with an agent",
+            "xpath": "//*[@AutomationId = 'clientos-ui-toolkit-generic-card-header__title']"
+        }
+    },
+    "warranty_page_title":{
+        "locator": {
+            "name": "Factory warranty",
+            "xpath": "//*[@AutomationId = 'clientos-ui-toolkit-generic-card-header__title']"
+        }
+    },
+    "create_case_profile_name":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'AUID_Support_create-case-profile-name']"
+        }
+    },
+    "back_btn":{
+        "locator": {
+            "class name": "BackButton__BackButtonContainer-hpx-core-experiences-react-navbar-mfe__sc-9llkbf-0 gTxEKL"
+        }
+    },          
+    "warranty_detail_btn":{
+        "locator":{
+            "name": "Warranty status"
+        }
+    },
+    "warranty_detail_status_text":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.SupportWarranty.WarrantyStatus']"
+        }
+    },
+    "sign_in_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'SideFlyout.SideFlyoutView.SignInCreateAccountButton']",
+            "id": "SideFlyout.SideFlyoutView.SignInButton"
+        }
+    },
+    "support_menu":{
+        "locator":{
+            "xpath":"//*[@Name = 'clientos-ui-toolkit-list-container__item padding-start padding-end hoverable']"
+        }
+    },
+    "support_option":{
+        "locator":{
+            "name": "Support",
+            "xpath":"//*[@Name = 'Support']",
+            "id": "SideFlyout.SideFlyoutView.SupportMenuItem"
+        }
+    },
+    "settings_option":{
+        "locator":{
+            "xpath":"//*[@Name = 'Settings']"
+        }
+    },
+    "signout_btn":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Settings.Settings.SignOutButton']"
+        }
+    },
+    "add_device_btn":{
+        "locator":{
+            "xpath":"//*[@ClassName = 'clientos-ui-toolkit-button label clientos-ui-toolkit-button__secondary clientos-ui-toolkit-button__large css-c73gym']"
+        }
+    },
+    "va_msg":{
+        "locator":{
+            "xpath":"//*[@Name = '{}']",
+            "name": "{}"
+        }
+    }, 
+    "va_msg_contains":{
+        "locator":{
+            "xpath":"//*[contains(@Name, \"{}\")]"
+        }
+    },
+    "feedback_link":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'botaction_feedback']"
+        }
+    },
+    "startover_link":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'botaction_startover']"
+        }
+    }, 
+    "privacy_link":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'botaction_privacypolicy']//*[1]"
+        }
+    },
+    "device_cards":{
+        "locator":{
+            "xpath":"//*[contains(@ClassName, 'clientos-ui-toolkit-primary-device-card card-wrapper')]"
+        }
+    }, 
+    "sign_in_button":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'SideFlyout.SideFlyoutView.SignInCreateAccountButton']",
+            "id": ["SideFlyout.SideFlyoutView.SignInButton", "Account.SideFlyoutView.SignInButton"]
+        }
+    },
+    "back_btn_title":{
+        "locator":{
+            "name":"Devices"
+        }
+    },
+    "device_add_btn":{
+        "locator": {
+            "xpath": ["//*[@AutomationId = 'Support.SupportDeviceList.AddDeviceButton']",
+            "//*[@ClassName = 'clientos-ui-toolkit-button label clientos-ui-toolkit-button__secondary clientos-ui-toolkit-button__large css-c73gym']"]
+        }
+    }, 
+    "add_device_page_title":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'AddDevice.Adddevice.Header']"
+        }
+    },
+    "contact_us_card":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Support.ContactUs.ContactUsCard']"
+        }
+    },
+    "top_profile_button":{
+        "locator":{
+            "xpath":[
+                "//*[@AutomationId = 'NavBar.NavBarView.ProfileIcon']",
+                "//*[@AutomationId = 'Navbar.NavbarView.ProfileIcon']",
+                "//*[@AutomationId = 'Navbar.NavbarView.ProfileIcon-bite-button']",
+                "//*[@AutomationId = 'NavBar.NavBarView.ProfileIcon-bite-button-icon']"
+            ]
+        }
+    }, 
+    "feedback_btn": {
+        "locator": {
+            "id": "SideFlyout.SideFlyoutView.FeedbackButton",
+            "xpath": ["//Button[@Name='Send feedback']", "//Button[@ClassName='clientos-ui-toolkit-button label clientos-ui-toolkit-button__secondary clientos-ui-toolkit-button__large css-c73gym']"]
+        }
+    },
+    "top_profile_sign_in_button":{
+        "locator":{
+            "xpath":"//*[contains(@AutomationId, 'clientos-ui-toolkit-avatar')]"
+        }
+    },
+    "kakaotalk_button":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Support.ContactUs.KakaoTalkButton']"
+        }
+    }, 
+    "webchat_button":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Support.ContactUs.WeChatButton']"
+        }
+    }, 
+    "zalo_button":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Support.ContactUs.ZaloButton']"
+        }
+    }, 
+    "line_button":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Support.ContactUs.LineButton']"
+        }
+    }, 
+    "whatsapp_button":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Support.ContactUs.WhatsAppButton']"
+        }
+    },
+    "twitter_button":{
+        "locator":{
+            "xpath":"//*[@AutomationId = 'Support.ContactUs.TwitterButton']"
+        }
+    },
+    "country_dropdown":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.ContactUs.ContactUs']//*[2]"
+        }
+    }, 
+    "country_index":{
+        "locator": {
+            "id": "Support.SupportCard.CountryDropdown-option-{}"
+        }
+    },
+    "country_option":{
+        "locator": {
+            "name":"{}",
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.CountryDropdown-listbox']//*[@Name = '{}']"
+        }
+    },
+    "country_list":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.CountryDropdown-select-listbox']"
+        }
+    },
+    "warranty_status_text":{
+        "locator": {
+            "id": ["ProductInformation_GetWarrantyDetailsButton", "ProductInformation_GetWarrantyDetailsButton__header"],
+            "xpath": "//*[@AutomationId = 'ProductInformation_GetWarrantyDetailsButton']"
+        }   
+    }, 
+    "subscription_info_text":{
+        "locator": {
+            "xpath": "//*[@Name = 'Subscription']"
+        }
+    },
+    "sign_in_to_view_coverage_status_text":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'ProductInformation_GetWarrantyDetailsButton__start-content']//*[1]"
+        }
+    },
+    "subscription_not_associated_text":{
+        "locator": {
+            "xpath": "//*[@Name = 'Subscription not associated with this account']"
+        }
+    },
+    "contact_us_panel":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUs.ContactUs']"
+        }
+    },
+    "otherspc_btn":{
+        "locator": {
+            "name":"Others",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.OthersPcButton']"
+        }
+    },
+    "computerisslow_btn":{
+        "locator": {
+            "name":"Computer is slow",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.ComputerIsSlowButton']"
+        }
+    },
+    "displayortouchissue_btn":{
+        "locator": {
+            "name":"Display or touchscreen issue",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.DisplayOrTouchIssueButton']"
+        }
+    },
+    "keyboardmousesettings_btn":{
+        "locator": {
+            "name":"Keyboard or mouse issue",  
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.KeyboardMouseSettingsButton']"
+        }
+    },
+    "restorecomputersettings_btn":{
+        "locator": {
+            "name":"Restore computer settings",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.RestoreComputerSettingsButton']"
+        }
+    },
+    "nosound_btn":{
+        "locator": {
+            "name":"No sound",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.NoSoundButton']"
+        }
+    },
+    "connectivityissue_btn":{
+        "locator": {
+            "name":"Connectivity issue",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.ConnectivityIssueButton']"
+        }
+    },
+    "computerlocksorfreezes_btn":{
+        "locator": {
+            "name":"Computer locks up or freezes",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.ComputerLocksOrFreezesButton']"
+        }
+    },
+    "windowssupport_btn":{
+        "locator": {
+            "name":"Windows support",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.WindowsSupportButton']"
+        }
+    },
+    "computerwillnotstart_btn":{
+        "locator": {
+            "name":"Computer will not start",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.ComputerWillNotStartButton']"
+        }
+    },
+    "cannotlogincomputer_btn":{
+        "locator": {
+            "name":"Can't login in to computer",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.CannotLoginComputerButton']"
+        }
+    },
+    "storgageissue_btn":{
+        "locator": {
+            "name":"Storage issue",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.StorageIssueButton']"
+        }
+    },
+    "cannotconnectprinter_btn":{
+        "locator": {
+            "name":"Can't connect computer to printer",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.CannotConnectPrinterButton']"
+        }
+    },
+    "vashowlesspc_btn":{
+        "locator": {
+            "name":"Show less",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.VaShowLessPcButton']"
+        }
+    },
+    "vashowmorepc_btn":{
+        "locator": {
+            "name": "Show more",
+            "xpath": "//*[@AutomationId = 'Support.VaPcIntents.VaShowMorePcButton']"
+        }
+    }, 
+    "create_case_profile_email_input":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'AUID_Support_create-case-profile-email']//*[1]"
+        }
+    },
+    "issue_type_selector": {
+        "locator": {
+            "xpath": "//*[contains(@ClassName, 'vn-select__open-button')]"
+        }
+    },
+    "issue_type_list": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, '-listbox')]"
+        }
+    },
+    "issue_type_option": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, '-option')]"
+        }
+    }, 
+    "get_phone_number_btn":{
+        "locator": {
+            "xpath": "//*[@Name = 'Get phone number']"
+        }
+    },
+    "issue_description_input":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'problem__textarea']"
+        }
+    },
+    "phone_number_text":{
+        "locator": {
+            "xpath": ["//*[contains(@Name, '1-8')]", 
+            "//*[@AutomationId = 'AUID_Support_profile-name']"]
+        }
+    },
+    "chat_now_btn":{
+        "locator": {
+            "xpath": "//*[@Name = 'Chat now']"
+        }
+    }, 
+    "issue_type_text":{
+        "locator": {
+            "xpath": "//*[@Name = 'Battery, power, display, and audio']"
+        }
+    },
+    "issue_type_description":{
+        "locator": {
+            "xpath": "//*[@Name = 'Auto test']"
+        }
+    },
+    "case_history_title":{
+        "locator": {
+            "xpath": "//*[@Name = 'Case history']"
+        }
+    }, 
+    "printer_setup_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.PrinterSetupButton']"
+        }
+    },
+    "printer_offline_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.PrinterOfflineButton']"
+        }
+    },
+    "printer_connectivity_issue_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.PrinterConnectivityIssueButton']"
+        }
+    },
+    "printer_scanning_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.PrinterScanningButton']"
+        }
+    },
+    "printer_quality_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.PrintQualityButton']"
+        }
+    },
+    "ink_cartridge_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.InkCartridgeButton']"
+        }
+    },
+    "print_job_stuck_in_queue_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.PrintJobStuckInQueueButton']"
+        }
+    },
+    "paper_jam_issue_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.PaperJamIssueButton']"
+        }
+    },
+    "others_printer_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.OthersPrinterButton']"
+        }
+    },
+    "va_page_title":{
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'clientos-ui-toolkit-generic-card-header') and contains(@AutomationId, '__title')]"
+        }
+    },
+    "va_show_less_printer_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.ShowLessPrinterButton']"
+        }
+    },
+    "va_show_more_printer_btn":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.VaPrinterIntents.ShowMorePrinterButton']"
+        }
+    }, 
+    "support_center_operating_hours_title":{
+        "locator": {
+            "xpath": "//*[@Name = 'Support center operating hours']"
+        }
+    }, 
+    "run_system_test_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'SupportDiagnostics.DiagnosticsAndFixes.RunSystemTestButton']"
+        }
+    },
+    "check_audio_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'SupportDiagnostics.DiagnosticsAndFixes.CheckAudioButton']"
+        }
+    },
+    "run_hardware_diagnostic_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'SupportDiagnostics.DiagnosticsAndFixes.RunHardwareDiagnosticsButton']"
+        }
+    },
+    "audio_check_diagnostic_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Audio.SupportDiagnosticsAudioControl.AudioCheckDiagnostics']"
+        }
+    },
+    "audio_setting_check_audio_button":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'SupportDiagnostics.AudioSettings.CheckAudioButton']"
+        }
+    },
+    "system_control_optimize_performance_button":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'SupportDiagnostics.SystemControlSettings.OptimizePerformanceButton"
+        }
+    },
+    "optimize_performance_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'SupportDiagnostics.DiagnosticsAndFixes.OptimizePerformanceButton']"
+        }
+    }, 
+    "aip_intents_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaCategories.AIPIntentsButton']"
+        }
+    },
+    "printer_intents_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaCategories.PrinterIntentsButton']"
+        }
+    },
+    "instant_ink_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaCategories.InstantInkButton']"
+        }
+    },
+    "what_is_instant_ink_plan_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.WhatIsInstantInkPlanButton']"
+        }
+    },
+    "cartridge_troubleshooting_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.CartridgeTroubleshootingButton']"
+        }
+    },
+    "change_credit_card_info_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.ChangeCreditCardInfoButton']"
+        }
+    },
+    "my_bill_was_not_what_i_expected_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.MyBillwasnotwhatiExpectedButton']"
+        }
+    },
+    "page_count_explanations_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.PageCountExplanationsButton']"
+        }
+    },
+    "account_related_errors_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.AccountRelatedErrorsButton']"
+        }
+    },
+    "print_quality_issues_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.PrintQualityIssuesButton']"
+        }
+    },
+    "connect_printer_message_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.ConnectPrinterMessageButton']"
+        }
+    },
+    "cartridge_cannot_be_used_until_printer_is_enrolled_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.CartridgeCannotBeUsedUntilPrinterIsEnrolledButton']"
+        }
+    },
+    "instant_ink_change_shipping_address_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.ChangeShippingAddressButton']"
+        }
+    },
+    "change_to_a_different_plan_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.ChangeToADifferentPlanButton']"
+        }
+    },
+    "trouble_logging_in_to_my_instant_ink_account_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.TroubleLoggingInToMyInstantInkAccountButton']"
+        }
+    },
+    "show_more_instant_ink_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaInstantInkIntents.ShowMoreInstantInkButton']"
+        }
+    },
+    "what_is_hp_all_in_plan_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.WhatIsHpAllinPlanButton']"
+        }
+    },
+    "trouble_logging_in_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.TroubleLoggingInButton']"
+        }
+    },
+    "change_email_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.ChangeEmailButton']"
+        }
+    },
+    "change_billing_info_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.ChangeBillingInfoButton']"
+        }
+    },
+    "change_shipping_address_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.ChangeShippingAddressButton']"
+        }
+    },
+    "add_a_printer_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.AddAPrinterButton']"
+        }
+    },
+    "where_is_my_paper_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.WhereIsMyPaperButton']"
+        }
+    },
+    "where_is_my_ink_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.WhereIsMyInkButton']"
+        }
+    },
+    "account_error_message_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.AccountErrorMessageButton']"
+        }
+    },
+    "cancel_my_account_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.CancelMyAccountButton']"
+        }
+    },
+    "others_aip_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.OthersAipButton']"
+        }
+    },
+    "show_more_aip_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.ShowMoreAipButton']"
+        }
+    }, 
+    "show_less_aip_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.VaAipIntents.ShowLessAipButton']"
+        }
+    }, 
+    "support_device_list_title":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.SupportDeviceList.SupportDeviceListTitle']"
+        }
+    }, 
+    "support_link":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.SupportDeviceList.SupportWebRedirectButton']"
+        }
+    },
+    "aip_help_with_plan_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.AipHelpWithPlanButton']"
+        }
+    },
+    "aip_contact_us_btn":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.SupportCard.AipContactUsButton']"
+        }
+    },
+    "va_minimize_btn":{
+        "locator":{
+            "name": "Minimize"
+        }
+    },
+    "assistant_btn":{
+        "locator":{
+            "name": "Assistant"
+        }
+    },
+    "live_agent_btn":{
+        "locator":{
+            "name": "Live agent"
+        }
+    },
+    "va_title":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'VirtualAssistant.VirtualAssistant.VirtualAssistantTitle']"
+        }
+    },
+    "chat_text_field":{
+        "locator":{
+            "xpath": "//*[@AutomationId = 'clientos-ui-toolkit-text-field']"
+        }
+    }, 
+    "product_info_btn": {
+        "locator":{
+            "xpath": ["//*[@AutomationId = 'ProductInformation_PcSpecificationsButton']",
+                    "//*[@AutomationId = 'ProductInformation_InfoButton']"]
+        }
+    }, 
+    "view_available_updates_btn":{
+        "locator":{
+            "xpath":"//*[@Name = 'View available updates']"      
+        }
+    },
+    "operatingsystem_info": {
+        "locator":{
+            "xpath": ["//*[@AutomationId = 'Support.PcSpecifications.OperatingSystem__start-content']//*[2]",
+                      "//*[contains(@AutomationId, 'Support.PcSpecifications.OperatingSystem__start-content')]//*[2]"]
+        }
+    }, 
+    "microprocessor_info": {
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.PcSpecifications.Microprocessor__start-content']//*[2]"
+        }
+    }, 
+    "systemmemory_info": {
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.PcSpecifications.SystemMemory__start-content']//*[2]"
+        }
+    }, 
+    "memoryslot_info": {
+        "locator":{
+            "xpath": "//*[@AutomationId = 'memory-slot-{}__start-content']//*[2]"
+        }
+    }, 
+    "systemboard_info": {
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.PcSpecifications.SystemBoard__start-content']//*[2]"
+        }
+    }, 
+    "systembios_info": {
+        "locator":{
+            "xpath": "//*[@AutomationId = 'Support.PcSpecifications.SystemBios__start-content']//*[2]"
+        }
+    }, 
+    "video_device_info": {
+        "locator":{
+            "xpath": "//*[@AutomationId = 'video-device-{}-name__start-content']//*[2]"
+        }
+    },
+    "video_device_resolution_info": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'video-device-{}-resolution__start-content']//*[2]"
+        }
+    }, 
+    "video_device_refresh_rate_info": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'video-device-{}-refresh-rate__start-content']//*[2]"
+        }
+    },
+    "video_device_version_info": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'video-device-{}-version__start-content']//*[2]"
+        }
+    },
+    "audio_device_info": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'audio-device-{}-name__start-content']//*[2]"
+        }
+    },
+    "audio_device_driver_info": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'audio-device-{}-driver__start-content']//*[2]"
+        }
+    },
+    "audio_device_version_info": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'audio-device-{}-version__start-content']//*[2]"
+        }
+    }, 
+    "chat_with_agent_description": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'Support.ContactUs.ChatWithAgentButton__description']"
+        }
+    }, 
+    "search_by_sn_button":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'search-by-serial-number']"
+        }
+    }, 
+    "enter_sn_edit":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'text-field-serial-number__text-box']"
+        }
+    }, 
+    "add_device_link":{
+        "locator": {
+            "xpath": ["//*[contains(@AutomationId, 'link-add-device-')]",
+                "//*[contains(@Name, 'Add device')]"]
+        }
+    },
+    "support_diagnostics_title":{
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'SupportDiagnostics.DiagnosticsAndFixes')]"
+        }
+    }, 
+    "product_specifications_button":{
+        "locator": {
+            "xpath": [
+                "//*[@AutomationId = 'ProductInformation_PcSpecificationsButton']", 
+                "//*[@AutomationId = 'ProductInformation_InfoButton']"
+            ]
+        }
+    },
+    "back_devices_button_on_pc_devices_page": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'NavBar.NavBarView.BackButton']"
+        }
+    },
+    "diagnostics_title": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'SupportDiagnostics.DiagnosticsAndFixes.DiagnosticsTitle']"
+        }
+    },
+    "remote_device_name":{
+        "locator": {
+            "xpath": ["//*[@AutomationId = 'pcdevicedetails__device-name']",
+                "//*[contains(@AutomationId, 'clientos-ui-toolkit-device-details-page') and contains(@AutomationId, '__device-name')]"]
+        }
+    },
+    "device_name":{
+        "locator": {
+            "id": "pcdevicedetails__device-name",
+            "class name": "device-details-page__TextWrap-clientos-ui-toolkit__sc-jnc1w-1 eeCdjk clientos-ui-toolkit-device-details-page__device-name"
+        }
+    }, 
+    "support_country_select_edit": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'support-country-select']//Edit"
+        }
+    },
+    "support_country_select_text": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'support-country-select']//Text"
+        }
+    }, 
+    "link_need_help_sn": {
+        "locator":{
+            "xpath": "//*[@AutomationId = 'link-need-help-serial-number']"
+        }
+    }, 
+    "embargo_country_title": {
+        "locator": {
+            "xpath": "//*[@Name = 'You are in an Embargoed country']"
+        }
+    },
+    "embargo_country_closed_btn": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'EmbargoCloseButton']"
+        }
+    }, 
+    "copy_serial_number_btn": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'ProductInformation_CopySerialNumberButton']"
+        }
+    },
+    "audio_control_card_lone_page": {
+        "locator": {
+            "id": "PcDeviceCards.PcDeviceActionCards.PcaudioXCoreCard"
+        }
+    },
+    "display_control_card_lone_page": {
+        "locator": {
+            "id": "PcDeviceCards.PcDeviceActionCards.PcdisplayXControlCard"
+        }
+    },
+    "system_control_card_lone_page": {
+        "locator": {
+            "id": "PcDeviceCards.PcDeviceActionCards.PcsystemcontrolXSettingsCard"
+        }
+    },
+    "wellbeing_card": {
+        "locator": {
+            "id": "PcDeviceCards.PcDeviceActionCards.PcwellbeingXCoreCard"
+        }
+    },
+    "video_card_lone_page": {
+        "locator": {
+            "id": "PcDeviceCards.PcDeviceActionCards.VideoXControlCard"
+        }
+    },
+    "hppk_card": {
+        "locator": {
+            "id": "PcDeviceCards.PcDeviceActionCards.ProgkeyXSettingsCard"
+        }
+    },
+    "minimize_btn":{
+        "locator":{
+            "id": "Minimize"
+        }
+    }, 
+    "maximize_btn":{
+        "locator":{
+            "id": "Maximize"
+        }
+    },
+    "device_card": {
+        "locator": {
+            "id": ["DeviceList.DeviceList.PrimaryCard-0","DeviceList.DeviceList.PrimaryCard-0__device-nickname"],
+            "xpath": "//*[@AutomationId = 'DeviceList.DeviceList.PrimaryCard-{}']",
+            "class name": ["clientos-ui-toolkit-primary-device-card__card-content-container__inner__info-container__model__device-name title-small--medium", "clientos-ui-toolkit-primary-device-card card-wrapper css-1fbksb1"]
+        }
+    }, 
+    "submenu_view": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'SubmenuView']"
+        }
+    }, 
+    "wechat_ok": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'mmui::XOutlineButton']"
+        }
+    }, 
+    "check_updates_button": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'DeviceUpdates.DeviceUpdatesCard.CheckUpdatesButton']"
+        }
+    }, 
+    "view_all_updates_button": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'DeviceUpdates.DeviceUpdatesCard.ViewAllUpdatesButton' or @AutomationId = 'DeviceUpdates.DeviceUpdatesCard.CheckUpdatesButton']"
+        }
+    },
+    "update_summary_card_header_title": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'DeviceUpdates.DeviceUpdatesCard.UpdateSummaryCardHeader__title']"
+        }
+    }
+}

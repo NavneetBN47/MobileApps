@@ -1,0 +1,22 @@
+{
+  "doc_provider_tab_nav": {
+    "locator": {
+      "xpath": "//android.widget.FrameLayout[@content-desc='DocProvider']"
+    }
+  },
+  "event_history_tab_nav": {
+    "locator": {
+      "xpath": "//android.widget.FrameLayout[@content-desc='Event History']"
+    }
+  },
+  "weblet_tab_nav": {
+    "locator": {
+      "xpath": "//android.widget.FrameLayout[@content-desc='Webview']"
+    }
+  },
+  "application_window": {
+    "locator": {
+      "xpath": "//android.widget.FrameLayout[contains(@package,'docproviderexample')]"
+    }
+  }
+}

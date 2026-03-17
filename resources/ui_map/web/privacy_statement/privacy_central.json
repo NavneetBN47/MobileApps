@@ -1,0 +1,10 @@
+{
+  "our_approach_to_privacy": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeNavigationBar[@identifier='HP Privacy Statement']",
+        "//*[contains(text(),'Privacy Statement')]"
+      ]
+    }
+  }
+}

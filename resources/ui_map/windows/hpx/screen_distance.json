@@ -1,0 +1,132 @@
+{
+    "screen_distance_title": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_ScreenDistanceCard_introHeading"
+        }
+    },
+    "screen_distance_subtitle": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_ScreenDistanceCard_introDescription"
+        }
+    },
+    "screen_distance_tooltips": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_InformationTooltipView_ScreenDistanceTooltip"
+        }
+    },
+    "screen_distance_button": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_ScreenDistanceCard_toggleSwitch"
+        }
+    },
+    "nudge_option": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_AlertOptionButton_NudgeMeLabel"
+        }
+    },
+    "alert_option": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_AlertOptionButton_FullNotificationLabel"
+        }
+    },
+    "blur_option": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_AlertOptionButton_BlurMyDisplayLabel"
+        }
+    },
+    "set_preferred_title": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_ScreenDistanceCard_setDistanceHeading"
+        }
+    },
+    "set_preferred_subtitle": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_ScreenDistanceCard_setDistanceDescription"
+        }
+    },
+    "change_button": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_SetPreferredDistance_ChangeDistanceButton"
+        }
+    },
+    "restore_button": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_RestoreButton_Button"
+        }
+    },
+    "alert_option_title": {
+        "locator": {
+            "id": "AUID_PCScreenDistance_ScreenDistanceCard_alertOptionsHeading"
+        }
+    },
+    "screen_distance_nav_title": {
+        "locator": {
+            "id": "AUID_pcscreendistance-core_NavBreadcrumb_Userdetection-screendistance"
+        }
+    },
+    "toggle_text":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_ScreenDistanceCard_featureOnOff"
+        }
+    },
+    "cancel_text":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_SetPreferredDistance_CancelButton"
+        }
+    },
+    "save_text":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_SetPreferredDistance_SaveButton"
+        }
+    },
+    "nudge_text_on_card":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_NudgeMeLabel"
+        }
+    },
+    "nudge_card_subtitle_text":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_NudgeMeDescription"
+        }
+    },
+    "alert_text_on_card":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_FullNotificationLabel"
+        }
+    },
+    "alert_card_subtitle_text":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_FullNotificationDescription"
+        }
+    },
+    "blur_text_on_card":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_BlurMyDisplayLabel"
+        }
+    },
+    "blur_card_subtitle_text":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_BlurMyDisplayDescription"
+        }
+    },
+    "current_set_distance":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_DistanceBox_DistanceBoxString"
+        }
+    },
+    "nudge_button":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_NudgeMeButton"
+        }
+    },
+    "alert_button":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_FullNotificationButton"
+        }
+    },
+    "blur_button":{
+        "locator": {
+            "id":"AUID_PCScreenDistance_AlertOptionButton_BlurMyDisplayButton"
+        }
+    }
+}

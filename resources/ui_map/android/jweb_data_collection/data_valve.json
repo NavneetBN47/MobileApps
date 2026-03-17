@@ -1,0 +1,17 @@
+{
+  "reset_bindings": {
+    "locator": {
+      "id": "app_menu_refresh_item"
+    }
+  },
+  "v1bindings_json": {
+    "locator": {
+      "id": "binding_text"
+    }
+  },
+  "request_json": {
+    "locator": {
+      "id": "request_text"
+    }
+  }
+} 

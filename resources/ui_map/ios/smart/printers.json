@@ -1,0 +1,493 @@
+{
+    "connection_option_wifi": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeImage[@label='WiFi']",
+                "//XCUIElementTypeImage[@name='WiFi']"
+            ]
+        }
+    },
+    "connection_option_ethernet": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeImage[@label='Ethernet']",
+                "//XCUIElementTypeImage[@name='Ethernet']"
+            ]
+        }
+    },
+    "continue_btn": {
+        "locator": {
+            "name": "Continue"
+        }
+    },
+    "printers_title": {
+        "locator": {
+            "name": "Printers"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/printer-list",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "add_printer_btn": {
+        "locator": {
+            "str_id": "cAddPrinter",
+            "name": ["Add Printer", "Printer Globe Choose an available printer Arrow Right","Choose an available printer"],
+            "xpath": ["//XCUIElementTypeButton[@label='Add Printer']",
+                      "//XCUIElementTypeOther[@label='Choose an available printer']"]
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "category": "Printer-list",
+                    "action": "WiFi-list",
+                    "label": "Add-printer-clicked",
+                    "count": 1
+                },
+                "trigger": "click",
+                "type": "event"
+            }
+        ]
+    },
+    "set_up_new_printer": {
+        "locator": {
+            "name": "Printer Add Set up a new printer Arrow Right"
+        }
+    },
+    "search_by_serial": {
+        "locator": {
+            "name": "Support Search by serial number Arrow Right"
+        }
+    },
+    "connect_this_printer": {
+        "locator": {
+            "name": "How do you want to connect this printer?"
+        }
+    },
+    "search_by_serial_number_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Search by serial number']"
+        }
+    },
+    "printers_tv": {
+        "locator": {
+            "name": "Printer List",
+            "xpath": "//XCUIElementTypeTable[@name=\"Printer List\"]"
+        }
+    },
+    "printer_ip": {
+        "locator": {
+            "class name": "XCUIElementTypeStaticText[1]",
+            "text": "{}"
+        }
+    },
+    "dynamic_printer_cell": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTable[@name=\"Printer List\"]/XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@value, '{}')]"
+        }
+    },
+    "printers_cell": {
+        "locator": {
+            "class name": "XCUIElementTypeCell"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "category": "Printer",
+                    "action": "Printers-found",
+                    "label": "{available_printers_count_dynamic_ga}",
+                    "count": 1
+                },
+                "default_keys": {
+                    "available_printers_count_dynamic_ga": 0
+                },
+                "trigger": "wait_v",
+                "type": "event"
+            }
+        ]
+    },
+    "printer_cell_visible": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[1][contains(@name, 'HP') and @visible='true']"
+        }
+    },
+    "tap_to_setup_printer_txt": {
+        "locator": {
+            "str_id": "cTapToSetUpThisPrinter"
+        }
+    },
+    "add_printer_using_ip_btn": {
+        "locator": {
+            "name": [
+                "Connect the Printer using the IP Address",
+                "Add printer using IP address"
+            ],
+            "str_id": [
+                "cAlreadySetupPrinterList_tertiary_button1",
+                "cConnectPrinterUsingIPAddress"
+            ]
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/printer-list/add",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "connect_using_ip_address": {
+        "locator": {
+            "name": "Connect Using IP Address"
+        }
+    },
+    "set_up_new_printer_btn": {
+        "locator": {
+            "str_id": "cSetupNewPrinter"
+        }
+    },
+    "connect_the_printer_txt": {
+        "locator": {
+            "id": "Connect the Printer using the IP Address",
+            "name": "Connect the Printer"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/printer-list/add/by-ip",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "is_this_your_printer_yes_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(lower-case(@name), 'yes')]",
+            "name": "Yes"
+        }
+    },
+    "enter_ip_address": {
+        "locator": {
+            "name": "Search Text Field"
+        }
+    },
+    "open_permissions_btn": {
+        "locator": {
+            "name": "Open Permissions"
+        }
+    },
+    "search_box": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSearchField"
+        }
+    },
+    "get_connection_help_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name=\"Get Connection Help button\"]"
+        }
+    },
+    "learn_more_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name=\"Learn More\"]"
+        }
+    },
+    "set_up_a_new_printer_btn": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeButton[@label='Get Started']",
+                "//XCUIElementTypeButton[@name='Get Started']"
+            ]
+        }
+    },
+    "connect_to_previously_used_printer_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name=\"Connect To Previously Used Printer\"]"
+        }
+    },
+    "supported_printer_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@label=\"Supported printer list\"]"
+        }
+    },
+    "printer_info_tv": {
+        "locator": {
+            "name": "Printer Settings",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]"
+        }
+    },
+    "printer_name_txt": {
+        "locator": {
+            "str_id": "cPrinterName",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]]"
+        }
+    },
+    "printer_name": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "status_txt": {
+        "locator": {
+            "str_id": "cStatus",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]"
+        }
+    },
+    "status": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "model_name_txt": {
+        "locator": {
+            "str_id": "cModelName",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]"
+        }
+    },
+    "model_name": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "ip_address_txt": {
+        "locator": {
+            "str_id": "cIPAddress",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]"
+        }
+    },
+    "ip_address": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[4]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "product_number_txt": {
+        "locator": {
+            "str_id": "cProductNumber",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[5]"
+        }
+    },
+    "product_number": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[6]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "serial_num_txt": {
+        "locator": {
+            "str_id": "cSerialNumber",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[6]"
+        }
+    },
+    "serial_num": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[5]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "service_id_txt": {
+        "locator": {
+            "str_id": "cServiceId",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[7]]"
+        }
+    },
+    "service_id": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[7]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "firmware_version_txt": {
+        "locator": {
+            "str_id": "cFirmwareVersion",
+            "xpath": "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[8]"
+        }
+    },
+    "firmware_version": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[8]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "partial_printer_name": {
+        "locator": {
+            "partial_text_ci": "HP "
+        }
+    },
+    "moobe_printer": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='{}']"
+        }
+    },
+    "tap_to_setup_printer": {
+        "locator": {
+            "str_id": "cTapToSetUpThisPrinter"
+        }
+    },
+    "printer_limited_support_pop_title_txt": {
+        "locator": {
+            "str_id": "cPrinterHasLimitedSupport",
+            "name": "In-app Alert View"
+        }
+    },
+    "connect_automatically": {
+        "locator": {
+            "str_id": "cLetsConnectAutomatically_title"
+        }
+    },
+    "found_printer_for_setup": {
+        "locator": {
+            "str_id": "cPrinterFound_Title"
+        }
+    },
+    "connect_automatically_logo": {
+        "locator": {
+            "name": "wifi-connect-signal-vector"
+        }
+    },
+    "search_txt": {
+        "locator": {
+            "str_id": "cSearch"
+        }
+    },
+    "contact_HP_on_facebook_messenger_link": {
+        "locator": {
+            "name": "Contact Us on Facebook Messenger",
+            "str_id": "cContactUSOnFacebookMessenger"
+        }
+    },
+    "printer_connection_navbar_title": {
+        "locator": {
+            "str_id": "cPrinterConnection"
+        }
+    },
+    "try_again_btn": {
+        "locator": {
+            "str_id": "cTryAgain"
+        }
+    },
+    "how_do_i_do_this_link": {
+        "locator": {
+            "str_id": "cHowDoIDoThis"
+        }
+    },
+    "get_more_help_link": {
+        "locator": {
+            "str_id": "cGetMoreHelp"
+        }
+    },
+    "follow_instructions_txt": {
+        "locator": {
+            "str_id": "cTryFixPrinterConnection"
+        }
+    },
+    "check_printer_txt": {
+        "locator": {
+            "str_id": "cCheckYourPrinter"
+        }
+    },
+    "check_printer_details_txt": {
+        "locator": {
+            "str_id": "cCheckYourPrinterDetails"
+        }
+    },
+    "check_network_conn_txt": {
+        "locator": {
+            "str_id": "cCheckNetworkConnections"
+        }
+    },
+    "check_network_details_txt": {
+        "locator": {
+            "str_id": "cCheckNetworkConnectionsDetails"
+        }
+    },
+    "check_network_details_txt_os14": {
+        "locator": {
+            "str_id": "cCheckNetworkConnectionsDetailsOS14"
+        }
+    },
+    "restart_router_txt": {
+        "locator": {
+            "str_id": "cRestartRouterAndPrinter"
+        }
+    },
+    "restart_router_details_txt": {
+        "locator": {
+            "str_id": "cRestartRouterAndPrinterDetails"
+        }
+    },
+    "enable_local_network_blocker_screen": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[contains(@name, 'Enable Local Network permission')]"
+        }
+    },
+    "choose_type_of_printer_screen": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeStaticText[@label='Choose a printer to add']",
+                "//XCUIElementTypeStaticText[@name='Choose a printer to add']",
+                "//XCUIElementTypeStaticText[contains(@name,'Choose a type of printer to add')]"
+            ]
+        }
+    },
+    "get_started_btn": {
+        "locator": {
+            "str_id": "cGetStarted",
+            "xpath": "//XCUIElementTypeButton[@label='Get Started']",
+            "name": "Get Started"
+        }
+    },
+    "option_get_started_img": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeImage[@name='add-printer']",
+                "//XCUIElementTypeImage[@label='add-printer']"
+            ],
+            "name": "add-printer"
+        }
+    },
+    "option_add_printer_img": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeImage[@name='add-printer-get-started']",
+                "//XCUIElementTypeImage[@label='add-printer-get-started']"
+            ],
+            "name": "add-printer-get-started"
+        }
+    },
+    "enter_serial_number_text_box": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField"
+        }
+    },
+    "help_link_for_serial_number": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Need help finding your serial number?']"
+        }
+    },
+    "hp_support_page_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@value='‎support.hp.com, secure']"
+        }
+    },
+    "add_a_device_button": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Add a device']"
+        }
+    },
+    "add_a_device_by_serial": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@index=7]"
+        }
+    },
+    "add_printer_setup_title":{
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='Printer Setup']",
+            "name": "Printer Setup"
+        }
+    }
+}

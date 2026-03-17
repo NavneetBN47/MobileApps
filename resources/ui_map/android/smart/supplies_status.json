@@ -1,0 +1,103 @@
+{
+    "info_alert_in_pdp_screen":{
+        "locator":{
+            "xpath": "//*[contains(@resource-id, 'SMSDeviceStatus.SMSDeviceStatusInfo')]"
+        }
+    },
+    "error_alert_in_pdp_screen":{
+        "locator":{
+            "xpath": "//*[contains(@resource-id, 'SMSDeviceStatus.SMSDeviceStatusUrgent')]" 
+        }
+    },
+    "warning_alert_in_pdp_screen":{
+        "locator":{
+            "xpath": "//*[contains(@resource-id, 'SMSDeviceStatus.SMSDeviceStatusWarning')]" 
+        }
+    },
+    "error_icon_in_pdp_screen":{
+        "locator":{
+            "xpath": "//android.widget.Button[contains(@resource-id, 'SMSDeviceStatus.SMSDeviceStatusUrgent') and contains(@text, 'Minus Circle')]" 
+        }
+    },
+    "info_icon_in_pdp_screen":{
+        "locator":{
+            "xpath": "//*[contains(@text, 'Info')]" 
+        }
+    },
+    "warning_icon_in_pdp_screen":{
+        "locator":{
+            "xpath": "//android.widget.Button[contains(@text, 'Warning Alt')]" 
+        }
+    },
+    "color_icon_in_pdp_screen":{
+        "locator":{
+            "xpath": "//android.widget.Button[contains(@text, 'Ink Color')]"
+        }
+    },
+    "sms_detailed_body":{
+        "locator":{
+            "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/tv_status_desc']"
+        }
+    },
+    "alert_title_printer_status_screen":{
+        "locator":{
+            "xpath":"//*[@resource-id='com.hp.printercontrol.debug:id/tv_status_title']"
+        }
+    },
+    "primary_ok_button":{
+        "locator":{
+            "xpath":"//android.widget.Button[@text='OK']"
+        }
+    },
+    "alert_severity_icon_printer_status_screen":{
+        "locator":{
+            "xpath":"//*[@resource-id='com.hp.printercontrol.debug:id/iv_status_severity_icon']"
+        }
+    },
+    "back_btn_printer_status_screen":{
+        "locator":{
+            "resource-id":"com.hp.printercontrol.debug:id/back_btn"
+        }
+    },
+    "get_more_help_btn": {
+        "locator": {
+            "xpath":"//*[@resource-id='com.hp.printercontrol.debug:id/get_more_help_button']",
+            "name": "Get More Help"
+        }
+    },
+    "get_supplies_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='com.hp.printercontrol.debug:id/shop_online_button']"
+        }
+    },
+    "secondary_yes_button": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Yes']"
+        }
+    },
+    "secondary_no_button": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='No']"
+        }
+    },
+    "secondary_continue_button": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Continue']"
+        }
+    },
+    "secondary_go_to_hp_instant_ink_button": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Go to HP Instant Ink']"
+        }
+    },
+    "primary_align_button": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Align']"
+        }
+    },
+    "secondary_ok_button": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='OK']"
+        }
+    }
+}

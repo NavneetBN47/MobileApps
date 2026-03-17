@@ -1,0 +1,7 @@
+{
+  "@env/JARVIS_AUTH_CLIENT_ID": "c393898e-9ffb-4aff-8493-e31792f4e466",
+  "@env/JARVIS_AUTH_CLOUD_STACK": "stage",
+  "@env/JARVIS_AUTH_CONFIG_ID": "9c12613f-5536-4f81-acde-e385ba59b729",
+      "@hp-af/feature-switch/overrides": {
+    }
+} 

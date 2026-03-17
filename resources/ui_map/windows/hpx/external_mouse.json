@@ -1,0 +1,104 @@
+{
+    "mouse_title": {
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceName_customName"
+        }
+    },
+    "mouse_title_tootlips": {
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceName_customName_ToolTip"
+        }
+    },
+    "middle_click": {
+        "locator": {
+            "id": "AUID_PCMouse_Sensitivity_Button_Middle click"
+        }
+    },
+    "scroll_left": {
+        "locator": {
+            "id": "AUID_PCMouse_Sensitivity_Button_Scroll left"
+        }
+    },
+    "right_click": {
+        "locator": {
+            "id": "AUID_PCMouse_Sensitivity_Button_Right click"
+        }
+    },
+    "scroll_right": {
+        "locator": {
+            "id": "AUID_PCMouse_Sensitivity_Button_Scroll right"
+
+        }
+    },
+    "forward": {
+        "locator": {
+            "id": "AUID_PCMouse_Sensitivity_Button_Forward"
+        }
+    },
+    "task_view": {
+        "locator": {
+            "id": "AUID_PCMouse_Sensitivity_Button_Task view"
+        }
+    },
+    "back":{
+        "locator": {
+            "id": "AUID_PCMouse_Sensitivity_Button_Back"
+        }
+    },
+    "mouse_sensitivity":{
+        "locator": {
+            "id": "AUID_PCMOUSE_MouseHeader_mouseSensitivityText"
+        }
+    },
+    "restore_button":{
+        "locator": {
+            "id": "AUID_PCMOUSE_RestoreDefaults__RestoreButton"
+        }
+    },
+    "mosue_connect_status":{
+        "locator": {
+            "id": "AUID_PCMOUSE_Status_bluetooth"
+        }
+    },
+    "mosue_info_icon":{
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceInfoList_InfoPopOver"
+        }
+    },
+    "edit_name_button":{
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceName_DeviceNameEditBtn"
+        }
+    },
+    "device_name_input":{
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceName_Txt_DeviceNameInput"
+        }
+    },
+    "product_number_text":{
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceInfo_Status_Key_productNumber"
+        }
+    },
+    "serial_number_text":{
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceInfo_Status_Key_serialNumber"
+        }
+    },
+    "firmware_version_text":{
+        "locator": {
+            "id": "AUID_PCMOUSE_DeviceInfo_Status_Key_version"
+        }
+    },
+    "mouse_sensitivity_button":{
+        "locator": {
+            "id": "AUID_PCMOUSE_MouseHeader_mouseSensitivityButton"
+        }
+    },
+    "mouse_sensitivity_slider":{
+        "locator": {
+            "id": "AUID_PCMouse_mouseSensitivityModalSlider"
+        }
+    }
+
+}

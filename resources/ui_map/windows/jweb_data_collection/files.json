@@ -1,0 +1,18 @@
+{
+  "open_btn":{
+    "locator":{
+      "xpath": "//Window[@Name='Open']/Button[@Name='Open']"
+    }
+  },
+  "downloads_list_item":{
+    "locator":{
+      "xpath":"//TreeItem[contains(@Name,'Downloads')]",
+      "name": "Downloads"
+    }
+  },
+  "file_name_edit_box": {
+    "locator": {
+      "xpath": "//Edit[@Name='File name:']"
+    }
+  }
+}

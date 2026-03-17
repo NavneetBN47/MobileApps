@@ -1,0 +1,239 @@
+{
+    "camera_scan_tile":{
+        "locator": {
+            "xpath":["//android.widget.Button[@resource-id='PRINTER_Camera scan']"],
+            "id": "PRINTER_Camera scan"
+        }
+    },
+    "feature_unavailable_popup":{
+        "locator": {
+            "xpath": "//android.widget.Button[contains(@resource-id,'clientos-ui-toolkit-button')]",
+            "id": "clientos-ui-toolkit-button"
+        }
+    },
+    "scan_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Scan']",
+            "id": "PRINTER_Scan",
+            "text": "Scan Use the printer to scan a file."
+        }
+    },
+    "print_documents_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Print documents']",
+            "id": "PRINTER_Print documents",
+            "text": "Print documents Edit, print, save and share documents."
+        }
+    },
+    "print_photos_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Print photos']",
+            "id": "PRINTER_Print photos",
+            "text": "Print photos Edit, save, and print your memories."
+        }
+    },
+    "copy_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Copy']",
+            "id": "PRINTER_Copy",
+            "text": "Copy Use your camera to scan and print."
+        }
+    },
+    "mobile_fax_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Mobile Fax']",
+            "id": "PRINTER_Mobile Fax",
+            "text": "Mobile Fax Send and receive faxes."
+        }
+    },
+    "shortcuts_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Shortcuts']",
+            "id": "PRINTER_Shortcuts",
+            "text": "Shortcuts Create shortcuts to your favorite tasks."
+        }
+    },
+    "printables_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Printables']",
+            "text": "Printables Print fun activities and projects."
+        }
+    },
+    "print_dashboard_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Print dashboard']",
+            "id": "PRINTER_Print dashboard",
+            "text": "Print dashboard View and manage your printer."
+        }
+    },
+    "print_quality_tools_tile":{
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='clientos-ui-toolkit-list-container-qang64m__label-text']"
+        }
+    },
+    "product_information_title":{
+        "locator":{
+            "xpath": "//*[@resource-id='ProductInformation_ProductInformation__title']"
+        }
+    },
+    "product_number_title":{
+        "locator":{
+            "xpath": "//*[@resource-id='ProductInformation_ProductNumberLabel__label-text']"
+        }
+    },
+    "product_number_value":{
+        "locator":{
+            "xpath": "//*[@resource-id='ProductInformation_CopyProductNumberButton__text']"
+        }
+    },
+    "product_serial_number_title":{
+        "locator":{
+            "xpath": "//*[@resource-id='ProductInformation_SerialNumberLabel__end']"
+        }
+    },
+    "product_serial_number_value":{
+        "locator":{
+            "xpath": "//*[@resource-id='ProductInformation_CopySerialNumberButton__text']"
+        }
+    },
+    "more_information_and_reports_btn":{
+        "locator":{
+            "xpath": "//*[@text='More information and reports' and @resource-id='ProductInformation_PcSpecificationsButton']"
+        }
+    },
+    "printer_information_title":{
+        "locator":{
+            "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/tv_recycler_view_header']"
+        }
+    },
+    "printer_information_general_btn":{
+        "locator":{
+            "xpath": "//*[@text='General' and @resource-id='com.hp.printercontrol.debug:id/headerText']"
+        }
+    },
+    "printer_information_network_btn":{
+        "locator":{
+            "xpath": "//*[@text='Network' and @resource-id='com.hp.printercontrol.debug:id/headerText']"
+        }
+    },
+    "printer_information_reports_btn":{
+        "locator":{
+            "xpath": "//*[@text='Reports' and @resource-id='com.hp.printercontrol.debug:id/headerText']"
+        }
+    },
+    "reports_demo_page_print_btn":{
+        "locator":{
+            "xpath": "//android.widget.TextView[@text='Demo Page']/ancestor::android.widget.LinearLayout/following-sibling::android.widget.ImageView"
+        }        
+    },
+    "reports_print_progress_status":{
+        "locator":{
+            "xpath": "//android.widget.TextView[@text='Printing status report…' and @resource-id='com.hp.printercontrol.debug:id/descriptionText']"
+        }
+    },
+    "reports_print_success_status":{
+        "locator":{
+            "xpath": "//android.widget.TextView[@text='Printing is complete.' and @resource-id='com.hp.printercontrol.debug:id/descriptionText']"
+        }
+    },
+    "add_device_btn":{
+        "locator":{
+            "xpath": "//android.widget.Button[@text='Add device']"
+        }
+    },
+    "printer_device_card":{
+        "locator":{
+            "xpath": "//*[@resource-id='DeviceList.DeviceList.PrimaryCard-0']"
+        }
+    },
+    "default_shortcuts": {
+    "locator": {
+      "xpath": "//android.widget.Button[contains(@text, 'Email')][1]/following-sibling::android.widget.Button[1]"
+    }
+  },
+  "camera_scan_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/start_shortcut_camera_flow",
+      "text": "Camera Scan"
+    }
+  },
+  "Printer_scan_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/start_shortcut_scanner_flow",
+      "text": "Printer Scan"
+    }
+  },
+  "File_and_Photo_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/start_shortcut_files_flow",
+      "text": "Files and Photos"
+    }
+  },
+  "select_my_photos_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='My Photos' and @resource-id='com.hp.printercontrol.debug:id/adapter_item_tv_item']",
+      "id": "com.hp.printercontrol.debug:id/adapter_item_tv_item",
+      "text": "My Photos"
+    }
+  },
+  "select_pdfs_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='PDFs' and @resource-id='com.hp.printercontrol.debug:id/adapter_item_tv_item']",
+      "id": "com.hp.printercontrol.debug:id/adapter_item_tv_item",
+      "text": "PDFs"
+    }
+  },
+  "start_new_scan_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/preview_exit_confirm",
+      "text": "Start new scan"
+    }
+  },
+  "exit_scan_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/preview_exit_go_home",
+      "text": "Exit scan"
+    }
+  },
+  "add_image_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/preview_exit_add_images",
+      "text": "Add images"
+    }
+  },
+  "cancel_btn": {
+    "locator": {
+      "id": [
+        "com.hp.printercontrol.debug:id/preview_exit_cancel",
+        "com.hp.printercontrol.debug:id/close_button"
+      ],
+      "text": "Cancel"
+    }
+  },
+  "add_run_shortcut_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/add_page_chip",
+      "text": "Add"
+    }
+  },
+  "rotate_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/rotate_page_chip",
+      "text": "Rotate"
+    }
+  },
+  "start_email_btn": {
+    "locator": {
+      "id": "com.hp.printercontrol.debug:id/shortcutNameButton",
+      "text": "Start Email qamamobiauto rcb"
+    }
+  },
+  "choose_an_available_printer_btn": {
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id='add-printer']",
+        "//android.widget.Button[@text='Choose an available printer']"
+      ]
+    }
+}
+}

@@ -1,0 +1,30 @@
+{
+  "welcome_title": {
+    "locator": {"xpath": ["//*[@resource-id='getStartedHero']","//h1[@id = 'pageTitle' and contains(text(), 'Welcome to Mobile Fax!')]","//h2[text()='Try the mobile way to send a fax']"]}
+  },
+   "agree_term_service_cb": {
+    "locator": {
+                "text":  "I agree to the",
+                "id": "termsCheckboxLabel",
+                "css selector":  "span.checkbox__img.rtl--enable"}
+  },
+  "continue_btn": {
+    "locator": {"xpath": "//XCUIElementTypeButton[@name='Continue']",
+                "id": "agreeButton",
+                "css selector": "#agreeButton"
+                }
+  },
+  "hipaa_no_cb": {
+    "locator": {
+      "xpath": ["//XCUIElementTypeOther[@name='No']", "//XCUIElementTypeOther/XCUIElementTypeStaticText[@name='No']"],
+      "id": "hipaaNoOption",
+      "css selector": ["#hipaaNoOption", "div.v-input__slot > div > div:nth-child(1) > label"]
+    }
+  },
+  "hipaa_yes_cb": {
+    "locator": {"xpath": ["//XCUIElementTypeOther[@name='Yes']","//XCUIElementTypeOther/XCUIElementTypeStaticText[@name='Yes']"],
+                "id": "hipaaYesOption",
+                "css selector": ["#hipaaYesOption", "div.v-input__slot > div > div:nth-child(2) > label"]
+                }
+  }
+}

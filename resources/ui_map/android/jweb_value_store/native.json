@@ -1,0 +1,17 @@
+{
+  "get_btn": {
+    "locator": {
+      "id": "get_button"
+    }
+  },
+  "put_btn": {
+    "locator": {
+      "id": "set_button"
+    }
+  },
+  "remove_btn": {
+    "locator": {
+      "id": "remove_button"
+    }
+  }
+}

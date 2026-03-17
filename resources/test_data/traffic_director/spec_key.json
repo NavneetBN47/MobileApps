@@ -1,0 +1,34 @@
+{
+    "pie":{
+        "403X0A":{"landing_page":"web_localized_strings/traffic_director/pie/Printer_Specific_Landing_Page_-_Marconi_Base.json",
+                  "country_language_page":"web_localized_strings/traffic_director/pie/Select_language_and_country_region.json",
+                  "load_paper_page":"web_localized_strings/traffic_director/pie/Load_Paper_-_Marconi_Base.json",
+                  "install_ink_page":"web_localized_strings/traffic_director/pie/Install_Ink_-_Marconi_Base_&_Hi.json",
+                  "print_alignment_page":"web_localized_strings/traffic_director/pie/Alignment_-_Marconi_Base.json",
+                  "scan_alignement_page":"web_localized_strings/traffic_director/pie/Scan_Alignment_-_Marconi_Base.json",
+                  "learn":"web_localized_strings/traffic_director/pie/Learn_-_Marconi_Base.json",
+                  "skip_internet_connection":"web_localized_strings/traffic_director/pie/Skip_Internet_Connection_-_Marconi_Base,_Moretto,_and_Elion.json"},
+        
+        "common":{"printer_use":"web_localized_strings/traffic_director/pie/Printer_Use_Choice.json",
+                  "setup_checklist_business": "web_localized_strings/traffic_director/pie/Setup_Checklist_-_Business.json",
+                  "setup_checklist_personal":"web_localized_strings/traffic_director/pie/Setup_Checklist_-_Personal.json",
+                  "connect_printer_to_network":"web_localized_strings/traffic_director/pie/Connect_printer_to_network.json",
+                  "finish_printer_setup":"web_localized_strings/traffic_director/pie/Finish_Setup_SMB.json"}
+    },
+    "stage":{
+        "403X0A":{"landing_page":"web_localized_strings/traffic_director/stage/Printer_Specific_Landing_Page_-_Marconi_Base.json",
+                  "country_language_page":"web_localized_strings/traffic_director/stage/Select_language_and_country_region.json",
+                  "load_paper_page":"web_localized_strings/traffic_director/stage/Load_Paper_-_Marconi_Base.json",
+                  "install_ink_page":"web_localized_strings/traffic_director/stage/Install_Ink_-_Marconi_Base_&_Hi.json",
+                  "print_alignment_page":"web_localized_strings/traffic_director/stage/Alignment_-_Marconi_Base.json",
+                  "scan_alignement_page":"web_localized_strings/traffic_director/stage/Scan_Alignment_-_Marconi_Base.json",
+                  "learn":"web_localized_strings/traffic_director/stage/Learn_-_Marconi_Base.json",
+                  "skip_internet_connection":"web_localized_strings/traffic_director/stage/Skip_Internet_Connection_-_Marconi_Base,_Moretto,_and_Elion.json"},
+        
+        "common":{"printer_use":"web_localized_strings/traffic_director/stage/Printer_Use_Choice.json",
+                  "setup_checklist_business": "web_localized_strings/traffic_director/stage/Setup_Checklist_-_Business.json",
+                  "setup_checklist_personal":"web_localized_strings/traffic_director/stage/Setup_Checklist_-_Personal.json",
+                  "connect_printer_to_network":"web_localized_strings/traffic_director/stage/Connect_printer_to_network.json",
+                  "finish_printer_setup":"web_localized_strings/traffic_director/stage/Finish_Setup_SMB.json"}
+    }
+}

@@ -1,0 +1,53 @@
+import logging
+import re
+from MobileApps.libs.ma_misc import ma_misc
+from MobileApps.libs.flows.windows.hpx.flow_container import FlowContainer
+import MobileApps.resources.const.windows.const as w_const
+import pytest
+import re
+import time
+from MobileApps.libs.ma_misc import conftest_misc
+from MobileApps.libs.flows.windows.hpx.utility.soft_assert import SoftAssert
+
+pytest.app_info = "HPX"
+language_list_path = ma_misc.get_abs_path("resources/test_data/hpx/locale/language_list.txt")
+with open(language_list_path, "r+") as f:
+    languages = f.read().split(',')
+
+
+@pytest.fixture(params=languages)
+def language(request):
+    return request.param
+
+@pytest.fixture(scope="session", params=["pc_device_system_control_screenshot"])
+def screenshot_folder_name(request):
+    return request.param
+
+
+class Test_Suite_Localization(object):
+
+    @pytest.fixture(scope="class", autouse="true")
+    def class_setup(cls, windows_test_setup, publish_hpx_localization_screenshot, screenshot_folder_name):
+        cls = cls.__class__
+        cls.driver = windows_test_setup
+        cls.fc = FlowContainer(cls.driver)
+        cls.fc.close_app()
+        cls.fc.launch_app()
+        cls.attachment_path = conftest_misc.get_attachment_folder()
+
+    def test_03_pcdevice_module_system_control_C35437883(self, language):
+        soft_assertion = SoftAssert()
+        lang_settings = self.fc.processing_localization_language("resources/test_data/hpx/systemcontrolLocalization.json", language, "thermalControl")
+        self.fc.myhp_login_startup_for_localization_scripts(language)
+        time.sleep(3)
+        ma_misc.create_localization_screenshot_folder("pc_device_system_control_screenshot", self.attachment_path)
+        self.driver.wdvr.get_screenshot_as_file(self.attachment_path + "pc_device_system_control_screenshot/{}_pc_device_system_control.png".format(language))
+        time.sleep(3)
+        #system control
+        expected_system_control_text=lang_settings["featureCard"]
+        actual_system_control_text=self.fc.fd["devices"].get_system_control_text()
+        soft_assertion.assert_equal(actual_system_control_text, expected_system_control_text, f"System control title text is not matching. expected string text is {expected_system_control_text}, but got {actual_system_control_text}. ")
+        
+        self.remote_artifact_path = "{}\\{}\\LocalState\\".format(w_const.TEST_DATA.PACKAGES_PATH, w_const.PACKAGE_NAME.HPX)
+        self.driver.ssh.remove_file_with_suffix(self.remote_artifact_path, ".json")
+        soft_assertion.raise_assertion_errors()

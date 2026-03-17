@@ -1,0 +1,274 @@
+{
+    "_shared_page_nav_btn": {
+        "locator": {
+            "css selector": "button[aria-label*='age {}']"
+        }
+    }, 
+    "_shared_page_prev_nav_btn": {
+        "locator": {
+            "css selector": ["button[aria-label='Previous']", "button[aria-label='Previous page']"]
+        }
+    },
+    "_shared_page_next_nav_btn": {
+        "locator": {
+            "css selector": ["button[aria-label='Next']", "button[aria-label='Next page']"]
+        }
+    },
+    "_shared_page_size_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Select page size']"
+        }
+    },
+    "_shared_page_size_total_txt":{
+        "locator": {
+            "css selector": "button[aria-label='Select page size'] ~ span"
+        }
+    },
+    "_shared_page_size_menu_box": {
+        "locator": {
+            "css selector": ["[data-placement='top']",
+                             "[data-placement='bottom']", 
+                             "#pagination-dropdown"]
+        }
+    },
+    "_shared_page_size_menu_entry":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "_shared_page_size_menu_entry_new":{
+        "locator": {
+            "css selector": ["[aria-label='Select page size']+[role='presentation'] li",
+                            "[data-placement='top'] li",
+                            "button[role='menuitem']",
+                            "#pagination-dropdown li",
+                            "[role='presentation'] [data-placement='bottom'] li",
+                            "#policies [data-placement='bottom'] li"]
+        }
+    },
+    "_shared_page_size_menu_selected_entry":{
+        "locator": {
+            "css selector": "li[aria-selected='true']"
+        }
+    },
+    "_shared_table_entries":{
+        "locator": {
+            "css selector": "tbody tr"
+        }
+    }, 
+    "_shared_table_entry_all_cols":{
+        "locator": {
+            "css selector": "td"
+        }
+    },
+    "_shared_table_entry_col_link":{
+        "locator": {
+            "css selector": "a"
+        }
+    },
+    "_shared_table_entries_with_link":{
+        "locator": {
+            "css selector": "tbody tr td a"
+        },
+	"comment": "locator should be generic as it is shared by multiple teams"
+    }, 
+    "_shared_current_page":{
+        "locator": {
+            "css selector": ["button[aria-label*='(Current Page)']",
+                           "button[aria-current='page']"]
+        }
+    },
+    "_shared_all_pages_btn":{
+        "locator": {
+            "css selector": ["div[id='extended-0'] nav li",
+                            "nav[aria-label='Table Pagination'] li",
+                            "nav[aria-label='Pagination Navigation'] li",
+                            "nav[aria-label*='paginationNavigation'] li",
+                            "nav[aria-label='Pagination'] li",
+                            "nav[aria-label='Pagination Navigation'] button",
+                            "nav[aria-label='Table Pagination'] button"]
+        }
+    },
+    "_shared_no_items_found_img":{
+        "locator": {
+            "css selector": ["tbody tr td div div svg",
+                            "#policies svg[aria-label='Warning Alt']",
+                             "tr td svg[aria-label='Warning Alt']"]
+        }
+    },
+    "_shared_all_table_header_column":{
+        "locator": {
+            "css selector": "thead tr th"
+        }
+    },
+    "_shared_table_all_col_by_index":{
+        "locator": {
+            "css selector": ["tr > td:nth-of-type({})  label+ span",
+                            "tr > td:nth-of-type({})"]
+        }
+    },
+    "_shared_table_first_row_all_cells": {
+    "locator": {
+        "css selector": "table thead tr:first-child > *"
+        }
+    },
+    "_shared_search_box":{
+        "locator": {
+            "css selector": ["input[data-testid='search-box']",
+                            "input#policy-device-search"]
+        }
+    },
+    "_shared_sync_button":{
+        "locator":{
+            "css selector": ["button[data-testid='reload-button']", 
+                             "#task-refresh-button",
+                             "#reloadArea [type='button']",
+                             "button[data-testid='endpointSecurity-update-button-id']",
+                             "button[data-testid='policy-update-button-id']",
+                             "button[data-testid='reports_LastUpdate_Refresh_Button']",
+                             "button[data-testid='printers-icon-refresh']",
+                             "svg[aria-label='Reload']"]
+        }
+    },
+    "_shared_sync_time_label":{
+        "locator": {
+            "css selector": ["[data-testid='last-synced-date']",
+                             ".lastUpdated",
+                             ".DD_lastupdate-label",
+                             "[class*='TaskTableRefreshLabel']",
+                             "span[data-testid='reload-button-caption']",
+                             "[data-testid='LastUpdateLabel']",
+                             "[class*='LastUpdateLabel']",
+                             "button[data-testid='endpointSecurity-update-button-id']+div",
+                             "button[data-testid='policy-update-button-id']+div",
+                             "[data-testid='reports_LastUpdate_Label']",
+                             "span[data-testid='printers-last-updated']",
+                             "[class*='LastUpdate'] span"]
+        }
+    },
+    "_shared_successful_toast_icon":{
+        "locator": {
+            "css selector": "svg[aria-label='Check Circle']"
+        }
+    },
+    "_shared_info_toast_icon":{
+        "locator": {
+            "css selector": "svg[aria-label='Info']"
+        }
+    },
+    "_shared_toast_close_btn":{
+        "locator": {
+            "css selector": "button[aria-label='close']"
+        }
+    },
+    "_shared_access_denied_login_btn": {
+        "locator": {
+            "css selector": "[class*='LoginLinkButton']"
+        }
+    },
+    "_shared_group_name": {
+        "locator": {
+            "css selector": "ul[role='group'] span:nth-child(1)"
+        }
+    },
+    "_shared_group_count": {
+        "locator": {
+            "css selector": "ul[role='group'] span:nth-child(2)"
+        }
+    },
+    "_shared_bottom_toast_message":{
+        "locator": {
+            "css selector": ["[role='alert']" , "#toast-title-success"]
+        }
+    },
+    "device_name_table_header":{
+        "locator": {
+            "css selector": ["th#deviceName",
+                            "th#modelName",
+                            "th#name"]
+        }
+    },
+    "status_table_header":{
+        "locator": {
+            "css selector": ["th#status",
+                            "th#tablestatus",
+                            "th#active"]
+        }
+    },
+    "compliance_table_header":{
+        "locator": {
+            "css selector": "th#policyCompliance"
+        }
+    },
+    "policy_table_header":{
+        "locator": {
+            "css selector": "th#policy"
+        }
+    },
+    "policies_table_header":{
+        "locator":{
+            "css selector": "th#policies"
+    }
+    },
+    "Policy_Compliance_table_header":{
+        "locator":{
+            "css selector": "th#policyCompliance"
+    }
+    },
+    "role_table_header":{
+        "locator": {
+            "css selector": "th#role"
+        }
+    },
+    "connectivity_status_table_header":{
+        "locator": {
+            "css selector": "th#proxyStatus"
+        }
+    },
+    "serial_number_table_header":{
+        "locator": {
+            "css selector": "th#serialNumber"
+        }
+    },
+    "device_status_table_header":{
+        "locator": {
+            "css selector": "th#connectionState"
+        }
+    },
+    "report_type_table_header":{
+        "locator": {
+            "css selector": "th#reportType"
+        }
+    },
+    "date_generated_table_header":{
+        "locator": {
+            "css selector": "th#generatedTime"
+        }
+    },
+    "_shared_organization_selection_radio_btn": {
+        "locator": {
+            "css selector": "span.vn-radio-button__span-text"
+        }
+    },
+    "_shared_organization_selection_continue_btn": {
+        "locator": {
+            "css selector": "button[type='button']"
+        }
+    },
+    "_shared_page_header_title": {
+        "locator": {
+            "css selector": "[data-testid='header-title-text']"
+        }
+    },
+    "connectivity_table_header":{
+        "locator": {
+            "css selector": ["#connectivity",
+                            "#deviceConnectionState"]
+        }
+    },
+    "model_name_table_header":{
+        "locator": {
+            "css selector": ["th#modelName"]
+        }
+    }
+}

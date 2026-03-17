@@ -1,0 +1,27 @@
+{
+    "setup_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_5G_Setup"
+        }
+    },
+    "usage_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_5G_Usage"
+        }
+    },
+    "turn_off_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_5G_TurnOff"
+        }
+    },
+    "start_va_btn":{
+        "locator":{
+            "id":"AUID_Support_VAModal_startVirtualAssistantButton"
+        }
+    },
+    "close_button":{
+        "locator": {
+            "id": "AUID_Support_modal_closeButton"
+        }
+    }
+}

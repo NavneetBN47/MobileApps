@@ -1,0 +1,49 @@
+{
+  "menu_btn": {
+    "locator": {
+      "css selector": "button[aria-label='Toggle Menu']"
+    }
+  },
+  "close_menu_btn": {
+    "locator": {
+      "css selector": ["button:has(svg[aria-label='X']", "svg[aria-label='X']"]
+    }
+  },
+  "main_page_div":{
+    "locator": {
+      "css selector": "div.MainPage"
+    }
+  },
+  "expand_plugins_menu_btn":{
+    "locator": {
+      "css selector": ".vn-side-menu__item-col-toggle"
+    }
+  },
+  "expand_custom_plugins_menu_btn": {
+    "locator": {
+      "css selector": "#customPluginsSideMenuItem .vn-side-menu__item-col-toggle"
+    }
+  },
+  "change_stack_btn": {
+    "locator": {
+      "id": "serviceRoutingStack"
+    }
+  },
+  "stack_option": {
+    "locator": {
+      "xpath": "//ul[@id='serviceRoutingStack-listbox']/li/div[@class='vn-option__label']/span[text()='{}']"
+    }
+  },
+  "enforce_whitelist_toggle": {
+    "locator": {
+      "id": "enforceNavigationWhitelist"
+    }
+  },
+  "plugin_link": {
+    "locator": {
+      "css selector": [
+        "#{}SideMenuItem a"
+      ]
+    }
+  }
+}

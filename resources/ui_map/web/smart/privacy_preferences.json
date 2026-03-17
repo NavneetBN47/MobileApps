@@ -1,0 +1,101 @@
+{
+    "manage_your_hp_smart_privacy_preference": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Manage your HP Smart privacy preferences']",
+            "css selector": ["#title-text", "#settings-container-title"],
+            "id": "settings-container-title"
+        }
+    },
+    "privacy_consents_items": {
+        "locator": {
+            "css selector": "div#privacy-consents-items",
+            "xpath": [
+                "//Pane[@AutomationId='webView']//Text[2]",
+                "//Pane[@AutomationId='ManageSettingsWebPage']//descendant::Text[2]"
+            ]
+        }
+    },
+    "app_analytics_toggle": {
+        "locator": {
+            "css selector": "span#app-analytics-toggle",
+            "xpath": [
+                "//XCUIElementTypeButton[@label='analytics App Analytics Chevron Down']",
+                "//Pane[@AutomationId='webView']//Button[1]",
+                "//Pane[@AutomationId='ManageSettingsWebPage']//descendant::Button[1]"
+            ]
+        }
+    },
+    "google_analytics_link": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='app-analytics-accordion-item']/HyperLink[1]",
+            "text": "Google Analytics"
+        }
+    },
+    "adobe_analytics_link": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='app-analytics-accordion-item']/HyperLink[2]"
+        }
+    },
+    "optimizely_link": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='app-analytics-accordion-item']/HyperLink[3]"
+        }
+    },
+    "advertising_toggle": {
+        "locator": {
+            "css selector": "span#advertising-toggle",
+            "xpath": [
+                "//XCUIElementTypeButton[@label='Megaphone Advertising Chevron Down']",
+                "//Pane[@AutomationId='webView']//Button[2]",
+                "//Pane[@AutomationId='ManageSettingsWebPage']//descendant::Button[2]"
+            ]
+        }
+    },
+    "learn_more_link": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='advertising-accordion-item']/HyperLink[1]"
+        }
+    },
+    "personalized_suggestions_toggle": {
+        "locator": {
+            "css selector": "span#personalized-suggestions-toggle",
+            "xpath": [
+                "//XCUIElementTypeButton[@label='personalized Personalized Suggestions Chevron Down']",
+                "//Pane[@AutomationId='webView']//Button[3]",
+                "//Pane[@AutomationId='ManageSettingsWebPage']//descendant::Button[3]"
+            ]
+        }
+    },
+    "terms_of_use_link": {
+        "locator": {
+            "xpath": "//Pane[last()]/HyperLink[last() - 1]"
+        }
+    },
+    "eula_link": {
+        "locator": {
+            "xpath": "//Pane[last()]/HyperLink[last()]"
+        }
+    },
+    "back_button": {
+        "locator": {
+            "name": "Back",
+            "css selector": "button#consent-back-button",
+            "id": "consent-back-button",
+            "xpath": "//android.widget.Button[@resource-id ='consent-back-button']"
+        }
+    },
+    "back_arrow": {
+        "locator": {
+            "id": "BackButtonText"
+        }
+    },
+    "continue_btn": {
+        "_comment": "Continue button or Save button",
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@label='Save']",
+            "css selector": "#consent-continue-button",
+            "id": "consent-continue-button",
+            "name": "Continue"
+        }
+    }
+}

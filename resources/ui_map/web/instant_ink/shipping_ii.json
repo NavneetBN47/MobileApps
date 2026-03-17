@@ -1,0 +1,91 @@
+{
+
+    "streetname_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='street1']" }
+                    
+    },
+
+    "cityname_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='city']" }
+                    
+    },
+
+    "statename_dropdown" :
+    {
+        "locator": { "css selector": "[data-testid='state']" }
+                    
+    },
+
+    "zipcode_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='zip-code']" }
+                    
+    },
+    
+    "phonenumber_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='phoneNumberSmall']" }
+                    
+    },
+
+    "save_btn" :
+    {
+        "locator": { "css selector": "[data-testid='save-button']" }
+                    
+    },
+
+    "quick_add_address_btn" :
+    {
+        "locator": { "css selector": "button[data-testid='quick-add-button']" }
+                    
+    },
+
+    "add_local_printer_btn" :
+    {
+        "locator": { "css selector": "div.addLocalPrinterButton-module_addLocalPrinter__yxaY9" }
+                    
+    },
+
+    "save_local_printer_btn" :
+    {
+        "locator": { "css selector": "input.gray-button" }
+                    
+    },
+    
+    "continue_printer_setup_btn" :
+    {
+        "locator": { "css selector": "button._1UoHl._JGkgU._1wXhW._1Tbf4" }
+                    
+    },
+
+    "add_shipping_btn":
+    {
+        "locator":{"css selector":"[data-testid='add-shipping']"}
+    },
+
+    "shipping_overlay_modal":
+    {
+        "locator":{"css selector": ["[data-testid='shipping-modal']","#shipping-content-container"]}
+    },
+
+    "state_dropdown":
+    {
+        "locator":{"css selector":"[data-testid='state']"}
+    },
+
+    "state":
+    {
+        "locator":{"xpath":"//span[contains(text(), '{}')]"}
+    },
+
+    "ink_shipping_page":{
+        "locator":{"css selector":".ftmShippingStep-module_ftmShippingStep__PicAJ"}
+    },
+
+    "skip_btn":{
+        "locator":{"css selector":"[data-testid='ftm-skip-shipping-button']"}
+    }
+
+}

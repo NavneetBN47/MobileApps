@@ -1,0 +1,125 @@
+{
+    "helpcenter_title":{
+        "locator": {
+            "css selector": "div[class*='smb-help-center'] span[class*='subtitle-regular']"
+        },
+        "localization": {
+            "en": "Help Center"
+        }
+    },
+    "sideMenuContent_title":{
+        "locator": {
+            "css selector": "h1[data-testid='sidenavcontent-title']"
+        }
+    },
+    "sideMenuContent_text":{
+        "locator": {
+            "xpath": "//*[@id='sideMenuContent']/text()"
+        }
+    },
+    "printing_title":{
+        "locator": {
+            "xpath": ["//li[@data-testid='sideMenuItem']/a/div[contains(text(),'Printing')]",
+                     "//li[@data-testid='printing']/a/span[contains(text(),'Printing')]"]
+        },
+        "localization": {
+            "en": "Printing"
+        }
+    },
+    "help_and_support_title":{
+        "locator": {
+            "xpath": ["//li[@data-testid='sideMenuItem']/a/div[contains(text(),'Additional Help and Support')]",
+                     "//li[@data-testid='additional-help-and-support']/a/span[contains(text(),'Additional Help and Support')]"]
+        },
+        "localization": {
+            "en": "Additional Help and Support"
+        }
+    },
+    "account_title":{
+        "locator": {
+            "xpath": ["//li[@data-testid='sideMenuItem']/a/div[contains(text(),'Account')]",
+                     "//li[@data-testid='account']/a/span[contains(text(),'Account')]"]
+        },
+        "localization": {
+            "en": "Account"
+        }
+    },
+    "scan_and_fax_settings_title":{
+        "locator": {
+            "xpath": ["//li[@data-testid='sideMenuItem']/a/div[contains(text(),'Scan and Fax Settings')]",
+                     "//li[@data-testid='scan-and-fax-settings']/a/span[contains(text(),'Scan and Fax Settings')]"]
+        },
+        "localization": {
+            "en": "Scan and Fax Settings"
+        }
+    },
+    "sustainability_title":{
+        "locator": {
+            "xpath": ["//li[@data-testid='sideMenuItem']/a/div[contains(text(),'Sustainability')]",
+                     "//li[@data-testid='sustainability']/a/span[contains(text(),'Sustainability')]"]
+        },
+        "localization": {
+            "en": "Sustainability"
+        }
+    },
+    "solutions_title":{
+        "locator": {
+            "xpath": ["//li[@data-testid='sideMenuItem']/a/div[contains(text(),'Solutions')]",
+                     "//li[@data-testid='solutions']/a/span[contains(text(),'Solutions')]"]
+        },
+        "localization": {
+            "en": "Solutions"
+        }
+    },
+    "hp_instant_ink_title":{
+        "locator": {
+            "xpath": ["//li[@data-testid='sideMenuItem']/a/div[contains(text(),'HP Instant Ink')]",
+                     "//li[@data-testid='hp-instant-ink']/a/span[contains(text(),'HP Instant Ink')]"]
+        },
+        "localization": {
+            "en": "HP Instant Ink"
+        }
+    },
+    "managing_users_title":{
+        "locator": {
+            "xpath": ["//div[contains(text(),'Managing Users')]",
+                     "//span[contains(text(),'Managing Users')]"]
+        },
+        "localization": {
+            "en": "Managing Users in Smart Admin Dashboard"
+        }
+    },
+    "managing_printers_title":{
+        "locator": {
+            "xpath": ["//div[contains(text(),'Managing Printers')]",
+                     "//span[contains(text(),'Managing Printers')]"]
+        },
+        "localization": {
+            "en": "Managing Printers in Smart Admin Dashboard"
+        }
+    },
+    "hp_smart_admin_dashboard_title":{
+        "locator": {
+            "xpath": ["//div[contains(text(),'HP Smart Admin Dashboard')]",
+                     "//span[contains(text(),'HP Smart Admin Dashboard')]"]
+        },
+        "localization": {
+            "en": "HP Smart Admin Dashboard"
+        }
+    },
+    "breadcrumb_home": {
+        "locator": {
+            "css selector": "nav[aria-label='breadcrumbs']>ol>li:nth-child(1)"
+        }
+    },
+    "breadcrumb_helpCenter": {
+        "locator": {
+            "css selector": "span[aria-current='page']"
+        }
+    },
+    "sideMenuContent_backToTop":{
+        "locator": {
+            "css selector": "button[class*='react-smb-help-center'] span:nth-child(2)"
+        }
+    }
+}

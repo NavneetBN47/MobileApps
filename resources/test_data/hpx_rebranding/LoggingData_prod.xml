@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DevSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DebugOutput>false</DebugOutput>
+  <SkipOWSCompleteCheck>false</SkipOWSCompleteCheck>
+  <Logging>
+    <Enabled>true</Enabled>
+    <MaxLogLevel>10</MaxLogLevel>
+    <OobeLogging>true</OobeLogging>
+  </Logging>
+  <Misc>
+    <TestMode>false</TestMode>
+    <IsOfficeModeOn>false</IsOfficeModeOn>
+    <PhoneMode>false</PhoneMode>
+    <PrototypeMode>false</PrototypeMode>
+    <MnsTestServerMode>false</MnsTestServerMode>
+    <ArsTestServerMode>false</ArsTestServerMode>
+    <AwcByBleOnlyMode>false</AwcByBleOnlyMode>
+  </Misc>
+  <Servers>
+    <ServerStack>Prod</ServerStack>
+  </Servers>
+</DevSettings>

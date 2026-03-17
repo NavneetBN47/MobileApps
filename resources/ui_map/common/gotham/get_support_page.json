@@ -1,0 +1,46 @@
+{
+    "get_support_page_title": {
+        "_comment": "Follow these instructions to connect to your printer title on Get support page",
+        "locator": {"id": "GetSupportPageTitle"}
+    },
+    "instruction_1_header": {
+        "_comment": "Check the printer step title on Get support page",
+        "locator": {"id": "Step1"}
+    },
+    "instruction_1_content": {
+        "_comment": "Check the printer step content on Get support page",
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/GetSupportPageInstruction1Content/Text"}
+    },
+    "instruction_2_header": {
+        "_comment": "Check the network connections step title on Get support page",
+        "locator": {"id": "Step2"}
+    },
+    "instruction_2_content": {
+        "_comment": "Check the network connections step content on Get support page",
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/GetSupportPageInstruction2Content/Text"}
+    },
+    "instruction_3_header": {
+        "_comment": "Restart the router and printer step title on Get support page",
+        "locator": {"id": "Step3"}
+    },
+    "instruction_3_content": {
+        "_comment": "Restart the router and printer step content on Get support page",
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/GetSupportPageInstruction3Content/Text"}
+    },
+    "get_support_page_foot_note": {
+        "_comment": "Still having problems connecting to your printer foot note on Get support page",
+        "locator": {"id": "AfterConnectText"}
+    },
+    "tool_icon_link": {
+        "_comment": "Tool icon link on Get Support page",
+        "locator": {"xpath": "//Pane[@AutomationId='GetSupportPageScroll']/Hyperlink[1]"}
+    },
+    "diagnose_and_fix_link": {
+        "_comment": "Diagnose and Fix link on Get Support page",
+        "locator": {"xpath": "//Pane[@AutomationId='GetSupportPageScroll']/Hyperlink[2]"}
+    },
+    "get_more_help_link": {
+        "_comment": "Get More Help link on Get Support page",
+        "locator": {"xpath": "//Pane[@AutomationId='GetSupportPageScroll']/Hyperlink[3]"}
+    }
+}

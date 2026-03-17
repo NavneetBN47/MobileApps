@@ -1,0 +1,1932 @@
+{
+  "tilt_slider": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_TopButton"
+    }
+  },
+  "info_icon": {
+    "locator": {
+      "id": "AUID_PenControl_InfoPopOver_v4"
+    }
+  },
+  "pen_control_module": {
+    "locator": {
+      "id": "pencontrol_core_NavigationViewItem_ID"
+    }
+  },
+  "top_btn": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_TopButton"
+    }
+  },
+  "single_press": {
+    "locator": {
+      "id": "AUID_PenControl_Subtitle_single press"
+    }
+  },
+  "double_press": {
+    "locator": {
+      "id": "AUID_PenControl_Subtitle_double press"
+    }
+  },
+  "device_name_tooltip": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceName_customName_ToolTip"
+    }
+  },
+  "battery_status": {
+    "locator": {
+      "id": "AUID_PenControl_Status_battery_v4"
+    }
+  },
+  "battery_tooltip": {
+    "locator": {
+      "id": "AUID_PenControl_Status_battery_ToolTip"
+    }
+  },
+  "edit_button": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceName_DeviceNameEditBtnv4"
+    }
+  },
+  "bluetooth_status": {
+    "locator": {
+      "id": "AUID_PenControl_Status_bluetooth_v4"
+    }
+  },
+  "bluetooth_tooltip": {
+    "locator": {
+      "id": "AUID_PenControl_Status_bluetooth_ToolTip"
+    }
+  },
+  "pen_control_title_text": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceName_customName"
+    }
+  },
+  "disconnected_battery": {
+    "locator": {
+      "id": "AUID_PenControl_Title_Disconnected"
+    }
+  },
+  "single_press_drop_down": {
+    "locator": {
+      "id": "AUID_PenControl_Dropdown_single press"
+    }
+  },
+  "long_press": {
+    "locator": {
+      "id": "AUID_PenControl_Subtitle_long press"
+    }
+  },
+  "upper_barrel": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_upper barrel"
+    }
+  },
+  "lower_barrel": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_lower barrel"
+    }
+  },
+  "restore_btn": {
+    "locator": {
+      "id": "AUID_PenControl_Button_RestoreButton"
+    }
+  },
+  "product_number": {
+    "locator": {
+      "id": "AUID_PenControl_CopyableInfoValue_productNumber_InfoValueCopied"
+    }
+  },
+  "serial_number": {
+    "locator": {
+      "id": "AUID_PenControl_CopyableInfoValue_serialNumber_InfoValueCopied"
+    }
+  },
+  "product_number_value_tooltip": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_CopyableInfoValue_productNumber_InfoValueCopied_CopyIcon_ToolTip"
+    }
+  },
+  "serial_number_value_tooltip": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_CopyableInfoValue_serialNumber_InfoValueCopied_CopyIcon_ToolTip"
+    }
+  },
+  "firmwareversion": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_Status_Key_firmwareVersion"
+    }
+  },
+  "battery_title": {
+    "locator": {
+      "id": "AUID_PenControl_Title_battery"
+    }
+  },
+  "connection_title": {
+    "locator": {
+      "id": "AUID_PenControl_Title_connection"
+    }
+  },
+  "connection_status": {
+    "locator": {
+      "id": "AUID_PenControl_Title_Connected"
+    }
+  },
+  "upper_barrel_dropdown": {
+    "locator": {
+      "id": "AUID_PenControl_Dropdown_upper barrel"
+    }
+  },
+  "go_forward": {
+    "locator": {
+      "name": "Go Forward"
+    }
+  },
+  "touch_on_off": {
+    "locator": {
+      "name": "Touch On/Off"
+    }
+  },
+  "erase": {
+    "locator": {
+      "name": "Erase"
+    }
+  },
+  "right_click": {
+    "locator": {
+      "name": "Right Click"
+    }
+  },
+  "page_up": {
+    "locator": {
+      "name": "Page Up"
+    }
+  },
+  "paste": {
+    "locator": {
+      "name": "Paste"
+    }
+  },
+  "undo": {
+    "locator": {
+      "name": "Undo"
+    }
+  },
+  "lower_barrel_dropdown": {
+    "locator": {
+      "id": "AUID_PenControl_Dropdown_lower barrel"
+    }
+  },
+  "pen_sensitivity_title": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_PenSensitivity"
+    }
+  },
+  "pressure_title": {
+    "locator": {
+      "id": "AUID_PenControl_Title_AUID_TIP_SLIDER"
+    }
+  },
+  "tilt_title": {
+    "locator": {
+      "id": "AUID_PenControl_Title_tilt sensitivity"
+    }
+  },
+  "pressure_slider": {
+    "locator": {
+      "id": "AUID_PenControl_Slider_tip sensitivity"
+    }
+  },
+  "product_number_value": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_16402"
+    }
+  },
+  "serial_number_value": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_401334"
+    }
+  },
+  "upper_barrel_button_hover_click_toggle_on": {
+    "locator": {
+      "id": "AUID_PenControl_Upper Barrel Switch_true"
+    }
+  },
+  "upper_barrel_button_hover_click_toggle_off": {
+    "locator": {
+      "id": "AUID_PenControl_Upper Barrel Switch_false"
+    }
+  },
+  "lower_barrel_button_hover_click_toggle_on": {
+    "locator": {
+      "id": "AUID_PenControl_Lower Barrel Switch_true"
+    }
+  },
+  "lower_barrel_button_hover_click_toggle_off": {
+    "locator": {
+      "id": "AUID_PenControl_Lower Barrel Switch_false"
+    }
+  },
+  "default_pen_name": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceName_customName"
+    }
+  },
+  "double_press_dropdown": {
+    "locator": {
+      "id": "AUID_PenControl_Dropdown_double press"
+    }
+  },
+  "long_press_drop_down": {
+    "locator": {
+      "id": "AUID_PenControl_Dropdown_long press"
+    }
+  },
+  "hover_click_upper_barrel": {
+    "locator": {
+      "id": "AUID_PenControl_Title_hover toggle title"
+    }
+  },
+  "hover_click_lower_barrel": {
+    "locator": {
+      "id": "AUID_PenControl_Title_lower barrel hover"
+    }
+  },
+  "low_pressure_sensitivity": {
+    "locator": {
+      "id": "AUID_PenControl_Label_tip sensitivity low"
+    }
+  },
+  "high_pressure_sensitivity": {
+    "locator": {
+      "id": "AUID_PenControl_Label_tip sensitivity high"
+    }
+  },
+  "low_tilt": {
+    "locator": {
+      "id": "AUID_PenControl_Label_tilt sensitivity low"
+    }
+  },
+  "high_tilt": {
+    "locator": {
+      "id": "AUID_PenControl_Label_tilt sensitivity high"
+    }
+  },
+  "single_press_touch_on_off": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][1]"
+    }
+  },
+  "single_press_window_search": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][2]"
+    }
+  },
+  "single_press_ms_white_board": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][3]"
+    }
+  },
+  "single_press_screen_snip": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][4]"
+    }
+  },
+  "single_press_sticky_notes": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][5]"
+    }
+  },
+  "single_press_page_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][6]"
+    }
+  },
+  "single_press_page_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][7]"
+    }
+  },
+  "single_press_play_pause": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][8]"
+    }
+  },
+  "single_press_next_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][9]"
+    }
+  },
+  "single_press_previus_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][10]"
+    }
+  },
+  "single_press_volume_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][11]"
+    }
+  },
+  "single_press_volume_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][12]"
+    }
+  },
+  "single_press_mute_audio": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][13]"
+    }
+  },
+  "single_press_disable": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][14]"
+    }
+  },
+  "single_press_pen_menu": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_single press']/ListItem[@ClassName='ComboBoxItem'][15]"
+    }
+  },
+  "double_press_touch_on_off": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][1]"
+    }
+  },
+  "double_press_window_search": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][2]"
+    }
+  },
+  "double_press_ms_white_board": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][3]"
+    }
+  },
+  "double_press_screen_snip": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][4]"
+    }
+  },
+  "double_press_sticky_notes": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][5]"
+    }
+  },
+  "double_press_page_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][6]"
+    }
+  },
+  "double_press_page_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][7]"
+    }
+  },
+  "double_press_play_pause": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][8]"
+    }
+  },
+  "double_press_next_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][9]"
+    }
+  },
+  "double_press_previus_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][10]"
+    }
+  },
+  "double_press_volume_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][11]"
+    }
+  },
+  "double_press_volume_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][12]"
+    }
+  },
+  "double_press_mute_audio": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][13]"
+    }
+  },
+  "double_press_disable": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][14]"
+    }
+  },
+  "double_press_pen_menu": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_double press']/ListItem[@ClassName='ComboBoxItem'][15]"
+    }
+  },
+  "long_press_touch_on_off": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][1]"
+    }
+  },
+  "long_press_window_search": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][2]"
+    }
+  },
+  "long_press_ms_white_board": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][3]"
+    }
+  },
+  "long_press_screen_snip": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][4]"
+    }
+  },
+  "long_press_sticky_notes": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][5]"
+    }
+  },
+  "long_press_page_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][6]"
+    }
+  },
+  "long_press_page_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][7]"
+    }
+  },
+  "long_press_play_pause": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][8]"
+    }
+  },
+  "long_press_next_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][9]"
+    }
+  },
+  "long_press_previus_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][10]"
+    }
+  },
+  "long_press_volume_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][11]"
+    }
+  },
+  "long_press_volume_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][12]"
+    }
+  },
+  "long_press_mute_audio": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][13]"
+    }
+  },
+  "long_press_disable": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][14]"
+    }
+  },
+  "long_press_pen_menu": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_long press']/ListItem[@ClassName='ComboBoxItem'][15]"
+    }
+  },
+  "upper_barrel_touch_on_off": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][1]"
+    }
+  },
+  "upper_barrel_erase": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][2]"
+    }
+  },
+  "upper_barrel_right_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][3]"
+    }
+  },
+  "upper_barrel_page_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][4]"
+    }
+  },
+  "upper_barrel_page_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][5]"
+    }
+  },
+  "upper_barrel_go_back": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][6]"
+    }
+  },
+  "upper_barrel_go_forward": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][7]"
+    }
+  },
+  "upper_barrel_copy": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][8]"
+    }
+  },
+  "upper_barrel_paste": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][9]"
+    }
+  },
+  "upper_barrel_undo": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][10]"
+    }
+  },
+  "upper_barrel_redo": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][11]"
+    }
+  },
+  "upper_barrel_left_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][12]"
+    }
+  },
+  "upper_barrel_middle_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][13]"
+    }
+  },
+  "upper_barrel_fourth_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][14]"
+    }
+  },
+  "upper_barrel_fifth_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][15]"
+    }
+  },
+  "upper_barrel_window_search": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][16]"
+    }
+  },
+  "upper_barrel_ms_whiteboard": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][17]"
+    }
+  },
+  "upper_barrel_screen_snipping": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][18]"
+    }
+  },
+  "upper_barrel_switch_application": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][19]"
+    }
+  },
+  "upper_barrel_web_browser": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][20]"
+    }
+  },
+  "upper_barrel_email": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][21]"
+    }
+  },
+  "upper_barrel_play_pause": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][22]"
+    }
+  },
+  "upper_barrel_next_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][23]"
+    }
+  },
+  "upper_barrel_previous_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][24]"
+    }
+  },
+  "upper_barrel_volume_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][25]"
+    }
+  },
+  "upper_barrel_volume_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][26]"
+    }
+  },
+  "upper_barrel_mute": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][27]"
+    }
+  },
+  "upper_barrel_disable": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][28]"
+    }
+  },
+  "upper_barrel_pen_menu": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_upper barrel']/ListItem[@ClassName='ComboBoxItem'][29]"
+    }
+  },
+  "lower_barrel_touch_on_off": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][1]"
+    }
+  },
+  "lower_barrel_erase": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][2]"
+    }
+  },
+  "lower_barrel_right_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][3]"
+    }
+  },
+  "lower_barrel_page_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][4]"
+    }
+  },
+  "lower_barrel_page_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][5]"
+    }
+  },
+  "lower_barrel_go_back": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][6]"
+    }
+  },
+  "lower_barrel_go_forward": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][7]"
+    }
+  },
+  "lower_barrel_copy": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][8]"
+    }
+  },
+  "lower_barrel_paste": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][9]"
+    }
+  },
+  "lower_barrel_undo": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][10]"
+    }
+  },
+  "lower_barrel_redo": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][11]"
+    }
+  },
+  "lower_barrel_left_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][12]"
+    }
+  },
+  "lower_barrel_middle_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][13]"
+    }
+  },
+  "lower_barrel_fourth_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][14]"
+    }
+  },
+  "lower_barrel_fifth_click": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][15]"
+    }
+  },
+  "lower_barrel_window_search": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][16]"
+    }
+  },
+  "lower_barrel_ms_whiteboard": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][17]"
+    }
+  },
+  "lower_barrel_screen_snipping": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][18]"
+    }
+  },
+  "lower_barrel_switch_application": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][19]"
+    }
+  },
+  "lower_barrel_web_browser": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][20]"
+    }
+  },
+  "lower_barrel_email": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][21]"
+    }
+  },
+  "lower_barrel_play_pause": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][22]"
+    }
+  },
+  "lower_barrel_next_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][23]"
+    }
+  },
+  "lower_barrel_previous_track": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][24]"
+    }
+  },
+  "lower_barrel_volume_up": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][25]"
+    }
+  },
+  "lower_barrel_volume_down": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][26]"
+    }
+  },
+  "lower_barrel_mute_audio": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][27]"
+    }
+  },
+  "lower_barrel_disable": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][28]"
+    }
+  },
+  "lower_barrel_pen_menu": {
+    "locator": {
+      "xpath": "//*[@AutomationId='AUID_PenControl_Dropdown_lower barrel']/ListItem[@ClassName='ComboBoxItem'][29]"
+    }
+  },
+  "upper_barrel_tooltip": {
+    "locator": {
+      "id": "AUID_PenControl_Tooltip_upper barrel tooltip"
+    }
+  },
+  "lower_barrel_tooltip": {
+    "locator": {
+      "id": "AUID_PenControl_Tooltip_lower barrel tooltip"
+    }
+  },
+  "hp_digital_pen_sub_title": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceName_DeviceName"
+    }
+  },
+  "open_btn_on_HP": {
+    "locator": {
+      "id": "pp_S_Open"
+    }
+  },
+  "start_btn": {
+    "locator": {
+      "id": "StartButton"
+    }
+  },
+  "search_text_box": {
+    "locator": {
+      "id": "StartMenuSearchBox"
+    }
+  },
+  "barrel_btn_tooltip_text": {
+    "locator": {
+      "name": "Enable assigned button action while hovering pen tip over screen."
+    }
+  },
+  "device_name_tooltip_text": {
+    "locator": {
+      "name": "HP Digital Pen"
+    }
+  },
+  "product_num_copy_icon": {
+    "locator": {
+      "id": "AUID_PenControl_CopyableInfoValue_productNumber_InfoValueCopied_CopyIcon_ToolTip"
+    }
+  },
+  "serial_num_copy_icon": {
+    "locator": {
+      "id": "AUID_PenControl_CopyableInfoValue_serialNumber_InfoValueCopied_CopyIcon_ToolTip"
+    }
+  },
+  "firmware_version_copy_icon": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_CopyableInfoValue_firmwareVersion_InfoValueCopied_CopyIcon_ToolTip"
+    }
+  },
+  "firmware_version_stg": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_Status_Key_firmwareVersion"
+    }
+  },
+  "product_number_stg": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_Status_Key_productNumber"
+    }
+  },
+  "serial_number_stg": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_Status_Key_serialNumber"
+    }
+  },
+  "upper_barrel_cons_undo": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][1]"
+    }
+  },
+  "upper_barrel_cons_shift_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][2]"
+    }
+  },
+  "upper_barrel_cons_control_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][3]"
+    }
+  },
+  "upper_barrel_cons_alt_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][4]"
+    }
+  },
+  "upper_barrel_cons_windows_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][5]"
+    }
+  },
+  "upper_barrel_cons_tab_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][6]"
+    }
+  },
+  "upper_barrel_cons_volume_up": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][7]"
+    }
+  },
+  "upper_barrel_cons_volume_down": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][8]"
+    }
+  },
+  "upper_barrel_cons_mute_unmute": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][9]"
+    }
+  },
+  "upper_barrel_cons_play_pause": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][10]"
+    }
+  },
+  "upper_barrel_cons_right_arrow_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][11]"
+    }
+  },
+  "upper_barrel_cons_left_arrow_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][12]"
+    }
+  },
+  "upper_barrel_cons_new_browser_tab": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][13]"
+    }
+  },
+  "upper_barrel_cons_previous_page": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][14]"
+    }
+  },
+  "upper_barrel_cons_next_page": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][15]"
+    }
+  },
+  "upper_barrel_cons_take_screenshot": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][16]"
+    }
+  },
+  "upper_barrel_cons_launch_task_manager": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][17]"
+    }
+  },
+  "upper_barrel_cons_switch_between_apps": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][18]"
+    }
+  },
+  "upper_barrel_cons_show_the_desktop": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][19]"
+    }
+  },
+  "upper_barrel_cons_right_click": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][20]"
+    }
+  },
+  "upper_barrel_cons_disable_pen_buttons": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][21]"
+    }
+  },
+  "upper_barrel_cons_scroll": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][22]"
+    }
+  },
+  "upper_barrel_cons_erase": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_upper barrel'][23]"
+    }
+  },
+  "lower_barrel_cons_undo": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][1]"
+    }
+  },
+  "lower_barrel_cons_shift_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][2]"
+    }
+  },
+  "lower_barrel_cons_control_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][3]"
+    }
+  },
+  "lower_barrel_cons_alt_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][4]"
+    }
+  },
+  "lower_barrel_cons_windows_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][5]"
+    }
+  },
+  "lower_barrel_cons_tab_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][6]"
+    }
+  },
+  "lower_barrel_cons_volume_up": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][7]"
+    }
+  },
+  "lower_barrel_cons_volume_down": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][8]"
+    }
+  },
+  "lower_barrel_cons_mute_unmute": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][9]"
+    }
+  },
+  "lower_barrel_cons_play_pause": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][10]"
+    }
+  },
+  "lower_barrel_cons_right_arrow_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][11]"
+    }
+  },
+  "lower_barrel_cons_left_arrow_key": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][12]"
+    }
+  },
+  "lower_barrel_cons_new_browser_tab": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][13]"
+    }
+  },
+  "lower_barrel_cons_previous_page": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][14]"
+    }
+  },
+  "lower_barrel_cons_next_page": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][15]"
+    }
+  },
+  "lower_barrel_cons_take_screenshot": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][16]"
+    }
+  },
+  "lower_barrel_cons_launch_task_manager": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][17]"
+    }
+  },
+  "lower_barrel_cons_switch_berween_apps": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][18]"
+    }
+  },
+  "lower_barrel_cons_show_the_desktop": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][19]"
+    }
+  },
+  "lower_barrel_cons_right_click": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][20]"
+    }
+  },
+  "lower_barrel_cons_disable_pen_buttons": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][21]"
+    }
+  },
+  "lower_barrel_cons_scroll": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][22]"
+    }
+  },
+  "lower_barrel_cons_erase": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='AUID_PenControl_Dropdown item_lower barrel'][23]"
+    }
+  },
+  "erase_btn_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_LowerBarrelButton"
+    }
+  },
+  "erase_btn_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Button_lower barrel"
+    }
+  },
+  "erase_text_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.erase_Text"
+    }
+  },
+  "erase_text_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.erase_Text"
+    }
+  },
+  "right_click_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.rightClick_Text"
+    }
+  },
+  "disable_pen_buttons_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.disablePenButtons_Text"
+    }
+  },
+  "apps": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_pencontrol.actionsMenuHeader.apps"
+    }
+  },
+  "take_screenshot_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.takeScreenshot_Text"
+    }
+  },
+  "switch_between_apps_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.switchBetweenApps_Text"
+    }
+  },
+  "launch_task_manager_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.lanuchTaskManager_Text"
+    }
+  },
+  "new_browser_tab_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.newBrowserTab_Text"
+    }
+  },
+  "show_the_desktop_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.showTheDesktop_Text"
+    }
+  },
+  "more_link_on_app_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_MoreLink_MoreButtonLink"
+    }
+  },
+  "apps_dropdown_consumer": {
+    "locator": {
+      "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Group[@ClassName='DynamicAutomationPeer'][3]"
+    }
+  },
+  "media_control": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_pencontrol.actionsMenuHeader.mediaControl"
+    }
+  },
+  "play_pause_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.playPause_Text"
+    }
+  },
+  "volume_up": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.volumeUp_Text"
+    }
+  },
+  "volume_up_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.volumeUp_Text"
+    }
+  },
+  "volume_down": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.volumeDown_Text"
+    }
+  },
+  "volume_down_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.volumeDown_Text"
+    }
+  },
+  "mute_unmute_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.muteUnmute_Text"
+    }
+  },
+  "media_control_dropdown": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_pencontrol.actionsMenuHeader.mediaControl"
+    }
+  },
+  "productivity": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_pencontrol.actionsMenuHeader.productivity"
+    }
+  },
+  "undo_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.undo_Text"
+    }
+  },
+  "undo_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.undo_Text"
+    }
+  },
+  "shift_key_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.shiftKey_Text"
+    }
+  },
+  "control_key_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.controlKey_Text"
+    }
+  },
+  "alt_key_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.altKey_Text"
+    }
+  },
+  "windows_key_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.windowsKey_Text"
+    }
+  },
+  "tab_key_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.tabKey_Text"
+    }
+  },
+  "right_arrow_key_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.rightArrowKey_Text"
+    }
+  },
+  "left_arrow_key_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.leftArrowKey_Text"
+    }
+  },
+  "previous_page_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.previousPage_Text"
+    }
+  },
+  "next_page_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.nextPage_Text"
+    }
+  },
+  "scroll_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.scroll_Text"
+    }
+  },
+  "pen_title": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_pencontrol.actionsMenuHeader.pen"
+    }
+  },
+  "lower_barrel_btn": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_pencontrol.lowerBarrelButton.title"
+    }
+  },
+  "more_link_on_productivity": {
+    "locator": {
+      "id": "AUID_PenControl_pencontrol.actionsMenuHeader.productivity_MoreButtonLink"
+    }
+  },
+  "ms_whiteboard_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_TopButtonSinglePress"
+    }
+  },
+  "screen_snipping_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_TopButtonDoublePress"
+    }
+  },
+  "sticky_notes_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_TopButtonLongPress"
+    }
+  },
+  "right_click_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Button_pencontrol.barrelButtonAction.rightClick"
+    }
+  },
+  "pen_sensitivity_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Link_PenSensitivityButton"
+    }
+  },
+  "pen_sensitivity_title_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_PenSensitivityButton"
+    }
+  },
+  "tilt_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Title_AUID_TILT_SLIDER"
+    }
+  },
+  "right_click_pen_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.rightClick_Text"
+    }
+  },
+  "touch_on_off_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.touchOnOff_Text"
+    }
+  },
+  "left_click_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.leftClick_Text"
+    }
+  },
+  "middle_click_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.middleClick_Text"
+    }
+  },
+  "page_down_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.pageDown_Text"
+    }
+  },
+  "go_back_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.goBack_Text"
+    }
+  },
+  "go_forward_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.goForward_Text"
+    }
+  },
+  "fourth_click_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.forthClick_Text"
+    }
+  },
+  "fifth_click_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.fifthClick_Text"
+    }
+  },
+  "pen_menu_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.penMenu_Text"
+    }
+  },
+  "disabled_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.disabled_Text"
+    }
+  },
+  "ms_whiteboard_commercial_apps": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.msWhiteBoard_Text"
+    }
+  },
+  "screen_snipping_commercial_apps": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.screenSnipping_Text"
+    }
+  },
+  "switch_application_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.switchApp_Text"
+    }
+  },
+  "web_browser_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.openBrowser"
+    }
+  },
+  "e_mail_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.openMail_Text"
+    }
+  },
+  "windows_search_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.windowsSearch_Text"
+    }
+  },
+  "play_pause_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.playPause_Text"
+    }
+  },
+  "next_track_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.nextTrack_Text"
+    }
+  },
+  "previous_track_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.previousTrack_Text"
+    }
+  },
+  "mute_audio_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.muteAudio_Text"
+    }
+  },
+  "copy_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.copy_Text"
+    }
+  },
+  "paste_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.paste_Text"
+    }
+  },
+  "redo_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.redo_Text"
+    }
+  },
+  "page_up_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.pageUp_Text"
+    }
+  },
+  "upper_barrel_btn_right_click": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_pencontrol.upperBarrelButton.title"
+    }
+  },
+  "right_click_consumer_btn_pen": {
+    "locator": {
+      "id": "AUID_PenControl_Button_pencontrol.consumerButtonAction.rightClick"
+    }
+  },
+  "single_press_button": {
+    "locator": {
+      "id": "AUID_PenControl_single press_Button"
+    }
+  },
+  "long_press_button": {
+    "locator": {
+      "id": "AUID_PenControl_long press_Button"
+    }
+  },
+  "double_press_button": {
+    "locator": {
+      "id": "AUID_PenControl_double press_Button"
+    }
+  },
+  "right_click_consumer_btn_text": {
+    "locator": {
+      "id": "AUID_PenControl_UpperBarrelButton"
+    }
+  },
+  "single_press_title_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_pencontrol.topButton.title.singlePress"
+    }
+  },
+  "double_press_title_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_pencontrol.topButton.title.doublePress"
+    }
+  },
+  "long_press_title_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Heading_pencontrol.topButton.title.longPress"
+    }
+  },
+  "upper_barrel_image_button_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_upper barrel_imageButton"
+    }
+  },
+  "universal_select_toggle_is_select_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.barrelButton"
+    }
+  },
+  "lower_barrel_image_button_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_lower barrel_imageButton"
+    }
+  },
+  "default_lower_barrel_button_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_LowerBarrelButton"
+    }
+  },
+  "erase_toggle_is_select_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.erase"
+    }
+  },
+  "middle_click_toggle_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.middleClick"
+    }
+  },
+  "device_name_input_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceName_Txt_DeviceNameInputv4"
+    }
+  },
+  "more_button_link_in_pen_mode_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_pencontrol.actionsMenuHeader.pen_MoreButtonLink"
+    }
+  },
+  "screen_snipping_toggle_is_select_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.screenSnipping"
+    }
+  },
+  "sticky_notes_text_in_configure_key_list_show_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.stickyNote_Text"
+    }
+  },
+  "sticky_notes_toggle_is_select_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.stickyNote"
+    }
+  },
+  "action_list_not_show_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_Dialog_TooltipView"
+    }
+  },
+  "pen_name_on_left_side_commercial": {
+    "locator": {
+      "id": "pencontrol_core_NavigationViewItem_ID"
+    }
+  },
+  "pen_control_mute_audio_radio_button_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.muteAudio"
+    }
+  },
+  "pen_sensitivity_button_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Link_PenSensitivityLink"
+    }
+  },
+  "top_image_button_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_TopButton_imageButton"
+    }
+  },
+  "pen_sensitivity_image_button_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_PenSensitivity_imageButton"
+    }
+  },
+  "lower_barrel_erase_radio_button_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.erase_Text"
+    }
+  },
+  "upper_barrel_right_click_radio_button_consumer": {
+    "locator": {
+      "id": "AUID_PenControl_UpperBarrelButton"
+    }
+  },
+  "universal_select_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_UpperBarrelButton"
+    }
+  },
+  "universal_select_commercial_dropdown_text": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.barrelButton_Text"
+    }
+  },
+  "more_link_on_pen": {
+    "locator": {
+      "id": "AUID_PenControl_pencontrol.actionsMenuHeader.pen_MoreButtonLink"
+    }
+  },
+  "more_link_on_apps": {
+    "locator": {
+      "id": "AUID_PenControl_pencontrol.actionsMenuHeader.apps_MoreButtonLink"
+    }
+  },
+  "more_link_on_media": {
+    "locator": {
+      "id": "AUID_PenControl_pencontrol.actionsMenuHeader.mediaControl_MoreButtonLink"
+    }
+  },
+  "universal_select_toggle_text_show_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.barrelButton_Text"
+    }
+  },
+  "left_click_toggle_is_select_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.leftClick"
+    }
+  },
+  "pen_section_dd": {
+    "locator": {
+      "id": "AUID_PenControl_ChevronDown_pencontrol.actionsMenuHeader.pen"
+    }
+  },
+  "pen_menu_toggle_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.penMenu"
+    }
+  },
+  "now_is_pen_menu_": {
+    "locator": {
+      "id": "AUID_PenControl_Button_pencontrol.commonButtonAction.penMenu"
+    }
+  },
+  "disabled_toggle_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.disabled"
+    }
+  },
+  "now_is_disabled": {
+    "locator": {
+      "id": "AUID_PenControl_Button_pencontrol.commonButtonAction.disabled"
+    }
+  },
+  "windows_search_toggle_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.windowsSearch"
+    }
+  },
+  "now_is_windows_search": {
+    "locator": {
+      "id": "AUID_PenControl_Button_pencontrol.commonButtonAction.windowsSearch"
+    }
+  },
+  "ms_white_toggle_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.msWhiteBoard"
+    }
+  },
+  "page_up_text_commercial": {
+    "locator": {
+      "name": "Page up"
+    }
+  },
+  "page_down_text_commercial": {
+    "locator": {
+      "name": "Page down"
+    }
+  },
+  "touch_on_off_text_commercial": {
+    "locator": {
+      "name": "Touch On/Off"
+    }
+  },
+  "pen_menu_text_commercial": {
+    "locator": {
+      "name": "Pen menu"
+    }
+  },
+  "disabled_text_commercial": {
+    "locator": {
+      "name": "Disabled"
+    }
+  },
+  "screen_snipping_text_commercial": {
+    "locator": {
+      "name": "Screen snipping"
+    }
+  },
+  "windows_search_text_commercial": {
+    "locator": {
+      "name": "Windows search"
+    }
+  },
+  "play_pause_text_commercial": {
+    "locator": {
+      "name": "Play/Pause"
+    }
+  },
+  "next_track_text_commercial": {
+    "locator": {
+      "name": "Next track"
+    }
+  },
+  "previous_track_text_commercial": {
+    "locator": {
+      "name": "Previous track"
+    }
+  },
+  "volume_up_text_commercial": {
+    "locator": {
+      "name": "Volume up"
+    }
+  },
+  "volume_down_text_commercial": {
+    "locator": {
+      "name": "Volume down"
+    }
+  },
+  "mute_audio_text_commercial": {
+    "locator": {
+      "name": "Mute audio"
+    }
+  },
+  "universal_select_toggle_text": {
+    "locator": {
+      "name": "Universal Select"
+    }
+  },
+  "left_click_toggle_text": {
+    "locator": {
+      "name": "Left click"
+    }
+  },
+  "erase_text_list_commercial": {
+    "locator": {
+      "name": "Erase"
+    }
+  },
+  "fourth_click_text_commercial": {
+    "locator": {
+      "name": "Fourth click"
+    }
+  },
+  "middle_click_commercial_text_commercial": {
+    "locator": {
+      "name": "Middle click"
+    }
+  },
+  "ms_whiteboard_text_commercial": {
+    "locator": {
+      "name": "MS whiteboard"
+    }
+  },
+  "sticky_notes_text_commercial": {
+    "locator": {
+      "name": "Sticky notes"
+    }
+  },
+  "tilt_sensitivity_slider": {
+    "locator": {
+      "id": "AUID_PenControl_Slider_AUID_TILT_SLIDER"
+    }
+  },
+  "tip_pressure_slider": {
+    "locator": {
+      "id": "AUID_PenControl_Slider_AUID_TIP_SLIDER"
+    }
+  },
+  "universal_select_text_commercial": {
+    "locator": {
+      "id": "AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.universalSelect"
+    }
+  },
+  "lower_barrel_erase_radio_toggle_consumer": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.consumerButtonAction.erase']"
+    }
+  },
+  "universal_select_toggle_consumer": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.universalSelect']"
+    }
+  },
+  "ms_whiteboard_radio_toggle_commercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.msWhiteBoard']"
+    }
+  },
+  "left_click_radio_toggle_comercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.leftClick']"
+    }
+  },
+  "erase_radio_toggle_commercial":{
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.erase']"
+    }
+  },
+  "middle_click_radio_toggle_commercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.barrelButtonAction.middleClick']"
+    }
+  },
+  "screen_snipping_radio_toggle_commercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.screenSnipping']"
+    }
+  },
+  "sticky_notes_radio_toggle_commercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.stickyNote']"
+    }
+  },
+  "pen_menu_radio_toggle_commercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.penMenu']"
+    }
+  },
+  "windows_search_radio_toggle_commercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.windowsSearch']"
+    }
+  },
+  "disabled_radio_toggle_commercial": {
+    "locator": {
+      "xpath": "//RadioButton[@AutomationId='AUID_PenControl_Sidebar_SubDialog_RadioButton_pencontrol.commonButtonAction.disabled']"
+    }
+  },
+  "proximity_icon": {
+    "locator": {
+      "id": "AUID_PenControl_Status_undefined_v4"
+    }
+  },
+  "product_number_copy_icon": {
+    "locator": {
+      "name": "CopyproductNumber"
+    }
+  },
+  "serial_number_copy_icon": {
+    "locator": {
+      "name": "CopyserialNumber"
+    }
+  },
+  "firmware_copy_icon": {
+    "locator": {
+      "name": "CopyfirmwareVersion"
+    }
+  },
+  "connection_proximity": {
+    "locator": {
+      "id": "AUID_PenControl_Status_undefined_v4"
+    }
+  },
+  "serail_number_value": {
+    "locator": {
+      "id": "AUID_PenControl_DeviceInfo_CopyableInfoValue_serialNumber_InfoValueCopied_ToolTip"
+    }
+  },
+  "pen_setting_notification_header": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_Notification_Header"
+    }
+  },
+  "pen_not_detected_alert_title": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_alertWhenPenNotDetected_Description"
+    }
+  },
+  "pen_not_detected_toggle": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_alertWhenPenNotDetected_Switch"
+    }
+  },
+  "power_saving_header": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_Power_Saving_Header"
+    }
+  },
+  "power_saving_desc": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_Power_Saving_Description"
+    }
+  },
+  "power_saving_toggle": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_Power_Saving_Switch"
+    }
+  },
+  "one_step_inking_header": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_One_Step_Inking_Header"
+    }
+  },
+  "one_step_inking_desc": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_One_Step_Inking_Description"
+    }
+  },
+  "one_step_inking_dropdown": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_One_Step_Inking_Dropdown"
+    }
+  },
+  "one_step_inking_dropdown_value_one_note": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_78"
+    }
+  },
+  "one_step_inking_dropdown_value_microsoft_whiteboard": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_74"
+    }
+  },
+  "one_step_inking_dropdown_value_snipping_tool": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_76"
+    }
+  },
+  "one_step_inking_dropdown_value_disabled": {
+    "locator": {
+      "id": "AUID_PenControl_PenSettings_0"
+    }
+  },
+  "pen_setting_title": {
+    "locator": {
+      "id": "AUID_penSettings_NavBreadcrumb_Pencontrol-core"
+    }
+  },
+  "pen_setting_button": {
+    "locator": {
+      "id": "AUID_PenControl_MainScreen_PenSettings_Button"
+    }
+  }
+}

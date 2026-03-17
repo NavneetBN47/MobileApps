@@ -1,0 +1,356 @@
+{
+    "title":{
+        "locator": {
+            "id": "AUID_pcbatterymanager-core_NavBreadcrumb_Pcbatterymanager-core"
+        }
+    },
+    "info_title":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_Header"
+        }
+    },
+    "new_capacity_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_NewCapacity"
+        }
+    },
+    "max_capacity_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_MaximumCapacity"
+        }
+    },
+    "temperature_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_Temperature"
+        }
+    },
+    "battery_health_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_BatteryHealth"
+        }
+    },
+    "serial_numer_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_SerialNumber"
+        }
+    },
+    "battery_charg_checkbox":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_ScheduleBatteryCharging"
+        }
+    },
+    "clear_schedule_btn":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerWeek_ClearSchedule_Button"
+        }
+    },
+    "sunday_dropdown":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_SundayStart_Hour_Dropdown"
+        }
+    },
+    "three_am_item":{
+        "locator": {
+            "name": "3:00 AM"
+        }
+    },
+    "charge_options_title":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_chargingOptions_Header"
+        }
+    },
+    "charge_options_subtitle":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_chargingOptions_batteryManagerDescription"
+        }
+    },
+    "optimize_battery_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_optimizeBatteryPerformance_Text"
+        }
+    },
+    "max_battery_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_MaximizeBatteryHealth_Text"
+        }
+    },
+    "schdedule_battery_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_ScheduleBatteryCharging_Text"
+        }
+    },
+    "health_normal":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_BatteryHealth_Value_0"
+        }
+    },
+    "maximize_charg_checkbox":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_MaximizeBatteryHealth"
+        }
+    },
+    "optimize_charg_checkbox":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_optimizeBatteryPerformance"
+        }
+    },
+    "start_charge_dropdown":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerWeek_Start_Battery_Charge"
+        }
+    },
+    "battery_thirty_percent":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryStartChargeDropDown_30Dropdown_Item"
+        }
+    },
+    "sunday_end_dropdown":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Sunday_End_Hour_Dropdown"
+        }
+    },
+    "four_am_item":{
+        "locator": {
+            "name": "4:00 AM"
+        }
+    },
+    "devicename_on_header":{
+        "locator": {
+            "id": "AUID_pcbatterymanager-core_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "search_bar_on_windows": {
+        "locator": {
+            "id": "SearchButton"
+        }
+    },
+    "run_text_box":{
+        "locator": {
+            "id": "1001"
+        }
+    },
+    "run_ok_button":{
+        "locator": {
+            "name": "OK"
+        }
+    },
+    "app_open": {
+        "locator": {
+            "id": "pp_S_Open"
+        }
+    },"charging_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_Battery_PowerStateText"
+        }
+    },
+    "battery_information_header":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_Header"
+        }
+    },
+    "maximum_capacity_tooltip":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_tooltip_maximumCapacity"
+        }
+    },
+    "charging_option_tooltip":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_tooltip_chargingOptions"
+        }
+    },
+    "optimize_battery_tooltip":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_tooltip_optimizeBatteryPerformance"
+        }
+    },
+    "maximize_battery_tooltip":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_tooltip_maximizeBatteryHealth"
+        }
+    },
+    "schedule_battery_tooltip":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_tooltip_ScheduleBatteryCharging"
+        }
+    },
+    "days_of_week":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_dayofTheWeek"
+        }
+    },
+    "start_time":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_startTime"
+        }
+    },
+    "end_time":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_endTime"
+        }
+    },
+    "total":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_totalHours"
+        }
+    },
+    "hrs":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_timeDiffference"
+        }
+    },
+    "sunday":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Sunday"
+        }
+    },
+    "monday":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Monday"
+        }
+    },
+    "tuesday":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Tuesday"
+        }
+    },
+    "wednesday":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Wednesday"
+        }
+    },
+    "thursday":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Thursday"
+        }
+    },
+    "friday":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Friday"
+        }
+    },
+    "saturday":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Saturday"
+        }
+    },
+    "plugged_in":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_batteryManager_setBatteryPercentage_Description"
+        }
+    },
+    "percentage":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_batteryManager_setBatteryPercentage_Description"
+        }
+    },
+    "battery_percentage":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_Battery_PowerState"
+        }
+    },
+    "clear_schedule":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerWeek_ClearSchedule_Button"
+        }
+    },
+    "schedule_battery_description":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_batteryManager.scheduleBatteryChargingDescription"
+        }
+    },
+    "sunday_dropdown_time":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDayDropDown_Sunday03:00Start_Hour_Dropdown_Item"
+        }
+    },
+    "error_message_endtime_missing":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_End_Time_Missing_ErrorLabel"
+        }
+    },
+    "error_message_starttime_missing":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Start_Time_Missing_ErrorLabel"
+        }
+    },
+    "monday_dropdown_button":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Monday_End_Hour_Dropdown"
+        }
+    },
+    "monday_dropdown_time":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDayDropDown_Monday03:00_End_Hour_Dropdown_Item"
+        }
+    },
+    "monday_dropdown_time_start":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDayDropDown_Monday03:30Start_Hour_Dropdown_Item"
+        }
+    },
+    "invalid_start_label":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Invalid_Start_Time_ErrorLabel"
+        }
+    },
+    "sunday_endtime_time":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDayDropDown_Sunday02:30_End_Hour_Dropdown_Item"
+        }
+    },
+    "invalid_end_label":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_Invalid_End_Time_ErrorLabel"
+        }
+    },
+    "monday_starttime_dropdown_button":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDay_MondayStart_Hour_Dropdown"
+        }
+    },
+    "schedule_battery_text":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_ScheduleBatteryCharging"
+        }
+    },
+    "battery_manager_error":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_CharginOptions_Admin_IT_Warning_Message"
+        }
+    },
+    "health_calibrate":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_BatteryHealth_Value_1"
+        }
+    },
+    "sunday_dropdown_time_2_am":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDayDropDown_Sunday02:00_End_Hour_Dropdown_Item"
+        }
+    },
+    "sunday_dropdown_time_start":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDayDropDown_SundayStart_Hour_Dropdown_Item"
+        }
+    },
+    "sunday_dropdown_time_end":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_SchedulerDayDropDown_Sunday_End_Hour_Dropdown_Item"
+        }
+    },
+    "maximize_battery_health_consumer":{
+        "locator": {
+            "id": "AUID_PCBatteryManager_maximizeBatteryHealth_Header"
+        }
+    },
+    "maximize_battery_health_toggle_off":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCBatteryManager_MaximizeBatteryHealth_MaximizeBatteryHealthSwitchOff']"
+        }
+    },
+    "maximize_battery_health_toggle_on":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCBatteryManager_MaximizeBatteryHealth_MaximizeBatteryHealthSwitchOn']"
+        }
+    }
+}

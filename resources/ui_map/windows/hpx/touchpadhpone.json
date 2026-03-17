@@ -1,0 +1,57 @@
+{
+    "touchpad_icon": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core"
+        }
+    },
+    "enable_gesture_control_text": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_touchpad_title"
+        }
+    },
+    "enable_gesture_control_tipsicon": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_tooltip_info"
+        }
+    },
+    "enable_gesture_control_toggle": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GestureSwitch_gestures_switch"
+        }
+    },
+    "brightness_text": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_text_brightness"
+        }
+    },
+    "volume_text": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_text_volume"
+        }
+    },
+    "SVG_image": {
+        "locator": {
+            "id": "SVG_Image"
+        }
+    },
+    "adjust_feedback_intensity_link_button": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_touchpad_settings_button"
+        }
+    },
+    "os_touchpad_setting_page_show_and_touchpad_toggle_is_on": {
+        "locator": {
+            "id": "SystemSettings_Input_Touch_EnableTouchPad_ToggleSwitch"
+        }
+    },
+    "os_touchpad_setting_page_show_and_touchpad_feedback_toggle_is_on": {
+        "locator": {
+            "id": "SystemSettings_Input_Touch_FeedbackGroup_ToggleSwitch"
+        }
+    },
+    "os_touchpad_setting_page": {
+        "locator": {
+            "id": "Close"
+        }
+    }
+}

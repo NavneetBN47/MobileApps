@@ -1,0 +1,26 @@
+{
+    "hp_plus_smart_printer_requirements_page":{
+        "locator":{"css selector":["[data-testid='activation-page']","[data-testid='ActivationPage']"]}
+    },
+    "confirm_button_text":{
+        "locator":{"css selector":"[data-testid='activate-hp-plus']"}
+    },
+    "header":{
+        "locator":{"css selector":"[data-testid='text-header']"}
+    },
+    "content[0]_block_copy_copy":{
+        "locator":{"css selector":"[data-testid='description']"}
+    },
+    "content[1]_list_item_copy":{
+        "locator":{"css selector":"(//*[@class='_13z4gtiCpfsLH2j0iILglB'])[1]"}
+    },
+    "content[2]_list_item_copy":{
+        "locator":{"css selector":"(//*[@class='_13z4gtiCpfsLH2j0iILglB'])[2]"}
+    },
+    "content[3]_list_item_copy":{
+        "locator":{"css selector":"(//*[@class='_13z4gtiCpfsLH2j0iILglB'])[3]"}
+    },
+    "content[4]_block_copy_copy":{
+        "locator":{"css selector":"[data-testid='terms']"}
+    }
+}

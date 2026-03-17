@@ -1,0 +1,25 @@
+{
+    "printer_from_other_devices_title":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXStaticText[@AXIdentifier='_NS:14']"}
+    },
+    
+    "printer_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXImage[@AXIdentifier='_NS:75']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXImage[@AXIdentifier='_NS:73']"]}
+    },
+    
+    "install_software_from_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXStaticText[@AXIdentifier='_NS:61']"}
+    },
+    
+    "send_a_link_to_download_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXStaticText[@AXIdentifier='_NS:97']"}
+    },
+    
+    "send_link_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXButton[@AXIdentifier='_NS:43']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXButton[@AXIdentifier='_NS:42']"]}
+    }
+}
+
+

@@ -1,0 +1,100 @@
+{
+   "ANDROID":{
+      "jenkins_root":"http://boi-jenkins-1.cscr.hp.com/view",
+      "WPRINT_TEST":{
+         "view": "/Mobile InOS Printing/",
+         "daily": "/Build-wPrint-Daily-Develop/",
+         "location": "jenkins"
+      }
+    },
+    "NEXUS":{
+      "nexus_root": [{"url": "http://san-nexus-wip.cscr.hp.com:8080/nexus/service/local/repositories", "projects": ["GothamUltron"]},
+                     {"url": "http://san-nexus-sb.cscr.hp.com:8080/nexus/service/local/repositories", "projects": ["jarvis_ios_value_store", "jarvis_windows_datacollection_x64", "jarvis_ios_auth", "jarvis_windows_webview_x64", "jarvis_ios_event_service", "jarvis_ios_data_collection", "jarvis_windows_event_service_x64", "jarvis_windows_auth_x64", "jarvis_windows_storage_x64", "jarvis_windows_service-routing_x64", "jarvis_windows_docprovider_x64", "jarvis_windows_valuestore_x64", "jarvis_windows_configuration_service_winui_x64"]},
+                     {"url": "https://nexus-int.corp.hpicloud.net/repository", "projects": ["serviceroutingexample", "eventserviceexample", "docproviderexample", "jwebexample", "datacollectionexample", "valuestoreexample"]}],
+      "repo_name": [{"url": "/san-wip-releases/", "projects": ["GothamUltron"]},
+                     {"url": "/san-sb-releases/", "projects": [ "jarvis_windows_datacollection_x64", "jarvis_ios_auth", "jarvis_ios_event_service", "jarvis_windows_webview_x64", "jarvis_ios_value_store", "jarvis_ios_data_collection", "jarvis_windows_event_service_x64", "jarvis_windows_auth_x64", "jarvis_windows_storage_x64", "jarvis_windows_service-routing_x64", "jarvis_windows_docprovider_x64", "jarvis_windows_valuestore_x64", "jarvis_windows_configuration_service_winui_x64"]},
+                     {"url": "/jarvis-central/", "projects": ["serviceroutingexample", "eventserviceexample", "docproviderexample", "jwebexample", "datacollectionexample", "valuestoreexample"]}],
+      "group_id": [{"url": "/cscr/jarvis/", "projects": ["jarvis_ios_auth", "jarvis_ios_webview",  "jarvis_ios_data_collection", "jarvis_ios_service_routing", "jarvis_ios_event_service", "jarvis_ios_doc_provider", "jarvis_mac_webview", "jarvis_mac_data_collection", "jarvis_windows_webview_x64", "jarvis_windows_datacollection_x64", "jarvis_windows_service-routing_x64", "jarvis_ios_value_store", "jarvis_windows_valuestore_x64", "jarvis_windows_docprovider_x64", "jarvis_windows_event_service_x64", "jarvis_windows_auth_x64", "jarvis_windows_storage_x64", "jarvis_windows_configuration_service_winui_x64"]},
+                     {"url": "/cscr/", "projects": ["GothamUltron"]},
+                     {"url": "com/hp/jarvis/", "projects": ["serviceroutingexample", "eventserviceexample", "docproviderexample", "jwebexample", "datacollectionexample", "valuestoreexample"]}],
+      "pkg_ext": [{"ext": "ipa", "projects": ["jarvis_ios_auth", "jarvis_ios_webview",  "jarvis_ios_data_collection", "jarvis_ios_service_routing", "jarvis_ios_event_service", "jarvis_ios_doc_provider", "jarvis_ios_value_store"]}, {"ext": "apk", "projects":["serviceroutingexample", "datacollectionexample", "eventserviceexample", "docproviderexample", "jwebexample", "valuestoreexample"]}, {"ext": "zip", "projects":["jarvis_mac_webview", "jarvis_mac_data_collection", "jarvis_windows_webview_x64", "jarvis_windows_datacollection_x64", "GothamUltron", "jarvis_windows_service-routing_x64", "jarvis_windows_valuestore_x64", "jarvis_windows_docprovider_x64", "jarvis_windows_event_service_x64", "jarvis_windows_auth_x64", "jarvis_windows_storage_x64", "jarvis_windows_configuration_service_winui_x64"]}],
+      "rest_url": [{"url": "https://nexus-int.corp.hpicloud.net/service/rest", "projects": ["serviceroutingexample", "eventserviceexample", "docproviderexample", "jwebexample", "datacollectionexample", "valuestoreexample"]}],
+      "token_name": [{"name": "nexus_int_token", "username": "OQ7tL_O3", "platform": "ANDROID", "projects": ["serviceroutingexample", "eventserviceexample", "docproviderexample", "jwebexample", "datacollectionexample", "valuestoreexample"]}],
+      "artifact_name": [{"platform": "ANDROID", "projects": {"JWEB":"jwebexample", "JWEB_SERVICE_ROUTING":"serviceroutingexample", "JWEB_DATA_COLLECTION":"datacollectionexample", "JWEB_EVENT_SERVICE": "eventserviceexample", "JWEB_DOC_PROVIDER": "docproviderexample", "JWEB_VALUE_STORE": "valuestoreexample"}},
+                        {"platform": "IOS", "projects": {"JWEB":"jarvis_ios_webview", "JWEB_AUTH":"jarvis_ios_auth",  "JWEB_SERVICE_ROUTING":"jarvis_ios_service_routing", "JWEB_EVENT_SERVICE":"jarvis_ios_event_service", "JWEB_DOC_PROVIDER": "jarvis_ios_doc_provider", "JWEB_DATA_COLLECTION": "jarvis_ios_data_collection", "JWEB_VALUE_STORE": "jarvis_ios_value_store"}},
+                        {"platform": "WINDOWS", "projects": {"JWEB": "jarvis_windows_webview_x64", "GOTHAM": "GothamUltron", "JWEB_DATA_COLLECTION": "jarvis_windows_datacollection_x64", "JWEB_SERVICE_ROUTING": "jarvis_windows_service-routing_x64", "JWEB_VALUE_STORE": "jarvis_windows_valuestore_x64", "JWEB_DOC_PROVIDER": "jarvis_windows_docprovider_x64", "JWEB_EVENT_SERVICE": "jarvis_windows_event_service_x64", "JWEB_AUTH": "jarvis_windows_auth_x64", "JWEB_STORAGE_MANAGER": "jarvis_windows_storage_x64", "JWEB_CONFIGURATION_SERVICE_WINUI": "jarvis_windows_configuration_service_winui_x64"}},
+                        {"platform": "MAC", "projects": {"JWEB": "jarvis_mac_webview"}}
+                     ]
+   },
+   "GITHUB":{
+      "token_name": [{"name": "github_partner_token", "projects": {"IOS": ["SMART"], "MAC": ["SMART"]}},
+                     {"name": "github_enterprise_token", "projects": {"ANDROID": ["HPX", "SMART", "HPPS"], 
+                                                                      "WINDOWS": ["HPAI"]}},
+                     {"name": "github_public_token", "projects": {"WINDOWS": ["HPX"]}}],
+
+      "github_root": [{"url":"https://github.azc.ext.hp.com/api/v3/", "projects": {"ANDROID": ["HPX", "SMART", "HPPS"], 
+                                                                                   "WINDOWS": ["HPAI"]}},
+                      {"url":"https://api.github.com/", "projects": {"WINDOWS": ["HPX"]}},
+                      {"url":"https://github-partner.azc.ext.hp.com/api/v3/", "projects": {"IOS": ["SMART"], "MAC": ["SMART"]}}],
+      "release_url": [{"url":"repos/HPSmartiOS/shelf/releases", "projects": {"IOS": ["SMART"], "MAC": ["SMART"]}},
+                      {"url":"repos/MobileApps/HPPrintPlugin/releases", "projects": {"ANDROID": ["HPPS"]}},
+                      {"url":"repos/MobileApps/PrinterControl/releases", "projects": {"ANDROID":["HPX", "SMART"]}},
+                      {"url":"repos/hpi-main/solution-hpx-client-windows/releases", "projects": {"WINDOWS": ["HPX"]}},
+                      {"url":"repos/helicarrier/HPAIExperienceCenter/releases", "projects": {"WINDOWS": ["HPAI"]}}],
+
+      "build_type_dict": [{"platform": "ANDROID",
+                           "version_regex": "^(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,2})",
+                           "projects": ["SMART"], 
+                           "extension": "apk",
+                           "build_type_dict": {"ga": "qaanalytics-debug",
+                                               "debug": "googlestore-debug",
+                                               "loggable": "(?<!chinastore)-loggable"}},
+                           {"platform": "ANDROID",
+                           "version_regex": "^(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,2})",
+                           "projects": ["HPX"], 
+                           "extension": "apk",
+                           "build_type_dict": {"ga": "qaanalytics-debug",
+                                               "debug": "googlestore-debug",
+                                               "loggable": "(?<!chinastore)-loggable"}},
+                           {
+                           "platform": "ANDROID",
+                           "version_regex": "^(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,2})\\.(\\d{1,2})",
+                           "projects": ["HPPS"], 
+                           "extension": "apk",
+                           "build_type_dict": {"ga": "qaanalytics-debug",
+                                                "debug": "googleplaystore-debug",
+                                                "loggable": "loggable"}},
+                              
+                           {"platform": "IOS",
+                           "projects": ["SMART"],
+                           "extension": "zip",
+                           "build_type_dict": {"ga": "^AdHoc-AiORemoteGA_",
+                                              "enterprise": "^Settings_Enterprise-AiORemote",
+                                              "adhoc": "^AdHoc-AiORemote-HPX_"}},
+                              {"platform": "MAC",
+                               "projects": ["SMART"],
+                              "extension": "zip",
+                              "build_type_dict": 
+                                             {"adhoc": "^Standalone-Catalyst"}
+                              },
+
+                          {"platform": "WINDOWS",
+                           "projects": ["HPX"],
+                           "extension": "zip",
+                           "build_type_dict": {"development": "DEV",
+                                               "pie": "INTEGRATION",
+                                               "stage": "STAGE",
+                                               "production": "\\d_PRODUCTION",
+                                               "rebrand_development": "REBRAND_DEV",
+                                               "rebrand_pie": "REBRAND_INTEGRATION",
+                                               "rebrand_stage": "REBRAND_STAGE",
+                                               "rebrand_production": "\\d_REBRAND_PROD"}},
+                           {
+                              "platform": "WINDOWS",
+                              "projects": ["HPAI"],
+                              "extension": "zip",
+                              "build_type_dict": {"debug": "HPAIExperienceCenter"}
+                           }]
+                          
+   }
+}

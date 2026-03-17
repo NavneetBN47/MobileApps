@@ -1,0 +1,332 @@
+{
+
+  "scan_settings_btn": {
+   "locator": {"id": "btn_scan_settings" }
+},
+  "place_content_txt": {
+   "locator": {"str_id": "mediascan_scanner_msg"}
+},
+  "exit_btn": {
+   "locator": {"id": ["btn_home", "captureClose"]}
+},
+"gear_btn": {
+   "locator": {"id": "captureOptionsGear"}
+},
+"book_page_order_btn": {
+   "locator": {"id": "bookPageMode"}
+},
+"book_page_switch_btn": {
+   "locator": {"id": "multiplePageOrder"},
+   "_comment": "Only visible when book pages is active"
+},
+"pages_icon": {
+   "locator": {"id": "image"}
+},
+  "preview_btn": {
+   "locator": {"id": "btn_scan_preview"}
+},
+"flash_btn": {
+   "locator": {"id": "cameraFlash"}
+},
+"capture_btn": {
+   "locator": {"id": ["performScan", "printerScanButton"]}
+},
+"camera_progress_icon": {
+   "locator": {"id": "captureButtonProgress"}
+},
+"no_camera_access_txt": {
+   "locator": {"str_id": "camera_permission_no_access_title"}
+},
+"allow_camera_access_btn": {
+   "locator": {"id": "buttonAllowAccess"}
+},
+"scanning_page_msg": {
+   "locator": {"id": "status_message"}
+},
+"settings_title_txt": {
+   "locator": {"xpath": ["//android.view.ViewGroup[@resource-id='com.hp.printercontrol.debug:id/topAppBar']/android.widget.TextView",
+                        "//android.view.ViewGroup[@resource-id='com.hp.printercontrol.debug:id/topAppBar']/android.widget.TextView[@text='{}']"]}
+},
+"settings_label_txt": {
+   "locator": {"xpath": "//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/settingNameTextView' and @text='{}']"},
+   "_comment": "Locates a scan setting on the scan settings screen"
+},
+"selected_setting_option_txt": {
+   "locator": {"xpath": "//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/settingNameTextView' and @text='{}']/following-sibling::android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/settingCurrentValueTextView']"},
+   "_comment": "Locates the selected setting option on the scan settings screen"
+},
+"settings_option_btn": {
+   "locator": {"xpath": "//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/settingValueTextView' and @text='{}']"},
+   "_comment": "Locates a scan setting option on one of the scan settings screens"
+},
+"scan_setting_txt": {
+   "locator": {"str_id": "scan_settings"}
+},
+"page_size_setting_txt": {
+   "locator": {"str_id": "page_size"}
+},
+"source_setting_txt": {
+   "locator": {"str_id": "scanning_source"}
+},
+"resolution_setting_txt": {
+   "locator": {"str_id": "scan_resolution"}
+},
+"color_setting_txt": {
+   "locator": {"str_id": "color"}
+},
+"3.5x5_page_size_txt": {
+   "locator": {"str_id": "input_type_image_3x5"}
+},
+"4x6_page_size_txt": {
+   "locator": {"str_id": "input_type_image_4x6"}
+},
+"5x7_page_size_txt": {
+   "locator": {"str_id": "input_type_image_5x7"}
+},
+"letter_page_size_txt": {
+   "locator": {"str_id": "input_type_document_letter"}
+},
+"a4_page_size_txt": {
+   "locator": {"str_id": "input_type_document_a4"}
+},
+"scanner_source_txt": {
+   "locator": {"str_id": "input_source_glass"}
+},
+"feeder_source_txt": {
+   "locator": {"str_id": "input_source_feeder"}
+},
+"75_dpi_resolution_txt": {
+   "locator": {"str_id": "scan_res_75"}
+},
+"100_dpi_resolution_txt": {
+   "locator": {"str_id": "scan_res_100"}
+},
+"200_dpi_resolution_txt": {
+   "locator": {"str_id": "scan_res_200"}
+},
+"300_dpi_resolution_txt": {
+   "locator": {"str_id": "scan_res_300"}
+},
+"color_color_txt": {
+   "locator": {"str_id": "color"}
+},
+"black_color_txt": {
+   "locator": {"str_id": "color_setting_black"}
+},
+"current_settings_txt": {
+   "locator": {"xpath": ["//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/settingCurrentValueTextView' and @text = '{}']",
+                         "//android.widget.TextView[@resource-id='com.hp.printercontrol:id/settingCurrentValueTextView' and @text = '{}']"]}
+},
+"preferences_title": {
+   "locator": {
+      "str_id": "scanning_preferences"}
+},
+"enhancement_switch": {
+   "locator": {"xpath": "//*[@text='{}']/../../descendant::android.widget.Switch"},
+   "_comment": "Use with the str_id value from *_setting locators"
+},
+"auto_enhancements_enhancement": {
+   "locator": {
+      "str_id": "scanning_auto_enhancements_title"}
+},
+"auto_heal_enhancement": {
+   "locator": {
+      "str_id": "scanning_auto_heal_title"}
+},
+"auto_orientation_enhancement": {
+   "locator": {
+      "str_id": "scanning_auto_orientation_title"}
+},
+"flatten_book_pages_enhancement": {
+   "locator": {
+      "str_id": "scanning_flatten_book_title"}
+},
+"source_btn": {
+   "locator": {"id": "image_source"}
+},
+"camera_source_btn": {
+   "locator": {"id": "source_camera_scan_title"}
+},
+"printer_scan_source_btn": {
+   "locator": {"id": "source_printer_scan_title"}
+},
+"files_photo_source_btn": {
+   "locator": {"id": "source_files_title"}
+},
+"scan_mode_recycler": {
+   "locator": {"id": "cameraOptionsRecyclerview"}
+},
+"mode_btn": {
+   "locator": {"id": "optionTextView"}
+},
+"selected_mode_btn": {
+   "locator": {"xpath": ["//*[@resource-id='com.hp.printercontrol.debug:id/optionTextView' and @selected='true']", 
+                        "//*[@resource-id='com.hp.printercontrol.debug:id/optionTextView' and @selected='true' and @text='{}']"]}
+},
+"photo_mode_btn": {
+   "locator": {"str_id": "photo"}
+},
+"text_extract_mode_btn": {
+   "locator": {"str_id": "title_text_extract"}
+ },
+ "text_extract_continue_btn":{
+   "locator":{"id": "text_extract_action_button"}
+},
+"extracting_text_title":{
+   "locator":{"id": "dialog_text_extract_title"}
+},
+"text_extract_title_txt": {
+   "locator": {"str_id":"title_text_extract"}
+},
+"text_extract_no_text_title": {
+   "locator":{"xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/title']//*[@text='{}']" }
+},
+"text_extract_language": {
+   "locator":{"xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/ocrLanguageTextView' and @text='{}']" }
+},
+"copy_to_clipboard_btn": {
+   "locator":{"id": "copy-to-clipboard-button"}
+},
+"text_extract_edit_text": {
+   "locator":{"xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/coordinatorLayout']//*/android.widget.EditText" }
+},
+"document_mode_btn":{
+   "locator": {"str_id": "document"}
+},
+"batch_mode_btn":{
+   "locator": {"str_id": "batch"}
+},
+"id_card_mode_btn": {
+   "locator": {"str_id": "id_card"}
+},
+"book_mode_btn":{
+   "locator": {"str_id": "book"}
+},
+"multi_item_mode_btn":{
+   "locator": {"str_id": "multi_item"}
+},
+"auto_btn": {
+   "locator": {"id": "captureMode"}
+},
+"scan_error_title": {
+    "locator": {"id": "alertTitle"}
+},
+"adjust_next_btn": {
+   "locator": {"id": "crop_and_enh_action"}
+},
+"adjust_opt_auto_btn": {
+   "locator": {"id": "auto_image"}
+},
+"adjust_opt_full_btn": {
+   "locator": {"id": "reset_image"}
+},
+"capture_tips_popup": {
+   "locator": {"id": "title"}
+},
+"capture_tips_ok_btn": {
+   "locator": {"id": "okay_button"}
+},
+"scanning_adjust_settings_txt": {
+   "locator": {"str_id": "scanning_adjust_scan_settings_and_auto_enhancements"},
+   "_comment": "First coachmark text"
+},
+"scanning_adjust_capture_settings_txt": {
+   "locator": {"str_id": "scanning_adjust_scan_capture_settings"},
+   "_comment": "Second coachmark text"
+},
+"scanning_select_preset_txt": {
+   "locator": {"str_id": "scanning_select_the_preset_you_would_like_to_use"}
+},
+"tap_to_start_scan_txt": {
+   "locator": {"str_id": "scanning_tap_here_to_start_a_scan_from_your_hp_printer"},
+   "_comment": "Third coachmark text"
+},
+"change_the_source_txt": {
+   "locator": {"str_id": "scanning_tap_to_change_the_source_of_your_scan"},
+   "_comment": "Fourth coachmark text"
+},
+"coachmark_next_btn": {
+   "locator": {"id": "cmark_scan_next"},
+   "_comment": "This is also the locator for the ✓ button on the last coachmark"
+},
+"coachmark_close_btn": {
+   "locator": {"id": "cmark_scan_close"}
+},
+"coachmark_back_btn": {
+   "locator": {"id": "cmark_scan_previous"}
+},
+"coachmark_status_txt": {
+   "locator": {"id": "cmark_scan_status"}
+},
+"book_guide_page_one": {
+   "locator": {"id": "icMultiplePageOrderLeft"}
+},
+"book_guide_page_two": {
+   "locator": {"id": "icMultiplePageOrderRight"}
+},
+"book_guide_divider": {
+   "locator": {"id": "multiplePageOrderDivider"}
+},
+"bubble_msg": {
+   "locator": {
+      "id": ["status_message", "textProgressStatus"],
+      "xpath": [
+         "//*[@resource-id='com.hp.printercontrol.debug:id/status_message' and @text='{}']",
+         "//*[@resource-id='com.hp.printercontrol.debug:id/textProgressStatus' and @text='{}']"
+      ],
+      "_comment": "format_specifier should be from '*_msg_txt' locator str_id values"
+   }
+},
+"scanning_page_msg_txt": {
+   "locator": {"str_id": "scan_status_transfer_data_page"}
+},
+"id_front_msg_txt": {
+   "locator": {"str_id": "id_front"}
+},
+"id_back_msg_txt": {
+   "locator": {"str_id": "id_back"}
+},
+"id_front_scanner_msg_txt": {
+   "locator": {"str_id": "mediascan_scanner_card_id_front"}
+},
+"id_back_scanner_msg_txt": {
+   "locator": {"str_id": "mediascan_scanner_card_id_back"}
+},
+"center_content_msg_txt": {
+   "locator": {"str_id": "scanning_center_content_in_camera_frame"}
+},
+"center_multiple_msg_txt": {
+   "locator": {"str_id": "scanning_center_2_3_items_in_camera_frame"}
+},
+"processing_msg_txt": {
+   "locator": {"str_id": "status_msg_processing"}
+},
+"book_corners_msg_txt": {
+   "locator": {"str_id": "capture_all_four_corders"}
+},
+"id_preview_front_title_txt": {
+   "locator": {"str_id": "scan_id_card_front"}
+ },
+ "id_preview_back_title_txt": {
+   "locator": {"str_id": "scan_id_card_back"}
+ },
+ "id_preview_next_btn": {
+   "locator": {"id": "action_next"}
+ },
+ "id_preview_rotate_btn": {
+   "locator": {"id": "rotateImageButton"}
+ },
+ "id_preview_page_opts_btn": {
+   "locator": {"id": "pageOptionsButton"}
+ },
+ "id_preview_img": {
+   "locator": {"id": ["previewImageView", 
+                     "previewBackImageView"]}
+ },
+ "replace_page_opt_btn": {
+   "locator": {"str_id": "replace"}
+ },
+ "edit_page_opt_btn": {
+   "locator": {"str_id": "edit"}
+ }
+}

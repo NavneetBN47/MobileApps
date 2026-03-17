@@ -1,0 +1,164 @@
+{
+    "welcome_title": {
+        "_comment": "img for stage stack",
+        "locator": {
+            "css selector": "#title-text",
+            "id": "graphic",
+            "name": "Welcome to HP Smart",
+            "xpath": [
+                "//android.widget.Image[@resource-id = 'graphic']",
+                "//android.widget.TextView[@resource-id = 'title-text']",
+                "//XCUIElementTypeStaticText[@label='Welcome to HP Smart']"
+            ]
+        }
+    },
+    "welcome_message": {
+        "locator": {
+            "css selector": "div#hpsmart-content",
+            "id": [
+                "title-text",
+                "hpsmart-content"
+            ],
+            "xpath": [
+                "//android.view.View[@resource-id ='hpsmart-content']",
+                "//XCUIElementTypeStaticText[contains(@label, 'When using this app, HP collects some')]",
+                "//XCUIElementTypeStaticText[contains(@value, 'When using this app, HP collects some')]"
+            ]
+        }
+    },
+    "accept_all_btn": {
+        "locator": {
+            "xpath": [
+                "//android.widget.Button[@text='Accept all']",
+                "//android.widget.Button[@text='Accept All']",
+                "//android.widget.Button[@resource-id ='consent-accept-all-button']",
+                "//XCUIElementTypeButton[@label='Accept All']"
+            ],
+            "id": "consent-accept-all-button",
+            "name": ["Accept All", "Accept all"],
+            "css selector": "button#consent-accept-all-button"
+        }
+    },
+    "decline_all_btn": {
+        "locator": {
+            "id": "consent-decline-all-button"
+        }
+    },
+     "decline_optional_data_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Decline Optional Data']"
+        }
+    },
+    "manage_options_btn":{
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Manage Options']"
+        }
+    },
+    "hp_privacy_statement_link": {
+        "locator": {
+            "css selector": [
+                "a[href='https://hp.com/go/privacy']",
+                "a[href='https://hp.com/privacy']"
+            ],
+            "xpath": [
+                "//XCUIElementTypeLink[@name='HP Privacy Statement']",
+                "//Pane[@AutomationId='webView']//HyperLink[1]",
+                "//XCUIElementTypeStaticText[@name ='HP Privacy Statement']",
+                "//a[@href='https://hp.com/privacy' and text()='HP Privacy Statement']",
+                "//a[contains(text(), 'HP Privacy Statement')]"
+            ]
+        }
+    },
+    "terms_of_use_link": {
+        "locator": {
+            "css selector": "a[href='https://www.hpsmart.com/tou']",
+            "xpath": [
+                "//XCUIElementTypeLink[@name='HP Smart Terms of Use']",
+                "//Pane[@AutomationId='webView']//HyperLink[2]",
+                "//android.view.View[@content-desc ='HP Smart Terms of Use']",
+                "//a[contains(text(), 'Terms of Use')]"
+            ]
+        }
+    },
+    "eula_link": {
+        "locator": {
+            "css selector": "a[href='http://www.hp.com/go/sweula']",
+            "xpath": [
+                "//XCUIElementTypeLink[@name='End User License Agreement']",
+                "//Pane[@AutomationId='webView']//HyperLink[3]",
+                "//a[contains(text(), 'End User License Agreement')]"
+            ]
+        }
+    },
+    "term_use_page_title": {
+        "locator": {
+            "id": "pageContentContainer",
+            "xpath": ["//android.widget.Button[@resource-id ='mobile-menu-toggle']","//h2[text()='myHP Terms of Use – Worldwide']"]
+        }
+    },
+    "select_location_title": {
+        "locator": {
+            "css selector": "h3#select-country-header",
+            "xpath": "//h1[@class='title topictitle1']"
+        }
+    },
+    "privacy_statement_title": {
+        "locator": {
+            "css selector": ["a[data-metrics-title='hpprivacy-statements']","h1.title.font-white.h1"]
+        }
+    },
+    "manage_options": {
+        "locator": {
+            "css selector": [
+                "button#consent-continue-button",
+                "button#consent-manage\\=options-button"
+            ],
+            "id": "consent-manage=options-button",
+            "xpath": "//android.widget.Button[@resource-id ='consent-manage=options-button']",
+            "name": "Manage Options"
+        }
+    },
+    "app_analytics_toggle": {
+        "locator": {
+            "css selector": "span#app-analytics-toggle"
+        }
+    },
+    "personalized_suggestions_toggle": {
+        "locator": {
+            "css selector": "span#personalized-suggestions-toggle"
+        }
+    },
+    "advertising_toggle": {
+        "locator": {
+            "css selector": "span#advertising-toggle"
+        }
+    },
+    "continue_btn": {
+        "locator": {
+            "name": "Continue",
+            "str_id": "cContinue",
+            "xpath": "//button[@id='consent-continue-button']"
+        }
+    },
+    "allow_permission_adv_text": {
+        "locator": {
+            "name": "Allow permission for advertising tracking",
+            "str_id": "cAllowPermissionForAdTracking"
+        }
+    },
+    "welcome_webview": {
+        "locator": {
+            "xpath": "//XCUIElementTypeWebView"
+        }
+    },
+    "back_btn": {
+        "locator": {
+            "xpath": "//button[@id='consent-back-button']"
+        }    
+    },
+    "learn_more_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeLink[@name='Learn More']"
+        }
+    }
+}

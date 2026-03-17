@@ -1,0 +1,57 @@
+{
+  "menu_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Toggle Menu']"
+    }
+  },
+  "expand_plugins_menu_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Plugins']"
+    }
+  },
+  "service_routing_plugin_link": {
+    "locator": {
+      "xpath": "//XCUIElementTypeLink[@name='Service Routing']"
+    }
+  },
+  "launch_service_options_availability_test_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@name, 'LaunchOptions()')]/following::XCUIElementTypeButton"
+    }
+  },
+  "service_options_availability_result_text": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@name, 'LaunchOptions()')]/following::XCUIElementTypeStaticText[3]"
+    }
+  },
+  "service_availability_service_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[contains(@name,'The id of the service')]/following::XCUIElementTypeTextField"
+    }
+  },
+  "launch_service_svc_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[contains(@name,'The identifier of the service')]/following::XCUIElementTypeTextField"
+    }
+  },
+  "service_launch_data": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[contains(@name,'Service Launch Data')]/following::XCUIElementTypeTextField"
+    }
+  },
+  "weblet_back_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Weblet']"
+    }
+  },
+  "done_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Done']"
+    }
+  },
+  "close_service_options_test_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@name, 'closeServiceInstance()')]/following::XCUIElementTypeButton"
+    }
+  }
+}

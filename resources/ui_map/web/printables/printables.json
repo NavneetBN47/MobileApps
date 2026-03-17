@@ -1,0 +1,9 @@
+{
+    "printables_title": {
+        "locator": {
+            "xpath": ["//XCUIElementTypeStaticText[@name='Printables']",
+                    "//h1[text()='Printables']",
+                    "//android.view.View[@content-desc='Printables']"]
+        }
+    }
+}

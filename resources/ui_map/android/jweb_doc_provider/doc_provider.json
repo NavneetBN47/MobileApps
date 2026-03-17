@@ -1,0 +1,42 @@
+{
+  "services_btn": {
+    "locator": {
+      "xpath": "//android.widget.ImageView[@content-desc='More options']"
+    }
+  },
+  "file_system_doc_source_option": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='DocSource']"
+    }
+  },
+  "doc_transformer_option": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='DocTransformer']"
+    }
+  },
+  "doc_destination_option": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='DocDestination']"
+    }
+  },
+  "doc_set": {
+    "locator": {
+      "xpath": "//androidx.recyclerview.widget.RecyclerView[contains(@resource-id,'doc_sets')]//android.widget.TextView"
+    }
+  },
+  "docs_button": {
+    "locator": {
+      "xpath": "//android.widget.Button[@text='DOCS']"
+    }
+  },
+  "doc_item": {
+    "locator": {
+      "xpath": "//android.widget.TextView[contains(@text,'{}')]"
+    }
+  },
+  "doc_item_data": {
+    "locator": {
+      "id": "android:id/message"
+    }
+  }
+}

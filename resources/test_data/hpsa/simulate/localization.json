@@ -1,0 +1,54 @@
+{
+    "C31822659": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP EliteBook 840 G8 Notebook PC (26D60AV)",
+                "serialNumber":"5CG203385D",
+                "productNumber":"3X9P5UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale": "th-TH", 
+            "@hp-support/region": "TH"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP EliteBook 840 G8 Notebook PC (26D60AV)",
+                "serialNumber":"5CG203385D",
+                "productNumber":"3X9P5UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale": "th-TH", 
+            "@hp-support/region": "TH"
+        }
+    },
+    "C31822658": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP EliteBook 840 G8 Notebook PC (26D60AV)",
+                "serialNumber":"5CG203385D",
+                "productNumber":"3X9P5UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale": "ar-SA", 
+            "@hp-support/region": "ar-SA"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP EliteBook 840 G8 Notebook PC (26D60AV)",
+                "serialNumber":"5CG203385D",
+                "productNumber":"3X9P5UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale": "ar-SA", 
+            "@hp-support/region": "ar-SA"
+        }
+    }
+}

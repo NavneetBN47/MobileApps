@@ -1,0 +1,12 @@
+{
+  "cancel_button": { 
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Cancel']"
+    }
+  },
+  "continue_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Continue']"
+    }
+  }
+}

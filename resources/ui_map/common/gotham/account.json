@@ -1,0 +1,12 @@
+{
+    "sign_out_dialog_title": {
+        "locator": {"id": "HpcSignOutDialog_Title"}
+    },
+    "cancel_btn": {
+        "locator": {"id": "HpcSignOutDialog_CancelBtn"}
+    },
+    "sign_out_btn": {
+        "locator": {"id": "HpcSignOutDialog_SignOutBtn"}
+    }
+
+}

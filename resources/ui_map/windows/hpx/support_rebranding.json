@@ -1,0 +1,57 @@
+{
+    "rebranding_btn1":{
+        "locator":{
+            "xpath":"//*[@ClassName='styles__Tab-@hpx-core-experiences/react-navigation-layout__sc-5jskd3-1 jlxdEv']"
+        }
+    },
+    "rebranding_btn2":{
+        "locator":{
+            "xpath":"//*[@ClassName='clientos-ui-toolkit-primary-device-card__card-summary__device-name']"
+        }
+    },
+    "rebranding_btn3":{
+        "locator":{
+            "xpath":"//*[@ClassName='clientos-ui-toolkit-button clientos-ui-toolkit-button--navigation clientos-ui-toolkit-button--medium icon-button css-upwfw']"
+        }
+    },
+    "rebranding_btn4":{
+        "locator":{
+            "xpath":"//*[@ClassName='clientos-ui-toolkit-button clientos-ui-toolkit-button--tertiary clientos-ui-toolkit-button--large css-c73gym']"
+        }
+    },
+    "sn_input":{
+        "locator":{
+            "xpath":"//*[@ClassName='css-1247jht']"
+        }
+    }, 
+    "rebranding_btn5":{
+        "locator":{
+            "xpath":"//*[@ClassName='clientos-ui-toolkit-primary-device-card__card-device-image-container__device-image']"
+        }
+    },
+    "rebranding_btn6":{
+        "locator":{
+            "xpath":"//*[@Name='Arrow Right']"
+        }
+    },
+    "country_dropdown":{
+        "locator":{
+            "xpath":"//*[contains(@Name, 'Country/region')]"
+        }
+    },
+    "country_option":{
+        "locator":{
+            "xpath":"//*[@Name='{}']"
+        }
+    },
+    "show_more_btn":{
+        "locator":{
+            "xpath":"//*[@ClassName='clientos-ui-toolkit-button clientos-ui-toolkit-button--ghost clientos-ui-toolkit-button--large css-1dokmgx']"
+        }
+    },
+    "start_va_btn":{
+        "locator":{
+            "xpath":"//*[@Name='Start Virtual Assistant']"
+        }
+    }
+}

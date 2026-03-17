@@ -1,0 +1,423 @@
+{
+    "hpid_header": {
+        "locator": {
+            "css selector": "div.hpid-header"
+        }
+    },
+    "privacy_link": {
+        "locator":{
+            "id": "privacy"
+        }
+    },
+    "hpid_popup_window": {
+        "locator":{
+            "id": "Popup Window"
+        }
+    },
+    "dialog_close_btn": {
+        "_comment": "Included Windows, iOS, Mac, Android native locator",
+        "locator": {
+            "name": "Close",
+            "xpath": "//TitleBar[@AutomationId='TitleBar']/Button[@AutomationId='Close']"
+        }
+    },
+    "sign_in_text_box_label": {
+        "locator": {
+            "xpath": "//*[@id='username-label']"
+        }
+    },
+    "sign_in_username_txt_box": {
+        "_comment": "Included Windows, iOS, Mac, Android native locator",
+        "locator": {
+            "css selector": ["#username","input#login-email"],
+            "xpath": ["//*[@resource-id='username']","//Edit[@AutomationId='username']",
+            "//AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup/AXTextField[@AXDOMIdentifier='username']"],
+            "id": "username"
+        }
+    },
+    "entered_username_text": {
+        "locator": {
+            "xpath": "//p[contains(text(),'{}')]"
+        }
+    },
+    "sign_in_password_txt_box": {
+        "_comment": "Included Windows, iOS, Mac, Android native locator",
+        "locator": {
+            "css selector": "#password",
+            "xpath": ["//*[@resource-id='password']", "//Edit[@AutomationId='password']",
+            "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup[@AXDOMIdentifier='passwordContainer']/AXTextField[@AXValue='Password' and @AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']"],
+            "id": "password",
+            "name": "Use password"
+        }
+    },
+    "sign_in_next_btn": {
+        "_comment": "Included Windows, iOS, Mac, Android native locator",
+        "locator": {
+            "css selector": ["#user-name-form-submit","button#btnContinue", "#use-password"],
+            "name": "Next",
+            "xpath": ["//*[@resource-id='user-name-form-submit']", "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup/AXButton[@AXTitle='NEXT']"],
+           "id": ["user-name-form-submit", "use-password", "otp-username-form-submit"]
+      }
+    },
+
+    "sign_in_button": {
+        "_comment": "Included Windows native locator, Mac, Android, Mac native locator",
+        "locator": {
+            "css selector": "button#sign-in",
+            "xpath": ["//*[@resource-id='sign-in']", "//Button[@Name='Sign In']",
+            "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup/AXButton[@AXTitle='SIGN IN']"
+            ],
+            "id": "sign-in"
+        }
+    },
+    "create_account_link": {
+        "locator": {
+            "css selector": "#sign-up",
+            "id": "sign-up"
+        }
+    },
+    "account_exists_alert": {
+        "locator": {
+            "id": "already-exists"
+        }
+    },
+    "sign_in_link_from_create_account": {
+        "locator": {
+            "css selector": "#sign-in",
+            "id": "sign-in"
+        }
+    },
+    "sign_up_form_firstname_txtbx": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": ["//Edit[@AutomationId='firstName']", "//*[@resource-id='firstName']"],
+            "css selector": "#firstName",
+            "id" : "firstName"
+        }
+    },
+    "sign_up_form_lastname_txtbx": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "css selector": "#lastName",
+            "xpath": ["//Edit[@AutomationId='lastName']", "//*[@resource-id='lastName']"],
+            "id": "lastName"
+        }
+    },
+    "enter_email_address":{
+        "locator": {
+            "css selector":"#username"
+        }
+    },
+    "next_btn": {
+        "locator": {
+            "css selector": "#otp-username-form-submit"
+        }
+    },
+    "first_name_box": {
+        "locator": {
+            "css selector":"#firstName"
+        }
+    },
+    "last_name_box":{
+        "locator":{
+            "css selector":"#lastName"
+        }
+    },
+    "use_password_btn":{
+        "locator":{
+            "id": ["use-password-button", "use-password-btn"],
+            "css selector":"#use-password-btn"
+        }
+    },
+    "sign_up_form_email_txtbx": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "css selector": "#email",
+            "xpath": ["//Edit[@AutomationId='email']", "//*[@resource-id='email']"],
+            "id": "email"
+        }
+    },
+    "sign_up_form_create_password": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": ["//Edit[@AutomationId='password']", "//*[@resource-id='password']"],
+            "css selector": "#password",
+            "id": "password"
+        }
+    },
+    "sign_up_form_confirm_password": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": "//Edit[@AutomationId='confirmPassword']",
+            "id": "confirmPassword"
+        }
+    },
+    "captcha_iframe":{
+        "locator":{
+            "css selector": "div.captcha_iframe iframe"
+        }
+    },
+    "sign_up_form_country_drop_down": {
+        "locator": {
+            "class name": "#vn-select__title"
+        }
+    },
+    "sign_up_form_create_account_button": {
+        "locator": {
+            "css selector": "#create-account-btn",
+            "xpath": ["//*[@resource-id='sign-up-submit']"],
+            "id": "create-account-btn"
+        }
+    },
+    "invalid_credential_msg": {
+        "locator": {
+            "css selector": "p.vn-form-field__error-message"
+        }
+    },
+    "email_verification_header": {
+        "locator": {
+            "css selector": ["div.email-header",
+                             "div.code-desc"]
+        }
+    },
+    "verification_code_txt_box": {
+        "locator": {
+            "css selector": "input#code",
+            "id": "code"
+        }
+    },
+    "verification_code_submit_btn": {
+        "locator": {
+            "css selector": "button#submit-code",
+            "id": "submit-code"
+        }
+    },
+    "resend_verification_code_btn":{
+        "locator":{
+            "css selector": "#resend-email-code",
+            "id":"resend-email-code"
+        }
+    },
+    "continue_btn": {
+        "locator": {
+            "css selector": "button#continue-button",
+            "id": "continue-button"
+        }
+    },
+    "back_btn": {
+        "locator": {
+            "css selector": "#back-link",
+            "xpath": ["//XCUIElementTypeButton[@label='Back']", "//button[@aria-label='back-link']"]
+        }
+    },
+    "send_email_msg_txt": {
+        "locator": {
+            "css selector": "div.email-desc"
+        }
+    },
+    "send_email_btn": {
+        "locator": {
+            "css selector": "button#send-email",
+            "id": "send-email"
+        }
+    },
+    "create_your_hp_account_button": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": [
+                "//h5[@class='sign-up-title']",
+                "//button[@id='sign-up-submit']",
+                "//a[@id='sign-up']",
+                "//XCUIElementTypeButton[@label='CREATE ACCOUNT']",
+                "//Button[@AutomationId='sign-up-submit']"
+            ]
+        }
+    },
+    "create_your_hp_account_page_title": {
+        "_comment": "Included Windows and Mac native locator",
+        "locator": {
+            "xpath": [
+                "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXHeading[@AXTitle='Create your HP account']/AXStaticText[@AXValue='Create your HP account']"
+            ]
+        }
+    },
+    "privacy_accept_btn": {
+        "locator": {
+            "xpath" : ["//*[@resource-id='com.android.chrome:id/ack_button']"],
+            "css selector": "button#onetrust-accept-btn-handler"
+        }
+    },
+    "privacy_pop_up": {
+        "locator": {
+            "xpath" : ["//*[@resource-id='com.android.chrome:id/ack_button']"],
+            "css selector": ["div#onetrust-policy", "#onetrust-banner-sdk.otCenterRounded.default.vertical-align-content.ot-fade-in"]
+        }
+    },
+    "more_pop_up": {
+        "locator": {
+            "xpath" : ["//*[@resource-id='com.android.chrome:id/more_button']"]
+            }
+    },
+    "privacy_more_options_btn": {
+        "locator": {
+            "css selector": "button#onetrust-pc-btn-handler"
+        }
+    },
+    "login_help_dialog_continue_btn": {
+        "locator": {
+            "xpath" : [
+                "//android.widget.Button[@text='Select here to continue']",
+                "//android.widget.Button[@resource-id='manual-redirect-button']",
+                "//*[@resource-id='manual-redirect-button']"],
+            "css selector": "#manual-redirect-button"
+        }
+    },
+    "resend_email_btn": {
+        "locator": {
+            "css selector": "button#resend-email-code",
+            "id": "resend-email-code"
+        }
+    },
+    "country_region_label": {
+        "locator": {
+            "css selector": "#countryResidence",
+            "id": "countryResidence"
+        }
+    },
+     "edit_email_btn": {
+        "locator": {
+            "css selector": "button#edit-email",
+            "id": "edit-email"
+        }
+    },
+    "popup_close_btn": {
+        "_comment": "Included Windows HPID popup in HPX",
+        "locator": {
+            "xpath": "//*[@AutomationId='Popup Window']//*[2]//*[2]"
+        }
+    },
+    "sign_in_with_mobile_number_btn": {
+        "locator": {
+            "id": "switch-username"
+        }
+    },
+    "country_iso_code":
+    {
+        "locator": {
+            "id": "isoCode"
+        }
+    },
+    "search_for_country_iso_code": {
+        "locator": {
+            "xpath":"//Edit[@Name='Search']"
+        }
+    },
+    "country_iso_code_india":{
+        "locator":{
+            "id":"isoCode-option-42",
+            "xpath": "//Text[@Name='India']"
+        }
+
+    },
+    "mobile_number_txt_box": {
+        "locator": {
+            "id": "phoneNumber"
+        }
+    },
+    "enter_your_first_name_error": {
+        "locator": {
+            "id": "firstName-helper-text",
+            "xpath": "//Text[@Name='Enter your first name']"
+        }
+    },
+    "enter_your_last_name_error": {
+        "locator": {
+            "id": "lastName-helper-text",
+            "xpath":"//Text[@Name='Enter your last name']"
+        }
+    },
+    "enter_your_email_error": {
+        "locator": {
+            "id": "username-helper-text",
+            "xpath": "//Text[@Name='Enter your email address']"
+        }
+    },
+    "create_your_password_error": {
+        "locator": {
+            "xpath": "//Text[@Name='Create a password']"
+        }
+    },
+    "forgot_your_user_name_link": {
+        "locator": {
+            "id": "forgot-cred"
+        }
+    },
+    "recover_username":{
+        "locator":{
+            "id":"recoveryInput"
+        }
+    },
+    "recover_username_next_btn": {
+        "locator": {
+            "id": "username-recovery"
+        }
+    },
+    "username_recovery_success_msg": {
+        "locator": {
+            "xpath": "//Text[contains(@Name, 'exists in our database')]"
+        }
+    },
+    "forgot_your_password_link": {
+        "locator": {
+            "id": "forgot-password"
+        }
+    },
+    "privacy_statement_title": {
+        "locator": {
+            "xpath": "//Text[starts-with(@Name, 'HP') and contains(@Name, 'Privacy Statement')]"
+        }
+    },
+    "enter_your_email_txtbx": {
+        "locator": {
+            "id": ["email", "username"]
+        }
+    },
+    "use_without_an_account_button": {
+        "locator": {
+            "xpath": [
+                "//*[@resource-id='com.android.chrome:id/signin_fre_dismiss_button']",
+                "//android.widget.Button[@text='Use without an account']",
+                "//android.widget.Button[@resource-id='settings-btn']"
+                     ]
+        }
+    },
+    "check_ad_privacy_popup": {
+        "locator": {
+            "xpath": [
+                "android.widget.TextView[@text='Turn on an ad privacy feature']",
+                "//*[@resource-id='com.android.chrome:id/privacy_sandbox_m1_consent_description_4']"
+                    ]
+        }
+    },
+    "no_thanks_ad_privacy_popup": {
+        "locator": {
+            "xpath": [
+                "//*[@resource-id='com.android.chrome:id/no_button']",
+                "//android.widget.Button[@text='No Thanks']"
+                     ]
+        }
+    },
+    "got_it_btn_other_ads":{
+        "locator": {
+            "xpath": [
+                "//*[@resource-id='com.android.chrome:id/ack_button']",
+                "//android.widget.Button[@text='Got It']"
+                     ]
+        }
+    },
+    "click_sign_in_text":{
+        "locator": {
+            "xpath": "//android.widget.TextView[@text='Sign in']"
+        }
+    }
+}

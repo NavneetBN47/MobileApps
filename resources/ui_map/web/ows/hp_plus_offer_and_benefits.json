@@ -1,0 +1,199 @@
+{
+    "header":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-3063"},
+        "locator":{"css selector":".aArqSOZ7OoulU4jHtKOvO"}
+    },
+    "subheader":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-3063"},
+        "locator":{"css selector":".aPrhlWOWeSZJVHodccWmG"}
+    },
+    "left_benefits[0]_benefit_text":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-3063"},
+        "locator":{"xpath":"//*[@id='hp-plus-benefits']/div[3]/section/div[1]/p"}
+    },
+    "left_benefits[1]_benefit_text":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-3063"},
+        "locator":{"xpath":"//*[@id='hp-plus-benefits']/div[3]/section/div[2]/p"}
+    },
+    "left_benefits[2]_benefit_text":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-3063"},
+        "locator":{"xpath":"//*[@id='hp-plus-benefits']/div[3]/section/div[3]/p"}
+    },
+    "left_benefits[3]_benefit_text":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-3063"},
+        "locator":{"xpath":"//*[@id='hp-plus-benefits']/div[3]/section/div[4]/p"}
+    },
+    "hp_plus_printer_benefits_page":{
+        "locator":{"css selector":"[data-testid='container']"}
+    },
+    "printer_activation_hp_plus_benefits":{
+        "locator":{"css selector":"[data-testid='hp-plus-benefits']"}
+    },
+    "hp_plus_continue_btn":{
+        "locator":{"css selector":"[data-testid='continue']"}
+    },
+    "decline_hp_plus":{
+        "locator":{"css selector":"[data-testid='decline']"}
+    },
+    "decline_hp_plus_offer_btn":{
+        "locator":{"css selector":"[data-testid='modal-button-0']"}
+    },
+    "exclusive_hp_plus_offer_overlay_modal":{
+        "locator":{"css selector":["#generic-modal-desc","[aria-describedby='generic-modal-desc']"]}
+    },
+    "back_to_hp_plus_offer_btn":{
+        "locator":{"css selector":"[data-testid='modal-button-1']"}
+    },
+    "learn_more_btn":{
+        "locator":{"css selector":"[data-testid='learn-more']"}
+    },
+    "hp_plus_learn_more_modal":{
+        "locator":{"css selector":"[aria-describedby='generic-modal-desc']"}
+    },
+    "hp_plus_overview_card":{
+        "locator":{"css selector":"[data-testid='generic-card-0']"}
+    },
+    "hp_plus_requirements_card":{
+        "locator":{"css selector":"[data-testid='generic-card-1']"}
+    },
+    "instant_ink_card":{
+        "locator":{"css selector":"[data-testid='generic-card-2']"}
+    },
+    "forest_first_printing":{
+        "locator":{"css selector":"[data-testid='generic-card-3']"}
+    },
+    "hp_smart_advance_card":{
+        "locator":{"css selector":"[data-testid='generic-card-4']"}
+    },
+    "hp_smart_pro_card":{
+        "comment":{"jira_ticket":""},
+        "locator":{"css selector":"[data-testid='generic-card-4']"}
+    },
+    "smart_security_card":{
+        "locator":{"css selector":"[data-testid='generic-card-5']"}
+    },
+    "card_back_button":{
+        "locator":{"css selector":"[data-testid='back-button']"}
+    },
+    "card_content":{
+        "locator":{"css selector":"#accordion-items"}
+    },
+    "close_btn":{
+        "locator":{"css selector":"[data-testid='close-button']"}
+    },
+    "single_question_card_content":{
+        "locator":{"css selector":"#accordionItem-0"}
+    },
+    "hp_plus_overview_card_header":{
+        "locator":{"css selector":"[data-testid='header']"}
+    },
+    "hp_plus_overview_what_is_hp_plus":{
+        "locator":{"css selector":"[aria-controls='accordionItem-0']"}
+    },
+    "hp_plus_overview_what_is_hp_plus_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-0']"}
+    },
+    "hp_plus_overview_is_hp_plus_subscription":{
+        "locator":{"css selector":"[aria-controls='accordionItem-1']"}
+    },
+    "hp_plus_overview_is_hp_plus_subscription_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-1']"}
+    },
+    "hp_plus_overview_cost_for_hp_plus":{
+        "locator":{"css selector":"[aria-controls='accordionItem-2']"}
+    },
+    "hp_plus_overview_cost_for_hp_plus_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-2']"}
+    },
+    "hp_plus_overview_cancel_hp_plus":{
+        "locator":{"css selector":"[aria-controls='accordionItem-3']"}
+    },
+    "hp_plus_overview_cancel_hp_plus_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-3']"}
+    },
+    "hp_plus_overview_same_as_instant_ink":{
+        "locator":{"css selector":"[aria-controls='accordionItem-4']"}
+    },
+    "hp_plus_overview_same_as_instant_ink_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-4']"}
+    },
+    "hp_plus_activate_later":{
+        "locator":{"css selector":"[aria-controls='accordionItem-5']"}
+    },
+    "hp_plus_activate_later_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-5']"}
+    },
+    "hp_plus_overview_setup_someone_else":{
+        "locator":{"css selector":"[aria-controls='accordionItem-6']"}
+    },
+    "hp_plus_overview_setup_someone_else_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-6']"}
+    },
+    "what_is_instant_ink":{
+        "locator":{"css selector":"[aria-controls='accordionItem-0']"}
+    },
+    "ii_what_is_instant_ink_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-0']"}
+    },
+    "ii_instant_work_after_trial":{
+        "locator":{"css selector":"[aria-controls='accordionItem-1']"}
+    },
+    "ii_instant_work_after_trial_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-1']"}
+    },
+    "ii_how_soon_ink_after_enroll":{
+        "locator":{"css selector":"[aria-controls='accordionItem-2']"}
+    },
+    "ii_how_soon_ink_after_enroll_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-2']"}
+    },
+    "ii_plans_costs":{
+        "locator":{"css selector":"[aria-controls='accordionItem-3']"}
+    },
+    "ii_plans_costs_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-3']"}
+    },
+    "ii_cancel_instant_ink":{
+        "locator":{"css selector":"[aria-controls='accordionItem-4']"}
+    },
+    "ii_cancel_instant_ink_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-4']"}
+    },
+    "ii_credit_card_required_to_enroll":{
+        "locator":{"css selector":"[aria-controls='accordionItem-5']"}
+    },
+    "ii_credit_card_required_to_enroll_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-5']"}
+    },
+    "forest_first_printing_header":{
+        "locator":{"css selector":"[data-testid='header']"}
+    },
+    "what_forest_first_printing":{
+        "locator":{"css selector":"[aria-controls='accordionItem-0']"}
+    },
+    "what_forest_first_printing_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-0']"}
+    },
+    "hp_smart_advance_header":{
+        "locator":{"css selector":"[data-testid='header']"}
+    },
+    "what_is_hp_smart_advance":{
+        "locator":{"css selector":"[aria-controls='accordionItem-0']"}
+    },
+    "what_is_hp_smart_advance_desc":{
+        "locator":{"css selector":"[data-testid='accordion-content-0']"}
+    },
+    "hp_smart_pro_header":{
+        "locator":{"css selector":"[data-testid='header']"}
+    },
+    "what_is_hp_smart_pro":{
+        "locator":{"css selector":"[aria-controls='accordionItem-0']"}
+    },
+    "smart_security_header":{
+        "locator":{"css selector":"[data-testid='header']"}
+    },
+    "smart_security_with_hp_plus":{
+        "locator":{"css selector":"[aria-controls='accordionItem-0']"}
+    }
+
+}

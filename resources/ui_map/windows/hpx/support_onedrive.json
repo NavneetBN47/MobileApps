@@ -1,0 +1,47 @@
+{
+    "using_ms_cloud_storage_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_MSOneDriveUse"
+        }
+    },
+    "active_ms_cloud_storage_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_MSOneDriveActivate"
+        }
+    },
+    "install_ms_cloud_storage_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_MSOneDriveInstall"
+        }
+    },
+    "m365_account_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_M365_Account"
+        }
+    },
+    "google_one_account_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_Google_One_Account"
+        }
+    },
+    "start_va_btn":{
+        "locator":{
+            "id":"AUID_Support_VAModal_startVirtualAssistantButton"
+        }
+    },
+    "close_button":{
+        "locator": {
+            "id": "AUID_Support_modal_closeButton"
+        }
+    }, 
+    "MS_cloud_storage_lbl":{
+        "locator": {
+            "id": "AUID_Support_model_sub_title"
+        }
+    },
+    "MS_cloud_storage_title":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_model_sub_title']//Text"
+        }
+    }
+}

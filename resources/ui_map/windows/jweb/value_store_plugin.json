@@ -1,0 +1,77 @@
+{
+  "value_store_header": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='header']/Text[@Name='Value Store']"
+    }
+  },
+  "set_subscriber_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Set Subscriber']"
+    }
+  },
+  "subscriber_text_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='addEventSubscriber']/Text[@Name='{}']"
+    }
+  },
+  "subscriber_popup_alert": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='alert']/Text"
+    }
+  },
+  "subscriber_close_alert_btn": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='alert']/Button"
+    }
+  },
+  "get_value_keys_textbox": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getValue']/Text[contains(@Name, 'Keys')]/following::Edit"
+    }
+  },
+  "get_value_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Get']"
+    }
+  },
+  "get_value_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getValue']/Text[contains(@Name, 'result')]"
+    }
+  },
+  "put_keys_textbox": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='putValue']/Text[contains(@Name, 'Keys')]/following::Edit"
+    }
+  },
+  "put_values_textbox": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='putValue']/Text[contains(@Name, 'Values')]/following::Edit"
+    }
+  },
+  "put_value_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='put']"
+    }
+  },
+  "put_value_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='putValue']/Text[@Name='Result']/following::Text"
+    }
+  },
+  "remove_value_textbox": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='removeValue']/Text[contains(@Name, 'Keys')]/following::Edit"
+    }
+  },
+  "remove_value_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Remove']"
+    }
+  },
+  "remove_value_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='removeValue']/Text[@Name='Result']/following::Text"
+    }
+  }
+}

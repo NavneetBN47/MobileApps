@@ -1,0 +1,29 @@
+{
+    "users_btn":{
+        "locator": {"css selector": "li[data-testid='manage-users-menu'] a"}
+    },
+    "printers_btn":{
+        "locator": {"css selector": "[data-testid='jarvis-react-consumer-layout__side-menu-item-Printers']"}
+    },
+    "printers_title":{
+        "locator": {"css selector": "[data-testid='printers-title-pp']"}
+    },
+    "printer_option":{
+        "locator": {"id": "printerOptions"}
+    },
+    "printer_details":{
+        "locator": {"id": "printerDetails"}
+    },
+    "users_title":{
+        "locator": {"css selector": "div[data-testid='users']"}
+    },
+    "invite_button":{
+        "locator": {"css selector": "button[data-testid='open-invite-user-modal']"}
+    },
+    "printer_connection_status":{
+        "locator": {"css selector": "[data-testid='internet-connection-status-pp-ps']"}
+    },
+    "printer_status":{
+        "locator": {"css selector":"[data-testid='printing-state-status-pp-ps']"}
+    }
+}

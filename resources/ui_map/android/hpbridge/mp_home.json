@@ -1,0 +1,416 @@
+{
+  "announcement":{
+      "description":"the announcement on the top of home page",
+      "locator":{
+         "css selector": "wx-navigator.reminder--hp-reminder"
+      }
+  },
+  "person_icon":{
+      "description":"the person icon on top right of the home screen which will open personal center page",
+      "locator":{
+         "css selector": ".hp-iconfont.hp-icon-user"
+      }
+  },
+  "add_printer":{
+      "description":"add new printer, if there is no printer",
+      "locator":{
+         "css selector": "wx-view.printerswiper--hp-has-no-printer>wx-label"
+      }
+  },
+  "add_printer_icon":{
+      "description":"add new printer, if there is no printer",
+      "locator":{
+         "css selector":".printerswiper--hp-has-no-printer>wx-image"
+      }
+  },
+  "file_print":{
+      "description":"file print field",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'文档打印')]"
+      }
+   },
+  "img_print":{
+      "description":"picture print field",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'照片打印')]"
+      }
+  },
+  "invoice_print":{
+      "description":"invoice print field",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'发票打印')]"
+      }
+  },
+  "web_article_print":{
+      "description":"web article print field",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'网络文章打印')]"
+      }
+  },
+  "ID_copy_print":{
+      "description":"ID copy print field",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'身份证复印')]"
+      }
+  },
+  "ID_photo_print":{
+      "description":"ID print field",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'证件照打印')]"
+      }
+  },
+  "scan":{
+      "description":"scan field",
+      "locator":{
+         "xpath":"//wx-view[@class='hp-print-function']//wx-view[contains(text(),'扫描')]"
+      }
+  },
+  "baidu_netdisk_print":{
+      "description":"baidu netdisk print field",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'网盘打印')]"
+      }
+  },
+  "printer_component":{
+      "description":"the printer list component on the home page",
+      "locator":{
+         "css selector":".printerswiper--hp-printer-swiper-component>.printerswiper--hp-has-printer"
+      }
+   },
+  "current_printer":{
+      "description": "limited to the current printer, and this should be used as a root object when there are multiple printers bound",
+      "locator":{
+         "css selector":"wx-view.printerswiper--current "
+      }
+   },
+  "printer_status_icon_fold":{
+      "description": "check the printer's status",
+      "locator":{
+         "css selector":".printerStatus--hp-status-box>.printerStatus--hp-status-img"
+      }
+   },
+  "printer_icon":{
+      "description": "check the printer's thumbnail icon",
+      "locator":{
+         "css selector":".printerswiper--hp-printer-icon-img"
+      }
+   },
+  "printer_name":{
+      "description": "check the printer's custom name",
+      "locator":{
+         "css selector":".printerswiper--hp-one-line.printerswiper--hp-printer-name"
+      }
+   },
+  "printer_refresh":{
+      "description": "check the printer's refresh button",
+      "locator":{
+         "css selector":".hp-iconfont.hp-icon-refresh"
+      }
+   },
+  "print_task_button":{
+      "description": "check the printer's current job list",
+      "locator":{
+         "css selector":".hp-iconfont.hp-icon-task"
+      }
+   },
+  "add_another_printer":{
+      "description":"add new printer, if there is printer added already",
+      "locator":{
+         "css selector":".hp-iconfont.hp-icon-add"
+      }
+  },
+  "printer_img":{
+      "description": "check the printer's img",
+      "locator":{
+         "css selector":".printerswiper--hp-unfold-printer-icon-img"
+      }
+   },
+  "printer_cartridge":{
+      "description": "check the printer's cartridge information",
+      "locator":{
+         "css selector":".cartridgeInfo--hp-cartridge"
+      }
+   },
+  "printer_setting":{
+      "description": "check the printer's settings button",
+      "locator":{
+         "css selector":".printerswiper--hp-printer-manage>wx-view:nth-of-type(1)"
+      }
+   },
+  "printer_share":{
+      "description": "check the printer's share button",
+      "locator":{
+         "css selector":".printerswiper--hp-printer-manage>wx-view:nth-of-type(2)"
+      }
+   },
+  "printer_status_icon_unfold":{
+      "description": "check the printer's status icon when the component is unfold",
+      "locator":{
+         "css selector":".printerswiper--hp-footer-container>wx-view"
+      }
+   },
+  "printer_status_description":{
+      "description": "check the printer's status description when the component is unfold",
+      "locator":{
+         "css selector":".printerswiper--hp-footer-container wx-label"
+      }
+   },
+  "printer_new_icon_fold":{
+      "description": "check the new printer tag when the component is fold",
+      "locator":{
+         "css selector":".printerswiper--hp-printer-new"
+      }
+   },
+  "printer_new_icon_unfold":{
+      "description": "check the new printer tag when the component is unfold",
+      "locator":{
+         "css selector":".printerswiper--hp-unfold-printer-icon-tag"
+      }
+   },
+  "printer_spec":{
+      "description":"add new printer, if there is no printer",
+      "locator":{
+         "css selector":".printerswiper--hp-printer-swiper-android>wx-view"
+      }
+   },
+  "new_icon":{
+      "description":"the new icon for new added printer",
+      "locator":{
+         "xpath":"//android.view.View[@text='{}']/../..//android.widget.Image[2]"
+      }
+   },
+  "advertisement_items":{
+      "description":"HP consumable credits field",
+      "locator":{
+         "css selector":"wx-view.homeSwiper--hp-ads-swiper wx-swiper-item"
+      }
+   },
+  "help_support":{
+      "description":"the help & support button",
+      "locator":{
+         "css selector":"wx-view.helpCenter--hp-help-center"
+      }
+   },
+  "help_support_close":{
+      "description":"the help & support button",
+      "locator":{
+         "css selector":"wx-view.helpCenter--hp-help-center-expand"
+      }
+   },
+  "customer_service":{
+      "description":"the help & support button",
+      "locator":{
+         "css selector":"wx-button.helpCenter--hp-btn"
+      }
+   },
+  "faq":{
+      "description":"the help & support button",
+      "locator":{
+         "css selector":"wx-button.helpCenter--hp-help-center-faq"
+      }
+   },
+  "shopping_cart":{
+      "description":"the help & support button",
+      "locator":{
+         "css selector":"wx-image.shoppingCarIcon--hp-shopping-car-img"
+      }
+   },
+  "warm_prompt_title":{
+      "description":"warm prompt popup title",
+      "locator":{
+         "xpath":"//wx-view[contains(text(),'温馨提示')]"
+      }
+   },
+  "warm_prompt_msg":{
+      "description":"warm prompt popup message: no printer was bound, please bind printer",
+      "locator":{
+         "xpath":"//wx-view[contains(text(), '您还未绑定设备，请先添加打印机')]"
+      }
+   },
+  "warm_prompt_confirm":{
+      "description":"warm prompt popup confirm button",
+      "locator":{
+         "xpath":"//wx-view[contains(text(), '确定')]"
+      }
+   },
+  "hp_print_station":{
+      "description":"惠成长打印站",
+      "locator":{
+         "xpath":"//wx-label[contains(text(), '惠成长打印站')]/../.."
+      }
+   },
+  "hp_work_station":{
+      "description":"惠成长办公站",
+      "locator":{
+         "xpath":"//wx-label[contains(text(), '惠成长办公站')]/../.."
+      }
+   },
+  "suggestion_category":{
+      "description":"content platform suggestion categories",
+      "locator":{
+         "css selector":"wx-view.contentSuggestion--hp-category>wx-label"
+      }
+   },
+  "suggestion_group":{
+      "description":"content platform suggestion groups",
+      "locator":{
+         "css selector":"wx-view.contentSuggestion--hp-content-group-list>wx-view"
+      }
+   },
+  "suggestion_item":{
+      "description":"content platform suggestion items",
+      "locator":{
+         "css selector":"wx-view.contentSuggestion--hp-content-item-list>wx-view"
+      }
+   },
+  "no_printer_page_msg1":{
+      "description":"the message in on device page",
+      "locator":{
+         "xpath":"//android.view.View[@text='您当前没有绑定的打印机']"
+      }
+   },
+  "no_printer_page_msg2":{
+      "description":"the message in no device page",
+      "locator":{
+         "xpath":"//android.view.View[@text='请扫一扫信息页上的二维码绑定打印机']"
+      }
+   },
+  "scan_button":{
+      "description":"the scan button in no device page",
+      "locator":{
+         "xpath":"//android.widget.Button[@text='扫一扫 ']"
+      }
+   },
+  "my_qrcode":{
+      "description":"the text filed in camera when scan qrcode",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='我的二维码']"
+      }
+   },
+  "no_printer_info":{
+      "description":"the message in on device page",
+      "locator":{
+         "xpath":"//android.widget.Button[@text='没有打印机信息页？ ']"
+      }
+   },
+  "set_printer":{
+      "description":"the set printer tab on FAQ page",
+      "locator":{
+         "xpath":"//android.view.View[@text='设置打印机']"
+      }
+   },
+  "print_summary":{
+      "description":"the printer summary tab on FAQ page ",
+      "locator":{
+         "xpath":"//android.view.View[@text='打印概述']"
+      }
+   },
+  "common_problems":{
+      "description":"the common problems tab on FAQ page",
+      "locator":{
+         "xpath":"//android.view.View[@text='常见问题']"
+      }
+   },
+  "consumable_popup_title":{
+      "description":"the confirm pop up for HP consumable app",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='即将打开“惠普原装耗材积分俱乐部”小程序']"
+      }
+   },
+  "consumable_popup_cancel":{
+      "description":"the confirm pop up for HP consumable app, cancel button",
+      "locator":{
+         "xpath":"//android.widget.Button[@text='取消']"
+      }
+   },
+  "consumable_popup_confirm":{
+      "description":"the confirm pop up for HP consumable app, confirm button",
+      "locator":{
+         "xpath":"//android.widget.Button[@text='允许']"
+      }
+   },
+  "womoooo_plugin":{
+      "description":"the womoooo plugin",
+      "locator":{
+         "xpath":"//android.view.View[@text='我萌趣印']"
+      }
+   },
+  "group_name":{
+      "description":"the womoooo plugin",
+      "locator":{
+         "xpath":"//android.view.View[3]"
+      }
+   },
+  "add_printer_btn":{
+      "description":"the add printer button",
+      "locator":{
+         "xpath":"//android.view.View[@text='添加打印机，即可开始打印']"
+      }
+   },
+  "add_printer_plus_icon":{
+      "description":"the add printer icon in printer section with other printer claimed",
+      "locator":{
+         "xpath":"//android.webkit.WebView/android.view.View[3]/android.view.View/android.view.View/android.view.View/android.widget.Image"
+      }
+   },
+  "hp_cloud_print":{
+      "description":"the hp cloud print strings on home page",
+      "locator":{
+         "xpath":"//android.view.View[@text='惠普云打印']"
+      }
+   },
+  "mc_bell_icon":{
+      "description":"the bell icon for message center on home page",
+      "locator":{
+         "xpath":"//android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.Image"
+      }
+   },
+  "notification_messages":{
+      "description":"the notification messages on top right of the bell icon which on message center page",
+      "locator":{
+         "xpath": "//android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View"
+      }
+   },
+  "question_mark": {
+      "description": "The question mark icon on mini program page",
+      "locator": {
+          "xpath": "//android.webkit.WebView/android.view.View/android.widget.Image"
+      }
+  },
+  "personal_msg_new":{
+      "description":"the personal message on top right of the home screen if there is any",
+      "locator":{
+         "css selector": ".hp-navigate-bar .red-dot"
+      }
+   },
+  "kind_remind_msg":{
+      "description":"the kind remind message on home screen",
+      "locator":{
+         "xpath": "//android.view.View[@text='温馨提示：']"
+      }
+   },
+  "hp_cloud_print_title":{
+      "description":"the title  on home screen",
+      "locator":{
+         "xpath": "//android.view.View[@text='惠普云打印']"
+      }
+   },
+  "hp_test_account":{
+      "description":"The hb test account on which on the pops out menu",
+      "locator":{
+         "xpath": "//android.widget.TextView[@text='HB测试号']"
+      }
+   },
+  "hp_pa_account_msg":{
+      "description":"The hp test pa account message on which on the pops out menu",
+      "locator":{
+         "xpath": "//android.widget.TextView[@text='该团队的相关公众号']"
+      }
+   },
+  "hp_test_pa_account":{
+      "description":"The hp public account info",
+      "locator":{
+         "xpath": "//android.widget.TextView[@text='bridge测试号']"
+      }
+   }
+}

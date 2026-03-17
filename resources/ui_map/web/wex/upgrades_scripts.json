@@ -1,0 +1,63 @@
+  {
+    "scripts_page_breadcrumb":{
+        "locator": {
+            "css selector": "#scripts span[aria-current='page']"
+        }
+    },
+    "scripts_page_title":{
+        "locator": {
+            "css selector": "div#dui-container h3"
+        }
+    },
+    "remediations_scripts_page_breadcrumb":{
+        "locator": {
+            "css selector": "#scripts span[aria-current='page']"
+        }
+    },
+    "remediations_scripts_page_library_tab":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_library']"
+        }
+    },
+    "remediations_scripts_page_assignments_tab":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_assignments']"
+        }
+    },
+    "remediations_scripts_page_gallery_tab":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_gallery']"
+        }
+    },
+    "remediations_scripts_add_button":{
+        "locator": {
+            "css selector": ["div#action_button button#add-script",
+                             "button#btn-add-script"]
+        }
+    },
+    "add_scripts_page_title":{
+        "locator": {
+            "css selector": "h4[class*='modal--title']"
+        }
+    },
+    "add_scripts_page_cancel_button":{
+        "locator": {
+            "css selector": "button#btn_cancel"
+        }
+    },
+    "scripts_details_page_title":{
+        "locator": {
+            "css selector": "[class*='script-details-title']"
+        }
+    },
+    "scripts_deatils_page_breadcrumb":{
+        "locator": {
+            "css selector": "#scriptDetails span[aria-current='page']"
+        }
+    },
+    "scripts_page_delete_button":{
+        "locator": {
+            "css selector": "button#script-delete-bttn"
+        }
+    }
+  }

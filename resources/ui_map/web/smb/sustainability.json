@@ -1,0 +1,282 @@
+{   
+    "sustainability_forest_first_icon":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-header-widget-icon']"
+        }
+    },
+    "banner_bannerHeader":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-header-title']"
+        }
+    },
+    "banner_bannerBodyCopy":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-header-description']"
+        }
+    },
+    "banner_bannerButton":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-header-learn-more-button']"
+        }
+    },
+    "impactCard_header":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-sustainable-impact-title']"
+        }
+    },
+    "sustainability_hp_plus_printed_pages_count":{
+        "locator": {
+            "css selector": "[data-testid*='react-smb-forest-first-printed-pages-counter']"
+        }
+    },
+    "impactCard_bodyCopy1":{
+        "locator": {
+            "css selector": "[data-testid*='react-smb-forest-first-printed-pages-description']"
+        }
+    },
+    "impactCard_subhead":{
+        "locator": {
+            "css selector": "[data-testid*='react-smb-forest-first-forest-restor-title']"
+        }
+    },
+    "impactCard_bodyCopy2":{
+        "locator": {
+            "css selector": "[data-testid*='react-smb-forest-first-forest-restor-description']"
+        }
+    },
+    "sustainability_what_we_are_doing_title_icon":{
+        "locator": {
+            "css selector": "div[data-testid='react-smb-forest-first-wawd-card'] svg"
+        }
+    },
+    "hpActionsCard_header":{
+        "locator": {
+            "css selector": "div[data-testid='react-smb-forest-first-wawd-title']"
+        }
+    },
+    "sustainability_forest_first_projects_title_icon":{
+        "locator": {
+            "css selector": "img[alt='forestfirstlogogreen']"
+        }
+    },
+    "hpActionsCard_subhead1":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-projects-title']"
+        }
+    },
+    "hpActionsCard_bodyCopy1":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-projects-description']"
+        }
+    },
+    "hpActionsCard_primaryButton1":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-view-projects-button']"
+        }
+    },
+    "sustainability_recycle_supplies_title_icon":{
+        "locator": {
+            "css selector": "div[data-testid='react-smb-forest-first-recycle-supplies-card'] svg"
+        }
+    },
+    "recycleSuppliesCard_header1":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-recycle-supplies-title']"
+        }
+    },
+    "recycleSuppliesCard_bodyCopy1":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-second-recycle-supplies-description']"
+        }
+    },
+    "recycleSuppliesCard_primaryButton":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-recycle-cartridges-button']"
+        }
+    },
+    "hpActionsCard_subhead2":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-explore-sustainable-impact-title']"
+        }
+    },
+    "sustainability_explore_our_sustainable_impact_title_icon":{
+        "locator": {
+            "css selector": "img[alt='forestglobal']"
+        }
+    },
+    "hpActionsCard_bodyCopy2":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-explore-sustainable-impact-description']"
+        }
+    },
+    "hpActionsCard_primaryButton2":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-explore-impact-button']"
+        }
+    },
+    "disclaimers_header":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-disclaimers-title']"
+        }
+    },
+    "disclaimers_note1":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-first-disclaimer']"
+        }
+    },
+    "disclaimers_note2":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-second-disclaimer']"
+        }
+    },
+    "sustainability_forest_first_view_projects_btn":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-view-projects-button']"
+        }
+    },
+    "forestFirstProjectsPage_card1_header1":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-first-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    },
+    "forestFirstProjectsPage_card2_header2":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-second-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    },
+    "forestFirstProjectsPage_card3_header3":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-third-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    }, 
+    "forestFirstProjectsPage_card4_header4":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-fourth-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    },
+    "forestFirstProjectsPage_card5_header5":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-fifth-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    },
+    "forestFirstProjectsPage_card6_header6":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-sixth-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    },
+    "forestFirstProjectsPage_card7_header7":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-seventh-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    },
+    "forestFirstProjectsPage_card8_header8":{
+        "locator":{
+            "css selector":"div[data-testid*='forest-first-eighth-project-card'] div[data-testid*='forest-first-project-title']"
+        }
+    },
+    "sustainability_recycle_supplies_cartridges_btn":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-recycle-cartridges-button']"
+        }
+    },
+    "sustainability_explore_our_sustainable_impact_btn":{
+        "locator": {
+            "css selector": "[data-testid ='react-smb-forest-first-explore-impact-button']"
+        }
+    },
+    "breadcrumb_forestFirst":{
+        "locator": {
+            "css selector": "nav[aria-label='Breadcrumb'] ol>li:nth-child(3) a"
+        }
+    },
+    "breadcrumb_home":{
+        "locator": {
+            "css selector": "nav[aria-label='Breadcrumb'] ol>li:nth-child(2) a"
+        }
+    },
+    "forestFirstProjectsPage_card1_bodyCopy1":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(1) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card1_link1":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(1) span"
+        }
+    },
+    "forestFirstProjectsPage_card2_bodyCopy2":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(2) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card2_link2":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(2) span"
+        }
+    },
+    "forestFirstProjectsPage_card3_bodyCopy3":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(3) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card3_link3":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(3) span"
+        }
+    },
+    "forestFirstProjectsPage_card4_bodyCopy4":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(4) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card4_link4":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(4) span"
+        }
+    },
+    "forestFirstProjectsPage_card5_bodyCopy5":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(5) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card5_link5":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(5) span"
+        }
+    },
+    "forestFirstProjectsPage_card6_bodyCopy6":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(6) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card6_link6":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(6) span"
+        }
+    },
+    "forestFirstProjectsPage_card7_bodyCopy7":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(7) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card7_link7":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(7) span"
+        }
+    },
+    "forestFirstProjectsPage_card8_bodyCopy8":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(8) div[class*='Content']"
+        }
+    },
+    "forestFirstProjectsPage_card8_link8":{
+        "locator":{
+            "css selector":"div[class*='ProjectsList']>div:nth-child(8) span"
+        }
+    },
+    "sustainability_recycle_supplies_icon":{
+        "locator": {
+            "css selector": "div[data-testid='react-smb-forest-first-recycle-supplies-card'] img"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "sign_up_dialog_title":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXHeading[0]"}
+    },
+    
+    "first_name_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[2]/AXTextField[@AXDOMIdentifier='firstName']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='firstName']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='firstName']"]}
+    },
+    
+    "last_name_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[5]/AXTextField[@AXDOMIdentifier='lastName']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='lastName']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='lastName']"]}
+    },
+    
+    "email_address_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[8]/AXTextField[@AXDOMIdentifier='email']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='email']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='email']"]}
+    },
+    
+    "phone_number_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[13]/AXTextField[@AXDOMIdentifier='phoneNumber']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='phoneNumber']"]}
+    },
+    
+    "password_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[17]/AXTextField[@AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']"]}
+    },
+    
+    "confirm_password_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[26]/AXTextField[@AXDOMIdentifier='confirmPassword' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='confirmPassword' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='confirmPassword' and @AXSubrole='AXSecureTextField']"]}
+    },
+    
+    "hp_may_email_me_checkbox":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[2]/AXGroup[0]/AXGroup[0]/AXCheckBox[@AXDOMIdentifier='market']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[1]/AXGroup[0]/AXGroup[0]/AXCheckBox[@AXDOMIdentifier='market']"]}
+    },
+    
+    "hp_privacy_statement_link":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[23]/AXLink[0]",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[27]/AXLink[0]",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[2]/AXLink[0]"]}
+    },
+    
+    "create_account_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[5]/AXButton[@AXDOMIdentifier='sign-up-submit']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[4]/AXButton[@AXDOMIdentifier='sign-up-submit']"]}
+    },
+    
+    "already_have_an_hp_account_sign_in_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXButton[@AXDOMIdentifier='sign-in']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXButton[@AXDOMIdentifier='sign-in']"]}
+    },
+    
+    "privacy_link":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[@AXSubrole='AXLandmarkContentInfo']/AXLink[@AXDOMIdentifier='privacy']"}
+    },
+    
+    "sign_up_dialog_close_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXButton[@AXSubrole='AXCloseButton']"}
+    }
+
+}

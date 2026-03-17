@@ -1,0 +1,96 @@
+{
+  "set_subscriber_btn": {
+    "locator": {
+      "css selector": "div[id='addEventSubscriber'] button"
+    }
+  },
+  "subscriber_text_result": {
+    "locator": {
+      "xpath": "//div[@id='addEventSubscriber']/p[text()='{}']"
+    }
+  },
+  "subscriber_popup_alert": {
+    "locator": {
+      "css selector": "div[role='alert']"
+    }
+  },
+  "subscriber_close_alert_btn": {
+    "locator": {
+      "css selector": "div[role='alert'] button[aria-label='close']"
+    }
+  },
+  "get_value_keys_textbox": {
+    "locator": {
+      "css selector": "div[id='getValue'] input",
+      "xpath": "//XCUIElementTypeButton[contains(@name,'get()')]/following::XCUIElementTypeTextField"
+    }
+  },
+  "get_value_btn": {
+    "locator": {
+      "css selector": "div[id='getValue'] button[id='getValueStorePairTestButton']"
+    }
+  },
+  "get_value_result": {
+    "locator": {
+      "css selector": "*[id='valueStoreGetResult']"
+    }
+  },
+  "put_keys_textbox": {
+    "locator": {
+      "css selector": "div[id='putValue'] input",
+      "xpath": "//XCUIElementTypeStaticText[contains(@value, 'Put a key value pair')]/parent::XCUIElementTypeOther/following::XCUIElementTypeTextField"
+    }
+  },
+  "put_values_textbox": {
+    "locator": {
+      "css selector": "input[id='setPairValueField']",
+      "xpath": "//XCUIElementTypeStaticText[contains(@value, 'Values ')]/parent::XCUIElementTypeOther/following::XCUIElementTypeTextField"
+    }
+  },
+  "put_value_btn": {
+    "locator": {
+      "css selector": "div[id='putValue'] button[id='setValuePairTestButton']"
+    }
+  },
+  "put_value_result": {
+    "locator": {
+      "css selector": "*[id='valueStorePutResult']"
+    }
+  },
+  "remove_value_textbox": {
+    "locator": {
+      "css selector": "div[id='removeValue'] input",
+      "xpath": "//XCUIElementTypeButton[contains(@name,'remove()')]/following::XCUIElementTypeTextField"
+    }
+  },
+  "remove_value_btn": {
+    "locator": {
+      "css selector": "div[id='removeValue'] button[id='removeValueStorePairTestButton']"
+    }
+  },
+  "remove_value_result": {
+    "locator": {
+      "css selector": "*[id='valueStoreRemoveResult']"
+    }
+  },
+  "select_all_btn": {
+    "locator": {
+      "name": "Select All"
+    }
+  },
+  "delete_btn": {
+    "locator": {
+      "name": "delete"
+    }
+  },
+  "done_btn": {
+    "locator": {
+      "name": "Done"
+    }
+  },
+  "more_options": {
+    "locator": {
+      "xpath": "//XCUIElementTypeMenuItem[@label='Show more items']"
+    }
+  }
+}

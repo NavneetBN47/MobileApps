@@ -1,0 +1,212 @@
+{  
+    "gesture_card": {
+        "locator": {
+            "id": "AUID_FeatureCard_FeatureCard_pcgesture-core"
+        }
+    },
+    "gesture_panel_banner": {
+        "locator": {
+            "name": "React App"
+        }
+    },
+    "previewing_pause_resume_strings_under_gesture_panel": {
+        "locator": {
+            "name": "Previewing Pause / Resume"
+        }
+    },
+    "try_this_gesture_button": {
+        "locator": {
+            "id": "AUID_PCGesture_TryThisButton_Button"
+        }
+    },
+    "pause_resume_card_title": {
+        "locator": {
+            "name": "Pause / Resume"
+        }
+    },
+    "pause_resume_toggle": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_TogglePauseResume"
+        }
+    },
+    "pause_resume_card_description": {
+        "locator": {
+            "name": "Compatible with: All Playback Media"
+        }
+    },
+    "pause_resume_card_enable": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_ButtonPauseResumeDisable"
+        }
+    },
+    "pause_resume_card_disable": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_ButtonPauseResumeEnable"
+        }
+    },
+    "pause_resume_card": {
+        "locator": {
+            "name": "Pause / Resume"
+        }
+    },
+    "volume_adjust_card": {
+        "locator": {
+            "name": "Volume Adjust"
+        }
+    },
+    "volume_adjust_card_disable": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_ButtonVolumeAdjustEnable"
+        }
+    },
+    "volume_adjust_card_enable": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_ButtonVolumeAdjustDisable"
+        }
+    },
+    "volume_adjust_card_title": {
+        "locator": {
+            "name": "Volume Adjust"
+        }
+    },
+    "volume_adjust_toggle": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_ToggleVolumeAdjust"
+        }
+    },
+    "volume_adjust_card_description": {
+        "locator": {
+            "name": "Compatible with: System Volume Control"
+        }
+    },
+    "page_scroll_card": {
+        "locator": {
+            "name": "Page Scroll"
+        }
+    },
+    "page_scroll_card_enable": {
+        "locator": {
+            "name": "AUID_PCGesture_GestureButton_ButtonPageScrollDisable"
+        }
+    },
+    "page_scroll_card_disable": {
+        "locator": {
+            "name": "AUID_PCGesture_GestureButton_ButtonPageScrollEnable"
+        }
+    },
+    "page_scroll_toggle": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_TogglePageScroll"
+        }
+    },
+    "page_scroll_card_description": {
+        "locator": {
+            "name": "Compatible with: App with Scrollable Area"
+        }
+    },
+    "page_scroll_card_title": {
+        "locator": {
+            "name": "Page Scroll"
+        }
+    },
+    "photo_scroll_card": {
+        "locator": {
+            "name": "Photo Scroll"
+        }
+    },
+    "photo_scroll_card_title": {
+        "locator": {
+            "name": "Photo Scroll"
+        }
+    },
+    "photo_scroll_card_enable": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_ButtonPhotoScrollDisable"
+        }
+    },
+    "photo_scroll_card_disable": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_ButtonPhotoScrollEnable"
+        }
+    },
+    "photo_scroll_toggle": {
+        "locator": {
+            "id": "AUID_PCGesture_GestureButton_TogglePhotoScroll"
+        }
+    },
+    "photo_scroll_description": {
+        "locator": {
+            "name": "Compatible with: Windows Photos"
+        }
+    },
+    "restore_defaults_button": {
+        "locator": {
+            "id": "AUID_PCGesture_RestoreButton_RestoreButton"
+        }
+    },
+    "settings_button_on_gesture_page": {
+        "locator": {
+            "id": "AUID_PCGesture_PCGestureScreen_SettingsButton"
+        }
+    },
+    "advanced_settings_page_close_button": {
+        "locator": {
+            "id": "AUID_PCGesture_AdvancedSettingsModal_CloseButton"
+        }
+    },
+    "advanced_settings_page_title": {
+        "locator": {
+            "name": "Advanced Settings"
+        }
+    },
+    "advanced_settings_page_second_title": {
+        "locator": {
+            "name": "Feedback Message"
+        }
+    },
+    "feedback_message_toggle": {
+        "locator": {
+            "id": "AUID_PCGesture_AdvancedSettingsModal_ToggleSwitch"
+        }
+    },
+    "feedback_message_description": {
+        "locator": {
+            "name": "Receive a small message when you successfully use a Gesture."
+        }
+    },
+    "picture_on_advanced_settings_page": {
+        "locator": {
+            "name": "staticResource.advancedSettingsImg"
+        }
+    },
+    "play_pause_title": {
+        "locator": {
+            "name": "Play / Pause"
+        }
+    },
+    "play_pause_description": {
+        "locator": {
+            "name": "Hold your palm up. We’ll let you know when you’ve done the Gesture successfully. You can use either hand."
+        }
+    },
+    "play_pause_close_button": {
+        "locator": {
+            "id": "AUID_PCGesture_TryThisModal_CloseButton"
+        }
+    },
+    "play_pause_start_button": {
+        "locator": {
+            "id": "AUID_PCGesture_TryThisModal__START_BUTTON"
+        }
+    },
+    "pop_windows_restore_button_text": {
+        "locator": {
+            "name": "Restore Defaults"
+        }
+    },
+    "pop_window_restore_button": {
+        "locator": {
+            "id": "AUID_PCGesture_RestoreModal_RestoreButton"
+        }
+    }
+}

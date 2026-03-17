@@ -1,0 +1,60 @@
+{
+    "remediations_policies_pcs_page_breadcrumb":{
+        "locator": {
+            "css selector": "#policies span[aria-current='page']"
+        }
+    },
+    "remediations_policies_pcs_tab":{
+        "locator": {
+            "css selector": "#policies+div button[data-testid='wex_horizontal_menu_PC']"
+        }
+    },
+    "remediations_policies_pcs_add_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Add')]/parent::button"
+        }
+    },
+    "remediations_policies_pcs_delete_button":{
+        "locator": {
+            "css selector": "div[class*='wex-summary-card-action'] button"
+        }
+    },
+    "policies_pc_first_link":{
+        "locator": {
+            "css selector": "tr:nth-child(1) td:nth-child(1)"
+        }
+    },
+    "add_pcs_policies_page_title":{
+        "locator": {
+            "css selector": "p[class*='title-regular']"
+        },
+        "localization": {
+            "en": "Add PC Policy"
+        }
+    },
+    "add_pcs_policies_page_cancel_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Cancel')]/parent::button"
+        }
+    },
+    "pcs_policies_page_title":{
+        "locator": {
+            "css selector": "div[data-testid='wex-summary-card'] h3>div>div:nth-child(1)"
+        }
+    },
+    "pcs_policies_page_policy_name":{
+        "locator": {
+            "css selector": "div#wex-details-section-field-0 div[class*='editable-value'] div:nth-child(1)"
+        }
+    },
+    "pcs_policies_edit_button":{
+        "locator": {
+            "css selector": "div[class='col']>div:nth-child(1) button"
+        }
+    },
+    "pcs_policies_delete_button":{
+        "locator": {
+            "css selector": "button[data-testid='mobile-inlineBtns-0']"
+        }
+    }
+}

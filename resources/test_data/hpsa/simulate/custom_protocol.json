@@ -1,0 +1,34 @@
+{
+    "C32466159": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion x360 - 15t-dq100 CTO", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion x360 - 15t-dq100 CTO", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    }
+}

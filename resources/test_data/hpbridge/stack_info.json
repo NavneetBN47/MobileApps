@@ -1,0 +1,23 @@
+{
+  "default_stack": "dev",
+  "stacks":[
+    {
+      "stack": "dev",
+      "host": {
+        "iot": "https://iot-dev.eprintsw.com",
+        "management": "https://api-dev.eprintsw.com/v1",
+        "access_qq":"https://qqapp-dev.eprintsw.com"
+      },
+      "client": "dmdscTZvODYyYzUzemZuajRwOmtlZXRlNjZydGgyZ3Z4NDNidmpwbzc3Z3U5eTA0eDFk"
+    },
+    {
+      "stack": "stage",
+      "host": {
+        "iot": "https://iot-test.eprintsw.com",
+        "management": "https://api-test.eprintsw.com/v1",
+        "access_qq":"https://qqapp-test.eprintsw.com"
+      },
+      "client": "dmdscTZvODYyYzUzemZuajRwOmtlZXRlNjZydGgyZ3Z4NDNidmpwbzc3Z3U5eTA0eDFk"
+    }
+  ]
+}

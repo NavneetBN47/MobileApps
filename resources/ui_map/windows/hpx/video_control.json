@@ -1,0 +1,768 @@
+{
+    "auto_frame_btn": {
+        "locator": {
+            "id": "AutoFrameSwitch"
+        }
+    },
+    "maximize_window": {
+        "locator": {
+            "id": "Maximize-Restore"
+        }
+    },
+    "enhance_btn": {
+        "locator": {
+            "id": "AutoSceneSwitch"
+        }
+    },
+    "background_off": {
+        "locator": {
+            "id": "BgItem0.BgItemAbstractButton0"
+        }
+    },
+    "resoultioncombobox_auto": {
+        "locator": {
+            "id": "ResolutionComboBox"
+        }
+    },
+    "mixer_tab": {
+        "locator": {
+            "class name": "AbstractButton_QMLTYPE_57_QML_189"
+
+        }
+    },
+    "picture_in_picture": {
+        "locator": {
+            "id": "layoutpip"
+        }
+    },
+    "enhance_your_video": {
+        "locator": {
+            "id": "tutorialFirstPageLabel"
+        }
+    },
+    "tutorial_next_button": {
+        "locator": {
+            "id": "tutorial_next_button"
+        }
+    },
+    "let_get_your": {
+        "locator": {
+            "id": "tutorialSecondPageLabel"
+        }
+    },
+    "gallery_view": {
+        "locator": {
+            "id": "GalleryViewLabel"
+        }
+    },
+    "scroll_window": {
+        "locator": {
+            "id": "SC_MainWindow"
+        }
+    },
+    "restore_default": {
+        "locator": {
+            "id": "RestoreBtn.content"
+        }
+    },
+    "enable_this": {
+        "locator": {
+            "id": "AntiFlickerTips_InformationIcon"
+        }
+    },
+    "tutorial_button_icon": {
+        "locator": {
+            "id": "Tutorial_Button"
+        }
+    },
+    "backlight_adjustment_btn": {
+        "locator": {
+            "id": "AutoSceneBackLight"
+        }
+    },
+    "lowlight_adjustment_text": {
+        "locator": {
+            "id": "EnhanceLowLight"
+        }
+    },
+    "lowlight_adjustment_btn": {
+        "locator": {
+            "id": "AutoSceneLowLight"
+        }
+    },
+    "natural_tone_btn": {
+        "locator": {
+            "id": "AutoSceneColorCorrection"
+        }
+    },
+    "background_blur_text": {
+        "locator": {
+            "id": "AutoSceneColorCorrection"
+        }
+    },
+    "background_blur_btn": {
+        "locator": {
+            "id": "BgItem1"
+        }
+    },
+    "video_control_action_item": {
+        "locator": {
+            "id": "AUID_ControlYourPC_smartcam-core_FeatureCard"
+        }
+    },
+    "video_controls_button": {
+        "locator": {
+            "name": "Video controls"
+        }
+    },
+    "maximize_video_control_page": {
+        "locator": {
+            "xpath": "//TitleBar[@AutomationId='TitleBar']/Button[@Name='Maximize']"
+        }
+    },
+    "video_controls_titlebar_text": {
+        "locator": {
+            "id": "TitleBar"
+        }
+    },
+    "tutorial_first_page_lable_text": {
+        "locator": {
+            "id": "tutorialFirstPageLabel"
+        }
+    },
+    "tutorial_first_page_tip_text": {
+        "locator": {
+            "id": "tutorialFirstPageTip"
+        }
+    },
+    "start_hp_enhanced_camera_text": {
+        "locator": {
+            "id": "follow_system_startup_label"
+        }
+    },
+    "next_page_arrow": {
+        "locator": {
+            "id": "tutorial_next_button"
+        }
+    },
+    "previous_page_arrow": {
+        "locator": {
+            "id": "tutorial_previous_button"
+        }
+    },
+    "tutorial_second_page_lable_text": {
+        "locator": {
+            "id": "tutorialSecondPageLabel"
+        }
+    },
+    "tutorial_second_page_tip_text": {
+        "locator": {
+            "id": "tutorialSecondPageTip"
+        }
+    },
+    "camera_input_text": {
+        "locator": {
+            "id": "tutorialCameraInput"
+        }
+    },
+    "hp_enhanced_camera_text": {
+        "locator": {
+            "id": "tutorialCameraundefined"
+        }
+    },
+    "hp_wide_vision_5mp_camera_text": {
+        "locator": {
+            "id": "tutorialCameraundefined"
+        }
+    },
+    "camera_settings_text": {
+        "locator": {
+            "id": "MyTabButtonWithIcon_Camera Settings"
+        }
+    },
+    "layout_text": {
+        "locator": {
+            "id": "Layout"
+        }
+    },
+    "mixer_help_button_to_navigate_back_to_tutorial_first_page": {
+        "locator": {
+            "id": "HelpBtn"
+        }
+    },
+    "gallary_view_tooltip": {
+        "locator": {
+            "id": "GalleryTips_InformationIcon"
+        }
+    },
+    "gallary_view_text": {
+        "locator": {
+            "id": "GalleryViewLabel"
+        }
+    },
+    "auto_frame_tooltip": {
+        "locator": {
+            "id": "AutoFrameTips_InformationIcon"
+        }
+    },
+    "auto_frame_text": {
+        "locator": {
+            "id": "AutoFrameLabel"
+        }
+    },
+    "auto_frame_toggle_switch": {
+        "locator": {
+            "id": "AutoFrameSwitch"
+        }
+    },
+    "wide_pic_frame_button": {
+        "locator": {
+            "id": "AutoFrameWide"
+        }
+    },
+    "wide_text": {
+        "locator": {
+            "name": "Wide"
+        }
+    },
+    "portrait_pic_frame_button": {
+        "locator": {
+            "id": "AutoFramePortrait"
+        }
+    },
+    "portrait_text": {
+        "locator": {
+            "name": "Portrait"
+        }
+    },
+    "tight_pic_frame_button": {
+        "locator": {
+            "id": "AutoFrameTight"
+        }
+    },
+    "tight_text": {
+        "locator": {
+            "name": "Tight"
+        }
+    },
+    "gallery_view_text_button": {
+        "locator": {
+            "id": "AutoFrameGallery"
+        }
+    },
+    "allow_multiple_ppl_face_framing_text": {
+        "locator": {
+            "id": "AutoFrameMultiplePeople"
+        }
+    },
+    "allow_multiple_ppl_face_framing_tooltip": {
+        "locator": {
+            "id": "AutoFrameMultiplePeopleTips_InformationIcon"
+        }
+    },
+    "enhance_text": {
+        "locator": {
+            "id": "EnhanceLabel"
+        }
+    },
+    "enhance_tooltip": {
+        "locator": {
+            "id": "EnhanceTips_InformationIcon"
+        }
+    },
+    "enhance_toggle_switch": {
+        "locator": {
+            "id": "AutoSceneSwitch"
+        }
+    },
+    "backlight_adjustment_text": {
+        "locator": {
+            "id": "EnhanceBacklight"
+        }
+    },
+    "low_light_adjustment_text": {
+        "locator": {
+            "id": "EnhanceLowLight"
+        }
+    },
+    "natural_tone_text": {
+        "locator": {
+            "id": "EnhanceSkinCorrection"
+        }
+    },
+    "natural_tone_tooltip": {
+        "locator": {
+            "id": "SkinColorTips_InformationIcon"
+        }
+    },
+    "eye_contact_text": {
+        "locator": {
+            "id": "EnhanceEyeContact"
+        }
+    },
+    "eye_contact_tooltip": {
+        "locator": {
+            "id": "AprDirect_InformationIcon"
+        }
+    },
+    "appearance_filter_text": {
+        "locator": {
+            "id": "EnhanceSliderLabel"
+        }
+    },
+    "background_text": {
+        "locator": {
+            "id": "BackgroundLabel"
+        }
+    },
+    "add_new_text": {
+        "locator": {
+            "id": "BgItem_AddNew.AddNewAbstractButton"
+        }
+    },
+    "off_text": {
+        "locator": {
+            "id": "BgItem0.BgItemAbstractButton0"
+        }
+    },
+    "blur_text": {
+        "locator": {
+            "id": "BgItem1.BgItemAbstractButton1"
+        }
+    },
+    "office1_text": {
+        "locator": {
+            "id": "BgItem2.BgItemAbstractButton2"
+        }
+    },
+    "office2_text": {
+        "locator": {
+            "id": "BgItem3.BgItemAbstractButton3"
+        }
+    },
+    "cafe_text": {
+        "locator": {
+            "id": "BgItem4.BgItemAbstractButton4"
+        }
+    },
+    "living_room_text": {
+        "locator": {
+            "id": "BgItem5.BgItemAbstractButton5"
+        }
+    },
+    "outdoor_text": {
+        "locator": {
+            "id": "BgItem6.BgItemAbstractButton6"
+        }
+    },
+    "hp_presence_logo_text": {
+        "locator": {
+            "id": "HPPresenceLogo"
+        }
+    },
+    "restore_default_settings_text": {
+        "locator": {
+            "id": "RestoreBtn.content"
+        }
+    },
+    "combo_box_caret": {
+        "locator": {
+            "id": "ResolutionComboBox"
+        }
+    },
+    "auto_text_for_combo_box": {
+        "locator": {
+            "id": "ResolutionComboBox.contentItemText"
+        }
+    },
+    "auto_dropbox_tooltip": {
+        "locator": {
+            "id": "Resolution_InformationIcon"
+        }
+    },
+    "auto_dropbox_first_element_text": {
+        "locator": {
+            "id": "ResolutionComboBoxAbstractButton0"
+        }
+    },
+    "auto_dropbox_second_element_text": {
+        "locator": {
+            "id": "ResolutionComboBoxAbstractButton1"
+        }
+    },
+    "auto_dropbox_third_element_text": {
+        "locator": {
+            "id": "ResolutionComboBoxAbstractButton2"
+        }
+    },
+    "auto_dropbox_fourth_element_text": {
+        "locator": {
+            "id": "ResolutionComboBoxAbstractButton3"
+        }
+    },
+    "auto_dropbox_fifth_element_text": {
+        "locator": {
+            "id": "ResolutionComboBoxAbstractButton4"
+        }
+    },
+    "auto_dropbox_sixth_element_text": {
+        "locator": {
+            "id": "ResolutionComboBoxAbstractButton5"
+        }
+    },
+    "anti_flicker_off_text": {
+        "locator": {
+            "id": "AntiFlickerComboBox.contentItemText"
+        }
+    },
+    "anti_flicker_off_combobox_first_element": {
+        "locator": {
+            "id": "AntiFlickerComboBoxAbstractButton0"
+        }
+    },
+    "anti_flicker_off_combobox_second_element": {
+        "locator": {
+            "id": "AntiFlickerComboBoxAbstractButton1"
+        }
+    },
+    "anti_flicker_off_combobox_third_element": {
+        "locator": {
+            "id": "AntiFlickerComboBoxAbstractButton2"
+        }
+    },
+    "anti_flicker_off_tooltip": {
+        "locator": {
+            "id": "AntiFlickerTips_InformationIcon"
+        }
+    },
+    "low_battery_usage_text": {
+        "locator": {
+            "id": "BatteryUsageText"
+        }
+    },
+    "low_battery_usage_tooltip": {
+        "locator": {
+            "id": "BatteryRecommend_InformationIcon"
+        }
+    },
+    "medium_battery_usage_text": {
+        "locator": {
+            "id": "BatteryUsageText"
+        }
+    },
+    "medium_battery_usage_tooltip": {
+        "locator": {
+            "id": "BatteryRecommend_InformationIcon"
+        }
+    },
+    "high_battery_usage_text": {
+        "locator": {
+            "id": "BatteryUsageText"
+        }
+    },
+    "high_battery_usage_tooltip": {
+        "locator": {
+            "id": "BatteryRecommend_InformationIcon"
+        }
+    },
+    "app_version_text": {
+        "locator": {
+            "id": "AppVersion"
+        }
+    },
+    "shrink_button": {
+        "locator": {
+            "id": "ShrinkBtn"
+        }
+    },
+    "sidebar_button_share_as_window_text": {
+        "locator": {
+            "id": "SidebarBtn0"
+        }
+    },
+    "hp_enhanced_camera_view_title_bar_text": {
+        "locator": {
+            "xpath": "//Window[@Name='HP Enhanced Camera View']/TitleBar[@AutomationId='TitleBar']"
+        }
+    },
+    "sidebar_button_save_a_pdf_text": {
+        "locator": {
+            "id": "SidebarBtn1"
+        }
+    },
+    "sidebar_button_snap_photo_text": {
+        "locator": {
+            "id": "SidebarBtn2"
+        }
+    },
+    "sidebar_button_start_recording_text": {
+        "locator": {
+            "id": "SidebarBtn3"
+        }
+    },
+    "stop_and_save_recording_text": {
+        "locator": {
+            "id": "RecordTitleLabel"
+        }
+    },
+    "stop_and_save_recording_tip_text": {
+        "locator": {
+            "id": "RecordTipText"
+        }
+    },
+    "stop_and_save_recording_cancel_text": {
+        "locator": {
+            "id": "RecordCancelBtn.content"
+        }
+    },
+    "stop_and_save_recording_save_as_text": {
+        "locator": {
+            "id": "RecordSaveAsBtn.content"
+        }
+    },
+    "stop_and_save_recording_save_text": {
+        "locator": {
+            "id": "RecordSaveBtn.content"
+        }
+    },
+    "sidebar_button_cancel_recording_text": {
+        "locator": {
+            "id": "SidebarBtn6"
+        }
+    },
+    "pop_up_cancel_recording_text": {
+        "locator": {
+            "id": "RecordTitleLabel"
+        }
+    },
+    "pop_up_cancel_recording_tip_text": {
+        "locator": {
+            "id": "RecordTipText"
+        }
+    },
+    "pop_up_cancel_recording_delete_text": {
+        "locator": {
+            "id": "RecordSaveAsBtn.content"
+        }
+    },
+    "pop_up_cancel_recording_go_back_text": {
+        "locator": {
+            "id": "RecordSaveBtn.content"
+        }
+    },
+    "sidebar_button_start_livestream_text": {
+        "locator": {
+            "id": "SidebarBtn4"
+        }
+    },
+    "configure_live_stream_text": {
+        "locator": {
+            "id": "LiveDialogTitle"
+        }
+    },
+    "connect_a_rtmp_server_text": {
+        "locator": {
+            "id": "LiveConnectServer"
+        }
+    },
+    "stream_url__text": {
+        "locator": {
+            "id": "LiveStreamURLText"
+        }
+    },
+    "stream_url_tooltip": {
+        "locator": {
+            "id": "LiveStreamURLTips_InformationIcon"
+        }
+    },
+    "rtmp_text_box": {
+        "locator": {
+            "id": "RtmpInputWrap"
+        }
+    },
+    "stream_key_text": {
+        "locator": {
+            "id": "LiveStreamKeyText"
+        }
+    },
+    "paste_stream_key_text_box": {
+        "locator": {
+            "id": "SecretKeyInputWrap"
+        }
+    },
+    "start_live_stream_button_text": {
+        "locator": {
+            "id": "StartLiveStreamBtn.content"
+        }
+    },
+    "close_livestrem_window": {
+        "locator": {
+            "id": ""
+        }
+    },
+    "sidebar_button_be_right_back_text": {
+        "locator": {
+            "id": "BrbBtn"
+        }
+    },
+    "sidebar_button_end_be_right_back_text": {
+        "locator": {
+            "id": "BrbBtn"
+        }
+    },
+    "automatic_kestone_text_by_name": {
+        "locator": {
+            "name": "Automatic Keystone_HP Wide Vision 5MP Camera"
+        }
+    },
+    "end_automatic_kestone_text_by_name": {
+        "locator": {
+            "name": "End Automatic Keystone_HP Wide Vision 5MP Camera"
+        }
+    },
+    "manual_keystone_text_by_name": {
+        "locator": {
+            "name": "Manual Keystone_HP Wide Vision 5MP Camera"
+        }
+    },
+    "end_manual_keystone_text_by_name": {
+        "locator": {
+            "name": "End Manual Keystone_HP Wide Vision 5MP Camera"
+        }
+    },
+    "rotate_text_by_name": {
+        "locator": {
+            "name": "Rotate_HP Wide Vision 5MP Camera"
+        }
+    },
+    "share_as_window_close_window": {
+        "locator": {
+            "xpath": "//Window[@Name='HP Enhanced Camera View']/TitleBar[@AutomationId='TitleBar']/Button[@Name='Close']"
+        }
+    },
+    "save_as_close_window": {
+        "locator": {
+            "xpath": "//Window[@Name='Save As']/TitleBar[@AutomationId='TitleBar']/Button[@Name='Close']"
+        }
+    },
+    "split_screen_text": {
+        "locator": {
+            "id": "LayoutItemBtn2"
+        }
+    },
+    "picture_in_picture_text": {
+        "locator": {
+            "id": "LayoutItemBtn3"
+        }
+    },
+    "large_small_text": {
+        "locator": {
+            "id": "LayoutItemBtn4"
+        }
+    },
+    "icon_automatic_keystone_text": {
+        "locator": {
+            "id": "AutoKeystone"
+        }
+    },
+    "icon_end_automatic_keystone_text": {
+        "locator": {
+            "id": "AutoKeystone"
+        }
+    },
+    "icon_manual_keystone_text": {
+        "locator": {
+            "id": "ManualKeystone"
+        }
+    },
+    "manual_keystone_cancel_text": {
+        "locator": {
+            "id": "ksCancelButton.content"
+        }
+    },
+    "manual_keystone_accept_text": {
+        "locator": {
+            "id": "KsSureButton.content"
+        }
+    },
+    "icon_end_manual_keystone_text": {
+        "locator": {
+            "id": "ManualKeystone"
+        }
+    },
+    "icon_rotate_text": {
+        "locator": {
+            "id": "Rotate"
+        }
+    },
+    "alert_pop_up_for_autoFrame_toggle_attention_label_text": {
+        "locator": {
+            "id": "AlertPopupContentTitleLabel"
+        }
+    },
+    "alert_pop_up_for_autoFrame_toggle_content_text": {
+        "locator": {
+            "id": "AlertPopupContentLabel"
+        }
+    },
+    "alert_pop_up_do_not_show_me_again_text": {
+        "locator": {
+            "name": "Do not show me again"
+        }
+    },
+    "alert_pop_up_for_autoFrame_confirm_text": {
+        "locator": {
+            "id": "AlertPopupYesBtn.content"
+        }
+    },
+    "alert_pop_up_for_autoFrame_cancel_text": {
+        "locator": {
+            "id": "AlertPopupNoBtn.content"
+        }
+    },
+    "drag_button": {
+        "locator": {
+            "id": "resize_button"
+        }
+    },
+    "scrollbar": {
+        "locator": {
+            "id": "Drawer_Scroller.Handle_Bar"
+        }
+    },
+    "scroll_bar": {
+        "locator": {
+            "id": "Drawer_Scroller"
+        }
+    },
+    "video_control_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_smartcam-core"
+        }
+    },
+    "my_tab_button_with_icon_1": {
+        "locator": {
+            "id": "MyTabButtonWithIcon1"
+        }
+    },
+    "hpone_page_title":{
+        "locator": {
+            "id": "AUID_FIRSTUSE_AuthenticationView_Heading_header1"
+        }
+    },
+    "hpone_page_btn":{
+        "locator": {
+            "id": "AUID_FIRSTUSE_AuthenticationView_SkipToNext"
+        }
+    },
+    "help_icon":{
+        "locator": {
+            "id": "HelpBtn"
+        }
+    },
+    "layout1_icon":{
+        "locator": {
+            "id": "layout1"
+        }
+    }
+}

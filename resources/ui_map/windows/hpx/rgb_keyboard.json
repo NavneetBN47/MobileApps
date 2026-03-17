@@ -1,0 +1,132 @@
+{
+    "RGB_keyboard_header": {
+        "locator": {
+            "id": "AUID_rgbkeyboard-core_NavBreadcrumb_Rgbkeyboard-core"
+        }
+    },
+    "enable_RGB_lighting": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Switch_RGB_Lighting"
+        }
+    },
+    "static": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Effects_Static"
+        }
+    },
+    "wave": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Effects_Wave"
+        }
+    },
+    "ripple": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Effects_Ripple"
+        }
+    },
+    "breathing": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Effects_Breathing"
+        }
+    },
+    "raindrops": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Effects_Raindrops"
+        }
+    },
+    "colorcycle": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Effects_ColorCycle"
+        }
+    },
+    "RGB_keyboard_id": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_rgbkeyboard-core"
+        }
+    },
+    "enable_RGB_lighting_toggle": {
+        "locator": {
+            "name": "RGB Lighting"
+        }
+    },
+    "brightness_slider": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Slider_Brightness"
+        }
+    },
+    "red_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_red"
+        }
+    },
+    "yellow_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_yellow"
+        }
+    },
+    "green_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_green"
+        }
+    },
+    "cyan_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_cyan"
+        }
+    },
+    "blue_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_blue"
+        }
+    },
+    "purple_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_purple"
+        }
+    },
+    "white_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_white"
+        }
+    },
+    "multi_color_blue_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_multicolor-blue"
+        }
+    },
+    "multi_color_rainbow_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_multicolor-rainbow"
+        }
+    },
+    "multi_color_purple_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_multicolor-purple"
+        }
+    },
+    "multi_color_orange_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_multicolor-orange"
+        }
+    },
+    "multi_color_green_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_multicolor-green"
+        }
+    },
+    "multi_color_blue_orange_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_multicolor-blueOrange"
+        }
+    },
+    "multi_color_red_blue_button": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Color Presets_multicolor-redBlue"
+        }
+    },
+    "restore_default_tab": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Home_Btn_Restore_default_settings"
+        }
+    }
+}

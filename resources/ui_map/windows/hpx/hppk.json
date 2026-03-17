@@ -1,0 +1,392 @@
+{
+    "assign_description": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_automateShortcutDescription"
+        }
+    },
+    "programmable_key_heading": {
+        "locator": {
+            "id": "AUID_HPPK_Progkey_personalizedShorcuts"
+        }
+    },
+    "hppk_icon": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_PK"
+        }
+    },
+    "supportkey_icon": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_SPK"
+        }
+    },
+    "add_action": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_TrackedDropdown"
+        }
+    },
+    "add_action_2": {
+        "locator": {
+            "name": "2"
+        }
+    },
+    "add_action_3": {
+        "locator": {
+            "name": "3"
+        }
+    },
+    "add_action_4": {
+        "locator": {
+            "name": "4"
+        }
+    },
+    "add_action_5": {
+        "locator": {
+            "name": "5"
+        }
+    },
+    "save_button": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_SaveButton"
+        }
+    },
+    "add_another": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_AddAnotherButton"
+        }
+    },
+    "circularbutton1": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_CircularButton1"
+        }
+    },
+    "circularbutton2": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_CircularButton2"
+        }
+    },
+    "circularbutton3": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_CircularButton3"
+        }
+    },
+    "circularbutton4": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_CircularButton4"
+        }
+    },
+    "circularbutton5": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_CircularButton5"
+        }
+    },
+    "application": {
+        "locator": {
+            "name": "Application"
+        }
+    },
+    "applicationsearch": {
+        "locator": {
+            "id": "AUID_HPPK_Input_SearchApplication"
+        }
+    },
+    "close_app_button": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_CloseAppViewButton"
+        }
+    },
+    "cancel_app_button": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_CloseButton"
+        }
+    },
+    "add_app_button": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_AddButton"
+        }
+    },
+    "calculator": {
+        "locator": {
+            "name": "Calculator"
+        }
+    },
+    "delete1": {
+        "locator": {
+            "name": "1Delete"
+        }
+    },
+    "delete2": {
+        "locator": {
+            "name": "2Delete"
+        }
+    },
+    "delete3": {
+        "locator": {
+            "name": "3Delete"
+        }
+    },
+    "delete4": {
+        "locator": {
+            "name": "4Delete"
+        }
+    },
+    "delete5": {
+        "locator": {
+            "name": "5Delete"
+        }
+    },
+    "website": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_addWebsite"
+        }
+    },
+    "file": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_addFile"
+        }
+    },
+    "folder": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_addFolder"
+        }
+    },
+    "website_add": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_AddWebsiteButton"
+        }
+    },
+    "website_cancel": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_CancelWebsiteButton"
+        }
+    },
+    "website_input": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_Input"
+        }
+    },
+    "website_close": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_CloseWebsiteButton"
+        }
+    },
+    "website_header": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_Header"
+        }
+    },
+    "website_description": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_Description"
+        }
+    },
+    "website_invalid_url_warning_text": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_Input_error_message"
+        }
+    },
+    "action_content_box": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_Content"
+        }
+    },
+    "prog_key_nav_text": {
+        "locator": {
+            "id": "AUID_progkey-core_NavBreadcrumb_Progkey-core"
+        }
+    },
+    "add_action_text": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_HPPK_Automate_TrackedDropdown']/ListItem[@ClassName='ComboBoxItem']/Text[@ClassName='TextBlock'][1]"
+        }
+    },
+    "personalized_text": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_personalizedShorcuts"
+        }
+    },
+    "application_text": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_HPPK_Automate_TrackedDropdown']/ListItem[@ClassName='ComboBoxItem'][2]/Text[@ClassName='TextBlock'][1]"
+        }
+    },
+    "app_title_text": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_Heading"
+        }
+    },
+    "msaccess_app_applist": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_AppButton"
+        }
+    },
+    "default_support_page": {
+        "locator": {
+            "name": "Support Page"
+        }
+    },
+    "delete_icon": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_DeleteIcon"
+        }
+    },
+    "pcpkprogrammablekey": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_PCPK"
+        }
+    },
+    "automation_radio_btn": {
+        "locator": {
+            "id": "AUID_HPPK_AutomationRadioButton_Automation"
+        }
+    },
+    "key_sequence_radio_btn": {
+        "locator": {
+            "id": "AUID_HPPK_AutomationRadioButton_KeySequence"
+        }
+    },
+    "text_input_radio_btn": {
+        "locator": {
+            "id": "AUID_HPPK_AutomationRadioButton_TextInput"
+        }
+    },
+    "myHP_programmable_radio_btn": {
+        "locator": {
+            "id": "AUID_HPPK_RadioButton_myHPProgrammableKey"
+        }
+    },
+    "key_sequence_input_box": {
+        "locator": {
+            "id": "AUID_HPPK_KeySequence_Input"
+        }
+    },
+    "key_sequence_save_button": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_HPPK_KeySequence_SaveButton']/Text[@AutomationId='AUID_HPPK_KeySequence_SaveButton']"
+        }
+    },
+    "key_sequence_close_button": {
+        "locator": {
+            "id": "AUID_HPPK_KeySequence_CloseButton"
+        }
+    },
+    "automation_text": {
+        "locator": {
+            "id": "AUID_HPPK_AutomationRadioButton_Automation_Text"
+        }
+    },
+    "key_sequence_text": {
+        "locator": {
+            "id": "AUID_HPPK_AutomationRadioButton_KeySequence_Text"
+        }
+    },
+    "text_input_text": {
+        "locator": {
+            "id": "AUID_HPPK_AutomationRadioButton_TextInput_Text"
+        }
+    },
+    "my_hp_pc_device_text": {
+        "locator": {
+            "id": "AUID_HPPK_RadioButton_myHPPCDevice_Text"
+        }
+    },
+    "assign_text": {
+        "locator": {
+            "id": "AUID_HPPK_AutomationDescription_Automation"
+        }
+    },
+    "add_action_text_in_list": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_add"
+        }
+    },
+    "text_input_text_box": {
+        "locator": {
+            "id": "AUID_HPPK_TextInput_Input"
+        }
+    },
+    "text_input_save_button": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_HPPK_TextInput_SaveButton']/Text[@AutomationId='AUID_HPPK_TextInput_SaveButton']"
+        }
+    },
+    "text_input_close_button": {
+        "locator": {
+            "id": "AUID_HPPK_TextInput_CloseButton"
+        }
+    },
+    "continue_button_on_change_shortcut_pop_up": {
+        "locator": {
+            "id": "AUID_HPPK_Modal_ContinueModalButton"
+        }
+    },
+    "myHP_hpsupport_radio_btn": {
+        "locator": {
+            "id": "AUID_HPPK_RadioButton_myHPSupport"
+        }
+    },
+    "myHP_pcdevice_radio_btn": {
+        "locator": {
+            "id": "AUID_HPPK_RadioButton_myHPPCDevice"
+        }
+    },
+    "char_left_text": {
+        "locator": {
+            "id": "AUID_HPPK_TextInputCharactersLeft_TextInput"
+        }
+    },
+    "my_programmable_key_text": {
+        "locator": {
+            "id": "AUID_HPPK_RadioButton_myHPProgrammableKey_Text"
+        }
+    },
+    "my_support_key_text": {
+        "locator": {
+            "id": "AUID_HPPK_RadioButton_myHPSupport_Text"
+        }
+    },
+    "saved_text_key_sequence": {
+        "locator": {
+            "id": "AUID_HPPK_KeySequence_Saved"
+        }
+    },
+    "change_shortcut_modal_title": {
+        "locator": {
+            "id": "AUID_HPPK_Modal_Header"
+        }
+    },
+    "change_shortcut_modal_subtitle": {
+        "locator": {
+            "id": "AUID_HPPK_Modal_Description"
+        }
+    },
+    "cancel_btn_modal": {
+        "locator": {
+            "id": "AUID_HPPK_Modal_CancelModalButton"
+        }
+    },
+    "command_prompt_app": {
+        "locator": {
+            "id": "AUID_HPPK_Assign_Command Prompt"
+        }
+    },
+    "back_arrow": {
+        "locator": {
+            "name": "Back"
+        }
+    },
+    "shift_hppk_icon": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_ShiftPK"
+        }
+    },
+    "ctrl_hppk_icon": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_CtlPK"
+        }
+    },
+    "alt_hppk_icon": {
+        "locator": {
+            "id": "AUID_HPPK_Automate_AltPK"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "hp_instant_ink_btn":{
+        "locator": {"css selector": "li[data-testid='print-plans-menu'] a"}
+    },
+    "plan_overview_btn":{
+        "locator": {
+            "css selector": "li[data-testid='plan-overview-submenu'] a"
+        }
+    },
+    "change_plan_btn":{
+        "locator": {
+            "css selector": "li[data-testid='change-plan-submenu'] a"
+        }
+    },
+    "print_history_btn":{
+        "locator": {
+            "css selector": "li[data-testid='print-history-submenu'] a"
+        }
+    },
+    "shipping_tracking_btn":{
+        "locator": {
+            "css selector": "li[data-testid='shipment-tracking-submenu'] a"
+        }
+    },
+    "plan_overview_page":{
+        "locator": {"css selector": ["#rebranded-home-page", "div[data-testid='special-savings-modal']"]}
+    },
+    "change_plan_page":{
+        "locator": {"css selector": "#change-plan"}
+    },
+    "print_history_page":{
+        "locator": {"css selector": "#print-history-page"}
+    },
+    "shipping_tracking_page":{
+        "locator": {"css selector": "#ink-shipment-ucde"}
+    },
+    "overview_page_title":{
+        "locator": {"css selector": "div[data-testid='overview']"}
+    },
+    "update_plan_page_title":{
+        "locator": {"css selector": "div[data-testid='update-plan']"}
+    },
+    "print_history_page_title":{
+        "locator": {"css selector": "div[data-testid='print-and-payment-history']"}
+    },
+    "shipment_tracking_page_title":{
+        "locator": {"css selector": "div[data-testid='shipment-tracking']"}
+    }
+}

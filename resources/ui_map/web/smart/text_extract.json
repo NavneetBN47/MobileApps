@@ -1,0 +1,14 @@
+{
+   "text_extract_title": {
+    "locator": {"xpath": "//*[text()='Text Edit']"}
+   },
+   "done_btn": {
+    "locator": {"css selector": ".doneButton"}
+   },
+   "copy_all_btn": {
+    "locator": {"css selector": "#copy-to-clipboard-button"}
+   },
+   "copied_txt": {
+    "locator": {"css selector": "#copy-to-clipboard-alert-desc"}
+   }
+}

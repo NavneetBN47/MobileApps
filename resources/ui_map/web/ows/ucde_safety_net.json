@@ -1,0 +1,72 @@
+{
+    "safety_net_page_div":{
+        "locator": {
+            "css selector": ["#oobe","div.page-container.safety-net-container"]
+        }
+    },
+    "back_to_account_btn":{
+        "locator": {
+            "css selector": "button.btn-enabled.btn-primary.safety-net-btn.ng-binding"
+        }
+    },
+    "skip_warrenty_and_account_activation_btn":{
+        "locator": {
+            "css selector": "button.btn-enabled.btn-tertiary.safety-net-btn.ng-binding"
+        }
+    },
+    "read_more":{
+        "locator": {
+            "css selector": ["a[class='btn-hyperlink read-more ng-binding']"] 
+        }
+    },
+    "read_more_ok":{
+        "locator": {
+            "css selector": ["button[id=btn-ok]"]
+        }
+    },
+    "skip_account_activation":{
+        "locator": {
+            "css selector": ["Button[class='btn-enabled ng-binding btn-tertiary']"]
+        }
+    },
+    "load_paper_txt":{
+        "locator": {
+            "css selector": ["div[class='header-text ng-binding']"]
+        }
+    },
+    "load_account_txt":{
+        "locator": {
+            "css selector": ["div[class='spinner-text ng-binding']"]
+        }
+    },
+    "sign_in_btn":{
+        "locator": {
+            "css selector": ["Button[ng-click='signIn()']"]
+        }
+    },
+    "create_account_btn":{
+        "locator": {
+            "css selector": ["Button[class='btn-enabled btn-primary footer-button ng-binding']"]
+        }
+    },
+    "redeem_4_free_months_txt":{
+        "locator": {
+            "css selector": ["h1[data-testid='header']"]
+        }
+    },
+    "skip_account_activation_again":{
+        "locator": {
+            "css selector": "button.btn-enabled.btn-tertiary.safety-net-btn.ng-binding"
+        }
+    },
+    "read_more_txt":{
+        "locator": {
+            "css selector": "button#btn-ok"
+        }
+    },
+    "read_more_ok_btn":{
+        "locator": {
+            "css selector": "button.btn-enabled.btn-primary.ng-binding"
+        }
+    }
+}

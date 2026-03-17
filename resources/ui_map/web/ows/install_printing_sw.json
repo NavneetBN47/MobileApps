@@ -1,0 +1,15 @@
+{
+    "install_printing_sw_page":{
+        "locator":{"css selector":"[data-testid='install-printing-software-page']"}
+    },
+    "copy_templete_btn":{
+        "locator":{"css selector":"[data-testid='copy-btn']"}
+    },
+    "template_text":{
+        "locator":{"css selector":"[data-testid='template-text']"}
+    },
+    "install_driver_sw_link":{
+        "locator":{"css selector":"a[href='https://support.hp.com/us-en/drivers/printers?openCLC=true']"}
+    }
+
+}

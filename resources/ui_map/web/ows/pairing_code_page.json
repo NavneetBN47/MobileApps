@@ -1,0 +1,144 @@
+{
+    "pairing_code_page":{
+        "locator":{"css selector":["[data-testid='pairing-code-page']", "[data-testid='PairingCodePage']", "#pairing-code-0", "[data-testid='jshell-header-test']"],
+                    "id":"@jarvis/react-portal-oobe-mfe_pairing-code"},
+        "analytics":[{
+            "event":"ScreenDisplayed,EnterPairingCode,/PortalOobe/,PairingCode-v01",
+            "trigger":"wait_v"}]
+    },
+    "full_page_pairing_code_page":{
+        "locator":{"id":"@clientos/react-common-layout-mfe-RegularLayout"}
+    },
+    "single_sku_pairing_code_page_follow_steps":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-2039"},
+        "locator":{"css selector":"._2azyUHixTuGQYFdcSIKxOO.GZUx-Lm0wR8aIbG8Guqva"}
+    },
+    "header":{
+        "locator":{"css selector":["[data-testid='text-header']", ".PairingCodePagestyled__Header-jarvis-react-portal-oobe-mfe__sc-1my99og-1.dNhXxl"]}
+    },
+    "description":{
+        "locator":{"css selector":"[data-testid='text-subheader']"}
+    },
+    "pairing_input_label":{
+        "comment":{"jira_ticket":""},
+        "locator":{"css selector":".pGXMgO_YiFcsqHnE1Z72"}
+    },
+    "pairing_code_box_1":{
+        "locator":{"xpath":"//input[@data-id='0']",
+                   "css selector":"#pairing-code-0"}
+    },
+    "pairing_code_box_2":{
+        "locator":{"xpath":"//input[@data-id='1']",
+                   "css selector":"#pairing-code-1"}
+    },
+    "pairing_code_box_3":{
+        "locator":{"xpath":"//input[@data-id='2']",
+                   "css selector":"#pairing-code-2"}
+    },
+    "pairing_code_box_4":{
+        "locator":{"xpath":"//input[@data-id='3']",
+                   "css selector":"#pairing-code-3"}
+    },
+    "pairing_code_box_5":{
+        "locator":{"xpath":"//input[@data-id='4']",
+                   "css selector":"#pairing-code-4"}
+    },
+    "pairing_code_box_6":{
+        "locator":{"xpath":"//input[@data-id='5']",
+                   "css selector":"#pairing-code-5"}
+    },
+    "pairing_code_box_7":{
+        "locator":{"xpath":"//input[@data-id='6']",
+                   "css selector":"#pairing-code-6"}
+    },
+    "pairing_code_box_8":{
+        "locator":{"xpath":"//input[@data-id='7']",
+                   "css selector":"#pairing-code-7"}
+    },
+    "notes":{
+        "locator":{"xpath":"//*[contains(@data-testid, 'text-subheader')][2]"}
+    },
+    "invalid_code_text":{
+        "locator":{"css selector":["[data-testid='pairing-code-error']","[data-testid='error-message']"]}
+    },
+    "retry_limit_text":{
+        "comment": "Text changes after clicking 3 times",
+        "locator":{"css selector":["[data-testid='pairing-code-error']","[data-testid='error-message']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,PairingCodeInlineError,/PortalOobe/,ContinueButton,DA_400_E0888U0022_VP,PairingCode-v01",
+            "trigger":"wait_v"}]
+    },
+    "retry_warning_text":{
+        "comment":"Text Changes after clicking 4 times",
+        "locator":{"css selector":["[data-testid='pairing-code-error']","[data-testid='error-message']"]}
+    },
+    "get_help_find_pairing_code_btn":{
+        "locator":{"css selector":"[data-testid='cant-find-pairing-code-link']"}
+    },
+    "get_help_finding_pairing_code_modal":{
+        "locator":{"css selector":[".vn-modal--content.css-q0m0pw", "[data-testid='cannot-find-code-modal']"]}
+    },
+    "get_help_finding_pairing_code_modal_header":{
+        "locator":{"css selector":"[data-testid='cant-find-pairing-code-modals-header-modal-1']"}
+    },
+    "get_help_finding_pairing_code_modal_body":{
+        "locator":{"css selector":"[data-testid='cant-find-pairing-code-modals-body-modal-1']"}
+    },
+    "get_help_connect_printer_to_network_to_get_pairing_code_btn":{
+        "locator":{"css selector":"[data-testid='cant-find-pairing-code-modals-connect-printer-btn']"}
+    },
+    "get_help_get_pairing_code_ews_btn":{
+        "locator":{"css selector":"[data-testid='cant-find-pairing-code-modals-get-pairing-code-btn']"}
+    },
+    "cant_find_the_pairing_code_btn":{
+        "locator":{"css selector":["[target='_self']", "a[href='#']"]},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,EnterPairingCode,/PortalOobe/,PairingCode-v01,CantFindPairingCodeLink",
+            "trigger":"click"}]
+    },
+    "get_help_finding_pairing_code_modal_close_btn":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/SNO-143"},
+        "locator":{"css selector":["[data-testid='cant-find-pairing-code-modals-close-modal-1']","body > div.css-190uid3 > div > div > div.vn-modal--footer.css-xr071e > button"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,CantFindPairCodeModal,/PortalOobe/EnterPairCode/,PairingCode-v01,CloseButton",
+            "trigger":"click"}]
+    },
+    "cant_find_pairing_code_modal":{
+        "locator":{"css selector":[".vn-modal--dialog.css-1wc6jix","[data-testid='cannot-find-code-modal']"]}
+    },
+    "can_t_find_pairing_code_modal_body":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/SNO-143"},
+        "locator":{"css selector":"body > div.css-190uid3 > div > div > div.vn-modal--body.css-otjoe0"},
+        "analytics":[{
+            "event":"ModalWindowDisplayed,CantFindPairCodeModal,/PortalOobe/EnterPairCode/,PairingCode-v01",
+            "trigger":"click"}]
+    },
+    "cant_find_pairing_code_title":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/SNO-143"},
+        "locator":{"css selector":["h4.vn-modal--title", "body > div.css-190uid3 > div > div > h4"]}
+    },
+    "can_t_find_pairing_code_modal_close_button_text":{
+        "locator":{"css selector":["[data-testid='cant-find-pairing-code-modal-close']", "button.css-nyn3zr"]}
+    },
+    "cant_find_pairing_code_modal_download_link":{
+        "locator":{"css selector":"a[href='https://hpsmart.com/setup']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,CantFindPairCodeModal,/PortalOobe/EnterPairCode/,PairingCode-v01,HpEasyStartDowloadLink",
+            "trigger":"click"}]
+    },
+    "cant_find_pairing_code_modal_hp_support":{
+        "locator":{"css selector":"a[href='https://hp.com/plus-pro-support']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,CantFindPairCodeModal,/PortalOobe/EnterPairCode/,PairingCode-v01,HpSupportLink",
+            "trigger":"click"}]
+    },
+    "cant_find_pairing_code_modal_hp_support_lf":{
+        "locator":{"css selector":"a[href='https://support.hp.com/us-en/printer-setup']"}
+    },
+    "continue_button_text":{
+        "locator":{"css selector":["[data-testid='pairing-code-confirm']", "button.css-nyn3zr"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,EnterPairingCode,/PortalOobe/,ContinueButton,PairingCode-v01",
+            "trigger":"click"}]
+    }
+}

@@ -1,0 +1,367 @@
+{
+    "customers_title_lbl": {
+        "locator": {
+            "css selector": "h4[data-testid='header-customers']"
+        },
+        "localization": {
+            "en": "Customers"
+        }
+    },
+    "customers_description_lbl":{
+        "locator": {
+            "css selector": "div[data-testid='header-customers-description']"
+        },
+        "localization": {
+            "en": "Create customers for business management of devices, solutions, policies, etc."
+        }
+    },
+    "customers_table_customer_name_lbl":{
+        "locator": {
+            "css selector": "tbody td:nth-child(2) div:nth-child(2)"
+        }
+    },
+    "customers_table_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='customers-data-table'] tbody td .vn-checkbox__span"
+        }
+    },
+    "customers_contextual_footer":{
+        "locator": {
+            "css selector": "[data-testid='footer-contextual-menu']"
+        }
+    },
+    "customers_contextual_footer_calcel_button":{
+        "locator": {
+            "css selector": "button[data-testid='cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "customers_contextual_footer_selected_item_lbl":{
+        "locator": {
+            "css selector": "label[data-testid='items-label']"
+        },
+        "localization": {
+            "en": "1 Items selected"
+        }
+    },
+    "customers_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": "div[data-testid='customer-select-footer-batch-operation']"
+        }
+    },
+    "customers_contextual_footer_continue_button":{
+        "locator": {
+            "css selector": "button[data-testid='confirm-batch-button']"
+        },
+        "localization": {
+            "en": "Continue"
+        }
+    },
+    "customers_refresh_button":{
+        "locator": {
+            "css selector": "button[data-testid='reload-button']"
+        }
+    },
+    "customers_last_updated_datetime_lbl":{
+        "locator": {
+            "css selector": "span[data-testid='reload-button-caption']"
+        }
+    },
+    "customers_select_action_dropdown_options":{
+        "locator": {
+            "css selector": "ul#customer-select-footer-batch-operation-listbox li"
+        }
+    },
+    "customers_select_action_dropdown_option":{
+        "locator": {
+            "css selector": "#select-footer-batch-operation-listbox li[data-value='{}']"
+        }
+    },
+    "customers_select_action_dropdown_set_idp_option":{
+        "locator": {
+            "css selector": "li#customer-select-footer-batch-operation-option-0"
+        }
+    },
+    "customers_table_customer_name":{
+        "locator": {
+            "css selector": "tbody td:nth-child(2)"
+        }
+    },
+    "customers_select_action_dropdown_default_option":{
+        "locator": {
+            "css selector": "div#select-footer-batch-operation span"
+        }
+    },
+    "customers_create_button":{
+        "locator": {
+            "css selector": "button[data-testid='create-button']"
+        }
+    },
+    "customers_search_box":{
+        "locator": {
+            "css selector": "input[data-testid='customers-search-box']"
+        }
+    },
+    "customers_filter_button":{
+        "locator": {
+            "css selector": "button[data-testid='filter-button']"
+        }
+    },
+    "customers_settings_button":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "customers_table_no_item_found_lbl":{
+        "locator": {
+            "css selector": "[data-testid='invalid-search-label']"
+        }
+    },
+    "customers_clear_search_button":{
+        "locator": {
+            "css selector": "div[title='Clear']"
+        }
+    },
+    "create_customer_title":{
+        "locator": {
+            "css selector": "h4[data-testid='header-create-customers']"
+        }
+    },
+    "create_customer_desc":{
+        "locator": {
+            "css selector": "div[data-testid='header-create-customers-description']"
+        }
+    },
+    "create_customer_name_lbl":{
+        "locator": {
+            "css selector": "label#edit-customer-name-text-box-label"
+        }
+    },
+    "create_customer_name_txt":{
+        "locator": {
+            "css selector": "input[data-testid='edit-customer-name-text-box']"
+        }
+    },
+    "create_customer_note_lbl":{
+        "locator": {
+            "css selector": "label#edit-customer-note-message-text-box-label"
+        }
+    },
+    "customer_details_cust_name":{
+        "locator": {
+            "css selector": "h4[data-testid='customer-detail-title']"
+        }
+    },
+    "customer_details_country":{
+        "locator": {
+            "css selector": "div[data-testid='customer-detail-country-value']"
+        }
+    },
+    "customer_details_idp":{
+        "locator": {
+            "css selector": "div[data-testid='customer-detail-idp-domain']"
+        }
+    },
+    "customer_details_itadmin":{
+        "locator": {
+            "css selector": "div[data-testid='customer-detail-it-admin-value']"
+        }
+    },
+    "customer_details_settings_btn":{
+        "locator": {
+            "css selector": "button[data-testid='customer-detail-setting']"
+        },
+        "localization": {
+            "en": "Settings"
+        }
+    },
+    "customer_details_domain_edit_btn":{
+        "locator": {
+            "css selector": "button[data-testid='customer-detail-idp-edit-button']"
+        },
+        "localization": {
+            "en": "Edit"
+        }
+    },
+    "customer_name_table_header":{
+        "locator": {
+            "css selector": "[data-testid='customers-data-table'] th#name"
+        }
+    },
+    "column_header_table_header":{
+        "locator": {
+            "css selector": "th#columnHeader"
+        }
+    },
+    "settings_page_title":{
+        "locator": {
+            "css selector": "[data-testid='header-customers']"
+        },
+        "localization": {
+            "en": "Settings"
+        }
+    },
+    "settings_page_desc":{
+        "locator": {
+            "css selector": "[data-testid='header-customers-description']"
+        },
+        "localization": {
+            "en": "Set option values to manage the customer."
+        }
+    },
+    "settings_idp_dropdown":{
+        "locator": {
+            "css selector": "#select-usage"
+        }
+    },
+    "settings_idp_default_dropdown_option":{
+        "locator": {
+            "css selector": "#select-usage span"
+        }
+    },
+    "settings_idp_dropdown_options":{
+        "locator": {
+            "css selector": "#select-usage-listbox li"
+        }
+    },
+    "settings_domain_field_empty_error_msg":{
+        "locator": {
+            "css selector": "#settings-form-elements-textbox-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "This field cannot be blank"
+        }
+    },
+    "settings_domain_field_invalid_error_msg":{
+        "locator": {
+            "css selector": "#settings-form-elements-textbox-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Error Label"
+        }
+    },
+    "settings_contextual_footer":{
+        "locator": {
+            "css selector": "[data-testid='settings-customer-footer']"
+        }
+    },
+    "settings_contextual_footer_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_contextual_footer_save_btn":{
+        "locator": {
+            "css selector": "button[data-testid='save-button']"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "settings_domain_field":{
+        "locator": {
+            "css selector": "input[data-testid='settings-form-elements-textbox']"
+        }
+    },
+    "settings_not_saved_title":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-title']"
+        },
+        "localization": {
+            "en": "Setting Not Saved"
+        }
+    },
+    "settings_not_saved_desc":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-description']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? All unsaved changes will be lost."
+        }
+    },
+    "settings_not_saved_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_not_saved_leave_btn":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-leave-button']"
+        },
+        "localization": {
+            "en": "Leave"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column options"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224 & locator mismatch between PIE & Stage - ",
+        "locator": {
+            "xpath": ["(//span[contains(text(),'Cancel')]/parent::button)[4]",
+                    "(//span[contains(text(),'Cancel')]/parent::button)[2]"]
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Save')]/parent::button"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "customers_table_domain_column":{
+        "locator": {
+            "css selector": "table[data-testid='customers-data-table'] th#domain"
+        }
+    },
+    "customers_table_country_column":{
+        "locator": {
+            "css selector": "table[data-testid='customers-data-table'] th#country"
+        }
+    },
+    "success_alert":{
+        "locator":{
+            "css selector":"div[role='alert'] div>span"
+        },
+        "localization": {
+            "en": "Your changes have been saved."
+        }
+    },
+    "customer_table_all_col_by_index":{
+        "locator": {
+            "css selector": "[data-testid='select-country-name-data-table'] tr > td:nth-of-type(2)"
+        }
+    }
+}

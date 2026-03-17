@@ -1,0 +1,14 @@
+{
+    "fw_update_choice_page":{
+        "locator":{"css selector":".firmware-update-choice.ng-scope"}
+    },
+    "auto_update_button":{
+        "locator":{"css selector":"[for='auto']"}
+    },
+    "notify_button":{
+        "locator":{"css selector":"[for='notify']"}
+    },
+    "apply_button":{
+        "locator":{"css selector":".apply.btn-enabled.btn-primary.ng-binding"}
+    }
+}

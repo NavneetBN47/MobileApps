@@ -1,0 +1,57 @@
+{
+  "eventing_test_button": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='sendEventTestButton']"
+    }
+  },
+  "eventing_send_event_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='sendJarvisEventTestButton']"
+    }
+  },
+  "eventing_jarvis_options_test_result": {
+    "locator": {
+      "xpath": "//Text[@Name='jarvisEventFinished']/following-sibling::Text"
+    }
+  },
+  "eventing_test_result_txt": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='eventDataField']/following::Text"
+    }
+  },
+  "eventing_native_element_listener_field": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='eventingAddListenerTextBox']"
+    }
+  },
+  "add_listener_test_result_text": {
+    "locator": {
+      "xpath": "//Text[@Name='Result']/following-sibling::Text"
+    }
+  },
+  "pop_up_toast_text": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'from Native')]/following-sibling::Text"
+    }
+  },
+  "eventing_add_listener_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='addListenerButton']"
+    }
+  },
+    "eventing_dispatch_open_item": {
+      "locator": {
+        "xpath": "//Button[@Name='Eventing.dispatchEvent()']"
+      }
+    },
+  "add_listener_event_result_text": {
+    "locator": {
+      "xpath": "//Text[@Name='Events']/following-sibling::Text"
+    }
+  },
+  "toast_close_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='close']"
+    }
+  }
+}

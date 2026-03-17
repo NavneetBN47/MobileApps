@@ -1,0 +1,256 @@
+{
+  "data_collection_method": {
+    "locator": {
+      "css selector": "div[aria-controls*='{}']"
+    }
+  },
+  "stack_menu_selector": {
+    "locator": {
+      "css selector": "#stackSelect"
+    }
+  },
+  "stack_menu_item": {
+    "locator": {
+      "xpath": "//span[text()='{}']"
+    }
+  },
+  "invalidate_cache_test_btn": {
+    "locator": {
+      "css selector": "#invalidateCacheResult ~ button"
+    }
+  },
+  "invalidate_cache_test_result": {
+    "locator": {
+      "css selector": "div[id=invalidateCacheResult]"
+    }
+  },
+  "cdm_tree_file_selector": {
+    "locator": {
+      "css selector": "#filterCDMTreesContent input[type='file']",
+      "xpath": "//XCUIElementTypeOther[contains(@label, 'filterCDMTrees')]/descendant::XCUIElementTypeButton[@label='Choose Files']"
+    }
+  },
+  "cdm_tree_gun_textbox": {
+    "locator": {
+      "css selector": "input[name='TreeGun']"
+    }
+  },
+  "asset_unit_menu_selector": {
+    "locator": {
+      "css selector": "#assetUnitSelect"
+    }
+  },
+  "drop_down_menu_item": {
+    "locator": {
+      "css selector": "div[role='presentation'] li[data-value='{}']"
+    }
+  },
+  "asset_type_textbox": {
+    "locator": {
+      "css selector": "#assetType-field"
+    }
+  },
+  "app_instance_id_textbox": {
+    "locator": {
+      "css selector": "#appInstanceId-field"
+    }
+  },
+  "account_login_id_textbox": {
+    "locator": {
+      "css selector": "#accountLoginId-field"
+    }
+  },
+  "stratus_user_id_textbox": {
+    "locator": {
+      "css selector": "#stratusUserId-field"
+    }
+  },
+  "device_id_textbox": {
+    "locator": {
+      "css selector": "#deviceId-field"
+    }
+  },
+  "tenant_id_textbox": {
+    "locator": {
+      "css selector": "#tenantId-field"
+    }
+  },
+  "country_textbox": {
+    "locator": {
+      "css selector": "#country-field"
+    }
+  },
+  "edge_type_textbox": {
+    "locator": {
+      "css selector": "#edgeType-field"
+    }
+  },
+  "simplified_cdm_tree_result_checkbox_value": {
+    "locator": {
+      "css selector": "#filterCDMTreesResultHeader input"
+    }
+  },
+  "simplified_cdm_tree_result_checkbox_toggle": {
+    "locator": {
+      "css selector": "#filterCDMTreesResultHeader span"
+    }
+  },
+  "filter_cdm_tree_test_btn": {
+    "locator": {
+      "css selector": "#filterCDMTreesButton"
+    }
+  },
+  "filter_cdm_tree_test_result": {
+    "locator": {
+      "css selector": "#filterCDMTreesResult"
+    }
+  },
+  "ledm_tree_file_selector": {
+    "locator": {
+      "css selector": "#filterLEDMTreesContent input[name='LEDMTree']",
+      "xpath": "//XCUIElementTypeOther[contains(@label, 'filterLEDM')]/descendant::XCUIElementTypeButton[@label='Choose Files']"
+    }
+  },
+  "resource_uri_textbox": {
+    "locator": {
+      "css selector": "#resourceUri-field"
+    }
+  },
+  "filter_ledm_tree_test_btn": {
+    "locator": {
+      "css selector": "#filterLEDMTreesButton"
+    }
+  },
+  "simplified_ledm_tree_result_checkbox_value": {
+    "locator": {
+      "css selector": "#filterLEDMTreesResultHeader input"
+    }
+  },
+  "simplified_ledm_tree_result_checkbox_toggle": {
+    "locator": {
+      "css selector": "#filterLEDMTreesResultHeader span"
+    }
+  },
+  "filter_ledm_tree_test_result": {
+    "locator": {
+      "css selector": "#filterLEDMTreesContent pre"
+    }
+  },
+  "action_menu_selector": {
+    "locator": {
+      "css selector": "#actionSelect"
+    }
+  },
+  "activity_name_textbox": {
+    "locator": {
+      "css selector": "#activityField"
+    }
+  },
+  "screen_name_textbox": {
+    "locator": {
+      "css selector": "#screenNameField",
+      "xpath": "//XCUIElementTypeOther[@name='Screen name']/following::XCUIElementTypeTextField"
+    }
+  },
+  "screen_path_textbox": {
+    "locator": {
+      "css selector": "#screenPathField"
+    }
+  },
+  "screen_mode_textbox": {
+    "locator": {
+      "css selector": "#screenModeField"
+    }
+  },
+  "control_name_textbox": {
+    "locator": {
+      "css selector": "#controlNameField"
+    }
+  },
+  "control_detail_textbox": {
+    "locator": {
+      "css selector": "#controlDetailField"
+    }
+  },
+  "send_ui_event_test_btn": {
+    "locator": {
+      "css selector": "#sendUiEventButton"
+    }
+  },
+  "send_ui_event_test_result": {
+    "locator": {
+      "css selector": "#sendUiEventResult"
+    }
+  },
+  "send_simple_ui_event_toggle":{
+    "locator":{
+      "css selector": "#sendUiEventItem span"
+    }
+  },
+  "select_tracking_identifier_toggle":{
+    "locator":{
+      "css selector": "#trackingIdentifier span"
+    }
+  },
+  "select_include_vc_metadata_in_event_data_toggle":{
+    "locator":{
+      "css selector": "#vcMetadata span"
+    }
+  },
+  "send_ui_event_to_publishing_btn":{
+    "locator":{
+      "css selector": "#sendUiEventButton"
+    }
+  },
+  "clear_named_ui_action_button": {
+    "locator": {
+      "css selector": "svg[aria-label='X']"
+    }
+  },
+  "jarvis_weblet": {
+    "locator": {
+      "xpath": "//android.webkit.WebView[contains(@text, 'Weblet')]"
+    }
+  },
+  "select_all_btn": {
+    "locator": {
+      "name": "Select All"
+    }
+  },
+  "delete_btn": {
+    "locator": {
+      "name": "delete"
+    }
+  },
+  "done_btn": {
+    "locator": {
+      "name": "Done"
+    }
+  },
+  "send_prebuilt_notification_toggle":{
+    "locator":{
+      "xpath": "//h4[contains(text(),'SendPrebuiltNotification:')]/following::span"
+    }
+  },
+  "mock_notification_toggle":{
+    "locator":{
+      "xpath": "//h6[contains(text(),'mock notification')]/following::span"
+    }
+  },
+  "notification_event_text": {
+    "locator": {
+      "xpath": "//div[@id='trackingEventsContent']/descendant::div[contains(@id,'trackingEventsContent-')]"
+    }
+  },
+  "expand_event_notification": {
+    "locator": {
+      "xpath": "//div[@id='trackingEventsContent']/descendant::div[contains(@aria-controls,'trackingEvent-')]"
+    }
+  },
+  "upload_notification_file":{
+    "locator":{
+      "xpath":"//input[@id='multipleNotificationPicker']//parent::div//parent::div//parent::div",
+      "name": "Upload"
+    }
+  }
+}

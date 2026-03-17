@@ -1,0 +1,965 @@
+{
+    "wex_title_logo": {
+        "locator": {
+            "css selector": "#side_menu_logo"
+        }
+    },
+    "home_menu_btn":{
+        "locator": {
+            "css selector": "#menu_home"
+        }
+    },
+    "home_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "side_menu_expand_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_sm_collapse_btn']"
+        }
+    },
+    "side_menu_close_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_sm_expand_btn']"
+        }
+    },
+    "side_menu_modules_title":{
+        "locator": {
+            "css selector": "li#menu_home+div"
+        }
+    },
+    "modules_fleet_management_button":{
+        "locator": {
+            "css selector": "li#menu_fleetManagement>a"
+        }
+    },
+    "modules_fleet_management_expand_button":{
+        "locator": {
+            "css selector": "li#menu_fleetManagement>a button[class*='vn-side-menu__item-toggle-chevron-button']"
+        }
+    },
+    "modules_fleet_management_expanded":{
+        "locator": {
+            "css selector": ["li#menu_fleetManagement div[class*='animated-height__container--entered']",
+                            "li#menu_fleetManagementDashboard div[class*='animated-height__container--entered']"]
+        }
+    },
+    "sidemenu_analytics_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_reports']"
+        }
+    },
+    "sidemenu_devices_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_devices']"
+        }
+    },
+    "sidemenu_devices_dropdown_option_expanded":{
+        "locator": {
+            "css selector": ["[data-testid='menu_devices'] button[aria-expanded='true']", "[data-testid='menu_devices'][aria-expanded='true']"]
+        }
+    },
+    "sidemenu_devices_dropdown_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_devices']"
+        }
+    },
+    "sidemenu_devices_printers_dropdown_option":{
+        "locator": {
+            "css selector": "[data-testid='menu_devices_printers']"
+        }
+    },
+    "sidemenu_remediations_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_remediations']"
+        }
+    },
+    "sidemenu_remediations_dropdown_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_remediations']"
+        }
+    },
+    "sidemenu_pulses_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_pulses']"
+        }
+    },        
+    "sidemenu_labs_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_labs']"
+        }
+    },
+    "sidemenu_groups_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_groups']"
+        }
+    },
+    "sidemenu_accounts_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_accountManagement']"
+        }
+    },
+    "sidemenu_integrations_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_integrations']"
+        }
+    },
+    "sidemenu_remediations_policies_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_remediations_pcPolicies']"
+        }
+    },
+    "sidemenu_remediations_secrets_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_remediations_remediationsSecrets']"
+        }
+    },
+    "sidemenu_remediations_activity_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_remediations_activity']"
+        }
+    },
+    "sidemenu_remediations_scripts_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_remediations_remediationsScripts']"
+        }
+    },
+    "sidemenu_settings_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_settings']"
+        }
+    },
+    "sidemenu_alerts_button":{
+        "locator": {
+            "css selector": ["[data-testid='menu_alertsListView']", "[data-testid='menu_alerts']"]
+        }
+    },
+    "sidemenu_active_alerts_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_alerts_alertsListView']"
+        }
+    },
+    "sidemenu_alerts_management_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_alerts_alertsManagement']"
+        }
+    },
+    "sidemenu_scripts_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_scripts']"
+        }
+    },
+    "remediations_policies_dropdown_option":{
+        "locator": {
+            "css selector": "a#menu_remediations_pcPolicies"
+        }
+    },
+    "sidemenu_remediations_dropdown_option_expanded":{
+        "locator": {
+            "css selector": ["[data-testid='menu_remediations']+div button[aria-expanded='true'], [data-testid='menu_remediations'] button[aria-expanded='true']"]
+        }
+    },
+    "sidemenu_devices_view_pcs_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_devices_pcs']"
+        }
+    },
+    "sidemenu_devices_view_virtual_machines_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_devices_virtualMachines']"
+        }
+    },
+    "sidemenu_devices_view_physical_assets_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_devices_physicalAssets']"
+        }
+    },
+    "sidemenu_devices_view_printers_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_devices_printers']"
+        }
+    },
+    "fleet_management_print_proxies_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_fleetManagement_printProxies']"
+        }
+    },
+    "fleet_management_policies_button":{
+        "locator": {
+            "css selector": ["[data-testid='menu_fleetManagement_policies']",
+                            "[id='menu_fleetManagement_policiesPrinter']",
+                             "[data-testid='menu_fleetManagementDashboard_policies']"]
+        }
+    },
+    "avatar_icon_top_right":{
+        "locator":{
+            "css selector": "button#dui-profile-card-avatar"
+        }
+    },
+    "avatar_user_profile_card":{
+        "locator":{
+            "css selector": "div#dui-profile-card"
+        }
+    },
+    "avatar_user_profile_card_logout_button":{
+        "locator":{
+            "css selector": "hr[class*='dui-profile-divider wex-stroke-default-border-all']+div>button"
+        }
+    },
+    "fleet_management_dashboard_button":{
+        "locator": {
+            "css selector": "[data-testid='menu_fleetManagement_fleetManagementDashboard']"
+        }
+    },
+    "fleet_management_breadcrumb":{
+        "locator": {
+            "css selector": "#dashboarddetails span[aria-current='page']"
+        },
+        "localization": {
+            "en": "Fleet Management"
+        }
+    },
+    "sidemenu_devices_dropdown_list":{
+        "locator": {
+            "css selector": "div[aria-orientation='vertical'] ul"
+        }
+    },
+    "sidemenu_devices_dropdown_list_items":{
+        "locator": {
+            "css selector": "div[aria-orientation='vertical'] ul button"
+        }
+    },
+    "sidemenu_remediations_dropdown_list":{
+        "locator": {
+            "css selector": "div[aria-orientation='vertical'] ul"
+        }
+    },
+    "sidemenu_remediations_dropdown_list_items":{
+        "locator": {
+            "css selector": "div[aria-orientation='vertical'] ul button"
+        }
+    },
+    "sidemenu_devices_dropdown_list_printers_button":{
+        "locator": {
+            "css selector": "[data-testid='wex_menu_item_printers']"
+        }
+    },
+    "sidemenu_remediations_dropdown_list_policies_button":{
+        "locator": {
+            "css selector": ["[data-testid='wex_menu_item_pcpolicies']", 
+                            "[data-testid='wex_menu_item_printerpolicies']"]
+        }
+    },
+    "home_fleet_inventory_widget":{
+        "locator": {
+            "css selector": "div#fleet-inventory-label"
+        }
+    },
+    "fleet_inventory_widget_title":{
+        "locator": {
+            "xpath": "//h2//div[contains(text(),'Fleet Inventory')][1]"
+        },
+        "localization": {
+            "en": "Fleet Inventory"
+        }
+    },
+    "fleet_inventory_pcs_button":{
+        "locator": {
+            "css selector": "li#pc"
+        }
+    },
+    "fleet_inventory_pcs_icon":{
+        "locator": {
+            "css selector": "li#pc div[class*='icon']"
+        }
+    },
+    "fleet_inventory_pcs_title":{
+        "locator": {
+            "css selector": "li#pc div[class*='left'] div[class*='title']"
+        },
+        "localization": {
+            "en": "PCs"
+        }
+    },
+    "fleet_inventory_pcs_count":{
+        "locator": {
+            "css selector": "li#pc div[class*='content-row-right']"
+        }
+    },
+    "fleet_inventory_printers_button":{
+        "locator": {
+            "css selector": "div.fleet-inventory li#printer"
+        }
+    },
+    "fleet_inventory_printers_icon":{
+        "locator": {
+            "css selector": "li#printer div[class*='icon']"
+        }
+    },
+    "fleet_inventory_printers_title":{
+        "locator": {
+            "css selector": "li#printer div[class*='left'] div[class*='title']"
+        },
+        "localization": {
+            "en": "Printers"
+        }
+    },
+    "fleet_inventory_printers_count":{
+        "locator": {
+            "css selector": "li#printer div[class*='content-row-right'] div"
+        }
+    },
+    "fleet_inventory_virtual_machines_button":{
+        "locator": {
+            "css selector": "li#virtualMachine"
+        }
+    },
+    "fleet_inventory_virtual_machines_icon":{
+        "locator": {
+            "css selector": "li#virtualMachine div[class*='icon']"
+        }
+    },
+    "fleet_inventory_virtual_machines_title":{
+        "locator": {
+            "css selector": "li#virtualMachine div[class*='left'] div[class*='title']"
+        },
+        "localization": {
+            "en": "Virtual machines"
+        }
+    },
+    "fleet_inventory_virtual_machines_count":{
+        "locator": {
+            "css selector": "li#virtualMachine div[class*='content-row-right']"
+        }
+    },
+    "fleet_inventory_video_endpoints_button":{
+        "locator": {
+            "css selector": "li#videoEndpoints"
+        }
+    },
+    "fleet_inventory_video_endpoints_icon":{
+        "locator": {
+            "css selector": "li#videoEndpoints div[class*='icon']"
+        }
+    },
+    "fleet_inventory_video_endpoints_title":{
+        "locator": {
+            "css selector": "li#videoEndpoints div[class*='left'] div[class*='title']"
+        },
+        "localization": {
+            "en": "Video Endpoints"
+        }
+    },
+    "fleet_inventory_video_endpoints_add_on_btn":{
+        "locator": {
+            "css selector": "li#videoEndpoints div[class*='content-row-right'] div"
+        }
+    },
+    "fleet_inventory_telephones_button":{
+        "locator": {
+            "css selector": "li#telephones"
+        }
+    },
+    "fleet_inventory_telephones_icon":{
+        "locator": {
+            "css selector": "li#telephones div[class*='icon']"
+        }
+    },
+    "fleet_inventory_telephones_title":{
+        "locator": {
+            "css selector": "li#telephones div[class*='left'] div[class*='title']"
+        },
+        "localization": {
+            "en": "Telephones"
+        }
+    },
+    "fleet_inventory_telephones_add_on_btn":{
+        "locator": {
+            "css selector": "li#telephones div[class*='content-row-right'] div"
+        }
+    },
+    "home_view_alerts_widget":{
+        "locator": {
+            "css selector": "div#home-recommended-actions-list div[class*='home-active-alerts-card']"
+        }
+    },
+    "home_view_full_list_of_alerts_widget":{
+        "locator": {
+            "css selector": "div#home-recommended-actions-list span#view-all-alerts-link"
+        }
+    },
+    "active_alerts_page_breadcrumb":{
+        "locator": {
+            "css selector": "span#active-alerts"
+        }
+    },
+    "fleet_inventory_card_printers_chart_chart":{
+        "locator": {
+            "css selector": "g.highcharts-series-group"
+        }
+    },
+    "fleet_inventory_card_printers_chart_count":{
+        "locator": {
+            "css selector": "text.highcharts-title"
+        }
+    },
+    "fleet_inventory_card_printers_chart_online_button":{
+        "locator": {
+            "css selector": "li:nth-child(1) > .highcharts-a11y-proxy-element"
+        }
+    },
+    "fleet_inventory_card_printers_chart_offline_button":{
+        "locator": {
+            "css selector": "li:nth-child(2) > .highcharts-a11y-proxy-element"
+        }
+    },
+    "fleet_inventory_card_printers_chart_action":{
+        "locator": {
+            "css selector": "highcharts-point highcharts-color-1 highcharts-point-hover"
+        }
+    },
+    "fleet_inventory_card_printers_chart_tooltip_display":{
+        "locator": {
+            "css selector": "span[data-z-index='1']> span"
+        }
+    },
+    "fleet_inventory_card_printers_chart_offline_graph":{
+        "locator": {
+            "css selector": "path[data-testid='point-offline']"
+        }
+    },
+    "fleet_inventory_card_printers_chart_online_graph":{
+        "locator": {
+            "css selector": "path[data-testid='point-online']"
+        }
+    },
+    "fleet_inventory_card_printers_chart_view_list_of_printers_button":{
+        "locator": {
+            "css selector": "button[data-testid*='view-list-of-printers']"
+        }
+    },
+    "fleet_inventory_card_printers_chart_printers_by_connectivity_label":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Printers by connectivity')]"
+        },
+        "localization": {
+            "en": "Printers by connectivity"
+        }
+    },
+    "analytics_experience_score_page_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "analytics_fleet_management_button":{
+        "locator": {
+            "css selector": "div[id*='custom-dashboard-fleet-management']"
+        }
+    },
+    "home_experience_score_widget":{
+        "locator": {
+            "css selector": "div[id*='wex-score-label']"
+        }
+    },
+    "experience_score_widget_overall_score":{
+        "locator": {
+            "css selector": "div[class*='cat-experience'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_sentiment":{
+        "locator": {
+            "css selector": "div[class*='cat-sentiment'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_system_health":{
+        "locator": {
+            "css selector": "div[class*='cat-systemHealth'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_os_performance":{
+        "locator": {
+            "css selector": "div[class*='cat-osPerformance'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_network_health":{
+        "locator": {
+            "css selector": "div[class*='cat-network'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_security":{
+        "locator": {
+            "css selector": "div[class*='cat-security'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_applications":{
+        "locator": {
+            "css selector": "div[class*='cat-applications'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_collaboration":{
+        "locator": {
+            "css selector": "div[class*='cat-collaboration'] div[class*='bar-hover undefined dui-pointer'] div[class*='workforce-progress-bar']"
+        }
+    },
+    "experience_score_widget_drill_down_overall_score":{
+        "locator": {
+            "css selector": "div[class*='cat-experience'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_drill_down_system_health":{
+        "locator": {
+            "css selector": "div[class*='cat-systemHealth'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_drill_down_os_performance":{
+        "locator": {
+            "css selector": "div[class*='cat-osPerformance'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_drill_down_security":{
+        "locator": {
+            "css selector": "div[class*='cat-security'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_drill_down_sentiment":{
+        "locator": {
+            "css selector": "div[class*='cat-sentiment'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_drill_down_network_health":{
+        "locator": {
+            "css selector": "div[class*='cat-network'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_drill_down_applications":{
+        "locator": {
+            "css selector": "div[class*='cat-applications'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_drill_down_collaboration":{
+        "locator": {
+            "css selector": "div[class*='cat-collaboration'] div[class*='score-title-value']"
+        }
+    },
+    "experience_score_widget_view_experience_overtime":{
+        "locator": {
+            "css selector": "div#wex-score-over-time"
+        }
+    },
+    "home_experience_overtime_widget":{
+        "locator": {
+            "css selector": "div#wex-score-over-time"
+        }
+    },
+    "experience_overtime_widget_days_filter":{
+        "locator": {
+            "css selector": "div[class*='wex-score-overtime'] div[class*='wex-select'] div[aria-haspopup='listbox']"
+        }
+    },
+    "experience_overtime_widget_days_filter_options":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li"
+        }
+    },
+    "experience_overtime_widget_days_filter_option_30_days":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li:nth-child(1)"
+        }
+    },
+    "experience_overtime_widget_days_filter_option_60_days":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li:nth-child(2)"
+        }
+    },
+    "experience_overtime_widget_days_filter_option_90_days":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li:nth-child(3)"
+        }
+    },
+    "experience_overtime_widget_days_filter_selected_option":{
+        "locator": {
+            "css selector": "div[role='combobox'] span"
+        }
+    },
+    "experience_overtime_chart":{
+        "locator": {
+            "css selector": "div[class*='wex-score-overtime'] div[class*='highcharts-container']"
+        }
+    },
+    "home_apps_with_most_crashes_widget":{
+        "locator": {
+            "css selector": ["div[id*='apps_with_most_errors']", "div[id='apps-most-crashes']"]
+        }
+    },
+    "onboarding_notifications_button":{
+        "locator": {
+            "css selector": "div[class*='center-area']"
+        }
+    },
+    "onboarding_notifications_popup":{
+        "locator": {
+            "css selector": "ul[class*='checklist-menu']"
+        }
+    },
+    "onboarding_notifications_first_steps_title":{
+        "locator": {
+            "xpath": "//li[contains(text(),'First steps')]"
+        }
+    },
+    "add_device_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_addDevices"
+        }
+    },
+    "invite_team_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_addUser"
+        }
+    },
+    "complete_your_profile_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_completeCompanyProfile"
+        }
+    },
+    "explore_integrations_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_setupIntegrations"
+        }
+    },
+    "onboarding_notifications_discover_more_title":{
+        "locator": {
+            "xpath": "//li[contains(text(),'Discover more')]"
+        }
+    },
+    "improve_experience_score_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_improveExpScore"
+        }
+    },
+    "gather_employee_feedback_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_createCustomPulse"
+        }
+    },
+    "get_help_and_provide_feedback_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_getHelp"
+        }
+    },
+    "stay_up_to_date_alerts_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_customizeAlerts"
+        }
+    },
+    "troubleshoot_device_issues_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_deviceIssues"
+        }
+    },
+    "add_a_script_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_addScripts"
+        }
+    },
+    "understand_workforce_sentiment_notification_button":{
+        "locator": {
+            "css selector": "div#wex_checklist_item_createSentimentPulse"
+        }
+    },    
+    "add_device_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#addDeviceNew-addDevices"
+        }
+    },
+    "add_device_notification_alert_message1":{
+        "locator": {
+            "css selector": "#addDevicesNew-pcs p:nth-child(1)"
+        }
+    },
+    "add_device_notification_alert_message2":{
+        "locator": {
+            "css selector": "#addDevicesNew-pcs p:nth-child(2)"
+        }
+    },
+    "add_device_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "add_device_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#addDevicesNew-pcs"
+        }
+    },
+    "invite_team_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#addUser-title"
+        }
+    },
+    "invite_team_notification_alert_message1":{
+        "locator": {
+            "css selector": "#addUser-accountManagement p:nth-child(1)"
+        }
+    },
+    "invite_team_notification_alert_message2":{
+        "locator": {
+            "css selector": "#addUser-accountManagement p:nth-child(2)"
+        }
+    },
+    "invite_team_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "invite_team_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#addUser-accountManagement"
+        }
+    },
+    "complete_your_profile_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#complete-profile-title"
+        }
+    },
+    "complete_your_profile_notification_alert_message":{
+        "locator": {
+            "css selector": "#complete-profile-desc"
+        }
+    },
+    "complete_your_profile_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "complete_your_profile_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#accountManagement"
+        }
+    },
+    "explore_integrations_notification_alert_message_title":{
+        "locator": {
+            "css selector": "span#setupIntegrations-title"
+        }
+    },
+    "explore_integrations_notification_alert_message1":{
+        "locator": {
+            "css selector": "#integrations-desc1"
+        }
+    },
+    "explore_integrations_notification_alert_message2":{
+        "locator": {
+            "css selector": "#integrations-desc2"
+        }
+    },
+    "explore_integrations_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "explore_integrations_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#setupIntegrations"
+        }
+    },
+    "improve_experience_score_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#improveExpScore-title"
+        }
+    },    
+    "improve_experience_score_notification_alert_message1":{
+        "locator": {
+            "css selector": "#improve-score-desc"
+        }
+    },
+    "improve_experience_score_notification_alert_message2":{
+        "locator": {
+            "css selector": "#system-health-next-step"
+        }
+    },
+    "improve_experience_score_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "improve_experience_score_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#improveYourScore"
+        }
+    },
+    "gather_employee_feedback_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#createCustomPulse-title"
+        }
+    },
+    "gather_employee_feedback_notification_alert_message1":{
+        "locator": {
+            "css selector": "#emp-dashboard-desc"
+        }
+    },
+    "gather_employee_feedback_notification_alert_message2":{
+        "locator": {
+            "css selector": "#pulses-next-step"
+        }
+    },
+    "gather_employee_feedback_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "gather_employee_feedback_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#pulseList"
+        }
+    },
+    "get_help_and_provide_feedback_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#getHelp-title"
+        }
+    },
+    "get_help_and_provide_feedback_notification_alert_message1":{
+        "locator": {
+            "css selector": "#getHelp-helpSupport p:nth-child(1)"
+        }
+    },
+    "get_help_and_provide_feedback_notification_alert_message2":{
+        "locator": {
+            "css selector": "#getHelp-helpSupport p:nth-child(2)"
+        }
+    },
+    "stay_up_to_date_alerts_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#customizeAlerts-title"
+        }
+    },
+    "stay_up_to_date_alerts_notification_alert_message1":{
+        "locator": {
+            "css selector": "div#customizeAlerts-viewActive p:nth-child(1)"
+        }
+    },
+    "stay_up_to_date_alerts_notification_alert_message2":{
+        "locator": {
+            "css selector": "div#customizeAlerts-viewActive p:nth-child(2)"
+        }
+    },
+    "stay_up_to_date_alerts_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "stay_up_to_date_alerts_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "div#viewActive"
+        }
+    },
+    "troubleshoot_device_issues_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#deviceIssues-title"
+        }
+    },
+    "troubleshoot_device_issues_notification_alert_message1":{
+        "locator": {
+            "css selector": "#deviceIssues-pcs p:nth-child(1)"
+        }
+    },
+    "troubleshoot_device_issues_notification_alert_message2":{
+        "locator": {
+            "css selector": "#deviceIssues-pcs p:nth-child(2)"
+        }
+    },
+    "troubleshoot_device_issues_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "troubleshoot_device_issues_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#pcs"
+        }
+    },
+    "add_a_script_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#addScripts-title"
+        }
+    },
+    "add_a_script_notification_alert_message1":{
+        "locator": {
+            "css selector": "#addScripts-script p:nth-child(1)"
+        }
+    },
+    "add_a_script_notification_alert_message2":{
+        "locator": {
+            "css selector": "#addScripts-script p:nth-child(2)"
+        }
+    },
+    "add_a_script_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "add_a_script_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#script"
+        }
+    },
+    "understand_workforce_sentiment_notification_alert_message_title":{
+        "locator": {
+            "css selector": "#createSentimentPulse-title"
+        }
+    },
+    "understand_workforce_sentiment_notification_alert_message1":{
+        "locator": {
+            "css selector": "#sentiment-emp-dashboard-desc"
+        }
+    },
+    "understand_workforce_sentiment_notification_alert_message2":{
+        "locator": {
+            "css selector": "#pulses-next-step"
+        }
+    },
+    "understand_workforce_sentiment_notification_alert_message_close_button":{
+        "locator": {
+            "css selector": "button[aria-label*='Close coachmark']"
+        }
+    },
+    "understand_workforce_sentiment_notification_alert_message_popup":{
+        "locator": {
+            "css selector": "#pulseList"
+        }
+    },
+    "notification_bell_button":{
+        "locator": {
+            "css selector": "button#notification-center-button"
+        }
+    },
+    "notifications_center_popup":{
+        "locator": {
+            "css selector": "div[class*='wex-notification-center']"
+        }
+    },
+    "notifications_center_popup_title":{
+        "locator": {
+            "css selector": "div[class*='vn-notification-center--header'] [class*='title-header']"
+        }
+    },
+    "notifications_center_alerts_section":{
+        "locator": {
+            "css selector": "div[role='tablist'] div[id='0']"
+        }
+    },
+    "notifications_center_notifications_section":{
+        "locator": {
+            "css selector": "div[role='tablist'] div[id='1']"
+        }
+    },
+    "notifications_center_alerts_message":{
+        "locator": {
+            "css selector": ["[class*='notification-center--notification-items']", "div[class='wex-empty-state-widget']"]
+        }
+    },
+    "notifications_center_notifications_message":{
+        "locator": {
+            "css selector": ["[class*='notification-center--notification-items']", "div[class='wex-empty-state-widget']"]
+        }
+    }
+}

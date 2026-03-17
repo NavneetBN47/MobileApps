@@ -1,0 +1,155 @@
+{
+    "123_hp_page_header":{
+        "locator":{"css selector":".page-header.vertical.centered.shrink-off"}
+    },
+    "123_hp_main_content":{
+        "locator":{"css selector":".main-content.vertical.has-side-content"}
+    },
+    "123_hp_page":{
+        "locator":{"css selector":"main.vertical"}
+    },
+    "search_bar":{
+        "locator":{"css selector":"#printerlist-content"}
+    },
+    "printers_page_search_bar_section":{
+        "locator":{"css selector":".standard-bg.horizontal.centered.top-content.shrink-off"}
+    },
+    "printer_image":{
+        "locator":{"css selector":".printers-image"}
+    },
+    "home_page_content":{
+        "locator":{"css selector":"main.vertical"}
+    },
+    "bottom_section_content":{
+        "locator":{"css selector":".main-content.vertical.bottom"}
+    },
+    "addition_help_hp_support_hyperlink":{
+        "locator":{"css selector":".support-header-note.main-text"}
+    },
+    "country_selector_hover_button":{
+        "locator":{"css selector":"#tooltip-text"}
+    },
+    "select_country_language":{
+        "locator":{"css selector":"#country-language-selector"}
+    },
+    "iframe":{
+        "locator":{"css selector":"body > iframe:nth-child(1)"}
+    },
+    "canada_en":{
+        "locator":{"id":"ca_en"}
+    },
+    "country_selector_flag":{
+        "locator":{"css selector":"#tooltip-image"}
+    },
+    "country_selector_name":{
+        "locator":{"css selector":".flag-image"}
+    },
+    "enter_product_name":{
+        "locator":{"css selector":"#printer-searchlist"}
+    },
+    "close_button_search_bar":{
+        "locator":{"css selector":".input-cancel"}
+    },
+    "printer_search_suggestions_list":{
+        "locator":{"css selector":".typeahead__list"}
+    },
+    "first_suggestion_after_entering_printer_name":{
+        "locator":{"css selector":"[data-index='0']"}
+    },
+    "next_button":{
+        "locator":{"css selector":"#btn-begin"}
+    },
+    "hp_easy_start_setup_content":{
+        "locator":{"css selector":".vertical.page-subheader"}
+    },
+    "app_store_images":{
+        "locator":{"css selector":"#app-store-images"}
+    },
+    "install_hp_easy_start":{
+        "locator":{"css selector":".download-button.btn"}
+    },
+    "install_hp_smart_button":{
+        "locator":{"css selector":"#appstore-button"}
+    },
+    "header_nav":{
+        "locator":{"css selector":".header-menu"}
+    },
+    "123_home_page_printer_image":{
+        "locator":{"css selector":"[src='/resources/assets/img/defaultPrinterSetup.png']"}
+    },
+    "wheres_the_product_name_hyperlink":{
+        "locator":{"css selector":"#whereis-printer-model-label"}
+    },
+    "find_product_name_modal":{
+        "locator":{"css selector":".carousel-overlay-content"}
+    },
+    "home_page_with_find_product_name_modal":{
+        "locator":{"css selector":".carousel-overlay"}
+    },
+    "find_product_name_modal_next_slide":{
+        "locator":{"css selector":".nav-btn.next-slide"}
+    },
+    "find_product_name_modal_prev_slide":{
+        "locator":{"css selector":".nav-btn.prev-slide"}
+    },
+    "find_product_name_modal_close_button":{
+        "locator":{"css selector":"#closeCarousel"}
+    },
+    "3m_printer_image":{
+        "locator":{"css selector":"[src='/resources/assets/img/printers_names_3M_printer.png']"}
+    },
+    "vasari_printer_image":{
+        "locator":{"css selector":"[src='/resources/assets/img/printers_names_vasari_printer.png']"}
+    },
+    "horizon_printer_image":{
+        "locator":{"xpath":"(//img[@src='/resources/assets/img/printers_names_horizon_printer.png'])[2]"}
+    },
+    "taccola_printer_image":{
+        "locator":{"xpath":"(//img[@src='/resources/assets/img/printers_names_taccola_printer.png'])[2]"}
+    },
+    "printer_name_box":{
+        "locator":{"xpath":"(//img[@src='/resources/assets/img/printers_names_box.png'])[2]"}
+    },
+    "my_device_is_not_listed_hyperlink":{
+        "locator":{"css selector":"[href='/devices/OTHER-PRINTERS']"}
+    },
+    "deskjet_nav":{
+        "locator":{"css selector":"[href='/us/en/printers/deskjet']"}
+    },
+    "deskjet_printer_family_image":{
+        "locator":{"css selector":"[src='/resources/printer_images/DJ2620/290x245.png']"}
+    },
+    "envy_nav":{
+        "locator":{"css selector":"[href='/us/en/printers/envy']"}
+    },
+    "envy_printer_family_image":{
+        "locator":{"css selector":"[src='/resources/printer_images/ENVY6400SERIES/290x245.png']"}
+    },
+    "printer_model_content_subline":{
+        "locator":{"css selector":"#copy1"}
+    },
+    "apple_store_icon":{
+        "locator":{"css selector":"#macBadge"}
+    },
+    "android_store_icon":{
+        "locator":{"css selector":"#androidBadge"}
+    },
+    "support_item_links":{
+        "locator":{"css selector":".support-item.troubleshoot"}
+    },
+    "solve_setup_issues_hyperlink":{
+        "locator":{"css selector":"#printer-troubleshoot-url"}
+    },
+    "hp_support_hyperlink":{
+        "locator":{"css selector":"#printer-setup-url"}
+    },
+    "hp_plus_logo":{
+        "locator":{"css selector":".hpplus-logo"}
+    },
+    "hp_logo":{
+        "locator":{"css selector":".hp-logo"}
+    },
+    "continue_with_computer_drop_down_arrow":{
+        "locator":{"xpath":"(//*[contains(@class, 'list-header') and contains(@class, 'arrow-header')])[2]"}
+    }
+}

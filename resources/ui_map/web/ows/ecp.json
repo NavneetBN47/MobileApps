@@ -1,0 +1,91 @@
+{
+    "not_right_now_button":{
+        "locator":{"css selector":"[data-testid='not-right-now-button']"}
+    },
+    "whole_page_finish_setup_page":{
+        "locator":{"id":"@clientos/react-common-layout-mfe-RegularLayout"}
+    },
+    "connect_button":{
+        "locator":{"css selector":"[data-testid='connect-button']"}
+    },
+    "buttons_get_drivers_label":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"css selector":"button.css-g4q1jw"}
+    },
+    "finish_setup_page":{
+        "locator":{"css selector":"[data-testid='finish-setup-page-for-ecp']"}
+    },
+    "command_center_page":{
+        "locator":{"css selector":"[data-testid='jarvis-react-ecp-dashboard__dashboard']"}
+    },
+    "hp_command_center_terms_of_use":{
+        "locator":{"css selector":"a[href='https://docs.hpcommandcenter.com/en_US/tc.html']"}
+    },
+    "buttons_partner_link_label":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"css selector":"button.css-nyn3zr"}
+    },
+    "buttons_hp_command_center_label":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"(//*[contains(@class, 'css-1q5f153')])[2]",
+                    "css selector":"button.css-1q5f153"}
+    },
+    "command_center_btn_partner_link_page":{
+        "jira":"https://hp-jira.external.hp.com/browse/OMFE-462",
+        "locator":{"css selector":[".css-1ivu41m",".css-1luxycl"]}
+    },
+    "header":{
+        "locator":{"css selector":"[data-testid='text-header']"}
+    },
+    "subheader":{
+        "locator":{"css selector":"[data-testid='text-subheader']"}
+    },
+    "action_list_get_drivers_description":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//*[@id='@jarvis/portal-oobe']/div/div/div/div[2]/div[1]/div[1]/span"}
+    },
+    "action_list_get_drivers__title":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//*[@id='@jarvis/portal-oobe']/div/div/div/div[2]/div[1]/div[1]/h6"}
+    },
+    "action_list_partner_link_description":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//*[@id='@jarvis/portal-oobe']/div/div/div/div[2]/div[2]/div[1]/span"}
+    },
+    "action_list_partner_link__title":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//*[@id='@jarvis/portal-oobe']/div/div/div/div[2]/div[2]/div[1]/h6"}
+    },
+    "action_list_hp_command_center_description":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//*[@id='@jarvis/portal-oobe']/div/div/div/div[2]/div[3]/div[1]/span"}
+    },
+    "action_list_hp_command_center__title":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//*[@id='@jarvis/portal-oobe']/div/div/div/div[2]/div[3]/div[1]/h6"}
+    },
+    "get_software_and_drivers":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"css selector":".w9rLo2tpiWK2mymH3m6t"}
+    },
+    "connect_to_hp_partner_link_pay_per_use":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//div[@class='w9rLo2tpiWK2mymH3m6t'][2]"}
+    },
+    "hp_command_center":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator":{"xpath":"//*[@id='@jarvis/portal-oobe']/div/div/div/div[2]/div[3]"}
+    },
+    "command_center_login_page":{
+        "locator":{"css selector":["[data-testid='clientos-react-login-mfe__title']", "[data-testid='jarvis-react-shell-login__title']"]}
+    },
+    "command_center_login_terms":{
+        "locator":{"css selector":["[data-testid='clientos-react-login-mfe__agree']", "[data-testid='jarvis-react-shell-login__agree']"]}
+    },
+    "username_field":{
+        "locator":{"id":"login-email"}
+    },
+    "command_center_login_page_continue_btn":{
+        "locator":{"id":"btnContinue"}
+    }
+}

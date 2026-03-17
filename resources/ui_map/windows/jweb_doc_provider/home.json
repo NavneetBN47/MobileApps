@@ -1,0 +1,47 @@
+{
+  "top_nav_btn": {
+    "locator": {
+      "xpath": "//TabItem[@Name='{}']"
+    }
+  },
+  "service_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='{}']"
+    }
+  },
+  "launch_as_web_service_btn": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'web service')]/preceding-sibling::CheckBox"
+    }
+  },
+  "doc_set": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Doc sets')]/following-sibling::Pane/List/ListItem/descendant::Text"
+    }
+  },
+  "doc_item": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Docs')]/following-sibling::Pane/List/ListItem/descendant::Text"
+    }
+  },
+  "create_new_doc_set": {
+    "locator": {
+      "xpath": "//ListItem[contains(@Name, 'Create')]"
+    }
+  },
+  "use_selected_doc_set": {
+    "locator": {
+      "xpath": "//ListItem[contains(@Name, 'Use')]"
+    }
+  },
+  "add_document_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Add document']"
+    }
+  },
+  "close_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Close']"
+    }
+  }
+}

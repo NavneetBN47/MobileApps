@@ -1,0 +1,19 @@
+{
+  "browser_test_btn": {
+    "locator": {
+      "id": "openTestButton"
+    }
+  },
+
+  "pretend_auth_redirect_link": {
+    "locator": {
+      "id": "redirectme"
+    }
+  },
+
+  "browser_test_result": {
+    "locator": {
+      "xpath": "//Text[@Name='Result']/following::Text"
+    }
+  }
+}

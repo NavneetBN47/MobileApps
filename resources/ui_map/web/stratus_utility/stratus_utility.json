@@ -1,0 +1,38 @@
+{
+    "printer_uuid_edit_box": {
+        "locator": {"id": "cloudid"}
+    },
+    "stack_combobox": {
+        "locator": {"id": "stack"}
+    },
+    "stage_item": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='stack']/List[1]/ListItem[last()]"}
+    },
+    "search_btn": {
+        "locator": {"id": "submit"}
+    },
+    "unClaim_and_remove_uuid_btn": {
+        "locator": {"id": ["delete_all", "delete_uuid"]}
+    },
+    "bad_gateway_info": {
+        "locator": {"xpath": "//Document[contains(@Name, 'Bad Gateway')]"}
+    },
+    "details_btn": {
+        "locator": {"id": "details-button"}
+    },
+    "proceed_link": {
+        "locator": {"id": "proceed-link"}
+    },
+    "username_edit": {
+        "locator": {"id": "username"}
+    },
+    "password_edit": {
+        "locator": {"id": "password"}
+    },
+    "sign_in_btn": {
+        "locator": {"xpath": ["Button[@Name='Sign in']", "//Edit[@AutomationId='password']/following-sibling::Button[1]"]}
+    },
+    "webpage_pane": {
+        "locator": {"xpath": "//Pane[contains(@Name, 'Google Chrome')]"}
+    }
+} 

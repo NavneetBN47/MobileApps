@@ -1,0 +1,127 @@
+{
+  "settings_savebtn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='saveBtn']"
+    }
+  },
+  "settings_closebtn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='CloseButton']"
+    }
+  },
+  "use_batching_policy_toggle": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='useBatchingPolicy']"
+    }
+  },
+  "enable_verbose_logs": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='enableVerboseLogsValue']"
+    }
+  },
+  "enable_use_custom_metadata_toggle": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='useCustomMetadataValues']"
+    }
+  },
+  "asset_unit_menu_selector":{
+    "locator":{
+      "xpath": "//ComboBox[@AutomationId='assetUnitValue']"
+    }
+  },
+  "asset_unit_option":{
+    "locator":{
+      "name":"{}"
+    }
+  },
+  "asset_type_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='assetTypeValue']"
+    }
+  },
+  "app_instance_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='appInstanceIdValue']"
+    }
+  },
+  "device_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='deviceIdValue']"
+    }
+  },
+  "account_login_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='accountLoginIdValue']"
+    }
+  },
+  "stratus_user_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='stratusUserIdValue']"
+    }
+  },
+  "tenant_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='tenantIdValue']"
+    }
+  },
+  "model_number_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='modelNumberValue']"
+    }
+  },
+  "use_queue_policy":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='useQueuePolicy']"
+    }
+  },  
+  "queue_item_lists":{
+    "locator":{
+      "xpath":"//Text[@AutomationId='queueItemsList']"
+    }
+  },
+  "data_valve_stack_selector":{
+    "locator":{
+      "xpath": "//ComboBox[@AutomationId='stackDataValveValue']"
+    }
+  },
+  "data_valve_stack_option":{
+    "locator":{
+      "name":"{}"
+    }
+  },
+  "data_ingress_stack_selector":{
+    "locator":{
+      "xpath": "//ComboBox[@AutomationId='stackDataIngressValue']"
+    }
+  },
+  "data_ingress_stack_option":{
+    "locator":{
+      "xpath":"//ComboBox[@AutomationId='stackDataIngressValue']//Text[@Name='{}']"
+    }
+  },
+  "use_custom_batching_params_toggle":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='useCustomBatchingParams']"
+    }
+  },
+  "batching_max_event_age_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='batchingMaximumEventAge']"
+    }
+  },
+  "batching_max_event_notification_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='batchingMaximumEventPerNotification']"
+    }
+  },
+  "batching_min_event_notification_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='batchingMinimumEventPerNotification']"
+    }
+  },
+  "batching_evaluation_frequency_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='batchingEvaluationFrequency']"
+    }
+  }
+}

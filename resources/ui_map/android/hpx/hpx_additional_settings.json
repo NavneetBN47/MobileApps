@@ -1,0 +1,65 @@
+{
+    "server_stack_btn": {
+        "locator": {
+        "xpath": [
+            "//android.widget.TextView[@text='Server Stack']",
+            "//android.widget.TextView[@text='Staging (will trigger app restart on change)']"
+            ]
+        }
+    },
+    "web_apps_stack_btn": {
+        "locator": {
+        "xpath": [
+            "//android.widget.TextView[@text='Web Apps Stack']",
+            "//android.widget.TextView[@text='Staging (will trigger app restart on change)']"
+            ]
+        }
+    },
+    "search_btn": {
+        "locator": {
+            "id": "app_bar_search",
+            "xpath": "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/app_bar_search']"
+        }
+    },
+    "search_txtbox": {
+        "locator": {
+            "id": "search_src_text",
+            "xpath": "//android.widget.AutoCompleteTextView[@resource-id = 'com.hp.printercontrol.debug:id/search_src_text']"
+        }
+    },
+    "dev_server_stack": {
+        "locator": {
+            "xpath": "//android.widget.CheckedTextView[@text = 'Dev']"
+        }
+    },
+    "pie_server_stack": {
+        "locator": {
+            "xpath": "//android.widget.CheckedTextView[@text = 'Pie1']"
+        }
+    },
+    "stage_server_stack": {
+        "locator": {
+            "xpath": "//android.widget.CheckedTextView[@text = 'Stage1']"
+        }
+    },
+    "production_server_stack": {
+        "locator": {
+            "xpath": "//android.widget.CheckedTextView[@text = 'Production']"
+        }
+    },
+    "pie_webapp_stack": {
+        "locator": {
+            "xpath": "//android.widget.CheckedTextView[@text = 'Pie']"
+        }
+    },
+    "stage_webapp_stack": {
+        "locator": {
+            "xpath": "//android.widget.CheckedTextView[@text = 'Stage']"
+        }
+    },
+    "production_webapp_stack": {
+        "locator": {
+            "xpath": "//android.widget.CheckedTextView[@text = 'Prod']"
+        }
+    }
+}

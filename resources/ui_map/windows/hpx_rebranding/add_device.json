@@ -1,0 +1,100 @@
+{
+    "add_device_page_side_bar": {
+        "locator": {
+            "id": ["SideFlyout.Support.Drawer__content", "AddDevice.AddDevice.Drawer", "SideFlyout.Adddevice.Drawer"]
+        }
+    },
+    "add_device_title": {
+        "locator": {
+            "id": "AddDevice.Adddevice.Header"
+        }
+    },
+    "add_printer_section": {
+        "locator": {
+            "id": ["add-printer-win__header","add-printer-action-header__title"],
+            "xpath": ["//Group[@AutomationId='AddDevice.AddDevice.Drawer__content']/Text[2][@Name='Add a Printer']", "//Text[@Name='Add a Printer']"]
+        }
+    },
+    "missing_device_section": {
+        "locator": {
+            "id": "search-by-serial-number-header__title"
+        }
+    },
+    "open_hp_smart_link": {
+        "locator": {
+            "id": "add-printer-action"
+        }
+    },
+    "microsoft_store": {
+        "locator": {
+            "id": "Appid: Microsoft.WindowsStore_8wekyb3d8bbwe!App"
+        }
+    },
+    "search_by_serial_number_btn": {
+        "locator": {
+            "id": "search-by-serial-number"
+        }
+    },
+    "serial_number_textbox": {
+        "locator": {
+            "id": "text-field-serial-number__text-box"
+        }
+    },
+    "need_help_finding_your_serial_number_link": {
+        "locator": {
+            "id": "link-need-help-serial-number"
+        }
+    },
+    "add_a_device_back_btn": {
+        "locator": {
+            "id": "AddDevice.Searchdevice.CloseButton"
+        }
+    },
+    "close_button_on_add_device_page": {
+        "locator": {
+            "id": "AddDevice.Adddevice.CloseButton"
+        }
+    },
+    "add_printer_content": {
+        "locator": {
+            "xpath": "//Text[@Name=\"Printer setup isn't supported here just yet, we're working on it! In the meantime, add your printer in the HP Smart app.\"]"
+        }
+    },
+    "missing_device_content": {
+        "locator": {
+            "xpath": "//Text[@Name=\"If your device can't connect to the app, search by serial number to get support. You’ll still need to finish setup later.\"]"
+        }
+    },
+    "hp_smart_text": {
+        "locator": {
+            "id":"ProductIdentityTitle"
+        }
+    },
+    "hp_smart_open_btn": {
+        "locator": {
+            "id":"AcquisitionBlock"
+        }
+    },
+    "close_microsoft_store": {
+        "locator": {
+            "id": "Close"
+        }
+    },
+     "add_device_hyperlink": {
+        "locator": {
+            "name": "Add device",
+            "id": "link-add-device-8CC5281Y499U886PA"
+        }
+    },
+    "newly_added_device_card_name": {
+        "locator": {
+            "id": "container-layout",
+            "class name": "styles__Container-hpx-core-experiences-react-navigation-layout-mfe__sc-1x4pn5s-0 yrLuA"
+        }
+    },
+    "product_number_textbox": {
+        "locator": {
+            "id": "text-field-product-number__text-box"
+        }
+    }
+}

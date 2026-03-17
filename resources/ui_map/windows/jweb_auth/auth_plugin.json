@@ -1,0 +1,207 @@
+{
+  "auth_plugin_header_title": {
+    "locator": {
+      "xpath": "//Text[@Name='Auth Plugin']"
+    }
+  },
+  "require_fresh_token": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='requireFreshTokenToggle']"
+    }
+  },
+  "auth_token_list_options": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='{}Select']"
+    }
+  },
+  "auth_token_option_checkbox": {
+    "locator": {
+      "xpath": "//CheckBox[@AutomationId='{}Checkbox']"
+    }
+  },
+  "auth_user_interaction_entry_point_selector": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='userInteractionEntryPointSelect']"
+    }
+  },
+  "auth_user_interaction_entry_point_selector_name": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='userInteractionEntryPointSelect' and @Name='{}']"
+    }
+  },
+  "auth_user_interaction_entry_point_selector_expanded": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='userInteractionEntryPointSelect' and @ExpandCollapseState='Expanded']"
+    }
+  },
+  "auth_create_account_page_item": {
+    "locator": {
+      "name": "createAccount"
+    }
+  },
+  "auth_token_list_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "auth_sign_in_page_item": {
+    "locator": {
+      "name": "signIn"
+    }
+  },
+  "auth_get_token_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='getTokenButton']"
+    }
+  },
+  "auth_get_token_result_txt": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'tokenValue')]"
+    }
+  },
+  "auth_tenant_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='tenant-field']"
+    }
+  },
+  "auth_send_token_options_switch": {
+    "locator": {
+      "css selector": "#getToken label span"
+    }
+  },
+  "pop_up_ok_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='Button0']"
+    }
+  },
+  "add_token_lifetime_option_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='addTokenOptionButton']"
+    }
+  },
+  "time_interval_textbox": {
+    "locator": {
+      "xpath": "//Spinner[@AutomationId='timeInterval_0']"
+    }
+  },
+  "type_token_combobox": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='typeTokenLife_0']"
+    }
+  },
+  "token_lifetime_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "send_token_disable_result": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'userInteractionNotAllowed')]"
+    }
+  },
+  "logout_btn":{
+    "locator": {
+      "name": "Logout"
+    }
+  },
+  "create_account_btn": {
+    "locator": {
+      "name": "Create account"
+    }
+  },
+  "orgless_token_text": {
+    "locator": {
+      "xpath": "//Edit[@Name='orgless token']"
+    }
+  },
+  "token_scopes_checkbox":{
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Token Scopes? (add a space between each scope)')]/following::Group//CheckBox"
+    }
+  },
+  "auth_scope_field_textbox": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Token Scopes? (add a space between each scope)')]/following::Text[1]"
+    }
+  },
+  "set_subscriber_btn": {
+    "locator": {
+      "name": "Set Subscriber "
+    }
+  },
+  "auth_is_logged_in_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='isLoggedInButton']"
+    }
+  },
+  "auth_is_logged_in_result_txt":{
+    "locator": {
+      "xpath": "//*[@AutomationId='jwebContent']//Text[contains(@Name, '\"value\":true')]"
+    }
+  },
+  "auth_is_logged_in_result_txt_false":{
+    "locator": {
+      "xpath": "//*[@AutomationId='jwebContent']//Text[contains(@Name, '\"value\":false')]"
+    }
+  },
+  "set_unsubscriber_btn":{
+    "locator": {
+      "name": "Unsubscribe "
+    }
+  },
+  "auth_logout_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='logoutButton']"
+    }
+  },
+  "logout_successful_message":{
+    "locator": {
+      "name": "Logout Successful"
+    }
+  },
+  "cancel_btn":{
+    "locator": {
+      "name": "Cancel"
+    }
+  },
+  "error_code_result": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'NotAllowed')]"
+    }
+  },
+  "event_subscriber_result": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'com.hp.jarvis.auth.event.publisher')]/following::Text[3]"
+    }
+  },
+  "additional_authorization_parameters_checkbox": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Additional Authorization Parameters? (JSON)')]/following::Group//CheckBox"
+    }
+  },
+  "additional_authorization_parameters_textbox": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Additional Authorization Parameters? (JSON)')]/following::Edit[@AutomationId='additionalParam']"
+    }
+  },
+   "auth_get_tenant_id_error": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'invalidOption')]"
+    }
+  },
+  "user_canceled_error_result": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'userCanceled')]"
+    }
+  },
+  "expand_auth_event_dropdown_1": {
+    "locator": {
+      "xpath": "(//Button[contains(@Name,'com.hp.jarvis.auth.event.login.change Chevron Down')])[1]"
+    }
+  },
+  "expand_auth_event_dropdown_2": {
+    "locator": {
+      "xpath": "(//Button[contains(@Name,'com.hp.jarvis.auth.event.login.change Chevron Down')])[2]"
+    }
+  }
+}

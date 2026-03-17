@@ -1,0 +1,657 @@
+{
+    "devices_pending_printers_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_pendingPrinters']"
+        }
+    },
+    "pending_printers_table_data":{
+        "locator": {
+            "css selector": "tbody tr td div"
+        }
+    },
+    "pending_printers_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "pending_printers_search_textbox":{
+        "locator": {
+            "css selector": "input[data-testid='search-input']"
+        }
+    },
+    "pending_printers_add_printers_button":{
+        "locator": {
+            "css selector": "button[data-testid='add-button']"
+        }
+    },
+    "pending_printers_delete_button":{
+        "locator": {
+            "css selector": "button[data-testid='delete-button']"
+        }
+    },
+    "devices_pending_printers_table_headers":{
+        "locator": {
+            "css selector": "table thead th[id]"
+        }
+    },
+    "pending_printers_no_of_items_selected_label":{
+        "locator": {
+            "css selector": "[data-testid='items-selected-label'] div div div"
+        }
+    },
+    "pending_printers_select_all_button":{
+        "locator": {
+            "css selector": "button[data-testid='select-all-items-button']"
+        }
+    },
+    "pending_printers_unselect_all_button":{
+        "locator": {
+            "css selector": "button[data-testid='select-all-items-button']"
+        }
+    },
+    "pending_printers_refresh_button":{
+        "locator": {
+            "css selector": "button[data-testid='refresh-button']"
+        }
+    },    
+    "pending_printers_gear_button":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "pending_printers_filter_button":{
+        "locator": {
+            "css selector": "[data-testid='filter-button']"
+        }
+    },
+    "pending_printers_status_overview_card":{
+        "locator": {
+            "css selector": "section[id*='@jarvis/react-wex-direct-cloud-onboarding'] div[role='button']"
+        }
+    },
+    "printers_table_data":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child({})"
+       }
+    },
+    "pending_printers_date_added_table_header":{
+        "locator":{
+                "css selector": "thead th#createdAt"
+            }
+        },
+    "pending_printers_serial_number_table_header":{
+        "locator":{
+            "css selector": "thead th#serialNumber"
+        }
+    },
+    "pending_printers_product_number_table_header":{
+        "locator":{
+            "css selector": "thead th#modelNumber"
+        }
+    },
+    "pending_printers_status_table_header":{
+        "locator":{
+            "css selector": "thead th#status"
+        }
+    },
+    "pending_printers_table_no_items_found_msg":{
+        "locator": {
+            "css selector": "div[class*='wex-empty-state-widget-text'] [class='state-title']"
+        },
+        "localization": {
+            "en": "No pending printers found"
+        }
+    },
+    "pending_printers_status_overview_card_expand_button":{
+        "locator": {
+            "css selector": "section[id*='@jarvis/react-wex-direct-cloud-onboarding'] h3>button"
+        }
+    },
+    "pending_printers_status_overview_card_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-status-overview-title']"
+        },
+        "localization": {
+            "en": "Printer status overview"
+        }
+    },
+    "pending_printers_status_overview_card_description":{
+        "locator": {
+            "css selector": "[data-testid='printer-status-overview-description']"
+        },
+        "localization": {
+            "en": "View a printer’s onboarding status to determine whether additional action is required to connect it to the HP cloud."
+        }
+    },
+    "pending_printers_status_overview_action_needed_card":{
+        "locator": {
+            "css selector": "div[data-testid='card-container-action-needed']"
+        }
+    },
+    "pending_printers_status_overview_error_card":{
+        "locator": {
+            "css selector": "div[data-testid='card-container-error']"
+        }
+    },
+    "pending_printers_status_overview_connected_card":{
+        "locator": {
+            "css selector": "div[data-testid='card-container-connected']"
+        }
+    },
+    "pending_printers_action_needed_card_label":{
+        "locator": {
+            "css selector": "div[data-testid='card-label-action-needed'] div:nth-child(2)"
+        },
+        "localization": {
+            "en": "Action needed"
+        }
+    },
+    "pending_printers_action_needed_card_label_icon":{
+        "locator": {
+            "css selector": "div[data-testid='card-label-action-needed'] svg"
+        }
+    },
+    "pending_printers_action_needed_card_title":{
+        "locator": {
+            "css selector": "p[data-testid='card-title-action-needed']"
+        },
+        "localization": {
+            "en": "Cloud connection not complete"
+        }
+    },
+    "pending_printers_action_needed_card_description":{
+        "locator": {
+            "css selector": "p[data-testid='card-description-action-needed']"
+        },
+        "localization": {
+            "en": "Use the links to enable the HP Cloud Connection and finish connecting printers to the HP cloud."
+        }
+    },
+    "pending_printers_action_needed_card_printers_count":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": "div[data-testid='card-container-action-needed']>div:nth-child(1) div[class*='wex-tag-content multiple']"
+        }
+    },
+    "pending_printers_error_card_label":{
+        "locator": {
+            "css selector": "div[data-testid='card-label-error'] div:nth-child(2)"
+        },
+        "localization": {
+            "en": "Error"
+        }
+    },
+    "pending_printers_error_card_label_icon":{
+        "locator": {
+            "css selector": "div[data-testid='card-label-error'] svg"
+        }
+    },   
+    "pending_printers_error_card_title":{
+        "locator": {
+            "css selector": "p[data-testid='card-title-error']"
+        },
+        "localization": {
+            "en": "Connection error"
+        }
+    },
+    "pending_printers_error_card_description":{
+        "locator": {
+            "css selector": "p[data-testid='card-description-error']"
+        },
+        "localization": {
+            "en": "Delete the printer and add it to the platform again, or submit a request for technical support."
+        }
+    },
+    "pending_printers_error_card_printers_count":{
+        "locator": {
+            "css selector": "div[data-testid='card-container-error']>div:nth-child(1) div[class*='wex-tag-content multiple']"
+        }
+    },
+    "pending_printers_connected_card_label":{
+        "locator": {
+            "css selector": "div[data-testid='card-label-connected']"
+        },
+        "localization": {
+            "en": "Connected"
+        }
+    },   
+    "pending_printers_connected_card_label_icon":{
+        "locator": {
+            "css selector": "div[data-testid='card-container-connected'] svg"
+        }
+    },    
+    "pending_printers_connected_card_title":{
+        "locator": {
+            "css selector": "p[data-testid='card-title-connected']"
+        },
+        "localization": {
+            "en": "Printer connected to the HP cloud"
+        }
+    },
+    "pending_printers_connected_card_description":{
+        "locator": {
+            "css selector": "p[data-testid='card-description-connected']"
+        },
+        "localization": {
+            "en": "Connected printers are also visible in the Printers tab. No further action is required."
+        }
+    },
+    "pending_printers_connected_card_printers_count":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": "div[data-testid='card-container-connected']>div:nth-child(1) div[class*='wex-tag-content multiple']"
+        }
+    },
+    "pending_printers_delete_button_disabled":{
+        "locator": {
+            "css selector": "button[data-testid='delete-button'][disabled]"
+        }
+    },
+    "pending_printers_delete_confirmation_popup":{
+        "locator": {
+            "css selector": "div[data-testid='delete-printer-popup-title']"
+        }
+    },
+    "pending_printers_delete_confirmation_popup_cancel_button":{
+        "locator": {
+            "css selector": "div[class*='WexButtonGroup'] button[data-testid='delete-printer-popup-cancel-button']"
+        }
+    },
+    "pending_printers_delete_confirmation_popup_delete_button":{
+        "locator": {
+            "css selector": "div[class*='WexButtonGroup'] button[data-testid='delete-printer-popup-delete-button']"
+        }
+    },
+    "pending_printers_delete_confirmation_popup_close_button":{
+        "locator": {
+            "css selector": "button[aria-label='Close modal']"
+        }
+    },
+    "pending_printers_delete_confirmation_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='delete-printer-popup-title'] h4"
+        },
+        "localization": {
+            "en": "Delete Printers?"
+        }
+    },
+    "pending_printers_delete_confirmation_popup_message":{
+        "locator": {
+            "css selector": "div[data-testid='delete-printer-popup-description']"
+        },
+        "localization": {
+            "en": "Deleting the selected printers will remove them from the HP Workforce Experience Platform."
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column Options"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "locator": {
+            "css selector": "button[class*='reset-to-default-button']"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//button//*[contains(text(),'Cancel')]"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//button//*[contains(text(),'Save')]"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label"
+        }
+    },
+    "pending_printers_filter_side_bar_clear_all_button":{
+        "locator": {
+            "css selector": "button[data-testid='filters-popup-clear-all-button']"
+        }
+    },
+    "pending_printers_filter_side_bar_clear_all_button_disabled":{
+        "locator": {
+            "css selector": "button[data-testid='filters-popup-clear-all-button'][disabled]"
+        }
+    },
+    "pending_printers_filter_side_bar_done_button":{
+        "locator": {
+            "css selector": "button[data-testid='filters-popup-done-button']"
+        },
+        "localization": {
+            "en": "Done"
+        }
+    },
+    "pending_printers_filter_side_bar_title":{
+        "locator": {
+            "css selector": "div.wex-lib-sidebar-title"
+        },
+        "localization": {
+            "en": "Filters"
+        }
+    },
+    "pending_printers_filter_side_bar_status_label":{
+        "locator": {
+            "css selector": "[data-testid='filters-popup-title']"
+        },
+        "localization": {
+            "en": "Status"
+        }
+    },
+    "pending_printers_filter_side_bar_action_needed_checkbox":{
+        "locator": {
+            "css selector": "li#PENDING span[class*='text']"
+        }
+    },
+    "pending_printers_filter_side_bar_error_checkbox":{
+        "locator": {
+            "css selector": "li#FAILED span[class*='text']"
+        }
+    },
+    "pending_printers_filter_side_bar_connected_checkbox":{
+        "locator": {
+            "css selector": "li#COMPLETE span[class*='text']"
+        }
+    },
+    "pending_printers_filter_side_bar_action_needed_count":{
+        "locator": {
+            "css selector": "#PENDING span[class*='LabelValue']"
+        }
+    },
+    "pending_printers_filter_side_bar_error_count":{
+        "locator": {
+            "css selector": "li#FAILED span[class*='LabelValue']"
+        }
+    },
+    "pending_printers_filter_side_bar_connected_count":{
+        "locator": {
+            "css selector": "li#COMPLETE span[class*='LabelValue']"
+        }
+    },
+    "add_printers_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup-title']"
+        },
+        "localization": {
+            "en": "Add Printers"
+        }
+    },
+    "add_printers_popup_description":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup-description']"
+        },
+        "localization": {
+            "en": "Select how to add printers to the platform."
+        }
+    },
+    "add_printers_popup_close_button":{
+        "locator": {
+            "css selector": "[data-testid='close-button']"
+        }
+    },
+    "add_printers_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='continue-button']"
+        }
+    },
+    "add_printers_popup_enter_manually_button":{
+        "locator": {
+            "css selector": "div[data-testid='enter-manually-button']"
+        }
+    },
+    "add_printers_popup_enter_manually_button_name":{
+        "locator": {
+            "css selector": "[data-testid='enter-manually-button'] [class*='CardTitle']"
+        },
+        "localization": {
+            "en": "Enter manually"
+        }
+    },
+    "add_printers_popup_enter_manually_button_description":{
+        "locator": {
+            "css selector": "[data-testid='enter-manually-button'] [class*='CardDescription']"
+        },
+        "localization": {
+            "en": "Add up to 10 printers at once by entering serial numbers and product numbers."
+        }
+    },
+    "add_printers_popup_enter_manually_button_icon":{
+        "locator": {
+            "css selector": "div[data-testid='enter-manually-button'] div[class*='LeadingIcon'] svg"
+        }
+    },
+    "add_printers_enter_manually_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup-title']"
+        },
+        "localization": {
+            "en": "Add Printers"
+        }
+    },
+    "add_printers_enter_manually_popup_description":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup-description']"
+        },
+        "localization": {
+            "en": "Enter the serial and product number for each printer you want to connect. You can add up to 10 printers at once."
+        }
+    },
+    "add_printers_enter_manually_popup_back_button":{
+        "locator": {
+            "css selector": "button[data-testid='back-button']"
+        }
+    },
+    "add_printers_enter_manually_popup_close_button":{
+        "locator": {
+            "css selector": "button[data-testid='close-button']"
+        }
+    },
+    "add_printers_enter_manually_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='cancel-button']"
+        }
+    },
+    "add_printers_enter_manually_popup_submit_button":{
+        "locator": {
+            "css selector": "button[data-testid='submit-button']"
+        }
+    },
+    "add_printers_printer1_field":{
+        "locator": {
+            "xpath": "//div[@data-testid='printer-1-title']/parent::div"
+        }
+    },
+    "add_printers_printer1_field_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-1-title']"
+        },
+        "localization": {
+            "en": "Printer 1"
+        }
+    },
+    "add_printers_printer1_field_delete_button":{
+        "locator": {
+            "css selector": "button[data-testid='printer-1-delete-button']"
+        }
+    },
+    "add_printers_printer1_field_serial_number_label":{
+        "locator": {
+            "css selector": "[data-testid='printer-1-serial-number-input-label']"
+        },
+        "localization": {
+            "en": "Serial number"
+        }
+    },
+    "add_printers_printer1_field_product_number_label":{
+        "locator": {
+            "css selector": "[data-testid='printer-1-product-number-input-label']"
+        },
+        "localization": {
+            "en": "Product number"
+        }
+    },
+    "add_printers_printer1_field_serial_number_textbox":{
+        "locator": {
+            "css selector": "[data-testid='printer-1-serial-number-input']"
+        }
+    },
+    "add_printers_printer1_field_product_number_textbox":{
+        "locator": {
+            "css selector": "[data-testid='printer-1-product-number-input']"
+        }
+    },
+    "add_printers_printer1_field_serial_number_label_icon":{
+        "locator": {
+            "css selector": "[aria-controls='printer-1-serial-number-input-tooltip'] svg"
+        }
+    },
+    "add_printers_printer1_field_product_number_label_icon":{
+        "locator": {
+            "css selector": "[aria-controls='printer-1-product-number-input-tooltip'] svg"
+        }
+    },
+    "add_printers_enter_manually_popup_add_another_printer_button":{
+        "locator": {
+            "css selector": "button[data-testid='add-another-printer-button']"
+        }
+    },
+    "add_printers_printer1_field_serial_number_label_tooltip":{
+        "locator": {
+            "css selector": "[aria-controls='printer-1-serial-number-input-tooltip']+div"
+        }
+    },
+    "add_printers_printer1_field_product_number_label_tooltip":{
+        "locator": {
+            "css selector": "[aria-controls='printer-1-product-number-input-tooltip']+div"
+        }
+    },
+    "add_printers_printer1_field_serial_number_textbox_warning_msg":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//*[contains(text(),'Enter a valid serial number.')]"
+        }
+    },
+    "add_printers_printer1_field_product_number_textbox__warning_msg":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//*[contains(text(),'Enter a valid product number.')]"
+        }
+    },
+    "add_printers_printer1_field_product_number_blacklisted_warning_message":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": "div[role='alert'] div[class*='StyledDescription']"
+        }
+    },
+    "add_printers_printer1_field_already_claimed_warning_message":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": "div[data-testid='printer-1-title']+div"
+        }
+    },
+    "discard_changes_popup":{
+        "locator": {
+            "css selector": "div[data-testid='printer-info-modal'][role='dialog']"
+        }
+    },
+    "discard_changes_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-info-modal'][role='dialog'] div[class*='Title']"
+        },
+        "localization": {
+            "en": "Discard changes?"
+        }
+    },
+    "discard_changes_popup_message":{
+        "locator": {
+            "css selector": "div[data-testid='printer-info-modal'][role='dialog'] div[class*='Description']"
+        },
+        "localization": {
+            "en": "The serial and product numbers you’ve entered will not be saved. These printers will not be added to the platform."
+        }
+    },
+    "discard_changes_popup_go_back_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": "div[data-testid='printer-info-modal'] div[class*='Footer'] div div:nth-child(1) button[data-testid='goBack']"
+        }
+    },
+    "discard_changes_popup_discard_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": "div[class*='Footer'] div div:nth-child(1) button[data-testid='discard']"
+        }
+    },
+    "add_printers_printer2_field":{
+        "locator": {
+            "xpath": "//div[@data-testid='printer-2-title']/parent::div"
+        }
+    },
+    "add_printers_printer2_field_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-2-title']"
+        },
+        "localization": {
+            "en": "Printer 2"
+        }
+    },
+    "add_printers_printer2_field_delete_button":{
+        "locator": {
+            "css selector": "button[data-testid='printer-2-delete-button']"
+        }
+    },
+    "add_printers_printer2_field_serial_number_label":{
+        "locator": {
+            "css selector": "[data-testid='printer-2-serial-number-input-label']"
+        },
+        "localization": {
+            "en": "Serial number"
+        }
+    },
+    "add_printers_printer2_field_product_number_label":{
+        "locator": {
+            "css selector": "[data-testid='printer-2-product-number-input-label']"
+        },
+        "localization": {
+            "en": "Product number"
+        }
+    },
+    "add_printers_printer2_field_serial_number_textbox":{
+        "locator": {
+            "css selector": "input[data-testid='printer-2-serial-number-input']"
+        }
+    },
+    "add_printers_printer2_field_product_number_textbox":{
+        "locator": {
+            "css selector": "input[data-testid='printer-2-product-number-input']"
+        }
+    },
+    "bottom_toast_msg":{
+        "locator":{
+            "css selector": "div[role='alert'] div>div"
+        }
+    },
+    "pending_printers_empty_widget_no_results_msg":{
+        "locator": {
+            "css selector": "div[class*='wex-empty-state-widget-text'] div[class='state-title']"
+        }
+    }
+}

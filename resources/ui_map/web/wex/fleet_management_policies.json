@@ -1,0 +1,1036 @@
+{
+    "fleet_management_policies_printers_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_']"
+        }
+    },
+    "remediations_policies_printers_tab":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_']"
+        }
+    },
+    "remediations_printer_policies_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_Printer']"
+        },
+        "localization": {
+            "en": "Printer Policies"
+        }
+    },
+    "remediations_printer_assignments_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_Assignments']"
+        },
+        "localization": {
+            "en": "Printer Policy Assignments"
+        }
+    },
+    "fleet_management_breadcrumb":{
+        "locator": {
+            "css selector": "a[href='/ui/fleet-management/fleetManagementDashboard']"
+        },
+        "localization": {
+            "en": "Fleet Management"
+        }
+    },
+    "fleet_management_policies_breadcrumb":{
+        "locator": {
+            "css selector": "span[aria-current='page']"
+        },
+        "localization": {
+            "en": "Policies"
+        }
+    },
+    "fleet_management_policy_details_policies_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-label='breadcrumbs'] a[href='/ui/view/remediations/printer-policies']"
+        },
+        "localization": {
+            "en": "Policies"
+        }
+    },
+    "policy_details_page_policy_detail_breadcrumb":{
+        "locator": {
+            "css selector": "span[aria-current='page']"
+        },
+        "localization": {
+            "en": "Policy detail"
+        }
+    },
+    "fleet_management_policy_policy_details_breadcrumb":{
+        "locator": {
+            "xpath": "//*[contains(text(),'Policy detail')]"
+        },
+        "localization": {
+            "en": "Policy detail"
+        }
+    },
+    "edit_policies_page_breadcrumb":{
+        "locator": {
+            "css selector": "span[aria-current='page']"
+        },
+        "localization": {
+            "en": "Edit"
+        }
+    },
+    "printers_policies_policies_tab":{
+        "locator": {
+            "css selector": "div[aria-controls='extended-0']"
+        },
+        "localization": {
+            "en": "Policies"
+        }
+    },
+    "printers_policies_assignments_tab":{
+        "locator": {
+            "css selector": "div[aria-controls='extended-1']"
+        },
+        "localization": {
+            "en": "Assignments"
+        }
+    },
+    "printers_policies_devices_tab":{
+        "locator": {
+            "css selector": "div[aria-controls='extended-2']"
+        },
+        "localization": {
+            "en": "Devices"
+        }
+    },
+    "policies_tab_search_textbox":{
+        "locator": {
+            "css selector": "input#policy-search"
+        }
+    },
+    "policy_settings_search_box_default_text":{
+        "locator": {
+            "css selector": "input[placeholder='Search in {}']"
+        }
+    },
+    "policy_settings_category_options":{
+        "locator": {
+            "css selector": "li[id='all'] ul[role='group'] li span:nth-child(1)"
+        }
+    },
+    "policies_tab_import_button":{
+        "locator": {
+            "css selector": "button#importPolicy"
+        }
+    },
+    "import_policy_file_input":{
+        "locator": {
+            "css selector": "input[type='file']"
+        }
+    },
+    "import_policy_confirm_button":{
+        "locator": {
+            "css selector": "button[data-testid='import-policy-confirm-button']"
+        }
+    },
+    "import_policy_modal":{
+        "locator": {
+            "css selector": "div[data-testid='import-policy-modal']"
+        }
+    },
+    "policies_tab_create_button":{
+        "locator": {
+            "css selector": "button#createPolicy"
+        }
+    },
+    "policies_tab_column_option_gear_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "policies_tab_table":{
+        "locator": {
+            "css selector": "table[data-testid='id-policies-table']"
+       }
+    },
+    "policies_tab_table_checkbox":{
+        "locator": {
+            "css selector": "table tbody td .vn-checkbox__span"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column Options"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label span:nth-child(3)"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "locator": {
+            "css selector": "#column-options+div button:nth-child(1)"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "locator": {
+            "css selector": "#column-options+div button:nth-child(2)"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "policies_table_catagory_column":{
+        "locator": {
+            "css selector": "th#category"
+        }
+    },
+    "policies_table_modifiedby_column":{
+        "locator": {
+            "css selector": "th#modifiedBy"
+        }
+    },
+    "solutions_device_table_assessmnet_column":{
+        "locator": {
+            "css selector": "th#assessment"
+        }
+    },
+    "policies_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+	"policies_contextual_footer":{
+        "locator": {
+            "css selector": "#policy-footer"
+        }
+    },
+    "policies_contextual_footer_cancel_button":{
+        "locator": {
+            "css selector": "button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "policies_item_selected_label":{
+        "locator": {
+            "css selector": "#cancelButton+div"
+        }
+    },
+	"policies_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": "div[class*='select-action'] [aria-haspopup='listbox']"
+        }
+    },
+	"policies_contextual_footer_select_action_dropdown_options":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li"
+        }
+    },
+	"policies_select_action_dropdown_option":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+	"policies_contextual_footer_continue_button":{
+        "locator": {
+            "css selector": "button#continueButton"
+        },
+        "localization": {
+            "en": "Continue"
+        }
+    },
+    "policies_create_btn":{
+        "locator": {
+            "css selector": "button#createPolicy"
+        }
+    },
+    "create_policy_policy_name_txt":{
+        "locator": {
+            "css selector": "input#textboxLabel"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown":{
+        "locator": {
+            "css selector": "#dropdownLabel"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown_options":{
+        "locator": {
+            "css selector": "ul[id*='list'] li"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown_essential_option":{
+        "locator": {
+            "css selector": "li[id*='option-0']"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown_skip_option":{
+        "locator": {
+            "css selector": "li[id*='option-2']"
+        }
+    },
+    "create_policy_next_btn":{
+        "locator": {
+            "css selector": "button#nextBtn"
+        }
+    },
+    "create_policy_search_txt":{
+        "locator": {
+            "css selector": ["input[id='id-select-policy-attribute-search']",
+                            "input[id='id-policy-attribute-search']"]
+        }
+    },
+    "create_policy_settings_checkbox":{
+        "comment": "locator bad waiting for dev to fix: ticket - FLTMGMT-2500",
+        "locator": {
+            "css selector": "table[data-testid='id-policy-attribute-table'] tbody tr:nth-child(1) label span"
+        }
+    },
+    "create_policy_create_button":{
+        "locator": {
+            "css selector": "button#createBtn"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "create_policy_done_button":{
+        "locator": {
+            "css selector": "button#idDone"
+        },
+        "localization": {
+            "en": "Done"
+        }
+    },
+    "change_not_recommended_popup_confirm_button":{
+        "locator":{
+            "css selector":"#idConfirm"
+        },
+        "localization": {
+            "en": "Confirm"
+        }
+    },
+    "change_not_recommended_popup":{
+        "locator": {
+            "css selector": "div[data-testid='id-confirm-modal']"
+        }
+    },
+    "change_not_recommended_popup_warning_icon":{
+        "locator": {
+            "css selector": "div[data-testid='id-confirm-modal'] svg"
+        }
+    },
+    "change_not_recommended_popup_title":{
+        "locator": {
+            "css selector": "h4[data-testid='id-confirm-modal-title']"
+        },
+        "localization": {
+            "en": "Change Not Recommended"
+        }
+    },
+    "change_not_recommended_popup_desc":{
+        "locator": {
+            "css selector": "p[data-testid='id-confirm-modal-text-1']"
+        },
+        "localization": {
+            "en": 
+                "The recommended policy settings will offer the most improved security.\nSaving current policy settings might leave your fleet at risk."
+        }
+    },
+    "change_not_recommended_popup_desc_end_part":{
+        "locator": {
+            "css selector": "p[data-testid='id-confirm-modal-text-2']"
+        },
+        "localization": {
+            "en": "Are you sure you want to proceed?"
+        }
+    },
+    "change_not_recommended_popup_cancel_button":{
+        "locator": {
+            "css selector": "button#idCancelSave"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "policy_created_successfully_popup_title":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-title']"
+        },
+        "localization": {
+            "en": "Policy Created Successfully!"
+        }
+    },
+    "policy_created_successfully_popup_desc":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-text-2']"
+        },
+        "localization": {
+            "en": "Assign this policy to device groups by selecting the Assignments tab and adding the policy to device groups."
+        }
+    },
+    "policy_created_successfully_popup_policy_name_label":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-text-1'] span"
+        },
+    "localization": {
+        "en": "Policy Name"
+        }
+    },
+    "policy_created_successfully_popup_policy_name":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-name']"
+        }
+    },
+    "operation_failed_popup_title":{
+        "locator":{
+            "css selector": "h4[data-testid='id-policies-error-modal-title']"
+        },
+        "localization": {
+            "en": "Operation Failed"
+        }
+    },
+    "operation_failed_popup_desc":{
+        "locator":{
+            "css selector": "p[data-testid='id-policies-error-modal-text']"
+        },
+        "localization": {
+            "en": "Policy already exists with same name. Please change policy name."
+        }
+    },
+    "operation_failed_popup_ok_button":{
+        "locator":{
+            "css selector": "button#idCloseError"
+        }
+    },
+    "policy_search_field":{
+        "locator":{
+            "css selector": "#policy-search"
+	    }
+    },
+    "policy_name_table_header":{
+        "locator":{
+            "css selector": ["thead #name",
+		             "thead #policy",
+			     "thead #policyName"]
+	    }
+    },
+    "policy_status_table_header":{
+        "locator":{
+            "css selector": "thead #active"
+	    }
+    },
+    "policies_table_headers":{
+        "locator": {
+            "css selector": "table thead th[id]"
+        }
+    },
+    "policies_table_data":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child({})"
+       }
+    },
+    "category_table_header":{
+        "locator": {
+            "css selector": "th#category"
+        }
+    },
+    "modified_by_table_header":{
+        "locator": {
+            "css selector": "th#modifiedBy"
+        }
+    },
+    "last_modified_table_header":{
+        "locator":{
+            "css selector": "th#modifiedAt"
+        }
+    },
+    "policies_status":{
+        "locator": {
+            "css selector": "tr td:nth-child(3)"
+        }
+    },
+    "policies_assigned_group_name":{
+        "locator": {
+            "css selector": "tr td:nth-child(4)"
+        } 
+    },
+    "policies_details_settings_names":{
+        "locator": {
+            "css selector": "#policySettingHeader"
+        }
+    },
+    "policy_details_search_txt":{
+        "locator": {
+            "css selector": "input[id='id-policy-attribute-search']"
+        }
+    },
+    "bottom_toast_message":{
+        "locator": {
+            "css selector": ["div[role='status']", "[role='alert']"]
+        }
+    },
+    "edit_policy_policy_name_txt":{
+        "locator": {
+            "css selector": "input#textboxLabel"
+        }
+    },
+    "edit_policy_save_button":{
+        "locator": {
+            "css selector": "button#saveButton"
+        }
+    },
+    "confirm_policy_save_button":{
+        "locator": {
+            "css selector": "button#idSave"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "edit_policy_add_button":{
+        "locator": {
+            "css selector": "button#addPolicyButton"
+        },
+        "localization": {
+            "en": "Change"
+        }
+    },
+    "add_policy_pop_up_title":{
+        "locator":{
+            "css selector": "[class*='addPolicyModal'] h4"
+        },
+        "localization": {
+            "en": "Change Policy Settings"
+        }
+    },
+    "add_policy_related_item":{
+        "locator":{
+            "css selector": "div.cardTitle"
+        }
+    },
+    "add_policy_popup_search_txt":{
+        "locator": {
+            "css selector": "input[id='id-select-policy-attribute-search']"
+        }
+    },
+    "add_policy_search_policy_setting_names":{
+        "locator":{
+            "css selector": "[data-testid='id-policy-attribute-table'] tbody td:nth-child(2)"
+        }
+    },
+    "add_policy_popup_policy_checkbox":{
+        "locator": {
+            "css selector": "tbody span.vn-checkbox__span"
+        }
+    },
+    "add_policy_popup_add_button":{
+        "locator": {
+            "css selector": "button#addPolicyModalButton"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "add_policy_popup_cancel_button":{
+        "locator": {
+            "css selector": "button#cancelPolicyModalButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "edit_policy_settings_trash_button":{
+        "locator": {
+            "css selector": "button#policySettingRemoval"
+        }
+    },
+    "edit_policy_note_txt":{
+        "locator": {
+            "css selector": "#textAreaLabel"
+        }
+    },
+    "policy_save_confirm_popup":{
+        "locator": {
+            "css selector": "[data-testid='id-save-modal-title']"
+        },
+        "localization": {
+            "en": "Are you sure to save this policy?"
+        }
+    },
+    "policy_save_confirm_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='id-save-modal-text-2']"
+        },
+        "localization": {
+            "en": "If this policy is already assigned, the assignment status will be impacted."
+        }
+    },
+    "policy_save_confirm_popup_policy_name":{
+        "locator": {
+            "css selector": "p[data-testid='id-save-modal-text-1'] span:nth-child(1)"
+        },
+        "localization": {
+            "en": "Policy Name"
+        }
+    },
+    "policy_save_confirm_popup_policy_name_value":{
+        "locator": {
+            "css selector": "span[data-testid='id-save-modal-name']"
+        }
+    },
+    "policy_save_confirm_popup_cancel_button":{
+        "locator": {
+            "css selector": "button#idCancelSaveWarning"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_not_saved_title":{
+        "locator": {
+            "css selector": "[data-testid='id-warning-save-modal-title']"
+        },
+        "localization": {
+            "en": "Settings Not Saved"
+        }
+    },
+    "settings_not_saved_desc_one":{
+        "locator": {
+            "css selector": "[data-testid='id-warning-save-modal-text-1']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page?"
+        }
+    },
+    "settings_not_saved_desc_two":{
+        "locator": {
+            "css selector": "[data-testid='id-warning-save-modal-text-2']"
+        },
+        "localization": {
+            "en": "All unsaved changes will be lost."
+        }
+    },
+    "settings_not_saved_cancel_btn":{
+        "locator": {
+            "css selector": "button#unsaved-changes-cancel-button"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_not_saved_leave_btn":{
+        "locator": {
+            "css selector": "button#unsaved-changes-confirm-button"
+        },
+        "localization": {
+            "en": "Leave"
+        }
+    },
+    "policy_details_card":{
+        "locator": {
+            "css selector": "[aria-controls='policyDetailsCard']"
+        }
+    },
+    "policy_details_card_policy_name":{
+        "locator": {
+            "css selector": "div[id='accordion-details'] [class*='name']"
+        }
+    },
+    "policy_details_card_edit_btn":{
+        "locator": {
+            "css selector": "div#accordion-details button#editButton"
+        },
+        "localization": {
+            "en": "Edit"
+        }
+    },
+    "policy_details_card_more_btn":{
+        "locator": {
+            "css selector": "button#editButton+div button"
+        }
+    },
+    "policy_details_card_remove_option":{
+        "locator": {
+            "css selector": "button[role='menuitem']"
+        }
+    },
+    "create_policy_title":{
+        "locator": {
+            "css selector": "h5.createPolicyTitle"
+        },
+        "localization": {
+            "en": "Create Policy"
+        }
+    },
+    "create_policy_basic_info_step_title":{
+        "locator": {
+            "css selector": "h5.step-heading"
+        },
+        "localization": {
+            "en": "Step 1: Basic Information"
+        }
+    },
+    "no_policy_found_message":{
+        "locator": {
+            "css selector": "div>label[data-testid='no-data-label']"
+        },
+        "localization": {
+            "en": "No policy found"
+        }
+    },
+    "assignments_policy_table_headers":{
+        "locator": {
+            "css selector": "div#assignments table thead th[id]"
+        }
+    },
+    "group_side_bar_expand_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Expand']"
+        }
+    },
+    "group_side_bar_collapse_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Collapse']"
+        }
+    },
+    "groups_side_bar_title":{
+        "locator": {
+            "css selector": "div[class='task-group-title']"
+        },
+        "localization": {
+            "en": "Groups"
+        }
+    },
+    "groups_all_group_title":{
+        "locator": {
+            "css selector": "div[class*='expand-icon']+span"
+        },
+        "localization": {
+            "en": "All"
+        }
+    },
+    "groups_all_group_count":{
+        "locator": {
+            "css selector": "div[class*='expand-icon']+span+span"
+        }
+    },
+    "groups_all_group_expand_btn":
+    {
+        "locator": {
+            "css selector": "div[class*='expand-icon']"
+        }
+    },
+    "assignments_group_name":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//span[contains(text(),'{}')]"
+        }
+    },
+    "assignments_add_policy_btn":{
+        "locator": {
+            "css selector": "button#addPolicy-btn"
+        }
+    },
+    "assignments_delete_policy_btn":{
+        "locator": {
+            "css selector": "button#task-trash-button"
+        }
+    },
+    "assignments_add_policy_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "assignments_add_policy_add_btn":{
+        "locator": {
+            "css selector": "button#addButton"
+        },
+        "localization": {
+            "en": "Add"
+        }
+    },
+    "assignments_dropdown":{
+        "locator": {
+            "css selector": "[aria-haspopup='listbox']"
+        }
+    },
+    "assignments_dropdown_options":{
+        "locator": {
+            "css selector": ["ul[id*='listbox'] li", "ul[role*='listbox'] li"]
+        }
+    },
+    "assignments_action_btn":{
+        "locator": {
+            "css selector": "button#actionButton"
+        }
+    },
+    "add_policies_table_policy_name":{
+        "locator": {
+            "css selector": "div#add-policy-modal tbody td:nth-child(2)"
+        }
+    },
+    "add_policies_popup_policy_name":{
+        "locator": {
+            "css selector": "#add-policy-modal tbody td:nth-child(2)"
+        }
+    },
+    "add_policies_popup_title":{
+        "locator": {
+            "css selector": "#add-policy-modal-label"
+        },
+        "localization": {
+            "en": "Add Policy"
+        }
+    },
+    "add_policies_popup_desc":{
+        "locator": {
+            "css selector": "#add-policy-modal p"
+        },
+        "localization": {
+            "en": "Select policy to assign to a group and unselect to remove from the group."
+        }
+    },
+    "add_policies_popup_cancel_button":{
+        "locator": {
+            "css selector": "[aria-labelledby='add-policy-modal-label'] button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "add_policies_popup_close_button":{
+        "locator": {
+            "css selector": "[aria-labelledby='add-policy-modal-label'] button[class*='close']"
+        }
+    },
+    "policy_search_txt":{
+        "locator": {
+            "css selector": "input#policy-search"
+        }
+    },
+    "policies_table_no_item_found":{
+        "locator": {
+            "xpath": "//span[contains(text(),'No Items Found')]"
+        }
+    },
+    "assignment_contextual_footer":{
+        "locator": {
+            "css selector": "div[class*='task-fixed']"
+        }
+    },
+    "assignment_contextual_footer_cancel_button":{
+        "locator": {
+            "css selector": "button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "assignments_table_policy_name":{
+        "locator":{
+            "css selector":"#assignments td:nth-child(1) a"
+        }
+    },
+    "assignments_policy_preview_title":{
+        "locator":{
+            "css selector":"#preview-policy-modal-label"
+        }
+    },
+    "assignments_policy_preview_settings_title":{
+        "locator":{
+            "css selector":"#preview-policy-modal p"
+        },
+        "localization": {
+            "en": "Policy Settings"
+        }
+    },
+    "assignments_policy_preview_close_btn":{
+        "locator":{
+            "css selector":"div.preview-policy-modal [class*='close']"
+        }
+    },
+    "policy_settings_card":{
+        "locator": {
+            "css selector": ["div#accordion-settings h3>button" ,"div#accordion-settings div[role='button']", "div#accordion-settings button[aria-expanded]"]
+        }
+    },
+    "assignment_tab_polices_names":{
+        "locator": {
+            "css selector": "#assignments table td a"
+        }
+    },
+    "change_policy_priority_button":{
+        "locator":{
+            "css selector":"button#modifyPolicy-btn"
+        },
+        "localization": {
+            "en": "Change Policy Priority"
+        }
+    },
+    "change_policy_priority_popup_title":{
+        "locator": {
+            "css selector": "#change-policy-priority-modal-label"
+        },
+        "localization": {
+            "en": "Change Policy Priority"
+        }
+    },
+    "change_policy_priority_popup_desc":{
+        "locator": {
+            "css selector": "#change-policy-priority-modal p"
+        },
+        "localization": {
+            "en": "Select one or more policies and use the arrows to arrange them in order of priority. Policies at the top of the list will take precedence over ones below."
+        }
+    },
+    "change_policy_priority_popup_close_btn":{
+        "locator": {
+            "css selector": "[aria-labelledby='change-policy-priority-modal-label'] button[class*='close']"
+        }
+    },
+    "change_policy_priority_popup_cancel_btn":{
+        "locator": {
+            "css selector": "[aria-labelledby='change-policy-priority-modal-label'] button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "change_policy_priority_popup_save_btn":{
+        "locator": {
+            "css selector": "[aria-labelledby='change-policy-priority-modal-label'] button#saveButton"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "change_policy_priority_popup_reset_btn":{
+        "locator": {
+            "css selector": "button#resetButton"
+        },
+        "localization": {
+            "en": "Undo changes"
+        }
+    },
+    "change_policy_priority_checkbox":{
+        "locator": {
+            "css selector": ["#changePolicy span.vn-checkbox__span", 
+                            "tbody[tabindex='-1'] span.vn-checkbox__span"]
+        }
+    },
+    "change_policy_priority_down_arrow":{
+        "locator": {
+            "css selector": "div[id='change-policy-priority-modal'] button:nth-child(2)"
+        }
+    },
+    "change_policy_priority_up_arrow":{
+        "locator": {
+            "css selector": "div[id='change-policy-priority-modal'] button:nth-child(1)"
+        }
+    },
+    "remove_policy_popup_remove_button":{
+        "locator": {
+            "css selector": "button#idDoRemove"
+        }
+    },
+    "create_policy_basic_info_step_description":{
+        "locator": {
+            "css selector": "p.contentPadding"
+        },
+        "localization": {
+            "en": "Enter policy name and add a note."
+        }
+    },
+    "create_policy_basic_info_policy_error_msg":{
+        "locator": {
+            "css selector": "#textboxLabel-helper-text span.caption.text"
+        },
+        "localization": {
+            "en": "Policy name is required."
+        }
+    },
+    "create_policy_basic_info_policy_settings_type_error_msg":{
+        "locator": {
+            "css selector": "#dropdownLabel-helper-text span.caption.text"
+        },
+        "localization": {
+            "en": "Policy setting type is required."
+        }
+    },
+    "create_policy_basic_info_note_field":{
+        "locator": {
+            "css selector": "#textAreaLabel"
+        }
+    },
+    "create_policy_cancel_btn":{
+        "locator": {
+            "xpath": "(//span[contains(text(),'Cancel')]/parent::button)[1]"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "create_policy_step2_title":{
+        "locator":{
+            "css selector": "h5.step-heading"
+        },
+        "localization": {
+            "en": "Step 2: Select Policy Settings"
+        }
+    },
+    "create_policy_step2_desc":{
+        "locator":{
+            "css selector": "p.contentPadding"
+        },
+        "localization": {
+            "en": "Explore category and search to select policy settings."
+        }
+    },
+    "create_policy_step3_title":{
+        "locator":{
+            "css selector": "h5.step-heading"
+        },
+        "localization": {
+            "en": "Step 3: Set Options"
+        }
+    },
+    "create_policy_step3_desc":{
+        "locator":{
+            "css selector": "p.contentPadding"
+        },
+        "localization": {
+            "en": "Set selected policy setting options and go back to the previous step to add policy setting."
+        }
+    },
+    "create_policy_back_button":{
+        "locator":{
+            "css selector": "button#backBtn"
+        },
+        "localization": {
+            "en": "Back"
+        }
+    },
+    "assignments_table_no_item_found":{
+        "locator": {
+            "css selector": "#assignments svg"
+        }
+    },
+    "policy_accordion_settings":{
+        "locator": {
+            "css selector": "div#accordion-settings>div"
+        }
+    }
+}

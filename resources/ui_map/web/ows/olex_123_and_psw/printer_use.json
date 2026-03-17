@@ -1,0 +1,61 @@
+{
+    "header":{
+        "locator":{"xpath":"//h1[@data-testid='header'][1]"},
+        "localization":{"en":"How will this printer be used?"}
+    },
+    "subheader":{
+        "locator":{"css selector":"[data-testid='subheader']"},
+        "localization":{"en":"This helps HP offer you the best experience and options during printer setup."}
+    },
+    "card_header_personal":{
+        "locator":{"css selector":"[data-testid='card-header-0']"},
+        "localization":{"en":"For personal use"}
+    },
+    "personal_use_more_info_btn":{
+        "locator":{"css selector":"[data-testid='info-btn-0']"}
+    },
+    "card_body_personal":{
+        "locator":{"css selector":"[data-testid='card-body-0']"},
+        "localization":{
+            "en":"Use primarily for personal or small business needs\nWill complete setup myself\nPlan to share printer with a few people\nPrinter located in a home or home-based business"}
+    },
+    "Select_personal_use_btn":{
+        "locator":{"css selector":"[data-testid='select-btn-0-expanded-true']"}
+    },
+    "card_header_business":{
+        "locator":{"css selector":"[data-testid='card-header-1']"},
+        "localization":{"en":"For business use"}
+    },
+    "card_body_business":{
+        "locator":{"css selector":"[data-testid='card-body-1']"},
+        "localization":{
+            "en":"Use primarily for large business or office needs\nWill complete setup as an admin and get access to an admin dashboard\nPlan to share printer with multiple employees or teams\nPrinter located in an office environment"}
+    },
+    "Select_business_use_btn":{
+        "locator":{"css selector":"[data-testid='select-btn-1-expanded-true']"}
+    },
+    "personal_info_modal_body":{
+        "locator":{"css selector":"[data-testid='show-info-modal-body-personal']"},
+        "localization":{
+            "en":"Use printer for personal or home business needs: This could include printing schoolwork, recipes, labels, or invoices.\n\nYou plan to share the printer with trusted people: This could include your family, roommates, or employees in a home-based business.\n\nYou will use a basic Wi-Fi, Ethernet, or USB connection to the printer and don’t need advanced network features."}
+    },
+    "personal_info_modal_header":{
+        "locator":{"css selector":"[data-testid='show-info-modal-header-personal']"},
+        "localization":{"en":"Learn more about personal use"}
+    },
+    "info_overlay_close_btn":{
+        "locator":{"css selector":".vn-modal__close"}
+    },
+    "business_use_more_info_btn":{
+        "locator":{"css selector":"[data-testid='info-btn-1']"}
+    },
+    "business_info_modal_header":{
+        "locator":{"css selector":"[data-testid='show-info-modal-header-business']"},
+        "localization":{"en":"Learn more about business use"}
+    },
+    "business_info_modal_body":{
+        "locator":{"css selector":"[data-testid='show-info-modal-body-business']"},
+        "localization":{
+            "en":"Use printer for business or enterprise needs: This could include printing reports, financial documents, or other paperwork.\n\nYou plan to share the printer with many employees, teams, or departments\n\nThe printer is located in an office environment and will be connected to a corporate domain network. You will have access to advanced network features."}
+    }
+}

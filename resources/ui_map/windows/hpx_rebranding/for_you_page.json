@@ -1,0 +1,224 @@
+{
+    "shop_nav_pill":{
+        "locator": {
+            "id": "clientos-ui-toolkit-button-e2tx8ys",
+            "xpath": "//Button[@Name='shop']"
+        }
+    },
+    "top_recommended_for_you": {
+        "locator": {
+            "id": "forYouLayout-foryourecommendedProducts-title"
+        }
+    },
+    "shop_now": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='forYouMediumCard-bltfc0e7e1dfaf89c39']//HyperLink[@Name='Shop now']"
+        }
+    },
+    "shortcuts_section": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-bltbde1686697676fb9-headline'][@Name='Shortcuts']"
+        }
+    },
+    "your_digital_buddy": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='forYouXSCard-blt08bd1ba16067c8f2']//Text[@Name='Your digital buddy!']"
+        }
+    },
+    "looking_for_more": {
+        "locator": {
+            "id":"forYouLayout-foryourecommendedProducts-title",
+            "xpath": "//Text[@AutomationId='lookingForMoreCard-LookingForMore-headline'][@Name='Looking for more?']"
+        }
+    },
+    "visit_hp_com": {
+        "locator": {
+            "id":"lookingForMoreCard-LookingForMore-button",
+            "xpath": "//Button[@AutomationId='lookingForMoreCard-LookingForMore-button'][@Name='Visit hp.com']"
+        }
+    },
+    "shop_by_product": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouLayout-foryoushopbyproduct-title'][@Name='Shop by product']"
+        }
+    },
+    "laptops": {
+        
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-blt7fb79f1e7323203e-headline'][@Name='Laptops']"
+        }
+    },
+    "printers": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-bltfdb41dad76d9b37b-headline'][@Name='Printers']"
+        }
+    },
+    "accessories": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-bltb6e1ae4580cd688f-headline'][@Name='Accessories']"
+        }
+    },
+    "monitors": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-bltb15d9a4f48a87f35-headline'][@Name='Monitors']"
+        }
+    },
+    "featured_offers": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouLayout-foryoubestsellers-title'][@Name='Featured offers']"
+        }
+    },
+    "noise_free_sound": {
+        "locator": {
+            "xpath": "//ListItem[@Name='Noise-free sound']"
+        }
+    },
+    "do_more_with_hp_pen": {
+        "locator": {
+            "xpath": "//ListItem[@Name='Do more with HP Pen']"
+        }
+    },
+    "hp_ai_assistant": {
+        "locator": {
+            "id": "NavBar.NavBarView.HpAiAssistantIcon"
+         }
+    },
+    "create_account": {
+        "locator": {
+            "id": "actionBanner-bltf750350ce3daf471-button-0",
+            "xpath": ["//ListItem[@Name='Create account']", "//Text[@Name='Create account']"]
+        }
+    },
+    "sign_in_btn": {
+        "locator": {
+            "id": ["Account.NavBarView.SignInButton", "actionBanner-bltf750350ce3daf471-button-1"],
+            "xpath": ["//Text[@Name='Sign in']", "//ListItem[@AutomationId='actionBanner-bltf750350ce3daf471-button-0']//Text[@Name='Sign in']"]
+        }
+    },
+    "unlock_more_with_your_hp_account": {
+        "locator": {
+            "id":"actionBanner-bltf750350ce3daf471-headline",
+            "xpath": "//Text[@AutomationId='actionBanner-bltf750350ce3daf471-headline'][@Name='Unlock more with your HP account']"
+        }
+    },
+    "laptops_image": {
+        "locator": {
+            "xpath": "//Image[@AutomationId='forYouXSCard-blt7fb79f1e7323203e-image'][@Name='Laptops']" 
+        }
+    },
+    "printers_image": {
+        "locator": {
+            "xpath": "//Image[@AutomationId='forYouXSCard-bltfdb41dad76d9b37b-image'][@Name='Printers']" 
+        }
+    },
+    "accessories_image": {
+        "locator": {
+            "xpath": "//Image[@AutomationId='forYouXSCard-bltb6e1ae4580cd688f-image'][@Name='Accessories']" 
+        }
+    },
+    "monitors_image": {
+        "locator": {
+            "xpath": "//Image[@AutomationId='forYouXSCard-bltb15d9a4f48a87f35-image'][@Name='Monitors']" 
+        }
+    },
+    "printers_tile": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-bltfdb41dad76d9b37b-headline'][@Name='Printers']" 
+        }
+    },
+    "accesseries_tile": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-bltb6e1ae4580cd688f-headline'][@Name='Accessories']" 
+        }
+    },
+    "laptops_tile": {   
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-blt7fb79f1e7323203e-headline'][@Name='Laptops']" 
+        }
+    },
+    "monitors_tile": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='forYouXSCard-bltb15d9a4f48a87f35-headline'][@Name='Monitors']" 
+        }
+    },
+    "order_now_link": {
+        "locator": {
+            "xpath": "//HyperLink[@AutomationId='forYouXSCard-bltb5ddc4e99bdb3f8f-link'][@Name='Order now!']"
+        }
+    },
+    "learn_more_link": {
+        "locator": {
+            "xpath": "//HyperLink[@AutomationId='forYouXSCard-blt3fd183c9b8f0c0fb-link'][@Name='Learn more']"
+        }
+    },
+    "get_shop_now_webview_title": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Chrome_WidgetWin_1'][@Name='Printers - HP® Store - Google Chrome']"
+        }
+    },
+    "get_learn_more_webview_title": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Chrome_WidgetWin_1'][@Name='HP 720 Multi-Device Rechargeable Wireless Keyboard and Mouse Combo - Google Chrome']"
+        }
+    },
+    "get_order_now_webview_title": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Chrome_WidgetWin_1'][@Name='HP Store - Google Chrome']"
+        }
+    },
+    "get_order_yours_today_webview_title": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Chrome_WidgetWin_1'][@Name='Poly Voyager Free 20 Black Earbuds +Basic Charge Case - Google Chrome']"
+        }
+    },
+    "order_yours_today_link": {
+        "locator": {
+            "xpath": "//HyperLink[@AutomationId='forYouXSCard-blte2fd229957c42e4b-link'][@Name='Order yours today!']"
+        }
+    },
+    "get_visit_hpcom_webview_title": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Chrome_WidgetWin_1'][@Name='Laptop Computers, Desktops, Printers and more | HP® Singapore - Google Chrome']"
+        }
+    },
+    "try_feature": {
+        "locator": {
+            "xpath": "//ListItem[@ClassName='clientos-ui-toolkit-button label clientos-ui-toolkit-button__primary clientos-ui-toolkit-button__medium css-c73gym'][@Name='Try feature']"
+        }             
+    },
+    "work_smarter_with_hp_shortcuts": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='interstitial-blt060d34930915e7a1-headline']"
+             }
+    },
+    "work_smarter_with_shortcuts_image": {
+        "locator": {
+            "xpath": "//Image[@AutomationId='interstitial-blt060d34930915e7a1-image']"
+             }
+    },
+    "digital_buddy_title": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='interstitial-blt44670f616b71b39d-headline'][@Name='Say Hello to your New Digital Buddy!']"
+             }
+    },
+    "digital_buddy_description": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='interstitial-blt44670f616b71b39d-description']"
+        }
+    },
+    "digital_buddy_image": {
+        "locator": {
+            "xpath": "//Image[@AutomationId='interstitial-blt44670f616b71b39d-image']"
+             }
+    },
+    "digital_buddy_close_btn": {
+        "locator": {
+            "xpath": "//Button[@AutomationId='view_7'][@ClassName='WindowsCaptionButton'][@Name='Close']"
+        }
+    },
+    "digital_buddy_back_btn": {
+        "locator": {
+            "id": "backButton"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "top_back_btn": {
+        "locator": {
+            "xpath": "//Button[@ClassName='clientos-ui-toolkit-back-navigation-button css-1dokmgx']"
+        }
+    },
+    "product_information_section":{
+        "locator": {
+            "css selector": "section[id='@hpx-core-experiences/react-product-information-mfe']"
+        }
+    },
+    "copy_product_number_btn": {
+        "locator": {
+            "css selector": "div#ProductInformation_CopyProductNumberButton"
+        }
+    },
+    "copy_serial_number_btn": {
+        "locator": {
+            "css selector": "div#ProductInformation_CopySerialNumberButton"
+        }
+    },
+    "get_info_btn": {
+        "locator": {
+            "css selector": "button#ProductInformation_InfoButton"
+        }
+    },
+    "get_supplies_tile":{
+        "locator": {
+            "css selector": "g#ShortcutsIcon"
+        }
+    },
+    "printer_scan_tile":{
+        "locator": {
+            "xpath": ["//Button[@Name='Scan']",
+                      "//div[text()='Scan']"]
+        }
+    },
+    "print_photos_tile":{
+        "locator": {
+            "xpath": ["//Button[@Name='Print Photos']",
+                      "//div[text()='Print Photos']"]
+            
+        }
+    },
+    "print_pdfs_tile":{
+        "locator": {
+            "xpath": ["//Button[@Name='Print PDFs']",
+                      "//div[text()='Print PDFs']"]
+            
+        }
+    },
+    "copy_tile": {
+        "locator": {
+            "xpath": ["//Button[@Name='Copy']",
+                      "//div[text()='Copy']"]
+        }
+    }
+
+}

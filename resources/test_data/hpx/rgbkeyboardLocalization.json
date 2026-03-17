@@ -1,0 +1,2668 @@
+{
+  "en-US": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB keyboard"
+      },
+      "displayLabel": {
+        "rgbToggle": "Enable RGB Lighting",
+        "effects": "Effects",
+        "color": "Colors",
+        "singleColor": "Single Color",
+        "multiColor": "Multi Color",
+        "restoreDefaultSettings": "Restore Default Settings",
+        "restoreDefaults": "Restore Defaults"
+      },
+      "effects": {
+        "Static": "Static",
+        "Wave": "Wave",
+        "Ripple": "Ripple",
+        "Breathing": "Breathing",
+        "Raindrops": "Raindrops",
+        "ColorCycle": "Color Cycle",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Red color",
+          "green": "Green color",
+          "yellow": "Yellow color",
+          "blue": "Blue color",
+          "cyan": "Cyan color",
+          "purple": "Purple color",
+          "white": "White color",
+          "orange": "Orange color"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multi Color Blue",
+          "multicolor-rainbow": "Multi Color Rainbow",
+          "multicolor-purple": "Multi Color Purple",
+          "multicolor-orange": "Multi Color Orange",
+          "multicolor-green": "Multi Color Green",
+          "multicolor-blueOrange": "Multi Color Blue-Orange",
+          "multicolor-redBlue": "Multi Color Red-Blue"
+        },
+        "colorGradient": {
+          "red": "Red color gradient",
+          "green": "Green color gradient",
+          "yellow": "Yellow color gradient",
+          "blue": "Blue color gradient",
+          "cyan": "Cyan color gradient",
+          "purple": "Purple color gradient",
+          "white": "White color gradient",
+          "orange": "Orange color gradient"
+        },
+        "others": {
+          "slider": "Brightness",
+          "keyboard": "Keyboard preview",
+          "switch": "RGB Lighting"
+        }
+      }
+    }
+  },
+  "es-MX": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Teclado RGB"
+      },
+      "displayLabel": {
+        "rgbToggle": "Enable RGB Lighting",
+        "effects": "Effects",
+        "color": "Colors",
+        "singleColor": "Single Color",
+        "multiColor": "Multi Color",
+        "restoreDefaultSettings": "Restore Default Settings",
+        "restoreDefaults": "Restore Defaults"
+      },
+      "effects": {
+        "Static": "Static",
+        "Wave": "Wave",
+        "Ripple": "Ripple",
+        "Breathing": "Breathing",
+        "Raindrops": "Raindrops",
+        "ColorCycle": "Color Cycle",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Red color",
+          "green": "Green color",
+          "yellow": "Yellow color",
+          "blue": "Blue color",
+          "cyan": "Cyan color",
+          "purple": "Purple color",
+          "white": "White color",
+          "orange": "Orange color"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multicolor Azul",
+          "multicolor-rainbow": "Multicolor Arco iris",
+          "multicolor-purple": "Multicolor Púrpura",
+          "multicolor-orange": "Multicolor Naranja",
+          "multicolor-green": "Multicolor Verde",
+          "multicolor-blueOrange": "Multicolor Azul-Naranja",
+          "multicolor-redBlue": "Multicolor Rojo-Azul"
+        },
+        "colorGradient": {
+          "red": "Red color gradient",
+          "green": "Green color gradient",
+          "yellow": "Yellow color gradient",
+          "blue": "Blue color gradient",
+          "cyan": "Cyan color gradient",
+          "purple": "Purple color gradient",
+          "white": "White color gradient",
+          "orange": "Orange color gradient"
+        },
+        "others": {
+          "slider": "Brightness",
+          "keyboard": "Keyboard preview",
+          "switch": "RGB Lighting"
+        }
+      }
+    }
+  },
+  "ar-SA": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "لوحة مفاتيح RGB"
+      },
+      "displayLabel": {
+        "color": "الألوان",
+        "effects": "التأثيرات",
+        "multiColor": "متعدد الألوان",
+        "restoreDefaultSettings": "استعادة الإعدادات الافتراضية",
+        "restoreDefaults": "استعادة الإعدادات الافتراضية",
+        "rgbToggle": "تمكين إضاءة RGB",
+        "singleColor": "اللون الأحادي"
+      },
+      "effects": {
+        "Breathing": "تنفس",
+        "ColorCycle": "دورة اللون",
+        "Raindrops": "قطرات المطر",
+        "Ripple": "تموّج",
+        "Static": "ثابت",
+        "Wave": "موجة",
+        "Starlight": "ضوء النجوم",
+        "Ghost": "شبح"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "لون أزرق",
+          "cyan": "لون سماوي",
+          "green": "لون أخضر",
+          "orange": "لون برتقالي",
+          "purple": "لون أرجواني",
+          "red": "لون أحمر",
+          "white": "لون أبيض",
+          "yellow": "لون أصفر"
+        },
+        "multiColor": {
+          "multicolor-blue": "أزرق متعدد الدرجات",
+          "multicolor-rainbow": "متقزح متعدد الدرجات",
+          "multicolor-purple": "بنفسجي متعدد الدرجات",
+          "multicolor-orange": "برتقالي متعدد الدرجات",
+          "multicolor-green": "أخضر متعدد الدرجات",
+          "multicolor-blueOrange": "برتقالي مزرق متعدد الدرجات",
+          "multicolor-redBlue": "أزرق محمر متعدد الدرجات"
+        },
+        "colorGradient": {
+          "blue": "تدرج اللون الأزرق",
+          "cyan": "تدرج اللون السماوي",
+          "green": "تدرج اللون الأخضر",
+          "orange": "تدرج اللون البرتقالي",
+          "purple": "تدرج اللون الأرجواني",
+          "red": "تدرج اللون الأحمر",
+          "white": "تدرج اللون الأبيض",
+          "yellow": "تدرج اللون الأصفر"
+        },
+        "others": {
+          "keyboard": "معاينة لوحة المفاتيح",
+          "slider": "شريط تمرير السطوع",
+          "switch": "إضاءة RGB"
+        }
+      }
+    }
+  },
+  "bg-BG": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB клавиатура"
+      },
+      "displayLabel": {
+        "color": "Цветове",
+        "effects": "Ефекти",
+        "multiColor": "Многоцветен",
+        "restoreDefaultSettings": "Възстанови настройките по подразбиране",
+        "restoreDefaults": "Възст. на настр. по подразб.",
+        "rgbToggle": "Активиране на RGB подсветката",
+        "singleColor": "Един цвят"
+      },
+      "effects": {
+        "Breathing": "Дишащ",
+        "ColorCycle": "Цветен цикъл",
+        "Raindrops": "Капки дъжд",
+        "Ripple": "Пулсации",
+        "Static": "Статично",
+        "Wave": "Вълна",
+        "Starlight": "Звездна светлина",
+        "Ghost": "Призрачно"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Син цвят",
+          "cyan": "Циан цвят",
+          "green": "Зелен цвят",
+          "orange": "Оранжев цвят",
+          "purple": "Лилав цвят",
+          "red": "Червен цвят",
+          "white": "Бял цвят",
+          "yellow": "Жълт цвят"
+        },
+        "multiColor": {
+          "multicolor-blue": "Многоцветно синьо",
+          "multicolor-rainbow": "Многоцветна дъга",
+          "multicolor-purple": "Многоцветно лилаво",
+          "multicolor-orange": "Многоцветно оранжево",
+          "multicolor-green": "Многоцветно зелено",
+          "multicolor-blueOrange": "Многоцветно синьо-оранжево",
+          "multicolor-redBlue": "Многоцветно червено-синьо"
+        },
+        "colorGradient": {
+          "blue": "Градиент на син цвят",
+          "cyan": "Градиент на циан цвят",
+          "green": "Градиент на зелен цвят",
+          "orange": "Градиент на оранжев цвят",
+          "purple": "Градиент на лилав цвят",
+          "red": "Градиент на червен цвят",
+          "white": "Градиент на бял цвят",
+          "yellow": "Градиент на жълт цвят"
+        },
+        "others": {
+          "keyboard": "Предварителен преглед на клавиатура",
+          "slider": "Плъзгач за яркост",
+          "switch": "RGB осветление"
+        }
+      }
+    }
+  },
+  "ca-ES": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Teclat RGB"
+      },
+      "displayLabel": {
+        "color": "Color",
+        "effects": "Efectes",
+        "multiColor": "Multicolor",
+        "restoreDefaultSettings": "Restaura la configuració predeterminada",
+        "restoreDefaults": "Restaura els valors predeterminats",
+        "rgbToggle": "Activa la il·luminació RGB",
+        "singleColor": "Monocromia"
+      },
+      "effects": {
+        "Breathing": "Respiració",
+        "ColorCycle": "Cicle del color",
+        "Raindrops": "Gotes de pluja",
+        "Ripple": "Ondulat",
+        "Static": "Estàtic",
+        "Wave": "Ona",
+        "Starlight": "Celístia",
+        "Ghost": "Fantasma"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Color blau",
+          "cyan": "Color cian",
+          "green": "Color verd",
+          "orange": "Color taronja",
+          "purple": "Color porpra",
+          "red": "Color vermell",
+          "white": "Color blanc",
+          "yellow": "Color groc"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multicolor blau",
+          "multicolor-rainbow": "Multicolor arc iris",
+          "multicolor-purple": "Multicolor violeta",
+          "multicolor-orange": "Multicolor taronja",
+          "multicolor-green": "Multicolor verd",
+          "multicolor-blueOrange": "Multicolor blau-taronja",
+          "multicolor-redBlue": "Multicolor vermell-blau"
+        },
+        "colorGradient": {
+          "blue": "Degradat de color blau",
+          "cyan": "Gradient de color cian",
+          "green": "Degradat de color verd",
+          "orange": "Degradat de color taronja",
+          "purple": "Degradat de color porpra",
+          "red": "Degradat de color vermell",
+          "white": "Degradat de color blanc",
+          "yellow": "Degradat de color groc"
+        },
+        "others": {
+          "keyboard": "Vista prèvia del teclat",
+          "slider": "Control lliscant de la brillantor",
+          "switch": "Il·luminació RGB"
+        }
+      }
+    }
+  },
+  "cs-CZ": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Klávesnice RGB"
+      },
+      "displayLabel": {
+        "rgbToggle": "Povolit osvětlení RGB",
+        "effects": "Efekty",
+        "color": "Barvy",
+        "singleColor": "Jedna barva",
+        "multiColor": "Více barev",
+        "restoreDefaultSettings": "Obnovit výchozí nastavení",
+        "restoreDefaults": "Obnovit výchozí"
+      },
+      "effects": {
+        "Static": "Statické",
+        "Wave": "Vlna",
+        "Ripple": "Vlnění",
+        "Breathing": "Dýchání",
+        "Raindrops": "Dešťové kapky",
+        "ColorCycle": "Cyklus barev",
+        "Starlight": "Svit hvězd",
+        "Ghost": "Duch"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Červená barva",
+          "green": "Zelená barva",
+          "yellow": "Žlutá barva",
+          "blue": "Modrá barva",
+          "cyan": "Azurová barva",
+          "purple": "Fialová barva",
+          "white": "Bílá barva",
+          "orange": "Oranžová barva"
+        },
+        "multiColor": {
+          "multicolor-blue": "Více barev, modrá",
+          "multicolor-rainbow": "Více barev, duha",
+          "multicolor-purple": "Více barev, fialová",
+          "multicolor-orange": "Více barev, oranžová",
+          "multicolor-green": "Více barev, zelená",
+          "multicolor-blueOrange": "Více barev, modrooranžová",
+          "multicolor-redBlue": "Více barev, červenomodrá"
+        },
+        "colorGradient": {
+          "red": "Červený barevný přechod",
+          "green": "Zelený barevný přechod",
+          "yellow": "Žlutý barevný přechod",
+          "blue": "Modrý barevný přechod",
+          "cyan": "Azurový barevný přechod",
+          "purple": "Fialový barevný přechod",
+          "white": "Bílý barevný přechod",
+          "orange": "Oranžový barevný přechod"
+        },
+        "others": {
+          "slider": "Posuvník jasu",
+          "keyboard": "Náhled klávesnice",
+          "switch": "Osvětlení RGB"
+        }
+      }
+    }
+  },
+  "da-DK": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB-tastatur"
+      },
+      "displayLabel": {
+        "rgbToggle": "Aktiver RGB-lys",
+        "effects": "Effekter",
+        "color": "Farver",
+        "singleColor": "Enkelt farve",
+        "multiColor": "Flerfarvet",
+        "restoreDefaultSettings": "Gendan standardindstillinger",
+        "restoreDefaults": "Gendan standardindstillinger"
+      },
+      "effects": {
+        "Static": "Statisk",
+        "Wave": "Bølge",
+        "Ripple": "Krusning",
+        "Breathing": "Åndedræt",
+        "Raindrops": "Regndråber",
+        "ColorCycle": "Farvecirkel",
+        "Starlight": "Stjerneskær",
+        "Ghost": "Spøgelse"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Rød farve",
+          "green": "Grøn farve",
+          "yellow": "Gul farve",
+          "blue": "Blå farve",
+          "cyan": "Cyan farve",
+          "purple": "Lilla farve",
+          "white": "Hvid farve",
+          "orange": "Orange farve"
+        },
+        "multiColor": {
+          "multicolor-blue": "Flerfarvet blå",
+          "multicolor-rainbow": "Flerfarvet regnbue",
+          "multicolor-purple": "Flerfarvet lilla",
+          "multicolor-orange": "Flerfarvet orange",
+          "multicolor-green": "Flerfarvet grøn",
+          "multicolor-blueOrange": "Flerfarvet blå-orange",
+          "multicolor-redBlue": "Flerfarvet rød-blå"
+        },
+        "colorGradient": {
+          "red": "Rød farvegraduering",
+          "green": "Grøn farvegraduering",
+          "yellow": "Gul farvegraduering",
+          "blue": "Blå farvegraduering",
+          "cyan": "Cyan farvegraduering",
+          "purple": "Lilla farvegraduering",
+          "white": "Hvid farvegraduering",
+          "orange": "Orange farvegraduering"
+        },
+        "others": {
+          "slider": "Lysstyrkeskyder",
+          "keyboard": "Forhåndsvisning af tastatur",
+          "switch": "RGB-belysning"
+        }
+      }
+    }
+  },
+  "de-DE": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB-Tastatur"
+      },
+      "displayLabel": {
+        "rgbToggle": "RGB Beleuchtung aktivieren",
+        "effects": "Effekte",
+        "color": "Farben",
+        "singleColor": "Einzelne Farbe",
+        "multiColor": "Mehrfarbig",
+        "restoreDefaultSettings": "Standardeinstellungen wiederherstellen",
+        "restoreDefaults": "Auf Standardwerte zurücksetzen"
+      },
+      "effects": {
+        "Static": "Statisch",
+        "Wave": "Welle",
+        "Ripple": "Wellen",
+        "Breathing": "Atmen",
+        "Raindrops": "Regentropfen",
+        "ColorCycle": "Farbspiel",
+        "Starlight": "Sternenlicht",
+        "Ghost": "Geist"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Rot",
+          "green": "Grün",
+          "yellow": "Gelb",
+          "blue": "Blau",
+          "cyan": "Cyan",
+          "purple": "Violett",
+          "white": "Weiß",
+          "orange": "Orange"
+        },
+        "multiColor": {
+          "multicolor-blue": "Mehrfarbig Blau",
+          "multicolor-rainbow": "Mehrfarbig Regenbogen",
+          "multicolor-purple": "Mehrfarbig Violett",
+          "multicolor-orange": "Mehrfarbig Orange",
+          "multicolor-green": "Mehrfarbig Grün",
+          "multicolor-blueOrange": "Mehrfarbig Blau-Orange",
+          "multicolor-redBlue": "Mehrfarbig Rot-Blau"
+        },
+        "colorGradient": {
+          "red": "Farbverlauf mit Rot",
+          "green": "Farbverlauf mit Grün",
+          "yellow": "Farbverlauf mit Gelb",
+          "blue": "Farbverlauf mit Blau",
+          "cyan": "Farbverlauf mit Cyan",
+          "purple": "Farbverlauf mit Violett",
+          "white": "Farbverlauf mit Weiß",
+          "orange": "Farbverlauf mit Orange"
+        },
+        "others": {
+          "slider": "Schieberegler für Helligkeit",
+          "keyboard": "Tastaturvorschau",
+          "switch": "RGB-Beleuchtung"
+        }
+      }
+    }
+  },
+  "el-GR": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Πληκτρολόγιο RGB"
+      },
+      "displayLabel": {
+        "rgbToggle": "Ενεργοποίηση φωτισμού RGB",
+        "effects": "Εφέ",
+        "color": "Χρώματα",
+        "singleColor": "Ένα χρώμα",
+        "multiColor": "Πολλαπλά χρώματα",
+        "restoreDefaultSettings": "Επαναφορά προεπιλεγμένων ρυθμίσεων",
+        "restoreDefaults": "Επαναφορά προεπιλογών"
+      },
+      "effects": {
+        "Static": "Στατικό",
+        "Wave": "Κύμα",
+        "Ripple": "Κυματισμός",
+        "Breathing": "Αναπνοή",
+        "Raindrops": "Σταγόνες βροχής",
+        "ColorCycle": "Κύκλος χρωμάτων",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Κόκκινο χρώμα",
+          "green": "Πράσινο χρώμα",
+          "yellow": "Κίτρινο χρώμα",
+          "blue": "Μπλε χρώμα",
+          "cyan": "Κυανό χρώμα",
+          "purple": "Μοβ χρώμα",
+          "white": "Λευκό χρώμα",
+          "orange": "Πορτοκαλί χρώμα"
+        },
+        "multiColor": {
+          "multicolor-blue": "Πολλαπλών χρωμάτων, Μπλε",
+          "multicolor-rainbow": "Πολλαπλών χρωμάτων, Ουράνιο τόξο",
+          "multicolor-purple": "Πολλαπλών χρωμάτων, Μοβ",
+          "multicolor-orange": "Πολλαπλών χρωμάτων, Πορτοκαλί",
+          "multicolor-green": "Πολλαπλών χρωμάτων, Πράσινο",
+          "multicolor-blueOrange": "Πολλαπλών χρωμάτων, Μπλε-Πορτοκαλί",
+          "multicolor-redBlue": "Πολλαπλών χρωμάτων, Κόκκινο-Μπλε"
+        },
+        "colorGradient": {
+          "red": "Διαβάθμιση κόκκινου χρώματος",
+          "green": "Διαβάθμιση πράσινου χρώματος",
+          "yellow": "Διαβάθμιση κίτρινου χρώματος",
+          "blue": "Διαβάθμιση μπλε χρώματος",
+          "cyan": "Διαβάθμιση κυανού χρώματος",
+          "purple": "Διαβάθμιση μοβ χρώματος",
+          "white": "Διαβάθμιση λευκού χρώματος",
+          "orange": "Διαβάθμιση πορτοκαλί χρώματος"
+        },
+        "others": {
+          "slider": "Ροοστάτης φωτεινότητας",
+          "keyboard": "Προεπισκόπηση πληκτρολογίου",
+          "switch": "Φωτισμός RGB"
+        }
+      }
+    }
+  },
+  "en-GB": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB keyboard"
+      },
+      "displayLabel": {
+        "color": "Colors",
+        "effects": "Effects",
+        "multiColor": "Multi Color",
+        "restoreDefaultSettings": "Restore Default Settings",
+        "restoreDefaults": "Restore Defaults",
+        "rgbToggle": "Enable RGB Lighting",
+        "singleColor": "Single Color"
+      },
+      "effects": {
+        "Breathing": "Breathing",
+        "ColorCycle": "Color Cycle",
+        "Raindrops": "Raindrops",
+        "Ripple": "Ripple",
+        "Static": "Static",
+        "Wave": "Wave",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Blue color",
+          "cyan": "Cyan color",
+          "green": "Green color",
+          "orange": "Orange color",
+          "purple": "Purple color",
+          "red": "Red color",
+          "white": "White color",
+          "yellow": "Yellow color"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multi Color Blue",
+          "multicolor-rainbow": "Multi Color Rainbow",
+          "multicolor-purple": "Multi Color Purple",
+          "multicolor-orange": "Multi Color Orange",
+          "multicolor-green": "Multi Color Green",
+          "multicolor-blueOrange": "Multi Color Blue-Orange",
+          "multicolor-redBlue": "Multi Color Red-Blue"
+        },
+        "colorGradient": {
+          "blue": "Blue color gradient",
+          "cyan": "Cyan color gradient",
+          "green": "Green color gradient",
+          "orange": "Orange color gradient",
+          "purple": "Purple color gradient",
+          "red": "Red color gradient",
+          "white": "White color gradient",
+          "yellow": "Yellow color gradient"
+        },
+        "others": {
+          "keyboard": "Keyboard preview",
+          "slider": "Brightness",
+          "switch": "RGB Lighting"
+        }
+      }
+    }
+  },
+  "es-ES": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Teclado RGB"
+      },
+      "displayLabel": {
+        "rgbToggle": "Permitir iluminación RGB",
+        "effects": "Efectos",
+        "color": "Colores",
+        "singleColor": "Color único",
+        "multiColor": "Multicolor",
+        "restoreDefaultSettings": "Restablecer ajustes predeterminados",
+        "restoreDefaults": "Restaurar predeterminados"
+      },
+      "effects": {
+        "Static": "Estático",
+        "Wave": "Ola",
+        "Ripple": "Onda",
+        "Breathing": "Respiración",
+        "Raindrops": "Gotas de lluvia",
+        "ColorCycle": "Ciclo de color",
+        "Starlight": "Luz de las estrellas",
+        "Ghost": "Fantasma"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Color rojo",
+          "green": "Color verde",
+          "yellow": "Color amarillo",
+          "blue": "Color azul",
+          "cyan": "Color cian",
+          "purple": "Color púrpura",
+          "white": "Color blanco",
+          "orange": "Color naranja"
+        },
+        "multiColor": {
+          "multicolor-blue": "Azul multicolor",
+          "multicolor-rainbow": "Arco iris multicolor",
+          "multicolor-purple": "Púrpura multicolor",
+          "multicolor-orange": "Naranja multicolor",
+          "multicolor-green": "Verde multicolor",
+          "multicolor-blueOrange": "Azul-naranja multicolor",
+          "multicolor-redBlue": "Rojo-azul multicolor"
+        },
+        "colorGradient": {
+          "red": "Gradiente de color rojo",
+          "green": "Gradiente de color verde",
+          "yellow": "Gradiente de color amarillo",
+          "blue": "Gradiente de color azul",
+          "cyan": "Gradiente de color cian",
+          "purple": "Gradiente de color púrpura",
+          "white": "Gradiente de color blanco",
+          "orange": "Gradiente de color naranja"
+        },
+        "others": {
+          "slider": "Deslizador de brillo",
+          "keyboard": "Vista previa del teclado",
+          "switch": "Iluminación RGB"
+        }
+      }
+    }
+  },
+  "et-EE": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB klaviatuur"
+      },
+      "displayLabel": {
+        "rgbToggle": "Luba RGB-valgustus",
+        "effects": "Efektid",
+        "color": "Värvid",
+        "singleColor": "Üksik värv",
+        "multiColor": "Mitu värvi",
+        "restoreDefaultSettings": "Taasta vaikesätted",
+        "restoreDefaults": "Taasta algsed sätted"
+      },
+      "effects": {
+        "Static": "Staatiline",
+        "Wave": "Laine",
+        "Ripple": "Lainetus",
+        "Breathing": "Hingetõmme",
+        "Raindrops": "Vihmapiisad",
+        "ColorCycle": "Värviring",
+        "Starlight": "Tähevalgus",
+        "Ghost": "Kummitus"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Sinine värv",
+          "cyan": "Tsüaani värv",
+          "green": "Roheline värv",
+          "orange": "Oranž värv",
+          "purple": "Lilla värv",
+          "red": "Punane värv",
+          "white": "Valge värv",
+          "yellow": "Kollane värv"
+        },
+        "multiColor": {
+          "multicolor-blue": "Mitmevärviline sinine",
+          "multicolor-rainbow": "Mitmevärviline vikerkaar",
+          "multicolor-purple": "Mitmevärviline lilla",
+          "multicolor-orange": "Mitmevärviline oranž",
+          "multicolor-green": "Mitmevärviline roheline",
+          "multicolor-blueOrange": "Mitmevärviline sinine–oranž",
+          "multicolor-redBlue": "Mitmevärviline punane–sinine"
+        },
+        "colorGradient": {
+          "blue": "Sinise värvi gradient",
+          "cyan": "Tsüaani värvi gradient",
+          "green": "Rohelise värvi gradient",
+          "orange": "Oranži värvi gradient",
+          "purple": "Lilla värvi gradient",
+          "red": "Punase värvi gradient",
+          "white": "Valge värvi gradient",
+          "yellow": "Kollase värvi gradient"
+        },
+        "others": {
+          "keyboard": "Klaviatuuri eelvaade",
+          "slider": "Heleduse liugur",
+          "switch": "RGB valgustus"
+        }
+      }
+    }
+  },
+  "eu-ES": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB teklatua"
+      },
+      "displayLabel": {
+        "rgbToggle": "Gaitu RGB argiak",
+        "effects": "Efektuak",
+        "color": "Koloreak",
+        "singleColor": "Kolorebakarra",
+        "multiColor": "Kolore anitzekoa",
+        "restoreDefaultSettings": "Lehenetsitako konfigurazioa berrezarri",
+        "restoreDefaults": "Lehenetsitako balioak lehengoratu"
+      },
+      "effects": {
+        "Static": "Estatikoa",
+        "Wave": "Uhina",
+        "Ripple": "Uhina",
+        "Breathing": "Arnasketa",
+        "Raindrops": "Euri-tantak",
+        "ColorCycle": "Kolore-zikloa",
+        "Starlight": "Izar argia",
+        "Ghost": "Mamua"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Kolore urdina",
+          "cyan": "Zian kolorea",
+          "green": "Kolore berdea",
+          "orange": "Kolorea laranja",
+          "purple": "Purpura-kolorea",
+          "red": "Kolore gorria",
+          "white": "Kolore zuria",
+          "yellow": "Kolore horia"
+        },
+        "multiColor": {
+          "multicolor-blue": "Koloreaniztun urdina",
+          "multicolor-rainbow": "Koloreaniztun ostadarra",
+          "multicolor-purple": "Koloreaniztun purpura",
+          "multicolor-orange": "Koloreaniztun laranja",
+          "multicolor-green": "Koloreaniztun berdea",
+          "multicolor-blueOrange": "Koloreaniztun urdin-laranja",
+          "multicolor-redBlue": "Koloreaniztun gorri-urdina"
+        },
+        "colorGradient": {
+          "blue": "Kolore urdin moteldua",
+          "cyan": "Zian kolore moteldua",
+          "green": "Kolore berde moteldua",
+          "orange": "Kolorea laranja moteldua",
+          "purple": "Purpura-kolore moteldua",
+          "red": "Kolore gorri moteldua",
+          "white": "Kolore zuri moteldua",
+          "yellow": "Kolore hori moteldua"
+        },
+        "others": {
+          "keyboard": "Teklatuaren aurrebista",
+          "slider": "Distira-barra",
+          "switch": "GBU argiztapena"
+        }
+      }
+    }
+  },
+  "fi-FI": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB-näppäimistö"
+      },
+      "displayLabel": {
+        "rgbToggle": "Ota RGB-valaistus käyttöön",
+        "effects": "Tehosteet",
+        "color": "Värit",
+        "singleColor": "Yksittäinen väri",
+        "multiColor": "Moniväri",
+        "restoreDefaultSettings": "Palauta oletusasetukset",
+        "restoreDefaults": "Palauta oletusarvot"
+      },
+      "effects": {
+        "Static": "Staattinen",
+        "Wave": "Aalto",
+        "Ripple": "Väreily",
+        "Breathing": "Hengitys",
+        "Raindrops": "Sadepisarat",
+        "ColorCycle": "Värikierto",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Sininen väri",
+          "cyan": "Syaani väri",
+          "green": "Vihreä väri",
+          "orange": "Oranssi väri",
+          "purple": "Purppura väri",
+          "red": "Punainen väri",
+          "white": "Valkoinen väri",
+          "yellow": "Keltainen väri"
+        },
+        "multiColor": {
+          "multicolor-blue": "Monivärinen sininen",
+          "multicolor-rainbow": "Monivärinen sateenkaari",
+          "multicolor-purple": "Monivärinen violetti",
+          "multicolor-orange": "Monivärinen oranssi",
+          "multicolor-green": "Monivärinen vihreä",
+          "multicolor-blueOrange": "Monivärinen sinioranssi",
+          "multicolor-redBlue": "Monivärinen sinipunainen"
+        },
+        "colorGradient": {
+          "blue": "Sininen väriliuku",
+          "cyan": "Syaani väriliuku",
+          "green": "Vihreä väriliuku",
+          "orange": "Oranssi väriliuku",
+          "purple": "Purppura väriliuku",
+          "red": "Punainen väriliuku",
+          "white": "Valkoinen väriliuku",
+          "yellow": "Keltainen väriliuku"
+        },
+        "others": {
+          "keyboard": "Näppäimistön esikatselu",
+          "slider": "Kirkkaus-liukusäädin",
+          "switch": "RGB-valaistus"
+        }
+      }
+    }
+  },
+  "fr-CA": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Clavier RGB"
+      },
+      "displayLabel": {
+        "rgbToggle": "Activer l'éclairage RGB",
+        "effects": "Effets",
+        "color": "Couleurs",
+        "singleColor": "Couleur unique",
+        "multiColor": "Polychrome",
+        "restoreDefaultSettings": "Restaurer les paramètres par défaut",
+        "restoreDefaults": "Rétablir paramètres par défaut"
+      },
+      "effects": {
+        "Static": "Statique",
+        "Wave": "Vague",
+        "Ripple": "Ondulation",
+        "Breathing": "Respiration",
+        "Raindrops": "Gouttes de pluie",
+        "ColorCycle": "Cycle des couleurs",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Couleur bleue",
+          "cyan": "Couleur cyan",
+          "green": "Couleur verte",
+          "orange": "Couleur orange",
+          "purple": "Couleur violette",
+          "red": "Couleur rouge",
+          "white": "Couleur blanche",
+          "yellow": "Couleur jaune"
+        },
+        "multiColor": {
+          "multicolor-blue": "Bleu multicolore",
+          "multicolor-rainbow": "Arc-en-ciel multicolore",
+          "multicolor-purple": "Violet multicolore",
+          "multicolor-orange": "Orange multicolore",
+          "multicolor-green": "Vert multicolore",
+          "multicolor-blueOrange": "Bleu orangé multicolore",
+          "multicolor-redBlue": "Rouge bleuâtre multicolore"
+        },
+        "colorGradient": {
+          "blue": "Dégradé de couleur bleu",
+          "cyan": "Dégradé de couleur cyan",
+          "green": "Dégradé de couleur verte",
+          "orange": "Dégradé de couleur orange",
+          "purple": "Dégradé de couleur violet",
+          "red": "Dégradé de couleur rouge",
+          "white": "Dégradé de couleur blanche",
+          "yellow": "Dégradé de couleur jaune"
+        },
+        "others": {
+          "keyboard": "Aperçu du clavier",
+          "slider": "Curseur de luminosité",
+          "switch": "Éclairage RGB"
+        }
+      }
+    }
+  },
+  "fr-FR": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Clavier RVB"
+      },
+      "displayLabel": {
+        "rgbToggle": "Activer l&apos;éclairage RVB",
+        "effects": "Effets",
+        "color": "Couleurs",
+        "singleColor": "Couleur unique",
+        "multiColor": "Couleurs multiples",
+        "restoreDefaultSettings": "Restaurer paramètres par défaut",
+        "restoreDefaults": "Rétablir paramètres par défaut"
+      },
+      "effects": {
+        "Static": "Statique",
+        "Wave": "Vague",
+        "Ripple": "Ondulation",
+        "Breathing": "Respiration",
+        "Raindrops": "Gouttes de pluie",
+        "ColorCycle": "Cycle des couleurs",
+        "Starlight": "Lumière de la lune",
+        "Ghost": "Fantôme"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "Couleur rouge",
+          "green": "Couleur verte",
+          "yellow": "Couleur jaune",
+          "blue": "Couleur bleue",
+          "cyan": "Couleur cyan",
+          "purple": "Couleur violette",
+          "white": "Couleur blanche",
+          "orange": "Couleur orange"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multicouleur bleu",
+          "multicolor-rainbow": "Multicouleur arc-en-ciel",
+          "multicolor-purple": "Multicouleur violet",
+          "multicolor-orange": "Multicouleur orange",
+          "multicolor-green": "Multicouleur vert",
+          "multicolor-blueOrange": "Multicouleur bleu-orangé",
+          "multicolor-redBlue": "Multicouleur rouge-bleu"
+        },
+        "colorGradient": {
+          "red": "Dégradé de couleur rouge",
+          "green": "Dégradé de couleur verte",
+          "yellow": "Dégradé de couleur jaune",
+          "blue": "Dégradé de couleur bleue",
+          "cyan": "Dégradé de couleur cyan",
+          "purple": "Dégradé de couleur violette",
+          "white": "Dégradé de couleur blanche",
+          "orange": "Dégradé de couleur orange"
+        },
+        "others": {
+          "slider": "Curseur de luminosité",
+          "keyboard": "Aperçu du clavier",
+          "switch": "Éclairage RVB"
+        }
+      }
+    }
+  },
+  "gl-ES": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Teclado RGB"
+      },
+      "displayLabel": {
+        "color": "Cores",
+        "effects": "Efectos",
+        "multiColor": "Mulicor",
+        "restoreDefaultSettings": "Restaurar a configuración por defecto",
+        "restoreDefaults": "Restaurar valores predeterminados",
+        "rgbToggle": "Activar luces RGB",
+        "singleColor": "Cor única"
+      },
+      "effects": {
+        "Breathing": "Repiración",
+        "ColorCycle": "Ciclo da cor",
+        "Raindrops": "Pingas da chuvia",
+        "Ripple": "Ondular",
+        "Static": "Estático",
+        "Wave": "Onde",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Cor azul",
+          "cyan": "Cor cian",
+          "green": "Cor verde",
+          "orange": "Cor laranxa",
+          "purple": "Cor morada",
+          "red": "Cor encarnada",
+          "white": "Cor branca",
+          "yellow": "Cor amarela"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multi Color Azul",
+          "multicolor-rainbow": "Multi Color Arco da Vella",
+          "multicolor-purple": "Multi Color Morado",
+          "multicolor-orange": "Multi Color Laranxa",
+          "multicolor-green": "Multi Color Verde",
+          "multicolor-blueOrange": "Multi Color Azul-laranxa",
+          "multicolor-redBlue": "Multi Color Vermello-azul"
+        },
+        "colorGradient": {
+          "blue": "Degradado de cor azul",
+          "cyan": "Degradado de cor cian",
+          "green": "Degradado de cor verde",
+          "orange": "Degradado de cor laranxa",
+          "purple": "Degradado de cor morada",
+          "red": "Degradado de cor encarnada",
+          "white": "Degradado de cor branca",
+          "yellow": "Degradado de cor amarela"
+        },
+        "others": {
+          "keyboard": "Previsualización do teclado",
+          "slider": "Arrastre de brillo",
+          "switch": "Iluminación RGB"
+        }
+      }
+    }
+  },
+  "he-IL": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "מקלדת RGB"
+      },
+      "displayLabel": {
+        "color": "צבעים",
+        "effects": "אפקטים",
+        "multiColor": "רב צבע",
+        "restoreDefaultSettings": "שחזר הגדרות ברירת מחדל",
+        "restoreDefaults": "שחזר ברירות מחדל",
+        "rgbToggle": "הפעל תאורת RGB",
+        "singleColor": "צבע יחיד"
+      },
+      "effects": {
+        "Breathing": "נשימה",
+        "ColorCycle": "מעגל צבע",
+        "Raindrops": "טיפות גשם",
+        "Ripple": "אדווה",
+        "Static": "סטטי",
+        "Wave": "גל",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "צבע כחול",
+          "cyan": "צבע צ'יאן",
+          "green": "צבע ירוק",
+          "orange": "צבע אדום",
+          "purple": "צבע ארגמן",
+          "red": "צבע אדום",
+          "white": "צבע לבן",
+          "yellow": "צבע צהוב"
+        },
+        "multiColor": {
+          "multicolor-blue": "כחול מרובה צבעים",
+          "multicolor-rainbow": "צבעי הקשת מרובה צבעים",
+          "multicolor-purple": "סגול מרובה צבעים",
+          "multicolor-orange": "כתום מרובה צבעים",
+          "multicolor-green": "ירוק מרובה צבעים",
+          "multicolor-blueOrange": "כחול-כתום מרובה צבעים",
+          "multicolor-redBlue": "אדום-כחול מרובה צבעים"
+        },
+        "colorGradient": {
+          "blue": "מעברי צבע כחול",
+          "cyan": "מעברי צבע צ'יאן",
+          "green": "מעברי צבע ירוק",
+          "orange": "מעברי צבע כתום",
+          "purple": "מעברי צבע ארגמן",
+          "red": "מעברי צבע אדום",
+          "white": "מעברי צבע לבן",
+          "yellow": "מעברי צבע צהוב"
+        },
+        "others": {
+          "keyboard": "תצוגת מקדימה של מקלדת",
+          "slider": "מחוון בהירות",
+          "switch": "תאורת RGB"
+        }
+      }
+    }
+  },
+  "hr-HR": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB tipkovnica"
+      },
+      "displayLabel": {
+        "color": "Boje",
+        "effects": "Efekti",
+        "multiColor": "Više boja",
+        "restoreDefaultSettings": "Vrati na zadane postavke",
+        "restoreDefaults": "Vrati zadane postavke",
+        "rgbToggle": "Omogući RGB osvjetljenje",
+        "singleColor": "Jedna boja"
+      },
+      "effects": {
+        "Breathing": "Disanje",
+        "ColorCycle": "Izmjena boja",
+        "Raindrops": "Kapi kiše",
+        "Ripple": "Mreškanje",
+        "Static": "Statično",
+        "Wave": "Val",
+        "Starlight": "Svjetlost zvijezda",
+        "Ghost": "Duh"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Plava boja",
+          "cyan": "Cijan boja",
+          "green": "Zelena boja",
+          "orange": "Narančasta boja",
+          "purple": "Ljubičasta boja",
+          "red": "Crvena boja",
+          "white": "Bijela boja",
+          "yellow": "Žuta boja"
+        },
+        "multiColor": {
+          "multicolor-blue": "Višebojna plava",
+          "multicolor-rainbow": "Višebojna duga",
+          "multicolor-purple": "Višebojna ljubičasta",
+          "multicolor-orange": "Višebojna narančasta",
+          "multicolor-green": "Višebojna zelena",
+          "multicolor-blueOrange": "Višebojna plavonarančasta",
+          "multicolor-redBlue": "Višebojna crvenoplava"
+        },
+        "colorGradient": {
+          "blue": "Gradijent plave boje",
+          "cyan": "Gradijent cijan boje",
+          "green": "Gradijent zelene boje",
+          "orange": "Gradijent narančaste boje",
+          "purple": "Gradijent ljubičaste boje",
+          "red": "Gradijent crvene boje",
+          "white": "Gradijent bijele boje",
+          "yellow": "Gradijent žute boje"
+        },
+        "others": {
+          "keyboard": "Pretpregled tipkovnice",
+          "slider": "Klizač za svjetlinu",
+          "switch": "RGB osvjetljenje"
+        }
+      }
+    }
+  },
+  "hu-HU": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB-billentyűzet"
+      },
+      "displayLabel": {
+        "color": "Színek",
+        "effects": "Effektusok",
+        "multiColor": "Többszínű",
+        "restoreDefaultSettings": "Alapértelmezett beállítások visszaállítása",
+        "restoreDefaults": "Alapértékek visszaállítása",
+        "rgbToggle": "RGB-világítás engedélyezése",
+        "singleColor": "Egyszínű"
+      },
+      "effects": {
+        "Breathing": "Légzés",
+        "ColorCycle": "Színciklus",
+        "Raindrops": "Esőcseppek",
+        "Ripple": "Gyűrűk",
+        "Static": "Zaj",
+        "Wave": "Hullám",
+        "Starlight": "Csillagfény",
+        "Ghost": "Szellem"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Kék szín",
+          "cyan": "Ciánkék szín",
+          "green": "Zöld szín",
+          "orange": "Narancssárga szín",
+          "purple": "Lila szín",
+          "red": "Piros szín",
+          "white": "Fehér szín",
+          "yellow": "Sárga szín"
+        },
+        "multiColor": {
+          "multicolor-blue": "Többszínű kék",
+          "multicolor-rainbow": "Többszínű szivárvány",
+          "multicolor-purple": "Többszínű bíbor",
+          "multicolor-orange": "Többszínű narancssárga",
+          "multicolor-green": "Többszínű zöld",
+          "multicolor-blueOrange": "Többszínű kék-narancssárga",
+          "multicolor-redBlue": "Többszínű vörös-kék"
+        },
+        "colorGradient": {
+          "blue": "Kék színátmenet",
+          "cyan": "Ciánkék színátmenet",
+          "green": "Zöld színátmenet",
+          "orange": "Narancssárga színátmenet",
+          "purple": "Lila színátmenet",
+          "red": "Piros színátmenet",
+          "white": "Fehér színátmenet",
+          "yellow": "Sárga színátmenet"
+        },
+        "others": {
+          "keyboard": "Billentyűzet előnézete",
+          "slider": "Fényerő csúszka",
+          "switch": "RGB-megvilágítás"
+        }
+      }
+    }
+  },
+  "id-ID": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Keyboard RGB"
+      },
+      "displayLabel": {
+        "color": "Warna",
+        "effects": "Efek",
+        "multiColor": "Multi Warna",
+        "restoreDefaultSettings": "Pulihkan Pengaturan Default",
+        "restoreDefaults": "Pulihkan Pengaturan Default",
+        "rgbToggle": "Aktifkan Pencahayaan RGB",
+        "singleColor": "Satu Warna"
+      },
+      "effects": {
+        "Breathing": "Bernapas",
+        "ColorCycle": "Siklus Warna",
+        "Raindrops": "Rintik hujan",
+        "Ripple": "Riak",
+        "Static": "Statis",
+        "Wave": "Gelombang",
+        "Starlight": "Cahaya bintang",
+        "Ghost": "Buram"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Warna biru",
+          "cyan": "Warna sian",
+          "green": "Warna hijau",
+          "orange": "Warna oranye",
+          "purple": "Warna ungu",
+          "red": "Warna merah",
+          "white": "Warna putih",
+          "yellow": "Warna kuning"
+        },
+        "multiColor": {
+          "multicolor-blue": "Biru Multi Warna",
+          "multicolor-rainbow": "Pelangi Multi Warna",
+          "multicolor-purple": "Ungu Multi Warna",
+          "multicolor-orange": "Oranye Multi Warna",
+          "multicolor-green": "Hijau Multi Warna",
+          "multicolor-blueOrange": "Biru-Oranye Multi Warna",
+          "multicolor-redBlue": "Merah-Biru Multi Warna"
+        },
+        "colorGradient": {
+          "blue": "Gradien warna biru",
+          "cyan": "Gradien warna sian",
+          "green": "Gradien warna hijau",
+          "orange": "Gradien warna oranye",
+          "purple": "Gradien warna ungu",
+          "red": "Gradien warna merah",
+          "white": "Gradien warna putih",
+          "yellow": "Gradien warna kuning"
+        },
+        "others": {
+          "keyboard": "Pratinjau keyboard",
+          "slider": "Penggeser Kecerahan",
+          "switch": "Pencahayaan RGB"
+        }
+      }
+    }
+  },
+  "it-IT": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "Tastiera RGB"
+      },
+      "displayLabel": {
+        "color": "Colori",
+        "effects": "Effetti",
+        "multiColor": "Multicolore",
+        "restoreDefaultSettings": "Ripristina impostazioni predefinite",
+        "restoreDefaults": "Ripristina impostazioni predefinite",
+        "rgbToggle": "Abilita illuminazione RGB",
+        "singleColor": "Colore singolo"
+      },
+      "effects": {
+        "Breathing": "Respiro",
+        "ColorCycle": "Ciclo colori",
+        "Raindrops": "Gocce di pioggia",
+        "Ripple": "Increspatura",
+        "Static": "Statico",
+        "Wave": "Onda",
+        "Starlight": "Luce stellare",
+        "Ghost": "Fantasma"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Colore blu",
+          "cyan": "Colore ciano",
+          "green": "Colore verde",
+          "orange": "Colore arancione",
+          "purple": "Colore viola",
+          "red": "Colore rosso",
+          "white": "Colore bianco",
+          "yellow": "Colore giallo"
+        },
+        "multiColor": {
+          "multicolor-blue": "Blu multicolore",
+          "multicolor-rainbow": "Arcobaleno multicolore",
+          "multicolor-purple": "Viola multicolore",
+          "multicolor-orange": "Arancione multicolore",
+          "multicolor-green": "Verde multicolore",
+          "multicolor-blueOrange": "Blu-arancione multicolore",
+          "multicolor-redBlue": "Rosso-blu multicolore"
+        },
+        "colorGradient": {
+          "blue": "Sfumatura colore blu",
+          "cyan": "Sfumatura colore ciano",
+          "green": "Sfumatura colore verde",
+          "orange": "Sfumatura colore arancione",
+          "purple": "Sfumatura colore viola",
+          "red": "Sfumatura colore rosso",
+          "white": "Sfumatura colore bianco",
+          "yellow": "Sfumatura colore giallo"
+        },
+        "others": {
+          "keyboard": "Anteprima tastiera",
+          "slider": "Dispositivo di scorrimento Luminosità",
+          "switch": "Illuminazione RGB"
+        }
+      }
+    }
+  },
+  "ja-JP": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGBキーボード"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "blue": "青",
+          "cyan": "シアン",
+          "green": "緑",
+          "orange": "オレンジ",
+          "purple": "紫",
+          "red": "赤",
+          "white": "ホワイト",
+          "yellow": "黄"
+        },
+        "multiColor": {
+          "multicolor-blue": "マルチカラーブルー",
+          "multicolor-rainbow": "マルチカラーレインボー",
+          "multicolor-purple": "マルチカラーパープル",
+          "multicolor-orange": "マルチカラーオレンジ",
+          "multicolor-green": "マルチカラーグリーン",
+          "multicolor-blueOrange": "マルチカラーブルー-オレンジ",
+          "multicolor-redBlue": "マルチカラーレッド-ブルー"
+        },
+        "colorGradient": {
+          "blue": "青のグラデーション",
+          "cyan": "シアンのグラデーション",
+          "green": "緑のグラデーション",
+          "orange": "オレンジのグラデーション",
+          "purple": "紫のグラデーション",
+          "red": "赤のグラデーション",
+          "white": "ホワイトのグラデーション",
+          "yellow": "黄のグラデーション"
+        },
+        "others": {
+          "keyboard": "キーボードプレビュー",
+          "slider": "明るさスライダ",
+          "switch": "RGBライティング"
+        }
+      },
+      "displayLabel": {
+        "color": "色",
+        "effects": "エフェクト",
+        "multiColor": "マルチカラー",
+        "restoreDefaultSettings": "既定の設定を復元",
+        "restoreDefaults": "デフォルトに戻す",
+        "rgbToggle": "RGB ライトニングを有効にする",
+        "singleColor": "単一色"
+      },
+      "effects": {
+        "Breathing": "呼吸",
+        "ColorCycle": "カラーサイクル",
+        "Raindrops": "雨粒",
+        "Ripple": "リップル",
+        "Static": "静的",
+        "Wave": "波動",
+        "Starlight": "スターライト",
+        "Ghost": "ゴースト"
+      }
+    }
+  },
+  "ko-KR": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "파랑색",
+          "cyan": "청록색",
+          "green": "초록색",
+          "orange": "주황색",
+          "purple": "보라색",
+          "red": "빨강색",
+          "white": "흰색",
+          "yellow": "노랑색"
+        },
+        "multiColor": {
+          "multicolor-blue": "멀티 컬러 블루",
+          "multicolor-rainbow": "멀티 컬러 레인보우",
+          "multicolor-purple": "멀티 컬러 퍼플",
+          "multicolor-orange": "멀티 컬러 오렌지",
+          "multicolor-green": "멀티 컬러 그린",
+          "multicolor-blueOrange": "멀티 컬러 블루-오렌지",
+          "multicolor-redBlue": "멀티 컬러 레드-블루"
+        },
+        "colorGradient": {
+          "blue": "파랑색 그라데이션",
+          "cyan": "청록색 그라데이션",
+          "green": "초록색 그라데이션",
+          "orange": "주황색 그라데이션",
+          "purple": "보라색 그라데이션",
+          "red": "빨강색 그라데이션",
+          "white": "흰색 그라데이션",
+          "yellow": "노랑색 그라데이션"
+        },
+        "others": {
+          "keyboard": "키보드 미리보기",
+          "slider": "밝기 슬라이더",
+          "switch": "RGB 조명"
+        }
+      },
+      "displayLabel": {
+        "color": "색상",
+        "effects": "효과",
+        "multiColor": "다중 색상",
+        "restoreDefaultSettings": "기본 설정 복원",
+        "restoreDefaults": "기본값으로 복원",
+        "rgbToggle": "RGB 조명 사용",
+        "singleColor": "단일 색"
+      },
+      "effects": {
+        "Breathing": "호흡",
+        "ColorCycle": "색상 주기",
+        "Raindrops": "빗방울",
+        "Ripple": "리플",
+        "Static": "정적",
+        "Wave": "파동",
+        "Starlight": "스타라이트",
+        "Ghost": "고스트"
+      },
+      "rgbKeyboard": {
+        "title": "RGB 키보드"
+      }
+    }
+  },
+  "lt-LT": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Mėlyna spalva",
+          "cyan": "Žydra spalva",
+          "green": "Žalia spalva",
+          "orange": "Oranžinė spalva",
+          "purple": "Violetinė spalva",
+          "red": "Raudona spalva",
+          "white": "Balta spalva",
+          "yellow": "Geltona spalva"
+        },
+        "multiColor": {
+          "multicolor-blue": "Daugiaspalvė mėlyna",
+          "multicolor-rainbow": "Daugiaspalvė vaivorykštė",
+          "multicolor-purple": "Daugiaspalvė violetinė",
+          "multicolor-orange": "Daugiaspalvė oranžinė",
+          "multicolor-green": "Daugiaspalvė žalia",
+          "multicolor-blueOrange": "Daugiaspalvė mėlyna-oranžinė",
+          "multicolor-redBlue": "Daugiaspalvė raudona-mėlyna"
+        },
+        "colorGradient": {
+          "blue": "Mėlyna pereinanti spalva",
+          "cyan": "Žydra pereinanti spalva",
+          "green": "Žalia pereinanti spalva",
+          "orange": "Oranžinė pereinanti spalva",
+          "purple": "Violetinė pereinanti spalva",
+          "red": "Raudona pereinanti spalva",
+          "white": "Balta pereinanti spalva",
+          "yellow": "Geltona pereinanti spalva"
+        },
+        "others": {
+          "keyboard": "Klaviatūros peržiūra",
+          "slider": "Ryškumo slankiklis",
+          "switch": "RGB apšvietimas"
+        }
+      },
+      "displayLabel": {
+        "color": "Spalvos",
+        "effects": "Efektai",
+        "multiColor": "Daug spalvų",
+        "restoreDefaultSettings": "Atstatyti pirminius nustatymus",
+        "restoreDefaults": "Atkurti numatytuosius parametrus",
+        "rgbToggle": "Įjungti RGB apšvietimą",
+        "singleColor": "Viena spalva"
+      },
+      "effects": {
+        "Breathing": "Kvėpavimas",
+        "ColorCycle": "Spalvų ciklas",
+        "Raindrops": "Lašeliai",
+        "Ripple": "Bangelė",
+        "Static": "Statinis",
+        "Wave": "Banga",
+        "Starlight": "Žvaigždžių šviesa",
+        "Ghost": "Šešėlis"
+      },
+      "rgbKeyboard": {
+        "title": "RGB klaviatūra"
+      }
+    }
+  },
+  "lv-LV": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Zila krāsa",
+          "cyan": "Ciāna krāsa",
+          "green": "Zaļa krāsa",
+          "orange": "Oranža krāsa",
+          "purple": "Purpura krāsa",
+          "red": "Sarkana krāsa",
+          "white": "Balta krāsa",
+          "yellow": "Dzeltena krāsa"
+        },
+        "multiColor": {
+          "multicolor-blue": "Vairākkrāsu zila",
+          "multicolor-rainbow": "Vairākkrāsu varavīksnes",
+          "multicolor-purple": "Vairākkrāsu violeta",
+          "multicolor-orange": "Vairākkrāsu oranža",
+          "multicolor-green": "Vairākkrāsu zaļa",
+          "multicolor-blueOrange": "Vairākkrāsu zila-oranža",
+          "multicolor-redBlue": "Vairākkrāsu sarkana-zila"
+        },
+        "colorGradient": {
+          "blue": "Zilās krāsas gradients",
+          "cyan": "Ciāna krāsas gradients",
+          "green": "Zaļās krāsas gradients",
+          "orange": "Oranžās krāsas gradients",
+          "purple": "Purpura krāsas gradients",
+          "red": "Sarkanās krāsas gradients",
+          "white": "Baltās krāsas gradients",
+          "yellow": "Dzeltenās krāsas gradients"
+        },
+        "others": {
+          "keyboard": "Tastatūras priekšskatījums",
+          "slider": "Spilgtuma slīdnis",
+          "switch": "RGB apgaismojums"
+        }
+      },
+      "displayLabel": {
+        "color": "Krāsas",
+        "effects": "Efekti",
+        "multiColor": "Vairākkrāsu",
+        "restoreDefaultSettings": "Atjaunot noklusējuma iestatījumus",
+        "restoreDefaults": "Atjaunot noklusējuma vērtības",
+        "rgbToggle": "Iespējot RGB apgaismojumu",
+        "singleColor": "Viena krāsa"
+      },
+      "effects": {
+        "Breathing": "Elpošaa",
+        "ColorCycle": "Krāsu cikls",
+        "Raindrops": "Lietus lāses",
+        "Ripple": "Ņirboņa",
+        "Static": "Statisks",
+        "Wave": "Vilnis",
+        "Starlight": "Zvaigžņu gaisma",
+        "Ghost": "Dubultattēls"
+      },
+      "rgbKeyboard": {
+        "title": "RGB tastatūra"
+      }
+    }
+  },
+  "nb-NO": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Blåfarge",
+          "cyan": "Cyan-farge",
+          "green": "Grønnfarge",
+          "orange": "Oransjefarge",
+          "purple": "Lillafarge",
+          "red": "Rødfarge",
+          "white": "Hvitfarge",
+          "yellow": "Gulfarge"
+        },
+        "multiColor": {
+          "multicolor-blue": "Flerfarget blå",
+          "multicolor-rainbow": "Flerfarget regnbue",
+          "multicolor-purple": "Flerfarget lilla",
+          "multicolor-orange": "Flerfarget oransje",
+          "multicolor-green": "Flerfarget grønn",
+          "multicolor-blueOrange": "Flerfarget blåoransje",
+          "multicolor-redBlue": "Flerfarget rødblå"
+        },
+        "colorGradient": {
+          "blue": "Blåfarge-gradient",
+          "cyan": "Cyan-fargegradient",
+          "green": "Grønnfarge-gradient",
+          "orange": "Oransjefarge-gradient",
+          "purple": "Lillafarge-gradient",
+          "red": "Rødfarge-gradient",
+          "white": "Hvitfarge-gradient",
+          "yellow": "Gulfarge-gradient"
+        },
+        "others": {
+          "keyboard": "Forhåndsvisning av tastatur",
+          "slider": "Skyveknapp for lysstyrke",
+          "switch": "RGB-belysning"
+        }
+      },
+      "displayLabel": {
+        "color": "Farger",
+        "effects": "Effekter",
+        "multiColor": "Flere farger",
+        "restoreDefaultSettings": "Gjenopprett standard innstillinger",
+        "restoreDefaults": "Gjenopprett standardinnstillinger",
+        "rgbToggle": "Aktiver RGB-belysning",
+        "singleColor": "Enkel farge"
+      },
+      "effects": {
+        "Breathing": "Pust",
+        "ColorCycle": "Fargesyklus",
+        "Raindrops": "Regndråper",
+        "Ripple": "Bølge",
+        "Static": "Statisk",
+        "Wave": "Bølge",
+        "Starlight": "Stjernelys",
+        "Ghost": "Skygge"
+      },
+      "rgbKeyboard": {
+        "title": "RGB-tastatur"
+      }
+    }
+  },
+  "nl-NL": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Kleur blauw",
+          "cyan": "Kleur cyaan",
+          "green": "Kleur groen",
+          "orange": "Kleur oranje",
+          "purple": "Kleur paars",
+          "red": "Kleur rood",
+          "white": "Kleur wit",
+          "yellow": "Kleur geel"
+        },
+        "multiColor": {
+          "multicolor-blue": "Meerdere kleuren - blauw",
+          "multicolor-rainbow": "Meerdere kleuren - regenboog",
+          "multicolor-purple": "Meerdere kleuren - paars",
+          "multicolor-orange": "Meerdere kleuren - oranje",
+          "multicolor-green": "Meerdere kleuren - groen",
+          "multicolor-blueOrange": "Meerdere kleuren - blauw-oranje",
+          "multicolor-redBlue": "Meerdere kleuren - rood-blauw"
+        },
+        "colorGradient": {
+          "blue": "Kleurovergang blauw",
+          "cyan": "Kleurovergang cyaan",
+          "green": "Kleurovergang groen",
+          "orange": "Kleurovergang oranje",
+          "purple": "Kleurovergang paars",
+          "red": "Kleurovergang rood",
+          "white": "Kleurovergang wit",
+          "yellow": "Kleurovergang geel"
+        },
+        "others": {
+          "keyboard": "Voorbeeld toetsenbord",
+          "slider": "Schuifregelaar helderheid",
+          "switch": "RGB-verlichting"
+        }
+      },
+      "displayLabel": {
+        "color": "Kleuren",
+        "effects": "Effecten",
+        "multiColor": "Meerdere kleuren",
+        "restoreDefaultSettings": "Standaardinstellingen herstellen",
+        "restoreDefaults": "Standaardwaarden herstellen",
+        "rgbToggle": "RGB-verlichting inschakelen",
+        "singleColor": "Eén kleur"
+      },
+      "effects": {
+        "Breathing": "Ademen",
+        "ColorCycle": "Kleurencyclus",
+        "Raindrops": "Regendruppels",
+        "Ripple": "Rimpels",
+        "Static": "Statisch",
+        "Wave": "Golven",
+        "Starlight": "Sterrenlicht",
+        "Ghost": "Spook"
+      },
+      "rgbKeyboard": {
+        "title": "RGB-toetsenbord"
+      }
+    }
+  },
+  "pl-PL": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Kolor niebieski",
+          "cyan": "Kolor cyjanowy",
+          "green": "Kolor zielony",
+          "orange": "Kolor pomarańczowy",
+          "purple": "Kolor fioletowy",
+          "red": "Kolor czerwony",
+          "white": "Kolor biały",
+          "yellow": "Kolor żółty"
+        },
+        "multiColor": {
+          "multicolor-blue": "Wielokolorowy niebieski",
+          "multicolor-rainbow": "Wielokolorowy tęczowy",
+          "multicolor-purple": "Wielokolorowy fioletowy",
+          "multicolor-orange": "Wielokolorowy pomarańczowy",
+          "multicolor-green": "Wielokolorowy zielony",
+          "multicolor-blueOrange": "Wielokolorowy niebiesko-pomarańczowy",
+          "multicolor-redBlue": "Wielokolorowy czerwono-niebieski"
+        },
+        "colorGradient": {
+          "blue": "Gradient koloru niebieskiego",
+          "cyan": "Gradient koloru cyjanowego",
+          "green": "Gradient koloru zielonego",
+          "orange": "Gradient koloru pomarańczowego",
+          "purple": "Gradient koloru fioletowego",
+          "red": "Gradient koloru czerwonego",
+          "white": "Gradient koloru białego",
+          "yellow": "Gradient koloru żółtego"
+        },
+        "others": {
+          "keyboard": "Podgląd klawiatury",
+          "slider": "Suwak jasności",
+          "switch": "Oświetlenie RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "Kolory",
+        "effects": "Efekty",
+        "multiColor": "Wielokolorowy",
+        "restoreDefaultSettings": "Przywróć ustawienia domyślne",
+        "restoreDefaults": "Przywróć domyślne",
+        "rgbToggle": "Włącz podświetlenie RGB",
+        "singleColor": "Pojedynczy kolor"
+      },
+      "effects": {
+        "Breathing": "Oddychanie",
+        "ColorCycle": "Cykl kolorów",
+        "Raindrops": "Krople deszczu",
+        "Ripple": "Plusk",
+        "Static": "Statyczne",
+        "Wave": "Fala",
+        "Starlight": "Starlight",
+        "Ghost": "Ghost"
+      },
+      "rgbKeyboard": {
+        "title": "Klawiatura RGB"
+      }
+    }
+  },
+  "pt-BR": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Cor azul",
+          "cyan": "Cor ciano",
+          "green": "Cor verde",
+          "orange": "Cor laranja",
+          "purple": "Cor púrpura",
+          "red": "Cor vermelha",
+          "white": "Cor branca",
+          "yellow": "Cor amarela"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multicor azul",
+          "multicolor-rainbow": "Multicor arco-íris",
+          "multicolor-purple": "Multicor púrpura",
+          "multicolor-orange": "Multicor laranja",
+          "multicolor-green": "Multicor verde",
+          "multicolor-blueOrange": "Multicor azul-laranja",
+          "multicolor-redBlue": "Multicor vermelho-azul"
+        },
+        "colorGradient": {
+          "blue": "Gradiente de cor azul",
+          "cyan": "Gradiente de cor ciano",
+          "green": "Gradiente de cor verde",
+          "orange": "Gradiente de cor laranja",
+          "purple": "Gradiente de cor púrpura",
+          "red": "Gradiente de cor vermelha",
+          "white": "Gradiente de cor branca",
+          "yellow": "Gradiente de cor amarela"
+        },
+        "others": {
+          "keyboard": "Visualização do teclado",
+          "slider": "Controle deslizante de brilho",
+          "switch": "Iluminação RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "Cores",
+        "effects": "Efeitos",
+        "multiColor": "Multicores",
+        "restoreDefaultSettings": "Restaurar configurações padrão",
+        "restoreDefaults": "Restaurar padrões",
+        "rgbToggle": "Habilitar iluminação RGB",
+        "singleColor": "Cor única"
+      },
+      "effects": {
+        "Breathing": "Respiração",
+        "ColorCycle": "Ciclo de cores",
+        "Raindrops": "Gotas de chuva",
+        "Ripple": "Dobra",
+        "Static": "Estático",
+        "Wave": "Onda",
+        "Starlight": "Luz das estrelas",
+        "Ghost": "Fantasma"
+      },
+      "rgbKeyboard": {
+        "title": "Teclado RGB"
+      }
+    }
+  },
+  "pt-PT": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Cor azul",
+          "cyan": "Cor ciano",
+          "green": "Cor verde",
+          "orange": "Cor de laranja",
+          "purple": "Cor púrpura",
+          "red": "Cor vermelha",
+          "white": "Cor branca",
+          "yellow": "Cor amarela"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multicor Azul",
+          "multicolor-rainbow": "Multicor Arco-íris",
+          "multicolor-purple": "Multicor Púrpura",
+          "multicolor-orange": "Multicor Laranja",
+          "multicolor-green": "Multicor Verde",
+          "multicolor-blueOrange": "Multicor Azul-Laranja",
+          "multicolor-redBlue": "Multicor Vermelho-Azul"
+        },
+        "colorGradient": {
+          "blue": "Gradiente de cor azul",
+          "cyan": "Gradiente da cor ciano",
+          "green": "Gradiente da cor verde",
+          "orange": "Gradiente do cor de laranja",
+          "purple": "Gradiente da cor púrpura",
+          "red": "Gradiente da cor vermelha",
+          "white": "Gradiente da cor branca",
+          "yellow": "Gradiente da cor amarela"
+        },
+        "others": {
+          "keyboard": "Pré-visualização do teclado",
+          "slider": "Controlo de deslize da luminosidade",
+          "switch": "Iluminação RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "Cores",
+        "effects": "Efeitos",
+        "multiColor": "Multicor",
+        "restoreDefaultSettings": "Restaurar predefinições",
+        "restoreDefaults": "Restaurar padrões",
+        "rgbToggle": "Ativar a iluminação RGB",
+        "singleColor": "Cor única"
+      },
+      "effects": {
+        "Breathing": "Respirar",
+        "ColorCycle": "Ciclo de cor",
+        "Raindrops": "Gotas de chuva",
+        "Ripple": "Ondulação",
+        "Static": "Estático",
+        "Wave": "Onda",
+        "Starlight": "Luz estelar",
+        "Ghost": "Fantasma"
+      },
+      "rgbKeyboard": {
+        "title": "Teclado RGB"
+      }
+    }
+  },
+  "ro-RO": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Culoare albastră",
+          "cyan": "Culoare cyan",
+          "green": "Culoare verde",
+          "orange": "Culoare portocalie",
+          "purple": "Culoare violet",
+          "red": "Culoare roşie",
+          "white": "Culoare albă",
+          "yellow": "Culoare galbenă"
+        },
+        "multiColor": {
+          "multicolor-blue": "Multicolor – albastru",
+          "multicolor-rainbow": "Multicolor – curcubeu",
+          "multicolor-purple": "Multicolor – violet",
+          "multicolor-orange": "Multicolor – portocaliu",
+          "multicolor-green": "Multicolor – verde",
+          "multicolor-blueOrange": "Multicolor – albastru-portocaliu",
+          "multicolor-redBlue": "Multicolor –  roşu-albastru"
+        },
+        "colorGradient": {
+          "blue": "Gradient culoare albastră",
+          "cyan": "Gradient culoare cyan",
+          "green": "Gradient culoare verde",
+          "orange": "Gradient culoare portocalie",
+          "purple": "Gradient culoare violet",
+          "red": "Gradient culoare roşie",
+          "white": "Gradient culoare albă",
+          "yellow": "Gradient culoare galbenă"
+        },
+        "others": {
+          "keyboard": "Previzualizare tastatură",
+          "slider": "Cursor de luminozitate",
+          "switch": "Iluminare RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "Culori",
+        "effects": "Efecte",
+        "multiColor": "Mai multe culori",
+        "restoreDefaultSettings": "Restabilire setări implicite",
+        "restoreDefaults": "Restabilire setări implicite",
+        "rgbToggle": "Activare iluminare RGB",
+        "singleColor": "O singură culoare"
+      },
+      "effects": {
+        "Breathing": "Respiraţie",
+        "ColorCycle": "Ciclul culorilor",
+        "Raindrops": "Picături de ploaie",
+        "Ripple": "Ondulaţie",
+        "Static": "Static",
+        "Wave": "Undă",
+        "Starlight": "Lumină stelară",
+        "Ghost": "Fantomatic"
+      },
+      "rgbKeyboard": {
+        "title": "Tastatură RGB"
+      }
+    }
+  },
+  "ru-RU": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Синий цвет",
+          "cyan": "Голубой цвет",
+          "green": "Зеленый цвет",
+          "orange": "Оранжевый цвет",
+          "purple": "Пурпурный цвет",
+          "red": "Красный цвет",
+          "white": "Белый цвет",
+          "yellow": "Желтый цвет"
+        },
+        "multiColor": {
+          "multicolor-blue": "Многоцветный, синий",
+          "multicolor-rainbow": "Многоцветный, радуга",
+          "multicolor-purple": "Многоцветный, пурпурный",
+          "multicolor-orange": "Многоцветный, оранжевый",
+          "multicolor-green": "Многоцветный, зеленый",
+          "multicolor-blueOrange": "Многоцветный, синий-оранжевый",
+          "multicolor-redBlue": "Многоцветный, красный-синий"
+        },
+        "colorGradient": {
+          "blue": "Синий цвет (градиент)",
+          "cyan": "Голубой цвет (градиент)",
+          "green": "Зеленый цвет (градиент)",
+          "orange": "Оранжевый цвет (градиент)",
+          "purple": "Пурпурный цвет (градиент)",
+          "red": "Красный цвет (градиент)",
+          "white": "Белый цвет (градиент)",
+          "yellow": "Желтый цвет (градиент)"
+        },
+        "others": {
+          "keyboard": "Предварительный просмотр клавиатуры",
+          "slider": "Ползунок «Яркость»",
+          "switch": "RGB-подсветка"
+        }
+      },
+      "displayLabel": {
+        "color": "Цвета",
+        "effects": "Эффекты",
+        "multiColor": "Многоцветн.",
+        "restoreDefaultSettings": "Восстановить параметры по умолчанию",
+        "restoreDefaults": "Восстановить значения по умолчанию",
+        "rgbToggle": "Включить RGB-подсветку",
+        "singleColor": "Одноцветн."
+      },
+      "effects": {
+        "Breathing": "Дыхание",
+        "ColorCycle": "Смена цветов",
+        "Raindrops": "Капли дождя",
+        "Ripple": "Рябь",
+        "Static": "Статический",
+        "Wave": "Волна",
+        "Starlight": "Свет звёзд",
+        "Ghost": "Призрак"
+      },
+      "rgbKeyboard": {
+        "title": "Клавиатура с RGB-подсветкой"
+      }
+    }
+  },
+  "sk-SK": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Modrá farba",
+          "cyan": "Azúrová farba",
+          "green": "Zelená farba",
+          "orange": "Oranžová farba",
+          "purple": "Fialová farba",
+          "red": "Červená farba",
+          "white": "Biela farba",
+          "yellow": "Žltá farba"
+        },
+        "multiColor": {
+          "multicolor-blue": "Viac farieb: modrá",
+          "multicolor-rainbow": "Viac farieb: dúhová",
+          "multicolor-purple": "Viac farieb: fialová",
+          "multicolor-orange": "Viac farieb: oranžová",
+          "multicolor-green": "Viac farieb: zelená",
+          "multicolor-blueOrange": "Viac farieb: modro-oranžová",
+          "multicolor-redBlue": "Viac farieb: červeno-modrá"
+        },
+        "colorGradient": {
+          "blue": "Modrý farebný prechod",
+          "cyan": "Azúrový farebný prechod",
+          "green": "Zelený farebný prechod",
+          "orange": "Oranžový farebný prechod",
+          "purple": "Fialový farebný prechod",
+          "red": "Červený farebný prechod",
+          "white": "Biely farebný prechod",
+          "yellow": "Žltý farebný prechod"
+        },
+        "others": {
+          "keyboard": "Ukážka klávesnice",
+          "slider": "Posúvač jasu",
+          "switch": "Osvetlenie RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "Farby",
+        "effects": "Efekty",
+        "multiColor": "Viacfarebné",
+        "restoreDefaultSettings": "Obnoviť predvolené nastavenia",
+        "restoreDefaults": "Obnoviť predvolené",
+        "rgbToggle": "Povoliť osvetlenie RGB",
+        "singleColor": "Jednofarebné"
+      },
+      "effects": {
+        "Breathing": "Dýchanie",
+        "ColorCycle": "Farebný cyklus",
+        "Raindrops": "Dažďové kvapky",
+        "Ripple": "Vlnenie",
+        "Static": "Statické",
+        "Wave": "Vlna",
+        "Starlight": "Svit hviezd",
+        "Ghost": "Duch"
+      },
+      "rgbKeyboard": {
+        "title": "Klávesnica RGB"
+      }
+    }
+  },
+  "sl-SI": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Modra barva",
+          "cyan": "Cian barva",
+          "green": "Zelena barva",
+          "orange": "Oranžna barva",
+          "purple": "Vijolična barva",
+          "red": "Rdeča barva",
+          "white": "Bela barva",
+          "yellow": "Rumena barva"
+        },
+        "multiColor": {
+          "multicolor-blue": "Večbarvno modro",
+          "multicolor-rainbow": "Večbarvno mavrično",
+          "multicolor-purple": "Večbarvno vijolično",
+          "multicolor-orange": "Večbarvno oranžno",
+          "multicolor-green": "Večbarvno zeleno",
+          "multicolor-blueOrange": "Večbarvno modro-oranžno",
+          "multicolor-redBlue": "Večbarvno rdeče-modro"
+        },
+        "colorGradient": {
+          "blue": "Moder barvni preliv",
+          "cyan": "Cian barvni preliv",
+          "green": "Zelen barvni preliv",
+          "orange": "Oranžen barvni preliv",
+          "purple": "Vijoličen barvni preliv",
+          "red": "Rdeč barvni preliv",
+          "white": "Bel barvni preliv",
+          "yellow": "Rumen barvni preliv"
+        },
+        "others": {
+          "keyboard": "Predogled tipkovnice",
+          "slider": "Drsnik za svetlost",
+          "switch": "Osvetlitev RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "Barve",
+        "effects": "Učinki",
+        "multiColor": "Več barv",
+        "restoreDefaultSettings": "Obnovi privzete nastavitve",
+        "restoreDefaults": "Obnovi privzete vrednosti",
+        "rgbToggle": "Omogoči osvetlitev RGB",
+        "singleColor": "Ena barva"
+      },
+      "effects": {
+        "Breathing": "Dihanje",
+        "ColorCycle": "Barvni cikel",
+        "Raindrops": "Dežne kapljice",
+        "Ripple": "Kodranje",
+        "Static": "Statično",
+        "Wave": "Valovanje",
+        "Starlight": "Zvezdni sij",
+        "Ghost": "Duh"
+      },
+      "rgbKeyboard": {
+        "title": "Tipkovnica RGB"
+      }
+    }
+  },
+  "sr-LATN-rs": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Plava boja",
+          "cyan": "Cijan boja",
+          "green": "Zelena boja",
+          "orange": "Narandžasta boja",
+          "purple": "Ljubičasta boja",
+          "red": "Crvena boja",
+          "white": "Bela boja",
+          "yellow": "Žuta boja"
+        },
+        "multiColor": {
+          "multicolor-blue": "Višebojna plava",
+          "multicolor-rainbow": "Višebojna duga",
+          "multicolor-purple": "Višebojna ljubičasta",
+          "multicolor-orange": "Višebojna narandžasta",
+          "multicolor-green": "Višebojna zelena",
+          "multicolor-blueOrange": "Višebojna plavo-narandžasta",
+          "multicolor-redBlue": "Višebojna crveno-plava"
+        },
+        "colorGradient": {
+          "blue": "Gradijent plave boje",
+          "cyan": "Gradijent cijan boje",
+          "green": "Gradijent zelene boje",
+          "orange": "Gradijent narandžaste boje",
+          "purple": "Gradijent ljubičaste boje",
+          "red": "Gradijent crvene boje",
+          "white": "Gradijent bele boje",
+          "yellow": "Gradijent žute boje"
+        },
+        "others": {
+          "keyboard": "Pregled tastature",
+          "slider": "Klizač osvetljenosti",
+          "switch": "RGB osvetljenje"
+        }
+      },
+      "displayLabel": {
+        "color": "Colors",
+        "effects": "Efekti",
+        "multiColor": "Šareno",
+        "restoreDefaultSettings": "Vrati podrazumevane postavke",
+        "restoreDefaults": "Vrati podrazumevane vrednosti",
+        "rgbToggle": "Omogućite RGB osvetljenje",
+        "singleColor": "Jedna boja"
+      },
+      "effects": {
+        "Breathing": "Disanje",
+        "ColorCycle": "Ciklus boja",
+        "Raindrops": "Kišne kapi",
+        "Ripple": "Talasić",
+        "Static": "Statično",
+        "Wave": "Talas",
+        "Starlight": "Svetlost zvezda",
+        "Ghost": "Duh"
+      },
+      "rgbKeyboard": {
+        "title": "RGB tastatura"
+      }
+    }
+  },
+  "sv-SE": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Blå färg",
+          "cyan": "Cyan färg",
+          "green": "Grön färg",
+          "orange": "Orange färg",
+          "purple": "Lila färg",
+          "red": "Röd färg",
+          "white": "Vit färg",
+          "yellow": "Gul färg"
+        },
+        "multiColor": {
+          "multicolor-blue": "Flerfärgad blå",
+          "multicolor-rainbow": "Flerfärgad regnbåge",
+          "multicolor-purple": "Flerfärgad lila",
+          "multicolor-orange": "Flerfärgad orange",
+          "multicolor-green": "Flerfärgad grön",
+          "multicolor-blueOrange": "Flerfärgad blågrön",
+          "multicolor-redBlue": "Flerfärgad rödblå"
+        },
+        "colorGradient": {
+          "blue": "Blå färgtoning",
+          "cyan": "Cyan färgtoning",
+          "green": "Grön färgtoning",
+          "orange": "Orange färgtoning",
+          "purple": "Lila färgtoning",
+          "red": "Röd färgtoning",
+          "white": "Vit färgtoning",
+          "yellow": "Gul färgtoning"
+        },
+        "others": {
+          "keyboard": "Tangentbordsförhandsgranskning",
+          "slider": "Reglage för ljusstyrka",
+          "switch": "RGB-belysning"
+        }
+      },
+      "displayLabel": {
+        "color": "Färger",
+        "effects": "Effekter",
+        "multiColor": "Multifärger",
+        "restoreDefaultSettings": "Återställ standardinställningarna",
+        "restoreDefaults": "Återställa standardinställningarna",
+        "rgbToggle": "Aktivera RGB-belysning",
+        "singleColor": "En färg"
+      },
+      "effects": {
+        "Breathing": "Andas",
+        "ColorCycle": "Färgcykel",
+        "Raindrops": "Regndroppar",
+        "Ripple": "Krusning",
+        "Static": "Statisk",
+        "Wave": "Våg",
+        "Starlight": "Stjärnljus",
+        "Ghost": "Spöke"
+      },
+      "rgbKeyboard": {
+        "title": "RGB-tangentbord"
+      }
+    }
+  },
+  "th-TH": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "สีน้ำเงิน",
+          "cyan": "สีฟ้า",
+          "green": "สีเขียว",
+          "orange": "สีส้ม",
+          "purple": "สีม่วง",
+          "red": "สีแดง",
+          "white": "สีขาว",
+          "yellow": "สีเหลือง"
+        },
+        "multiColor": {
+          "multicolor-blue": "สีน้ำเงินแบบหลายสี",
+          "multicolor-rainbow": "สีรุ้งแบบหลายสี",
+          "multicolor-purple": "สีม่วงแบบหลายสี",
+          "multicolor-orange": "สีส้มแบบหลายสี",
+          "multicolor-green": "สีเขียวแบบหลายสี",
+          "multicolor-blueOrange": "สีน้ำเงิน-ส้มแบบหลายสี",
+          "multicolor-redBlue": "สีแดง-น้ำเงินแบบหลายสี"
+        },
+        "colorGradient": {
+          "blue": "การไล่ระดับสีน้ำเงิน",
+          "cyan": "การไล่ระดับสีฟ้า",
+          "green": "การไล่ระดับสีเขียว",
+          "orange": "การไล่ระดับสีส้ม",
+          "purple": "การไล่ระดับสีม่วง",
+          "red": "การไล่ระดับสีแดง",
+          "white": "การไล่ระดับสีขาว",
+          "yellow": "การไล่ระดับสีเหลือง"
+        },
+        "others": {
+          "keyboard": "แสดงตัวอย่างแป้นพิมพ์",
+          "slider": "แถบเลื่อนความสว่าง",
+          "switch": "ไฟ RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "สี",
+        "effects": "เอฟเฟ็กต์",
+        "multiColor": "หลายสี",
+        "restoreDefaultSettings": "คืนค่าการตั้งค่าเริ่มต้น",
+        "restoreDefaults": "คืนค่าเริ่มต้น",
+        "rgbToggle": "เปิดใช้งานแสงไฟ RGB",
+        "singleColor": "สีเดียว"
+      },
+      "effects": {
+        "Breathing": "ลมหายใจ",
+        "ColorCycle": "การเวียนสี",
+        "Raindrops": "เม็ดฝน",
+        "Ripple": "กระเพื่อม",
+        "Static": "แบบคงที่",
+        "Wave": "คลื่น",
+        "Starlight": "แสงดาว",
+        "Ghost": "ผี"
+      },
+      "rgbKeyboard": {
+        "title": "แป้นพิมพ์ RGB"
+      }
+    }
+  },
+  "tr-TR": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Mavi renk",
+          "cyan": "Cam göbeği rengi",
+          "green": "Yeşil renk",
+          "orange": "Turuncu renk",
+          "purple": "Mor renk",
+          "red": "Kırmızı renk",
+          "white": "Beyaz renk",
+          "yellow": "Sarı renk"
+        },
+        "multiColor": {
+          "multicolor-blue": "Çok Renkli Mavi",
+          "multicolor-rainbow": "Çok Renkli Gökkuşağı",
+          "multicolor-purple": "Çok Renkli Mor",
+          "multicolor-orange": "Çok Renkli Turuncu",
+          "multicolor-green": "Çok Renkli Yeşil",
+          "multicolor-blueOrange": "Çok Renkli Mavi-Turuncu",
+          "multicolor-redBlue": "Çok Renkli Kırmızı-Mavi"
+        },
+        "colorGradient": {
+          "blue": "Mavi renk gradyanı",
+          "cyan": "Cam göbeği rengi gradyanı",
+          "green": "Yeşil renk gradyanı",
+          "orange": "Turuncu renk gradyanı",
+          "purple": "Mor renk gradyanı",
+          "red": "Kırmızı renk gradyanı",
+          "white": "Beyaz renk gradyanı",
+          "yellow": "Sarı renk gradyanı"
+        },
+        "others": {
+          "keyboard": "Klavye önizleme",
+          "slider": "Parlaklık Kaydırıcısı",
+          "switch": "RGB Aydınlatma"
+        }
+      },
+      "displayLabel": {
+        "color": "Renkler",
+        "effects": "Efektler",
+        "multiColor": "Çok Renkli",
+        "restoreDefaultSettings": "Varsayılan Ayarları Geri Yükle",
+        "restoreDefaults": "Varsayılanları Geri Yükle",
+        "rgbToggle": "RGB Aydınlatmayı Etkinleştir",
+        "singleColor": "Tek Renk"
+      },
+      "effects": {
+        "Breathing": "Nefes",
+        "ColorCycle": "Renk Döngüsü",
+        "Raindrops": "Yağmur damlacıkları",
+        "Ripple": "Dalgalanma",
+        "Static": "Statik",
+        "Wave": "Dalga",
+        "Starlight": "Yıldız ışığı",
+        "Ghost": "Hayalet"
+      },
+      "rgbKeyboard": {
+        "title": "RGB klavyesi"
+      }
+    }
+  },
+  "uk-UA": {
+    "translation": {
+      "accessibilityLabel": {
+        "color": {
+          "blue": "Синій",
+          "cyan": "Блакитний",
+          "green": "Зелений",
+          "orange": "Помаранчевий",
+          "purple": "Пурпуровий",
+          "red": "Червоний",
+          "white": "Білий",
+          "yellow": "Жовтий"
+        },
+        "multiColor": {
+          "multicolor-blue": "Багатокольоровий синій",
+          "multicolor-rainbow": "Багатокольоровий райдужний",
+          "multicolor-purple": "Багатокольоровий фіолетовий",
+          "multicolor-orange": "Багатокольоровий оранжевий",
+          "multicolor-green": "Багатокольоровий зелений",
+          "multicolor-blueOrange": "Багатокольоровий синьо-оранжевий",
+          "multicolor-redBlue": "Багатокольоровий червоно-синій"
+        },
+        "colorGradient": {
+          "blue": "Синій градієнт",
+          "cyan": "Блакитний градієнт",
+          "green": "Зелений градієнт",
+          "orange": "Помаранчевий градієнт",
+          "purple": "Пурпуровий градієнт",
+          "red": "Червоний градієнт",
+          "white": "Білий градієнт",
+          "yellow": "Жовтий градієнт"
+        },
+        "others": {
+          "keyboard": "Попередній перегляд клавіатури",
+          "slider": "Повзунок яскравості",
+          "switch": "Освітлення RGB"
+        }
+      },
+      "displayLabel": {
+        "color": "Кольори",
+        "effects": "Ефекти",
+        "multiColor": "Різні кольори",
+        "restoreDefaultSettings": "Відновити налаштування за замовчуванням",
+        "restoreDefaults": "Відновити стандартні значення",
+        "rgbToggle": "Увімкнути підсвітку RGB",
+        "singleColor": "Один колір"
+      },
+      "effects": {
+        "Breathing": "Коливання",
+        "ColorCycle": "Цикл кольорів",
+        "Raindrops": "Краплі дощу",
+        "Ripple": "Пульсація",
+        "Static": "Статично",
+        "Wave": "Хвиля",
+        "Starlight": "Зоряне сяйво",
+        "Ghost": "Фантом"
+      },
+      "rgbKeyboard": {
+        "title": "Клавіатура RGB"
+      }
+    }
+  },
+  "zh-Hans": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB 键盘"
+      },
+      "displayLabel": {
+        "rgbToggle": "启用 RGB 灯光",
+        "effects": "效果",
+        "color": "彩色",
+        "singleColor": "单色",
+        "multiColor": "多色",
+        "restoreDefaultSettings": "恢复默认设置",
+        "restoreDefaults": "恢复默认值"
+      },
+      "effects": {
+        "Static": "静态",
+        "Wave": "波纹",
+        "Ripple": "涟漪",
+        "Breathing": "呼吸",
+        "Raindrops": "雨滴",
+        "ColorCycle": "颜色循环",
+        "Starlight": "星光",
+        "Ghost": "幽光"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "红色",
+          "green": "绿色",
+          "yellow": "黄色",
+          "blue": "蓝色",
+          "cyan": "青色",
+          "purple": "紫色",
+          "white": "白色",
+          "orange": "橙色"
+        },
+        "multiColor": {
+          "multicolor-blue": "多色蓝色",
+          "multicolor-rainbow": "多色彩虹色",
+          "multicolor-purple": "多色紫色",
+          "multicolor-orange": "多色橙色",
+          "multicolor-green": "多色绿色",
+          "multicolor-blueOrange": "多色蓝橙",
+          "multicolor-redBlue": "多色红蓝"
+        },
+        "colorGradient": {
+          "red": "红色渐变",
+          "green": "绿色渐变",
+          "yellow": "黄色渐变",
+          "blue": "蓝色渐变",
+          "cyan": "青色渐变",
+          "purple": "紫色渐变",
+          "white": "白色渐变",
+          "orange": "橙色渐变"
+        },
+        "others": {
+          "slider": "亮度滑块",
+          "keyboard": "键盘预览",
+          "switch": "RGB 灯光"
+        }
+      }
+    }
+  },
+  "zh-Hant-HK": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB 鍵盤"
+      },
+      "displayLabel": {
+        "rgbToggle": "啟用 RGB 燈光",
+        "effects": "效果",
+        "color": "色彩",
+        "singleColor": "單色",
+        "multiColor": "多色彩",
+        "restoreDefaultSettings": "還原預設值設定",
+        "restoreDefaults": "還原預設值"
+      },
+      "effects": {
+        "Static": "靜態",
+        "Wave": "海浪",
+        "Ripple": "波紋",
+        "Breathing": "呼吸",
+        "Raindrops": "雨點",
+        "ColorCycle": "色彩循環",
+        "Starlight": "星光",
+        "Ghost": "鬼魅"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "紅色",
+          "green": "綠色",
+          "yellow": "黃色",
+          "blue": "藍色",
+          "cyan": "青色",
+          "purple": "紫色",
+          "white": "白色",
+          "orange": "橙色"
+        },
+        "multiColor": {
+          "multicolor-blue": "多色彩 藍色",
+          "multicolor-rainbow": "多色彩 彩虹",
+          "multicolor-purple": "多色彩 紫色",
+          "multicolor-orange": "多色彩 橙色",
+          "multicolor-green": "多色彩 綠色",
+          "multicolor-blueOrange": "多色彩 藍 – 橙",
+          "multicolor-redBlue": "多色彩 紅 – 藍"
+        },
+        "colorGradient": {
+          "red": "紅色漸變",
+          "green": "綠色漸變",
+          "yellow": "黃色漸變",
+          "blue": "藍色漸變",
+          "cyan": "青色漸變",
+          "purple": "紫色漸變",
+          "white": "白色漸變",
+          "orange": "橙色漸變"
+        },
+        "others": {
+          "slider": "亮度滑動條",
+          "keyboard": "鍵盤預覽",
+          "switch": "RGB 燈光效果"
+        }
+      }
+    }
+  },
+  "zh-Hant": {
+    "translation": {
+      "rgbKeyboard": {
+        "title": "RGB 鍵盤"
+      },
+      "displayLabel": {
+        "rgbToggle": "啟用 RGB 照明",
+        "effects": "效果",
+        "color": "色彩",
+        "singleColor": "單色",
+        "multiColor": "多色彩",
+        "restoreDefaultSettings": "還原預設設定",
+        "restoreDefaults": "還原預設值"
+      },
+      "effects": {
+        "Static": "靜態",
+        "Wave": "海浪",
+        "Ripple": "波紋",
+        "Breathing": "呼吸",
+        "Raindrops": "雨點",
+        "ColorCycle": "色彩循環",
+        "Starlight": "星光",
+        "Ghost": "Ghost"
+      },
+      "accessibilityLabel": {
+        "color": {
+          "red": "紅色",
+          "green": "綠色",
+          "yellow": "黃色",
+          "blue": "藍色",
+          "cyan": "青色",
+          "purple": "紫色",
+          "white": "白色",
+          "orange": "橙色"
+        },
+        "multiColor": {
+          "multicolor-blue": "多色彩藍",
+          "multicolor-rainbow": "多色彩彩虹",
+          "multicolor-purple": "多色彩紫",
+          "multicolor-orange": "多色彩橙",
+          "multicolor-green": "多色彩綠",
+          "multicolor-blueOrange": "多色彩藍橙",
+          "multicolor-redBlue": "多色彩紅藍"
+        },
+        "colorGradient": {
+          "red": "紅色漸層",
+          "green": "綠色漸層",
+          "yellow": "黃色漸層",
+          "blue": "藍色漸層",
+          "cyan": "青色漸層",
+          "purple": "紫色漸層",
+          "white": "白色漸層",
+          "orange": "橙色漸層"
+        },
+        "others": {
+          "slider": "亮度滑桿",
+          "keyboard": "鍵盤預覽",
+          "switch": "RGB 照明"
+        }
+      }
+    }
+  }
+}

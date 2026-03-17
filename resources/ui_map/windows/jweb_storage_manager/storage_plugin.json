@@ -1,0 +1,122 @@
+{
+  "storage_manager_weblet": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Storage Manager')]"
+    }
+  },
+  "store_object_resource_method": {
+    "locator": {
+      "xpath": "//Button[contains(@Name, 'storageManager.storeObjectResource') or contains(@Name, 'store.storeStringResource')]"
+    }
+  },
+  "store_type_combobox": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Select the variant StoreStringResource')]/following::ComboBox[1]"
+    }
+  },
+  "store_type_option": {
+    "locator": {
+      "xpath": "//List[@AutomationId='storeresourcestoreType-listbox']//ListItem[@Name='Store{}Resource']"
+    }
+  },
+  "encoding_combobox": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Encoding')]/following::ComboBox[1]"
+    }
+  },
+   "encoding_option": {
+    "locator": {
+      "xpath": "//List[@AutomationId='storeresourceencoding-listbox']//ListItem[@Name='{}']"
+    }
+  },
+  "data_field": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='storeresourcedata']"
+    }
+  },
+  "source_field": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='storeresourcesource']"
+    }
+  },
+  "name_edit": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='storeresourcename']"
+    }
+  },
+  "mime_type_edit": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='storeresourcemimeType']"
+    }
+  },
+  "retention_type_combobox": {
+    "locator": {
+      "xpath": "//Text[@Name='Retention Policy']/following::ComboBox[1]"
+    }
+  },
+  "retention_policy_option": {
+    "locator": {
+      "xpath": "//List[@AutomationId='storeresourceretentionType-listbox']//ListItem[@Name='{}']"
+    }
+  },
+  "retention_expiration_field": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='storeresourceretentionExpiration']"
+    }
+  },
+  "store_execute_button": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='storeButton']"
+    }
+  },
+  "store_result": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Result') or contains(@Name, 'response')]"
+    }
+  },
+  "result_block": {
+    "locator": {
+      "xpath": "//*[@Name='Result']/following-sibling::*[1]"
+    }
+  },
+  "remove_resource_source_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='removeresourcesource']"
+    }
+  },
+  "remove_resource_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='removeButton']"
+    }
+  },
+  "remove_resource_result_content": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='removeButton']//Text[@Name='Result']/following-sibling::Text[1]"
+    }
+  },
+  "get_list_test_button": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='listButton']"
+    }
+  },
+  "get_list_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='listButton']//Text[@Name='Result']/following-sibling::Text[1]"
+    }
+  },
+  "get_resource_list_name_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='listresourcename']"
+    }
+  },
+  "get_list_source_field": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='listresourcesource']"
+    }
+  },
+  "expand_storage_manager_method": {
+    "locator": {
+      "xpath": "//Button[contains(@Name,'{}')]"
+    }
+  }
+}

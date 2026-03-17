@@ -1,0 +1,36 @@
+{
+    "search_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCollectionView[contains(@name, 'Search')]/descendant::XCUIElementTypeStaticText[contains(@name, '{}')]"
+    }
+  },
+  "stack_cell_menu_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@label, 'Stack, ')]"
+    }
+  },
+  "hpx_flag": {
+      "locator": {
+          "xpath": "//XCUIElementTypeButton[@name='HPX']",
+          "name": "HPX"
+      }
+  },
+  "enable_uma_links": {
+      "locator": {
+          "xpath": ["//XCUIElementTypeButton[@name='hpxOpenProfileIn']"],
+          "name": "hpxOpenProfileIn"
+      }
+  },
+  "uma_site": {
+      "locator": {
+          "xpath": ["//XCUIElementTypeButton[@name='UMA site']"],
+          "name": "UMA site"
+      }
+  },
+  "settings_search_field": {
+    "locator": {
+      "xpath": "//*[contains(@name,'Search')]"
+    }
+  }
+
+}

@@ -1,0 +1,292 @@
+{
+  "bindings_button": {
+    "locator": {
+      "name": "Bindings"
+    }
+  },
+  "filters_button": {
+    "locator": {
+      "name": "Filters"
+  }
+  },
+  "request_logs_button": {
+    "locator": {
+      "name": "Request Logs"
+    }
+  },
+  "verbose_logs_button": {
+    "locator": {
+      "name": "Verbose Logs"
+    }
+  },
+  "queue_button": {
+    "locator": {
+      "name": "Queue"
+    }
+  },
+  "data_valves_nav_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeButton"
+    }
+  },
+  "metadata_json": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@value,'accountLoginId')]"
+    }
+  },
+  "newest_data_valve_request_url": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@value,'bindings')]"
+    }
+  },
+  "clear_cached_bindings": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='trash']"
+    }
+  },
+  "v1bindings_json": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[@name='v3/bindings']/following::XCUIElementTypeCell/child::XCUIElementTypeStaticText"
+    }
+  },
+  "verbose_log_finish_notification": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@name, 'trackingIdentifier')]"
+    }
+  },
+  "verbose_log_publish_notification": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@name, 'trackingIdentifier')]/following::XCUIElementTypeCell/child::XCUIElementTypeStaticText"
+    }
+  },
+  "verbose_logs_back_button": {
+    "locator": {
+      "name": "Back"
+    }
+  },
+  "verbose_log_text": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView[contains(@name, 'Notification')]"
+    }
+  },
+  "queue_list": {
+    "locator": {
+      "name": "Empty list"
+    }
+  },
+  "send_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Send']"
+    }
+  },
+  "navigation_bar": {
+    "locator": {
+      "name": "send"
+    }
+  },
+  "error_type": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView[contains(@label, 'invalidEvent')]"
+    }
+  },
+  "back_navigation_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeNavigationBar[@name='Simple UI Event']//XCUIElementTypeButton"
+    }
+  },
+  "screen_name_textbox": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='screenName']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "action_textbox": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='action']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "select_ok_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='OK']"
+    }
+  },
+  "event_sent_text": {
+    "locator": {
+      "name": "Event sent"
+    }
+  },
+  "cache_expired_text": {
+    "locator": {
+      "name": "Cache is expired"
+    }
+  },
+  "time": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[@name='v3/bindings']//XCUIElementTypeStaticText[contains(@label, ':')]"
+    }
+  },
+  "request_logs_data_valve_tab": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSegmentedControl//XCUIElementTypeButton[@name='Data Valve']"
+    }
+  },
+  "data_valve_status_code":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Status Code: 200']"
+    }
+  },
+  "filter_output_btn":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Filter Output ']/following::XCUIElementTypeButton[@name='chevron' and @enabled='false']"
+    }
+  },
+  "filter_output_reason_text":{
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView[contains(@name, 'Failed to retrieve filters to the current tree')]"
+    }
+  },
+  "accumulator_nav_btn": {
+    "locator": {
+      "name": "Accumulator"
+    }
+  },
+  "delete_btn":{  
+    "locator": {
+      "name": "Delete"
+    }
+  },
+  "tracking_identifier":{
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[.//XCUIElementTypeStaticText[@name='trackingIdentifier']]//XCUIElementTypeSwitch"
+    }
+  },
+  "data_ingress_status_code_206":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Status Code: 206']"
+    }
+  },
+  "data_ingress_status_code_400":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Status Code: 400']"
+    }
+  },
+  "accumulators_item_lists":{
+    "locator": {
+      "name": "Empty list"
+    }
+  },
+  "tracking_identifier_nav_btn":{
+    "locator": {
+      "xpath" : "//XCUIElementTypeStaticText[contains(@name, 'trackingIdentifier')]"
+    }
+  },
+  "verbose_log_prebuilt_notification_text":{
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView[contains(@label, 'Prebuilt : false')]"
+    }
+  },
+  "data_ingress_status_code_200":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Status Code: 200']"
+    }
+  },
+  "request_logs_data_ingress_tab": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSegmentedControl//XCUIElementTypeButton[@name='Data Ingress']"
+    }
+  },
+  "send_sys_info_event":{
+    "locator": {
+      "name": "Send Sys Info Event"
+    }
+  },
+  "select_event_to_send":{
+    "locator": {
+      "name": "Select event to send"
+    }
+  },
+  "cdm":{
+    "locator": {
+      "name": "CDM"
+    }
+  },
+  "add":{
+    "locator": {
+      "name": "Add"
+    }
+  },
+  "valid":{
+    "locator": {
+      "name": "Valid"
+    }
+  },
+  "save":{
+    "locator": {
+      "name": "Save"
+    }
+  },
+  "cdm_valid_gun_textbox":{
+    "locator": {
+      "xpath":"//XCUIElementTypeTextField[contains(@value,'com.hp.cdm.service.eventing')]"
+    }
+  },
+  "valid_result_text":{
+    "locator": {
+      "xpath":"//XCUIElementTypeStaticText[contains(@value,'Valid')]"
+    }
+  },
+  "selected":{
+    "locator": {
+      "name": "selected"
+    }
+  },
+  "ok":{
+    "locator": {
+      "name": "Ok"
+    }
+  },
+  "filtered":{
+    "locator": {
+      "name": "Filtered"
+    }
+  },
+  "filters_text":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Finished applying filters']"
+    }
+  },
+  "filters_status_text":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Filtered']"
+    }
+  },
+  "cdm_valid_filtered_result":{
+    "locator": {
+      "xpath":"//XCUIElementTypeTextView[contains(@value,'originatorContext')]"
+    }
+  },
+  "cdm_blank_gun_result":{
+    "locator": {
+      "xpath":"//XCUIElementTypeTextView[contains(@value,'Filter Error')]"
+    }
+  },
+  "cdm_empty_gun_textbox":{
+    "locator": {
+      "xpath":"//XCUIElementTypeTextField[contains(@value,'Tree Gun')]"
+    }
+  },
+  "invalid":{
+    "locator": {
+      "name": "Invalid"
+    }
+  },
+  "filters_back_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Filters']"
+    }
+  },
+  "second_filtered":{
+    "locator": {
+      "xpath":"(//XCUIElementTypeStaticText[@name='Filtered'])[2]"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "services_btn": {
+    "locator": {
+      "name": "Services"
+    }
+  },
+  "file_system_doc_source_option": {
+    "locator": {
+      "name": "FileSystemDocSource"
+    }
+  },
+  "doc_transformer_option": {
+    "locator": {
+      "name": "DocTransformer"
+    }
+  },
+  "doc_destination_option": {
+    "locator": {
+      "name": "DocDestination"
+    }
+  },
+  "doc_set": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@value, 'DocSet')]"
+    }
+  },
+  "doc_set_document_count": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@value, 'document')]"
+    }
+  },
+  "delete_button": {
+    "locator": {
+      "name": "Delete"
+    }
+  },
+  "docs_button": {
+    "locator": {
+      "name": "Docs"
+    }
+  },
+  "doc_item": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@value,'{}')]"
+    }
+  },
+  "doc_item_data": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView[contains(@value,'ID:') and contains(@value,'Filename:')]"
+    }
+  },
+  "return_docs_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeNavigationBar/child::XCUIElementTypeButton[@name='Doc Provider']"
+    }
+  }
+}

@@ -1,0 +1,802 @@
+{
+    "progressbar":{
+        "locator": {
+            "xpath":"//ProgressBar[1]"
+        }
+    },
+    "top_back_arrow":{
+        "locator": {
+            "id": "ExitSetupButton",
+            "xpath": "//Text[@Name='HP']/following-sibling::Button[1]"
+        }
+    },
+    "top_back_text":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='ExitSetupButton']/Text[1]"
+        }
+    },
+    "exit_setup_arrow":{
+        "locator": {"id": "ExitButtonTextBlock"}
+    },
+    "left_list": {
+        "locator": {"id": "MasterListCtrl"}
+    },
+    "printer_info_title": {
+        "locator": {"id": "PrinterInfo_Title"},
+        "analytics":[
+            {
+               "event": "-ScreenDisplayed,Printerinformation,/,1.5.0, accepted.",
+               "trigger":"wait_v",
+               "platform": "windows"
+            }
+        ]
+    },
+    "printer_info_name_item": {
+        "_comment": "Name list item on Printer Information page",
+        "locator": {"xpath": "//List[@AutomationId='ListContainer']/ListItem[1]/Text[1]"}
+    },
+    "printer_info_name_value": {
+        "_comment": "The corresponding value of Name list item on Printer Information page",
+        "locator": {"xpath": "//List[@AutomationId='ListContainer']/ListItem[1]/Text[2]"}
+    },
+    "printer_info_status_item": {
+        "_comment": "Status list item on Printer Information page",
+        "locator": {"xpath": "//List[@AutomationId='ListContainer']/ListItem[2]/Text[1]"}
+    },
+    "printer_info_status_value": {
+        "_comment": "The corresponding value of Status list item on Printer Information page",
+        "locator": {"xpath": "//List[@AutomationId='ListContainer']/ListItem[2]/Text[2]"}
+    },
+    "printer_info_status": {
+        "_comment": "The corresponding value of Status list item on Printer Information page",
+        "locator": {"xpath": "//Text[@Name='{}']"}
+    },
+    "printer_info_model_name_item": {
+        "_comment": "Model Name list item on Printer Information page",
+        "locator": {"xpath": "//List[@AutomationId='ListContainer']/ListItem[3]/Text[1]"}
+    },
+    "printer_info_model_name_value": {
+        "_comment": "The corresponding value of Model Name list item on Printer Information page",
+        "locator": {"xpath": "//List[@AutomationId='ListContainer']/ListItem[3]/Text[2]"}
+    },
+    "status_group": {
+        "locator": {"xpath": "//Text[@Name='Status']"} 
+    },
+    "information_group": {
+        "locator": {"xpath": "//Text[@Name='Information']"} 
+    },
+    "settings_group": {
+        "locator": {"xpath": "//Text[@Name='Settings']"} 
+    },
+    "tools_group": {
+        "locator": {"xpath": "//Text[@Name='Tools']"} 
+    },
+    "manage_group": {
+        "locator": {"xpath": "//Text[@Name='Manage']"} 
+    },
+    "printer_status_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Printer Status']"} 
+    },
+    "printer_status": {
+        "locator": {"xpath": "//Text[@Name='Status']/following-sibling::ListItem[1]"} 
+    },
+    "supply_status_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Supply Status']"} 
+    },
+    "supply_status": {
+        "locator": {"xpath": "//Text[@Name='Status']/following-sibling::ListItem[2]"} 
+    },
+    "security_status_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Security Status']"} 
+    },
+    "printer_information_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Printer Information']"} 
+    },
+    "network_information_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Network Information']"} 
+    },
+    "advanced_settings_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Advanced Settings']"} 
+    },
+    "advanced_settings": {
+        "locator": {"xpath": "//Text[@Name='Settings']/following-sibling::ListItem[1]"} 
+    },
+    "printer_information": {
+        "locator": {"xpath": "//Text[@Name='Information']/following-sibling::ListItem[1]"} 
+    },
+    "network_information": {
+        "locator": {"xpath": "//Text[@Name='Information']/following-sibling::ListItem[2]"} 
+    },
+    "printer_reports_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Printer Reports']"} 
+    },
+    "printer_reports": {
+        "locator": {"xpath":"//Text[@Name='Tools']/following-sibling::ListItem[1]"} 
+    },
+    "printer_quality_reports": {
+        "locator": {"xpath":"//Text[@Name='Tools']/following-sibling::ListItem[2]"} 
+    },
+    "select_section": {
+        "locator": {"id": "MasterListCtrl"} 
+    },
+    "shortcuts_item_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Shortcuts']"},
+        "analytics":[
+            {
+               "event": "-ScreenDisplayed,Hpshortcutssettings,/,1.5.0, accepted.",
+               "trigger":"wait_v",
+               "platform": "windows"
+            }
+        ] 
+    },
+    "print_quality_tools_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Print Quality Tools']/Text[@Name='Print Quality Tools']"} 
+    },
+    "see_what_printing_opt": {
+        "locator": {"xpath": "//ListItem[@Name=\"{}\"]"} 
+    },
+    "print_from_other_devices_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Print From Other Devices']"} 
+    },
+    "hide_printer_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Hide Printer']"} 
+    },
+    "print_anywhere_opt": {
+        
+        "locator": {"xpath": "//ListItem[contains(@Name,'Print Anywhere')]"}
+    },
+    "privacy_preferences_opt": {
+        "locator": {"xpath": "//ListItem[@Name='Privacy Preferences']"} 
+    },
+    "info_group": {
+        "_comment": "Information",
+        "locator": {"xpath": "//List[@AutomationId='MasterListCtrl']/Group[2]"}
+    },
+    "print_quality_tools_item": {
+        "_comment": " Print Quality Tools",
+        "locator": {"xpath": "//List[@AutomationId='MasterListCtrl']/Group[4]/ListItem[2]"}
+    },
+    "printer_report_item": {
+        "_comment": " Print Reports",
+        "locator": {"xpath": "//List[@AutomationId='MasterListCtrl']/Group[4]/ListItem[1]"}
+    },
+    "hide_this_printer_title": {
+        "locator": {"id": "ForgetPrinterTitle"}
+    },
+    "hide_this_printer_body": {
+        "locator": {"id": "ForgetPrinterBody"}
+    },
+    "hide_this_printer_btn": {
+        "locator": {"id": "ForgetBtn"}
+    },
+    "report_title": {
+        "_comment": " Print Reports",
+        "locator": {"id": "InternalPrint_TileName"}
+    },
+    "supply_printer_image": {
+        "_comment": " Supply Status",
+        "locator": {"xpath": "//Image[@Name='printer-image-block']"}
+    },
+    "get_supplies_for_text": {
+        "_comment": " Supply Status",
+        "locator": {"xpath": "//Text[@Name='GET SUPPLIES FOR']"}
+    },
+    "supply_status_sign_in_btn": {
+        "_comment": " Supply Status",
+        "locator": {"id": "linkButton"}
+    },
+    "report_print_name": {
+        "_comment": " Print Reports",
+        "locator": {"id": "PrintName"}
+    },
+    "dynamic_report_list_item": {
+        "_comment": " Print Reports",
+        "locator": {"xpath": "//List[@AutomationId='PrintReportsListView']/ListItem[{}]"}
+    },
+    "print_status_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Printer Status Report"}
+    },
+    "sub_print_status_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "View ink levels, printer usage information, connectivity status, and scan and fax settings."}
+    },
+    "demo_page_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Demo Page"}
+    },
+    "sub_demo_page_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Demo Page"}
+    },
+    "print_diagnostic_info_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Print Diagnostic Report"}
+    },
+    "sub_print_diagnostic_info_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "View the printer serial number, connection status, and Wi-Fi Direct password."}
+    },
+    "network_configuration_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Network Configuration Report"}
+    },
+    "sub_network_configuration_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "View printer network information."}
+    },
+    "wireless_network_test_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Wireless Network Test Report"}
+    },
+    "sub_wireless_network_test_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Access network status information, Wi-Fi signal strength, and detected networks."}
+    },
+    "print_quality_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Print Quality Report"}
+    },
+    "sub_print_quality_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Identify the source of print quality issues. "}
+    },
+    "web_access_test_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Web Access Test Report"}
+    },
+    "sub_web_access_test_report_option": {
+        "_comment": " Print Reports",
+        "locator": {"text": "Test your internet connectivity to identify possible issues."}
+    },
+    "report_print_btn": {
+        "_comment": " Print Reports",
+        "locator": {"id": "Print_Button"}
+    },
+    "this_feature_is_not_available_text": {
+        "_comment": " Print Reports",
+        "locator": {"xpath": "//Text[contains(@Name,'This feature is not available for the selected printer')]"}
+    },
+    "progress_bar": {
+        "locator": {"xpath": "//Image[@AutomationId='Spinner']"}
+    },
+    "dialog_cancel_btn": {
+        "_comment": " Print Reports -> Print",
+        "locator": {"xpath": ["//*[@Name='Cancel']", "//ProgressBar[1]/following-sibling::Button[1]"], 
+                    "id": "CancelButton"}
+    },
+    "cancel_print_btn": {
+        "_comment": " Print Reports -> Print",
+        "locator": {"id": "CancelButton",
+                    "xpath": "//Text[@Name='Cancel']"}
+    },
+    "printing_is_title": {
+        "_comment": " Print Reports -> Print",
+        "locator": {"xpath": "//Text[contains(@Name, 'Printing is complete.')]"}
+    },
+    "retry_btn": {
+        "_comment": " Print Reports -> Door Open",
+        "locator": {"id": "RetryButton",
+                    "xpath": "//Text[@Name='Retry']"}
+    },
+    "door_open_title": {
+        "_comment": " Print Reports -> Door Open",
+        "locator": {"xpath": "//Text[@Name='Door Open']"}
+    },
+    "unable_to_connect_title": {
+        "_comment": " Print Reports -> printer offline",
+        "locator": {"xpath": "//Text[@Name='Unable to connect to printer']"}
+    },
+    "check_printer_connection_text": {
+        "_comment": " Print Reports -> Door Open",
+        "locator": {"xpath": "//Text[@Name='Check printer connection and status.']"}
+    },
+    "printer_status_unknown_text": {
+        "_comment": " Print Reports",
+        "locator": {"xpath": "//Text[@Name='Printer status unknown']"}
+    },
+    "report_ok_btn": {
+        "_comment": " Print Reports -> Print",
+        "locator": {"xpath": "//*[@Name='OK']"}
+    },
+    "print_quality_tools_title": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "ProductMaintenance_PageTitle"}
+    },
+     "align_printheads_title_text": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "AlignItemText"}
+    },
+    "alignment_title": {
+        "_comment": " Align Printheads",
+        "locator": {"xpath": "//Text[@Name='Alignment']"}
+    },
+    "alignment_text": {
+        "_comment": " Align Printheads",
+        "locator": {"xpath": "//Text[contains(@Name,'Alignment in progress.')]"}
+    },
+    "align_printheads_sub_text": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "AlignItemSubText"}
+    },
+    "align_printheads_finished_text": {
+        "_comment": " Align printheads",
+        "locator": {"xpath": "//Text[contains(@Name,'Alignment was successful')]"}
+    },
+    "align_printheads_finished_done_btn": {
+        "_comment": "Align printheads",
+        "locator": {"xpath": "//Button[@Name='Done']"}
+    },
+    "align_arrow": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "AlignmentButton"}
+    },
+    "clean_printheads_title_text": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "CleanItemText"}
+    },
+    "clean_printheads_sub_text": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "CleanItemSubText"}
+    },
+    "clean_arrow": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "CleanButton"}
+    },
+    "view_all_title_text": {
+        "_comment": " Print Quality Tools",
+        "locator": {"text": "View all print quality tools"}
+    },
+    "view_all_arrow": {
+        "_comment": " Print Quality Tools",
+        "locator": {"id": "ViewAllQualityToolsButton"}
+    },
+    "print_alignment_page_btn": {
+        "_comment": "Align Printheads",
+        "locator": {"xpath": "//Button[@Name='Print alignment page']"}
+    },
+    "align_skip_btn": {
+        "_comment": "Align Printheads",
+        "locator": {"xpath": "//Button[@Name='Skip']"}
+    },
+    "align_printheads_title": {
+        "_comment": "Align Printheads",
+        "locator": {"xpath": "//Text[@Name='Align printheads']"}
+    },
+    "quality_cancel_btn": {
+        "_comment": "Align Printheads",
+        "locator": {"id": "BackButton",
+                    "xpath": "//Button[@Name='Cancel']"}
+    },
+    "unable_to_align_title": {
+        "_comment": "Align Printheads",
+        "locator": {"xpath": "//Text[@Name='Unable to align']"}
+    },
+    "unable_to_align_text": {
+        "_comment": "Align Printheads",
+        "locator": {"xpath": "//Text[contains(@Name, 'The alignment page may be incorrectly placed on the scanner')]"}
+    },
+    "back_btn_on_dialog": {
+        "_comment": "Align Printheads",
+        "locator": {"xpath": "//Button[@Name='Back']"}
+    },
+    "align_scan_page_btn": {
+        "_comment": "Align Printheads",
+        "locator": {"xpath": "//Button[@Name='Scan page']"}
+    },
+    "cleaning_title": {
+        "_comment": " Print Quality Tools -> Clean Printheads",
+        "locator": {"xpath": "//Text[@Name='Cleaning']"}
+    },
+    "printing_title": {
+        "_comment": " Print Quality Tools -> Clean Printheads",
+        "locator": {"xpath": "//Text[@Name='Printing']"}
+    },
+    "cleaning_complete_title": {
+        "_comment": " Print Quality Tools -> Clean Printheads",
+        "locator": {"id": "CleanLevelTitle"}
+    },
+    "additional_cleaning_text": {
+        "_comment": " Print Quality Tools -> Clean Printheads",
+        "locator": {"id": "CleanLevelText_1"}
+    },
+    "cleaning_done_btn": {
+        "_comment": " Print Quality Tools -> Clean Printheads",
+        "locator": {"id": "DoneButton"}
+    },
+    "clean_again_btn": {
+        "_comment": " Print Quality Tools -> Clean Printheads",
+        "locator": {"id": "CleanAgainButton"}
+    },
+    "device_image": {
+        "locator": {"id": "DeviceImage"}
+    },
+    "device_state_text": {
+        "locator": {"id": "DeviceStateTitleText"}
+    },
+    "diagnose_fix_btn": {
+        "locator": {"id": "DiagnoseBtn"}
+    },
+    "network_info_title": {
+        "locator": {
+            "id": "NetworkInformation"
+        }
+    },
+    "wireless_text": {
+        "locator": {
+            "xpath": "//List[@AutomationId='WirelessListContainer']/ListItem[1]/Text[@Name='Wireless']"
+        }
+    },
+    "wireless_detail_text": {
+        "locator": {
+            "xpath": "//List[@AutomationId='WirelessListContainer']/ListItem[1]/Text[2]"
+        }
+    },
+    "wireless_status_text": {
+        "locator": {
+            "xpath": "//List[@AutomationId='WirelessListContainer']/ListItem[2]/Text[@Name='Status']"
+        }
+    },
+    "wireless_status_detail_text": {
+        "locator": {
+            "xpath": "//List[@AutomationId='WirelessListContainer']/ListItem[2]/Text[2]"
+        }
+    },
+    "network_name_text": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.NetworkInformation.NetworkItem']/Text[@Name='Network Name (SSID)']"
+        }
+    },
+    "bonjour_name_text": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.NetworkInformation.NetworkItem']/Text[@Name='Bonjour Name']"
+        }
+    },
+    "ip_address_text": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.NetworkInformation.NetworkItem']/Text[@Name='IP Address']"
+        }
+    },
+    "mac_address_text": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.NetworkInformation.NetworkItem']/Text[@Name='Mac Address']"
+        }
+    },
+    "host_name_text": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.NetworkInformation.NetworkItem']/Text[@Name='Host Name']"
+        }
+    },
+    "ethernet_title": {
+        "locator": {
+            "id": "EthernetTitle"
+        }
+    },
+    "ethernet_status_text_1": {
+        "locator": {
+            "xpath": "//List[@AutomationId='EthernetListContainer']/ListItem[1]/Text[1]"
+        }
+    },
+    "ethernet_status_text_2": {
+        "locator": {
+            "xpath": "//List[@AutomationId='EthernetListContainer']/ListItem[1]/Text[2]"
+        }
+    },
+    "bluetooth_low_energy_title": {
+        "locator": {
+            "id": "BluetoothTitle"
+        }
+    },
+    "bluetooth_status_text_1": {
+        "locator": {
+            "xpath": "//List[@AutomationId='BluetoothSmartListContainer']/ListItem[1]/Text[1]"
+        }
+    },
+    "bluetooth_status_text_2": {
+        "locator": {
+            "xpath": "//List[@AutomationId='BluetoothSmartListContainer']/ListItem[1]/Text[2]"
+        }
+    },
+    "wifi_direct_text": {
+        "locator": {"xpath": "//Text[@Name='Wi-fi Direct']"}
+    },
+    "name_title": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Printer Name']"
+        }
+    },
+    "dynamic_text": {
+        "locator": {
+            "xpath": "//Text[@Name='{}']"
+        }
+    },
+    "get_dynamic_text": {
+        "locator": {
+            "xpath": "//Text[@Name='{}']/following-sibling::Text[1]"
+        }
+    },
+    "status_title": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Status']"
+        }
+    },
+    "status_circle_btn": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Status']/following-sibling::Button[1]"
+        }
+    },
+    "model_name_title": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Model Name']"
+        }
+    },
+    "installation_status_title": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Installation Status']"
+        }
+    },
+    "connection_type_title": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Connection Type']"
+        }
+    },
+    "network_text": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Network']"}
+    },
+    "connection_status_title": {
+        "locator": {
+            "xpath": "//ListItem[@Name='HP.ExtensionsVm.PrinterInformation.InformationItem']/Text[@Name='Connection Status']"
+        }
+    },
+    "ip_address_title": {
+        "locator": {
+            "xpath":"//Text[@Name='IP Address']"
+        }
+    },
+    "host_name_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_Hostname"}
+    },
+    "mac_address_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_MacAddress"}
+    },
+    "product_number_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_ProductNumber"}
+    },
+    "serial_number_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_SerialNumber"}
+    },
+    "service_id_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_ServiceID"}
+    },
+    "tp_number_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_TPNumber"}
+    },
+    "firmware_version_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_FirmwareNumber"}
+    },
+    "preferences_title": {
+        "locator": {"str_id@Text": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_Preferences/Text"}
+    },
+    "country_region_title": {
+        "locator": {
+            "xpath": "//Text[@Name='Country/Region']"
+        }
+    },
+    "country_result":{
+        "locator": {
+            "xpath": "//Text[@Name='Country/Region']/following-sibling::ComboBox[1]/ListItem[1]"
+        }
+    },
+    "language_result":{
+        "locator": {
+            "xpath": "//Text[@Name='Language']/following-sibling::ComboBox[1]/ListItem[1]"
+        }
+    },
+    "USA":{
+        "locator": {
+            "xpath": "//ListItem[@Name='United States']"
+        }
+    },
+    "English":{
+        "locator": {
+            "xpath": "//ListItem[@Name='English']"
+        }
+    },
+    "country_region_box": {
+        "locator": {"xpath": "//Pane[@AutomationId='ContentScrollViewer']/ComboBox[1]"}
+    },
+    "dynamic_country_region_index": {
+        "locator": {"xpath": "//Pane[@AutomationId='ContentScrollViewer']/ComboBox[1]/ListItem[{}]"}
+    },
+    "language_title": {
+        "locator": {
+            "xpath": "//Pane[@AutomationId='ContentScrollViewer']/Text[@Name='Language']"
+        }
+    },
+    "language_box": {
+        "locator": {
+            "xpath": "//Pane[@AutomationId='ContentScrollViewer']/ComboBox[2]"
+        }
+    },
+    "dynamic_language_index": {
+        "locator": {
+            "xpath": "//Pane[@AutomationId='ContentScrollViewer']/ComboBox[2]/ListItem[{}]"
+        }
+    },
+    "select_country_region_item": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterSettings/Resources/SelectCountry"}
+    },
+    "select_language_item": {
+        "locator": {"str_id": "HP.Framework.Extensions.PrinterSettings/Resources/SelectLanguage"}
+    },
+    "cancel_btn": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='ShowPopUpTitle']/following-sibling::Button[1]"
+        }
+    },
+    "save_btn": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='ShowPopUpTitle']/following-sibling::Button[2]"
+        }
+    },
+    "unable_to_set_printer_dialog": {
+        "locator": {
+            "xpath": "//Text[contains(@Name, 'HP was unable to set your printer')]"
+        }
+    },
+    "sign_in_edit_box": {
+        "locator": {
+            "xpath": ["//Edit[@Name='Enter password']", "//Edit[@Name='Enter your printer pin']"]
+        }
+    },
+    "sign_in_cancel_btn": {
+        "locator": {
+            "xpath": ["//Text[@Name='Cancel']","//Button[@Name='Cancel']"]
+        }
+    },
+    "sign_in_submit_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Submit']"
+        }
+    },
+    "quick_reference_btn": {
+        "locator": {"str_id": "Resources/QuickReference/Text"}
+    },
+    "the_pin_you_entered_text": {
+        "locator": {"str_id": "HP.Libs.CommonUi/Resources/IncorrectPinTitle"}
+    },
+    "to_protect_your_security_text": {
+        "locator": {"str_id": "HP.Libs.CommonUi/Resources/LockedMessageText"}
+    },
+    "the_pin_ok_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='OK']"
+        }
+    },
+    "advanced_btn": {
+        "locator": {
+            "id": "details-button"
+        }
+    },
+    "continue_to_ip_link": {
+        "locator": {
+            "id": "proceed-link"
+        }
+    },
+    "general_title": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='app-title-page-title' and @Name='General']"
+            }
+    },
+    "private_pickup_title": {
+        "locator": {"xpath": "//Text[@AutomationId='HpTitle' and @Name='Private Pickup']"}
+    },
+    "setting_btn": {
+        "locator": {"xpath": "//Text[@AutomationId='HpTitle']/following-sibling::Button[1]"}
+    },
+    "pp_del_btn": {
+        "locator": {"xpath": "//Group[@AutomationId='potg']/Table[1]/DataItem[last()]/DataItem[last()]"}
+    },
+    "dialog_del_btn": {
+        "locator": {"xpath": "//Button[@Name='Delete']"}
+    },
+    "ready_to_text": {
+        "locator": {"xpath": "//Text[@Name='Ready to receive files for print']"}
+    },
+    "print_anywhere_title": {
+        "locator": {"xpath": "//Text[@AutomationId='HpTitle' and @Name='Print Anywhere']"}
+    },
+    "i_accept_btn": {
+        "locator": {"id": "onetrust-accept-btn-handler"}
+    },
+    "print_anywhere_next_btn": {
+        "locator": {"xpath": "//Group[@AutomationId='potg']/Button[@Name='Next']"}
+    },
+    "print_anywhere_done_btn": {
+        "locator": {"xpath": "//Group[@AutomationId='potg']/Button[@Name='Done']"}
+    },
+    "paw_private_pickup_toggle": {
+        "name": "Allow printing from anywhere",
+        "locator": {"xpath": "//Button[contains(@AutomationId, 'toggle_privatePickUp_printer')]"}
+    },
+    "paw_allow_printing_toggle": {
+        "name": "Print Anywhere",
+        "locator": {"xpath": "//Button[contains(@AutomationId, 'toggle_printOnTheGo_printer')]"}
+    },
+    "continuing_to_your_printer_title": {
+        "locator": {"xpath": "//Text[@Name='Continuing to your printer settings']"}
+    },
+    "privacy_error_screen":{
+        "locator": {
+            "xpath": "//Document[@AutomationId='RootWebArea' and @Name='Privacy error']"
+        }
+    },
+    "ews_home_title": {
+        "locator": {"id": "top-cat-Home"}
+    },
+    "network_summary_tile": {
+        "locator": {"id": "top-cat-Network"}
+    },
+    "locked_image": {
+        "locator": {"xpath": "//Group[@Name='Feature locked']"}
+    },
+    "log_in_pin_dialog_title": {
+        "locator": {"xpath": "//Text[@Name='Log In with PIN']"}
+    },
+    "pin_num_box": {
+        "locator": {
+            "xpath": "//Edit[contains(@AutomationId, 'tmpId')]"
+        }
+    },
+    "submit_btn": {
+        "locator": {"xpath": "//Button[@Name='Submit']"}
+    },
+    "incorrect_pin_text": {
+        "locator": {
+            "xpath": ["//Text[contains(@Name, 'Try again')]", "//Text[contains(@Name,'Invalid PIN code')]"]
+        }
+    },
+    "sign_in_text": {
+        "locator": {"xpath": "//HyperLink[@Name='Sign In']"}
+    },
+    "sign_out_text": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='Sign Out']"
+        }
+    },
+    "admin_user": {
+        "locator": {
+            "xpath": "//Text[@Name='User:admin']"
+        }
+    },
+    "security_monitroed_title": {
+        "locator": {"xpath": "//Text[@Name='Security monitored']"}
+    },
+    "security_not_monitroed_title": {
+        "locator": {"xpath": "//Text[@Name='Security not monitored']"}
+    },
+    "smart_security_toggle": {
+        "locator": {"id": "toggle"}
+    },
+    "session_locked": {
+        "locator": {
+            "xpath": "//Group[contains(@Name, 'the authentication session is locked')]"
+        }
+    },
+    "stay_protected_btn": {
+        "locator": {"xpath": "//Button[@Name='Stay Protected ']"}
+    },
+    "remove_security_btn": {
+        "locator": {"xpath": "//Button[@Name='Remove Security ']"}
+    },
+    "get_protected_btn": {
+        "locator": {"xpath": "//Button[@Name='Get Protected ']"}
+    },
+    "close_btn": {
+        "locator": {"xpath": "//Button[@Name='Close ']"}
+    }
+}
+
+
+

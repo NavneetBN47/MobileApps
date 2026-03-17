@@ -1,0 +1,12 @@
+{
+  "stage": {
+    "provider_name": "launchdarkly",
+    "sdk_key": "mob-0a53f133-5850-40c1-8aec-ebd4a3f47bff",
+    "context_key": "windows-reference-app"
+  },
+  "pie": {
+    "provider_name": "launchdarkly",
+    "sdk_key": "mob-0a53f133-5850-40c1-8aec-ebd4a3f47bff",
+    "context_key": "windows-reference-app"
+  }
+}

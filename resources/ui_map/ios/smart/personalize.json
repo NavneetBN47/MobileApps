@@ -1,0 +1,143 @@
+{
+    "tile_switch":{
+        "locator":{
+            "xpath":"//XCUIElementTypeTable[@name='Personalize Table View']/XCUIElementTypeCell/XCUIElementTypeSwitch"
+        }
+    },
+    "done_btn":{
+        "locator":{
+            "name":"Done"
+        }
+    },
+    "print_photos_switch":{
+        "locator":{
+            "name": "Print Photos Tile"
+        }
+    },
+    "get_supplies_switch":{
+        "locator":{
+            "name": "HP Instant Ink / Get Cartridges Tile"
+        }
+    },
+    "printables_switch": {
+        "locator": {
+            "name": "Play and Learn Tile"
+        }
+    },
+    "special_offers_switch":{
+        "locator":{
+            "name": "cSpecialOffers"
+        }
+    },
+    "shortcuts_switch":{
+        "locator":{
+            "name": "Shortcuts Tile"
+        }
+    },
+    "mobile_fax_switch":{
+        "locator": {
+            "name": ["Softfax-solution","Fax Tile"],
+            "str_id": "cMobileFax"
+        }
+    },
+    "camera_scan_switch":{
+        "locator":{
+            "name": "Camera Scan Tile"
+        }
+    },
+    "help_and_support_switch":{
+        "locator":{
+            "name": "Get HP Help and Support Tile"
+        }
+    },
+    "print_documents_switch":{
+        "locator":{
+            "name": "Print Documents Tile"
+        }
+    },
+    "printer_scan_switch":{
+        "locator":{
+            "name": "Printer Scan Tile"
+        }
+    },
+    "copy_switch":{
+        "locator":{
+            "name": "Copy Tile"
+        }
+    },
+    "create_photo_books_switch":{
+        "locator":{
+            "name": "Create Photo Books Tile"
+        }
+    },
+    "print_photos":{
+        "locator":{
+            "name":"Print Photos"
+        }
+    },
+    "get_supplies":{
+        "locator":{
+            "name": "Get Supplies"
+        }
+    },
+    "printables": {
+        "locator": {
+            "name": "Printables"
+        }
+    },
+    "special_offers":{
+        "locator":{
+            "name": "Special Offers"
+        }
+    },
+    "shortcuts":{
+        "locator":{
+            "name": "Shortcuts"
+        }
+    },
+    "mobile_fax":{
+        "locator":{
+            "name": "Mobile Fax"
+        }
+    },
+    "camera_scan":{
+        "locator":{
+            "name": "Camera Scan"
+        }
+    },
+    "help_and_support":{
+        "locator":{
+            "name": "Help & Support"
+        }
+    },
+    "print_documents":{
+        "locator":{
+            "name": "Print Documents"
+        }
+    },
+    "printer_scan":{
+        "locator":{
+            "name": "Printer Scan"
+        }
+    },
+    "copy":{
+        "locator":{
+            "name": "Copy"
+        }
+    },
+    "create_photo_books":{
+        "locator":{
+            "name": "Create Photo Books"
+        }
+    },
+    "tile_frame": {
+        "locator": {
+            "xpath": ["//XCUIElementTypeCell//XCUIElementTypeStaticText[@label]", "//XCUIElementTypeCell//XCUIElementTypeStaticText[@name]"]
+        }
+    },
+    "tiles_parent": {
+        "locator": {
+            "name": "Personalize Table View"
+        }
+    }
+}

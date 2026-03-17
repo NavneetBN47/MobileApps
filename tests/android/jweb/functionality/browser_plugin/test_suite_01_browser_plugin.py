@@ -1,0 +1,31 @@
+import pytest
+from SAF.misc import saf_misc
+from MobileApps.libs.ma_misc import ma_misc
+from MobileApps.resources.const.web.const import TEST_DATA as JWEB_DATA
+
+pytest.app_info = "JWEB"
+
+class Test_Suite_01_Home_Screen(object):
+    @pytest.fixture(scope="class", autouse="true")
+    def class_setup(cls, android_jweb_setup):
+        cls = cls.__class__
+        cls.driver, cls.fc = android_jweb_setup
+        # Define flows
+        cls.home = cls.fc.fd["home"]
+        cls.browser_plugin = cls.fc.fd["browser_plugin"]
+        cls.security_gateway = cls.fc.fd["security_gateway"]
+        cls.chrome = cls.fc.fd["chrome"]
+
+    def test_01_verify_browser_test_plugin_service_login(self):
+        """
+        C28698082: Validating AuthBrowser API to open an in-app browser sessions
+            - After selecting the test btn from AuthBrowser.open(), and returning from the browser, verify result contains a token
+            - Expecting the result contains a token
+        """
+        self.fc.flow_load_home_screen()
+        self.home.select_plugin_from_home("auth_browser")
+        self.browser_plugin.select_browser_test()
+        self.chrome.handle_welcome_screen_if_present()
+        self.security_gateway.select_redirect_me()
+        assert self.browser_plugin.browser_sign_in_result() == \
+            saf_misc.load_json(ma_misc.get_abs_path(JWEB_DATA.JWEB_ACCOUNT))["logged_in_result"]["browser_token"]

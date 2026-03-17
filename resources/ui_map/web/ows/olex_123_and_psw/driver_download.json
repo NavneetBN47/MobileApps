@@ -1,0 +1,20 @@
+{
+    "driver_download_card":{
+        "locator":{"css selector":"[data-testid='card-content-INSTALL_DRIVER']"}
+    },
+    "driver_download_card_body":{
+        "locator":{"css selector":"[data-testid='body']"}
+    },
+    "card_image":{
+        "locator":{"css selector":"[data-testid='image']"}
+    },
+    "header":{
+        "locator":{"css selector":"[data-testid='header']"}
+    },
+    "driver_after_page":{
+        "locator":{"css selector":"._2b-cdgrhkMvPf_UiGUqyK-"}
+    },
+    "hp_support_href":{
+        "locator":{"css selector":"a[href='https://support.hp.com/printer-setup']"}
+    }
+}

@@ -1,0 +1,72 @@
+{
+  "auth_provider_cell_menu_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@label, 'Auth Provider')]"
+    }
+  },
+  "auth_provider_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[contains(@name, '{}')]"
+    }
+  },
+  "allow_network_access_toggle": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Allow Network Access']/following-sibling::XCUIElementTypeSwitch"
+    }
+  },
+  "show_account_creation_link_toggle": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Show Account Creation Link']/following-sibling::XCUIElementTypeSwitch"
+    }
+  },
+  "done_button": {
+    "locator": {
+      "css selector": "[name=Done]"
+    }
+  },
+  "allow_user_interaction_toggle":{
+  "locator": {
+    "xpath": "//XCUIElementTypeStaticText[@name='Allow User Interaction']/following-sibling::XCUIElementTypeSwitch"
+  }
+ },
+ "start_on_create_account_toggle":{
+  "locator": {
+    "xpath": "//XCUIElementTypeStaticText[@name='Start on Create Account']/following-sibling::XCUIElementTypeSwitch"
+  }
+ },
+ "skip_token_refresh_toggle": {
+  "locator": {
+    "xpath": "//XCUIElementTypeStaticText[@name='Skip Token Refresh']/following-sibling::XCUIElementTypeSwitch"
+  }
+ },
+ "ucde_audience_toggle":{
+  "locator": {
+    "xpath": "//XCUIElementTypeStaticText[@name='UCDE Audience']/following-sibling::XCUIElementTypeSwitch"
+  }
+ },
+ "back_btn":{
+  "locator": {
+    "css selector": "XCUIElementTypeNavigationBar[name='Get Token']"
+  }
+ },
+ "get_device_token_resource_textfield":{
+  "locator": {
+    "xpath": "//XCUIElementTypeTextField[@value='IPPPrint.v1']/following-sibling::XCUIElementTypeTextField[1]"
+  }
+ },
+ "get_token_btn":{
+  "locator": {
+    "css selector": "XCUIElementTypeButton[name='Get Token']"
+  }
+ },
+ "get_device_token_response":{
+  "locator": {
+    "xpath": "//XCUIElementTypeTextView[@name='RESPONSE: Request returned status code 409']"
+  }
+ },
+ "exchange_with_tenant_id_chevron_btn":{
+  "locator": {
+    "xpath": "//XCUIElementTypeStaticText[@value='Exchange With Tenant ID ']/following-sibling::XCUIElementTypeButton[@name='chevron']"
+  }
+ }
+}

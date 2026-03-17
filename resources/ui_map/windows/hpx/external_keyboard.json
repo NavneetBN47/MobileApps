@@ -1,0 +1,997 @@
+{
+    "keyboard_title": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceName_customName"
+        }
+    },
+    "keyboard_title_tootlips": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceName_customName_ToolTip"
+        }
+    },
+    "keyboard_des_text": {
+        "locator": {
+            "name": "HP 970/975 Series Keyboard"
+        }
+    },
+    "battery_icon": {
+        "locator": {
+            "name": "Battery 100% "
+        }
+    },
+    "battery_tooltips": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Status_battery_ToolTip"
+        }
+    },
+    "keyboard_info_icon": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_InfoPopOver_v4"
+        }
+    },
+    "lighting_setup": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Lighting_Setup_lightingSetup"
+        }
+    },
+    "proximity_sensor": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Lighting_Setup_proximitySensor"
+        }
+    },
+    "backlight_auto_adjust": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Lighting_Setup_backlightAutoAdjustmentText"
+        }
+    },
+    "restore_button": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_RestoreButton_RestoreButton"
+        }
+    },
+    "proximity_sensor_tootips": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Lighting_Setup_proximitySensorTooltip"
+        }
+    },
+    "backlight_adjust_tooltips": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Lighting_Setup_backlightAutoIcon"
+        }
+    },
+    "backlight_adjust_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Backlight auto adjust'][@AutomationId='AUID_PCKEYBOARD_Lighting_Setup_backLightSwitch']"
+        }
+    },
+    "proximity_sensor_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Proximity sensor'][@AutomationId='AUID_PCKEYBOARD_Lighting_Setup_proximityswitch']"
+        }
+    },
+    "proximity_tooltip_message1": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_AnimatedCardModal_whatIsSmartSensorText"
+        }
+    },
+    "backlight_tooltip_message1": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_AnimatedCardModal_backlightAutoAdjustTitleText"
+        }
+    },
+    "backlight_tooltip_message2": {
+        "locator": {
+            "id": "AUID_PCKeyboard_AnimatedCardModal_autoAdjustBacklightDescText"
+        }
+    },
+    "keyboard_rename_btn": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceName_DeviceNameEditBtnv4"
+        }
+    },
+    "production_number": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_Status_Key_productNumber"
+        }
+    },
+    "serial_number": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_Status_Key_serialNumber"
+        }
+    },
+    "firmware_version": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_Status_Key_version"
+        }
+    },
+    "production_number_text": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_CopyableInfoValue_productNumber_InfoValueCopied_ToolTip"
+        }
+    },
+    "serial_number_text": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_CopyableInfoValue_serialNumber_InfoValueCopied_ToolTip"
+        }
+    },
+    "firmware_version_text": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_DeviceInfoValue_Status_Value_version"
+        }
+    },
+    "device_name_input": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceName_Txt_DeviceNameInputv4"
+        }
+    },
+    "proximity_tooltip_close": {
+        "locator": {
+            "id": "AUID_PCKeyboard_AnimatedCardModal_closeButton"
+        }
+    },
+    "proximity_tooltip_message2": {
+        "locator": {
+            "id": "AUID_PCKeyboard_AnimatedCardModal_smartSensorDescText"
+        }
+    },
+    "backlight_tooltip_close": {
+        "locator": {
+            "id": "AUID_PCKeyboard_AnimatedCardModal_closeButton"
+        }
+    },
+    "time_slider": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_TimeSlider_timeSlider"
+        }
+    },
+    "brightness_slider": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_BrightnessSlider_brightnessSlider"
+        }
+    },
+    "runas_admin": {
+        "locator": {
+            "id": "pp_S_Open"
+        }
+    },
+    "update_firmware_toast_window": {
+        "locator": {
+            "id": "NormalToastView"
+        }
+    },
+    "update_firmware_button": {
+        "locator": {
+            "xpath": "//*[contains(@Name,'Update')]"
+        }
+    },
+    "open_myhp_firmware_button": {
+        "locator": {
+            "name": "Open myHP"
+        }
+    },
+    "click_open_myhp_firmware_button": {
+        "locator": {
+            "xpath": "//*[contains(@Name,'Open myHP')]"
+        }
+    },
+    "update_now_button_in_the_app": {
+        "locator": {
+            "name": "Update now"
+        }
+    },
+    "dismiss_button_on_toast_notification": {
+        "locator": {
+            "name": "Dismiss"
+        }
+    },
+    "toast_notification_title": {
+        "locator": {
+            "xpath": "//*[contains(@Name,'New firmware available for keyboard')]"
+        }
+    },
+    "pop_up_after_console_close": {
+        "locator": {
+            "xpath": "//*[@Name='cmd.exe - Application Error']/Button[@ClassName='Button'][@Name='OK']"
+        }
+    },
+    "usb_connection_tooltip": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Status_USB"
+        }
+    },
+    "mute_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_mute"
+        }
+    },
+    "productivity_expand_btn": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Productivity_ExpandButton"
+        }
+    },
+    "app_files_expand_btn": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Apps&Files_ExpandButton"
+        }
+    },
+    "system_expand_btn": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_System_ExpandButton"
+        }
+    },
+    "window_mgnt_expand_btn": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_WindowsManagement_ExpandButton"
+        }
+    },
+    "keyboard_expand_btn": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Keyboard_ExpandButton"
+        }
+    },
+    "mouse_text": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Mouse"
+        }
+    },
+    "double_click_text": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton_title_Text"
+        }
+    },
+    "right_click_text": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton_title_Text"
+        }
+    },
+    "volume_down_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_volumeDown"
+        }
+    },
+    "volume_up_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_volumeUp"
+        }
+    },
+    "previous_track_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_prevTrack"
+        }
+    },
+    "play_pause_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_playPause"
+        }
+    },
+    "next_track_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_nextTrack"
+        }
+    },
+    "screen_brightness_down_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_brightnessDown"
+        }
+    },
+    "screen_brightness_up_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_brightnessUp"
+        }
+    },
+    "new_window": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_newWindows"
+        }
+    },
+    "window_settings_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_windowsSettings"
+        }
+    },
+    "switch_screen_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_switchScreen"
+        }
+    },
+    "windows_search_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_windowsSearch"
+        }
+    },
+    "mic_mute_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_micMute"
+        }
+    },
+    "keyboard_backlight_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_keyboardLight"
+        }
+    },
+    "desktop_show_hide_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_desktopShowHide"
+        }
+    },
+    "action_center_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_actionCenter"
+        }
+    },
+    "lock_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_lock"
+        }
+    },
+    "insert_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_insert"
+        }
+    },
+    "home_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_home"
+        }
+    },
+    "page_up_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_pgUp"
+        }
+    },
+    "delete_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_delete"
+        }
+    },
+    "end_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_end"
+        }
+    },
+    "page_down_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_pgDown"
+        }
+    },
+    "fn_key": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_IvyKeyboard_fnKey"
+        }
+    },
+    "fn_key_title_text": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Keyboard_Buttons_Dialog__Key_Text"
+        }
+    },
+    "fn_key_tooltip_icon": {
+        "locator": {
+            "id": "AUID_PCKeyboard_useControlFnKeyTooltip"
+        }
+    },
+    "function_lock_on_start": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Keyboard_Buttons_Dialog_Function Lock On Start"
+        }
+    },
+    "function_lock_on_start_tooltip_icon": {
+        "locator": {
+            "id": "AUID_PCKeyboard_setStateFnKeyTooltip"
+        }
+    },
+    "function_lock": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Keyboard_Buttons_Dialog_Function Lock"
+        }
+    },
+    "function_lock_tooltip_icon": {
+        "locator": {
+            "id": "AUID_PCKeyboard_currentStateFnTooltip"
+        }
+    },
+    "function_key_lock_on_start_toggle": {
+        "locator": {
+            "id": "AUID_PCKeyboard_Keyboard_Buttons_Dialog_switch_fnKeyDefault"
+        }
+    },
+    "function_key_lock_toggle": {
+        "locator": {
+            "id": "AUID_PCKeyboard_Keyboard_Buttons_Dialog_switch_fnKeyCurrent"
+        }
+    },
+    "fn_key_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Keyboard_Buttons_Dialog_F1_Key_Text"
+        }
+    },
+    "productivity_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Productivity"
+        }
+    },
+    "productivity_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Productivity_ExpandButton"
+        }
+    },
+    "productivity_collapse_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Productivity_CollapseButton"
+        }
+    },
+    "copy_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Copy_Text"
+        }
+    },
+    "cut_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Cut_Text"
+        }
+    },
+    "paste_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Paste_Text"
+        }
+    },
+    "undo_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Undo_Text"
+        }
+    },
+    "redo_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Redo_Text"
+        }
+    },
+    "more_text_on_side_panel": {
+        "locator": {
+            "name": "More"
+        }
+    },
+    "select_all_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Select All_Text"
+        }
+    },
+    "print_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Print_Text"
+        }
+    },
+    "zoom_in_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Zoom in_Text"
+        }
+    },
+    "zoom_out_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Zoom out_Text"
+        }
+    },
+    "page_up_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Page up_Text"
+        }
+    },
+    "page_down_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Page down_Text"
+        }
+    },
+    "find_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Find_Text"
+        }
+    },
+    "back_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Back_Text"
+        }
+    },
+    "forward_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Forward_Text"
+        }
+    },
+    "refresh_reload_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Refresh/Reload_Text"
+        }
+    },
+    "print_screen_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Print Screen_Text"
+        }
+    },
+    "action_center_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Notification_Text"
+        }
+    },
+    "media_control_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Media control"
+        }
+    },
+    "media_control_collapsed_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_MediaControls_CollapseButton"
+        }
+    },
+    "media_control_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_MediaControls_ExpandButton"
+        }
+    },
+    "volume_up_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Volume up_Text"
+        }
+    },
+    "volume_down_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Volume down_Text"
+        }
+    },
+    "play_pause_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Play/Pause_Text"
+        }
+    },
+    "previous_track_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Previous track_Text"
+        }
+    },
+    "next_track_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Next track_Text"
+        }
+    },
+    "mute_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Mute_Text"
+        }
+    },
+    "mic_mute_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Mic. Mute_Text"
+        }
+    },
+    "app_and_file_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Apps and Files"
+        }
+    },
+    "app_and_files_collapsed_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Apps&Files_CollapseButton"
+        }
+    },
+    "app_and_files_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Apps&Files_ExpandButton"
+        }
+    },
+    "open_file_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Open file_Text"
+        }
+    },
+    "file_save_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__File Save_Text"
+        }
+    },
+    "open_folder_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Open folder_Text"
+        }
+    },
+    "documents_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Documents_Text"
+        }
+    },
+    "download_folder_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Download folder_Text"
+        }
+    },
+    "pictures_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Pictures_Text"
+        }
+    },
+    "videos_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Videos_Text"
+        }
+    },
+    "calculator_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Calculator_Text"
+        }
+    },
+    "system_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__System"
+        }
+    },
+    "system_collapsed_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_System_CollapseButton"
+        }
+    },
+    "system_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_System_ExpandButton"
+        }
+    },
+    "lock_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Lock_Text"
+        }
+    },
+    "sleep_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Sleep_Text"
+        }
+    },
+    "shutdown_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Shutdown_Text"
+        }
+    },
+    "restart_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Restart_Text"
+        }
+    },
+    "signout_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Sign out_Text"
+        }
+    },
+    "screen_brightness_plus_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Brightness+_Text"
+        }
+    },
+    "screen_brightness_minus_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Brightness-_Text"
+        }
+    },
+    "windows_search_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Window search_Text"
+        }
+    },
+    "windows_settings_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Settings_Text"
+        }
+    },
+    "switch_language_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Switch language_Text"
+        }
+    },
+    "this_computer_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__This Computer_Text"
+        }
+    },
+    "windows_management_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Windows management"
+        }
+    },
+    "windows_management_collapsed_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_WindowsManagement_CollapseButton"
+        }
+    },
+    "windows_management_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_WindowsManagement_ExpandButton"
+        }
+    },
+    "maximum_window_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Maximize window_Text"
+        }
+    },
+    "minimum_window_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Minimize window_Text"
+        }
+    },
+    "close_window_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Close window_Text"
+        }
+    },
+    "new_window_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__New window_Text"
+        }
+    },
+    "snap_left_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Snap left_Text"
+        }
+    },
+    "snap_right_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Snap right_Text"
+        }
+    },
+    "desktop_show_hide_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Desktop show/hide_Text"
+        }
+    },
+    "switch_apps_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Switch apps_Text"
+        }
+    },
+    "switch_screen_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Switch screen_Text"
+        }
+    },
+    "task_view_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Task view_Text"
+        }
+    },
+    "desktop_next_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Desktop next_Text"
+        }
+    },
+    "desktop_previous_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Desktop previous_Text"
+        }
+    },
+    "start_menu_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Start menu_Text"
+        }
+    },
+    "web_browsing_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Web browsing"
+        }
+    },
+    "web_browsing_collapsed_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_WebBrowsing_CollapseButton"
+        }
+    },
+    "web_browsing_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_WebBrowsing_ExpandButton"
+        }
+    },
+    "home_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Home_Text"
+        }
+    },
+    "web_search_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Web search_Text"
+        }
+    },
+    "open_new_tab_page_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Open new tab/page_Text"
+        }
+    },
+    "close_tab_page_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Close current tab/page_Text"
+        }
+    },
+    "switch_between_open_tabs_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Switch between open tabs_Text"
+        }
+    },
+    "toggle_fullscreen_window_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Toggle fullscreen/windowed_Text"
+        }
+    },
+    "save_page_as_bookmark_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Chrome: Save page as Bookmark_Text"
+        }
+    },
+    "keyboard_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Keyboard"
+        }
+    },
+    "keyboard_collapsed_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_KeyboardCollapseButton"
+        }
+    },
+    "keyboard_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Keyboard_ExpandButton"
+        }
+    },
+    "key_f1_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F1_Text"
+        }
+    },
+    "key_f2_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F2_Text"
+        }
+    },
+    "key_f3_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F3_Text"
+        }
+    },
+    "key_f4_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F4_Text"
+        }
+    },
+    "key_f5_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F5_Text"
+        }
+    },
+    "key_f6_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F6_Text"
+        }
+    },
+    "key_f7_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F7_Text"
+        }
+    },
+    "key_f8_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F8_Text"
+        }
+    },
+    "key_f9_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F9_Text"
+        }
+    },
+    "key_f10_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F10_Text"
+        }
+    },
+    "key_f11_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F11_Text"
+        }
+    },
+    "key_f12_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: F12_Text"
+        }
+    },
+    "key_insert_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: insert_Text"
+        }
+    },
+    "key_home_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: home_Text"
+        }
+    },
+    "key_page_up_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: page up_Text"
+        }
+    },
+    "key_delete_up_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: delete_Text"
+        }
+    },
+    "key_end_up_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: end_Text"
+        }
+    },
+    "key_page_down_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: page down_Text"
+        }
+    },
+    "key_scrlk_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Key: ScrLk_Text"
+        }
+    },
+    "mouse_text_on_side_panel": {
+        "locator": {
+            "id": "AUID_PCKeyboard_SubDialog__Mouse"
+        }
+    },
+    "mouse_collapsed_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Mouse_CollapseButton"
+        }
+    },
+    "mouse_expand_button_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_Mouse_ExpandButton"
+        }
+    },
+    "mouse_double_click_text_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Double click_Text"
+        }
+    },
+    "mouse_right_click_text_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Right click_Text"
+        }
+    },
+    "mouse_middle_click_text_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Middle click_Text"
+        }
+    },
+    "mouse_scroll_left_text_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Scroll left_Text"
+        }
+    },
+    "mouse_scroll_right_text_side_panel": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_SubDialog_RadioButton__Scroll right_Text"
+        }
+    },
+    "side_panel_window_to_scroll": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Keyboard_Buttons_Dialog_TooltipView"
+        }
+    },
+    "search_txt_box": {
+        "locator": {
+            "id": "AUID_PCKEYBOARD_Keyboard_Buttons_Dialog_InputSearch"
+        }
+    },
+    "Cannot_find_the_action_txt":{
+        "locator": {
+            "name": "Can't find the action"
+        }
+    },
+    "product_number_copied_tooltip":{
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_CopyableInfoValue_productNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "serial_number_copied_tooltip":{
+        "locator": {
+            "id": "AUID_PCKEYBOARD_DeviceInfo_CopyableInfoValue_serialNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "new_pop_widonws_title":{
+        "locator": {
+            "id": "AUID_PCKeyboard_beforeYouStart"
+        }
+    }
+}

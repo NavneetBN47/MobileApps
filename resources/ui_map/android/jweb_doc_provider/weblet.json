@@ -1,0 +1,27 @@
+{
+  "doc_source_button": {
+    "locator": {
+      "id": "doc_source_button"
+    }
+  },
+  "doc_transformer_button": {
+    "locator": {
+      "id": "doc_transformer_button"
+    }
+  },
+  "doc_destination_button": {
+    "locator": {
+      "id": "doc_destination_button"
+    }
+  },
+  "new_docset_button": {
+    "locator": {
+      "xpath": "//android.widget.Button[@text='NEW DOCSET']"
+    }
+  },
+  "append_button": {
+    "locator": {
+      "xpath": "//android.widget.Button[@text='APPEND']"
+    }
+  }
+}

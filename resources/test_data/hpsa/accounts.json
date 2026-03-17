@@ -1,0 +1,23 @@
+{
+    "pie":
+    {
+        "email":"hpxtest001@gmail.com",
+        "password":"hpsa@rocks_335",
+        "claimable":false,
+        "comment":""
+    }, 
+    "stage":
+    {
+        "email":"hpxtest001@gmail.com",
+        "password":"hpsa@rocks_335",
+        "claimable":false,
+        "comment":""
+    }, 
+    "production":
+    {
+        "email":"hpxtest001@gmail.com",
+        "password":"hpsa@rocks_335",
+        "claimable":false,
+        "comment":""
+    }
+}

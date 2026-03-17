@@ -1,0 +1,102 @@
+{
+    "modal_continue_online_setup_button":{
+        "jira": "https://hp-jira.external.hp.com/browse/OMFE-1001",
+        "locator":{"css selector":["[data-testid='btn-modal-continue']", "body > div.css-190uid3 > div > div > div.vn-modal--footer.css-xr071e > div > button:nth-child(1)"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,ReconsiderModal,/PortalOobe/Iris/,ContinueSetupButton,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "modal_cancel_online_setup_button":{
+        "jira": "https://hp-jira.external.hp.com/browse/OMFE-1001",
+        "locator":{"css selector":["[data-testid='btn-modal-cancel']", "body > div.css-190uid3 > div > div > div.vn-modal--footer.css-xr071e > div > button:nth-child(2)"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,ReconsiderModal,/PortalOobe/Iris/,CancelSetupButton,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "fw_update_modal":{
+        "locator":{"css selector":["[data-testid='firmware-update-modal']", "[data-testid='firmware-update-choice'], [data-testid='firmware-update'], [data-testid='firmware-update-notice-page']"]},
+        "analytics":[{
+            "event":"ScreenDisplayed,Iris,/PortalOobe/,AssignOwnership-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "page_confirm_and_continue_button":{
+        "locator":{"css selector":["button[data-testid='continue-setup-button']", "button[data-testid='btn-continue']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,Iris,/PortalOobe/,ConfirmContinueButton,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "select_fw_auto_update_radio_btn":{
+        "locator":{"css selector":"[data-testid='auto']"}
+    },
+    "fw_auto_update_notice_apply_btn":{
+        "locator":{"css selector":"[data-testid='btn-apply']"}
+    },
+    "page_cancel_and_setup_manually_button":{
+        "locator":{"css selector":["[data-testid='btn-cancel']","[data-testid='cancel-setup-button']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,Iris,/PortalOobe/,CancelSetupManualButton,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "cancel_and_setup_manually_modal":{
+        "comment":{"jira": "https://hp-jira.external.hp.com/browse/OMFE-1001"},
+        "locator":{"css selector":".vn-modal--content.css-qyj9n2"}
+    },
+    "close_popup_x":{
+        "locator":{"css selector":[".vn-modal__close","[aria-label='Close modal']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,ReconsiderModal,/PortalOobe/Iris/,CloseButton,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "hp_learn_url":{
+        "locator":{"css selector":"a[href='https://www.hp.com/learn/ds']",
+                   "xpath":"//a[contains(@href, 'www.hp.com/learn/ds')]"}
+    },
+    "hp_t&C_eula_page":{
+        "locator":{"css selector":"[data-testid='create-acct-page']"}
+    },
+    "page_header":{
+        "locator":{"css selector":["[data-testid='text-header']", "[data-testid='firmware-update-header']"],
+                   "xpath":"//p[contains(@class, 'FirmwareUpdateNoticePagestyled__Header')]"}
+    },
+    "page_content":{
+        "locator":{"css selector":"[data-testid='page-content']",
+                   "xpath":"//p[contains(@class, 'FirmwareUpdateNoticePagestyled__Content')]"}
+    },
+    "features[0]_text":{
+        "locator":{"css selector":"[data-testid='feature-0-text']"}
+    },
+    "features[1]_text":{
+        "locator":{"css selector":"[data-testid='feature-1-text']"}
+    },
+    "features[2]_text":{
+        "locator":{"css selector":"[data-testid='feature-2-text']"}
+    },
+    "features[3]_text":{
+        "locator":{"css selector":"[data-testid='feature-3-text']"}
+    },
+    "features[4]_text":{
+        "locator":{"css selector":"[data-testid='feature-4-text']"}
+    },
+    "features[5]_text":{
+        "locator":{"css selector":"[data-testid='feature-5-text']"}
+    },
+    "modal_content_before_features":{
+        "locator":{"css selector":"[data-testid='modal-content-before-features']"}
+    },
+    "modal_content_after_features":{
+        "locator":{"css selector":"[data-testid='modal-content-after-features']"}
+    },
+    "modal_header":{
+        "locator":{"xpath":"(//*[@data-testid='text-header'])[2]"},
+        "analytics":[{
+            "event":"ScreenDisplayed,ReconsiderModal,/PortalOobe/Iris/,AssignOwnership-v01",
+            "trigger":"wait_v"
+        }]
+    }
+}

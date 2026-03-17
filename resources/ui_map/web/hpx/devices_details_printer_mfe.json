@@ -1,0 +1,400 @@
+{
+    "top_back_btn": {
+        "locator": {
+            "id":"NavBar.NavBarView.BackButton",
+            "xpath": "//Button[contains(@ClassName, 'clientos-ui-toolkit-back-navigation-button')]"
+        }
+    },
+    "device_details_page_device_name": {
+        "locator": {
+            "xpath": ["//*[contains(@AutomationId, 'device-name')]",
+                "//Text[contains(@Name, 'My Printer')]"]
+        }
+    },
+    "device_details_page_nick_name": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'device-nickname')]"
+        }
+    },
+     "door_open_sms_btn": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'SMSDeviceStatus.SMSDeviceStatusUrgent.DoorOpenButton')]"
+        }
+    },
+    "device_details_page_product_name": {
+        "locator": {
+            "xpath": "//Text[@Name='{}']"
+        }
+    },
+    "device_details_page_supply_levels": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='Supplies card link']"
+        }
+    },
+    "get_supplies_tile":{
+        "locator": {
+            "css selector": "g#ShortcutsIcon",
+            "xpath": "//*[@Name='Get Supplies']"
+        }
+    },
+    "scan_tile":{
+        "locator": {
+            "id": "PRINTER_Scan"
+        }
+    },
+    "scan_tile_header":{
+        "locator": {
+            "id": "PRINTER_Scan__header",
+            "xpath": "//*[@Name='Scan']"
+        }
+    },
+    "scan_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_Scan__subheader",
+            "xpath": "//*[@Name='Use the printer to scan a file.']"
+        }
+    },
+    "scan_tile_icon":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_Scan']/Image[1]"
+        }
+    },
+    "print_photos_tile":{
+        "locator": {
+            "id": "PRINTER_Print photos",
+            "xpath": ["//Button[@Name='Print photos']",
+                      "//div[text()='Print Photos']"] 
+        }
+    },
+    "print_photos_tile_header":{
+        "locator": {
+            "id": "PRINTER_Print photos__header",
+            "xpath": "//*[@Name='Print photos']"
+        }
+    },
+    "print_photos_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_Print photos__subheader",
+            "xpath": "//*[@Name='Edit, save, and print your memories.']"
+        }
+    },
+    "print_photos_tile_icon":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_Print photos']/Image[1]"
+        }
+    },
+    "print_pdfs_tile":{
+        "locator": {
+            "id": "PRINTER_Print PDFs",
+            "xpath": ["//Button[@Name='Print PDFs']",
+                      "//div[text()='Print PDFs']"]
+        }
+    },
+    "print_pdfs_tile_header":{
+        "locator": {
+            "id": "PRINTER_Print PDFs__header",
+            "xpath": "//*[@Name='Print PDFs']"
+        }
+    },
+    "print_pdfs_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_Print PDFs__subheader",
+            "xpath": "//*[@Name='Edit, print, save, and share PDFs.']"
+        }
+    },
+    "print_pdfs_tile_icon":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_Print PDFs']/Image[1]"
+        }
+    },
+    "printables_tile":{
+        "locator": {
+            "xpath": "//*[@Name='Printables']",
+            "id": "PRINTER_Printables"
+        }
+    },
+    "printables_tile_header":{
+        "locator": {
+            "id": "PRINTER_Printables__header",
+            "xpath": "//*[@Name='Printables']"
+        }
+    },
+    "printables_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_Printables__subheader",
+            "xpath": "//*[@Name='Free learning and creative content.']"
+        }
+    },
+    "printables_tile_icon":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_Printables']/Image[1]"
+        }
+    },
+    "mobile_fax_tile":{
+        "locator": {
+            "id": "PRINTER_Mobile Fax"
+        }
+    },
+    "mobile_fax_tile_header":{
+        "locator": {
+            "id": "PRINTER_Mobile Fax__header",
+            "xpath": "//Button[@AutomationId='PRINTER_Mobile Fax']/Group[1]/Group[@Name='Mobile Fax']"
+        }
+    },
+    "mobile_fax_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_Mobile Fax__subheader",
+            "xpath": ["//Button[@AutomationId='PRINTER_Mobile Fax']/Group[1]/Group[@Name='Send a secure fax from this device.']", "//Group[@Name='Send a secure fax from this device.']"]
+        }
+    },
+    "mobile_fax_tile_icon":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_Mobile Fax']/Image[1]"
+        }
+    },
+    "shortcuts_tile":{
+        "locator": {
+            "id": ["PRINTER_Shortcuts", "PRINTER_Shortcuts__header"]
+        }
+    },
+    "shortcuts_tile_header":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_Shortcuts']/Group[1]/Group[@Name='Shortcuts']"
+        }
+    },
+    "shortcuts_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_Shortcuts__subheader",
+            "xpath": "//Button[@AutomationId='PRINTER_Shortcuts']/Group[1]/Group[@Name='Speed up repetitive tasks.']"
+        }
+    },
+    "shortcuts_tile_icon":{
+        "locator": {
+            "xpath": ["//Button[@AutomationId='PRINTER_Shortcuts']/Image[1]", "//Button[@AutomationId='PRINTER_Shortcuts__header']/Image[1]"]
+        }
+    },
+    "hp_cloud_scans_tile":{
+        "locator": {
+            "id": "PRINTER_HP Cloud Scans"
+        }
+    },
+    "hp_cloud_scans_tile_header":{
+        "locator": {
+            "id": "PRINTER_HP Cloud Scans__header"
+        }
+    },
+    "hp_cloud_scans_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_HP Cloud Scans__subheader"
+        }
+    },
+    "hp_cloud_scans_tile_icon":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_HP Cloud Scans']/Image[1]"
+        }
+    },
+    "print_dashboard_tile":{
+        "locator": {
+            "id": "PRINTER_Print dashboard"
+        }
+    },
+    "print_dashboard_tile_header":{
+        "locator": {
+            "id": "PRINTER_Print dashboard_header",
+            "xpath": "//*[@Name='Print dashboard']" 
+        }
+    },
+    "print_dashboard_tile_sub_string":{
+        "locator": {
+            "id": "PRINTER_Print dashboard_subheader",
+            "xpath": "//*[@Name='Manage features, supplies, and users.']"
+        }
+    },
+    "print_dashboard_tile_icon":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='PRINTER_Print dashboard']/Image[1]"
+        }
+    },
+    "copy_tile": {
+        "locator": {
+            "xpath": ["//Button[@Name='Copy']",
+                      "//div[text()='Copy']"]
+        }
+    },
+    "sign_in_btn": {
+        "locator": {
+            "id": ["NavBar.NavBarView.SignInButton", "Account.AccountView.SignInButton"],
+            "xpath": ["//Button[@Name='Sign In']", "//Button[@Name='Sign in']"]
+        }
+    },
+    "product_information_section":{
+        "locator": {
+            "id": "ProductInformation_ProductInformation__title"
+        }
+    },
+    "product_number_listitem": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='ProductInformation_CopyProductNumberButton']/preceding-sibling::Text[1]"
+        }
+    },
+    "copy_product_number_btn": {
+        "locator": {
+            "css selector": "div#ProductInformation_CopyProductNumberButton",
+            "id": "ProductInformation_CopyProductNumberButton"
+        }
+    },
+    "serial_number_listitem": {
+        "locator": {
+            "xpath": "//*[@AutomationId='ProductInformation_SerialNumberLabel__start-content']/Text[1]"
+        }
+    },
+    "copy_serial_number_btn": {
+        "locator": {
+            "css selector": "div#ProductInformation_CopySerialNumberButton",
+            "id": "ProductInformation_CopySerialNumberButton"
+        }
+    },
+    "network_discovery_name_listitem": {
+        "locator": {
+            "xpath": "//*[@Name='Network discovery name']"
+        }
+    },
+    "network_discovery_name_sub_text": {
+        "locator": {
+            "xpath": "//Text[@Name='Network discovery name']/following-sibling::Text[1]"
+        }
+    },
+    "network_discovery_name_info": {
+        "locator": {
+            "xpath": ["//Text[@Name='Network discovery name']/following-sibling::Text[2]"]
+        }
+    },
+    "warranty_status_listitem": {
+        "locator": {
+            "id": "ProductInformation_GetWarrantyDetailsButton"
+        }
+    },
+    "warranty_status_value": {
+        "locator": {
+            "xpath": "//*[@Name='Warranty status']/following-sibling::Text[1]"
+        }
+    },
+    "warranty_status_arrow": {
+        "locator": {
+            "xpath": "//*[@AutomationId='ProductInformation_GetWarrantyDetailsButton__start-content']/Image[1]"
+        }
+    },
+    "more_info_and_reports_listitem": {
+        "locator": {
+            "id": ["ProductInformation_InfoButton", "ProductInformation_PcSpecificationsButton"]
+        }
+    },
+    "more_info_and_reports_arrow": {
+        "locator": {
+            "xpath": ["//*[@AutomationId='ProductInformation_InfoButton__start-content']/Image[1]", 
+                    "//*[@AutomationId='ProductInformation_PcSpecificationsButton__start-content']/Image[1]"]
+
+        }
+    },
+    "get_info_btn": {
+        "locator": {
+            "css selector": "button#ProductInformation_InfoButton"
+        }
+    },
+    "dialog_ok_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='OK']"
+        }
+    },
+    "remove_from_app_button": {
+        "locator":{ 
+        "id": "RemoveDevice.RemoveDevice.RemoveDeviceButton"
+        }
+    },
+    "windows_app_pane": {
+        "locator":{ 
+        "xpath": "//Pane[@Name='HPX Windows App']"
+        }
+    },
+    "are_you_sure_dialog": {
+        "locator":{ 
+        "xpath": "//Document[@AutomationId='RootWebArea'/Group[1]/Group[1]/Window[1]"
+        }
+    },
+    "cancel_button": {
+        "locator":{ 
+        "id": "RemoveDevice.RemoveDeviceModal.CancelButton"
+        }
+    },
+    "remove_button": {
+        "locator":{ 
+        "id": "RemoveDevice.RemoveDeviceModal.RemoveButton"
+        }
+    },
+    "diagnostics_title":{
+        "locator":{ 
+            "xpath": "//*[@Name='Diagnostics']"
+        }
+    },
+    "diagnose_and_fix_text":{
+        "locator":{ 
+            "xpath": "//*[@Name='Diagnose and fix']"
+        }
+    },
+    "diagnostics_view_all_btn":{
+        "locator":{ 
+            "xpath": "//*[@Name='Diagnostics']/following-sibling::List[1]/*[@Name='View all']"
+        }
+    },
+     "print_quality_tools_text":{
+        "locator":{ 
+            "xpath": "//*[@Name='Print quality tools']"
+        }
+    },
+    "printer_settings_title":{
+        "locator":{ 
+            "xpath": "//*[@Name='Printer Settings']"
+        }
+    },
+    "advanced_settings_text":{
+        "locator":{ 
+            "xpath": "//*[@Name='Advanced Settings']"
+        }
+    },
+    "privacy_text":{
+        "locator":{ 
+            "xpath": "//*[@Name='Privacy']"
+        }
+    },
+    "settings_view_all_btn":{
+        "locator":{ 
+            "xpath": "//*[@Name='Printer Settings']/following-sibling::List[1]/*[@Name='View all']"
+        }
+    },
+    "find_printer_pin_dialog": {
+        "locator": {
+            "xpath": ["//Text[@Name='Find the printer PIN']",
+                    "//Text[contains(@Name, 'A custom password has been set for your printer')]"]
+            }
+    },
+    "dialog_cancel_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Cancel']"
+            }
+    },
+    "switch_back_to_hp_smart_header": {
+        "locator": {
+            "xpath": "//Text[@Name='Switch back to HP Smart']"
+            }
+    },
+    "smart_app_image": {
+        "locator": {
+            "xpath": "//Image[@Name='Smart App']"
+            }
+    },
+    "switch_back_to_hp_smart_button": {
+        "locator": {
+            "xpath": "//Button[@Name='Switch back to HP Smart Switch from the new HP app back to original HP Smart app experience Smart App']"
+            }
+    }
+}

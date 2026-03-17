@@ -1,0 +1,36 @@
+{
+    "privacy_title":{
+        "locator":{"css selector": ["h1.privacy-heading",
+                                    "#full-screen-consent-form-header-text"]}
+    },
+    "continue_btn":{
+        "locator":{"css selector": ["button[ng-click='nextStep()']", 
+                                    "#full-screen-consent-form-footer-button-continue"]}
+    },
+    "learn_more_link":{
+        "locator":{
+            "xpath": "//XCUIElementTypeLink[@name='Learn more']",
+            "css selector": "a[href='https://hpsmart.com/plain/services-data-collection-notice/20200701']"
+        }
+    },
+    "your_privacy_title":{
+        "locator":{"css selector": "h3#onetrust-policy-title",
+                   "xpath": "//Text[@name='Create an HP account or sign in to register your printer']"}
+    },
+    "accept_btn":{
+        "locator":{
+            "xpath": "//XCUIElementTypeButton[@name='I ACCEPT']",
+            "css selector": "button#onetrust-accept-btn-handler"}
+    },
+    "hp_print_account_data_usage_notice": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='HP Print Account Data Usage Notice']"
+        }
+    },
+    "skip_account_btn":{
+        "locator":{"xpath": "//Button[@Name='Skip account activation']"}
+    },
+    "do_not_miss_account_title":{
+        "locator":{"xpath": "//Text[@Name='Don't miss out on automatic printer and warranty registration!']"}
+    }
+}

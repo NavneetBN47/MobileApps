@@ -1,0 +1,104 @@
+{
+    "create_account_btn": {
+        "locator": {"xpath": "//Button[@Name='Create account']"} 
+    },
+    "top_back_btn": {
+        "locator": {"xpath": ["//Button[@Name='Go back']", "//Button[@Name='Back']"]} 
+    },
+    "edit_btn": {
+        "locator": {"xpath": "//Button[@Name='Edit']"} 
+    },
+    "add_new_shortcuts": {
+        "locator": {"xpath": ["//Button[@Name='Plus Add new Shortcut Arrow Right']", "//Graphic[@Name='Plus']"]} 
+    },
+    "popular_shortcuts": {
+        "locator": {"xpath": "//Text[@Name='Popular shortcuts']"} 
+    },
+    "add_new_shortcuts_title": {
+        "locator": {"xpath": "//Text[@Name='Add new shortcuts']"} 
+    },
+    "create_your_own_shortcuts": {
+        "locator": {"xpath": "//Group[@Name='Create your own shortcut']"} 
+    },
+    "shortcuts_tile_header": {
+        "locator": {"xpath": "//Text[@Name='Shortcuts']"}
+    },
+    "start_email_button": {
+        "locator": {
+            "xpath": "//Group[contains(@Name,'Start Email') and contains(@Name,'@gmail.com')]"
+        }
+    },
+     "sign_in_shortcut": {
+        "locator": {"xpath": ["//Button[@Name='Sign in']"]}
+    },
+    "create_your_own_shortcut": {
+        "locator": {
+            "name": "Arrow Right",
+            "class name": "css-e6kgum"
+        }
+    },
+    "shortcut_name_box":{
+        "locator": {
+            "id": "shortcut-name-box",
+            "class name": "css-1247jht"
+        }
+    },
+    "save_shortcut_btn": {
+        "locator": {
+            "id": "toggle-cloud",
+            "class name": "vn-toggle"
+        }
+    },
+    "one_drive_signin_link":{
+        "locator": {
+            "xpath":"//*[@text='OneDrive Sign In']",
+            "name": "Sign In",
+            "class name": "clientos-ui-toolkit-button label clientos-ui-toolkit-button__ghost-flush clientos-ui-toolkit-button__large css-c73gym",
+            "id": "sign-in-btn-onedrive-1"
+        }
+    },
+    "verify_account": {
+        "locator": {
+            "name": "OneDrive Account-1 ContextualMenuButton",
+            "class name": "clientos-ui-toolkit-list-container__item"
+        }
+    },
+    "email_shortcut_tile": {
+        "locator": {
+            "xpath": "//*[contains(@Name,'Start Email qamamobiprod.rcb@gmail.com')]" 
+        }
+    },
+    "you_just_created_a_shortcut_popup": {
+        "locator": {
+            "xpath":"//Button[@Name='Start Shortcut']"
+        }
+    },
+    "print_shortcut_btn": {
+        "locator": {
+            "id": "toggle-print",
+            "class name": "vn-toggle"
+        }
+    },
+    "save_btn_shortcut": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='footer']//Button[@AutomationId='save-creation-shortcut-btn']"
+        }
+    },
+    "delete_icon": {
+        "locator": {
+            "class name" : "clientos-ui-toolkit-button label clientos-ui-toolkit-button__ghost clientos-ui-toolkit-button__medium clientos-ui-toolkit-button__icon-button css-upwfw"
+        }
+    },
+    "cancel_button": {
+        "locator": {
+            "name": "Cancel",
+            "class name": "clientos-ui-toolkit-button label clientos-ui-toolkit-button__secondary clientos-ui-toolkit-button__large css-l3jais",
+            "xpath": "//Button[@Name='Cancel']"
+        }
+    },
+    "delete_cancel_popup": {
+        "locator": {
+            "class name": "vn-modal--content css-1mr4b13"
+        }
+    }
+}

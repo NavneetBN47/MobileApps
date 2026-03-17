@@ -1,0 +1,32 @@
+{
+  "storage_manager_weblet": {
+    "locator": {
+      "name": "Storage Manager Weblet"
+    }
+  },
+  "maximize_button": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='Maximize']"
+    }
+  },
+  "storage_manager_weblet_settings_btn":{
+    "locator":{
+      "name": "Settings"
+    }
+  },
+  "tenancy_retrieval_function_checkbox": {
+    "locator": {
+      "xpath": "//CheckBox[@Name='Set tenancy retrieval function' and @AutomationId='TenancyRetrievalCheckBox']"
+    }
+  },
+  "select_tenant_id_to_return_textfield":{
+    "locator": {
+      "xpath": "//Edit[@Name='Enter tenant ID' and @AutomationId='TenantIdTextBox']"
+    }
+  },
+  "tenant_id_to_return_set_btn":{
+    "locator": {
+      "name": "Set"
+    }
+  }
+}

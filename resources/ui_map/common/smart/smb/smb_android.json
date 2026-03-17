@@ -1,0 +1,53 @@
+{
+  "welcome_back_title": {
+    "locator": {"str_id": "org_picker_dlg_title_text"}
+  },
+  "continue_btn": {
+    "locator": {"str_id": "continue_text"}
+  },
+  "org_item_from_welcome_back": {
+    "locator": {
+      "id": "tenant_id",
+      "text": "{}"
+    }
+  },
+  "my_printers_txt": {
+    "locator": {"str_id": "org_picker_my_printers_text"}
+  },
+  "select_org_message": {
+    "locator": {"str_id": "org_picker_dlg_des_text"}
+  },
+  "user_email_item": {
+    "locator": {"id": "user_email"}
+  },
+  "user_image": {
+    "locator": {"id": "user_initial"}
+  },
+  "manage_hp_account_btn": {
+    "locator": {"id": "manage_account"}
+  },
+  "org_item_from_account": {
+    "locator": {
+      "id": "tenantText",
+      "xpath": "//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/tenantText' and contains(@text, '{}')]"
+    }
+  },
+  "are_you_sure_popup_title": {
+    "locator": {"id": "alertTitle"}
+  },
+  "are_you_sure_popup_message": {
+    "locator": {"id": "dialog_main_text"}
+  },
+  "are_you_sure_cancel_btn": {
+    "locator": {"id": "android:id/button2"}
+  },
+  "are_you_sure_sign_out_btn": {
+    "locator": {"id": "android:id/button1"}
+  },
+  "no_smb_printer_txt": {
+    "locator": {"str_id": "smb_no_printers_found_msg"}
+  },
+  "add_smb_printer_title": {
+    "locator": {"str_id": "add_printer"}
+  }
+}

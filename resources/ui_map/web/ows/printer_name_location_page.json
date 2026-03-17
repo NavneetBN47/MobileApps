@@ -1,0 +1,64 @@
+{
+    "header":{
+        "locator":{"css selector":[".PrinterNameAndLocationPagestyled__Header-jarvis-react-portal-oobe-mfe__sc-1yhuj15-0.hnvpnm", "[data-testid='text-header']"]}
+    },
+    "subhead":{
+        "locator":{"css selector":[".PrinterNameAndLocationPagestyled__Subhead-jarvis-react-portal-oobe-mfe__sc-1yhuj15-1.ikSCNE", "[data-testid='text-subheader']"]}
+    },
+    "name_label":{
+        "locator":{"css selector":"#printer-name-label"}
+    },
+    "location_label":{
+        "locator":{"css selector":"#location-label"}
+    },
+    "name_helper_text":{
+        "locator":{"css selector":"#printer-name-helper-text"}
+    },
+    "location_helper_text":{
+        "locator":{"css selector":["#printer-location-helper-text", "#location-helper-text"]}
+    },
+    "printer_name":{
+        "locator":{"css selector":"input[id='printer-name']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,PrinterName,/PortalOobe/,PrinterNameText,Provided,PairingCode-v01",
+            "trigger":"click"
+        }]
+    },
+    "printer_location":{
+        "locator":{"css selector":["input[id='printer-location']", "input[id='location']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,PrinterName,/PortalOobe/,PrinterLocText,Provided,PairingCode-v01",
+            "trigger":"click"
+        }]
+    },
+    "printer_name_location_page":{
+        "locator":{"css selector":["[data-testid='name-printer-page']", "[data-testid='printer-name-and-location-page']", "[data-testid='NamePrinterPage']"]},
+        "analytics":[{
+            "event":"ScreenDisplayed,PrinterName,/PortalOobe/,PairingCode-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "printer_location_helper_text":{
+        "locator":{"css selector":"#location-helper-text"}
+    },
+    "helper_text_caption":{
+        "locator":{"css selector":"span.caption.text"}
+    },
+    "buttons_continue":{
+        "locator":{"css selector":["[data-testid='continue-button']", "[data-testid='name-printer-continue']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,PrinterName,/PortalOobe/,ContinueButton,PairingCode-v01",
+            "trigger":"click"
+        }]
+    },
+    "skip_btn":{
+        "locator":{"css selector":["[data-analyticsid='Skip']", "[data-testid='skip']"]}
+    },
+    "buttons_skip":{
+        "locator":{"css selector":"[data-testid='name-printer-skip']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,SkipButton,/PortalOobe/,PairingCodev01",
+            "trigger":"click"
+        }]
+    }
+}

@@ -1,0 +1,420 @@
+{
+    "we_found_your_printer_screen_title":{
+        "locator": {"id": "PrinterFoundTitle"}
+    },
+    "we_found_your_printer_screen_printer_image":{
+        "locator": {"id": "PrinterImage"}
+    },
+    "we_found_your_printer_screen_printer_model":{
+        "locator": {"id": "PrinterModel"}
+    },
+    "we_found_your_printer_screen_body":{
+        "locator": {"id": "PrinterFoundDesc"}
+    },
+    "we_found_your_printer_screen_continue_btn": {
+        "locator": {
+          "str_id": "HP.Framework.Extensions.OobeSetup/Resources/Continue/Content",
+          "xpath": "//Text[@Name='Continue']",
+          "id": "OkBtn"}
+    },
+    "continue_btn": {
+        "locator": {
+          "str_id": "HP.Framework.Extensions.OobeSetup/Resources/Continue/Content",
+          "xpath": ["//Text[@Name='Continue']","//Button[@Name='Continue']"],
+          "id": "OkBtn"}
+    },
+    "printer_connected_continue_btn": {
+        "locator": {"id": "OkBtn"},
+        "analytics":[
+            {
+               "event": "-ControlButtonClicked,OobePrinterConnected,/,Continue,Wifi,HardwareSetup-v01,1.5.0, accepted.",
+               "trigger":"click",
+               "platform": "windows"
+            }
+        ]
+    },
+    "access_wifi_password_dialog_title":{
+        "locator": {"xpath": "//Text[@Name='Access Wi-Fi password for {}']"}
+    },
+    "access_wifi_password_dialog_desc_1":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/AccessAutomatically/Text"}
+    },
+    "access_wifi_password_dialog_desc_2":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/AccessAutomatically2/Text"}
+    },
+    "access_wifi_password_dialog_no_thanks_btn":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/NoThanks/Content"}
+    },
+    "accessing_wifi_password_text":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/Accessing/Text"}
+    },
+    "accept_continue_btn":{
+        "locator": {"str_id": "HP.Libs.CommonUi/Resources/AcceptBtn/Text"}
+    },
+    "connect_printer_to_wifi_screen_title":{
+        "locator": {"id": "ConnectToWifiTitle"}
+    },
+    "connect_printer_to_wifi_screen_i_icon_btn":{
+        "locator": {"xpath": "//Text[@AutomationId='ConnectToWifiTitle']/preceding-sibling::Button[1]"}
+    },
+    "connect_printer_to_wifi_screen_printer_image":{
+        "locator": {"id": "Image1"}
+    },
+    "connect_printer_to_wifi_screen_printer_name":{
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Text[1]"}
+    },
+    "connect_printer_to_wifi_screen_wifi_network_text":{
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Text[2]"}
+    },
+    "choose_a_wifi_network_from_the_list_text":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/WifiAdapterHead/Text"}
+    },
+    "connect_printer_to_wifi_screen_wifi_name":{
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Text[3]"}
+    },
+    "wifi_networks_combox":{
+        "locator": {"id": "NetworksCombo"}
+    },
+    "connect_printer_to_wifi_screen_refresh_network_list_link":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/RefreshLink/Content"}
+    },
+    "dynamic_listitem": {
+        "locator": {"xpath": "//ListItem[contains(@Name, '{}')]"}
+    },
+    "connect_printer_to_wifi_screen_change_network_link":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ChangeNetwork/Content"}
+    },
+    "enter_the_password_for_this_wifi_network_text":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/EnterPassword/Text"}
+    },
+    "connect_printer_to_wifi_screen_enter_wifi_passwrod_text":{
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Text[4]"}
+    },
+    "connect_printer_to_wifi_screen_password_editbox":{
+        "locator": {"id": "InputString"}
+    },
+    "access_password_automatically_link":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/AccessPassphrase/Content"}
+    },
+    "connect_printer_to_wifi_screen_connect_btn":{
+        "locator": {"id": "OkBtn"}
+    },
+    "incorrect_password_text":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/PasswordError/Text"}
+    },
+    "unable_to_access_wifi_password_dialog_title":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/AccessErrorTitle/Text"}
+    },
+    "unable_to_access_wifi_password_dialog_desc":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/AccessErrorDesc/Text"}
+    },
+    "unable_to_access_wifi_password_dialog_ok_btn":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/OKButton/Content"}
+    },
+    "need_help_connecting_printer_to_wifi_dialog_title":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ConnectToWifiHelp3Title/Text"}
+    },
+    "need_help_connecting_printer_to_wifi_dialog_desc_1":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ConnectToWifiHelpDesc1/Text"}
+    },
+    "need_help_connecting_printer_to_wifi_dialog_desc_2":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ConnectToWifiHelp2Tip/Text"}
+    },
+    "need_help_connecting_printer_to_wifi_dialog_desc_3":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ConnectToWifiHelp2Desc/Text"}
+    },
+    "help_dialog_change_connection_btn":{
+        "locator": {"id": "ChangeConnectionBtn"}
+    },
+    "help_dialog_continue_btn":{
+        "locator": {"id": "DoneBtn"}
+    },
+    "change_wifi_network_dialog_title":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ChangeNetworkTitle/Text"}
+    },
+    "change_wifi_network_dialog_desc_1":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/PCWifiToWifiDesc2/Text"}
+    },
+    "dialog_open_network_settings_btn":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/OpenSettingsButton/Content"}
+    },
+    "change_wifi_network_dialog_desc_2":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/PCWifiToWifiContinue/Text"}
+    },
+    "connect_to_wifi_screen_title":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ConnectToWifiProgress/Text"}
+    },
+    "connect_to_wifi_screen_desc":{
+        "locator": {"id": "WaitToCompleteDesc",
+                    "str_id": "HP.Framework.Extensions.OobeSetup/Resources/WaitToComplete/Text"}
+    },
+    "printer_found_text":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/FindPrinterDone/Text"}
+    },
+    "unable_to_configure_the_printer_text":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/PreparePrinterError/Text"}
+    },
+    "printer_configured_text":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/PreparePrinterDone/Text"}
+    },
+    "unable_to_connect_printer_to_network_dialog_title":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/UnableToConnectTitle/Text"}
+    },
+    "unable_to_connect_printer_to_network_dialog_desc":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/UnableToConnectPrinter/Text"}
+    },
+    "unable_to_connect_printer_to_network_dialog_desc_retry":{
+        "locator": {"id": "RetryError"}
+    },
+    "unable_to_connect_printer_to_network_dialog_try_again_btn":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/TryAgainButton/Content"}
+    },
+    "printer_connected_to_wifi_screen_title":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/ConnectionDoneTitle/Text"},
+        "analytics":[
+            {
+               "event": "-ScreenDisplayed,Oobeprinterconnected,/,1.5.0, accepted.",
+               "trigger":"wait_v",
+               "platform": "windows"
+            }
+        ]
+    },
+    "printer_connected_to_wifi_screen_desc":{
+        "locator": {"id": "BottomLine"}
+    },
+    "printer_connected_to_wifi_screen_printer_image":{
+        "locator": {"xpath": "//Text[@AutomationId='BottomLine']/following-sibling::Image[1]"}
+    },
+    "printer_connected_to_wifi_screen_connect_image":{
+        "locator": {"xpath": "//Text[@AutomationId='BottomLine']/following-sibling::Image[2]"}
+    },
+    "printer_connected_to_wifi_screen_signal_image":{
+        "locator": {"xpath": "//Text[@AutomationId='BottomLine']/following-sibling::Image[3]"}
+    },
+    "printer_connected_to_wifi_screen_printer_name":{
+        "locator": {"xpath": "//Text[@AutomationId='BottomLine']/following-sibling::Text[1]"}
+    },
+    "printer_connected_to_wifi_screen_wifi_name":{
+        "locator": {"xpath": "//Text[@AutomationId='BottomLine']/following-sibling::Text[2]"}
+    },
+    "setup_complete_lets_print_title":{ 
+        "locator":{"id": "Header"}
+    },
+    "select_your_country_title":{ 
+        "locator": {"xpath": "//Text[@Name='Select your country or region']"}
+    },
+    "country_or_region_item":{ 
+        "locator": {"xpath": ["//Pane[last()]/Group[{}]", "//Pane[last()]/Group[last()-{}]"]}
+    },
+    "unitec_states_item":{ 
+        "locator":{"id": "US"}
+    },
+    "do_not_activate_hp_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Do Not Activate HP+']"}
+    },
+    "learn_more_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Learn More']"}
+    },
+    "decline_hp_plus_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Decline HP+']"}
+    },
+    "continue_with_hp_plus_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Continue With HP+']"}
+    },
+    "back_to_offer_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Back To Offer']"}
+    },
+    "skip_account_activation_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Skip account activation']"}
+    },
+    "sign_in_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Sign In']"}
+    },
+    "create_account_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Create Account']"}
+    },
+    "back_to_account_btn":{ 
+        "locator": {"xpath": "//Button[@Name='Back to Account']"}
+    },
+    "next_group":{ 
+        "locator": {"xpath": "//Group[@AutomationId='carousel']/Group[last()]"}
+    },
+    "auto_update_option":{ 
+        "locator": {"xpath": "//Text[@Name='Auto Update (Recommended)']/preceding-sibling::Text[1]"}
+    },
+    "notify_option":{ 
+        "locator": {"xpath": "//Text[@Name='Notify']/preceding-sibling::Text[1]"}
+    },
+    "print_from_other_devices_txt":{ 
+        "locator":{"id": "ShareTargetPageTitle"}
+    },
+    "skip_this_step":{
+        "locator": {"name": "Skip",
+                    "id": "SkipSendingLinkButton"}
+    },
+    "send_link_btn":{ 
+        "locator":{"id": "SendLinkButton"}
+    },
+    "skip_printing_page":{ "locator":{
+        "id": "OobeFirstPrintSkipButton"}
+    },
+    "print_btn":{ "locator":{
+        "id": "OobeFirstPrintPrintButton"}
+    },
+    "press_info_btn_title":{
+        "locator": {"str_id": "HP.Libs.CommonUi/Resources/PressFlashingInfoTitle"}
+    },
+    "touch_checkmark_text":{
+        "locator": {"xpath": "//Text[@Name='Touch the checkmark on your printer display']",
+                    "str_id": "HP.Libs.CommonUi/Resources/TapCheckTitle"}
+    },
+    "unable_to_connect_printer_to_network_title":{
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/UnableToConnectTitle/Text"}
+    },
+    "try_again_btn": {
+        "locator": {"xpath": ["//Button[@Name='Try Again']", "//Text[@Name='Try Again']"]}
+    },
+    "popup_exit_setup_btn": {
+        "locator": {"xpath": "//Text[@Name='Try Again']/following-sibling::Text[@Name='Exit Setup']"}
+    },
+    "unable_to_register_text": {
+        "locator": {"xpath": "//Text[contains(@Name, 'Unable to register the printer')]"}
+    },
+    "title":{
+        "locator": {"id": "title-text"}
+    },
+    "accept_all_btn":{
+        "locator": {"id": ["consent-accept-all-button", "consent-button"]}
+    },
+    "decline_optional_data_btn":{
+        "locator": {"id": "consent-decline-all-button"}
+    },
+    "manage_option_btn":{
+        "locator": { "id": ["consent-manage=options-button", "consent-manage-options-button"]}
+    },
+    "do_not_enable_ink_delivery_btn": {
+        "locator": {"xpath": "//Button[@Name='Do not enable ink delivery']"}
+    },
+    "next_btn": {
+        "locator": {"xpath": "//Button[@Name='Next]"}
+    },
+    "skip_instant_ink_btn": {
+        "locator": {"xpath": "//Button[@Name='Skip Instant Ink']"}
+    },
+    "back_btn": {
+        "locator": {"xpath": "//Button[@Name='Back']",
+                    "id": "backBtn"}
+    },
+    "skip_ink_benefit_btn": {
+        "locator": {"xpath": "//Button[@Name='Skip ink benefit']"}
+    },
+    "add_shipping_btn": {
+        "locator": {"xpath": "//Button[@Name='Add Shipping']"}
+    },
+    "remind_me_later_btn": {
+        "locator": {"xpath": "//Button[@Name='Remind me later']"}
+    },
+    "skip_offer_btn": {
+        "locator": {"xpath": "//Button[@Name='Skip Offer']"}
+    },
+    "try_it_months": {
+        "locator": {"xpath": "//Button[@Name='I'll Try It for 2 Months']"}
+    },
+    "skip_installing_ink_btn": {
+        "locator": {"xpath": "//Button[@Name='Skip installing ink']"}
+    },
+    "skip_loading_paper_btn": {
+        "locator": {"xpath": "//Button[@Name='Skip loading paper']"}
+    },
+    "apply_btn": {
+        "locator": {"xpath": "//Button[@Name='Apply']"}
+    },
+    "install_driver_to_print_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/InstallPrintDriver/Text"}
+    },
+    "install_launch_item": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/SubHeadLaunch/Text"}
+    },
+    "launch_printers_and_scanners_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/LaunchDesc/Text"}
+    },
+    "install_launch_image": {
+        "locator": { "id": "ImageLaunch"}
+    },
+    "install_select_item": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/SubHeadSelect/Text"}
+    },
+    "depending_on_your_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/SelectDesc/Text"}
+    },
+    "install_select_image": {
+        "locator": { "id": "ImageSelect"}
+    },
+    "install_add_item": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/SubHeadAdd/Text"}
+    },
+    "choose_printer_then_click_text": {
+        "locator": {"xpath": "//Text[@AutomationId='SubHeadAdd']/Text[1]"}
+    },
+    "install_add_image": {
+        "locator": { "id": "ImageAdd"}
+    },
+    "note_do_not_select_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/AddNote/Text"}
+    },
+    "driver_unavailble_btn": {
+        "locator": { "id": "driverUnavailableBtn"}
+    },
+    "printers_scanners_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='driverUnavailableBtn']/Button[1]",
+                    "id": "launchBtn"}
+    },
+    "remove_and_add_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableHeader/Text"}
+    },
+    "circle_one": {
+        "locator": { "id": "Circle1"}
+    },
+    "remove_the_printer_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableSubHeader1/Text"}
+    },
+    "on_the_printers_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableBody1/Text"}
+    },
+    "circle_two": {
+        "locator": { "id": "Circle2"}
+    },
+    "add_the_printer_again_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableSubHeader2/Text"}
+    },
+    "depending_on_your_2_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableBody2/Text"}
+    },
+    "circle_three": {
+        "locator": { "id": "Circle3"}
+    },
+    "if_the_driver_installs_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableSubHeader3/Text"}
+    },
+    "if_the_problem_persists_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableSubHeader4/Text"}
+    },
+    "on_your_computer_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableBody3/Text"}
+    },
+    "for_additional_help_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.OobeSetup/Resources/DriverUnavailableBody4/Text"}
+    },
+    "hp_support_link": {
+        "locator": {"xpath": "//Button[@AutomationId='backBtn']/preceding-sibling::Text[1]/HyperLink[1]"}
+    },
+    "need_more_time_title":{
+        "locator": {"str_id": "HP.Libs.CommonUi/Resources/MoreTimeTitle"}
+    },
+    "are_you_sure_you_want_to_cancel_text":{
+        "locator": {"str_id": "HP.Libs.CommonUi/Resources/ConfirmCancel"}
+    },
+    "exit_setup_btn": {
+        "locator": {"xpath": "//Button[@Name='Exit Setup']"}
+    }
+}

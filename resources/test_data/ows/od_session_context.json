@@ -1,0 +1,26 @@
+{
+    "xCorrelationId": "undefined-owsc-ntv-yeti-activation",
+    "result": "success",
+    "onboardingContext": {
+        "entry": "appOobe"
+    },
+    "currentServiceId": "owsc-ntv-yeti-activation",
+    "output": {
+        "user": {
+            "consents": [{
+                    "state": "OptedIn",
+                    "purposeId": "bizops.device.basicfunct.-.printer-v1.print.npf"
+                }, {
+                    "state": "OptedIn",
+                    "purposeId": "prodsupport.device.telemetry.-.printer-v1.print"
+                }, {
+                    "state": "OptedIn",
+                    "purposeId": "advertising.device.marketing.-.printer-v1.print"
+                }, {
+                    "state": "OptedIn",
+                    "purposeId": "personalization.device.personalization.-.printer-v1.print"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "web_hpid_page": {
+        "_comment": "webpage 'HPID Login...'",
+        "locator": {"xpath": "//Pane[@Name='Open HP Smart?']"}
+    },
+    "always_allow_checkbox": {
+        "_comment": "webpage 'HPID Login...'",
+        "locator": {"xpath": "//CheckBox[contains(@Name, 'Always allow hpsmart')]"}
+    },
+    "web_hpid_open_button": {
+        "_comment": "webpage 'HPID Login...'",
+        "locator": {"xpath": "//Button[@Name='Open HP Smart']"}
+    },
+    "save_password_never_button": {
+        "_comment": "webpage 'HPID Login...'",
+        "locator": {"xpath": "//Button[@Name='Never']"}
+    }
+}

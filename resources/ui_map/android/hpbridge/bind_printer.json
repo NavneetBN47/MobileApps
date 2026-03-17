@@ -1,0 +1,32 @@
+{
+   "binding_printer_title": {
+      "description": "the binding printer page title",
+      "locator": {
+         "xpath": "//wx-view[contains(text(),'绑定打印机')]"
+      }
+   },
+   "print_info_page_img": {
+      "description": "the printer for print information page",
+      "locator": {
+         "css selector": "wx-image.hp-icon-printer"
+      }
+   },
+   "scan_btn":{
+      "description": "the '扫一扫' button",
+      "locator": {
+         "css selector": "wx-button.hp-primary-btn.hp-btn"
+      }
+   },
+   "how_print_info_page_btn":{
+      "description": "the '如何打印信息页' button",
+      "locator": {
+         "css selector": "wx-button.hp-default-btn.hp-btn"
+      }
+   },
+   "ads_image":{
+      "description": "the '如何打印信息页' button",
+      "locator": {
+         "css selector": "wx-image.homeSwiper--ad-image"
+      }
+   }
+}

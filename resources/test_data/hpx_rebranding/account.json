@@ -1,0 +1,34 @@
+{
+  "hpid": {
+      "username": "qamamobiprod.rcb@gmail.com",
+      "password": "Rcb@12345"
+    },
+  "adv_scan_stg": {
+      "username": "testqa.moqa.amy+stgpaas0912s3@outlook.com",
+      "password": "Aio1test"
+    },
+  "adv_scan_prod": {
+      "username": "hpsiprodtest+402@yopmail.com",
+      "password": "srvt@123"
+    },
+  "stage": {
+      "username": "qa.winauto.stage.2024@gmail.com",
+      "password": "Aio1test"
+    },
+  "prod": {
+      "username": "qa.winauto.production.2024@gmail.com",
+      "password": "Aio1test"
+    },
+  "orgid_itg": {
+      "username": "diegotest4@yopmail.com",
+      "password": "test123$"
+    },
+  "orgid_stg": {
+       "username": "pp.admin1@yopmail.com",
+       "password": "123Testing"
+  }, 
+  "liveprinter_claimed_itg_credentials": {
+       "username": "testqama24+leo27@gmail.com",
+       "password": "Rcb@12345"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "smb":{
+        "account_settings":{
+            "E2E_account": "web_localized_strings/smb/SMBP-2748/bg-BG/account_preferences.json"},
+        "help_center":{
+            "E2E_account":"web_localized_strings/smb/SMBP-2747/bg-BG/help_center_landing_page.json"},
+        "printers":{
+            "E2E_account": "web_localized_strings/smb/SMBP-2746/bg-BG/account_preferences.json"},
+        "printers_fax_setup":{
+            "E2E_account": "web_localized_strings/smb/SMBP-2745/bg-BG/account_preferences.json"},
+        "forest_first":{
+            "E2E_account":"web_localized_strings/smb/SMBP-2742/bg-BG/forest_first_landing_page.json"},
+        "home_dashboard":{
+            "E2E_account":"web_localized_strings/smb/SMBP-2741/bg-BG/home_dashboard.json"}
+    }
+}

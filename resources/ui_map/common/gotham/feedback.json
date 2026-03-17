@@ -1,0 +1,95 @@
+{
+    "feedback_title": {
+        "_comment": "Give us you feedback",
+        "locator": {"id": "FeedbackTitle"}
+    },
+    "feedback_info": {
+        "_comment": "We'd like ot hear about...",
+        "locator": {"id": "FeedbackInfo"}
+    },
+    "satisfication_stars": {
+        "locator": {"id": "AppRatingControl"}
+    },
+    "reason_dropdown": {
+        "locator": {"id": "ReasoningComboBox"}
+    },
+    "reason_textbox": {
+        "locator": {"id": "PrinterReasonOtherTextBox"}
+    },
+    "dynamic_listitem": {
+        "locator": {"xpath": "//ListItem[contains(@Name, '{}')]"}
+    },
+    "dynamic_radio_btn": {
+        "_comment": ["How likely are you to recommend... & ",
+            "May we email you if we have questions on your feedback?"],
+        "locator": {"xpath": "//RadioButton[contains(@Name, '{}')]"}
+    },
+    "printer_model_dropdown": {
+        "locator": {"id": "PrinterModelComboBox"}
+    },
+    "printer_model_textbox": {
+        "locator": {"id": "PrinterModelOtherTextBox"}
+    },
+    "additional_feedback_title": {
+        "_comment": "Please share any additional feedback on the HP Smart app here",
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Text[10]"}
+    },
+    "additional_feedback_textbox": {
+        "locator": {"id": "OptionalFeedbackTextBox"}
+    },
+    "gender_dropdown": {
+        "locator": {"id": "GenderComboBox"}
+    },
+    "age_range_dropdown": {
+        "locator": {"id": "AgeRangeComboBox"}
+    },
+    "email_back_text": {
+        "_comment": "May we email you if we have questions on your feedback?",
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Text[13]"}
+    },
+    "invalid_email_address_text": {
+        "_comment": "Invalid email address.",
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Text[@ClassName='TextBlock'][@Name='Invalid email address.']"}
+    },
+    "email_back_textbox": {
+        "_comment": "Only exist when select Yes",
+        "locator": {"xpath": "//Pane[@AutomationId='ScrollContentGrid']/Edit[last()]"}
+    },
+    "submit_btn": {
+        "locator": {"id": "SubmitFeedbackButton"}
+    },
+    "user_guide_faq_link": {
+        "_comment": "Users guide &amp; FAQ",
+        "locator": {"id": "AdditionalSupport_Document"}
+    },
+    "hp_support_forum_link": {
+        "_comment": "Visit our HP Smart support forum",
+        "locator": {"id": "AdditionalSupport_Forum"}
+    },
+    "send_email_link": {
+        "_comment": "Send an email to our support team",
+        "locator": {"id": "AdditionalSupport_Email"}
+    },
+    "send_email_title": {
+        "_comment": "Select Continue below to add these helpful details to your email.",
+        "locator": {
+            "xpath": "//Window[2]/Text[3]"
+        }
+    },
+    "send_email_cancel_btn": {
+        "locator": {"id": "EmailCancelButton"}
+    },
+    "send_email_continue_btn": {
+        "locator": {"id": "EmailContinueButton"}
+    },
+    "thank_you_title": {
+        "locator": {"id": "ThankYouTitle"}
+    },
+    "thank_you_subtitle": {
+        "locator": {"id": "ThankYouSubtitle"}
+    },
+    "thank_you_done_btn": {
+        "locator": {"id": "BackHomeButton"}
+    }
+
+}

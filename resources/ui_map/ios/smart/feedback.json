@@ -1,0 +1,151 @@
+{
+    "feedback_five_star_rating_btn":{
+        "_comment": "Object have no id currently",
+        "locator": {
+            "xpath": [
+                "//div[@id='Feedback.OverallFeedback.StarRating']//div[@class='clientos-ui-toolkit-rating'][5]//div[@class='clientos-ui-toolkit-rating__icon clientos-ui-toolkit-rating__icon--active']/svg[@aria-label='Star']",
+                "//XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeImage[@name='Star']"
+        ]
+
+        }
+    },
+    "feedback_why_did_you_open_the_app_today_dropdown":{
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeOther/XCUIElementTypeOther[9][contains(@value, 'Select an option')]",
+                "//XCUIElementTypeOther/XCUIElementTypeButton[1][@name='Open']"
+            ]
+        }
+    },
+    "whats_your_feedback_related_to_dropdown":{
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeOther/XCUIElementTypeOther[10][contains(@value, 'Select an option')]",
+                "//XCUIElementTypeOther/XCUIElementTypeButton[2][@name='Open']"
+            ]
+        }
+    },
+    "feedback_help_us_improve_text_area":{
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeStaticText[@value='Help us improve by telling us more about your experience.']/ancestor::XCUIElementTypeOther/following-sibling::XCUIElementTypeTextView"
+            ]
+        }
+    },
+    "submit_feedback_btn":{
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeButton[@name='Submit feedback']"
+            ]
+        }
+    },
+    "hpx_feedback_page_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='We'd love your feedback!']",
+            "name": "We'd love your feedback!"
+        }
+    },
+    "feedback_get_tech_support_option": {
+        "locator": {
+            "name": "Get tech support",
+            "xpath": "//XCUIElementTypeOther[@label='Get tech support']"
+        }
+    },
+    "feedback_configure_my_devices_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Configure my devices']",
+            "name": "Configure my devices"
+        }
+    },
+    "feedback_set_up_my_printer_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Set up my printer']",
+            "name": "Set up my printer"
+        }
+    },
+    "feedback_print_or_scan_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Print or scan']",
+            "name": "Print or scan"
+        }
+    },
+    "feedback_manage_my_account_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Manage my account']",
+            "name": "Manage my account"
+        }
+    },
+    "feedback_manage_my_subscriptions_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Manage my subscriptions']",
+            "name": "Manage my subscriptions"
+        }
+    },
+    "feedback_other_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Other']",
+            "name": "Other"
+        }
+    },
+    "feedback_load_time_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Load time']",
+            "name": "Load time"
+        }
+    },
+    "feedback_ease_of_use_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Ease of use']",
+            "name": "Ease of use"
+        }
+    },
+    "feedback_bug_or_issue_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='Bug or issue']",
+            "name": "Bug or issue"
+        }
+    },
+    "feedback_app_feature_request_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@label='App crash']",
+            "name": "App crash"
+        }
+    },
+    "can_we_contact_you_text_box": {
+        "locator": {
+            "xpath": "//*[@name='Can we contact you? We may email you to request more details on your feedback.']/ancestor::XCUIElementTypeOther/following-sibling::XCUIElementTypeTextField"
+        }
+    },
+    "successful_feedback_submission_text": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Thanks for your feedback. It's great to know you're enjoying our app!']",
+            "name": "Thanks for your feedback. It's great to know you're enjoying our app!"
+        }
+    },
+    "hp_privacy_statement_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='HP Privacy Statement']",
+            "name": "HP Privacy Statement"
+        }
+    },
+    "hp_privacy_statement_link_url": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@name='TabBarItemTitle' and @label='Address']"
+        }
+    },
+    "feedback_help_us_improve_text_area_char_count": {
+        "locator": {
+            "xpath": "//*[@name='Help us improve by telling us more about your experience.']/ancestor::XCUIElementTypeOther/following-sibling::XCUIElementTypeOther[contains(@name,'Characters used:')]/XCUIElementTypeStaticText"
+        }
+    },
+    "feedback_back_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Menu']"
+        }
+    },
+    "invalid_email_error_message": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Please enter a valid email address.']"
+        }
+    }
+}

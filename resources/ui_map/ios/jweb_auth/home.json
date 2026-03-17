@@ -1,0 +1,27 @@
+{
+  "top_bar_button": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "accounts_back_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Accounts']"
+    }
+  },
+  "account_item": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[contains(@name, 'accountTableViewCell')]"
+    }
+  },
+  "app_settings_btn": {
+    "locator": {
+      "name": "App Settings"
+    }
+  },
+  "chevron_btn":{
+    "locator": {
+      "name": "chevron"
+    }
+  }
+}

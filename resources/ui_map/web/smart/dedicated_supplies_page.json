@@ -1,0 +1,83 @@
+{
+    "dsp_p2_page_title": {
+        "_comment": "Dedicated Supplies P2 page title after cliking get supplies tile",
+        "locator": {
+            "xpath": "//Text[@AutomationId='HpTitle' and @Name='HP Instant Ink']"
+        },
+        "analytics": [
+            {
+                "event": "-ScreenDisplayed,Hpmnsdashboard,/,1.5.0, accepted.",
+                "trigger": "wait_v",
+                "platform": "windows"
+            }
+        ]
+    },
+    "dsp_p2_page": {
+        "_comment": "Dedicated Supplies P2 page after cliking get supplies tile",
+        "locator": {
+            "id": "MnsWebView"
+        }
+    },
+    "back_btn": {
+        "_comment": "Back button on HP Instant Ink Page",
+        "locator": {
+            "id": "TitleBackButton"
+        }
+    },
+    "try_instant_ink_free_link": {
+        "_comment": "Try Instant Ink Free Link on HP Instant Ink Page",
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeLink[@label='Try Instant Ink']",
+                "//HyperLink[@Name='Try Instant Ink Free']",
+                "//HyperLink[@Name='Try Instant Ink']"
+            ]
+        }
+    },
+    "estimated_supply_levels_text": {
+        "_comment": "Estimated supply levels",
+        "locator": {"xpath": "//Text[@Name='Estimated supply levels']"}
+    },
+    "not_now_btn": {
+        "_comment": "Get started Now Link on HP Instant Ink Page",
+        "locator": {
+            "text": "Not Now"
+        }
+    },
+    "get_started_now_link": {
+        "_comment": "Get started Now Link on HP Instant Ink Page",
+        "locator": {
+            "text": [
+                "Get started Now",
+                "Get Started Now!"
+            ]
+        }
+    },
+    "get_started_with_hp_instant_ink": {
+        "_comment": "Get Started With HP Instant Ink Link on HP Instant Ink Page",
+        "locator": {
+            "text": "Get Started With HP Instant Ink"
+        }
+    },
+    "finish_setup_link": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='Finish Setup']"
+        }
+    },
+    "sign_in_link": {
+        "_comment": "Sign In link on HP Instant Ink Page",
+        "locator": {
+            "id": "linkButton"
+        }
+    },
+    "i_accept_btn": {
+        "locator": {
+            "id": "onetrust-accept-btn-handler"
+        }
+    },
+    "your_privacy_popup": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSheet[@label='Your Privacy, web alert dialog']"
+        }
+    }
+}

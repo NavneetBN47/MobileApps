@@ -1,0 +1,55 @@
+{
+  "print_jobs_title":{
+    "locator": {"str_id": "print_status_title__print_jobs"}
+  },
+  "cancel_btn":{
+    "locator": {"str_id": "cancel",
+      "id": "ic_jobCancelButtonId",
+      "xpath": "//android.view.View[contains(@resource-id, 'ic_jobCancelButtonId')]"}
+  },
+  "delete_btn":{
+    "locator": {"str_id": "delete",
+      "id": "ic_jobDeleteButtonId",
+      "xpath": "//android.view.View[contains(@resource-id, 'ic_jobDeleteButtonId')]"}
+  },
+  "print_job_notification": {
+    "locator": {
+      "xpath": [
+        "//*[@resource-id='android:id/title' and contains(@text, '{}')]/ancestor::*[@resource-id='android:id/notification_main_column']",
+        "//*[@resource-id='android:id/title' and contains(@text, '{}')]/../../*[@resource-id='android:id/notification_main_column']"
+      ]
+    }
+  },
+  "printing_txt":{
+    "locator": {"str_id": "print_job_status_printing"}
+  },
+  "printing_notification": {
+    "locator": {
+      "xpath": "//*[@resource-id='android:id/title' and contains(@text, '{}')]/ancestor::*[@resource-id='android:id/notification_top_line']"
+    }
+  },
+  "finished_txt":{
+    "locator": {"str_id": "print_job_state__completed"}
+  },
+  "blocked_txt":{
+    "locator": {"str_id": "print_job_state__blocked"}
+  },
+  "running_txt":{
+    "locator": {"str_id": "print_job_state__running"}
+  },
+  "canceling_txt":{
+    "locator": {"str_id": "print_job_state__cancelling"}
+  },
+  "job_cell":{
+    "locator": {"id": "ic_jobItemId",
+      "xpath": "//android.view.View[contains(@resource-id, 'ic_jobItemId')]"}
+  },
+  "file_name":{
+    "locator": {"id": "ic_printJobTitleId",
+      "xpath": "//android.widget.TextView[contains(@resource-id, 'ic_printJobTitleId')]"}
+  },
+  "job_status":{
+    "locator": {"id": "ic_jobStatusId",
+      "xpath": "//android.widget.TextView[contains(@resource-id, 'ic_jobStatusId')]"}
+  }
+}

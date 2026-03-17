@@ -1,0 +1,42 @@
+{
+  "show_weblet_btn": {
+    "locator": {
+        "name": "Weblet"
+    }
+  },
+  "service_routing_header": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='header']/Text[@Name='Service Routing']"
+    }
+  },
+  "home_btn": {
+    "locator": {
+        "name": "Home"
+    }
+  },
+  "webview1_edge_engine": {
+    "locator": {
+      "name": "WebView1 (Default)"
+    }
+  },
+  "webview2_chromium_engine": {
+    "locator": {
+      "name": "WebView2"
+    }
+  },
+  "stack_list": {
+    "locator": {
+      "xpath":"//ComboBox[@AutomationId='StackList']"
+    }
+  },
+  "stack_option": {
+    "locator": {
+      "name":"{}"
+    }
+  },
+  "settings_top_menu": {
+    "locator": {
+      "xpath":"//ListItem[@AutomationId='SettingsTopNavPaneItem']"
+    }
+  }
+}

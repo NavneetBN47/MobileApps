@@ -1,0 +1,38 @@
+{
+
+    "your_hp_account_offers_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:12']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:28']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:61']"]}
+    },
+
+    "sign_in_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:519' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='_NS:9']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='_NS:36']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='_NS:98']"]}
+    },
+
+    "create_account_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='_NS:5']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='_NS:18']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='_NS:73']"]}
+    },
+
+    "hi_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:12']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:28']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:61']"]}
+    },
+
+    "my_hp_account_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXButton[@AXIdentifier='_NS:130']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXButton[@AXIdentifier='_NS:36']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXButton[@AXIdentifier='_NS:98']"]}
+    },
+
+    "sign_out_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXButton[@AXIdentifier='_NS:17']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXButton[@AXIdentifier='_NS:18']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXButton[@AXIdentifier='_NS:73']"]}
+    }
+}

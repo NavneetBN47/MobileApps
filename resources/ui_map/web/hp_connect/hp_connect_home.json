@@ -1,0 +1,368 @@
+{
+    "menu_avatar_btn": {
+        "locator": {
+            "css selector": "div#menu-avatar-container"
+        }
+    },
+    "sign_out_btn": {
+        "locator": {
+            "css selector": "div#menu-avatar-container button"
+        }
+    },
+    "ucde_banner": {
+        "locator": {
+            "css selector": "img[src*='ucde-logo-white']"
+        }
+    },
+    "sign_in_link": {
+        "locator": {
+            "id": "sign-in-link"
+        }
+    },
+    "warrenty_card": {
+        "locator": {
+            "css selector": "[data-testid='consumer-dashboard-smartDash-warrantyCard']"
+        }
+    },
+    "sustaninability_card": {
+        "locator": {
+            "css selector": "[data-testid='consumer-dashboard-smartDash-positivePrintingCard']"
+        }
+    },
+    "hp_instant_ink_card": {
+        "locator": {
+            "css selector": "[data-testid='consumer-dashboard-smartDash-instantInkCard']"
+        }
+    },
+    "sustainability_menu": {
+        "locator": {
+            "css selector": "[data-testid='jarvis-react-consumer-layout__side-menu-item-Sustainability']"
+        }
+    },
+    "terms_of_use_and_end_user_agreement_page": {
+        "locator": {
+            "css selector": ".full-screen-consent-form-cell"
+        }
+    },
+    "terms_of_use_and_end_user_agreement_continue_btn": {
+        "locator": {
+            "css selector": "#full-screen-consent-form-footer-button-continue"
+        }
+    },
+    "my_printer_link": {
+        "locator": {
+            "id": "GNB-My-Printers-Link"
+        }
+    },
+    "account_home": {
+        "locator": {
+            "css selector": "[data-testid='portal-top-menu']"
+        }
+    },
+    "close_hamburger_menu_btn": {
+        "locator": {
+            "css selector": "[aria-label='X']"
+        }
+    },
+    "privacy_popup_accept_btn": {
+        "locator": {
+            "id": "onetrust-accept-btn-handler"
+        }
+    },
+    "sign_up_btn": {
+        "locator": {
+            "id": "create-account-button"
+        }
+    },
+    "menu_toggle_btn": {
+        "locator": {
+            "css selector": "button[aria-label='Toggle Menu']"
+        }
+    },
+    "account_dashboard_menu_nav": {
+        "locator": {
+            "css selector": "[data-testid='jarvis-react-consumer-layout__side-menu-item-Account Dashboard']"
+        }
+    },
+    "account_status_content": {
+        "locator": {
+            "css selector": "div[data-testid='account-status-content']"
+        }
+    },
+    "account_status_logo": {
+        "locator": {
+            "css selector": ["div[data-testid='account-status-content']","[alt='status']"]
+        }
+    },
+    "account_summary_title": {
+        "locator": {
+            "css selector": ["div[data-testid='dashboard-mfe-container']","div[data-testid='account-dashboard']"]
+        }
+    },
+    "close_btn": {
+        "locator": {
+            "css selector": "button[data-testid='home-close-button']"
+        }
+    },
+    "help_support_link": {
+        "locator": {
+            "css selector": "a[href*='https://support.hp.com']",
+            "xpath": "//XCUIElementTypeLink[@name='HP Support']"
+        }
+    },
+    "wireless_print_center_link": {
+        "locator": {
+            "css selector": "a[href*='https://www.hpsmart.com/wireless-printing']",
+            "xpath": "//XCUIElementTypeLink[@name='Wireless Print Center']"
+        }
+    },
+    "end_user_license_agreement_link": {
+        "locator": {
+            "css selector": "a[href='https://www.hp.com/go/sweula']",
+            "xpath": "//XCUIElementTypeLink[@name='End User License Agreement']"
+        }
+    },
+    "hp_privacy_link": {
+        "locator": {
+            "css selector": "a[href*='https://www.hp.com/go/privacy']",
+            "xpath": "//XCUIElementTypeLink[@name='HP Privacy']"
+        }
+    },
+    "hp_smart_terms_of_use_link": {
+        "locator": {
+            "css selector": "a[href='https://www.hpsmart.com/tou']",
+            "xpath": "//XCUIElementTypeLink[@name='HP Smart Terms of Use']"
+        }
+    },
+    "dashboard_title": {
+        "locator": {
+            "id": "HpTitle"
+        }
+    },
+    "account_dashboard_btn": {
+        "locator": {
+            "css selector": "li[data-testid='home-menu']",
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'Account Dashboard')]",
+                "//HyperLink[contains(@Name, 'Account Dashboard')]"
+            ]
+        }
+    },
+    "printers_card":{
+        "locator": {
+            "css selector": "[data-testid='printers-card-parent']"
+        }
+    },
+    "hp_instant_ink_btn": {
+        "locator": {
+            "css selector": ["[data-testid='print-plans-menu']", "[data-testid='jarvis-react-consumer-layout__side-menu-item-link']"],
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'HP Instant Ink')]",
+                "//HyperLink[contains(@Name, 'HP Instant Ink')]"
+            ]
+        }
+    },
+    "is_hp_instant_ink_submenu_expanded": {
+        "locator": {
+            "css selector": "li[data-testid='sustainability-menu'] div[class*='container--entered']"
+        }
+    },
+    "printers_btn": {
+        "locator": {
+            "css selector": "[data-testid='jarvis-react-consumer-layout__side-menu-item-link']",
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'Printers')]",
+                "//HyperLink[contains(@Name, 'Printers')]"
+            ]
+        }
+    },
+    "users_btn": {
+        "locator": {
+            "css selector": "li[data-testid='users-submenu'] > a > div",
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'Users')]",
+                "//HyperLink[contains(@Name, 'Users')]"
+            ]
+        }
+    },
+    "features_btn": {
+        "locator": {
+            "css selector": "li[data-testid='services-menu']"
+        }
+    },
+    "solutions_btn": {
+        "locator": {
+            "css selector": "li[data-testid='services-menu'] svg[aria-label='Chevron Down']",
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'Solutions')]",
+                "//HyperLink[contains(@Name, 'Solutions')]"
+            ]
+        }
+    },
+    "is_solutions_submenu_expanded": {
+        "locator": {
+            "css selector": "li[data-testid='sustainability-menu'] div[class*='container--entered']"
+        }
+    },
+    "account_btn": {
+        "locator": {
+            "css selector": "li[data-testid='my-account-menu'] svg[aria-label='Chevron Down']",
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'Account')]",
+                "//HyperLink[contains(@Name, 'Account')]"
+            ]
+        }
+    },
+    "is_account_submenu_expanded": {
+        "locator": {
+            "css selector": "li[data-testid='my-account-menu'] div[class*='container--entered']"
+        }
+    },
+    "sustainability_btn": {
+        "locator": {
+            "css selector": "li[data-testid='sustainability-menu'] svg[aria-label='Chevron Down']",
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'Sustainability')]",
+                "//HyperLink[contains(@Name, 'Sustainability')]"
+            ]
+        }
+    },
+    "is_sustainability_submenu_expanded": {
+        "locator": {
+            "css selector": "li[data-testid='sustainability-menu'] div[class*='container--entered']"
+        }
+    },
+    "help_center_btn": {
+        "locator": {
+            "xpath": [
+                "//div[@class = 'vn-side-menu__item-col-label' and contains(text(),'Help Center')]",
+                "//Pane[1]//ListItem[contains(@Name, 'Help Center')]",
+                "//HyperLink[contains(@Name, 'Help Center')]"
+            ]
+        }
+    },
+    "is_help_center_submenu_expanded": {
+        "locator": {
+            "css selector": "li div[class*='container--entered']"
+        }
+    },
+    "account_profile_title": {
+        "locator": {
+            "css selector": "[class*='ProfileHeader']"
+        }
+    },
+    "profile_form": {
+        "locator": {
+            "id": "profile-form"
+        }
+    },
+    "chat_with_virtual_agent": {
+        "locator": {
+            "css selector": "button[data-testid='portal-fixed-footer-va-button']",
+            "xpath": [
+                "//Pane[1]//ListItem[contains(@Name, 'Chat with Virtual Assistant')]",
+                "//HyperLink[contains(@Name, 'Chat with Virtual Assistant')"
+            ]
+        }
+    },
+    "va_start_chat_btn": {
+        "locator": {
+            "css selector": "a.button[href*='virtualagent']"
+        }
+    },
+    "va_cancel_btn": {
+        "locator": {
+            "css selector": "Button[aria-label='Cancel']"
+        }
+    },
+    "va_icon": {
+        "locator": {
+            "css selector": "img[alt='Virtual Assistant']"
+        }
+    },
+    "delete_hp_smart_account_title": {
+        "locator": {
+            "name": "Delete HP Smart account",
+            "css selector": "div[data-testid='delete-account-header']"
+        }
+    },
+    "delete_account_btn": {
+        "locator": {
+            "name": "Delete Account",
+            "xpath": "//span[text()='Delete Account']/parent::button"
+        }
+    },
+    "no_keep_account_btn": {
+        "locator": {
+            "name": "No, keep account",
+            "xpath": "//span[text()='No, keep account']/parent::button"
+        }
+    },
+    "here_link": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeLink/XCUIElementTypeLink[@label='here']",
+                "//*[text()='here']"
+            ],
+            "name": "here",
+            "css selector": "a[href*='/us/en/gateway']"
+        }
+    },
+    "hp_smart_account_has_been_deleted_title": {
+        "locator": {
+            "name": "HP Smart account has been deleted",
+            "xpath": [
+                "//*[@aria-label='Checkmark Circle']/following-sibling::h2",
+                "//*[@aria-label='Checkmark Circle']/following-sibling::h1",
+                "//*[text() = 'HP Smart account has been deleted']"
+            ]
+        }
+    },
+    "hp_smart_account_has_been_deleted_checkmark": {
+        "locator": {
+            "css selector": "svg[aria-label='Checkmark Circle']"
+        }
+    },
+    "done_btn": {
+        "locator": {
+            "xpath": [
+                "//span[text()='Done']/parent::button",
+                "//Button[@Name='Done']",
+                "//Button[@Name='Done ']",
+                "//*[text()='Done']"
+            ],
+            "name": "Done"
+        }
+    },
+    "you_must_cancel_service_title": {
+        "locator": {
+            "xpath": "//*[text() = 'You must cancel services']"
+        }
+    },
+    "open_dashboard_btn": {
+        "locator": {
+            "xpath": "//span[text()='Open Dashboard']/parent::button",
+            "css selector": "div[data-testid='delete-account-template-button-group'] button"
+        }
+    },
+    "hp_smart_advance_btn": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='HP Smart Advance']"
+        }
+    },
+    "session_expired_cancel_btn": {
+        "locator": {
+            "name": "Cancel"
+        }
+    },
+    "toggle_menu_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Toggle Menu']"
+        }
+    },
+    "smart_security_btn": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='Smart Security']"
+        }
+    }
+}

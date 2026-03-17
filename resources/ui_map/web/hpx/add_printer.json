@@ -1,0 +1,536 @@
+{
+    "choose_a_printer_button":{
+        "locator": {
+            "id": "add-printer-win",
+            "xpath":"//*[@AutomationId='add-printer-win']"
+        }
+    },
+    "pane_refresh":{
+        "locator":{
+            "xpath":"//Pane[@Name='CoreInput']"
+        }
+    },
+    "close_button":{
+        "locator": {
+            "xpath": "//Button[@AutomationId='clientos-ui-toolkit-button' and @Name='Close']"
+        }
+    },
+    "add_device_text":{
+        "locator": {
+            "id": "AddDevice.Adddevice.Header",
+            "xpath": "//Text[@Name='Add a device']"
+        }
+    },
+    "missing_device_text":{
+        "locator": {
+            "xpath": "//Text[@Name='Missing a device?']"
+        }
+    },   
+    "notifications_button":{
+        "locator": {
+            "xpath":"//Button[@Name='Notifications']"
+        }
+    },
+    "search_by_sn_button":{
+        "locator": {
+            "id": "search-by-serial-number"
+        }
+    },
+    "enter_sn_edit":{
+        "locator": {
+            "xpath": "//Group[@AutomationId='header-root']/group[1]/group[1]/Window[1]/Edit[1]"
+        }
+    },
+    "back_button":{
+        "locator": {
+            "xpath":"//Button[@Name='Back']"
+        }
+    },
+    "notifications_text":{
+        "locator":{
+            "xpath": "//Text[@Name='Notifications']"
+        }
+    },
+    "settings_arrow":{
+        "locator": {
+            "id": "SideFlyout.SideFlyoutView.SettingsMenuItem"
+        }
+    },
+    "menu_back_arrow":{
+        "locator": {
+            "id": "SideFlyout.SideFlyoutView.NavigationBackArrowLeftIcon"
+        }
+    },
+    "menu_button":{
+        "locator": {
+            "xpath":"//Button[@AutomationId='SideFlyout.SideFlyoutView.NavigationBackArrowLeftIcon']"
+        }
+    },
+    "search_again_link":{
+        "locator": {
+            "id":"SearchCtrl"
+        }
+    },
+    "my_printer_isn't_listed_link":{
+        "locator": {
+            "id":"PrinterCtrl"
+        }
+    },
+    "results_scroll":{
+        "locator": {
+            "id":"ResultsScroll"
+        } 
+    },
+    "discovered_printers":{
+        "locator": {
+            "id":"ResultsGridView"
+        }
+    },
+    "connected_printers":{
+        "locator": {
+            "id":"ConnectedGridView"
+        }    
+    },
+    "searched_printers":{
+        "locator": {
+            "id":"ResultsSearchGridView"
+        }
+    },
+    "add_printer_link":{
+        "locator": {
+            "id": "AddtoPrinterCtrl"
+        }
+    },
+    "dynamic_printer_info":{
+        "locator": {
+            "xpath": "//List[@AutomationId='ResultsSearchGridView']/descendant::Text[contains(@Name,'{}')]"
+            }
+    },
+    "spinner_image":{
+        "locator": {
+            "id": "Spinner"
+            }
+    },
+    "top_exit_setup":{
+        "locator": {
+            "xpath": "//Text[@Name='Exit setup']"
+            }
+    },
+    "setup_incomplete_dialog_continue_setup_btn":{
+        "locator": {
+            "xpath": "//Text[@Name='Continue Setup']"
+            }
+    },
+    "setup_incomplete_dialog_exit_setup_btn":{
+        "locator": {
+            "xpath": "//Text[@Name='Although your printer might be connected to the network, you still have setup steps to complete to be able to use this printer.']/following-sibling::Button[@Name='Exit setup']"
+            }
+    },
+    "printer_setup_is_incomplete_dialog_ok_btn":{
+        "locator": {
+            "xpath": "//Button[@Name='OK']"
+            }
+    },
+    "printer_setup_is_incomplete_dialog_install_to_print_btn":{
+        "locator": {
+            "xpath": ["//Button[@Name='Install to Print']", "//Button[@Name='Install to print']"]
+            }
+    },
+    "dynamic_ip_address":{
+        "locator": {
+            "xpath": "//List[@AutomationId='ResultsGridView']/ListItem[contains(@Name, 'DEVICEVIEWMODEL')]/Text[2]"
+            }
+    },
+    "dynamic_hostname_address":{
+        "locator": {
+            "xpath": "//List[@AutomationId='ResultsGridView']/ListItem[contains(@Name, 'DEVICEVIEWMODEL')]/Text[1]"
+            }
+        },
+    "input_textbox":{
+        "locator": {
+            "id": "SearchByIpOrName"
+        }
+    },
+    "searched_beaconing_printer": {
+        "locator": {
+            "xpath": "//List[@AutomationId='BeaconingSearchGridView']/ListItem[contains(@Name, '{}')]"
+        }
+    },
+    "searched_network_printer":{
+        "locator": {
+            "xpath": "//List[@AutomationId='ResultsSearchGridView']/ListItem[contains(@Name, '{}')]"
+        }
+    },
+    "what_type_printer_text":{
+        "locator": {
+            "xpath": "//Text[@Name='What type of printer are you trying to find?']"
+        }
+    },
+    "setup_mode_printer_button":{
+        "locator": {
+            "xpath": "//Text[@Name='Setup Mode Printer']"
+        }
+    },
+    "no_results_message_text":{
+        "_comment": "No results for . All available printers are displayed.",
+        "locator": {
+            "xpath": "//Pane[@AutomationId='ResultsScroll']/Text[contains(@Name, 'All available printers are displayed.')]"
+        }
+    },
+    "progress_bar":{
+        "locator": {
+            "id": "Progressbar",
+            "xpath": "//Text[@AutomationId='TopBar']/following-sibling::ProgressBar[1]"
+        }
+    },
+    "searching_printer_text":{
+        "locator": {
+            "id": "TopBar"
+        }
+    },
+    "beaconing_printers":{
+        "locator": {
+            "id": "BeaconingGridView"
+        }
+    },
+    "no_printers_found":{
+        "locator": {
+            "id": "NoPrnText"
+        }
+    },
+    "add_using_ip_address_btn":{
+        "locator": {
+            "id": "IPButton"
+        }
+    },
+    "search_again_btn":{
+        "locator": {
+            "id": "SearchButton"
+        }
+    },
+    "info_image_wifi_option":{
+        "locator": {
+            "xpath": "//Pane[@AutomationId='ScrollContentGrid']/Image[2]"
+        }
+    },
+    "check_for_wifi_setup_mode_dialog":{
+        "locator":{
+            "xpath": "//Text[@Name='Check for Wi-Fi setup mpde']"
+        }
+    },
+    "wifi_setup_dialog_text":{
+        "locator":{
+            "xpath": "//Text[@Name='The indicator for printer setup mode varies depending on printer model. To check if your printer is in Wi-Fi setup mode, look for pulsing purple lighting or a blinking blue light/icon on the printer to indicate beaconing. The Wi-Fi icon on a control panel screen might also cycle.']"
+        }
+    },
+    "dialog_ok_button":{
+        "locator":{
+            "xpath": "//Button[@Name='Ok']"        
+            }
+    },
+    "info_image_network_option":{
+        "locator": {
+            "xpath": "//Pane[@AutomationId='ScrollContentGrid']/Image[4]"
+        }
+    },
+    "network_connection_dialog":{
+        "locator":{
+            "xpath":"//Text[@Name='Check for network connection']"
+        }
+    },
+    "network_connection_dialog_text":{
+        "locator":{
+            "xpath":"//Text[@Name='The indicator for a network connected printer varies depending on printer model. To check if your printer is connected to the network, look for solid blue lighting or a solid blue light/icon on the printer. If your printer has a control panel, the Wi-Fi icon or the Ethernet icon will be visible to indicate connection.']"
+        }
+    },
+    "usb_printer_button":{
+        "locator": {
+            "xpath": "//Button[@Name='USB printer']"
+        }
+    },
+    "netwrok_printer_button":{
+        "locator": {
+            "xpath": "//Button[@Name='Network printer']"
+        }
+    },
+    "let_us_find_your_network_connected_title":{
+        "locator": {
+            "xpath": "//Text[@Name='Let's find your network connected printer']"
+        }
+    },
+    "show_me_how_link":{
+        "locator": {
+            "xpath": "//Hyperlink[@Name='Show me how']"
+        }
+    },
+    "remove_any_plug_text":{
+        "locator":{
+            "xpath": "//Text[@Name='Remove any plug or protective cover from the Ethernet port on the back of your printer.']"
+        }
+    },
+    "connect_the_ethernet_text":{
+        "locator":{
+            "xpath": "//Text[@Name='Connect the Ethernet cable to the Ethernet port on the printer.']"
+        }
+    },
+    "connect_the_other_text":{
+        "locator":{
+            "xpath": "//Text[@Name='Connect the other end of the cable to an available Ethernet port on the wired access point or router.']"
+        }
+    },
+    "wired_printer_image":{
+        "locator":{
+            "id": "Image2"
+        }
+    },
+    "when_ready_text":{
+        "locator":{
+            "xpath": "//Text[@Name='When ready, select Search again.']"
+        }
+    },
+    "wifi_printer_text":{
+        "locator": {
+            "xpath": "//Text[@Name='Wi-Fi printer initial set up or Wi-Fi reset']"
+        }
+    },
+    "usb_printer_text":{
+        "locator": {
+            "xpath": "//Text[@Name='USB printer']"
+        }
+    },
+    "network_printer_text":{
+        "locator": {
+            "xpath": "//Text[@Name='Printer connected to network']"
+        }
+    },
+    "find_your_new_printer_title":{
+        "locator": {
+            "xpath": "//Text[@Name='Let's find your new printer']"
+        }
+    },
+    "back_link":{
+        "locator": {
+            "xpath": "//Hyperlink[@Name='Back']"
+        }
+    },
+    "let_us_find_your_usb_printer_title":{
+        "locator":{
+            "xpath": "//Text[@Name='Let's find your USB printer']"
+        }
+    },
+    "dialog_close_link":{
+        "locator":{
+            "xpath":"//Hyperlink[@Name='Close']"       
+        }
+    },
+    "show_me_how_1_link":{
+        "locator": {
+            "xpath": "//Text[@AutomationId='OSUpdateStep']/Hyperlink[@Name='Show me how]"
+        }
+    },
+    "check_for_windows_update_dialog":{
+        "locator": {
+            "id": "OsUpdateModalTitle"
+        }
+    },
+    "windows_update_image":{
+        "locator":{
+            "id":"OsUpdateImage2"
+        }
+    },
+    "show_me_how_2_link":{
+        "locator": {
+            "xpath": "//Text[@AutomationId='PrinterDriver']/Hyperlink[@Name='Show me how]"
+        }
+    },
+    "check_the_driver_installation_title":{
+        "locator": {
+            "id": "DriverModalTitle"
+        }
+    },
+    "driver_install_image":{
+        "locator": {
+            "id": "Image3"
+        }
+    },
+    "show_me_how_3_link":{
+        "locator": {
+            "xpath": "//Text[@AutomationId='UsbCable']/Hyperlink[@Name='Show me how]"
+        }
+    },
+    "connect_using_usb_title":{
+        "locator": {
+            "id": "ModalTitle"
+        }
+    },
+    "connect_usb_image":{
+        "locator": {
+            "id": "Image2"
+        }
+    },
+    "search_again_button":{
+        "locator": {
+            "xpath": "//Button[@Name='Search again']"
+        }
+    },
+    "connect_printer_to_router_title":{
+        "locator": {
+            "id": "ModalTitle"
+        }
+    },
+    "manage_printer_title":{
+        "locator": {
+            "id": "PrinterFoundDesc"
+        }
+    },
+    "manage_printer_image":{
+        "locator": {
+            "id": "PrinterIamge"
+        }
+    },
+    "dialog_continue_button":{
+        "locator": {
+            "id": "OkBtn"
+        }
+    },
+    "continue_btn_install_drive":{
+        "locator": {
+            "id": "okBtn"
+        }
+    },
+    "dynamic_beaconing_printer_locator":{
+        "locator": {
+            "xpath": "//List[@AutomationId='BeaconingSearchGridView']/ListItem[contains(@Name, '{}')]"
+        }
+    },
+    "maximize_app":{
+        "locator": {
+            "id": "Maximize"
+        }
+    },
+    "driver_unavailable_btn":{
+        "locator": {
+            "id": "driverUnavailableBtn"
+        }
+    },
+    "printers_scanners_btn":{
+        "locator": {
+            "xpath": "//Button[@Name='Printers & scanners']/Text[@Name='Printers & scanners']"
+        }
+    },
+    "remove_and_add_printer_again_header":{
+        "locator": {
+            "id": "driverUnavailableHeader"
+        }
+    },
+    "circle1":{
+        "locator": {
+            "id": "Circle1"
+        }
+    },
+    "circle2":{
+        "locator": {
+            "id": "Circle2"
+        }
+    },
+    "circle3":{
+        "locator": {
+            "id": "Circle3"
+        }
+    },
+    "imagelaunch":{
+        "locator": {
+            "id": "ImageLaunch"
+        }
+    },
+    "remove_printer_text":{
+        "locator": {
+            "xpath": "//Text[@Name='Remove the printer']"
+        }
+    },
+    "add_printer_again_text":{
+        "locator": {
+            "xpath": "//Text[@Name='Add the printer again']"
+        }
+    },
+    "return_here_text":{
+        "locator": {
+            "xpath": "//Text[@Name='If the driver installs successfully, return here and select Continue']"
+        }
+    },
+    "visit_hp_support_text":{
+        "locator": {
+            "id": "driverUnavailableBody4"
+        }
+    },
+    "back_btn_on_remove_add_screen":{
+        "locator": {
+            "id": "backBtn"
+        }
+    },
+    "printers_and_scanners_btn_on_remove_screen":{
+        "locator": {
+            "id": "launchBtn"
+        }
+    },
+    "process_image":{
+        "locator": {
+            "id": "Spinner",
+            "xpath": "//Window[@Name='HP']/Image[2]"
+        }
+    },
+    "get_driver_info_text":{
+        "locator": {
+            "xpath": "//Text[contains(@Name,'Getting print driver information…')]"
+        }
+    },
+    "take_time_text":{
+        "locator": {
+            "xpath": "//Text[contains(@Name,'This might take a few minutes')]"
+        }
+    },
+    "auto_driver_installed":{
+        "locator": {
+            "xpath": "//Text[@Name='Print driver successfully installed']"
+        }
+    },
+    "done_image":{
+        "locator": {
+            "xpath": "//Window[@Name='HP']/Pane[1]/Image[1]"
+        }
+    },
+    "continue_btn":{
+        "locator": {
+            "xpath":"//Text[@Name='Print driver successfully installed']/following-sibling::Button[@Name='Continue']"
+        }
+    },
+    "connecting_to_printer_text":{
+        "locator": {
+            "xpath": "//Text[@Name='Connecting to the printer...']"
+        }
+    },
+    "finding_image":{
+        "locator": {
+            "id": "Spinner",
+            "xpath": "//Windows[@Name='HP']/Image[1]"
+        }
+    },
+    "finding_printer_text":{
+        "locator": {
+            "xpath": "//Text[contains(@Name,'Finding the printer')]"
+        }
+    },
+    "finding_time_text":{
+        "locator": {
+            "xpath": "//Text[@Name='This can take a couple of minutes, depending on your network speed.']"
+        }
+    },
+    "printers_loaded":{
+        "locator": {
+            "id": "TopBar2"
+        }
+    }
+}
+
+
+

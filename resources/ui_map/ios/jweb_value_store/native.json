@@ -1,0 +1,17 @@
+{
+  "get_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Get']"
+    }
+  },
+  "put_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Set']"
+    }
+  },
+  "remove_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Remove']"
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+    "onboarding_center_page":{
+        "locator":{"css selector":"[data-testid='mfe-content']"}
+    },
+    "landing_page_title":{
+        "locator":{"css selector":"[data-testid='landing-page-shortname']"}
+    },
+    "landing_page_description":{
+        "locator":{"css selector":"[data-testid='landing-page-description']"}
+    },
+    "landing_need_help_text":{
+        "locator":{"css selector":"[data-testid='landing-need-help-text']"}
+    },
+    "landing_page_image":{
+        "locator":{"css selector":"[data-testid='landing-page-image']"}
+    },
+    "homepage_logo_printer_series":{
+        "locator":{"css selector":"[data-testid='homepage-logo']"}
+    },
+    "setup_steps_content":{
+        "locator":{"css selector":"[data-testid='content-container']"}
+    },
+    "start_setup_button":{
+        "locator":{"css selector":"[data-testid='start-setup-button']"}
+    },
+    "watch_video_button":{
+        "locator":{"css selector":"[data-testid='watch-video-button']"}
+    },
+    "watch_video_modal":{
+        "locator":{"css selector":"[data-testid='watch-video-modal']"}
+    },
+    "three_tabs_header":{
+        "locator":{"css selector":"[aria-label='Tab Navigation']"}
+    },
+    "locale_selector_link":{
+        "locator":{"css selector":"[data-testid='locale-link']"}
+    },
+    "locale_selector_overlay":{
+        "locator":{"css selector":"[data-testid='language-selector-panel']"}
+    },
+    "default_region_flag":{
+        "locator":{"xpath":"//*[@data-testid='locale-link']/*"}
+    },
+    "language_region_selector":{
+        "locator":{"css selector":"[data-locale='{}']"}
+    },
+    "china_region_flag":{
+        "locator":{"xpath":"//*[@data-locale='ZH_CN']/*"}
+    },
+    "language_selector_close_btn":{
+        "locator":{"css selector":"[data-testid='language-selector-close-button']"}
+    },
+    "setup_tab":{
+        "locator":{"xpath":"//*[@id='0']"}
+    },
+    "learn_tab":{
+        "locator":{"xpath":"//*[@id='1']"}
+    },
+    "printer_features_btn":{
+        "locator":{"css selector":"[data-testid='redirect-to-learn-tab-button']"}
+    },
+    "printer_features_sidemenu":{
+        "locator":{"css selector":".B1nrRij6PobPBblZ65PF"}
+    },
+    "printer_hardware_title":{
+        "locator":{"css selector":"[data-testid='section-title']"}
+    },
+    "printer_hardware_content":{
+        "locator":{"css selector":"[data-testid='section-cards']"}
+    },
+    "printer_front_hardware_image":{
+        "locator":{"css selector":"[data-testid='card-img-cs6f17c3cff43349c3']"}
+    },
+    "printer_back_hardware_image":{
+        "locator":{"css selector":"[data-testid='card-img-cse84b02d608862b8e']"}
+    },
+    "do_not_use_usb_for_setup":{
+        "locator":{"css selector":"[data-testid='section-additional-info']"}
+    },
+    "control_panel_content":{
+        "locator":{"css selector":["[data-testid='section-cs20641779c0243efb']","[data-testid='card-content-cs3f5a021d82c32f27']", "[data-testid='card-content-csfda12aa92a0ac9b9']", "[data-testid='card-content-cs694017f401c48e2f']",
+                                    "[data-testid='card-content-cse84b02d608862b8e']", "[data-testid='card-content-cs8326f8419093710c']", "[data-testid='card-with-image-cs8326f8419093710c']","[data-testid='card-content-cs6540a590e53cde25']",
+                                    "[data-testid='card-content-csefdf2fb8d45c9f18'], [data-testid='card-content-cs6e787caaa2a716e7'], [data-testid='card-content-cs615a096aec9915ad']"]}
+    },
+    "control_panel_image":{
+        "locator":{"css selector":"[data-testid='card-img-cs6540a590e53cde25']"}
+    },
+    "printer_features_btn_sidemenu":{
+        "locator":{"css selector":"[data-testid='sidebar-option-1']"}
+    },
+    "hp_plus_and_instant_ink_sidemenu_btn":{
+        "locator":{"css selector":"[data-testid='sidebar-option-1-sub-option-1']"}
+    },
+    "hp_plus_benfits_requirments_tab":{
+        "locator":{"css selector":"[data-testid='section-cs92950a80b61a50f5']"}
+    },
+    "instant_ink_info_tab":{
+        "locator":{"xpath":"//*[contains(@class, 'HpPlusAndInstantInk')]"}
+    },
+    "learn_tab_hp_plus_instant_ink":{
+        "locator":{"xpath":"//*[@data-testid='subtab-key-1']/../.."}
+    },
+    "learn_tab_print_features_content":{
+        "locator":{"css selector":"#undefined-0"}
+    },
+    "learn_tab_instant_ink_content":{
+        "locator":{"css selector":"#undefined-1"}
+    },
+    "learn_tab_content":{
+        "comment":{"jira ticket":"https://hp-jira.external.hp.com/browse/OLEX-2348"},
+        "locator":{"css selector":"#HNF2FRG3AnuWex5a8qcq"}
+    },
+    "hp_support_button_tab":{
+        "locator":{"css selector":"[data-testid='hp_support_button_title']"}
+    },
+    "hp_support_product_page":{
+        "locator":{"css selector":"[data-testid='hp_support_link_0']"}
+    },
+    "help_initial_setup":{
+        "locator":{"css selector":"[data-testid='hp_support_link_1']"}
+    },
+    "get_help_btn":{
+        "locator":{"css selector":"[data-testid='redirect-to-get-help-tab-button']"}
+    },
+    "get_help_btn_sidemenu":{
+        "locator":{"css selector":"[data-testid='sidebar-option-2']"}
+    },
+    "get_help_tab":{
+        "comment":{"jira ticket":"https://hp-jira.external.hp.com/browse/OLEX-2348"},
+        "locator":{"css selector":"._l_dximTHwOhQSmYzis0"}
+    },
+    "get_help_connectivity_subtab_content":{
+        "locator":{"css selector":"[aria-controls='SwUnableToFindPrinter']"}
+    },
+    "software_unable_to_find_printer_drop_down":{
+        "locator":{"css selector":"[data-testid='accordion-section-cs79dac8fdcfdf3758']"}
+    },
+    "software_unable_to_find_printer_content":{
+        "locator":{"css selector":"[aria-controls='SwUnableToFindPrinter']"}
+    },
+    "stay_near_the_printer":{
+        "locator":{"css selector":"[aria-controls='StayNearThePrinter']"}
+    },
+    "stay_near_the_printer_content":{
+        "locator":{"css selector":"#StayNearThePrinter"}
+    },
+    "disconnect_from_vpn_drop_down":{
+        "locator":{"css selector":"[aria-controls='DisconnectFromVpn']"}
+    },
+    "disconnect_from_vpn_content":{
+        "locator":{"css selector":"#DisconnectFromVpn"}
+    },
+    "turn_on_bluetooth_and_location_drop_down":{
+        "locator":{"css selector":"[aria-controls='TurnOnBluetoothAndLocation']"}
+    },
+    "turn_on_bluetooth_and_location_content":{
+        "locator":{"css selector":"#TurnOnBluetoothAndLocation"}
+    },
+    "turn_on_wifi_during_setup":{
+        "locator":{"css selector":"[aria-controls='TurnOnComputerWifi']"}
+    },
+    "turn_on_wifi_during_setup_content":{
+        "locator":{"css selector":"#TurnOnComputerWifi"}
+    },
+    "get_help_hp_smart_installation":{
+        "locator":{"xpath":"//*[@id='1']/span/div"}
+    },
+    "get_help_connectivity":{
+        "locator":{"xpath":"//*[@id='0']/span/div"}
+    },
+    "get_help_hp_smart_installation_content":{
+        "locator":{"css selector":"[data-testid='accordion-section-cs49acc581e2463a33']"}
+    },
+    "supported_os_for_hp_smart":{
+        "locator":{"css selector":"[aria-controls='SupportedOsForHpSmart']"}
+    },
+    "supported_os_for_hp_smart_content":{
+        "locator":{"css selector":"[data-testid='accordion-install-hp-smart-cs7a87faba7d0fe479']"}
+    },
+    "install_on_windows_drop_down":{
+        "locator":{"css selector":"[aria-controls='InstallOnWindows']"}
+    },
+    "install_on_windows_content":{
+        "locator":{"css selector":"[data-testid='simple-accordion-csa30eea2daaee7a5a']"}
+    },
+    "install_on_macOS_drop_down":{
+        "locator":{"css selector":"[aria-controls='InstallOnMacOs']"}
+    },
+    "install_on_macOS_content":{
+        "locator":{"css selector":"[data-testid='simple-accordion-cs6088881728b971e0']"}
+    },
+    "install_on_mobile_drop_down":{
+        "locator":{"css selector":"[aria-controls='InstallOnMobile']"}
+    },
+    "install_on_mobile_content":{
+        "locator":{"css selector":"[data-testid='simple-accordion-cs67fd1063dd20d142']"}
+    },
+    "use_hp_smart_chromeos_drop_down":{
+        "locator":{"css selector":"[aria-controls='UseHpSmartWithChromeOs']"}
+    },
+    "use_hp_smart_chromeos_content":{
+        "locator":{"css selector":"[data-testid='simple-accordion-csaba097016005046b']"}
+    },
+    "subtab_hp_smart_installation_hp_smart_btn":{
+        "locator":{"css selector":"[data-testid='hp-smart-installation-button']"}
+    },
+    "hp_plus_url":{
+        "locator":{"css selector":"[href='https://hp.com/plus/']"}
+    },
+    "instant_ink_url":{
+        "locator":{"css selector":"[href='https://instantink.com/']"}
+    },
+    "watch_video_subtitle":{
+        "locator":{"css selector":".vn-modal--footer"}
+    },
+    "watch_video_modal_close_button":{
+        "locator":{"css selector":".vn-modal__close"}
+    },
+    "view_animations_button":{
+        "locator":{"css selector":"[data-testid='animations']"}
+    },
+    "sidebar":{
+        "locator":{"css selector":"[data-testid='sidebar']"}
+    },
+    "access_delta_program_security_word":{
+        "locator":{"css selector":"input#error-text-box"}
+    },
+    "footer":{
+        "locator":{"css selector":"[data-testid='footer']"}
+    },
+    "next_button_label":{
+        "locator":{"css selector":"[data-testid='Next']"}
+    },
+    "back_button_label":{
+        "locator":{"css selector":"[data-testid='Back']"}
+    },
+    "carasoul_slider":{
+        "locator":{"css selector":".slider-list"}
+    },
+    "animation_card_next_arrow":{
+        "locator":{"css selector":"[data-testid='next']"}
+    },
+    "animation_card_prev_arrow":{
+        "locator":{"css selector":"[data-testid='prev']"}
+    },
+    "already_completed_step_btn":{
+        "locator":{"css selector":"[data-testid='skip']"}
+    },
+    "go_btn":{
+        "locator":{"css selector":"#go_button"}
+    },
+    "veneer_stepper":{
+        "locator":{"css selector":"[data-testid='sidebar-option-0-stepper']"}
+    },
+    "veneer_step_1":{
+        "comment":{"jira ticket":"https://hp-jira.external.hp.com/browse/ONBP-2834"},
+        "locator":{"css selector":".css-1e1q74q"},
+        "localization":{"en":"Language and Country/Region"}
+    },
+    "veneer_step_1_current":{
+        "locator":{"css selector":"[aria-label='Step 1 (Current Step)']"}
+    },
+    "veneer_step_2_current":{
+        "locator":{"css selector":"[aria-label='Step 2 (Current Step)']"}
+    },
+    "veneer_step_3_current":{
+        "locator":{"css selector":"[aria-label='Step 3 (Current Step)']"}
+    },
+    "veneer_step_4_current":{
+        "locator":{"css selector":"[aria-label='Step 4 (Current Step)']"}
+    },
+    "veneer_step_5_current":{
+        "locator":{"css selector":"[aria-label='Step 5 (Current Step)']"}
+    },
+    "veneer_step_6_current":{
+        "locator":{"css selector":"[aria-label='Step 6 (Current Step)']"}
+    },
+    "veneer_step_7_current":{
+        "locator":{"css selector":"[aria-label='Step 7 (Current Step)']"}
+    },
+    "veneer_stepper_step_1":{
+        "locator":{"css selector":"[aria-label='Go to step 1']"}
+    },
+    "veneer_stepper_step_2":{
+        "locator":{"css selector":"[aria-label='Go to step 2']"}
+    },
+    "veneer_stepper_step_3":{
+        "locator":{"css selector":"[aria-label='Go to step 3']"}
+    },
+    "veneer_stepper_step_4":{
+        "locator":{"css selector":"[aria-label='Go to step 4']"}
+    },
+    "carasoul_dot_0":{
+        "locator":{"css selector":"[data-testid='dot-0-current']"}
+    },
+    "carasoul_dot_1":{
+        "locator":{"css selector":"[data-testid='dot-1-current']"}
+    },
+    "carasoul_dot_2":{
+        "locator":{"css selector":"[data-testid='dot-2-current']"}
+    },
+    "carasoul_dot_3":{
+        "locator":{"css selector":"[data-testid='dot-3-current']"}
+    },
+    "carasoul_dot_4":{
+        "locator":{"css selector":"[data-testid='dot-4-current']"}
+    },
+    "carasoul_dot_5":{
+        "locator":{"css selector":"[data-testid='dot-5-current']"}
+    },
+    "continue_online_setup_btn":{
+        "locator":{"css selector":"[data-testid='web-flow-button']"}
+    },
+    "install_hp_smart_btn":{
+        "locator":{"css selector":"[data-testid='123*flow-button']"}
+    },
+    "connect_printer_to_network":{
+        "locator":{"css selector":"[data-testid='main-content']"}
+    },
+    "already_connected_to_the_network_btn":{
+        "locator":{"css selector":"[data-testid='already-connected-button']"}
+    },
+    "review_hp_plus_printer_benefits":{
+        "locator":{"css selector":["[data-testid='benefits'","[data-testid='benefits-link']"]}
+    },
+    "hp_plus_modal_benefits_overlay":{
+        "locator":{"css selector":"[data-testid='modal-benefits']"}
+    },
+    "supported_countries":{
+        "locator":{"css selector":"[data-testid='supported countries']"}
+    },
+    "supported_countries_hyperlink":{
+        "locator":{"css selector":"[target='_self']"}
+    },
+    "close_bnefits_overlay_modal_btn":{
+        "locator":{"css selector":".vn-modal__close"}
+    },
+    "activate_hp_plus":{
+        "locator":{"css selector":"[data-testid='activate-hp-plus']"}
+    },
+    "printer_dynamic_security_notice":{
+        "locator":{"css selector":".vn-modal--content"}
+    },
+    "printer_dynamic_security_notice_ok_btn":{
+        "locator":{"css selector":"[data-testid='pdsn-continue']"}
+    },
+    "printer_dynamic_back_to_offer":{
+        "locator":{"css selector":"[data-testid='pdsn-close']"}
+    },
+    "fw_update_choice_modal":{
+        "locator":{"css selector":"[data-testid='firmware-update-choice']"}
+    },
+    "Auto_update_radio_btn":{
+        "locator":{"css selector":"[data-testid='auto']"}
+    },
+    "apply_btn_fw_update_choice_page":{
+        "locator":{"css selector":"[data-testid='btn-apply']"}
+    },
+    "unable_to_find_setup_instructions_header":{
+        "locator":{"css selector":"[data-testid='main-title']"}
+    },
+    "unable_to_find_setup_instructions_subheader":{
+        "locator":{"css selector":"[data-testid='sub-title']"}
+    },
+    "unable_to_find_setup_instructions_start_setup_btn":{
+        "locator":{"css selector":"[data-testid='start-setup-button']"}
+    },
+    "unable_to_find_setup_instructions_tips_and_links":{
+        "locator":{"css selector":"[data-testid='tips-and-links']"}
+    },
+    "unable_to_find_setup_instructions_image":{
+        "locator":{"css selector":"[data-testid='landing-page-image']"}
+    },
+    "go_to_123_if_issues":{
+        "locator":{"css selector":"[data-testid='123-link']"}
+    },
+    "hp_support_url":{
+        "locator":{"css selector":"[href='https://www.hp.com/support']"}
+    }
+}

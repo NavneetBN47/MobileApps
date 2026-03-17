@@ -1,0 +1,17 @@
+{
+  "enforce_navigation_whitelist_toggle": {
+    "locator": {
+      "css selector": "#enforceNavigationWhitelist"
+    }
+  },
+  "clear_cookies_btn": {
+    "locator": {
+      "css selector": "#clearCookiesButton"
+    }
+  },
+  "service_routing_stack_menu": {
+    "locator": {
+      "css selector": "#serviceRoutingStack"
+    }
+  }
+}

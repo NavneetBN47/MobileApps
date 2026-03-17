@@ -1,0 +1,187 @@
+{
+  "settings_back_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Settings']"
+    }
+  },
+  "data_collection_back_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Jarvis Data Collection']"
+    }
+  },
+  "use_custom_metadata_values_switch": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[contains(@name, 'shouldUseCustomMetadata')]"
+    }
+  },
+  "data_valve_stack_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@name,'dataValveStack')]"
+    }
+  },
+  "stack_option_button": {
+    "locator": {
+      "xpath": "//*[contains(@name, '{}')]"
+    }
+  },
+  "mock_option_switch": {
+    "locator": {
+      "xpath":"//XCUIElementTypeSwitch[@label='Mock Valve Controller']"
+    }
+  },
+  "opened_stack_list_button": {
+    "locator": {
+        "xpath": "//XCUIElementTypeButton[@name='com.hp.jarvis.datacollection.example.dataValveStack']"
+    }
+  },
+  "ios_settings_value_store": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@label='Use custom Value Store values']"
+    }
+  },
+  "allow_batch_switch": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@label='Allow batch']"
+    }
+  },
+  "ios_settings_vs_app_instance_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@name='com.hp.jarvis.datacollection.example.valueStoreAppInstanceId']"
+    }
+  },
+  "ios_settings_vs_consent_basis_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@name='com.hp.jarvis.datacollection.example.valueStoreConsentBasisID']"
+    }
+  },
+  "ios_settings_vs_stratus_user_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@name='com.hp.jarvis.datacollection.example.valueStoreStratusUserId']"
+    }
+  },
+  "ios_settings_vs_account_login_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@name='com.hp.jarvis.datacollection.example.valueStoreAccountLoginId']"
+    }
+  },
+  "ios_settings_vs_tenant_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@name='com.hp.jarvis.datacollection.example.valueStoreTenantId']"
+    }
+  },
+  "ios_data_ingress_btn":{
+    "locator": {      
+      "xpath": "//XCUIElementTypeSegmentedControl[@type='XCUIElementTypeSegmentedControl']/XCUIElementTypeButton[@label='Data Ingress']"
+    }
+  },
+  "data_ingress_status_code": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell//XCUIElementTypeStaticText[@label='{}']"
+    }
+  },
+  "verbose_log_switch": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[contains(@name, 'enableVerboseLogging')]"
+    }
+  },
+  "settings_app_instance_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@name='com.hp.jarvis.datacollection.example.appInstanceIdValue']"
+    }
+  },
+  "allow_queue_switch": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[contains(@name, 'allowQueue')]"
+    }
+  },
+  "keyboard_element": {
+    "locator": {
+      "xpath": "//XCUIElementTypeKeyboard"
+    }
+  },
+  "use_custom_batching_parameters":{
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[contains(@name, 'shouldUseCustomBatching')]"
+    }
+  },
+  "ios_settings_device_id":{
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@name='com.hp.jarvis.datacollection.example.deviceId']"
+    }
+  },
+  "maximum_event_count":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='Maximum event count']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "minimum_event_count":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='Minimum event count']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "maximum_event_age_in_seconds":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='Maximum event age (in seconds)']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "send_multiple_event":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='sendMultipleEvent']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "keyboard_element_3":{
+    "locator": {
+      "xpath": "//XCUIElementTypeKey[@name='3']"
+    }
+  },
+  "keyboard_element_6":{
+    "locator": {
+      "xpath": "//XCUIElementTypeKey[@name='6']"
+    }
+  },
+  "send_multiple_event_toggle_btn":{
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[.//XCUIElementTypeTextField][.//XCUIElementTypeStaticText[@value='sendMultipleEvent']]//XCUIElementTypeSwitch"
+    }
+  },
+  "keyboard_element_2":{
+    "locator": {
+      "xpath": "//XCUIElementTypeKey[@name='2']"
+    }
+  },
+  "keyboard_element_5":{
+    "locator": {
+      "xpath": "//XCUIElementTypeKey[@name='5']"
+    }
+  },
+  "keyboard_element_0":{
+    "locator": {
+      "xpath": "//XCUIElementTypeKey[@name='0']"
+    }
+  },
+  "keyboard_element_1":{
+    "locator": {
+      "xpath": "//XCUIElementTypeKey[@name='1']"
+    }
+  },
+  "cdm_empty_gun_textbox":{
+    "locator": {
+      "xpath":"//XCUIElementTypeTextField[contains(@value,'Tree Gun')]"
+    }
+  },
+  "asset_unit_menu_selector":{
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[contains(@name,'assetUnit')]"
+    }
+  },
+  "asset_unit":{
+    "locator": {
+      "xpath":"//XCUIElementTypeCell[contains(@name,'{}')]"
+    }
+  },
+  "navigation_back_btn":{
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[contains(@name,'Jarvis Data Collection')]"
+    }
+  }
+}

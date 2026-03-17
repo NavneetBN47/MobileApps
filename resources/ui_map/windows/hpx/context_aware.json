@@ -1,0 +1,232 @@
+{
+    "add_application_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Add_Application_Button"
+        }
+    },
+    "all_applications_icon": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Select_AllApplications_Button"
+        }
+    },
+    "add_application_dialog_close_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_CloseAppDialog"
+        }
+    },
+    "add_application_search_application_textbox": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_SearchApplication"
+        }
+    },
+    "add_application_add_applications_text": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_Applications"
+        }
+    },
+    "add_application_search_icon": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_SearchIcon"
+        }
+    },
+    "add_application_item": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_AppItem"
+        }
+    },
+    "add_application_cancel_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_CancelButton"
+        }
+    },
+    "add_application_add_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_AddButton"
+        }
+    },
+    "select_application_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Select_Application_Button"
+        }
+    },
+    "delete_application_close_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_CloseDeleteAppModal"
+        }
+    },
+    "delete_application_text": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_DeleteModal_TitleTextView"
+        }
+    },
+    "delete_application_donotshowagain_checkbox": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_DeleteModal_DoNotShowAgain_Checkbox"
+        }
+    },
+    "delete_application_cancel_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Cancel_Button"
+        }
+    },
+    "delete_application_continue_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Continue_Button"
+        }
+    },
+    "scroll_applications_left_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Scroll_Left_Button"
+        }
+    },
+    "scroll_applications_right_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Scroll_Right_Button"
+        }
+    },
+    "calculator": {
+        "locator": {
+            "name": "Calculator"
+        }
+    },
+    "delete_application_button_calculator": {
+        "locator": {
+            "name": "Delete Application_Calculator"
+        }
+    },
+    "calendar": {
+        "locator": {
+            "name": "Calendar"
+        }
+    },
+    "delete_application_button_calendar": {
+        "locator": {
+            "name": "Delete Application_Calendar"
+        }
+    },
+    "camera": {
+        "locator": {
+            "name": "Camera"
+        }
+    },
+    "delete_application_button_camera": {
+        "locator": {
+            "name": "Delete Application_Camera"
+        }
+    },
+    "notepad": {
+        "locator": {
+            "name": "Notepad"
+        }
+    },
+    "delete_application_button_notepad": {
+        "locator": {
+            "name": "Delete Application_Notepad"
+        }
+    },
+    "settings": {
+        "locator": {
+            "name": "Settings"
+        }
+    },
+    "delete_application_button_settings": {
+        "locator": {
+            "name": "Delete Application_Settings"
+        }
+    },
+    "clock": {
+        "locator": {
+            "name": "Clock"
+        }
+    },
+    "delete_application_button_clock": {
+        "locator": {
+            "name": "Delete Application_Clock"
+        }
+    },
+    "paint": {
+        "locator": {
+            "name": "Paint"
+        }
+    },
+    "delete_application_button_paint": {
+        "locator": {
+            "name": "Delete Application_Paint"
+        }
+    },
+    "wordpad": {
+        "locator": {
+            "name": "Wordpad"
+        }
+    },
+    "delete_application_button_wordpad": {
+        "locator": {
+            "name": "Delete Application_Wordpad"
+        }
+    },
+    "magnify": {
+        "locator": {
+            "name": "Magnify"
+        }
+    },
+    "delete_application_button_magnify": {
+        "locator": {
+            "name": "Delete Application_Magnify"
+        }
+    },
+    "narrator": {
+        "locator": {
+            "name": "Narrator"
+        }
+    },
+    "delete_application_button_narrator": {
+        "locator": {
+            "name": "Delete Application_Narrator"
+        }
+    },
+    "disney+": {
+        "locator": {
+            "name": "Disney+"
+        }
+    },
+    "delete_application_button_disney+": {
+        "locator": {
+            "name": "Delete Application_Disney+"
+        }
+    },
+    "tencent": {
+        "locator": {
+            "name": "腾讯视频"
+        }
+    },
+    "delete_application_button_tencent": {
+        "locator": {
+            "name": "Delete Application_腾讯视频"
+        }
+    },
+    "iqiyi": {
+        "locator": {
+            "name": "爱奇艺"
+        }
+    },
+    "delete_application_button_iqiyi": {
+        "locator": {
+            "name": "Delete Application_爱奇艺"
+        }
+    },
+    "access": {
+        "locator": {
+            "name": "Access"
+        }
+    },
+    "privacy_setting": {
+        "locator": {
+            "name": "HP Privacy Settings"
+        }
+    },
+    "delete_application_button_privacy_setting": {
+        "locator": {
+            "name": "Delete Application_HP Privacy Settings"
+        }
+    }
+}

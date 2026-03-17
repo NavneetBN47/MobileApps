@@ -1,0 +1,20 @@
+{
+  "menu_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Toggle Menu']"
+    }
+  },
+
+  "expand_plugins_menu_btn": {
+    "locator": {
+      "name": "Plugins",
+      "xpath": "//XCUIElementTypeStaticText[@value='Plugins']"
+    }
+  },
+
+  "plugin_item": {
+    "locator": {
+      "name": "{}"
+    }
+  }
+}

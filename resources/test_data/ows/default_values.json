@@ -1,0 +1,19 @@
+{
+    "Device": {
+
+    },
+    "APAF": {
+
+    },
+    "DEV":  {
+        "dev_gemini_moobe_url_textbox": {
+            "pie": "https://instantink-pie1.hpconnectedpie.com",
+            "stage": "https://instantink-stage1.hpconnectedstage.com"
+        },
+        "dev_oss_url_textbox": {
+            "pie": "https://oss.hpconnectedpie.com",
+            "stage": "https://oss.hpconnectedstage.com"
+        },
+        "dev_fresh_install_checkbox": true
+    }
+}

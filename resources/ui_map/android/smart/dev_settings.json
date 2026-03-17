@@ -1,0 +1,93 @@
+{
+    "server_stack_cell":{
+        "_comment": "use xpath for 2 conditions because there are 2 elements with the same 'Server Stack' value",
+        "locator": {"xpath": "//android.widget.TextView[@text = '{}' and ../android.widget.TextView[@resource-id = 'android:id/summary']]"}
+    },
+    "web_app_stack_txt":{
+        "locator": {"str_id": "webapps_stack_selection_title"}
+    },
+    "webapps_stack_pie":{
+        "locator": {"str_id": "webapps_stack_pie"}
+    },
+    "webapps_stack_stage":{
+        "locator": {"str_id": "webapps_stack_stage"}
+    },
+    "webapps_stack_prod":{
+        "locator": {"str_id": "webapps_stack_prod"}
+    },
+    "server_stack_txt":{
+        "locator":{"str_id": "jwocky_debug_server_stacks"}
+    },
+    "pie_stack_cb":{
+        "locator": {"str_id": "jwocky_server_stack_pie1"}
+    },
+    "stage_stack_cb":{
+        "locator": {"str_id": "jwocky_server_stack_stage1"}
+    },
+    "production_stack_cb":{
+        "locator":{"str_id": "jwocky_server_stack_prod"}
+    },
+    "authz_credentials_txt": {
+        "locator": {"str_id": "hpc_authz_2_pref_title"}
+    },
+    "detect_leaks_txt":{
+        "locator": {"str_id": "skel_leak_canary_enable_title"}
+    },
+    "toggle_switch":{
+        "locator": {"xpath": "//android.widget.Switch[@resource-id = 'com.hp.printercontrol.debug:id/switchWidget' and ../../android.widget.RelativeLayout/android.widget.TextView[@text = '{}']]"}
+    },
+    "search_btn": {
+        "locator": {"id": "app_bar_search"}
+    },
+    "search_txtbox": {
+        "locator": {"id": "search_src_text"}
+    },
+    "log_unloggables_txt": {
+        "locator": {"str_id": "skel_pref_title_log_unloggables"}
+    },
+    "shortened_token_lifespan": {
+        "locator": {"str_id": "hpc_pref_title_short_life_token"}
+    },
+    "delete_account_title": {
+        "locator": {"str_id": "debug_enable_delete_account_title"}
+  },
+    "duplex_photo_printing_title": {
+        "locator": {"str_id": "debug_settings_enable_creative_duplex_title"}
+    },
+    "enable_mfe_flow_title": {
+        "locator": {"str_id": "pref_key_mfe_flow_enabled_title"}
+    },
+    "enable_mfe_flow_activities_nav_title": {
+        "locator": {"str_id": "pref_key_mfe_flow_activities_nav_title"}
+    },
+    "enable_hpx_ui_style":{
+        "locator": {"str_id": "debug_settings_hpx_ui_style_description"}
+    },
+    "enable_hpx_print_ui_style":{
+        "locator": {"str_id": "debug_settings_hpx_print_ui_style_description"}
+    },
+    "enable_hpx_consents_reskin_ui_style":{
+        "locator": {"str_id": "debug_settings_hpx_consent_reskin_description"}
+    },
+    "enable_oobe_reskin_ui_style":{
+        "locator": {"str_id": "debug_settings_oobe_reskin_ui_style_description"}
+    },
+    "enable_becon_flow_reskin_ui_style":{
+        "locator": {"str_id": "debug_settings_reset_beacon_flow_reskin_ui_style"}
+    },
+    "enable_formadjr_theme": {
+        "locator": {"str_id": "debug_pref_formadjr_title"}
+    },
+    "hpx_od_clientid": {
+        "locator": {"str_id": "debug_settings_hpx_od_client_id"}
+    },
+    "hpx_ows_clientid": {
+        "locator": {"str_id": "debug_settings_hpx_ows_client_id"}
+    },
+    "mns_hpx_clientid": {
+        "locator": {"str_id": "debug_settings_mns_hpx_client_id"}
+    },
+    "enable_hpx_shorcuts_web_solution": {
+        "locator": {"str_id": "debug_settings_enable_hpx_shortcuts_web_solution_title"}
+    }
+}

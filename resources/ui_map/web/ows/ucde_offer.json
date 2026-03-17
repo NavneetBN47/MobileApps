@@ -1,0 +1,119 @@
+{
+    "offer_page_div":{
+        "locator": {
+            "css selector": "div.offer-header",
+            "xpath": "//Text[@Name='Activate HP+ for smart printing capabilities']"
+        }
+    },
+    "offer_page_continue_btn":{
+        "locator": {
+            "css selector": "button[event-id='continue']",
+            "xpath": ["//button[contains(@event-id, 'continue')]","//button[@Name='Continue']"]
+        }
+    },
+    "hp_plus_offer_page_footer":{
+        "locator":{"css selector":"div.hp-plus-offer-footer"}
+    },
+    "requirement_popup_div":{
+        "locator": {
+            "css selector": "div.modal"
+        }
+    },
+    "requirement_popup_continue_btn":{
+        "locator": {
+            "id": "btn-ok"
+        }
+    },
+    "requirement_popup_scroll_div":{
+        "locator": {
+            "css selector": "div.ucde-modal-body"
+        }
+    },
+    "hp_plus_offer_page":{
+        "locator": {
+            "css selector": ".hp-plus-offer-container"
+        }
+    },
+    "hp_plus_offer_page_activate_btn":{
+        "locator": {
+            "css selector": "[event-id='activate']"
+        }
+    },
+    "flex_sign_in_btn":{
+        "locator": {
+            "css selector": "button[event-id='sign-in']"
+        }
+    },
+    "printer_dynamic_security_notice":{
+        "locator": {
+            "css selector": ".dynamic-security-notice-content"
+        }
+    },
+    "printer_dynamic_security_notice_continue_btn":{
+        "locator": {
+            "css selector": "button[event-id='dynamic-security-notice-hp+']"
+        }
+    },
+    "back_to_offer_btn":{
+        "locator": {
+            "css selector": "button[event-id='back-to-offer']"
+        }
+    },
+    "decline_offer_btn":{
+        "locator": {
+            "css selector": ["button[event-id='decline']", ".hp-plus-offer-first-button.hp-plus-offer-button.btn-enabled.btn-tertiary.ng-binding.ng-scope.ng-isolate-scope"],
+            "xpath": "//button[@Name='Do Not Activate HP+']"
+        }
+    },
+    "decline_account_btn":{
+        "locator": {
+            "css selector": "button[event-id='decline-account']"
+        }
+    },
+    "decline_popup":{
+        "locator": {
+            "css selector": "div#decline-overlay"
+        }
+    },
+    "decline_hp+_btn":{
+        "locator": {
+            "css selector": "button[event-id='decline-hp+']",
+            "xpath": "//button[@Name='Decline HP+']"
+        }
+    },
+    "decline_popup_back_to_offer_btn": {
+        "locator": {
+            "css selector": "button[event-id='back-to-offer']"
+        }
+    },
+    "requirements_content": {
+        "locator":{
+            "css selector": "div.requirements-content",
+            "xpath":"//Text[@Name='By activating HP+, you agree to the following requirements']"
+        }
+    },
+    "requirements_footer_continue_back_btn":{
+        "locator":{"css selector":".requirements-footer",
+                   "xpath": "//Button[@Name='Back']"}
+    },
+    "hp_plus_benefits_page":{
+        "locator":{"css selector":".program-offer-feature-enabled"
+        }
+    },
+    "learn_more_btn":{
+        "locator":{"css selector":"[event-id='learn-more']"
+        }
+    },
+    "learn_more_page":{
+        "locator":{"css selector":".learn-more-container"
+        }
+    },
+    "learn_more_back_btn":{
+        "locator":{"css selector":".btn-enabled.btn-secondary.ng-binding"
+        }
+    },
+    "confirm_button":{
+        "locator":{"css selector":"#btn-ok",
+                   "id": "btn-ok"}
+        }
+    }

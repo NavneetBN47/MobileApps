@@ -1,0 +1,86 @@
+{
+    "error_modal":{
+        "locator":{"css selector":["[data-testid='error-modal']", "[data-testid='generic-activation-error-modal']", "[data-testid='scan-activation-error-modal']",
+        "[data-testid='pairing-token-error-modal']", "[data-testid='retry-generic-activation-error-modal']"]}
+    },
+    "scan_to_email_not_enable_error_modal":{
+        "locator":{"css selector":"[data-testid='scan-activation-error-modal']"}
+    },
+    "hp_plus_support":{
+        "locator":{"css selector":"[data-testid='modal-primary-button']"}
+    },
+    "invalid_pairing_code":{
+        "locator":{"css selector":["#setup-print-desc","[data-testid='pairing-code-error']", "[data-testid='error-message']"]}
+    },
+    "incorrect_flow_model":{
+        "locator":{"css selector":".css-nyn3zr"}
+    },
+    "incorrect_modal_change_setup_btn":{
+        "locator":{"xpath":"(//button[@class='css-nyn3zr'])[2]"}
+    },
+    "incorrect_modal_try_again_btn":{
+        "locator":{"css selector":["[data-testid='modal-secondary-button']", ".css-1k51f1o"]}
+    },
+    "Unable_to_pair_error_modal":{
+        "locator":{"css selector":"[aria-describedby='error-modal-desc']"}
+    },
+    "issue_connecting_printer":{
+        "locator":{"css selector":"[aria-labelledby='error-modal-label']"}
+    },
+    "header":{
+        "locator":{"css selector":["#error-modal-label", ".vn-modal--title.css-hy5x4r"]}
+    },
+    "body":{
+        "locator":{"xpath":["//*[@id='error-modal-desc']/div/div[1]","#error-modal-desc"]}
+    },
+    "unable_to_activate_hp_plus_support_link":{
+        "locator":{"css selector":"a[href='https://support.hp.com/us-en/help/hp-plus?openCLC=true']"}
+    },
+    "paring_code_too_manay_attempts_error":{
+        "locator":{"css selector":"[data-testid='too-many-attempts-modal']"}
+    },
+    "paring_code_too_manay_attempts_error_description":{
+        "locator":{"css selector":["#error-modal-desc", "[data-testid='error-code-container']"]}
+    },
+    "activation_error_overlay":{
+        "locator":{"css selector":["[aria-describedby='error-modal-desc']",".vn-modal--content"]}
+    },
+    "try_again_btn":{
+        "locator":{"css selector":["[data-testid='try-again']", "[data-testid='modal-primary-button']"]}
+    },
+    "primary_button_text":{
+        "comment":{"duplicate_id":"This is to match translation id with the text on the"},
+        "locator":{"css selector":"[data-testid='modal-primary-button']"}
+    },
+    "secondary_button_text":{
+        "comment":{"duplicate_id":"This is to match translation id with the text on the"},
+        "locator":{"css selector":"[data-testid='modal-secondary-button']"}
+    },
+    "cancel_and_setup_manually":{
+        "locator":{"css selector":["[data-testid='reconsider']","[data-testid='modal-secondary-button']"]}
+    },
+    "are_you_sure_cancel_web_based_onboarding":{
+        "locator":{"css selector":"[aria-describedby='reconsider-modal-desc']"}
+    },
+    "are_you_sure_web_based_onboarding_modal_cancel_btn":{
+        "locator":{"css selector":"[data-testid='exit-flow']"}
+    },
+    "are_you_sure_web_based_onboarding_modal_continue_btn":{
+        "locator":{"css selector":"[data-testid='hide-reconsider']"}
+    },
+    "language_selector_dropbox":{
+        "locator":{"css selector":"[data-testid='unsupported-locale-select']"}
+    },
+    "unsupported_language_modal_header":{
+        "locator":{"css selector":".vn-modal--title.css-hy5x4r"}
+    },
+    "unsupported_language_modal_continue_btn":{
+        "locator":{"xpath":"//button[@data-testid='modal-primary-button' and contains(@class, 'css-nyn3zr')]"}
+    },
+    "language_from_dropbox":{
+        "locator":{"css selector":"[data-value='{}']"}
+    },
+    "select_a_differnet_language_dropdown_list":{
+        "locator":{"css selector":"#select-usage-listbox"}
+    }
+}

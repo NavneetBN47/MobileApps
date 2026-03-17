@@ -1,0 +1,27 @@
+{
+  "service_routing_tab_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@label='Service Routing']"
+    }
+  },
+  "weblet_tab_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@label='Weblet']"
+    }
+  },
+  "settings_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@label='Settings']"
+    }
+  },
+  "change_stack_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[contains(@label, 'Stack')]"
+    }
+  },
+  "stack_option": {
+    "locator": {
+      "xpath":"//XCUIElementTypeCell[@label='{}']"
+    }
+  }
+}

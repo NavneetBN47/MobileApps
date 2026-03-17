@@ -1,0 +1,48 @@
+{
+    "weblet_btn": {
+      "locator": {
+          "name": "Weblet"
+      }
+    },
+    "webview1_edge_engine": {
+      "locator": {
+        "name": "WebView1 (Default)"
+      }
+    },
+    "webview2_chromium_engine": {
+      "locator": {
+        "name": "WebView2"
+      }
+    },
+    "jweb_reference_btn": {
+      "locator": {
+        "name": "JWeb Ref"
+      }
+    },
+    "url_go_btn": {
+        "locator": {
+          "name": "Go"
+        }
+      },
+    "menu_btn": {
+      "locator": {
+        "xpath": "//Group[@AutomationId='jwebSideMenu']"
+      }
+    },
+    "expand_plugins_menu_btn": {
+      "locator": {
+        "name": "Plugins",
+        "xpath": "//ListItem[@AutomationId='pluginsSideMenuItem']"
+      }
+    },
+    "plugin_item": {
+      "locator": {
+        "xpath": "//ListItem[@Name='{}']"
+      }
+    },
+    "nav_back_btn": {
+      "locator": {
+        "xpath":"//Window[@ClassName='ApplicationFrameWindow']"
+      }
+    }
+  }

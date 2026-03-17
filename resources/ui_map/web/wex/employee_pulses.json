@@ -1,0 +1,173 @@
+{
+    "pulses_page_breadcrumb":{
+        "locator": {
+            "css selector": "[id='Employee Engagement'] [aria-current='page']"
+        }
+    },
+    "pulses_page_create_pulse_button":{
+        "locator": {
+            "css selector": ["#action_button", "div[class*='table-left-buttons'] button"]
+        }
+    },
+    "pulses_page_create_pulse_from_scratch_button":{
+        "locator": {
+            "css selector": "div[id='pulse-template-tile-icon-CREATE_FROM_SCRATCH']"
+        }
+    },
+    "custom_pulse_page_pulses_breadcrumb":{
+        "locator": {
+            "css selector": "nav[aria-label='breadcrumbs'] a[href='/ui/view/pulses']"
+        },
+        "localization": {
+            "en": "Pulses"
+        }
+    },
+    "pulses_page_create_pulse_custom_pulse_page":{
+        "locator": {
+            "css selector": "[id='createPulseSurvey'] [aria-current='page']"
+        },
+        "localization": {
+            "en": "Custom Pulse"
+        }
+    },
+    "pulses_page_create_pulse_custom_pulse_header":{
+        "locator": {
+            "css selector": "div[data-testid='wex-summary-card'] h3 div>div>div"
+        }
+    },
+    "pulses_page_sentiment_pulse_button":{
+        "locator": {
+            "css selector": "#sentiment-pulse"
+        }
+    },
+    "pulses_page_leave_page_popup_leave_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Leave')]"
+        }
+    },
+    "pulses_page_pulses_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "pulses_page_edit_pulse_button":{
+        "locator": {
+            "css selector": "div[id='action_button'] #btn_pulse_edit"
+        }
+    },
+    "pulses_page_duplicate_pulse_button":{
+        "locator": {
+            "css selector": "div[id='action_button'] #btn_pulse_duplicate"
+        }
+    },
+    "pulses_page_duplicate_pulse_popup_title":{
+        "locator": {
+            "css selector": "#pulse-modal-label"
+        }
+    },
+    "pulses_page_duplicate_pulse_popup_cancel_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Cancel')]"
+        }
+    },
+    "pulses_page_delete_pulse_button":{
+        "locator": {
+            "css selector": "div[id='action_button'] #btn_pulse_delete"
+        }
+    },
+    "pulses_page_delete_pulse_popup_title":{
+        "locator": {
+            "css selector": "#pulse-modal-label"
+        }
+    },
+    "pulses_page_delete_pulse_popup_cancel_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Cancel')]"
+        }
+    },
+    "pulses_page_delete_pulse_popup_delete_button":{
+        "locator": {
+            "css selector": "#pulse-modal+div[class*='footer'] button:nth-child(1)"
+        }
+    },
+    "pulse_deleted_toast_msg":{
+        "locator": {
+            "css selector": "div[role='alert'] div:nth-child(1)"
+        }
+    },
+    "pulses_page_create_custom_pulse_button":{
+        "locator": {
+            "css selector": "div[data-testid='wex_menu_item_custom_pulse']"
+        }
+    },
+    "pulses_page_create_sentiment_pulse_button":{
+        "locator": {
+            "css selector": "div[data-testid='wex_menu_item_sentiment_pulse']"
+        }
+    },
+    "pulses_page_custom_pulses_table_checkbox":{
+        "locator": {
+            "xpath": "//tr[.//a[contains(text(),'{}')]]/td[1]//label"
+        }
+    },
+    "pulses_page_sentiment_pulses_table_checkbox":{
+        "locator": {
+            "xpath": "//tr[.//a[contains(text(),'{}')]]/td[1]//label"
+        }
+    },
+    "create_custom_pulse_page_content_tab":{
+        "locator": {
+            "css selector": "#content"
+        }
+    },
+    "create_custom_pulse_page_schedule_tab":{
+        "locator": {
+            "css selector": "#schedule"
+        }
+    },
+    "create_custom_pulse_page_audience_tab":{
+        "locator": {
+            "css selector": "#audience"
+        }
+    },
+    "create_custom_pulse_page_edit_button":{
+        "locator": {
+            "css selector": "span[class*='new-custom-pulse-title-edit-icon']"
+        }
+    },
+    "create_custom_pulse_page_pulse_name_input":{
+        "locator": {
+            "css selector": "div[class*='new-custom-pulse-title-head']"
+        }
+    },
+    "pulses_page_create_pulse_sentiment_pulse_page":{
+        "locator": {
+            "css selector": "[id='createPulseSurvey'] [aria-current='page']"
+        }
+    },
+    "create_sentiment_pulse_page_content_tab":{
+        "locator": {
+            "css selector": "#content"
+        }
+    },
+    "create_sentiment_pulse_page_schedule_tab":{
+        "locator": {
+            "css selector": "#schedule"
+        }
+    },
+    "create_sentiment_pulse_page_audience_tab":{
+        "locator": {
+            "css selector": "#audience"
+        }
+    },
+    "create_sentiment_pulse_page_edit_button":{
+        "locator": {
+            "css selector": "span[class*='new-custom-pulse-title-edit-icon']"
+        }
+    },
+    "create_sentiment_pulse_page_pulse_name_input":{ 
+        "locator": {
+            "css selector": "#create_new_pulse_title_edit"
+        }
+    }
+}

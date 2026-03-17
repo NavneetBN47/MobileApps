@@ -1,0 +1,14 @@
+{
+  "qrcode":{
+      "description":"the close button to quit the public account",
+      "locator":{
+         "css selector": "img"
+      }
+   },
+  "qrcode_recognize":{
+      "description":"",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='识别图中的二维码']"
+      }
+   }
+}

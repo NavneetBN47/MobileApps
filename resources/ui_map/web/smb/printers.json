@@ -1,0 +1,2490 @@
+{
+    "printer_title":{
+        "locator": {
+            "css selector": "h2[data-testid='device-title']"
+        }
+    },  
+    "printer_table_title":{
+        "locator": {
+            "css selector": "[data-testid='printers-title']"
+        },
+        "localization": {
+            "en": "Printers"
+        }
+    },
+    "printers_page":{
+        "locator": {
+            "css selector": ["[data-testid='printer-details']","[data-testid='printers-list-header']"]
+        }
+    },  
+    "printer_card_table":{
+        "locator": {
+            "css selector": "[data-testid='printers-list-cards']"
+        }
+    },
+    "printer_desc":{
+        "locator": {
+            "css selector": "div[data-testid='printers-description']"
+        },
+        "localization": {
+            "en": "View and manage all printers that are linked to your organization."
+        }
+    },
+    "printers_details_section":{
+        "locator": {
+            "css selector": "[data-testid='printer-details-tabs']"
+        }
+    },  
+    "printer_details_printer_name":{
+        "locator": {
+            "css selector": ["[data-testid='printer-widget-printer-name']",
+                            "div[class*='subtitle-large']"]
+        }
+    },
+    "printer_details_printer_model":{
+        "locator": {
+            "css selector": "div[data-testid='printer-widget-printer-model']"
+        }
+    },   
+    "printer_details_printer_location":{
+        "locator": {
+            "css selector": "[data-testid='printer-widget-printer-location']"
+        }
+    }, 
+    "printer_details_printer_connectivity":{
+        "locator": {
+            "css selector": "[data-testid='device-status-label-connectivity']"
+        }
+    }, 
+    "printer_details_printer_device_status":{
+        "locator": {
+            "css selector": "span[data-testid='device-status-label']"
+        }
+    },
+    "printer_details_printer_security_status":{
+        "locator": {
+            "css selector": "span[data-testid='device-status-label-security-status']"
+        }
+    },  
+    "printer_table":{
+        "locator": {
+            "css selector": "table#printers-table"
+        }
+    },  
+    "printer_table_empty":{
+        "locator": {
+            "css selector": "table#printers-table td p"
+        }
+    },  
+    "printer_total_count":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": ["div[role='presentation']+span", 
+                             "div[role='menu']+span",
+                             "button[aria-label='Select page size']+span"]
+        }
+    },
+    "search_printer_inputbox":{
+        "locator": {
+            "css selector": "#list-search"
+        }
+    },
+    "table_entry_noitemsfound_warning_message":{
+        "locator": {
+            "css selector": "[data-testid ='no-data-yet-title']"
+        }
+    },
+    "table_entry_printer_name":{
+        "locator": {
+            "css selector": "[data-testid='hyperlink-text']"
+        }
+    },
+    "table_view_entry_printer_model_name":{
+        "locator": {
+            "css selector": "[data-testid='printers-table-printer-model']"
+        }
+    },
+    "card_view_entry_printer_name":{
+        "locator": {
+            "css selector": "div[data-testid='printer-widget-printer-name']"
+        }
+    },
+    "card_view_entry_printer_model_name":{
+        "locator": {
+            "css selector": "div[data-testid='printer-widget-printer-model']"
+        }
+    },
+    "table_first_entry_printer_name":{
+        "locator": {
+            "css selector": "td:nth-child(1:{ a[data-testid='printers-table-printer-name-link']"
+        }
+    },
+    "search_clear_btn":{
+        "locator": {
+            "css selector": "[class*='trailing_button']"
+        }
+    },
+    "printer_status":{
+        "locator":{"css selector":"[data-testid='printer-widget-printer-statuses']"}
+    },
+    "printer_action_dropdown":{
+        "locator": {
+            "css selector": "button[data-testid='printer-widget-action-button']"
+        },
+        "localization": {
+            "en": "Actions"
+        }
+    },
+    "printer_action_dropdown_options":{
+        "locator": {
+            "css selector": "#printer-widget-actions-menu ul>li"
+        }
+    },
+    "remove_printer_action":{
+        "comment": "https://hp-jira.external.hp.com/browse/SMBP-3090",
+        "locator": {
+            "css selector": "#printer-widget-actions-menu > div > div > ul > li:nth-child(3)"
+        }
+    },  
+    "printer_card_toggle_button":{
+        "locator": {
+            "css selector": "div[data-testid='printers-switch-views-list']"
+        }
+    },
+    "printer_card_details_printer_name":{
+        "locator": {
+            "css selector": "div[data-testid='printer-widget-printer-name']"
+        }
+    },  
+    "printer_card_details_printer_location":{
+        "locator": {
+            "css selector": "div[data-testid='printer-widget-printer-location']"
+        }
+    },  
+    "printer_card_details_printer_connectivity":{
+        "locator": {
+            "css selector": "span[data-testid='device-status-label-connectivity']"
+        }
+    },
+    "printer_card_details_printer_device_status":{
+        "locator": {
+            "css selector": "span[data-testid='device-status-label']"
+        }
+    }, 
+    "printer_card_details_printer_security_status":{
+        "locator": {
+            "css selector": "span[data-testid='device-status-label-security-status']"
+        }
+    },    
+    "printer_card_details_printer_model":{
+        "locator": {
+            "css selector": "div[data-testid='printer-widget-printer-model']"
+        }
+    },  
+    "printer_card_details_printer_link":{
+        "locator": {
+            "css selector": "div[data-testid='printer-widget-arrow-link']"
+        }
+    }, 
+    "printer_card_details_connected_printer_link":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Connected')]"
+        }
+    }, 
+    "printer_table_empty_text":{
+        "locator": {
+            "css selector": "table#printers-table p"
+        },
+        "localization": {
+            "en": "No printers available"
+        }
+    },  
+    "printers_refresh_button":{
+        "locator": {
+            "css selector": "button[data-testid='printers-icon-refresh']"
+        }
+    },  
+    "printer_last_updated_date_time":{
+        "locator": {
+            "css selector": "span[data-testid='printers-last-updated']"
+        }
+    },
+    "printer_details_last_updated_date_time":{
+        "locator": {
+            "css selector": "div[data-testid='last-updated-notification']"
+        }
+    },
+    "printer_table_view_toggle_button":{
+        "locator": {
+            "css selector": "div[data-testid='printers-switch-views-table']"
+        }
+    },
+    "printer_table_headers":{
+        "locator":{
+            "css selector":"table[id='printers-table'] thead tr th button"
+        }
+    },
+    "printer_card_view_empty_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[class*='CenterContent'] p"
+        },
+        "localization": {
+            "en": "No printers available"
+        }
+    },
+    "printer_estimated_supply_chart":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[class*='SuppliesContainer']"
+        }
+    },
+    "printer_details_overview_label":{
+        "locator": {
+            "css selector": "#printer-overview>span"
+        },
+        "localization": {
+            "en": "Overview"
+        }
+    },
+    "printer_details_solutions_label":{
+        "locator": {
+            "css selector": "#printer-solutions>span"
+        },
+        "localization": {
+            "en": "Solutions"
+        }
+    },
+    "printer_details_additional_setting_label":{
+        "locator": {
+            "css selector": "#printer-additional-settings>span"
+        },
+        "localization": {
+            "en": "Additional Settings"
+        }
+    },
+    "printer_details_printer_info_label":{
+        "locator": {
+            "css selector": "[data-testid='settings-printer-info-title']"
+        },
+        "localization": {
+            "en": "Printer Information"
+        }
+    },  
+    "printer_details_edit_printer_name_dropdown_text":{
+        "locator": {
+            "css selector": "[data-testid='printer-widget-actions-menu'] li:nth-child(2) span"
+        },
+        "localization": {
+            "en": "Edit name and location"
+        }
+    },
+    "printer_details_edit_printer_name_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='printer-widget-actions-menu'] li:nth-child(2)"
+        }
+    },
+    "printer_details_install_hp_software_dropdown_option_text":{
+        "locator": {
+            "css selector": "[data-testid='printer-widget-actions-menu'] li:nth-child(1) span"
+        },
+        "localization": {
+            "en": "Install HP software"
+        }
+    },
+    "printer_details_install_hp_software_dropdown_option":{
+        "locator": {
+            "css selector": "[data-testid='printer-widget-actions-menu'] li:nth-child(1)"
+        }
+    },
+    "printer_details_edit_printer_location_dropdown":{
+        "locator": {
+            "css selector": "[data-value='Edit Printer Location']"
+        },
+        "localization": {
+            "en": "Edit Printer Location"
+        }
+    },
+    "printer_details_edit_printer_name_and_location_popup_title":{
+        "locator": {
+            "css selector": "[id='edit-name-location-info-modal-desc'] div[class*='title']"
+        }
+    },
+    "printer_details_edit_printer_name_popup_name":{
+        "locator": {
+            "css selector": "[id='name-modal']"
+        }
+    },
+    "printer_details_edit_printer_name_popup_location":{
+        "locator": {
+            "css selector": "[id='location-modal']"
+        }
+    },
+    "printer_details_edit_printer_name_postive_toast":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "span[class='css-s45a12']"
+        },
+        "localization": {
+            "en": "The request to change this setting was submitted. Updates may take time to be reflected on the printer."
+        }
+    },
+    "printer_details_edit_printer_name_postive_toast_desc":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "span[class='css-1n3kpj3']"
+        },
+        "localization": {
+            "en": "Printer name was changed successfully."
+        }
+    },
+    "printer_details_edit_printer_name_popup_cancel_button":{
+        "locator": {
+            "css selector": "[aria-describedby='edit-name-location-info-modal-desc'] button:nth-child(1)"
+        }
+    },
+    "printer_details_edit_printer_name_popup_save_button":{
+        "locator": {
+            "css selector": "[aria-describedby='edit-name-location-info-modal-desc'] button:nth-child(2)"
+        }
+    },
+    "printer_detail_overview_serial_number":{
+        "locator": {
+            "css selector": "[data-testid='serial-number']>h3"
+        },
+        "localization": {
+            "en": "Serial Number"
+        }
+    },
+    "printer_detail_overview_network":{
+        "locator": {
+            "css selector": "[data-testid='network']>h3"
+        },
+        "localization": {
+            "en": "Network"
+        }
+    },
+    "printer_detail_overview_network_ip":{
+        "locator": {
+            "css selector": "[data-testid='network-ip']"
+        }
+    },
+    "printer_detail_overview_network_summary_link":{
+        "locator": {
+            "css selector": "[data-testid='network-summary-button']"
+        },
+        "localization": {
+            "en": "Network summary"
+        }
+    },
+    "printer_details_overview_firmware_title":{
+        "locator": {
+            "css selector": "[data-testid='firmware-version-title']"
+        },
+        "localization": {
+            "en": "Firmware version"
+        }
+    },
+    "printer_inline_notification_message":{
+        "locator": {
+            "css selector": "[data-testid='device-inline-notifications']"
+        }
+    },
+    "printer_details_screen_overview_firmware":{
+        "locator": {
+            "css selector": "[data-testid='firmware-version-title']+div"
+        }
+    },
+    "printer_details_screen_overview_network_ip_address":{
+        "locator": {
+            "css selector": "[data-testid='network-ip']"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_button":{
+        "locator": {
+            "css selector": "[data-testid='print-anywhere-print-test-page-button']"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Print test page')]"
+        },
+        "localization": {
+            "en": "Print test page"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_drivers_required_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Drivers are required for printing')]"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_desc":{
+        "locator": {
+            "css selector": "div[data-testid='print-test-page-description']"
+        },
+        "localization": {
+            "en": "Print a test page to analyze and calibrate printer performance"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_drivers_required_desc":{
+        "locator": {
+            "xpath": "//div[contains(text(),'If you do')]"
+        },
+        "localization": {
+            "en": "If you do not have the HP Smart app or drivers installed on your device, select Install HP Software, or you will be unable to print the test page successfully."
+        }
+    },
+    "printer_details_screen_overview_network_host_name":{
+        "locator": {
+            "css selector": "[data-testid='network-hostname']"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='print-test-page-cancel']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_print_button":{
+        "locator": {
+            "css selector": "button[data-testid='print-test-page-print']"
+        },
+        "localization": {
+            "en": "Print"
+        }
+    },
+    "printer_details_screen_overview_print_test_page_install_hp_software_hyperlink":{
+        "locator": {
+            "css selector": "[id='print-test-page-modal-desc'] div[class*='InstallSoftware']"
+        },
+        "localization": {
+            "en": "Install HP software"
+        }
+    },
+    "printer_details_additional_settings_title":{
+        "locator": {
+            "css selector": "[aria-controls='printer-details-printer-additional-settings'] span"
+        },
+        "localization": {
+            "en": "Additional Settings"
+        }
+    },
+    "verify_printer_details_additional_settings_network_icon":{
+        "locator": {
+            "css selector": "[aria-label='Network']"
+        }
+    },
+    "printer_details_overview_smart_security":{
+        "locator": {
+            "css selector": "[data-testid='smart-security-title']"
+        },
+        "localization": {
+            "en": "Smart Security"
+        }
+    },
+    "printer_details_overview_smart_security_status":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "[data-testid='network'] +div+div"
+        }
+    },
+    "printer_details_overview_smart_security_manage_link":{
+        "locator": {
+            "css selector": "[data-testid='smart-security-details']"
+        },
+        "localization": {
+            "en": "Manage"
+        }
+    },
+    "printer_detail_scan_label":{
+        "locator": {
+            "css selector": "[id='item-information']>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Scan Destinations"
+        }
+    },
+    "printer_detail_scan_to_email_label":{
+        "locator": {
+            "css selector": "[id='scan-to-destination-email-title']"
+        }
+    },
+    "printer_settings_scan_to_email_desc":{
+        "locator": {
+            "css selector": "#scan-to-destination-email-container div[id='item-description']"
+        },
+        "localization": {
+            "en": "Add contacts to send scans to one or more email addresses."
+        }
+    },
+    "printer_settings_scan_to_cloud_desc":{
+        "locator": {
+            "css selector": "#scan-to-destination-cloud-container div[id='item-description']"
+        },
+        "localization": {
+            "en": "Create shortcuts to send scans to one or more destinations in your favorite cloud storage apps like Google Drive, OneDrive, and more."
+        }
+    },
+    "printer_overview_serial_number":{
+        "locator": {
+            "css selector": "[data-testid='serial-number-title']+div"
+        }
+    },
+    "printer_detail_scan_to_email_setup_button":{
+        "locator": {
+            "css selector": "[id='email-button']"
+        }
+    },
+    "printer_detail_scan_to_cloud_label":{
+        "locator": {
+            "css selector": "[id='scan-to-destination-cloud-title']"
+        }
+    },
+    "printer_detail_scan_to_cloud_setup_button":{
+        "locator": {
+            "css selector": "[id='cloud-button']"
+        }
+    },
+    "printer_details_setup_printer_fax_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "[id*='fax-setup'] div[class*='Title']"
+        },
+        "localization": {
+            "en": "Fax"
+        }
+    },
+    "printer_details_setup_printer_fax_desc":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[class*='fax-setup'] div[class*='ItemDescription']"
+        },
+        "localization": {
+            "en": "Set up this printer's phone-based fax."
+        }
+    },
+    "printer_details_setup_printer_fax_setup_button":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[class*='fax-setup'] button"
+        }
+    },
+    "printer_fax_setup_button_type":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "xpath": "//*[@id='@jarvis/react-smb-fax-setup']/div/button/span"
+        }
+    },
+    "printer_details_setup_printer_fax_manage_button":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[class*='fax-setup'] button"
+        }
+    },
+    "fax_settings_open_fax_setup_wizard_button":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "button[class*='ModalButton']"
+        }
+    },
+    "printer_details_overview_summary_title":{
+        "locator": {
+            "css selector": "[id='network-summary-modal-label']"
+        },
+        "localization": {
+            "en": "Network Summary"
+        }
+    },
+    "printer_details_overview_summary_wired":{
+        "locator": {
+            "css selector": "[data-testid='wired-title']"
+        }
+    },
+    "printer_details_overview_summary_status_title":{
+        "locator": {
+            "css selector": "[data-testid='wired-status-title']"
+        },
+        "localization": {
+            "en": "Status:"
+        }
+    },
+    "printer_details_overview_summary_status":{
+        "locator": {
+            "css selector": "[data-testid='wired-status']"
+        }
+    },
+    "printer_details_overview_summary_host_name_title":{
+        "locator": {
+            "css selector": "[data-testid='wired-hostname']"
+        }
+    },
+    "printer_details_overview_summary_ip_address_title":{
+        "locator": {
+            "css selector": "[data-testid='wired-ip-address']"
+        }
+    },
+    "printer_details_overview_summary_hardware_address_title":{
+        "locator": {
+            "css selector": "[data-testid='wired-hardware']"
+        }
+    },
+    "printer_details_overview_summary_wireless_title":{
+        "locator": {
+            "css selector": "[data-testid='wireless-title']"
+        }
+    },
+    "printer_details_overview_summary_wireless_status_title":{
+        "locator": {
+            "css selector": "[data-testid='wireless-status-title']"
+        },
+        "localization": {
+            "en": "Status:"
+        }
+    },
+    "printer_details_overview_summary_wireless_status":{
+        "locator": {
+            "css selector": "[data-testid='wireless-status']"
+        }
+    },
+    "printer_details_overview_summary_wifi_direct_title":{
+        "locator": {
+            "css selector": "[data-testid='wi-fi-direct-title']"
+        },
+        "localization": {
+            "en": "Wi-Fi Direct"
+        }
+    },
+    "printer_details_overview_summary_wifi_direct_status_title":{
+        "locator": {
+            "css selector": "[data-testid='wi-fi-direct-status-title']"
+        },
+        "localization": {
+            "en": "Status:"
+        }
+    },
+    "printer_details_overview_summary_wifi_direct_status":{
+        "locator": {
+            "css selector": "[data-testid='wifi-direct-status']"
+        }
+    },
+    "printer_details_overview_summary_wifi_direct_name_title":{
+        "locator": {
+            "css selector": "[data-testid='wi-fi-direct-name']"
+        }
+    },
+    "printer_details_overview_summary_wifi_direct_channel_title":{
+        "locator": {
+            "css selector": "[data-testid='wi-fi-direct-chanel'])"
+        }
+    },
+    "printer_details_overview_summary_bluetooth_title":{
+        "locator": {
+            "css selector": "[data-testid='ble-title']"
+        },
+        "localization": {
+            "en": "Bluetooth Low Energy"
+        }
+    },
+    "printer_details_overview_summary_bluetooth_status_title":{
+        "locator": {
+            "css selector": "[data-testid='ble-status-title']"
+        },
+        "localization": {
+            "en": "Status:"
+        }
+    },
+    "printer_details_overview_summary_bluetooth_status":{
+        "locator": {
+            "css selector": "[data-testid='ble-status']"
+        }
+    },
+    "printer_details_overview_summary_close_button":{
+        "locator": {
+            "css selector": "[id='network-summary-modal-label']+button"
+        }
+    },
+    "printer_details_overview_manage_link_solution_screen":{
+        "locator": {
+            "css selector": "[data-testid='security-setting-title']"
+        }
+    },
+    "printer_details_overview_scan_to_email_screen_title":{
+        "locator": {
+            "css selector": "[id='left-container'] h6"
+        },
+        "localization": {
+            "en": "Scan to Email"
+        }
+    },
+    "printer_details_overview_scan_to_cloud_screen_title":{
+        "locator": {
+            "css selector": "[id='left-container'] h6"
+        },
+        "localization": {
+            "en": "Scan to Cloud"
+        }
+    },
+    "printer_details_overview_fax_setting_screen_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "[class='subtitle-large']"
+        }
+    },
+    "printer_details_solutions_smart_security_title":{
+        "locator": {
+            "css selector": "[data-testid='smart-security-title']"
+        },
+        "localization": {
+            "en": "Smart Security"
+        }
+    },
+    "printer_details_solutions_smart_security_desc":{
+        "locator": {
+            "css selector": "[data-testid='smart-security-description']"
+        },
+        "localization": {
+            "en": "Get real-time security updates and monitoring to protect your printer from cyber-attacks or data loss."
+        }
+    },
+    "printer_details_solutions_smart_security_manage_link":{
+        "locator": {
+            "css selector": "button[data-testid='smart-security-manage']"
+        },
+        "localization": {
+            "en": "Manage"
+        }
+    },
+    "printer_details_solutions_print_anywhere_title":{
+        "locator": {
+            "css selector": "[data-testid='print-anywhere-title']"
+        },
+        "localization": {
+            "en": "Print Anywhere"
+        }
+    },
+    "printer_details_solutions_print_anywhere_desc":{
+        "locator": {
+            "css selector": "[data-testid='print-anywhere-description']"
+        },
+        "localization": {
+            "en": "Print from anywhere, on any device, and keep your prints confidential with Private Pickup."
+        }
+    },
+    "printer_details_solutions_print_anywhere_manage_link":{
+        "locator": {
+            "css selector": "button[data-testid='print-anywhere-manage']"
+        },
+        "localization": {
+            "en": "Manage"
+        }
+    },
+    "print_anywhere_screen":{
+        "locator": {
+            "css selector": "[data-testid='device-title']"
+        },
+        "localization": {
+            "en": "Remote Printing"
+        }
+    },
+    "printer_details_solutions_sustainability_title":{
+        "locator": {
+            "css selector": "div[data-testid='forest-first-title']"
+        },
+        "localization": {
+            "en": "Sustainability - Forest First"
+        }
+    },
+    "printer_details_solutions_sustainability_desc":{
+        "locator": {
+            "css selector": "[data-testid='forest-first-description']"
+        },
+        "localization": {
+            "en": "Forest First printing aims to balance the impact of printed pages on forests."
+        }
+    },
+    "sustainability_screen":{
+        "locator": {
+            "css selector": "div[data-testid='react-smb-forest-first-header-title']"
+        }
+    },
+    "printer_details_solutions_sustainability_learn_more_link":{
+        "locator": {
+            "css selector": "button[data-testid='forest-first-manage']"
+        },
+        "localization": {
+            "en": "Learn More"
+        }
+    },
+    "printer_additional_settings_preference_label":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Preferences')]"
+        },
+        "localization": {
+            "en": "Preferences"
+        }
+    },
+    "_shared_table_printer_col_by_index":{
+        "locator": {
+            "css selector": "tr > td:nth-of-type({}) a"
+        }
+    },
+    "printer_details_screen_overview_tab_fax_setup_wizard_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[contains(text(),'Fax Setup Wizard')]"
+        },
+        "localization": {
+            "en": "Fax Setup Wizard"
+        }
+    },
+    "printer_details_fax_setup_wizard_fax_settings_page_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[contains(text(),'Step 1: Fax Settings')]"
+        },
+        "localization": {
+            "en": "Step 1: Fax Settings"
+        }
+    },
+    "printer_details_fax_setup_wizard_fax_settings_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[aria-label*='Step 1']+div"
+        },
+        "localization": {
+            "en": "Fax Settings"
+        }
+    },
+    "printer_details_fax_setup_wizard_voice_and_internet_options_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[aria-label*='step 2']+div"
+        },
+        "localization": {
+            "en": "Voice and Internet Options"
+        }
+    },
+    "printer_details_fax_setup_wizard_setup_configuration_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[aria-label*='step 3']+div"
+        },
+        "localization": {
+            "en": "Setup Configuration"
+        }
+    },
+    "printer_details_fax_setup_wizard_summary_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[aria-label*='step 4']+div"
+        },
+        "localization": {
+            "en": "Summary"
+        }
+    },
+    "printer_details_fax_setup_wizard_contextual_footer":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[class*='Navigation-']"
+        }
+    },
+    "printer_details_fax_setup_wizard_contextual_footer_cancel_button":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[class*='ButtonContainer'] button[data-testid='cancel-button']"
+        }
+    },
+    "printer_details_fax_setup_wizard_contextual_footer_next_button":{
+        "locator": {
+            "css selector": "button[data-testid='next-button']"
+        }
+    },
+    "fax_settings_page_edit_info_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[contains(text(),'Edit Your Information')]"
+        },
+        "localization": {
+            "en": "Edit Your Information"
+        }
+    },
+    "fax_settings_page_edit_info_description":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[class*='BoxesContainer'] div[class*='caption']"
+        },
+        "localization": {
+            "en": "Note: In many countries and regions, the Name/Company Name and Fax Number are legally required to show on your fax header."
+        }
+    },
+    "fax_settings_page_select_country_dropdown":{
+        "locator": {
+            "css selector": "div[data-testid='country-region-select']"
+        }
+    },
+    "fax_settings_page_name_field":{
+        "locator": {
+            "css selector": "input[data-testid='name-company-text-box']"
+        }
+    },
+    "fax_settings_page_fax_number_field":{
+        "locator": {
+            "css selector": "input[data-testid='fax-number-text-box']"
+        }
+    },
+    "fax_settings_page_voice_calls_message":{
+        "locator": {
+            "css selector": "div[data-testid='setting-text']"
+        },
+        "localization": {
+            "en": "Are voice calls also received on this phone line?"
+        }
+    },
+    "fax_settings_page_fax_ring_calls_message":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[data-testid='settings'] div:nth-child(2) div[class*='label']"
+        },
+        "localization": {
+            "en": "Do you have a distinctive ring for fax calls?"
+        }
+    },
+    "fax_settings_page_voice_calls_message_yes_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[data-testid='voice-call-buttons'] label:nth-child(1) span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Yes"
+        }
+    },
+    "fax_settings_page_voice_calls_message_no_option":{
+        "locator": {
+            "css selector": "br[name='voice-call-setting']+label span:nth-child(2)"
+        },
+        "localization": {
+            "en": "No"
+        }
+    },
+    "fax_settings_page_fax_ring_calls_message_yes_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[data-testid='ring-setting-buttons'] label:nth-child(1) span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Yes"
+        }
+    },
+    "fax_settings_page_fax_ring_calls_message_no_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "br[name='ring-setting']+label span:nth-child(2)"
+        },
+        "localization": {
+            "en": "No"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_options_page_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Step 2: Voice and Internet Options')]"
+        },
+        "localization": {
+            "en": "Step 2: Voice and Internet Options"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_page_internet_service_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[@data-testid='dsl-setting-buttons']/parent::div/div[1]"
+        },
+        "localization": {
+            "en": "Do you have a DSL/ADSL Internet service on the same phone line as the fax?"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_page_computer_modem_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[@data-testid='modem-buttons']/parent::div/div[1]"
+        },
+        "localization": {
+            "en": "Are you connecting a computer modem to the same phone line as the fax?"
+        }
+    },
+    "fax_setup_wizard_contextual_footer_back_button":{
+        "locator": {
+            "css selector": "button[data-testid='back-button']"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_page_internet_service_yes_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[data-testid='dsl-setting-buttons'] label:nth-child(1) span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Yes"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_page_internet_service_no_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "br[name='dsl-setting-buttons']+label span:nth-child(2)"
+        },
+        "localization": {
+            "en": "No"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_page_computer_modem_no_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[data-testid='modem-buttons'] label:nth-child(1) span:nth-child(2)"
+        },
+        "localization": {
+            "en": "No"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_page_internet_service_dsl_modem_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//span[contains(text(),'DSL modem')]"
+        },
+        "localization": {
+            "en": "DSL modem"
+        }
+    },
+    "fax_setup_wizard_voice_and_internet_page_internet_service_dial_up_modem_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//span[contains(text(),'Dial-up modem')]"
+        },
+        "localization": {
+            "en": "Dial-up modem"
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[contains(text(),'Step 3: Setup Configuration')]"
+        },
+        "localization": {
+            "en": "Step 3: Setup Configuration"
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_description_note":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[class*='smb-fax-setup'] div[class*='caption']"
+        },
+        "localization": {
+            "en": "Note: You must use the special phone cord provided by HP (located inside your printer box). Check you country/region as you may also need to connect this phone cord to an outlet adaptor."
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_voice_line_fax_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//span[contains(text(),'I am sharing a voice line with my fax')]"
+        },
+        "localization": {
+            "en": "I am sharing a voice line with my fax"
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_answering_machine_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//span[contains(text(),'I have an answering machine using the same line')]"
+        },
+        "localization": {
+            "en": "I have an answering machine using the same line"
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_dsl_adsl_service_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//span[contains(text(),'I have a DSL/ADSL Internet service')]"
+        },
+        "localization": {
+            "en": "I have a DSL/ADSL Internet service"
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_dsl_adsl_modem_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//span[contains(text(),'I am using a DSL/ADSL modem on this line')]"
+        },
+        "localization": {
+            "en": "I am using a DSL/ADSL modem on this line"
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_dial_up_modem_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//span[contains(text(),'I am using a dial-up modem on this line')]"
+        },
+        "localization": {
+            "en": "I am using a dial-up modem on this line"
+        }
+    },
+    "fax_setup_wizard_setup_configuration_page_phone_card_warning_msg":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[class*='IconContainer']+div[class*='Text']"
+        },
+        "localization": {
+            "en": "Use only the special phone cord supplied in the box with your HP printer. You might also need to connect this phone cord to an adapter for your country/region."
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Step 4: Summary')]"
+        },
+        "localization": {
+            "en": "Step 4: Summary"
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_description":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Confirm your settings')]"
+        },
+        "localization": {
+            "en": "Confirm your settings, and then click Finish to complete Fax Setup."
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_company_name_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "table tr:nth-child(1) td:nth-child(1)"
+        },
+        "localization": {
+            "en": "Name/Company Name"
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_fax_number_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "table tr:nth-child(2) td:nth-child(1)"
+        },
+        "localization": {
+            "en": "Fax Number"
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_auto_answer_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "table tr:nth-child(3) td:nth-child(1)"
+        },
+        "localization": {
+            "en": "Auto Answer"
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_distinctive_ring_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "table tr:nth-child(4) td:nth-child(1)"
+        },
+        "localization": {
+            "en": "Distinctive Ring"
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_company_name":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "table tr:nth-child(1) td:nth-child(2)"
+        }
+    },
+    "fax_setup_wizard_setup_summary_page_fax_number":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "table tr:nth-child(2) td:nth-child(2)"
+        }
+    },
+    "fax_setup_wizard_unsaved_changes_popup":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//h4[contains(text(),'Unsaved changes')]"
+        },
+        "localization": {
+            "en": "Unsaved changes"
+        }
+    },
+    "fax_setup_wizard_unsaved_changes_popup_desc":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[contains(text(),'Are you sure you want to leave this page?')]"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? Your changes have not been saved and will be discarded if you leave now."
+        }
+    },
+    "fax_setup_wizard_unsaved_changes_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[class*='LeftButton']"
+        }
+    },
+    "fax_setup_wizard_unsaved_changes_popup_leave_button":{
+        "locator": {
+            "css selector": "button[class*='RightButton']"
+        }
+    },
+    "printer_details_fax_setup_wizard_contextual_footer_save_button":{
+        "locator": {
+            "css selector": "button[data-testid='done-button']"
+        }
+    },
+    "fax_settings_page_select_country_dropdown_search_field":{
+        "locator": {
+            "css selector": "input[placeholder='Search']"
+        }
+    },
+    "fax_settings_page_country_dropdown_search_option":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "css selector": "div[class='vn-option__label']"
+        }
+    },
+    "fax_settings_page_country_dropdown_search_no_items_found_msg":{
+        "_comment": "locator bad waiting for dev to fix: ticket - ",
+        "locator": {
+            "xpath": "//div[contains(text(),'No results found')]"
+        }
+    },
+    "printer_details_hpinstantink":{
+        "locator":{
+            "css selector": "div[id='printer-instant-ink']"
+        },
+        "localization":{
+            "en": "HP Instant Ink"
+        }
+    },
+    "printer_details_hpinstantink_tab_header":{
+        "locator":{
+            "css selector": "label[data-testid='enrollment_card_header']"
+        },
+        "localization":{
+            "en": "HP Instant Ink"
+        }
+    },
+    "printer_details_hpinstantink_tab_instantink_label":{
+        "locator":{
+            "css selector": "section[id='@jarvis/jarvis-react-smb-printer-enrollment-status'] div:nth-child(2) div:nth-child(1) div:nth-child(2)"
+        }
+    },
+    "printer_details_hpinstantink_tab_data_unavailable_msg":{
+        "locator":{
+            "xpath": "//div[contains(text(),'Data unavailable')]"
+        }
+    },
+    "printer_details_hpinstantink_tab_status":{
+        "locator":{
+            "css selector": "section[id='@jarvis/jarvis-react-smb-printer-enrollment-status'] div:nth-child(2) div:nth-child(1) div:nth-child(4)"
+        }
+    },
+    "printer_details_hpinstantink_tab_description":{
+        "locator":{
+            "css selector": "section[id='@jarvis/jarvis-react-smb-printer-enrollment-status'] div:nth-child(2) div:nth-child(2) div:nth-child(1)"
+        },
+        "localization":{
+            "en": "Save your company or organization time and money by letting us manage your toner for you. There’s no need to stock up on cartridges or monitor your toner levels."
+        }
+    },
+    "printer_details_hpinstantink_tab_enrollnow_button":{
+        "locator":{
+            "css selector": "button[data-testid='enroll-now-button']"
+        }
+    },
+    "printer_details_hpinstantink_tab_learnmore_button":{
+        "locator":{
+            "css selector": "a[data-testid='learn-more-link']"
+        }
+    },
+    "printer_details_hpinstantink_page_title":{
+        "locator":{
+            "css selector": "span[data-testid='os-service-name']"
+        }
+    },
+    "printer_details_hpinstantink_enrollnow_page_title":{
+        "locator":{
+            "css selector": "section[id='@jarvis/react-smb-instant-ink-signup'] div:nth-child(2) h3:nth-child(1)"
+        },
+        "localization":{
+            "en": "When your new printer detects supplies are low, we’ll send more"
+        }
+    },
+    "printer_details_hpinstantink_enrollnow_page_desc":{
+        "locator":{
+            "css selector": "section[id='@jarvis/react-smb-instant-ink-signup'] div:nth-child(2) h6"
+        },
+        "localization":{
+            "en": "Save your company or organization time and money by letting us manage your ink for you. There’s no need to stock up on cartridges or monitor your ink levels."
+        }
+    },
+    "printer_details_hpinstantink_enrollnow_page_learnmore_link":{
+        "locator":{
+            "css selector": "a[data-testid='instant-ink-learn-more-link']"
+        },
+        "localization":{
+            "en": "Learn more"
+        }
+    },
+    "printer_details_hpinstantink_enrollnow_page_continue_button":{
+        "locator":{
+            "css selector":"button[data-testid='continue-button']"
+        }
+    },
+    "printer_details_hpinstantink_enrollnow_page_backtodashboard_button":{
+        "locator":{
+            "css selector": "section[id='@jarvis/react-smb-instant-ink-signup'] div:nth-child(1) button:nth-child(2)"
+        }
+    },
+    "hpinstantink_tab_enrollnow_details_page_plan_widget":{
+        "locator":{
+            "css selector": "div[data-testid='plan-card']"
+        }
+    },
+    "hpinstantink_tab_enrollnow_details_page_title":{
+        "locator":{
+            "xpath": "//p[contains(text(),'Hassle-free toner delivery')]"
+        },
+        "localization":{
+            "en": "Hassle-free toner delivery"
+        }
+    },
+    "hpinstantink_tab_enroll_enrollnow_page_backtodashboard_button":{
+        "locator":{
+            "css selector": "button[data-analyticsid='BackToDashboardButton']"
+        }
+    },
+    "printer_details_additional_settings_tab":{
+        "locator":{
+            "css selector": "#printer-additional-settings"
+        },
+        "localization":{
+            "en" : "Additional Settings"
+        }
+    },
+    "additional_settings_printer_information_button":{
+        "locator":{
+            "css selector": "li[data-testid='tools-printer-info'] a"
+        }
+    },
+    "additional_settings_asset_tracking_button":{
+        "locator":{
+            "css selector": "li[data-testid='tools-utilities-asset-tracking'] a"
+        }
+    },
+    "additional_settings_restart_printer_button":{
+        "locator":{
+            "css selector": "li[data-testid='tools-manage-printer-restart-printer'] a"
+        }
+    },
+    "additional_settings_date_and_time_button":{
+        "locator":{
+            "css selector": "li[data-testid='settings-preferences-date-time'] a"
+        }
+    },
+    "additional_settings_international_buttton":{
+        "locator":{
+            "css selector": "li[data-testid='settings-preferences-international'] a"
+        }
+    },
+    "printer_info_popup_title":{
+        "locator":{
+            "css selector": "p[class='subtitle-large']"
+        },
+        "localization":{
+            "en": "Product Information: Printer information"
+        }
+    },
+    "printer_info_popup_product_name_header":{
+        "locator":{
+            "css selector": "div[data-testid='header-printer-info-detail'] div.subtitle-regular"
+        }
+    },
+    "printer_info_popup_table_product_name":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(1) td:nth-child(2)"
+        }
+    },
+    "printer_info_table_product_name_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(1) td:nth-child(1)"
+        },
+        "localization":{
+            "en": "Product name"
+        }
+    },
+    "printer_info_table_product_number_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(2) td:nth-child(1)"
+        },
+        "localization":{
+            "en" : "Product number"
+        }
+    },
+    "printer_info_table_product_serial_number_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(3) td:nth-child(1)"
+        },
+        "localization":{
+            "en": "Product serial number"
+        }
+    },
+    "printer_info_table_service_id_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(4) td:nth-child(1)"
+        },
+        "localization":{
+            "en": "Service ID"
+        }
+    },
+    "printer_info_table_device_name_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(5) td:nth-child(1)"
+        },
+        "localization":{
+            "en": "Device name"
+        }
+    },
+    "printer_info_table_asset_number_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(6) td:nth-child(1)"
+        },
+        "localization":{
+            "en": "Asset number"
+        }
+    },
+    "printer_info_table_firmware_version_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(7) td:nth-child(1)"
+        },
+       "localization":{
+            "en": "Firmware version"
+        }
+    },
+    "printer_info_table_country_region_title":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(8) td:nth-child(1)"
+        },
+        "localization":{
+            "en": "Country/region"
+        }
+    },
+    "printer_info_serial_number":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(3) td:nth-child(2)"
+        }
+    },
+    "overview_tab_button":{
+        "locator":{
+            "css selector": "#printer-overview>span"
+        }
+    },
+    "overview_tab_serial_number":{
+        "locator":{
+            "css selector": "h3[data-testid='serial-number-title']>div" 
+        }
+    },
+    "overview_tab_device_name":{
+        "locator":{
+            "css selector": "div[data-testid='printer-widget-printer-name']"
+        }
+    },
+    "overview_tab_firmware_version":{
+        "locator":{
+            "css selector": "[data-testid='firmware-version-title']+div"
+        }
+    },
+    "printer_info_popup_device_name":{
+        "locator":{
+            "css selector":"tbody tr:nth-child(5) td:nth-child(2)"
+        }   
+    },
+    "printer_info_popup_firmware_version":{
+        "locator":{
+            "css selector": "tbody tr:nth-child(7) td:nth-child(2)"
+        }
+    },
+    "printer_info_popup_close_button":{
+        "locator":{
+            "css selector": "button[text='Close']"
+        }
+    },
+    "additional_settings_asset_tracking_title":{
+        "locator":{
+            "xpath" : "//p[contains(text(),'Track Asset')]"
+        },
+        "localization":{
+            "en": "Track Asset"
+        }
+    },
+    "additional_settings_asset_tracking_desc":{
+        "locator":{
+            "css selector": "div[data-testid='asset-tracking-setup-container-title']"
+        }
+    },
+    "additional_settings_asset_tracking_devicename_label":{
+        "locator":{
+            "css selector": "div[data-testid='asset-tracking-setup-container-inputs'] div:nth-child(1)"
+        },
+        "localization":{
+            "en": "Device name"
+        }
+    },
+    "additional_settings_asset_tracking_asset_number_label":{
+        "locator":{
+            "xpath": "//label[contains(text(),'Asset number')]"
+        },
+        "localization":{
+            "en": "Asset number"
+        }
+    },
+    "additional_settings_asset_tracking_device_location_label":{
+        "locator":{
+            "xpath": "//label[contains(text(),'Device location')]"
+        },
+        "localization":{
+            "en": "Device location"
+        }
+    },
+    "additional_settings_asset_tracking_company_name_label":{
+        "locator":{
+            "xpath": "//label[contains(text(),'Company name')]"
+        },
+        "localization":{
+            "en": "Company name"
+        }
+    },
+    "additional_settings_asset_tracking_contact_person_label":{
+        "locator":{
+            "xpath": "//label[contains(text(),'Contact person')]"
+        },
+        "localization":{
+            "en": "Contact person"
+        }
+    },
+    "additional_settings_asset_tracking_cancel_button":{
+        "locator":{
+            "css selector": "button[text='Cancel']"
+        }
+    },
+    "additional_settings_asset_tracking_tab_save_button":{
+        "locator":{
+            "css selector": "button[text='Save']"
+        }
+    },
+    "additional_settings_asset_tracking_device_name":{
+        "locator":{
+            "css selector" : "input[data-testid='asset-tracking-setup-input-device-name']"
+        }
+    },
+    "additional_settings_asset_tracking_location_name":{
+        "locator":{
+            "css selector" : "input[data-testid='asset-tracking-setup-input-device-location']"
+        }
+    },
+    "additional_settings_asset_tracking_device_name_txtbox":{
+        "locator":{
+            "css selector" : "div[data-testid='asset-tracking-setup-container-inputs'] div:nth-child(1)"
+        }
+    },
+    "additional_settings_restart_printer_title":{
+        "locator":{
+            "css selector": "div#restart-printer-modal-desc div[class='title-small']"
+        },
+        "localization":{
+            "en": "Restart Printer"
+        }
+    },
+    "additional_settings_restart_printer_desc":{
+        "locator":{
+            "css selector": "div#restart-printer-modal-desc div[class='body-large']"
+        },
+        "localization":{
+            "en": "HP Smart Admin allows you to remotely restart your printer. Restarting the printer can help resolve some printer errors and activate new configurations."
+        }
+    },
+    "additional_settings_restart_printer_warning_icon":{
+        "locator":{
+            "css selector": "div#restart-printer-modal-desc svg[aria-label='Warning Alt']"
+        }
+    },
+    "additional_settings_restart_printer_notification_text":{
+        "locator":{
+            "css selector": "div#restart-printer-modal-desc div[class*='vn-notification__text']"
+        },
+        "localization":{
+            "en": "Changes to settings will not be in effect until the printer is reconnected to HP Smart Admin."
+        }
+    },
+    "additional_settings_restart_printer_cancel_button":{
+        "locator":{
+            "css selector": "div[class*='ActionContainer'] button:nth-child(1)"
+        }
+    },
+    "additional_settings_restart_printer_restart_button":{
+        "locator":{
+            "css selector": "div[class*='ActionContainer'] button:nth-child(2)"
+        }
+    },
+    "additional_settings_date_and_time_title":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-title']"
+        },
+        "localization":{
+            "en": "Date and Time"
+        }
+    },
+    "additional_settings_current_printer_date_label":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-current-printer-date-label']"
+        },
+        "localization":{
+            "en": "Current printer date (DD-MM-YYYY)"
+        }
+    },
+    "additional_settings_current_printer_date_value":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-current-printer-date-value']"
+        }
+    },
+    "additional_settings_current_printer_time_label":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-current-printer-time-label']"
+        },
+        "localization":{
+            "en": "Current printer time - 24 hours (HH:MM:SS)"
+        }
+    },
+    "additional_settings_current_printer_time_value":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-current-printer-time-value']"
+        }
+    },
+    "additional_settings_current_printer_time_zone_label":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-current-time-zone-label']"
+        },
+        "localization":{
+            "en": "Current Time Zone"
+        }
+    },
+    "additional_settings_current_printer_time_zone_value":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-current-time-zone-value']"
+        }
+    },
+    "additional_settings_date_and_time_note_label":{
+        "locator":{
+            "css selector": "[data-testid='clock-configuration-modal-note']"
+        },
+        "localization":{
+            "en": "Note:"
+        }
+    },
+    "additional_settings_date_and_time_note_text1":{
+        "locator":{
+            "css selector": "li[data-testid='clock-configuration-modal-note-text']"
+        },
+        "localization":{
+            "en": "1. This date and time will be shown in the email message's header."
+        }
+    },
+    "additional_settings_date_and_time_note_text2":{
+        "locator":{
+            "css selector": "li[data-testid='clock-configuration-modal-note-text2']"
+        },
+        "localization":{
+            "en": "2. If you set the printer's time ahead, any fax scheduled to send before the new time will be sent immediately." 
+        }
+    },
+    "additional_settings_change_date_and_time_button":{
+        "locator":{
+            "css selector": "button[data-testid='clock-configuration-modal-buttons-save']"
+        }
+    },
+   "additional_settings_change_date_and_time_close_button":{
+    "locator":{
+        "css selector": "button[data-testid='clock-configuration-modal-buttons-close']"
+        }
+    },
+   "change_date_and_time_wizard_title":{
+    "locator":{
+        "xpath": "//p[contains(text(),'Change date and time')]"
+        },
+    "localization":{
+        "en": "Change date and time"
+        }
+    },
+    "change_date_and_time_wizard_steps_select_method":{
+        "locator":{
+            "xpath": "//div[contains(text(),'Select method')]"
+        },
+        "localization":{
+            "en": "Select method"
+        }
+    },
+    "change_date_and_time_wizard_steps_configure_settings":{
+        "locator":{
+            "xpath": "//div[contains(text(),'Configure Settings')]"
+        },
+        "localization":{
+            "en": "Configure Settings"
+        }
+    },
+    "change_date_and_time_wizard_steps_review_and_apply":{
+        "locator":{
+            "xpath": "//div[contains(text(),'Review and apply')]"
+        },
+        "localization":{
+            "en": "Review and apply"
+        }
+    },
+    "change_date_and_time_wizard_select_method_title":{
+        "locator":{
+            "xpath": "//p[contains(text(),'Step 1: Select your method')]"
+        },
+        "localization":{
+            "en": "Step 1: Select your method"
+        }
+    },
+    "change_date_and_time_wizard_select_method_description":{
+        "locator":{
+            "css selector": "div[data-testid='setting-text']"
+        },
+        "localization":{
+            "en": "Choose how you would like to configure date and time"
+        }
+    },
+    "change_date_and_time_wizard_configure_method_manually_adjust_time":{
+        "locator":{
+            "css selector": "br[name='time-format-buttons']+label span[class*='radio-button__span-text']"
+        },
+        "localization":{
+            "en": "Manually adjust time"
+        }
+    },
+    "change_date_and_time_wizard_configure_method_sync_with_computer":{
+        "locator":{
+            "css selector": "div#wizard-flow-id label:nth-child(1) span[class*='radio-button__span-text']"
+        },
+        "localization":{
+            "en": "Sync with computer"
+        }
+    },
+    "change_date_and_time_wizard_cancel_button":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'Cancel')]/parent::button)[2]"
+        }
+    },
+    "change_date_and_time_wizard_next_button":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'Next')]/parent::button)"
+        }
+    },
+    "change_date_and_time_wizard_configure_settings_title":{
+        "locator":{
+            "xpath": "//p[contains(text(),'Step 2: Configure Settings')]"
+        },
+        "localization":{
+            "en": "Step 2: Configure Settings"
+        }
+    },
+    "configure_date_and_time_wizard_select_date_format_title":{
+        "locator":{
+            "css selector": "div[data-testid='date-format-text']"
+        },
+        "localization":{
+            "en": "Select date format"
+        }
+    },
+    "configure_date_and_time_wizard_select_time_format_title":{
+        "locator":{
+            "css selector": "div[data-testid='time-format-text']"
+        },
+        "localization":{
+            "en": "Select time format"
+        }
+    },
+    "configure_date_and_time_wizard_date_picker_dropdown":{
+        "locator":{
+            "css selector": "label#date_picker-label+div"
+        }
+    },
+    "configure_date_and_time_wizard_time_format_label":{
+        "locator":{
+            "css selector": "div[data-testid='time-text']"
+        },
+        "localization":{
+            "en": "Time - 12 Hours (HH:MM:SS)"
+        }
+    },
+    "configure_date_and_time_wizard_time_zone_title":{
+        "locator":{
+            "css selector": "div[data-testid='time-zone-title-text']"
+        },
+        "localization":{
+            "en": "Time zone"
+        }
+    },
+    "configure_date_and_time_wizard_time_zone_description":{
+        "locator":{
+            "css selector": "div[data-testid='time-zone-caption-text']"
+        }
+    },
+    "configure_date_and_time_wizard_time_zone_dropdown":{
+        "locator":{
+            "css selector": "div[data-testid='time-zone-select']"
+        }
+    },
+    "daylight_saving_time_settings_title":{
+        "locator":{
+            "css selector": "div[data-testid='setting-text-title']"
+        },
+        "localization":{
+            "en": "Daylight Saving Time settings"
+        }
+    },
+    "daylight_saving_time_settings_desc":{
+        "locator":{
+            "css selector": "div[data-testid='setting-text-description']"
+        },
+        "localization":{
+            "en": "Daylight saving time (DST) adjustment can be automatically configured for your country/region. Countries/region that do not use standard DST adjustments can be customized."
+        }
+    },
+    "daylight_saving_time_settings_toggle":{
+        "locator":{
+            "css selector": "span#toggle_id"
+        }
+    },
+    "daylight_saving_time_settings_toggle_name":{
+        "locator":{
+            "css selector": "span#toggle_id-label"
+        },
+        "localization":{
+            "en": "Enable Daylight Saving Time"
+        }
+    },
+    "configure_date_and_time_wizard_back_button":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'Back')]/parent::button)"
+        }
+    },
+    "printer_details_name_change_request_message":{
+        "locator":{
+            "css selector": "div[data-testid='printer-widget-pending-info'] span"
+        }
+    },         
+    "edit_printer_name_popup_name_change_request_msg":{
+        "locator":{
+            "css selector": "div[class='caption']"
+        }
+    },
+    "edit_printer_name_popup_request_printer_name":{
+        "locator":{
+            "css selector": "div#edit-name-location-info-modal-desc div:nth-child(2) span"
+        }
+    },
+    "edit_printer_location_popup_request_printer_location":{
+        "locator":{
+            "css selector": "div#edit-name-location-info-modal-desc div:nth-child(4) span"
+        }
+    },
+    "printer_details_screen_usage_tab":{
+        "locator":{
+            "css selector": "div#printer-usage"
+        }
+    },
+    "usage_data_last_updated_time":{
+        "locator":{
+            "css selector": "div#printer-details-printer-usage div[class*='vn-notification__text']"
+        }
+    },
+    "usage_data_last_updated_time_close_btn":{
+        "locator":{
+            "css selector": "div#printer-details-printer-usage button[class*='vn-notification__close']"
+        }
+    },    
+    "usage_data_select_usage_view_dropdown":{
+        "locator":{
+            "css selector": "div[data-testid='select-usage-view']"
+        }
+    },
+    "usage_data_select_usage_view_year_dropdown":{
+        "locator":{
+            "css selector": "div[data-testid='select-year']"
+        }
+    },
+    "usage_data_view_year_dropdown_option":{
+        "locator":{
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "usage_data_print_pages_usage_card":{
+        "locator":{
+            "css selector": "div[data-testid='print-pages-usage-card']"
+        }
+    },
+    "usage_data_scan_usage_card":{
+        "locator":{
+            "css selector": "div[data-testid='scan-usage-card']"
+        }
+    },
+    "usage_view_dropdown_monthly_option":{
+        "locator":{
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "print_pages_usage_card_title":{
+        "locator":{
+            "css selector": "div[data-testid='print-pages-usage-card'] p[class*='subtitle-regular']"
+        },
+        "localization": {
+            "en": "Print"
+        }
+    },
+    "scan_usage_card_title":{
+        "locator":{
+            "css selector": "div[data-testid='scan-usage-card'] p[class*='subtitle-regular']"
+        },
+        "localization": {
+            "en": "Scan"
+        }
+    },
+    "print_card_highcharts_axis_printed_pages_title":{
+        "locator":{
+            "css selector": "div[data-testid='usage-print-page'] text.highcharts-axis-title"
+        },
+        "localization": {
+            "en": "Pages printed"
+        }
+    },    
+    "print_card_highcharts_black_and_white_button":{
+        "locator":{
+            "css selector": "div[data-testid='usage-print-page'] text.highcharts-axis-title"
+        }
+    },
+    "print_card_highcharts_color_button":{
+        "locator":{
+            "css selector": "div[data-testid='usage-print-page'] text.highcharts-axis-title"
+        }
+    },
+    "print_card_highcharts_average_use_button":{
+        "locator":{
+            "css selector": "div[data-testid='usage-print-page'] text.highcharts-axis-title"
+        }
+    },
+    "scan_card_highcharts_axis_scaned_pages_title":{
+        "locator":{
+            "css selector": "div[data-testid='usage-print-page'] text.highcharts-axis-title"
+        },
+        "localization": {
+            "en": "Pages printed"
+        }
+    },
+    "scan_card_highcharts_scans_button":{
+        "locator":{
+            "css selector": "div[data-testid='usage-print-page'] text.highcharts-axis-title"
+        }
+    },
+    "scan_card_highcharts_average_use_button":{
+        "locator":{
+            "css selector": "div[data-testid='usage-print-page'] text.highcharts-axis-title"
+        }
+    },
+    "print_card_highcharts_yaxis_labels_options":{
+        "locator": {
+            "css selector": "div[data-testid='usage-print-page'] g[class*='highcharts-yaxis-labels'] text"
+        }
+    },
+    "scan_card_highcharts_yaxis_labels_options":{
+        "locator": {
+            "css selector": "div[data-testid='usage-scan'] g[class*='highcharts-yaxis-labels'] text"
+        }
+    },
+    "print_card_highcharts_xaxis_labels_options":{
+        "locator": {
+            "css selector": "div[data-testid='usage-print-page'] g[class*='highcharts-xaxis-labels'] text"
+        }
+    },
+    "scan_card_highcharts_xaxis_labels_options":{
+        "locator": {
+            "css selector": "div[data-testid='usage-scan'] g[class*='highcharts-xaxis-labels'] text"
+        }
+    },
+    "print_card_highcharts_xaxis_labels_first_year":{
+        "locator": {
+            "css selector": "div[data-testid='usage-print-page'] g[class*='highcharts-xaxis-labels'] text:nth-child(1)"
+        }
+    },
+    "scan_card_highcharts_xaxis_labels_first_year":{
+        "locator": {
+            "css selector": "div[data-testid='usage-scan'] g[class*='highcharts-xaxis-labels'] text:nth-child(1)"
+        }
+    },
+    "overview_tab_print_card_title":{
+        "locator": {
+            "css selector": "div[data-testid='print-anywhere-solution-content'] p[class*=' subtitle']"
+        },
+        "localization": {
+            "en": "Print"
+        }
+    },
+    "overview_tab_print_anywhere_toggle_button":{
+        "locator": {
+            "css selector": "span#print-anywhere-enabled"
+        }
+    },
+    "overview_tab_print_anywhere_toggle_button_label":{
+        "locator": {
+            "css selector": "span#print-anywhere-enabled-label"
+        },
+        "localization": {
+            "en": "Enable Print Anywhere"
+        }
+    },
+    "overview_tab_print_anywhere_toggle_button_desc":{
+        "locator": {
+            "css selector": "div[data-testid='enable-print-anywhere-setting'] p"
+        },
+        "localization": {
+            "en": "Allow users to print to this printer from anywhere they have a network connection using the HP Smart Driver."
+        }
+    },
+    "overview_tab_private_pickup_toggle_button":{
+        "locator": {
+            "css selector": "span#private-pickup-required"
+        }
+    },
+    "overview_tab_private_pickup_toggle_button_label":{
+        "locator": {
+            "css selector": "span#private-pickup-required-label"
+        },
+        "localization": {
+            "en": "Require Private Pickup"
+        }
+    },
+    "overview_tab_private_pickup_toggle_button_desc":{
+        "locator": {
+            "css selector": "div[data-testid='private-pickup-required-setting'] p"
+        },
+        "localization": {
+            "en": "Files will only be printed when the user confirms their proximity to the printer using the HP Smart app."
+        }
+    },
+    "printer_details_supplies_level_container":{
+        "locator": {
+            "css selector": "div[data-testid='printer-supplies-container']"
+        }
+    },
+    "printer_details_supplies_level_container_label":{
+        "locator": {
+            "css selector": "div[data-testid='estimated-levels-label']"
+        },
+        "localization": {
+            "en": "Estimated supply levels"
+        }
+    },
+    "printer_details_order_supplies_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Order supplies')]/parent::button"
+        }
+    },
+    "printer_details_supplies_K_container":{
+        "locator": {
+            "css selector": "div[data-testid='printer-supplies-cartridge-K']"
+        }
+    },
+    "printer_details_supplies_C_container":{
+        "locator": {
+            "css selector": "div[data-testid='printer-supplies-cartridge-C']"
+        }
+    },  
+    "printer_details_supplies_M_container":{
+        "locator": {
+            "css selector": "div[data-testid='printer-supplies-cartridge-M']"
+        }
+    },
+    "printer_details_supplies_Y_container":{
+        "locator": {
+            "css selector": "div[data-testid='printer-supplies-cartridge-Y']"
+        }
+    },
+    "printer_details_install_hp_software_popup":{
+        "locator": {
+            "css selector": "div div[aria-describedby='install-software-modal-desc']"
+        }
+    },
+    "install_hp_software_popup_title":{
+        "locator": {
+            "css selector": "div#install-software-modal-desc div[class*='title']"
+        },
+        "localization": {
+            "en": "Install HP software"
+        }
+    },   
+    "install_hp_software_popup_download_driver_btn":{
+        "locator": {
+            "xpath": "//a[contains(text(),'Download the driver')]"
+        }
+    },
+    "install_hp_software_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='print-install-software-cancel']"
+        }
+    },
+    "install_hp_software_popup_install_btn":{
+        "locator": {
+            "css selector": "button[data-testid='print-install-software-install']"
+        }
+    },
+    "remove_printer_modal":{
+        "locator": {
+            "css selector": "#remove-device-modal-desc"
+        }
+    },
+    "checkmark_printer_opted_out_of_privacy":{
+        "locator": {
+            "css selector": "input[name='privacyOptedOut']"
+        }
+    },
+    "checkmark_users_no_longer_access_printer":{
+        "locator": {
+            "css selector": "input[name='userLostAccessToPrinter']"
+        }
+    },
+    "remove_button_modal":{
+        "locator": {
+            "css selector": "[data-testid='remove-printer-button']"
+        }
+    },
+    "hp_plus_benefits_removed_modal":{
+        "locator": {
+            "css selector": "[aria-describedby='remove-device-last-hpplus-modal-desc']"
+        }
+    },
+    "hp_plus_benefits_remove_continue_button":{
+        "comment": "jira: https://hp-jira.external.hp.com/browse/SMBP-3090",
+        "locator": {
+            "css selector": "button.css-126vc03"
+        }
+    },
+    "no_printer_added_message":{
+        "locator": {
+            "css selector": "[data-testid='no-data-yet-container']"
+        }
+    },
+    "printer_scan_to_email_setup_page_cancel_button":{
+        "locator": {
+            "css selector": "div#footer-main-container button#Cancel-button"
+        }
+    },
+    "printer_scan_to_email_setup_page_save_button":{
+        "locator": {
+            "css selector": "div#footer-main-container button#Save-button"
+        }
+    },    
+    "printer_scan_to_email_setup_scan_destination_name_field_title":{
+        "locator": {
+            "xpath": "//h6[contains(text(),'Scan Destination Name')]"
+        },
+        "localization": {
+            "en": "Scan Destination Name"
+        }
+    },
+    "printer_scan_to_email_setup_scan_destination_name_field":{
+        "locator": {
+            "css selector": "input#shortcut-name-input"
+        }
+    },    
+    "printer_scan_to_email_setup_scan_destination_name_field_txt":{
+        "locator": {
+            "css selector": "label#shortcut-name-input-label"
+        },
+        "localization": {
+            "en": "Enter a friendly name, ex. Sales Queue*"
+        }
+    },
+    "printer_scan_to_email_setup_email_information_field_title":{
+        "locator": {
+            "css selector": "div#email-form-main-container h6"
+        },
+        "localization": {
+            "en": "Edit Email Information"
+        }
+    },
+    "printer_scan_to_email_setup_email_information_field_desc":{
+        "locator": {
+            "css selector": "div#email-form-main-container p"
+        },
+        "localization": {
+            "en": "For multiple recipients (up to 20), separate email addresses with commas."
+        }
+    },
+    "printer_scan_to_email_setup_email_information_field":{
+        "locator": {
+            "css selector": "textarea#email-receiver-input"
+        }
+    },
+    "printer_scan_to_email_setup_email_information_field_txt":{
+        "locator": {
+            "css selector": "label#email-receiver-input-label"
+        },
+        "localization":{ 
+            "en": "To*"
+        }
+    },
+    "printer_scan_to_email_setup_unsaved_changes_popup":{
+        "locator": {
+            "css selector": "div[data-testid='dialog-modal']"
+        }
+    },
+    "printer_scan_to_email_setup_unsaved_changes_popup_title":{
+        "locator": {
+            "css selector": "div#dialog-modal-custom-title-container div"
+        },
+        "localization": {
+            "en": "Unsaved changes"
+        }
+    },    
+    "printer_scan_to_email_setup_unsaved_changes_popup_desc":{
+        "locator": {
+            "css selector": "div#dialog-modal-custom-title-container+p"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? Your changes have not been saved and will be discarded if you leave now."
+        }
+    },    
+    "printer_scan_to_email_setup_unsaved_changes_popup_cancel_button":{
+        "locator": {
+            "xpath": "(//span[contains(text(),'Cancel')]/parent::button)[2]"
+        }
+    },    
+    "printer_scan_to_email_setup_unsaved_changes_popup_leave_button":{
+        "locator": {
+            "xpath": "(//span[contains(text(),'Leave')]/parent::button)"
+        }
+    },
+    "printer_scan_to_email_setup_subject_field":{
+        "locator": {
+            "css selector": "textarea#email-subject-input"
+        }
+    },
+    "printer_scan_to_email_setup_subject_field_txt":{
+        "locator": {
+            "css selector": "label#email-subject-input-label"
+        },
+        "localization": {
+            "en": "Subject*"
+        }
+    },
+    "printer_scan_to_email_setup_message_body_field":{
+        "locator": {
+            "css selector": "textarea#email-body-input"
+        }
+    },
+    "printer_scan_to_email_setup_message_body_field_txt":{
+        "locator": {
+            "css selector": "label#email-body-input-label"
+        },
+        "localization": {
+            "en": "Message Body"
+        }
+    },
+    "printer_scan_to_email_setup_settings_field":{
+        "locator": {
+            "css selector": "div#file-type-form-main-container"
+        }
+    },   
+    "printer_scan_to_email_setup_settings_field_title":{
+        "locator": {
+            "css selector": "div#file-type-form-main-container>h6"
+        },
+        "localization": {
+            "en": "Settings"
+        }
+    },
+    "printer_scan_to_email_setup_file_type_dropdown":{
+        "locator": {
+            "css selector": "div#file-type-select"
+        }
+    },
+    "printer_scan_to_email_setup_file_type_dropdown_title":{
+        "locator": {
+            "css selector": "div#file-type-content-container h6"
+        },
+        "localization": {
+            "en": "File type"
+        }
+    },
+    "printer_scan_to_email_setup_security_pin_title":{
+        "locator": {
+            "css selector": "div#security-pin-container h6"
+        },
+        "localization": {
+            "en": "Security PIN"
+        }
+    },    
+    "printer_scan_to_email_setup_security_pin_toggle_btn":{
+        "locator": {
+            "css selector": "span#custom-toggle"
+        }
+    },
+    "printer_scan_to_email_setup_security_pin_toggle_btn_label":{
+        "locator": {
+            "css selector": "span#custom-toggle-label"
+        },
+        "localization":{
+            "en": "Enable Security PIN"
+        }
+    },
+    "printer_scan_to_email_setup_security_pin_toggle_btn_descripton":{
+        "locator": {
+            "css selector": "div#security-pin-container p.caption"
+        },
+        "localization":{
+            "en": "Add a security PIN that authorized users must enter to access this Scan Destination."
+        }
+    },
+    "printer_scan_to_email_setup_security_pin_field":{
+        "locator": {
+            "css selector": "div#security-pin-input-container"
+        }
+    },
+    "printer_scan_to_email_setup_enter_security_pin_field":{
+        "locator": {
+            "css selector": "input#pin-input"
+        }
+    },   
+    "printer_scan_to_email_setup_confirm_security_pin_field":{
+        "locator": {
+            "css selector": "input#pin-input-confirmation"
+        }
+    },
+    "scan_destination_screen_container":{
+        "locator": {
+            "css selector": "div#scan-destination-page-container"
+        }
+    },
+    "printer_scan_destination_screen_breadcrumb":{
+        "locator":{
+            "css selector": "nav[data-testid='undefined-breadcrumb']"
+        }
+    },
+    "printer_scan_destination_screen_refresh_button":{
+        "locator":{
+            "css selector": "div#last-updated-container button"
+        }
+    },
+    "printer_scan_destination_screen_last_updated_date_time":{
+        "locator":{
+            "css selector": "span[aria-label='reload-button-caption']"
+        }
+    },
+    "printer_scan_destination_screen_printer_widget_container":{
+        "locator":{
+            "css selector": "div#printer-widget-container"
+        }
+    },
+    "printer_scan_destination_screen_printer_details_container":{
+        "locator":{
+            "css selector": "div#printer-details-container"
+        }
+    },
+    "printer_scan_destination_screen_printer_name":{
+        "locator":{
+            "css selector": "div#printer-data-container>div:nth-child(1)"
+        }
+    },
+    "printer_scan_destination_screen_printer_model_name":{
+        "locator":{
+            "css selector": "div#printer-data-container>div:nth-child(2)"
+        }
+    },
+    "printer_scan_destination_screen_printer_status":{
+        "locator":{
+            "css selector": "div#connect-container div"
+        }
+    },
+    "printer_scan_destination_screen_printer_status_icon":{
+        "locator":{
+            "css selector": "svg[aria-label='Connectivity']"
+        }
+    },
+    "printer_scan_destination_screen_printer_details_link":{
+        "locator":{
+            "css selector": "div#link-container"
+        }
+    },
+    "printer_scan_destination_screen_scan_data_container":{
+        "locator":{
+            "css selector": "div#shortcut-data-container"
+        }
+    },
+    "printer_scan_destination_screen_scan_data_email_title":{
+        "locator":{
+            "css selector": "[data-testid='scan-to-email-printer-info-text']"
+        },
+        "localization":{
+            "en": "Scan to Email"
+        }
+    },
+    "printer_scan_destination_screen_scan_data_email_icon":{
+        "locator":{
+            "css selector": "img[alt='Scan to email icon']"
+        }
+    },
+    "scan_destination_screen_scan_data_email_count":{
+        "locator":{
+            "css selector": "div[data-testid='email-counter']"
+        }
+    },
+    "printer_scan_destination_screen_scan_data_cloud_title":{
+        "locator":{
+            "css selector": "[data-testid='scan-to-cloud-printer-info-text']"
+        },
+        "localization":{
+            "en": "Scan to Cloud"
+        }
+    },
+    "printer_scan_destination_screen_scan_data_cloud_icon":{
+        "locator":{
+            "css selector": "img[alt='Scan to cloud icon']"
+        }
+    },
+    "scan_destination_screen_scan_data_cloud_count":{
+        "locator":{
+            "css selector": "div[class*='SaveCountNumber']"
+        }
+    },
+    "printer_scan_destination_screen_scan_tabs_container":{
+        "locator":{
+            "css selector": "div#scan-destinations-tabs-container"
+        }
+    },
+    "printer_scan_destination_screen_scan_email_tab":{
+        "locator":{
+            "css selector": "div[aria-controls='extended-0']"
+        }
+    },
+    "printer_scan_destination_screen_scan_cloud_tab":{
+        "locator":{
+            "css selector": "div[aria-controls='extended-1']"
+        }
+    },
+    "printer_scan_destination_screen_search_field":{
+        "locator":{
+            "css selector": "input#search-content"
+        }
+    },
+    "printer_scan_destination_screen_scan_to_email_table":{
+        "locator":{
+            "css selector": "div table"
+        }
+    },
+    "printer_scan_destination_screen_scan_to_cloud_table":{
+        "locator":{
+            "css selector": "div table"
+        }
+    }
+}   

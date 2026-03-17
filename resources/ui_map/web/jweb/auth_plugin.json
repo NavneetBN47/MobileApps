@@ -1,0 +1,213 @@
+{
+  "auth_is_logged_in_test_btn": {
+    "locator": {
+      "css selector": "#isLoggedInButton"
+    }
+  },
+  "auth_is_logged_in_result_txt": {
+    "locator": {
+      "css selector": "#isLoggedInResult"
+    }
+  },
+  "auth_get_token_open_item": {
+    "locator": {
+      "css selector": "#getToken > button.vn-panel__header.vn-panel__collapsible-header.vn-panel__collapsible-header--collapsed"
+    }
+  },
+  "auth_get_token_result_txt": {
+    "locator": {
+      "css selector": "#getTokenResult"
+    }
+  },
+  "auth_get_token_close_item": {
+    "locator": {
+      "css selector": "#getToken > button.vn-panel__header.vn-panel__collapsible-header"
+    }
+  },
+  "auth_send_token_options_switch": {
+    "locator": {
+      "css selector": "#getToken label span"
+    }
+  },
+  "token_type_request_menu": {
+    "locator": {
+      "css selector": "#tokenTypeSelect"
+    }
+  },
+  "auth_token_option_checkbox": {
+    "locator": {
+      "css selector": "#{}Checkbox"
+    }
+  },
+  "auth_token_list_options": {
+    "locator": {
+      "css selector": "#{}Select"
+    }
+  },
+  "auth_token_list_option": {
+    "locator": {
+      "xpath": "//ul[contains(@id, '{}')]//span[text()='{}']"
+    }
+  },
+  "auth_tenant_textbox": {
+    "locator": {
+      "css selector": "#tenant-field"
+    }
+  },
+  "token_lifetime_btn": {
+    "locator": {
+      "id": "addTokenOptionButton"
+    }
+  },
+  "token_lifetime_type_dropdown": {
+    "locator": {
+      "xpath": "//div[contains(@id, 'typeTokenLife')]"
+    }
+  },
+  "token_lifetime_option": {
+    "locator": {
+      "css selector": "li[data-value='{}']"
+    }
+  },
+  "token_lifetime_textbox": {
+    "locator": {
+      "xpath": "//input[contains(@id, 'timeInterval')]"
+    }
+  },
+  "token_lifetime_delete_btn": {
+    "locator": {
+      "id": "deleteTokenlifetimeoption"
+    }
+  },
+  "auth_user_interaction_entry_point_checkbox": {
+    "locator": {
+      "css selector": "#userInteractionEntryPointCheckbox"
+    }
+  },
+  "auth_user_interaction_entry_point_selector": {
+    "locator": {
+      "css selector": "#userInteractionEntryPointSelect"
+    }
+  },
+  "list_option_generic": {
+    "locator": {
+      "css selector": "ul[role='listbox']"
+    }
+  },
+  "list_option": {
+    "locator" : {
+      "css selector":  "[data-value*='{}']"
+    }
+  },
+  "device_uuid_textbox": {
+    "locator": {
+      "css selector": "[name=uuidField]"
+    }
+  },
+  "auth_scope_field_textbox": {
+    "locator": {
+      "css selector": "#scope-field",
+      "xpath": "//XCUIElementTypeOther[contains(@name, 'Token Scopes')]/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "auth_get_token_test_btn": {
+    "locator": {
+      "css selector": "#getTokenButton"
+    }
+  },
+  "auth_logout_open_item": {
+    "locator": {
+      "css selector": "#logout > button.vn-panel__header.vn-panel__collapsible-header.vn-panel__collapsible-header--collapsed"
+    }
+  },
+  "auth_logout_test_btn": {
+    "locator": {
+      "css selector": "#logoutButton"
+    }
+  },
+  "auth_logout_result_txt": {
+    "locator": {
+      "css selector": "#logoutResult"
+    }
+  },
+  "auth_logout_close_item": {
+    "locator": {
+      "css selector": "#isLoggedInButton"
+    }
+  },
+  "auth_add_listener_btn": {
+    "locator": {
+      "css selector": "#addSubscriberButton"
+    }
+  },
+  "auth_remove_listener_btn": {
+    "locator": {
+      "css selector": "#unsubscribeButton"
+    }
+  },
+  "auth_listener_result_text": {
+    "locator": {
+      "css selector": "#addListenerResult"
+    }
+  },
+  "auth_plugin_header_title": {
+    "locator": {
+      "css selector": "h3[class='header-title']"
+    }
+  },
+  "set_subscriber_btn": {
+    "locator": {
+      "css selector": "#addSubscriberButton"
+    }
+  },
+  "error_display": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView[@name='operationResultTextView']"
+    }
+  },
+  "get_device_token_chevron_btn":{
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='Get Device Token']/following-sibling::XCUIElementTypeButton[@name='chevron']"
+    }
+  },
+  "get_token_chevron_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Get Token']/following-sibling::XCUIElementTypeButton[@name='chevron']"
+    }
+  },
+  "get_token_content": {
+    "locator": {
+      "css selector": "[name=operationResultTextView]"
+    }
+  },
+  "qahp_smart_back_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeNavigationBar[@name='Get Token']//XCUIElementTypeButton[@name='Qahp Smart']"
+    }
+  },
+  "get_account_content": {
+    "locator": {
+      "css selector": "[name=qa.mobiauto+2025_03_24_03_26_16_MCLK1X@gmail.com]"
+    }
+  },
+  "event_subscriber_result": {
+    "locator": {
+      "id": "notificationResult"
+    }
+  },
+    "app_settings": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='App Settings']"
+    }
+  },
+    "settings_auth_provider": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='com.hp.jarvis.auth.example.authprovider']"
+    }
+  },
+  "settings_auth_provider_menu_item": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[@name='{}']"
+    }
+  }
+}

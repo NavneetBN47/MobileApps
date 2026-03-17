@@ -1,0 +1,93 @@
+{
+    "security_word_txt_box": {
+        "locator": {
+            "css selector": "#error-text-box"
+        }
+    },
+    "go_btn": {
+        "locator": {
+            "css selector": "button[type='submit']"
+        }
+    },
+    "organization_radio_btn": {
+        "locator": {
+            "css selector": "span.vn-radio-button__span-text"
+        }
+    },
+    "continue_btn": {
+        "locator": {
+            "css selector": ["button[type='button']", "[data-testid='clientos-react-tenant-selector-mfe__continue_button']"]
+        }
+    },
+    "signin_hp_label": {
+        "locator": {
+            "css selector": "div#root header h1"
+        }
+    },
+    "organization_selector_page":{
+        "locator":{
+            "css selector": "[data-testid='clientos-react-tenant-selector-mfe__container']"
+        }
+    },
+    "organization_selector_list":{
+        "locator":{
+            "css selector": "[data-testid='clientos-react-tenant-selector-mfe__organizationList']"
+        }
+    },
+    "organization_radio_btn_count": {
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "span.vn-radio-button__span-text"
+        }
+    },
+    "organization_second_radio_btn": {
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "(//*[@aria-disabled='false']//following-sibling::span)[2]"
+        }
+    },
+    "organization_radio_btn_value": {
+        "locator": {
+            "xpath": "//input[@value='{}']/parent::label"
+        }
+    },
+    "intercept_survey_modal_form": {
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": ["div.pageRepeater", "div#liveForm"]
+        }
+    },
+    "intercept_survey_modal_form_close_btn": {
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": ["[aria-label='Close Survey']", "button[class*='neb-show-button']"]
+        }
+    },
+    "intercept_survey_modal_form_cancel_btn": {
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "button[class*='btn cancel-btn form']"
+        }
+    },
+    "intercept_survey_modal_form_submit_btn": {
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "button[class*='btn submit-btn']"
+        }
+    },
+    "intercept_survey_modal":{
+        "locator":{
+            "css selector": "iframe#kampyleForm47617"
+        }
+    },
+    "organization_dropdown": {
+        "locator": {
+            "xpath": "//div[@id='vn-select-1']/parent::div"
+        }
+    },
+    "organization_dropdown_value": {
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    }
+}

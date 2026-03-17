@@ -1,0 +1,914 @@
+{
+    "printer_inventory_card":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div[class*='custom-widget widget-printer-inventory']"
+        }
+    },
+    "printer_inventory_card_title":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//h2//div[contains(text(),'Printer Inventory')][1]"
+        }
+    },
+    "printer_inventory_card_graph_chart":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) g[class*='highcharts-series-group']"
+        }
+    },
+    "printer_inventory_card_online_button":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-0:nth-child(3) > text > tspan:nth-child(2)"
+        }
+    },
+    "printer_inventory_card_online_button_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": ".highcharts-data-label-color-0:nth-child(3) > text > tspan:nth-child(3)"
+        }
+    },
+    "printer_inventory_card_offline_button_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": ".highcharts-data-label-color-1:nth-child(4) > text > tspan:nth-child(3)"
+        }
+    },
+    "printer_inventory_card_online_button_hover":{
+        "locator": {
+            "css selector": "[class='dui scim-table-flex-container printer-inventory-widget-card']  g[class*='color-0'] text"
+        }
+    },  
+    "printer_inventory_card_offline_button":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-1:nth-child(4) > text > tspan:nth-child(2)"
+        }
+    },
+    "printer_inventory_card_offline_button_hover":{
+        "locator": {
+            "css selector": "[class='dui scim-table-flex-container printer-inventory-widget-card']  g[class*='color-1'] text"
+        }
+    },
+    "printer_inventory_card_online_chart":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) path[data-testid='point-online']"
+        }
+    },
+    "printer_inventory_card_online_chart_hover":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) path[class*='highcharts-point highcharts-color-1'] path[class*='highcharts-point highcharts-color-0 highcharts-point-hover']"
+        }
+    },
+    "printer_inventory_card_offline_chart":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) path[class*='highcharts-point highcharts-color-1']"
+        }
+    },
+    "printer_inventory_card_offline_chart_hover":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) path[class*='highcharts-point highcharts-color-1'] path[class*='highcharts-point highcharts-color-1 highcharts-point-hover']"
+        }
+    },
+    "printer_inventory_card_empty":{
+        "locator": {
+            "css selector": "div[data-testid='PrinterInventoryLoading'] div[data-testid='loadingImage']"
+        }
+    },
+    "no_data_display_message":{
+        "locator": {
+            "css selector": "div[data-testid='PrinterInventoryLoading'] div[data-testid='dataProcessingLabel']"
+        },
+        "localization": {
+            "en": "No Data to Display"
+        }
+    },   
+    "printer_inventory_card_printers_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "[class='dui scim-table-flex-container printer-inventory-widget-card'] text[class='highcharts-title']"
+        }
+    },
+    "printer_inventory_card_printers_count_label":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "[class='dui scim-table-flex-container printer-inventory-widget-card'] text[class='highcharts-subtitle']"
+        },
+        "localization": {
+            "en": "printers"
+        }
+    }, 
+    "printer_inventory_card_online_button_enabled":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) div[class='highcharts-legend-item highcharts-pie-series highcharts-color-0']"
+        }
+    },
+    "printer_inventory_card_online_button_disabled":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) div[class='highcharts-legend-item highcharts-pie-series highcharts-color-0 highcharts-legend-item-hidden']"
+        }
+    },
+    "printer_inventory_card_offline_button_enabled":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) div[class='highcharts-legend-item highcharts-pie-series highcharts-color-1']"
+        }
+    },
+    "printer_inventory_card_offline_button_disabled":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(2) div[class='highcharts-legend-item highcharts-pie-series highcharts-color-1 highcharts-legend-item-hidden']"
+        }
+    },
+    "printer_inventory_card_more_options_button":{
+        "locator": {
+            "css selector": "div[class*='custom-widget widget-printer-inventory'] button[aria-label='More options']"
+        }
+    },
+    "printer_inventory_card_more_options_list_items":{
+        "locator": {
+            "css selector": "ul[role='menu'] li"
+        }
+    },
+    "printer_fleet_security_widget":{
+        "locator": {
+            "css selector": "div[class*='custom-widget widget-printer-fleet-security']"
+        }
+    },    
+    "printer_fleet_security_widget_title":{
+        "locator": {
+            "xpath": "//h2//div[contains(text(),'Printer Fleet Security')][1]"
+        },
+        "localization": {
+            "en": "Printer Fleet Security"
+        }
+    },
+    "printer_fleet_security_widget_view_details_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div[class*='widget-printer-fleet-security'] button[title='View details']"
+        }
+    },
+    "printer_fleet_security_widget_info_button":{
+        "locator": {
+            "css selector": "div#printer-fleet-compliance-label div.wexcard-header-action button:nth-child(2) span"
+        }
+    },
+    "printer_fleet_security_widget_badge_title":{
+        "locator": {
+            "css selector": "[data-testid='jarvis-react-ecp-endpoint-security-widget__badge-title']"
+        },
+        "localization": {
+            "en": "Assessment status"
+        }
+    },
+    "printer_fleet_security_widget_badge_subtitle":{
+        "locator": {
+            "css selector": "[data-testid='jarvis-react-ecp-endpoint-security-widget__badge-subtitle']"
+        }
+    },
+    "printer_fleet_security_widget_badge_icon":{
+        "locator": {
+            "css selector": "[data-testid='widget-body'] section>div>div>svg"
+        }
+    },
+    "printer_fleet_security_widget_status_buttons":{
+        "locator": {
+            "css selector": "[data-testid*='jarvis-react-ecp-endpoint-security-widget__security-items-list-item-title']"
+        }
+    },  
+    "printer_fleet_security_widget_high_risk_status_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//*[@data-testid='widget-body']//div[contains(text(),'High risk')]/parent::div"
+        }
+    },    
+    "printer_fleet_security_widget_medium_risk_status_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//*[@data-testid='widget-body']//div[contains(text(),'Medium risk')]/parent::div"
+        }
+    },
+    "printer_fleet_security_widget_not_assessed_status_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//*[@data-testid='widget-body']//div[contains(text(),'Not assessed')]/parent::div"
+        }
+    },
+    "printer_fleet_security_widget_low_risk_status_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//*[@data-testid='widget-body']//div[contains(text(),'Low risk')]/parent::div"
+        }
+    },
+    "printer_fleet_security_widget_passed_status_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//*[@data-testid='widget-body']//div[contains(text(),'Passed')]/parent::div"
+        }
+    },
+    "printer_fleet_security_widget_high_risk_status_button_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'High risk')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')]"
+        }
+    },
+    "printer_fleet_security_widget_medium_risk_status_button_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Medium risk')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')][1]"
+        }
+    },
+    "printer_fleet_security_widget_not_assessed_status_button_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Not assessed')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')][1]"
+        }
+    },
+    "printer_fleet_security_widget_low_risk_status_button_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Low risk')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')][1]"
+        }
+    },
+    "printer_fleet_security_widget_passed_status_button_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Passed')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')][1]"
+        }
+    },
+    "printer_fleet_security_widget_high_risk_status_navigation_icon":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'High risk')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')"
+        }
+    },
+    "printer_fleet_security_widget_medium_risk_status_navigation_icon":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Medium risk')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')]"
+        }
+    },
+    "printer_fleet_security_widget_not_assessed_status_navigation_icon":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Not assessed')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')]"
+        }
+    },
+    "printer_fleet_security_widget_low_risk_status_navigation_icon":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Low risk')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')]"
+        }
+    },
+    "printer_fleet_security_widget_passed_status_navigation_icon":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'Passed')]/ancestor::li//span[contains(@class, 'endpoint-security-widget')]"
+        }
+    },
+    "printer_fleet_security_widget_information_icon":{
+        "locator": {
+            "css selector": "div#printer-fleet-compliance-label div.wexcard-header-action button:nth-child(2) span"
+        }
+    },
+    "printer_fleet_security_widget_more_options_button":{
+        "locator": {
+            "css selector": "div[class*='custom-widget widget-printer-fleet-security'] button[data-testid*='action-menu']"
+        }
+    },
+    "printer_fleet_security_widget_about_this_widget_button":{
+        "locator": {
+            "css selector": "button[data-testid='custom-dashboard-widget-4-about-menu-item']"
+        }
+    },
+    "printer_fleet_security_widget_more_options_list_items":{
+        "locator": {
+            "css selector": "ul[role='menu'] li"
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal":{
+        "locator": {
+            "css selector": "div[aria-labelledby='fleet-security-modal-title']"
+        }
+    },    
+    "hp_secure_fleet_manager_status_information_modal_title":{
+        "locator": {
+            "css selector": "div[aria-describedby='fleet-security-definitions-header'] h4"
+        },
+        "localization": {
+            "en": "Printer fleet security status"
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal_description":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div#modal-id span:nth-child(1)"
+        },
+        "localization": {
+            "en": "HP Secure Fleet Manager runs an assessment that gauges the security of your printer fleet. Fleet security status is determined by the risk level of individual printers, as well as how many printers have passed the security policies assessment."
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal_status_description":{
+        "locator": {
+            "css selector": "#fleet-security-definitions-header"
+        },
+        "localization": {
+            "en": "Fleet security status definitions:"
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal_high_risk_status_description":{
+        "locator": {
+            "css selector": "li[data-testid='description-point-1']"
+        },
+        "localization": {
+            "en": "High Risk: At least one printer is assessed as high risk."
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal_medium_risk_status_description":{
+        "locator": {
+            "css selector": "li[data-testid='description-point-2']"
+        },
+        "localization": {
+            "en": "Medium Risk: At least one printer is assessed as medium risk, or there is at least one printer that hasn't been assessed."
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal_low_risk_status_description":{
+        "locator": {
+            "css selector": "li[data-testid='description-point-3']"
+        },
+        "localization": {
+            "en": "Low Risk: At least one printer is assessed as low risk."
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal_compliant_status_description":{
+        "locator": {
+            "css selector": "li[data-testid='description-point-4']"
+        },
+        "localization": {
+            "en": "Compliant: All printers have passed the security policies assessment."
+        }
+    },
+    "hp_secure_fleet_manager_status_information_modal_close_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "button[aria-label='Close']"
+        }
+    },
+    "printer_fleet_compliance_widget":{
+        "locator": {
+            "css selector": "div[class*='printer-inventory-widget-card fleet-compliance-widget']"
+        }
+    },
+    "printer_fleet_compliance_widget_title":{
+        "locator": {
+            "xpath": "//h2//div[contains(text(),'Printer Fleet Compliance')][1]"
+        },
+        "localization": {
+            "en": "Printer Fleet Compliance"
+        }
+    },    
+    "printer_fleet_compliance_widget_view_details_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div[class*='widget-printer-fleet-compliance'] button[title='View details']"
+        },
+        "localization": {
+            "en": "View Details"
+        }
+    },    
+    "printer_fleet_compliance_widget_graph_chart":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div.custom-dashboard-widget-list.custom-dashboard-page-container >div > div:nth-child(5) [data-testid='inventory-chart-series-group']"
+        }
+    },  
+    "printer_fleet_compliance_widget_graph_chart_printers_count":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div[class*='printer-inventory-widget-card fleet-compliance-widget'] text[class='highcharts-title']"
+        }
+    },
+    "printer_fleet_compliance_widget_graph_chart_printers_count_label":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "[data-testid='inventory-chart-subtitle-2']"
+        },
+        "localization": {
+            "en": "printers"
+        }
+    },
+    "printer_fleet_compliance_widget_compliance_status_button":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-0:nth-child(4) > text > tspan:nth-child(2)"
+        }
+    },
+    "printer_fleet_compliance_widget_compliance_status_button_enabled":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] div[class='highcharts-legend-item highcharts-pie-series highcharts-color-0']"
+        }
+    },
+    "printer_fleet_compliance_widget_compliance_status_button_disabled":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] div[class='highcharts-legend-item highcharts-pie-series highcharts-color-0 highcharts-legend-item-hidden']"
+        }
+    },
+    "printer_fleet_compliance_widget_compliance_status_button_count":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-0:nth-child(4) > text > tspan:nth-child(3)"
+        }
+    },
+    "printer_fleet_compliance_widget_non_compliant_status_button":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-1:nth-child(5) > text > tspan:nth-child(2)"
+        }
+    },
+    "printer_fleet_compliance_widget_non_compliant_status_button_enabled":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] div[class='highcharts-legend-item highcharts-pie-series highcharts-color-1']"
+        }
+    },
+    "printer_fleet_compliance_widget_non_compliant_status_button_disabled":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] div[class='highcharts-legend-item highcharts-pie-series highcharts-color-1 highcharts-legend-item-hidden']"
+        }
+    },
+    "printer_fleet_compliance_widget_non_compliant_status_button_count":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-1:nth-child(5) > text > tspan:nth-child(3)"
+        }
+    },
+    "printer_fleet_compliance_widget_not_assessed_status_button":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-2:nth-child(6) > text > tspan:nth-child(2)"
+        }
+    },
+    "printer_fleet_compliance_widget_not_assessed_status_button_enabled":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] div[class='highcharts-legend-item highcharts-pie-series highcharts-color-2']"
+        }
+    },
+    "printer_fleet_compliance_widget_not_assessed_status_button_disabled":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] div[class='highcharts-legend-item highcharts-pie-series highcharts-color-2 highcharts-legend-item-hidden']"
+        }
+    },
+    "printer_fleet_compliance_widget_not_assessed_status_button_count":{
+        "locator": {
+            "css selector": ".highcharts-data-label-color-2:nth-child(6) > text > tspan:nth-child(3)"
+        }
+    },
+    "printer_fleet_compliance_chart_not_assessed_status_chart":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] path[class*='highcharts-point highcharts-color-2']"
+        }
+    },
+    "printer_fleet_compliance_chart_not_assessed_status_hover_point_chart":{
+        "locator": {
+            "css selector": "div[class*='fleet-compliance-widget'] path[class*='highcharts-point highcharts-color-2 highcharts-point-hover']"
+        }
+    },
+    "printer_fleet_compliance_widget_more_options_button":{
+        "locator": {
+            "css selector": "div[class*='custom-widget widget-printer-fleet-compliance'] button[aria-label='More options']"
+        }
+    },
+    "printer_fleet_compliance_widget_more_options_list_items":{
+        "locator": {
+            "css selector": "ul[role='menu'] li"
+        }
+    },
+    "analytics_dashboards_page_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "analytics_dashboards_page_header":{
+        "locator": {
+            "css selector": "[class*='custom-dashboard-wrapper container'] p[class*='header subtitle-regular']"
+        }
+    },
+    "analytics_experience_score_dashboard_button":{
+        "locator": {
+            "css selector": "#custom-dashboard-experience-score"
+        }
+    },
+    "analytics_fleet_management_dashboard_button":{
+        "locator": {
+            "css selector": "#custom-dashboard-fleet-management"
+        }
+    },
+    "analytics_employee_engagement_dashboard_button":{
+        "locator": {
+            "css selector": "#custom-dashboard-employee-engagement"
+        }
+    },
+    "analytics_hardware_support_dashboard_button":{
+        "locator": {
+            "css selector": "#custom-dashboard-hardware-support"
+        }
+    },
+    "analytics_employee_engagement_dashboard_page_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "analytics_employee_engagement_dashboard_page_title":{
+        "locator": {
+            "css selector": "div[class*='dui-display-flex justify']>p"
+        }
+    },
+    "employee_engagement_dashboard_pc_widget":{
+        "locator": {
+            "css selector": "div#custom-dashboard-widget-lib-PC-category"
+        }
+    },
+    "analytics_new_dashboard_button":{
+        "locator": {
+            "css selector": "#create-custom-dashboard"
+        }
+    },
+    "analytics_print_widget":{
+        "locator": {
+            "css selector": "#custom-dashboard-widget-lib-PRINT-category"
+        }
+    },
+    "analytics_pc_widget":{
+        "locator": {
+            "css selector": "div#custom-dashboard-widget-lib-PC-category"
+        }
+    },
+    "analytics_fleet_inventory_widget":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Fleet Inventory')]"
+        }
+    },
+    "analytics_print_printer_fleet_compliance_widgets":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Printer Fleet Compliance')]"
+        }
+    },
+    "analytics_print_printer_fleet_security":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Printer Fleet Security')]"
+        }
+    },
+    "analytics_print_printer_inventory":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Printer Inventory')]"
+        }
+    },
+    "analytics_print_printer_management":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Printer Management')]"
+        }
+    },
+    "analytics_widgets_create_btn":{
+        "locator": {
+            "css selector": "button#create-custom-dashboard-button"
+        }
+    },
+    "analytics_dashboard_created_pop_up_message":{
+        "locator": {
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "analytics_edit_btn":{
+        "locator": {
+            "css selector": "div[class='dui-margin-right-10 dui-pointer'] svg"
+        }
+    },
+    "analytics_dashboard_name_input":{
+        "locator": {
+            "css selector": "div#wex-main-container-id input"
+        }
+    },
+    "analytics_dashboard_save_btn":{
+        "locator": {
+            "css selector": "div.dui-margin-right-10.dui-pointer svg"
+        }
+    },
+    "created_analytic_dashboard":{
+        "locator": {
+            "css selector": "div[id*='custom-dashboard-{}']"
+        }
+    },
+    "created_dashboard_export_btn":{
+        "locator": {
+            "css selector": "button[class*='dashboard-export']"
+        }
+    },
+    "created_dashboard_export_xlsx_btn":{
+        "locator": {
+            "css selector": "[data-testid='wex_menu_item_xlxs'] li"
+        }   
+    },
+    "xlsx_file_downloaded_popup_msg":{
+        "locator": {
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "analytic_dashboard_expand_btn":{
+        "locator": {
+            "css selector": "div[class*='dui-display-flex justify-content-between'] button:nth-child(1)"
+        }
+    },
+    "analytic_dashboard_delete_dashboard_btn":{
+        "locator": {
+            "css selector": "div#custom-dashboard-delete-button"
+        }
+    },
+    "analytic_dashboard_delete_btn":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Delete')]/parent::button"
+        }
+    },
+    "analytic_dashboard_deleted_popup_msg":{
+        "locator": {
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "analytic_dashboard_duplicate_dashboard_btn":{
+        "locator": {
+            "css selector": "div#custom-dashboard-duplicate-button"
+        }
+    },
+    "analytic_dashboard_duplicate_popup_msg":{
+        "locator": {
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "analytic_dashboard_copy_analytic_dashboard_name":{
+        "locator": {
+            "css selector": "input[value*='Copy {}']"
+        }
+    },
+    "analytic_dashboard_copy_analytic_dashboard":{
+        "locator": {
+            "css selector": "div[id*='custom-dashboard-copy-{}']"
+        }
+    },
+    "analytic_dashboard_edit_dashboard_btn":{
+        "locator": {
+            "css selector": "div#custom-dashboard-edit-button"
+        }
+    },
+    "analytics_save_btn":{
+        "locator": {
+            "css selector": "button#update-custom-dashboard-button"
+        }
+    },
+    "analytic_dashboard_dashboard_updated_popup_msg":{
+        "locator": {
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "analytics_modern_reports_tab":{
+        "locator": {
+            "css selector": "div#modern-reports"
+        }
+    },
+    "analytics_windows_11_readiness_assessment_report":{
+        "locator": {
+            "css selector": "#modern-report-systemwindowsdashboard"
+        }
+    },
+    "analytics_application_experience_report":{
+        "locator": {
+            "css selector": "#modern-report-systemCrashdashboard"
+        }
+    },
+    "analytics_application_experience_installed_app_report":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_installed']"
+        }
+    },
+    "analytics_application_experience_web_app_report":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_web']"
+        }
+    },
+    "analytics_network_health_report":{
+        "locator": {
+            "css selector": "#modern-report-networkscore"
+        }
+    },
+    "analytics_network_health_report_expand_btn":{
+        "locator": {
+            "css selector": "div[class*='d-flex align-items-center']>button:nth-child(1)"
+        }
+    },
+    "analytics_device_utilization_report":{
+        "locator": {
+            "css selector": "#modern-report-deviceutilization"
+        }
+    },
+    "analytics_sustainability_report":{
+        "locator": {
+            "css selector": "#modern-report-sustainDashboard"
+        }
+    },
+    "analytics_bios_inventory_report":{
+        "locator": {
+            "css selector": "#modern-report-biosinventory"
+        }
+    },
+    "analytics_driver_inventory_report":{
+        "locator": {
+            "css selector": "#modern-report-driverinventory"
+        }
+    },
+    "analytics_hardware_inventory_report":{
+        "locator": {
+            "css selector": "#modern-report-hardwareinventory"
+        }
+    },
+    "analytics_application_inventory_report":{
+        "locator": {
+            "css selector": "#modern-report-appinv"
+        }
+    },
+    "analytics_security_report":{
+        "locator": {
+            "css selector": "#modern-report-securityscore"
+        }
+    },
+    "analytics_system_health_report":{
+        "locator": {
+            "css selector": "#modern-report-systemhealthscore"
+        }
+    },
+    "analytics_os_performance_report":{
+        "locator": {
+            "css selector": "#modern-report-osperformancescore"
+        }
+    },
+    "analytics_blue_screen_errors_report":{
+        "locator": {
+            "css selector": "#modern-report-bsoddashboard"
+        }
+    },
+    "analytics_modern_report_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "analytics_modern_report_expand_btn":{
+        "locator": {
+            "css selector": ["div[class*='d-flex align-items-center'] button:nth-child(2)",
+                            "div[class*='d-flex align-items-center'] button:nth-child(3)",
+                            "div[class*='row dui-margin-bottom-15'] button:nth-child(1)"]
+        }
+    },
+    "analytics_modern_report_duplicate_btn":{
+        "locator": {
+            "css selector": "div[data-testid='wex_menu_item_duplicate']"
+        }
+    },
+    "analytics_modern_report_duplicate_popup_msg":{
+        "locator": {
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "analytics_modern_report_duplicated_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "analytics_modern_report_delete_btn":{
+        "locator": {
+            "css selector": "div[data-testid='wex_menu_item_delete']"
+        }
+    },
+    "analytics_delete_reports_popup_delete_btn":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Delete')]/parent::button"
+        }
+    },
+    "analytics_modern_report_deleted_popup_msg":{
+        "locator": {
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "analytics_blue_screen_error_modern_report_expand_btn":{
+        "locator": {
+            "css selector": "div[class*='d-flex align-items-center'] button:nth-child(1)"
+        }
+    },
+    "analytics_classic_reports_tab":{
+        "locator": {
+            "css selector": "div#classic-reports"
+        }
+    },
+    "analytics_classic_reports_tab_name":{
+        "locator": {
+            "css selector": "p[class*='report-header subtitle-regular']"
+        }
+    },
+    "analytics_classic_report_first_link":{
+        "locator": {
+            "css selector": "tr:nth-child(1) td div a"
+        }
+    },
+    "classic_reports_add_report_button":{
+        "locator": {
+            "css selector": "button#add-report"
+        }
+    },
+    "classic_reports_add_report_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "classic_reports_add_report_discard_btn":{
+        "locator": {
+            "css selector": "button#discard-button"
+        }
+    },
+    "classic_reports_export_report_button":{
+        "locator": {
+            "css selector": "button[class*='export-report-button']"
+        }
+    },
+    "classic_reports_browse_tab":{
+        "locator": {
+            "css selector": "label#tab-browse"
+        }
+    },
+    "classic_reports_favorites_tab":{
+        "locator": {
+            "css selector": "label#tab-favourites"
+        }
+    },
+    "classic_reports_history_tab":{
+        "locator": {
+            "css selector": "label#tab-history"
+        }
+    },
+    "fleet_management_dashboard_page_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "fleet_management_dashboard_page_title":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div[class*='dui-display-flex'] p"
+        }
+    },
+    "fleet_management_dashboard_print_widget":{
+        "locator": {
+            "css selector": "div#custom-dashboard-widget-lib-PRINT-category"
+        }
+    },
+    "fleet_management_dashboard_pc_widget":{
+        "locator": {
+            "css selector": "div#custom-dashboard-widget-lib-PC-category"
+        }
+    },
+    "fleet_management_dashboard_select_widgets_save_btn":{
+        "locator": {
+            "css selector": "button#update-custom-dashboard-button"
+        }
+    },
+    "fleet_management_dashboard_printer_management_widget":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Printer Management')]"
+        }
+    },
+    "fleet_management_dashboard_fleet_inventory_widget":{
+        "locator": {
+            "css selector": "div[class*='widget-fleet-inventory']"
+        }
+    },
+    "analytics_experience_score_dashboard_page_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        }
+    },
+    "analytics_experience_score_dashboard_page_title":{
+        "locator": {
+            "css selector": "div[class*='dui-display-flex'] p"
+        }
+    },
+    "experience_score_dashboard_print_widget":{
+        "locator": {
+            "css selector": "div#custom-dashboard-widget-lib-PRINT-category"
+        }
+    },
+    "experience_score_dashboard_pc_widget":{
+        "locator": {
+            "css selector": "div#custom-dashboard-widget-lib-PC-category"
+        }
+    },
+    "analytics_breadcrumb":{
+        "locator": {
+            "css selector": "nav[aria-label='breadcrumbs'] a[href='/ui/view/analytics']"
+        }
+    }
+}

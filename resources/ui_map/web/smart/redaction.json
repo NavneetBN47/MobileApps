@@ -1,0 +1,86 @@
+{
+    "title_txt": {
+        "locator": {"css selector": ".subtitle-regular"}
+    },
+    "next_btn": {
+        "locator": {
+            "css selector": "[aria-label='Chevron Right']",
+            "name": "Chevron Right"
+        }
+    },
+    "previous_btn": {
+        "locator": {
+            "css selector": "[aria-label='Chevron Left']",
+            "name": "Chevron Left"
+        }
+    },
+    "previous_btn_enabled": {
+        "locator": {
+            "xpath": "//XCUIElementTypeImage[@name='Chevron Left' and @enabled='true']"
+        }
+    },
+    "reset_btn": {
+        "locator": {
+            "css selector": "[aria-label='Image Edit Reset']",
+            "name": "Image Edit Reset"
+        }
+    },
+    "undo_btn": {
+        "locator": {
+            "css selector": "[aria-label='Undo']",
+            "name": "Undo"
+        }
+    },
+    "redo_btn": {
+        "locator": {
+            "name": "Redo"
+        }
+    },
+    "done_btn": {
+        "locator": {
+            "id": "done-button",
+            "name": "Done"
+        }
+    },
+    "cancel_btn": {
+        "locator": {"css selector": ".cancelButton"}
+    },
+    "page_number_txt": {
+        "locator": {"css selector": "#page-number > p"}
+    },
+    "redaction_img": {
+        "locator": {"css selector": ".redaction-stage > .konvajs-content",
+                    "xpath": ["//XCUIElementTypeWebView", "//android.view.View/android.widget.Image"]}
+    },
+    "confirm_popup_header_txt": {
+        "locator": {"css selector": "#reset-with-modal-label"}
+    },
+    "confirm_popup_body_txt": {
+        "locator": {"css selector": "#reset-with-modal-desc"}
+    },
+    "confirm_popup_done_btn": {
+        "locator": {"css selector": "#confirmation-modal-done-button"}
+    },
+    "confirm_popup_cancel_btn": {
+        "locator": {"css selector": "#confirmation-modal-cancel-button"}
+    },
+    "coachmark_next_btn": {
+        "locator": {"css selector": ["[aria-label='Next']", 
+                                    "[aria-label='Close coachmark']:nth-of-type(2)"]}
+    },
+    "coachmark_previous_btn": {
+        "locator": {"css selector": "[aria-label='Previous']"}
+    },
+    "coachmark_close_btn": {
+        "locator": {"css selector": "[aria-label='Close coachmark']"}
+    },
+    "coachmark_checkmark_btn": {
+        "locator": {"css selector": "svg[aria-label='Checkmark']"}
+    },
+    "coachmark_txt": {
+        "locator": {"css selector": "#coachmark-pagination"}
+    },
+    "coachmark_sub_txt": {
+        "locator": {"css selector": ".caption-small.css-1r5lwl3"}
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"change_wifi_network_dialog":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:225' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:56']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:76']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:500' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:145']"]}
+	},
+	
+	"change_wifi_network_content":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:225' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:22']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:13']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:500' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:115']"]}
+	},
+
+    "network_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:47']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='2']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:500' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='2']"]}
+    },
+
+    "continue_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:62']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='1']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:500' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='1']"]}
+    }
+}

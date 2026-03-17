@@ -1,0 +1,828 @@
+{
+    "left_side_menu_pane": {
+        "locator": {"id": "PaneRoot"}
+    },
+    "left_menu_btn": {
+        "locator": {"id": "TitleHamburgerButton"},
+        "analytics":[
+            {
+               "event": "-ScreenDisplayed,Main,/,1.5.0, accepted.",
+               "trigger":"wait_v",
+               "platform": "windows"
+            }
+        ]
+    },
+    "left_menu_my_hp_account_btn": {
+        "_comment": "Account button",
+        "locator": {"id": "HpcSignedOutIcon",
+            "xpath": "//Button[@AutomationId='TitleHamburgerButton']/preceding-sibling::Button"}
+    },
+    "left_flyout_sign_in_btn": {
+        "locator": {"id": "HpcSignOutFlyout_SignInBtn"},
+        "analytics":[
+            {
+               "event": "-ControlButtonClicked,ForceSignInHp,/,SignIn,1.5.0, accepted.",
+               "trigger":"click",
+               "platform": "windows"
+            }
+        ]
+    },
+    "left_flyout_create_account_btn": {
+        "locator": {"id": "HpcSignOutFlyout_CreateBtn"}
+    },
+    "left_flyout_account_name": {
+        "locator": {"id": "HpcFlyout_Username1"}
+    },
+    "left_flyout_manage_hp_account_btn": {
+        "locator": {"id": "HpcFlyout_AccountBtn"}
+    },
+    "left_menu_home_btn": {
+        "locator": {"str_id": "Resources/Home"}
+    },
+    "left_activity_btn": {
+        "_comment": "Bell icon, only exist when an account is signed in",
+        "locator": {"str_id": "Resources/Activity",
+                    "xpath": "//ListItem[@Name='Activity']"},
+        "analytics":[
+            {
+                "event": "-ScreenDisplayed,Oobeinitialize,/,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,Oobeuseronboarding,/,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OwsSpinner,/,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeInitialize,/,StartUserOnboardingFlow,UserOnboarding-v01,1.5.0, accepted",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ModuleInitialized,OobeInitialize,/,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,StartCreateUserSession,UserOnboarding-v01,1.5.0, accepted",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,UserSessionCreated,UserOnboarding-v01,1.5.0, accepted",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,EndCreateUserSession,UserOnboarding-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,StartOwsLoopUserSession,UserOnboarding-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,PerformStartWebFrame,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,ForceSignInHp,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,StartPerformForceSignInHp,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ControlButtonClicked,ForceSignInHp,/,SignIn,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,CallPatchUserToken,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,ShowContinuationUrl,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,ActionCompleteForceSignInHp,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,EndPerformForceSignInHp,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,SetUserOnboardingCompleted,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,StopWebFrame,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,StartSetUserOnboardingCompleted,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,EndSetUserOnboardingCompleted,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,PerformStopWebFrame,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,EndOwsLoopUserSession,UserOnboarding-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,EndUserOnboardingFlow,UserOnboarding-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeUserOnboarding,/,GoHome,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            }
+        ]
+    },
+    "print_listview": {
+        "_comment": "In Activity page",
+        "locator": {"xpath": "//ListItem[@Name='Print']"}
+    },
+    "shortcuts_listview": {
+        "_comment": "In Activity page",
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.SmartTasksAC/Resources/SmartTasksACExtDisplayNameId"}
+    },
+    "activity_title": {
+        "_comment": "In Activity page",
+        "locator": {"id": "GroupTitle"}
+    },
+    "text_file_list_view": {
+        "_comment": "In Activity page",
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.SmartTasksAC/Resources/TextFilesACExtDisplayNameId"}
+    },
+    "mobile_fax_listview": {
+        "_comment": "In Activity page",
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.SoftFax/Resources/SoftFaxExtDisplayNameId"}
+    },
+    "supplies_listview": {
+        "_comment": "In Activity page",
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.JWebViews/Resources/SupplyNotificationsExtDisplayNameId"}
+    },
+    "account_listview": {
+        "_comment": "In Activity page",
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.JWebViews/Resources/AccountNotificationsExtDisplayNameId"}
+    },
+    "left_add_printer_btn": {
+        "locator": {"str_id@ListItem": "Resources/AddSetupPrinter"}
+    },
+    "left_diagnose_and_fix_btn": {
+        "_comment": "Only exist when a printer is selected",
+        "locator": {"xpath": "//List[@AutomationId='SecGroupList']/ListItem[last() - 1]",
+                    "str_id": "HP.Framework.Extensions.ActionCenter/Resources/DiagnoseAndFix/Content"}
+    },
+    "diagnose_and_fix_start_btn": {
+        "locator": {"xpath": "//Window[@Name='HP Smart']/Pane[1]/Button[@Name='Start']"},
+        "analytics":[
+            {
+               "event": "-ScreenDisplayed,Diagnoseandfixstart,/,1.5.0, accepted.",
+               "trigger":"wait_v",
+               "platform": "windows"
+            }
+        ]
+    },
+    "left_app_settings_btn": {
+        "locator": {"xpath": "//List[@AutomationId='SecGroupList']/ListItem[last()]"}
+    },
+    "dynamic_app_settings_items_locator": {
+        "_comment": "Locate App Settings items by index",
+        "locator": {
+            "xpath": "//List[@AutomationId='SubMenuListView']/ListItem[{}]"}
+    },
+    "personalize_titles_listview": {
+        "_comment": "In App Settings page",
+        "locator": {"str_id": "HP.Framework.Extensions.HelpExtension/Resources/PersonalizeTiles"}
+    },
+    "pin_hp_smart_to_start_listview": {
+        "_comment": "In App Settings page",
+        "locator": {"str_id": "HP.Framework.Extensions.HelpExtension/Resources/PinningSetting"}
+    },
+    "send_feedback_listview": {
+        "_comment": "In App Settings page",
+        "locator": {"str_id": "HP.Framework.Extensions.CustomerFeedback/Resources/CustomerFeedbackNameId"}
+    },
+    "privacy_settings_listview": {
+        "_comment": "In App Settings page",
+        "locator": {"str_id": "HP.Framework.Extensions.JWebViews/Resources/PrivacySettingsExtDisplayNameId"}
+    },
+    "about_listview": {
+        "_comment": "In App Settings page",
+        "locator": {"str_id": "HP.Framework.Extensions.HelpExtension/Resources/AboutId"}
+    },
+    "sign_out_app_settings_listview": {
+        "_comment": "In App Settings page. Only exist when an account is signed in",
+        "locator": {"str_id": "HP.Framework.Extensions.HpConnected/Resources/HpcSignOutDisplayNameId",
+                    "xpath": "//List[@AutomationId='SubMenuListView']/ListItem[@Name='Sign Out']"}
+    },
+    "add_printer_carousel":{
+        "locator": {"id": "CarouselGridView"}
+    },
+    "carousel_add_printer_title": {
+        "locator": {"xpath": ["//Text[contains(@AutomationId, '_AddPrinterTitle')]",
+                        "//Text[contains(@AutomationId, '_AddAnotherPrinterTitle')]"],
+                    "str_id": "Resources/AddPrinter/Content"}
+    },
+    "carousel_add_printer_image": {
+        "locator": {"xpath": ["//List[@AutomationId='CarouselGridView']/ListItem[1]/Image[1]",
+                        "//Group[@AutomationId='MyCarouselControl']/Image[1]"]}
+    },
+    "carousel_add_printer_body": {
+        "locator": {"xpath": ["//List[@AutomationId='CarouselGridView']/ListItem[1]/Text[2]",
+                        "//Group[@AutomationId='MyCarouselControl']/Text[2]"],
+                    "str_id": "Resources/AddPrinterDescription/Text"}
+    },
+    "carousel_add_printer_btn": {
+        "locator": {"id": "Big_AddPrinterBtn",
+                    "xpath": "//Button[contains(@AutomationId, '_AddPrinterBtn')]",
+                    "str_id": "Resources/AddPrinterBtn/Content"}
+    },
+    "printer_carousel":{
+        "locator": {"id": "MyCarouselControl"}
+    },
+    "carousel_printer_model_name_text": {
+        "locator": {"id": "BigDevice_DeviceModel",
+                    "xpath": "//Text[contains(@AutomationId, 'Device_DeviceModel')]"}
+    },
+    "carousel_printer_image": {
+        "locator": {"id":"BigDevice_DeviceImage",
+                    "xpath": "//Image[contains(@AutomationId, 'Device_DeviceImage')]"},
+        "analytics":[
+            {
+                "event": "-ScreenDisplayed,LaunchStratusAuthNonUcde,/Ows/,Ucdeuseronboarding-v09,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,DevicePicker,/,StartLoadDevicePicker,HardwareSetup-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,DevicePicker,/,EndLoadDevicePicker,HardwareSetup-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeInitialize,/,StartOobeFlow,HardwareSetup-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ModuleInitialized,OobeInitialize,/,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeManualInstall,/,EndOobeFlow,HardwareSetup-v01,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ScreenDisplayed,OobeManualInstall,/,GoHome,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            }
+        ]
+    },
+    "carousel_finish_setup_subtitle": {
+        "locator": {"id":"Big_SetupButtonSubtitle",
+                    "xpath": "//Text[contains(@AutomationId, '_SetupButtonSubtitle')]"}
+    },
+    "carousel_finish_setup_btn": {
+        "locator": {"id":"BigDevice_SetupButton",
+                    "xpath": "//Button[contains(@AutomationId, 'Device_SetupButton')]"}
+    },
+    "carousel_printer_status_icon": {
+        "locator": {"xpath": "//Image[contains(@AutomationId, 'Device_StatusIcon')]"}
+    },
+    "carousel_printer_status_text": {
+        "locator": {"xpath": "//Text[contains(@AutomationId, 'Device_StatusText')]"}
+    },
+    "carousel_printer_offline_status": {
+        "locator": {"xpath": "//Text[@Name='Printer offline']",
+                    "str_id": "DeviceStatusResources.UWP/Resources/DeviceStatus_PrinterOffline"}
+    },
+    "carousel_printer_status": {
+        "locator": {"xpath": "//Text[@Name='{}']"}
+    },
+    "carousel_printer_security_text": {
+        "locator": {"xpath": "//Text[contains(@AutomationId, 'Device_SecurityText')]"}
+    },
+    "carousel_estimated_supply_image": {
+        "locator": {"id":"BigDevice_SuppliesButton",
+                    "xpath": "//Button[contains(@AutomationId, 'Device_SuppliesButton')]"}
+    },
+    "carousel_estimated_supply_text": {
+        "locator": {"id":"BigDevice_EstimatedText",
+                    "xpath": "//Text[contains(@AutomationId, 'Device_EstimatedText')]",
+                    "str_id": "Resources/EstimatedSupplyLevels/Text"}
+    },
+    "get_support_btn": {
+        "locator": {"xpath": "//Button[contains(@AutomationId, 'Device_GetSupportButton')]"}
+    },
+    "previous_device_btn": {
+        "locator": {"id": "PreviousDeviceButton"}
+    },
+    "next_device_btn": {
+        "locator": {"id": "NextDeviceButton"}
+    },
+    "add_new_printer_link": {
+        "locator": {"id": "DeviceCountTextAdd"}
+    },
+    "pagination_text": {
+        "locator": {"id": "DeviceCountText"}
+    },
+    "tiles_container": {
+        "locator": {"id": "ControlsListView"}
+    },
+    "tiles_pane": {
+        "locator": {"xpath": "//Window[@AutomationId='PaneRoot']/following-sibling::Pane[1]"}
+    },
+    "play_learn_tile": {
+        "locator": {"xpath": "//List[@AutomationId='ControlsListView']/ListItem[contains(@Name,'Play & Learn')]"}
+    },
+    "dynamic_tile_option": {
+        "locator": {"xpath": "//List[@AutomationId='ControlsListView']/ListItem[{}]"}
+    },
+    "get_supplies_tile": {
+        "locator": {"xpath": "//List[@AutomationId='ControlsListView']/ListItem[1]"},
+        "analytics":[
+            {
+               "event": "-ControlTileClicked,Home,/,InstantInkTile,InstantInk-v01,1.5.0, accepted.",
+               "trigger":"click",
+               "platform": "windows"
+            }
+        ]
+    },
+    "scan_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.ScanCapture/Resources/ScanId"},
+        "analytics":[
+            {
+               "event": "-ControlTileClicked,Home,/,ScanTile,Scan-v01,1.5.0, accepted.",
+               "trigger":"click",
+               "platform": "windows"
+            }
+         ]
+    },
+    "shortcuts_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.SmartTasksAC/Resources/SmartTasksWindowTitle"}
+    },
+    "printables_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.Support/Resources/PrintablesId"}
+    },
+    "print_documents_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.PrintPhotos/Resources/PrintDocument_CmdDisplayNameId"},
+        "analytics":[
+            {
+                "event": "-ControlTileClicked,Home,/,PrintDocumentsTile,Print-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "mobile_fax_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.SoftFax/Resources/SoftFaxExtDisplayNameId"},
+        "analytics":[
+            {
+               "event": "-ControlTileClicked,Home,/,MobileFaxTile,MobileFax-v01,1.5.0, accepted.",
+               "trigger":"click",
+               "platform": "windows"
+            }
+        ]
+    },
+    "help_and_support_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.Support/Resources/OnlineProductSupportCmdDisplayNameId4"},
+        "analytics":[
+            {
+                "event": "-ControlTileClicked,Home,/,HelpAndSupportTile,HelpCenter-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "print_photos_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.PrintPhotos/Resources/PrintPhotos_CmdDisplayNameId",
+                    "xpath": "//Text[@Name='Print Photos ']"},
+        "analytics":[
+            {
+                "event": "-ControlTileClicked,Home,/,PrintPhotosTile,Print-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "printer_settings_tile": {
+        "locator": {"str_id@ListItem": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_TileName"},
+        "analytics":[
+            {
+                "event": "-ControlTileClicked,Home,/,PrinterSettingsTile,PrinterSettings-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "cloud_scans_tile": {
+        "locator": {"xpath": "//ListItem[@Name='My HP Cloud Scans']"}
+    },
+    "instant_ink_tile_image": {
+        "locator": {"xpath": "//List[@AutomationId='ControlsListView']/ListItem[1]/Button[1]/Image[1]"}
+    },
+    "dynamic_tile_locator": {
+        "_comment": "Locate tiles by index",
+        "locator": {"xpath": "//List[@AutomationId='ControlsListView']/ListItem[{}]"}
+    },
+    "device_function_dialog_message": {
+        "_comment": "To use this feature, first select a printer.",
+        "locator": {"id": "DeviceFunctionErrorMsg"}
+    },
+    "device_function_dialog_ok_btn": {
+        "_comment": "To use this feature, first select a printer.",
+        "locator": {"id": "DeviceFunctionErrorButton"}
+    },
+    "help_and_support_page_chat_bot": {
+        "locator": {"id": "chatbotLink"},
+        "analytics":[
+            {
+               "event": "-ScreenDisplayed,Helpcenter,/,1.5.0, accepted.",
+               "trigger":"wait_v",
+               "platform": "windows"
+            }
+        ]
+    },
+    "skip_btn": {
+        "_comment": "Choose a printer dialog may pop up",
+        "locator": {"xpath": "//Button[@Name='Skip']"}
+    },
+    "navbar_back_btn": {
+        "_comment":"activity, device picker, app settings",
+        "locator": {"id": ["TitleBackButton", "BackArrow", "BackArrow1", "BackButtonText", "back-btn", "Back"]}
+    },
+    "device_picker_back_btn": {
+        "_comment":"device picker",
+        "locator": {"id": "BackButtonText"},
+        "analytics":[
+            {
+               "event": "-ControlButtonClicked,DevicePicker,/,Back,HardwareSetup-v01,1.5.0, accepted.",
+               "trigger":"click",
+               "platform": "windows"
+            }
+        ]
+    },
+    "shell_title_bar_exit_setup":{
+        "locator":{"str_id":"Resources/ExitButton/Content"}
+    },
+    "cec_title": {
+        "locator": {"id": "cec_title"}
+    },
+    "cec_engagement_close_btn": {
+        "locator": {"xpath": "//Button[contains(@AutomationId, '_close_button')]"}
+    },
+    "cec_engagement_tiles": {
+        "_comment":"CEC Engagement: Get ready to gather, Install Scan to Computer, Unlock cloud features, Try camera scan, Shortcuts save time, Interstitial Button Test, Never Run out of Ink",
+        "locator": {"id": ["printables1123_title", "scantocomputer1023_title", "hps-acct-1_title", "scan-basic-1_title", "shortcut-1_title", "forestioscheck_title", "instantinkfiftynurture_title"]}
+    },
+    "cec_engagement_tile_1": {
+        "locator": {"xpath": ["//Text[@AutomationId='cec_title']/following::Group[1]/Group[1]", "//Text[@AutomationId='cec_title']/following::Group[1]/ListItem[1]"]}
+    },
+    "cec_engagement_tile_2": {
+        "locator": {"xpath": ["//Text[@AutomationId='cec_title']/following::Group[1]/Group[2]", "//Text[@AutomationId='cec_title']/following::Group[1]/ListItem[2]"]}
+    },
+    "cec_engagement_tile_3": {
+        "locator": {"xpath": ["//Text[@AutomationId='cec_title']/following::Group[1]/Group[3]", "//Text[@AutomationId='cec_title']/following::Group[1]/ListItem[3]"]}
+    },
+    "cec_engagement_tile_4": {
+        "locator": {"xpath": ["//Text[@AutomationId='cec_title']/following::Group[1]/Group[4]", "//Text[@AutomationId='cec_title']/following::Group[1]/ListItem[4]"]}
+    },
+    "welcome_back_title": {
+        "_comment": "Welcome back dialog will pop up after a smb account sign in",
+        "locator": {"xpath": "//Window[last()]/Text[last() - 1]"}
+    },
+    "select_an_organization_text": {
+        "_comment": "Welcome back dialog will pop up after a smb account sign in",
+        "locator": {"xpath": "//Window[last()]/Text[last()]"}
+    },
+    "select_an_organization_list_item": {
+        "_comment": "Welcome back dialog will pop up after a smb account sign in",
+        "locator": {"xpath": "//List[@AutomationId='OrgStack']/ListItem[{}]"}
+    },
+    "welcome_back_org_list": {
+        "_comment": "Welcome back dialog will pop up after a smb account sign in",
+        "locator": {"xpath": "//List[@AutomationId='OrgStack']"}
+    },
+    "welcome_back_continue_btn": {
+        "_comment": "Welcome back dialog will pop up after a smb account sign in",
+        "locator": {"xpath": "//Window[last()]/Button[last()]"}
+    },
+    "install_to_print_title": {
+        "_comment": "Install to Print dialog will pop up after Print Documents/Print Photos tiles clicking without printer driver installed",
+        "locator": {"str_id": "Resources/InstallButton/Text"}
+    },
+    "install_to_print_content_1": {
+        "_comment": "Install to Print dialog will pop up after Print Documents/Print Photos tiles clicking without printer driver installed",
+        "locator": {"str_id": "Resources/DriverInstallMessage/Text"}
+    },
+    "install_to_print_content_2": {
+        "_comment": "Install to Print dialog will pop up after Print Documents/Print Photos tiles clicking without printer driver installed",
+        "locator": {"str_id": "Resources/DriverInstallMessage2/Text"}
+    },
+    "i_will_do_this_later_btn": {
+        "_comment": "Install to Print dialog will pop up after Print Documents/Print Photos tiles clicking without printer driver installed",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[1]"}
+    },
+    "install_printer_btn": {
+        "_comment": "Install to Print dialog will pop up after Print Documents/Print Photos tiles clicking without printer driver installed",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[2]"}
+    },
+    "installing_printer_dialog_title": {
+        "_comment": "Installing Printer dialog will pop up after clicking Install Printer button",
+        "locator": {"str_id": "Resources/InstallingPrinterDriver/Text"}
+    },
+    "installing_printer_dialog_process_ring": {
+        "_comment": "Installing Printer dialog will pop up after clicking Install Printer button",
+        "locator": {"id": "Spinner"}
+    },
+    "installing_printer_dialog_content": {
+        "_comment": "Installing Printer dialog will pop up after clicking Install Printer button",
+        "locator": {"str_id": "Resources/InstallingPrinterDriverMessage/Text"}
+    },
+    "success_printer_installed_dialog_title": {
+        "_comment": "Title for Success! Printer Installed dialog",
+        "locator": {"str_id": "Resources/InstalledPrinterDriver/Text"}
+    },
+    "success_printer_installed_dialog_content": {
+        "_comment": "Content for Success! Printer Installed dialog",
+        "locator": {"str_id": "Resources/InstalledPrinterDriverMessage/Text"}
+    },
+    "success_printer_installed_dialog_ok_btn": {
+        "_comment": "OK button on Success! Printer Installed dialog",
+        "locator": {"str_id": "Resources/Ok"}
+    },
+    "printer_driver_installed_failed_title": {
+        "locator": {"str_id": "Resources/InstallFailedPrinterDriver/Text"}
+    },
+    "launch_sub_number": {
+        "locator": {"id": "Circle11"}
+    },
+    "launch_sub_title": {
+        "locator": {"id": "SubHeadLaunch"}
+    },
+    "launch_sub_desc": {
+        "locator": {"id": "LaunchDesc"}
+    },
+    "launch_sub_image": {
+        "locator": {"id": "ImageLaunch"}
+    },
+    "select_sub_number": {
+        "locator": {"id": "Circle2"}
+    },
+    "select_sub_title": {
+        "locator": {"id": "SubHeadSelect"}
+    },
+    "select_sub_desc": {
+        "locator": {"str_id": "Resources/SelectDesc2/Text"}
+    },
+    "select_sub_image": {
+        "locator": {"id": "ImageSelect"}
+    },
+    "add_sub_number": {
+        "locator": {"id": "Circle3"}
+    },
+    "add_sub_title": {
+        "locator": {"id": "SubHeadAdd"}
+    },
+    "add_sub_image": {
+        "locator": {"id": "ImageAdd"}
+    },
+    "add_note_text": {
+        "locator": {"str_id": "Resources/AddNote2/Text"}
+    },
+    "printer_driver_installed_failed_later_btn": {
+        "locator": {"str_id": "Resources/DoThisLater/Text"}
+    },
+    "printer_driver_installed_failed_close_btn": {
+        "locator": {"str_id": "Resources/CloseButton/Text"}
+    },
+    "printer_driver_installed_failed_printers_scanners_btn": {
+        "locator": {"str_id": "Resources/LaunchButton2/Content"}
+    },
+    "hide_printer_list_item": {
+        "locator": {"id": "BigDevice_ForgetThisPrinterFlyoutItem",
+                    "xpath": "//List[contains(@AutomationId, 'Device_ForgetThisPrinterFlyoutItem')]"}
+    },
+    "hide_this_printer_dialog_cancel_btn": {
+        "locator": {"str_id": "Resources/HidePrinterCancel/Content"}
+    },
+    "hide_this_printer_dialog_hide_printer_btn": {
+        "locator": {"xpath": "//Window[2]/Button[last()]/Text[@Name='Hide Printer']",
+                    "str_id": "Resources/HidePrinterButton/Content"}
+    },
+    "hide_this_printer_dialog_go_to_dashboard_btn": {
+        "locator": {"str_id": "Resources/HidePrinterOwnerGoToDashboardButton/Content"}
+    },
+    "coach_mark_text": {
+        "locator": {"str_id": "Resources/AccountDashboardFlyout/Text"}
+    },
+    "hp_image": {
+        "locator": {"id": "Logo"}
+    },
+    "enable_logging_toggle": {
+        "locator": {"id": "LogChkBx"}
+    },
+    "save_settings_btn": {
+        "locator": {"xpath": "//Button[@Name='Save Settings']"}
+    },
+    "saveed_dialog_close_btn": {
+        "locator": {"id": "Button0"}
+    },
+    "home_tooltip": {
+        "locator": {"str_id": "Resources/HomeTooltip/Text"}
+    },
+    "activity_tooltip": {
+        "locator": {"str_id": "Resources/ActivityTooltip"}
+    },
+    "add_setup_printer_tooltip": {
+        "locator": {"str_id": "Resources/AddSetupPrinterTooltip"}
+    },
+    "diagnose_and_fix_tooltip": {
+        "locator": {"str_id": "Resources/DiagnoseAndFixTooltip"}
+    },
+    "app_settings_tooltip": {
+        "locator": {"str_id": "Resources/AppSettingsTooltip"} 
+    },
+    "paw_x_btn": {
+        "locator": {"id": ["POTGModal_XBtn", "POTGSharedModal_XBtn"]}
+    },
+    "paw_optimize_printers_btn": {
+        "locator": {"id": "POTGModal_TurnOnBtn"}
+    },
+    "paw_updating_settings_text": {
+        "locator": {"text": "Updating settings..."}
+    },
+    "paw_learn_more_btn": {
+        "locator": {"id": "POTGSharedModal_NextBtn"}
+    },
+    "get_support_page_title": {
+        "locator": {"id": "GetSupportPageTitle"},
+        "analytics":[
+            {
+                "event": "-ScreenDisplayed,Getsupport,/,1.5.0, accepted.",
+                "trigger":"wait_v",
+                "platform": "windows"
+            },
+            {
+                "event": "-ControlButtonClicked,Carousel,/Home/,GetSupport-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "get_support_page_step_1": {
+        "locator": {"id": "Step1"}
+    },
+    "get_support_page_step_1_desc": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/GetSupportPageInstruction1Content/Text"}
+    },
+    "get_support_page_step_2": {
+        "locator": {"id": "Step2"}
+    },
+    "get_support_page_step_2_desc": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/GetSupportPageInstruction2Content/Text"}
+    },
+    "get_support_page_step_3": {
+        "locator": {"id": "Step3"}
+    },
+    "get_support_page_step_3_desc": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/GetSupportPageInstruction3Content/Text"}
+    },
+    "still_having_problem_text": {
+        "locator": {"id": "AfterConnectText"}
+    },
+    "diagnose_and_fix_link": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/GetSupportPageDiagnoseAndFix/Content"},
+        "analytics":[
+            {
+                "event": "-ControlHyperLinkClicked,GetSupportPage,/,DiagnoseAndFix-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "get_more_help_link": {
+        "locator": {"id": "MorehelpLink"},
+        "analytics":[
+            {
+                "event": "-ControlHyperLinkClicked,GetSupportPage,/,GetMoreHelpLink-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "smart_driver_x_btn": {
+        "locator": {"id": "SmartDriverAwarenessModal_XBtn"}
+    },
+    "smart_driver_next_btn": {
+        "locator": {"id": "SmartDriverAwarenessModal_NextBtn"}
+    },
+    "choose_a_printer_tile": {
+        "locator": {"str_id": "Resources/HidePrinterOwnerGoToDashboardButton/Content"}
+    },
+    "choose_a_printer_text_1": {
+        "locator": {"str_id": "Resources/MultInstall2/Text"}
+    },
+    "choose_a_printer_text_2": {
+        "locator": {"str_id": "Resources/MultInstallNote/Text"}
+    },
+    "choose_a_printer_text_3": {
+        "locator": {"str_id": "Resources/MultInstallTitle/Text"}
+    },
+    "dynamic_printer_name_locator": {
+        "locator": {
+            "xpath": "//ListItem/Text[contains(@Name, '{}')]"}
+    },
+    "new_update_available_text": {
+        "locator": {"str_id": "Resources/AppUpdateTitle/Text"}
+    },
+    "reset_code_edit": {
+        "locator": {"xpath": "//List[@AutomationId='CodePairsGridView']/ListItem[1]/Edit[1]"}
+    },
+    "reset_device_btn": {
+        "locator": {"id": "ResetDeviceBtn"}
+    },
+    "exception_msg_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.RegionReset/Resources/ExceptionMsg"}
+    },
+    "exception_msg_dialog_ok_btn": {
+        "locator": {"xpath": "//Button[@Name='OK']"}
+    },
+    "print_anywhere_dialog_title": {
+        "locator": {"id": "POTGModal_TitleStart"}
+    },
+    "firmware_update_available_screen_title": {
+        "locator": {"str_id": "DeviceStatusResources.UWP/Resources/FIRMWARE_UPDATE_AVAIL"}
+    },
+    "firmware_update_available_screen_yes_btn": {
+        "locator": {"str_id": "Resources/Yes"}
+    },
+    "firmware_update_available_screen_no_btn": {
+        "locator": {"str_id": "Resources/No"}
+    },
+    "printer_rejected_dialog_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.RegionReset/Resources/UnableToResetMsg"}
+    },
+    "job_count_text": {
+        "_comment": "Private Pickup File(s)",
+        "locator": {"id": "PrivatePickupCount"}
+    },
+    "private_pickup_file_text": {
+        "_comment": "Private Pickup File(s)",
+        "locator": {"xpath": "//Text[@AutomationId='PrivatePickupCount']/following-sibling::Text[1]"}
+    },
+    "security_badge_icon": {
+        "locator": {"id": "BigDevice_SecurityIcon"}
+    },
+    "not_monitored_text": {
+        "locator": {"xpath": "//Text[@Name='Not monitored']"}
+    },
+    "security_monitored_text": {
+        "locator": {"xpath": "//Text[@Name='Security monitored']"}
+    },
+    "not_now_skip_btn": {
+        "locator": {"name": "Not now"}
+    }
+}

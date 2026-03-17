@@ -1,0 +1,26 @@
+{
+    "power_on_country_language_step":{
+        "locator":{"css selector":"[data-testid='carousel-page']"}
+    },
+    "power_on_card_0_image":{
+        "locator":{"css selector":"[data-testid='image-list-0']"}
+    },
+    "power_on_card_0_instruction":{
+        "locator":{"css selector":"[data-testid='instruction-list-0']"}
+    },
+    "country_language_card_0_image":{
+        "locator":{"css selector":"[data-testid='image-list-0']"}
+    },
+    "country_language_card_0_instruction":{
+        "locator":{"css selector":"[data-testid='instruction-list-0']"}
+    },
+    "country_language_card_1_image":{
+        "locator":{"css selector":"[data-testid='image-list-1']"}
+    },
+    "country_language_card_1_instruction":{
+        "locator":{"css selector":"[data-testid='instruction-list-1']"}
+    },
+    "title":{
+        "locator":{"css selector":"[data-testid='instruction-page-header-power-on']"}
+    }
+}

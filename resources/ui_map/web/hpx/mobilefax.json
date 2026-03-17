@@ -1,0 +1,47 @@
+{
+    "sign_in_btn": {
+        "comment": "Sign in button on Mobile Fax sign in screen",
+        "locator": {"xpath": "//Button[@Name='Sign in']"} 
+    },
+    "top_back_btn": {
+        "locator": {
+            "id":"backButton",
+            "xpath": ["//Button[@Name='Go back']", "//Button[@Name='Back']"]} 
+    },
+    "compose_fax_menu": {
+        "locator": {
+            "id": "composeMenu",
+            "xpath": "//Hyperlink[@Name='Compose fax']"} 
+    },
+    "sent_menu": {
+        "locator": {
+            "id": "sentMenu",
+            "xpath": "//Hyperlink[@Name='Sent']"} 
+    },
+    "drafts_menu": {
+        "locator": {
+            "id": "draftMenu",
+            "xpath": "//Hyperlink[@Name='Drafts']"
+    } 
+    },
+    "settings_menu": {
+        "locator": {"id": "settingsMenu"} 
+    },
+    "to_text": {
+        "locator": {"xpath": "//Text[@Name='To']"} 
+    },
+    "from_text": {
+        "locator": {"xpath": "//Text[@Name='From']"} 
+    },
+    "files_and_cover_page_text": {
+        "locator": {"xpath": "//*[@Name='Files and cover Page']"} 
+    },
+    "save_as_draft_link": {
+        "id": "saveDraft",
+        "locator": {"xpath": "//*[@Name='Save as draft']"} 
+    },
+    "clear_all_fields_link": {
+        "id": "clearAllFields",
+        "locator": {"xpath": "//*[@Name='Clear all fields']"} 
+    }
+}

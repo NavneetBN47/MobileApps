@@ -1,0 +1,78 @@
+{
+    "C33510012": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CG0033R12",
+                "productNumber":"79Y37AA",
+                "productNumberNoRegion":"13Z69AA",
+                "productName":"HP ZBook 14u G6 Base Model Mobile Workstation", 
+                "productLineCode":"IK",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice": true,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C33698715":{
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"CND9091417",
+                "productNumber":"889T1AA",
+                "productNumberNoRegion":"889T1AA",
+                "productName":"HP Notebook - 15-bs212wm", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice": true,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }, 
+        "stg": {
+            "@hp-support/deviceInfo": {
+                "serialNumber":"CND9091417",
+                "productNumber":"889T1AA",
+                "productNumberNoRegion":"889T1AA",
+                "productName":"HP Notebook - 15-bs212wm", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice": true,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"            
+        }
+    }
+}

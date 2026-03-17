@@ -1,0 +1,14 @@
+{
+  "get_started_btn": {
+    "locator": {"id": "getStartedHero"}
+  },
+  "no_thanks_btn": {
+    "locator": {"id": "noThanksHero"}
+  },
+  "already_a_mobile_fax_user_sign_in_btn": {
+    "locator": {"id": "existingCustomer"}
+  },
+  "get_started_btn_2":{
+    "locator": {"id": "mobilefax_getStarted_cta"}
+  }
+}

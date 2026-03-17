@@ -1,0 +1,77 @@
+{
+  "data_collection_service_nav_btn": {
+    "locator": {
+      "name": "Data Collection Service"
+    }
+  },
+  "retargeting_data_nav_btn": {
+    "locator": {
+      "name": "Retargeting Data"
+    }
+  },
+  "settings_nav_btn": {
+    "locator": {
+      "name": "Settings"
+    }
+  },
+  "bindings_cache_nav_btn": {
+    "locator": {
+      "name": "Bindings Cache"
+    }
+  },
+  "filters_nav_btn": {
+    "locator": {
+      "name": "Filters"
+    }
+  },
+  "weblet_page_nav_btn": {
+    "locator": {
+      "name": "WebletPage"
+    }
+  },
+  "requests_nav_btn": {
+    "locator": {
+      "name": "Request"
+    }
+  },
+  "verbose_logs_nav_btn": {
+    "locator": {
+      "name": "Verbose Logs"
+    }
+  },
+  "queue_nav_btn": {
+    "locator": {
+      "name": "Queue"
+    }
+  },
+  "http_proxy_nav_btn": {
+    "locator": {
+      "name": "Http Proxy"
+    }
+  },
+  "value_store_nav_btn": {
+    "locator": {
+      "name": "Value Store"
+    }
+  },
+  "webview1_edge_engine": {
+    "locator": {
+      "name": "WebView1 (Default)"
+    }
+  },
+  "webview2_chromium_engine": {
+    "locator": {
+      "name": "WebView2"
+    }
+  },
+  "more_nav_btn": {
+    "locator": {
+      "name": "More"
+    }
+  },
+  "accumulator_nav_btn": {
+    "locator": {
+      "name": "Accumulator"
+    }
+  }
+}

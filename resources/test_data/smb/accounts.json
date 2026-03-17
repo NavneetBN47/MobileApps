@@ -1,0 +1,97 @@
+{
+    "pie":
+    {
+        "email": "qa.mobiauto+pie_hp+@gmail.com",
+        "password": "smb_2021",
+        "flex_account_email": "qa.mobiauto+pie_flex@gmail.com",
+        "flex_account_password": "smb_2021",
+        "claimable":true,
+        "tenantID": "7f36119a-8d9d-4147-8629-737af1ce49a9",
+        "comment":"A real printer(Storm) claimed into this account with org 'smbtesting'. Please don't remove this printer. Printer is in Maya's cube "
+    },
+    "stage":
+    {
+        "email": "qa.mobiauto+2024_08_05_06_22_21_6RLLDG@gmail.com",
+        "password": "123456aA",
+        "flex_account_email": "qa.mobiauto+2024_08_06_06_14_12_33OWV0@gmail.com",
+        "flex_account_password": "123456aA",
+        "claimable":true,
+        "tenantID": "137ccbae-9946-4df4-923a-5feef35b5014",
+        "comment":"A real printer(Storm) claimed into this account with org 'smbtesting'. Please don't remove this printer. Printer is in Ezer's cube"
+    },
+    "production":
+    {
+        "email":"pp.admin1@yopmail.com",
+        "password":"123Testing",
+        "claimable":true,
+        "comment":"real printer in Wuhan team, for windows gotham automation testing"
+    },
+    "pie_journey_testing": {
+        "email": "qa.mobiauto+smb_pie@gmail.com",
+        "password": "Mobileapp1",
+        "alt-email": "summerendpieadmin@yopmail.com",
+        "alt-password": "test123$",
+        "claimable": false,
+        "tenantID": "efb790e5-6ab7-4532-9113-ed2348dcd7cc",
+        "printers": {
+            "KHCKQGEGXO": {
+                "ip": "15.85.88.119",
+                "name": "HP LaserJet Pro 3001dw",
+			    "group": "JourneyTesting",
+                "journey_validation": true
+            }
+        },
+        "user_list_test_account": {
+            "email": "qa.mobiauto+smb_pie@gmail.com",
+			"role": "Admin"
+	    },
+        "comment":"accounts used for journey testing on pie"
+    },
+    "stage_journey_testing": {
+        "email": "qa.mobiauto+smb_stage@gmail.com",
+        "password": "Mobileapp1",
+        "alt-email": "stage_admin_journeys2@getnada.com",
+        "alt-password": "test123$",
+        "claimable":false,
+        "tenantID": "99f94c41-2bcd-4c3c-8c0f-3b2f915ebdfb",
+        "printers": {
+            "AH05H560BA": {
+                "ip":"N/A",
+                "name": "HP OfficeJet Pro 9010 series",
+			   "group": "JourneyTesting",
+                "journey_validation": true
+            }
+        },
+	    "user_list_test_account": {
+            "email": "qa.mobiauto+smb_stage@gmail.com",
+			"role": "Admin"
+	    },
+        "comment": "accounts used for journey testing on stage"
+    },
+    "production_journey_testing": {
+        "email": "prod_admin_journeys3@getnada.com",
+        "password": "test123$",
+        "alt-email": "prod_admin_journeys2@getnada.com",
+        "alt-password": "test123$",
+        "claimable": false,
+        "printers": {
+            "CN3RN9L4K6": {
+                "ip":"N/A",
+                "name": "HP LaserJet MFP E42540",
+			    "group": "JourneyTesting",
+                "journey_validation": true
+            },
+            "CN3RN9P3QT": {
+                "ip":"N/A",
+                "name": "HP LaserJet MFP M430",
+                "group": "All",
+                "journey_validation": true
+            }
+        },
+	    "user_list_test_account": {
+            "email": "prod_admin4_cn3rn9l4k6@getnada.com",
+            "role": "IT Admin"
+        },
+        "comment":"accounts used for journey testing on production"
+    }
+}

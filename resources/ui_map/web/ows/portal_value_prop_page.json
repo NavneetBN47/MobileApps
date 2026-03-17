@@ -1,0 +1,193 @@
+{
+    "value_prop_page":{
+        "locator":{"css selector":"[data-testid='clientos-react-common-layout-mfe__clientos-react-common-layout-mfe__layout-scrollable-container']"},
+        "analytics":[{
+            "event":"ScreenDisplayed,Connect,/PortalOobe/",
+            "trigger":"wait_v"}]
+    },
+    "value_prop_page_left_panel":{
+        "locator":{"xpath":"//div[contains(@class,'LeftSectionstyled__LeftSectionContainer-jarvis-react-portal-oobe-mfe')]"}
+    },
+    "value_prop_page_right_panel":{
+        "locator":{"xpath":"//div[contains(@class,'RightSectionstyled__RightSectionContainer-jarvis-react-portal-oobe-mfe')]"}
+    },
+    "header":{
+        "locator":{"css selector":"[data-testid='header']"}
+    },
+    "subheader":{
+        "locator":{"css selector":"[data-testid='description']"}
+    },
+    "landing_page_these_featurs_btn":{
+        "locator":{"css selector":"[target='_self']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,Connect,/PortalOobe/,FeatureLink",
+            "trigger":"wait_v"}]
+    },
+    "stepper_steps[1]_text":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-1001"},
+        "locator":{"xpath":"//div[@aria-label='Step 1']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "stepper_steps[2]_text":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-1001"},
+        "locator":{"xpath":"//div[@aria-label='Step 2']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "stepper_steps[3]_text":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-1001"},
+        "locator":{"xpath":"//div[@aria-label='Step 3']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "stepper_steps[4]_text":{
+        "comment":{"jira":"https://hp-jira.external.hp.com/browse/OMFE-1001"},
+        "locator":{"xpath":"//div[@aria-label='Step 4']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "steps[1]_text":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"xpath":"//div[@aria-label='Step 1']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "steps[2]_text":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"xpath":"//div[@aria-label='Step 2']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "steps[3]_text":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"xpath":"//div[@aria-label='Step 3']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "steps[4]_text":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"xpath":"//div[@aria-label='Step 4']/following-sibling::div[1]//div[@class='label vn-step-label']"}
+    },
+    "these_features_modal_header":{
+        "locator":{"css selector":"[data-testid='cloud-features-modal-title']"}
+    },
+    "these_features_modal_description":{
+        "locator":{"xpath":"[data-testid='cloud-features-modal-description']"}
+    },
+    "these_features_modal_features[0]_text":{
+        "locator":{"css selector":"[data-testid='features-item-0']"}
+    },
+    "these_features_modal_features[1]_rich_text":{
+        "locator":{"css selector":"[data-testid='features-rich-text-1']"}
+    },
+    "these_features_modal_features[1]_text":{
+        "locator":{"css selector":"[data-testid='features-text-1']"}
+    },
+    "these_features_modal_features[2]_text":{
+        "locator":{"css selector":"[data-testid='features-text-2']"}
+    },
+    "these_features_modal_features[3]_text":{
+        "locator":{"css selector":"[data-testid='features-text-3']"}
+    },
+    "these_features_modal_observations":{
+        "locator":{"css selector":"[data-testid='observations']"}
+    },
+    "these_features_modal_asterisk_observation":{
+        "locator":{"css selector":"[data-testid='cloud-features-modal-disclaimer']"}
+    },
+    "landing_page_cloud_based_features_modal":{
+        "locator":{"css selector":["[data-testid='cloud-features-modal'], [data-testid='these-features-modal']", "[data-testid='asterisk-observation']", "[data-testid='features-text-0']"]},
+        "analytics":[{
+            "event":"ModalWindowDisplayed,FeatureModal,/PortalOobe/Connect/",
+            "trigger":"wait_v"}
+        ]
+    },
+    "these_features_modal_close_button":{
+        "locator":{"css selector":[".css-nyn3zr", "[data-testid='these-features-close-button']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,FeatureModal,/PortalOobe/Connect/,CloseButton",
+            "trigger":"click"}]
+    },
+    "landing_page_steps":{
+        "locator":{"css selector":"[data-testid='stepper']"}
+    },
+    "bottom_page_link":{
+        "locator":{"css selector":"[data-testid='continue-without-link']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,Connect,/PortalOobe/,SetupWithoutHpCloudLink",
+            "trigger":"click"}]
+    },
+    "complete_without_features_modal_header":{
+        "locator":{"css selector":"[data-testid='complete-without-features-modal-header']"}
+    },
+    "complete_basic_setup_content":{
+        "locator":{"css selector":"[data-testid='hp-easy-start-link']"}
+    },
+    "complete_basic_setup_overlay":{
+        "locator":{"css selector":"[data-testid='continue-without-modal']"},
+        "analytics":[{
+            "event":"ModalWindowDisplayed,BasicSetup,/PortalOobe/Connect/",
+            "trigger":"wait_v"}]
+    },
+    "complete_without_features_modal_content":{
+        "locator":{"css selector":"[data-testid='hp-easy-start-link']"}
+    },
+    "complete_without_features_modal_close_button":{
+        "locator":{"css selector":"[data-testid='continue-without-close-button']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,BasicSetup,/PortalOobe/Connect/,CloseButton",
+            "trigger":"click"}]
+    },
+    "hp_easy_setup":{
+        "locator":{"css selector":"[href='https://hpsmart.com/setup']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,BasicSetup,/PortalOobe/Connect/,HpEasyStartLink",
+            "trigger":"click"}]
+    },
+    "setup_printer_for_personal_overlay_install_hp_smart_btn":{
+        "locator":{"css selector":"[data-testid='continue-without-confirm-button']"}
+    },
+    "login_flow_get_started":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"css selector":"[data-testid='CallToAction']"}
+    },
+    "login_flow_get_started_content_text":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"css selector":"[data-testid='right-section-block-text']"}
+    },
+    "login_flow_create_account_button":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"css selector":"[data-testid='CreateAccountButton']"}
+    },
+    "login_flow_sign_in_button":{
+        "comment":{"duplicate_id":"HP+ Page vendor translation has different key than that of Flex version of same page"},
+        "locator":{"css selector":"[data-testid='SignInButton']"}
+    },
+    "right_section_content[0]_header":{
+        "locator":{"css selector":"[data-testid='CallToAction']"}
+    },
+    "right_section_content[0]_block_text":{
+        "locator":{"css selector":"[data-testid='right-section-block-text']"}
+    },
+    "right_section_content[0]_primary_button":{
+        "locator":{"css selector":"[data-testid='CreateAccountButton']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,Connect,/PortalOobe/,CreateAccountButton",
+            "trigger":"click"}]
+    },
+    "right_section_content[0]_tertiary_button":{
+        "locator":{"css selector":"[data-testid='SignInButton']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,Connect,/PortalOobe/,SignInLink",
+            "trigger":"click"}]
+    },
+    "right_section_content[1]_block_text":{
+        "comment":"Same locator for different scenario, this is for when user is already logged in",
+        "locator":{"css selector":"[data-testid='CallToAction']"}
+    },
+    "landing_page_continue_btn":{
+        "locator":{"css selector": ["[data-testid='ContinueButton'],[data-testid='value-prop-continue']", "[data-testid='value-prop-primary']"]},
+        "analytics":[{
+            "event":"ControlButtonClicked,Connect,/PortalOobe/,ContinueButton",
+            "trigger":"click"}]
+    },
+    "value_prop_container":{
+        "locator":{"css selector":"[data-testid='value-prop-content']"}
+    },
+    "benefits_container":{
+        "locator":{"css selector":"[data-testid='benefits-container']"}
+    },
+    "landing_page_banner_content":{
+        "locator":{"css selector":"[data-testid='background']"}
+    },
+    "landing_page_footer":{
+        "locator":{"css selector":"#footnote"}
+    }
+}

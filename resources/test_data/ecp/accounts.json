@@ -1,0 +1,130 @@
+{
+    "pie":
+    {
+        "email":"PIEECPNewAccountjuly2025@yopmail.com",
+        "password":"test123$",
+        "customer":"PIEECPNewAccount",
+        "it_admin_email":"PIEECPNewITAdminacc2025@yopmail.com",
+        "it_admin_password":"test123$",
+        "tenantID": "e4972433-ee18-4209-a136-69e58e783f34",
+        "client_id": "PS5rVRu6cSI6rJ5mMfpANNhFM70XVI5n",
+        "client_secret": "ND4AVQc0qMPVtJbM3oDcuUjsz2GErdP9",
+        "oc_client_id": "57e62429-4327-43a7-aa51-170bb3d56d9d",
+        "fp_email":"PIEECPNewITAdminacc2025@yopmail.com",
+        "fp_password":"test123$",
+        "usermgt_clientId": "f730cae7fe0e430793bde8b2d46fcf95",
+        "usermgt_clientSecret": "09d1fbf0a3d64525bcd1b3cb0103de2b",
+        "proxy_client_id": "ziW6g4Fh11REF4L8CO2xJjp8UBWhgobm",
+        "proxy_client_secret": "U1HCHE3Gnbi8ltkQVpD8rNIbrBHnXniB",
+        "device_onboard_clientId": "zugsq5rsvH3ebudTissjXtJ5JeC8mSST",
+        "device_onboard_clientSecret": "BCcWsUBupmUV7EKoS54BvISICQU1W0vp",
+        "claimable":false,
+        "printers": {
+            "TH88827257": {"ip": "",
+                           "name": "HP OfficeJet Pro 9020 series",
+                           "journey_validation": true}
+    },
+        "comment":""
+    },
+    "stage":
+    {   
+        "email":"Stageauto.customer1new@yopmail.com",
+        "password":"test123$",
+        "customer":"Stageauto",
+        "it_admin_email":"Stageauto.customer1new@yopmail.com",
+        "it_admin_password":"test123$",
+        "tenantID": "00aeb7a7-6724-43a0-b078-97729ade99df",
+        "client_id": "zugsq5rsvH3ebudTissjXtJ5JeC8mSST",
+        "fp_email":"AutomationITadminnew@yopmail.com",
+        "fp_password":"test123$",
+        "client_secret": "8RvJWcnrrke1XrvIpYZXxIGo58afGHCK",
+        "oc_client_id": "e952f6ff-c762-4b59-8a14-16ebc8adaa88",
+        "proxy_client_id": "ziW6g4Fh11REF4L8CO2xJjp8UBWhgobm",
+        "proxy_client_secret": "bi6gNyg6sNSbyVU3FAT1q5fXq2blwAY8",
+        "usermgt_clientId": "f730cae7fe0e430793bde8b2d46fcf95",
+        "usermgt_clientSecret": "spvaumtzrXSDs6WP68fKzWVknYExY7GM",
+        "device_onboard_clientId": "zugsq5rsvH3ebudTissjXtJ5JeC8mSST",
+        "device_onboard_clientSecret": "8RvJWcnrrke1XrvIpYZXxIGo58afGHCK",
+        "claimable":false,
+        "printers": {
+            "TH87U17469": {"ip":"15.1.225.58",
+                           "name": "HP OfficeJet Pro 9010",
+                           "journey_validation": true}
+        },
+        "comment":""
+    },
+    "production":
+    {
+        "email": "prod_admin4_cn3rn9l4k6@getnada.com", 
+        "password": "test123$",
+        "claimable":false,
+        "printers": {
+            "CN3RN9L4K6": {"ip":"N/A",
+                           "name": "HP LaserJet MFP E42540",
+                           "journey_validation": true}
+        }
+    },
+    "pie_journey_testing": {
+        "email": "summerendpieadmin@yopmail.com",
+        "password": "test123$",
+        "alt-email": "summerendpieadmin@yopmail.com",
+        "alt-password": "test123$",
+        "claimable": false,
+        "printers": {
+            "TH88827257": {
+                "ip": "",
+                "name": "HP OfficeJet Pro 9020 series",
+			    "group": "Test",
+                "journey_validation": true
+            }
+        },
+        "comment":"accounts used for journey testing on pie"
+    },
+    "stage_journey_testing": {
+        "email": "stage_admin_journeys3@getnada.com",
+        "password": "test123$",
+        "alt-email": "stage_admin_journeys2@getnada.com",
+        "alt-password": "test123$",
+        "claimable":false,
+        "printers": {
+            "AH05H560BA": {
+                "ip":"N/A",
+                "name": "HP OfficeJet Pro 9010 series",
+			   "group": "JourneyTesting",
+                "journey_validation": true
+            }
+        },
+	    "user_list_test_account": {
+            "email": "stage_admin2_ah05h560ba@getnada.com",
+			"role": "IT Admin"
+	    },
+        "comment": "accounts used for journey testing on stage"
+    },
+    "production_journey_testing": {
+        "email": "prod_admin_journeys3@getnada.com",
+        "password": "test123$",
+        "alt-email": "prod_admin_journeys2@getnada.com",
+        "alt-password": "test123$",
+        "claimable": false,
+        "printers": {
+            "CN3RN9L4K6": {
+                "ip":"N/A",
+                "name": "HP LaserJet MFP E42540",
+			    "group": "JourneyTesting",
+                "journey_validation": true
+            },
+            "CNBRR6C7W1": {
+                "ip":"N/A",
+                "name": "HP LaserJet MFP E42540",
+			    "group": "JourneyTesting",
+                "journey_validation": true
+            }
+        },
+	    "user_list_test_account": {
+            "email": "prod_admin4_cn3rn9l4k6@getnada.com",
+            "role": "IT Admin"
+        },
+        "comment":"accounts used for journey testing on production"
+    }
+
+}

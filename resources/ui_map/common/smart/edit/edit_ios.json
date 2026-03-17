@@ -1,0 +1,302 @@
+{
+  "edit_title":{
+    "locator":{
+      "str_id": ["cEdit", "cEditBack"],
+      "name": ["Edit", "Edit Back"]
+    }
+  },
+  "edit_options_auto_txt": {
+    "locator": {
+      "str_id": "cAuto",
+      "name": "Auto"
+    }
+  },
+  "edit_options_adjust_txt": {
+    "locator": {
+      "str_id": "cAdjust",
+      "name": "Adjust"
+    }
+  },
+  "edit_options_filters_txt": {
+    "locator": {
+      "str_id": "cFilters",
+      "name": "Filters"
+    }
+  },
+  "edit_options_crop_txt": {
+    "locator": {
+      "str_id": "cCrop",
+      "name": "Crop"
+    }
+  },
+  "edit_options_text_txt": {
+    "locator": {
+      "str_id": "cText",
+      "name": "Text",
+      "xpath": "//XCUIElementTypeCollectionView/XCUIElementTypeCell[5][@name='Text']"
+    }
+  },
+  "edit_options_markup_txt":{
+    "locator": {
+      "str_id": "cMarkup",
+      "name": "Markup"
+    }
+  },
+  "undo_btn": {
+    "locator": {
+      "name": ["Undo", "pesdk_frame_accessibility_noFrameButton"]
+    }
+  },
+  "redo_btn": {
+    "locator": {
+      "name": "Redo"
+    }
+  },
+  "edit_option_collection_view": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCollectionView"
+    }
+  },
+  "edit_option_txt": {
+    "locator": {
+      "name": "{}",
+      "text": "{}"
+    }
+  },
+  "filter_option_document_txt": {
+    "locator": {
+      "name": "smart-document-group",
+      "label":"Document"
+    }
+  },
+  "filter_option_photo_txt": {
+    "locator": {
+      "name": "smart-photo-group",
+      "label": "Photo"
+    }
+  },
+  "filter_option_original_txt": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[@label='Original']",
+      "name": "None"
+    }
+  },
+  "edit_options_collection_view":{
+    "locator": {
+      "xpath": "//XCUIElementTypeCollectionView[@name='pesdk_{}_accessibility_menu']"
+    }
+  },
+  "collection_view_class": {
+    "locator": {"class name":  "XCUIElementTypeCell"}
+  },
+  "crop_flip_btn": {
+    "locator": {
+      "name": "pesdk_transform_accessibility_flipButton"
+    }
+  },
+  "crop_rotate_btn": {
+    "locator": {
+      "name": "pesdk_transform_accessibility_rotateButton"
+    }
+  },
+  "crop_transform_scale_picker": {
+    "locator": {
+      "name": "pesdk_transform_accessibility_scalePicker"
+    }
+  },
+  "adjustments_slider": {
+    "locator": {
+      "partial_text": "intensity"
+    }
+  },
+  "add_text_screen_title": {
+    "locator": {
+      "str_id": "cAddText",
+      "name": "Add text"
+    }
+  },
+  "add_text_editor": {
+    "locator": {
+      "name": "pesdk_common_accessibility_textEditingTextView",
+      "xpath": "//XCUIElementTypeOther/XCUIElementTypeTextView"
+    }
+  },
+  "text_option_fonts_txt": {
+    "locator": {
+      "name": "pesdk_text_accessibility_fontButton",
+      "label":"Font"
+    }
+  },
+  "text_option_color_txt": {
+    "locator": {
+      "name": "pesdk_text_accessibility_colorButton",
+      "label": "Color",
+      "str_id": "cColor"
+    }
+  },
+  "text_option_bgcolor_txt": {
+    "locator": {
+      "name": "pesdk_text_accessibility_backgroundColorButton",
+      "label": "Background Color",
+      "str_id": "cBGColor"
+    }
+  },
+  "text_option_alignment_txt": {
+    "locator": {
+      "name": "pesdk_text_accessibility_alignmentButton",
+      "label":"Alignment",
+      "str_id": "cAlignment"
+    }
+  },
+  "text_options_collection_view": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[2]/XCUIElementTypeScrollView/XCUIElementTypeButton"
+    }
+  },
+  "collection_view": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView",
+      "name": "Assets Group Collection View"
+    }
+  },
+  "cancel_btn": {
+    "locator": {
+      "name": "Cancel",
+      "str_id": "cCancel"
+    }
+  },
+  "done_btn": {
+    "locator": {
+      "name": "Done",
+      "str_id": "cDone"
+    }
+  },
+  "keyboard_element": {
+    "locator": {
+      "xpath": "//XCUIElementTypeKeyboard"
+    }
+  },
+  "dynamic_text" : {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='{}']"
+    }
+  },
+  "add_btn" : {
+    "locator": {
+      "name": "Add",
+      "str_id": "cAdd"
+    }
+  },
+  "delete_btn" : {
+    "locator": {
+      "name": "Delete",
+      "str_id": "cDelete"
+    }
+  },
+  "bring_to_front_btn" : {
+    "locator": {
+      "name": "Bring to front"
+    }
+  },
+  "discard_edit_title_txt": {
+    "locator": {
+      "str_id": "cDiscardEditsQ",
+      "name": "Discard Edits?"
+    }
+  },
+  "discard_edit_pop_up_msg": {
+    "locator": {
+      "str_id": "cYourChangesWillNotBeSaved_Message"
+    }
+  },
+  "discard_edit_btn": {
+    "locator": {
+      "str_id": "cDiscard",
+      "name": "Continue"
+    }
+  },
+  "discard_edit_cancel_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeOther/XCUIElementTypeButton[1][@name='Cancel']",
+      "text": "discard x"
+    }
+  },
+  "edit_screen_navigation_bar": {
+    "locator": {
+      "xpath": "//XCUIElementTypeNavigationBar[@name='{}']"
+    }
+  },
+  "edit_img": {
+    "locator": {
+      "name": "pesdk_editor_accessibility_photo"
+    }
+  },
+  "crop_option_custom": {
+    "locator": {
+      "name": "Custom",
+      "str_id": "cCustom"
+
+    }
+  },
+  "edit_text_options_txt": {
+    "locator": {
+      "name": "Text Options",
+      "str_id": "cTextOptions"
+    }
+  },
+  "add_text_text_box": {
+    "locator": {
+      "name": "pesdk_text_accessibility_textSelection"
+    }
+  },
+  "4_6_txt": {
+    "locator": {"str_id": "c46"}
+  },
+  "coachmark_next_btn": {
+    "_comment": "This is also the locator for the ✓ button",
+    "locator": {"name": "Next"}
+  },
+  "coachmark_close_btn": {
+   "locator": {"name": "Close"}
+   },
+   "edit_options_template_txt" : {
+    "locator": {"str_id": "cTemplates"}
+  },
+  "template_option" : {
+    "locator": {"xpath":  "//XCUIElementTypeCollectionView[@name='pesdk_frame_accessibility_menu']/XCUIElementTypeCell"}
+  },
+  "replace_btn" : {
+    "locator": {"name":  "Replace Frame"}
+  },
+  "brush_colors":{
+    "locator":{
+      "xpath": "//XCUIElementTypeCollectionView[@name='pesdk_brush_accessibility_menu']/XCUIElementTypeCell[{}]"
+    }
+  },
+  "whiteout_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCollectionView[@name='pesdk_brush_accessibility_menu']/XCUIElementTypeCell[2]"
+    }
+  },
+  "text_color": {
+    "locator": {
+      "name" :"pesdk_common_title_{}Color" 
+    }
+  },
+  "markup_title":{
+    "locator":{
+      "name": "Markup",
+      "value": "Markup"
+    }
+  },
+  "adjust_brush_width": {
+    "locator":{
+      "xpath": "//XCUIElementTypeOther[@x='20' and @height='44']"
+    }
+  },
+  "highlight_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCollectionView[@name='pesdk_brush_accessibility_menu']/XCUIElementTypeCell[1]"
+    }
+  }
+}

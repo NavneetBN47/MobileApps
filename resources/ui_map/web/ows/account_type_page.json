@@ -1,0 +1,40 @@
+{
+    "select_account_type_page":{
+        "locator":{"css selector":["[data-testid='account-type-page']", "[data-testid='AccountTypePage']"]},
+        "analytics":[{
+            "event":"ScreenDisplayed,AccountType,/PortalOobe/,AssignOwnership-v01",
+            "trigger":"wait_v"}]
+    },
+    "cards[1]_select_button":{
+        "locator":{"css selector":"[data-testid='button-personal']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,AccountType,/PortalOobe/,PersonalSelectButton,AssignOwnership-v01",
+            "trigger":"click"}]
+    },
+    "cards[0]_select_button":{
+        "locator":{"css selector":"[data-testid='button-businesstransactionalsmb']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,AccountType,/PortalOobe/,CompanySelectButton,AssignOwnership-v01",
+            "trigger":"click"}]
+    },
+    "header":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-2834"},
+        "locator":{"css selector":"h1"}
+    },
+    "cards[0]_header":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-2834"},
+        "locator":{"xpath":"(//*[@class='_3za-lo8sDv_r0NHJMwo069'])[1]"}
+    },
+    "cards[0]_body":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-2834"},
+        "locator":{"xpath":"(//*[@class='zNnY3qmFbz6yt7K7iMayq'])[1]"}
+    },
+    "cards[1]_header":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-2834"},
+        "locator":{"xpath":"(//*[@class='_3za-lo8sDv_r0NHJMwo069'])[2]"}
+    },
+    "cards[1]_body":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-2834"},
+        "locator":{"xpath":"(//*[@class='zNnY3qmFbz6yt7K7iMayq'])[2]"}
+    }
+}

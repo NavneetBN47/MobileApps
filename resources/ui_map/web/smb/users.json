@@ -1,0 +1,600 @@
+{ 
+    "users_title":{
+        "locator": {
+            "css selector": "[data-testid='users-section-title']"
+        },
+        "localization": {
+            "en": "Users"
+        }
+    },
+    "users_page":{
+        "locator":{
+            "css selector": "[data-testid='manage-users']"
+        }
+    },
+    "users_section_desc":{
+        "locator":{
+            "css selector":"[data-testid='page-description']"
+        },
+        "localization": {
+            "en": "Manage current printer users or invite new users to access all printers paired with this account. You can remove users and update users' roles."
+        }
+    },
+    "search_user_inputbox":{
+        "locator": {
+            "css selector": "[data-testid='search-component']"
+        }
+    },
+    "table_entry_username": {
+        "locator": {
+            "css selector": "div [data-testid='user-name-label']"
+        }
+    },
+    "table_entry_email": {
+        "locator": {
+            "css selector": "[data-testid='user-email']"
+        }
+    },
+    "user_status": {
+        "locator": {
+            "xpath": "(//div[div[@data-testid='contextual-menu-activate']])[{}]/../following-sibling::td"
+        }
+    },
+    "table_entry_role": {
+        "locator": {
+            "css selector": "tbody td:nth-child(4)"
+        }
+    },
+    "user_table_headers":{
+        "locator":{
+            "css selector":"table[data-testid='users-data-table'] thead tr th button"
+        }
+    },
+    "table_entry_noitemsfound_warning_message": {
+        "locator":{
+            "css selector":"[data-testid='no-results-label']"
+        }
+    },
+    "table_entry_checkbox_disabled":{
+        "locator":{
+            "css selector":"table[data-testid='users-data-table'] tbody .vn-checkbox__span input"
+        }
+    },
+    "search_clear_btn":{
+        "locator":{
+            "css selector":"[aria-label='Clear']"
+        }
+    },
+    "contextual_footer":{
+        "locator":{
+            "css selector":"div[data-testid='contextual-toolbar-action-bar-select']"
+        }
+    },
+    "contextual_footer_cancel_btn":{
+        "locator":{
+            "css selector":"button[data-testid='cancel-button']"
+        }
+    },
+    "removeuser_popup_title":{
+        "locator":{
+            "css selector":"[data-testid='remove-modal-title']"
+        },
+        "localization": {
+            "en": "Remove User"
+        }
+    },
+    "removeuser_popup_desc":{
+        "locator":{
+            "css selector":"div[data-testid='remove-modal-description']"
+        },
+        "localization": {
+            "en": "Are you sure you want to remove the selected users? Removing users will end their access to this organization's account."
+        }
+    },
+    "removeuser_popup_cancel_btn":{
+        "locator":{
+            "css selector":"button[data-testid='remove-modal-cancel-btn']"
+        }
+    },
+    "assign_role_popup_title":{ 
+        "locator":{
+            "css selector":"div[data-testid= 'assign-role-modal-title']"
+        },
+        "localization": {
+            "en": "Assign Role"
+        }
+    },
+    "assign_role_popup_desc":{ 
+        "locator":{
+            "css selector":"div[id= 'assign-role-modal-desc'] p"
+        },
+        "localization": {
+            "en": "Select the role you would like to assign to the user(s):"
+        }
+    },
+    "assign_role_popup_select_role_dropdown":{ 
+        "locator":{
+            "css selector":"#select-role"
+        }
+    },
+    "assign_role_popup_select_role_dropdown_user_option":{ 
+        "locator":{
+            "css selector":"#select-role-option-1"
+        }
+    },
+    "assign_role_popup_select_role_dropdown_admin_option":{ 
+        "locator":{
+            "css selector":"#select-role-option-0"
+        }
+    },
+    "assign_role_popup_cancel_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid = 'assign-role-cancel-btn']"
+        }
+    },
+    "assign_role_popup_confirm_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid = 'assign-role-confirm-btn']"
+        }
+    },
+    "resend_invitation_popup_title":{ 
+        "locator":{
+            "css selector":"div[data-testid = 'resend-invitation-modal-title']"
+        },
+        "localization": {
+            "en": "Resend Invitation"
+        }
+    },
+    "resend_invitation_popup_desc":{ 
+        "locator":{
+            "css selector":"[data-testid='resend-invitation-description']"
+        },
+        "localization": {
+            "en": "This users will receive a new email invitation to use the printers paired with this account."
+        }
+    },
+    "resend_invitation_popup_cancel_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid = 'resend-invitation-cancel-button']"
+        }
+    },
+    "column_options_gear_icon":{
+        "locator":{
+            "css selector":"div button[aria-label='Column Options']"
+        }
+    },
+    "column_options_popup_title":{
+        "locator":{
+            "css selector":"#column-options-label"
+        },
+        "localization": {
+            "en": "Column options"
+        }
+    },
+    "column_options_popup_options":{
+        "locator":{
+            "css selector":"ul[aria-labelledby='column-options-label'] span:nth-child(2)"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "xpath":"//span[contains(text(),'Reset to default')]/parent::button"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector":"#column-options-desc+div>div>button:nth-child(2)"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "xpath":"//span[contains(text(),'Save')]/parent::button"
+        }
+    },
+    "column_options_popup_user_checkbox":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector":"ul[aria-labelledby='column-options-label'] div:nth-child(1) input"
+        }
+    },
+    "column_options_popup_status_and_role_checkbox":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector":"div[role='option'] span[aria-disabled='false'] input"
+        }
+    },
+    "invite_btn":{ 
+        "locator":{
+            "css selector":"[data-testid='basic-view-invite-button']"
+        }
+    },
+    "column_option_popup_status_checkbox":{ 
+        "locator":{
+            "css selector":"ul[aria-labelledby='column-options-label'] div:nth-child(2) span:nth-child(1)"
+        }
+    },
+    "users_table_all_column":{ 
+        "locator":{
+            "css selector":"table[data-testid='users-data-table'] thead th"
+        }
+    },
+    "invite_user_title": {
+        "locator": {
+            "css selector": "[data-testid='invite-users-modal-title-user']"
+        },
+        "localization": {
+            "en": "Invite users"
+        }
+    },
+    "invite_user_desc":{
+        "locator": {
+            "css selector": "[data-testid='invite-users-modal-description-user']"
+        },
+        "localization": {
+            "en": "Add new users to this account by sending them an email invite."
+        }
+    },
+    "invite_user_card":{
+        "locator":{
+            "css selector":"[data-testid='add-user-card']"}
+    },
+    "invite_select_role_drop_down": {
+        "locator": {
+            "css selector": "div[data-testid='add-user-select-box']"
+        }
+    },
+    "invite_select_role_drop_down_option_user":{
+        "locator": {
+            "css selector": "li[id='select-usage-option-1']"
+        }
+    },
+    "invite_select_role_drop_down_option_admin":{
+        "locator": {
+            "css selector": "li[id='select-usage-option-0']"
+        }
+    },
+    "invite_email_address_text_box":{
+        "locator": {
+            "css selector": "[data-testid='invite-users-modal-textarea-user']"
+        }
+    },
+    "invite_select_role_drop_down_options": {
+        "locator": {
+            "css selector": "ul#select-usage-listbox li"
+        }
+    },
+    "invite_user_add_btn":{
+        "locator":{
+            "css selector":"button[data-testid='add-button']"
+        }
+    },
+    "invite_all_users_breadcrumb":{
+        "locator": {
+            "css selector": "a[href='/users']"
+        }
+    },
+    "invite_send_invitations_btn":{
+        "locator": {
+            "css selector": "[data-testid='invite-users-modal-confirm-button-user']"
+        }
+    },
+    "table_entry_contextual_menu":{
+        "locator":{
+            "css selector":"[data-testid='users-data-table'] td:nth-child(3)"
+        }
+    },
+    "remove_user_btn":{
+        "locator":{
+            "css selector":"li[data-value='Remove User']"
+        }
+    },
+    "resend_invitation_option":{
+        "locator":{
+            "css selector":"li[data-value='Resend Invitation']"
+        }
+    },
+    "assign_role_option":{
+        "locator":{
+            "css selector":"li[data-value='Assign Role']"
+        }
+    },
+    "resend_invitation_popup_send_invitation_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid = 'resend-invitation-confirm-button']"
+        }
+    },
+    "removeuser_popup_remove_btn":{
+        "locator":{
+            "css selector":"button[data-testid='remove-button']"
+        }
+    },
+    "contextual_footer_select_action_dropdown":{
+        "locator":{
+            "css selector":"button[data-testid='select-button']"
+        }
+    },
+    "contextual_footer_select_action_dropdown_options":{
+        "locator":{
+            "css selector":"ul[data-testid='contextual-footer-select-menu'] li"
+        }
+    },
+    "contextual_footer_dropdown_remove_user_option":{ 
+        "locator":{
+            "css selector":"ul[data-testid='contextual-footer-select-menu'] li:nth-child(3)"
+        }
+    },
+    "contextual_footer_dropdown_resend_invitation_option":{ 
+        "locator":{
+            "css selector":"ul[data-testid='contextual-footer-select-menu'] li:nth-child(2)"
+        }
+    },
+    "contextual_footer_dropdown_assign_role_option":{ 
+        "locator":{
+            "css selector":"ul[data-testid='contextual-footer-select-menu'] li:nth-child(1)"
+        }
+    },
+    "contextual_footer_continue_btn":{
+        "locator":{
+            "css selector":"button[data-testid='confirm-batch-button']"
+        }
+    },
+    "invite_user_intro_txt":{
+        "locator":{
+            "css selector":"div[data-testid='intro-text']"
+        },
+        "localization": {
+            "en": "Enter the email address of the user you want to invite. When entering multiple addresses, separate them with commas."
+        }
+    },
+    "invite_user_email_address_error_msg":{
+        "locator": {
+            "css selector": "p#text-area-uncontrolled-helper-text"
+        },
+        "localization": {
+            "en": "One or more of the entered email addresses is invalid."
+        }
+    },
+    "invite_user_total_recipient_label":{
+        "locator":{
+            "css selector":"div[data-testid='total-recipients-label']"
+        },
+        "localization": {
+            "en": "Total Recipients | 0"
+        }
+    },
+    "invite_user_table":{
+        "locator":{
+            "css selector":"table[data-testid='invite-user-table']"
+        }
+    },
+    "invite_user_table_heading_email":{
+        "locator":{
+            "css selector":"table[data-testid='invite-user-table'] th#emailwithtooltip"
+        }
+    },
+    "invite_user_table_heading_role":{
+        "locator":{
+            "css selector":"table[data-testid='invite-user-table'] th#roleLabel"
+        }
+    },
+    "invite_user_table_no_item":{
+	    "locator":{
+			"css selector":"p[data-testid='no-invite-item']"
+		}
+	},
+    "invite_recipients_edit_button":{
+        "locator": {
+            "css selector": "button[data-testid='edit-button']"
+        }
+    },
+    "invite_edit_recipient_popup":{
+        "locator": {
+            "css selector": "div[data-testid='edit-user-modal']"
+        }
+    },
+    "invite_edit_recipient_popup_email_address":{
+        "locator": {
+            "css selector": "input[data-testid='edit-user-text-box']"
+        }
+    },
+    "invite_edit_recipient_popup_role":{
+        "locator": {
+            "css selector": "div[id*='vn-select'] span"
+        }
+    },
+    "invite_edit_recipient_popup_role_dropdown":{
+        "locator": {
+            "css selector": "div[id*='vn-select']"
+        }
+    },
+    "invite_edit_recipient_popup_role_dropdown_options":{
+        "locator": {
+            "css selector": "ul[id*='vn-select'] li"
+        }
+    },
+    "invite_edit_recipient_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='close-button']"
+        }
+    },
+    "invite_edit_recipient_popup_save_button":{
+        "locator": {
+            "css selector": "button[data-testid='save-changes-button']"
+        }
+    },
+    "invite_edit_recipient_email_error_msg":{
+        "locator": {
+            "css selector": "p#edit-text-box-helper-text"
+        },
+        "localization": {
+            "en": "This field cannot be blank"
+        }
+    },
+    "invite_edit_recipient_email_error_msg_invalid":{
+        "locator": {
+            "css selector": "p#edit-text-box-helper-text"
+        },
+        "localization": {
+            "en": "Invalid email address"
+        }
+    },
+    "invite_recipients_delete_button":{
+        "locator": {
+            "css selector": "button[data-testid='delete-button']"
+        }
+    },
+    "invite_remove_recipients_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='remove-modal-title']"
+        }
+    },
+    "invite_remove_recipients_popup_desc":{
+        "locator": {
+            "css selector": "[@data-testid='remove-modal-content']"
+        },
+        "localization": {
+            "en": "Are you sure you want to remove this user? They will not be sent an invitation to this account.\nThis action cannot be undone"
+        }
+    },
+    "invite_remove_recipients_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='remove-modal-cancel-btn']"
+        }
+    },
+    "invite_remove_recipients_popup_remove_button":{
+        "locator": {
+            "css selector": "button[data-testid='remove-button']"
+        }
+    },
+    "invite_total_recipients_label":{
+        "locator": {
+            "css selector": "div[data-testid='total-recipients-label']"
+        }
+    },
+    "invite_user_table_email_address":{
+		"locator": {
+			"css selector": "table[data-testid='invite-user-table'] tbody tr td:nth-child(1) label"
+		}
+	},
+    "unsaved_changes_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='confirmation-modal-title']"
+        }
+    },
+    "unsaved_changes_popup_desc":{
+        "locator": {
+            "css selector": "div[data-testid='confirmation-modal-description']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? Your changes have not been saved and will be discarded if you leave now."
+        }
+    },
+    "unsaved_changes_popup_leave_button":{
+        "locator": {
+            "css selector": "button[data-testid='leave-button']"
+        }
+    },
+    "unsaved_changes_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='confirmation-modal-cancel-btn']"
+        }
+    },
+    "send_not_complete_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-title']"
+        }
+    },
+    "send_not_complete_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-description']"
+        }
+    },
+    "send_not_complete_popup_no_button":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-modal-no-btn']"
+        }
+    },
+    "send_not_complete_popup_yes_button":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-modal-yes-button']"
+        }
+    },
+    "success_alert":{
+        "locator":{
+            "css selector":["div[role='alert'] div>span",
+                            "div[role='alert'] div>div"]
+        }
+    },
+    "table_entry_checkbox":{
+        "locator":{
+            "css selector":"table[data-testid='users-data-table'] tbody .vn-checkbox__span"
+        }
+    },
+    "user_table_entries":{
+        "locator":{
+            "css selector":"[data-testid='users-data-table']"
+        }
+    },
+    "home_breadcrumb":{
+        "locator":{
+            "css selector":"[data-testid='user-breadcrumb'] a[href='/']"
+        },
+        "localization": {
+            "en": "Home"
+        }
+    },
+    "user_breadcrumb":{
+        "locator":{
+            "css selector":"[data-testid='user-breadcrumb'] span"
+        },
+        "localization": {
+            "en": "Users"
+        }
+    },
+    "breadcrumb":{
+        "locator":{
+            "css selector":"[data-testid='user-breadcrumb']"
+        }
+    },
+    "invite_role_drop_down_options":{
+        "locator":{
+            "css selector":"li[id*='select-usage-option']"
+        }
+    },
+    "invite_recipient_error_msg":{
+        "locator":{
+            "css selector":"[data-testid='email-warning-description']"
+        },
+        "localization": {
+            "en": "These users have already been invited and were not added to the recipient list:"
+        }
+    },
+    "invite_recipient_error_mail":{
+        "locator":{
+            "css selector":"li[data-testid*='email']"
+        }
+    },
+    "invite_recipient_retry_button":{
+        "locator":{
+            "css selector":"[data-testid='failure-toast-retry']"
+        }
+    },
+    "email_table_header":{
+        "locator":{
+            "css selector": "th[id='name']"
+        }
+    },
+    "role_table_header":{
+        "locator":{
+            "css selector": "th[id='role']"
+        }
+    },
+    "_shared_table_user_col_by_index":{
+        "locator": {
+            "css selector": "tr > td:nth-of-type({}) span[data-testid='user-email']"
+        }
+    }
+}

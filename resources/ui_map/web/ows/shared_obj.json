@@ -1,0 +1,164 @@
+{
+    "_shared_carousel_obj":{
+        "locator": {
+            "id": "carousel"
+        }
+    },
+    "_shared_carousel_screen_header":{
+        "locator": {
+            "css selector": "div.header-text.ng-binding"
+        }
+    },
+    "_shared_carousel_owl_dot":{
+        "locator":{
+            "css selector": "div.owl-dot"
+        }
+    },
+    "_shared_carousel_screen_owl_dots":{
+        "locator": {
+            
+            "css selector": ["div#dots-container","div.owl-dots"]
+        }
+    },
+    "_shared_carousel_screen_continue_or_skip_btn":{
+        "locator": {
+          
+            "css selector": ["button.continue.btn-enabled","button.btn-enabled","a.btn-enabled", ".continue", "button.continue.btn-enabled.btn-primary.ng-binding"]
+        }
+    },
+    "_shared_carousel_screen_right_arrow":{
+        "locator": {
+            "css selector": "div.carousel-gradient.right"
+        }
+    },
+    "_shared_carousel_screen_left_arrow":{
+        "locator": {
+            "css selector": "div.carousel-gradient.left"
+        }
+    },
+    "_shared_carousel_screen_card_content":{
+        "locator": {
+            "css selector": "div.owl-item.active div.card-content"
+        }
+    },
+    "_shared_carousel_screen_card_item_1":{
+        "locator": {
+            "xpath": "//*[contains(@class,'owl-item')][1]"
+        }
+    },
+    "_shared_carousel_screen_card_item_2":{
+        "locator": {
+            "xpath": "//*[contains(@class,'owl-item')][2]"
+        }
+    },
+    "_shared_carousel_screen_card_item_3":{
+        "locator": {
+            "xpath": "//*[contains(@class,'owl-item')][3]"
+        }
+    },
+    "_shared_carousel_screen_card_item_4":{
+        "locator": {
+            "xpath": "//*[contains(@class,'owl-item')][4]"
+        }
+    },
+    "_shared_carousel_screen_card_item_5":{
+        "locator": {
+            "xpath": "//*[contains(@class,'owl-item')][5]"
+        }
+    },
+    "_shared_carousel_screen_card_item_6":{
+        "locator": {
+            "xpath": "//*[contains(@class,'owl-item')][6]"
+        }
+    },
+    "_shared_carousel_screen_card_item_7":{
+        "locator": {
+            "xpath": "//*[contains(@class,'owl-item')][6]"
+        }
+    },
+    "_shared_carousel_content":{
+        "locator": {
+            "css selector": "div.card-content"
+        }
+    },
+    "_shared_arrow_right":{
+        "locator": {
+            "css selector": "span.nav-arrow.right"
+        }
+    },
+    "_shared_arrow_left":{
+        "locator": {
+            "css selector": "span.nav-arrow.left"
+        }
+    },
+    "_shared_option_obj":{
+        "locator": {
+            "css selector": "option[label='{}']"
+        }
+    },
+    "_shared_spinner_modal":{
+        "locator": {
+            "css selector": ["modal-spin", "[show='isSpinnerVisible && !isSuccessModalVisible && !isErrorModalVisible']"]
+        }
+    },
+    "_shared_error_modal":{
+        "locator":{
+            "css selector": "modal-error"
+        }
+    },
+    "_shared_main_title":{
+        "locator":{
+            "css selector": ".collapsed-error.animate.row.ng-scope.clone.expanded"
+        }
+    },
+    "_shared_primary_btn": {
+        "locator": {
+            "css selector": ".btn-primary"
+        }
+    },
+    "_shared_secondary_btn": {
+        "locator": {
+            "css selector": ".btn-secondary"
+        }
+    },
+    "_shared_tertiary_btn": {
+        "locator": {
+            "css selector": ".btn-tertiary"
+        }
+    },
+    "_shared_create_account":{
+        "locator":{
+          "xpath": ["//XCUIElementTypeButton[@name='SignUp']",
+                    "//Pane[@AutomationId='OwsWebView']//Button[1]",
+                    "//Text[@Name='Create Account']",
+                    "//Pane[@AutomationId='OwsWebView']//Group[3]",
+                    "//Button[@Name='Create Account']",
+                    "//XCUIElementTypeGroup/XCUIElementTypeButton[@label='Create Account']"
+                ],
+          "name":"SignUp"
+        }
+    },
+    "_shared_sign_in":{
+        "locator":{
+            "xpath": ["//XCUIElementTypeButton[@name='SignIn']",
+                "//Pane[@AutomationId='OwsWebView']//Button[2]",
+                "//Pane[@AutomationId='OwsWebView']//Group[4]",
+                "//Text[@Name='Sign In']",
+                "//Button[@Name='Sign In']",
+                "//XCUIElementTypeGroup/XCUIElementTypeButton[@label='Sign In']"
+            ],
+            "name":"SignIn"
+        }
+    },
+    "_shared_close": {
+        "locator": {
+          "xpath":["//XCUIElementTypeButton[@name='Close']",
+            "//Pane[@AutomationId='OwsWebView']//Button[2]/following-sibling::Text[1]",
+            "//HyperLink[@Name='Close']"],
+          "name":"Close"
+        }
+    },
+    "skip_installing_btn":{
+        "locator":{"css selector":".btn-enabled.btn-tertiary.ng-binding"}
+    }
+}

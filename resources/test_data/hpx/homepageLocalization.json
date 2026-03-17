@@ -1,0 +1,3093 @@
+{
+  "en-US": {
+    "translation": {
+      "welcome": {
+        "title": "Home",
+        "actions": {
+          "section": "Control your PC",
+          "controls": "View all controls",
+          "audioControl": {
+            "title": "Audio control",
+            "description": "Optimize your audio experience",
+            "description2": "Configure to optimize audio experience",
+            "description3": "Immerse yourself in your audio experience",
+            "description4": "Configure to optimize audio",
+            "featureCard": "Audio Control Action Item",
+            "icon": "Audio Control Icon"
+          },
+          "videoControl": {
+            "title": "Video control",
+            "description": "Customize video settings for conferencing and streaming",
+            "description2": "Be in the moment on camera",
+            "description3": "Use video to create that in person feeling",
+            "description4": "Optimize conferencing and streaming ",
+            "featureCard": "Video Control Action Item",
+            "icon": "Video Control Icon"
+          },
+          "displayControl": {
+            "title": "Display control",
+            "description": "Select a display mode for your screen",
+            "description2": "Select a display mode to optimize your screen",
+            "description3": "Set the mode for your work location",
+            "description4": "Set the mood anywhere with display modes",
+            "description5": "Adapt to your surroundings with display modes",
+            "description6": "Manage display settings for your PC or laptop",
+            "featureCard": "Display Control Action Item",
+            "icon": "Display Control Icon"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Program a one-key shortcut to quickly open apps, files and folders",
+            "description2": "Program shortcuts to quickly open apps, files, or folders",
+            "description3": "Open an application file or folder in one key press",
+            "description4": "Open multiple items with one key press",
+            "description5": "Program a one-key shortcut",
+            "description6": "Create shortcuts to open apps, files, or programs ",
+            "featureCard": "Programmable Key Action Item",
+            "icon": "Programmable Key Icon"
+          },
+          "support": {
+            "description": "Your options for getting help",
+            "description2": "Get the help you need",
+            "description3": "We are here for you",
+            "description4": "Your options for getting help",
+            "featureCard": "Support Action Item",
+            "icon": "Support Icon",
+            "title": "Support"
+          }
+        },
+        "banner": {
+          "message": "The power of HP in one experience",
+          "welcomeTo": "Welcome to",
+          "welcomeUser": "Welcome,"
+        },
+        "offline": {
+          "message": "Connect to the internet to access your \n available features ",
+          "title": "We noticed that you're offline",
+          "button": "Connect"
+        }
+      }
+    }
+  },
+  "ar-SA": {
+    "translation": {
+      "welcome": {
+        "title": "الرئيسية",
+        "actions": {
+          "section": "التحكم في جهاز الكمبيوتر الخاص بك",
+          "controls": "عرض جميع عناصر التحكم",
+          "audioControl": {
+            "title": "التحكم في الصوت",
+            "description": "تحسين تجربة الصوت",
+            "description2": "تكوين لتحسين تجربة الصوت",
+            "description3": "الانغماس في تجربتك الصوتية",
+            "description4": "تكوين لتحسين الصوت",
+            "featureCard": "عنصر إجراء التحكم في الصوت",
+            "icon": "أيقونة التحكم في الصوت"
+          },
+          "videoControl": {
+            "title": "التحكم في الفيديو",
+            "description": "تخصيص إعدادات الفيديو لعقد الاجتماعات والبث",
+            "description2": "العيش في اللحظة على الكاميرا",
+            "description3": "استخدام الفيديو لخلق هذا الشعور الشخصي",
+            "description4": "تحسين المؤتمرات والبث ",
+            "featureCard": "عنصر إجراء التحكم في الفيديو",
+            "icon": "عنصر التحكم في الفيديو"
+          },
+          "displayControl": {
+            "title": "التحكم في العرض",
+            "description": "تحديد وضع العرض لشاشتك",
+            "description2": "تحديد وضع العرض لتحسين شاشتك",
+            "description3": "ضبط الوضع لموقع عملك",
+            "description4": "ضبط الحالة المزاجية في أي مكان باستخدام أوضاع العرض",
+            "description5": "التكيف مع محيطك باستخدام أوضاع العرض",
+            "description6": "أدِر إعدادات العرض لجهاز الكمبيوتر أو الكمبيوتر المحمول",
+            "featureCard": "عنصر إجراء التحكم في العرض",
+            "icon": "أيقونة التحكم في العرض"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "يمكنك برمجة اختصار مكون من مفتاح واحد لفتح التطبيقات والملفات والمجلدات بسرعة",
+            "description2": "اختصارات البرنامج لفتح التطبيقات أو الملفات أو المجلدات بسرعة",
+            "description3": "فتح ملف أو مجلد تطبيق بضغطة زر واحدة",
+            "description4": "فتح عدة عناصر بضغطة مفتاح واحدة",
+            "description5": "برمجة اختصار مكون من مفتاح واحد",
+            "description6": "أنشئ اختصارات لفتح التطبيقات أو الملفات أو البرامج ",
+            "featureCard": "عنصر إجراء Programmable Key",
+            "icon": "أيقونة Programmable Key"
+          },
+          "support": {
+            "description": "خياراتك للحصول على المساعدة",
+            "description2": "الحصول على المساعدة التي تحتاجها",
+            "description3": "نحن هنا من أجلك",
+            "description4": "خياراتك للحصول على المساعدة",
+            "featureCard": "عنصر إجراء الدعم",
+            "icon": "أيقونة الدعم",
+            "title": "الدعم"
+          }
+        },
+        "banner": {
+          "message": "قوة HP في تجربة واحدة",
+          "welcomeTo": "مرحبًا إلى",
+          "welcomeUser": "مرحبًا،"
+        },
+        "offline": {
+          "message": "اتصل بالإنترنت للوصول إلى \nالميزات المتوفرة ",
+          "title": "لاحظنا أنك غير متصل بالإنترنت",
+          "button": "الاتصال"
+        }
+      }
+    }
+  },
+  "bg-BG": {
+    "translation": {
+      "welcome": {
+        "title": "Начало",
+        "actions": {
+          "section": "Контр. комп. си",
+          "controls": "Вижте всички контроли",
+          "audioControl": {
+            "title": "Аудио контрол",
+            "description": "Оптимизирайте аудио изживяването си",
+            "description2": "Конфигурирайте, за да оптимизирате аудио изживяването",
+            "description3": "Потопете се в аудио изживяване",
+            "description4": "Конфигурирайте за оптимизиране на аудиото",
+            "featureCard": "Елемент за действие за аудио контрол",
+            "icon": "Икона за аудио контрол"
+          },
+          "videoControl": {
+            "title": "Видео контрол",
+            "description": "Персонализирайте видео настройките за конференции и поточно предаване",
+            "description2": "Бъдете сега пред камерата",
+            "description3": "Ползвайте видео, за да създадете лично усещане",
+            "description4": "Оптимизирайте конференции и стрийминг ",
+            "featureCard": "Елемент за действие за видео контрол",
+            "icon": "Икона за видео контрол"
+          },
+          "displayControl": {
+            "title": "Контрол на дисплея",
+            "description": "Изберете режим на показване на екрана",
+            "description2": "Изберете режим на показване за оптимизиране на екрана",
+            "description3": "Задайте режим за работното ви място",
+            "description4": "Създайте настроение навсякъде с режими на показване",
+            "description5": "Адаптирайте се към заобикалящата ви среда с режими на показване",
+            "description6": "Управлявайте настройките на дисплея за вашия компютър или лаптоп",
+            "featureCard": "Елемент за действие за контрол на дисплея",
+            "icon": "Икона за контрол на дисплея"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Програмирайте пряк път с един клавиш за бързо отваряне на приложения, файлове и папки",
+            "description2": "Програмирайте преки пътища за бързо отваряне на приложения, файлове или папки",
+            "description3": "Отворете файл или папка на приложение с едно натискане на клавиш",
+            "description4": "Отворете няколко елемента с едно натискане на клавиш",
+            "description5": "Програмирайте пряк път с един клавиш",
+            "description6": "Създавайте преки пътища за отваряне на приложения, файлове или програми ",
+            "featureCard": "Елемент за действие на Programmable Key",
+            "icon": "Икона на Programmable Key"
+          },
+          "support": {
+            "description": "Вашите възможности за получаване на помощ",
+            "description2": "Получете нужната помощ",
+            "description3": "Тук сме за вас",
+            "description4": "Вашите възможности за получаване на помощ",
+            "featureCard": "Елемент за действие за поддръжка",
+            "icon": "Икона за поддръжка",
+            "title": "Поддръжка"
+          }
+        },
+        "banner": {
+          "message": "Силата на HP в едно изживяване",
+          "welcomeTo": "Добре дошли в",
+          "welcomeUser": "Добре дошли,"
+        },
+        "offline": {
+          "message": "Свържете се към интернет за достъп до \n наличните ви функции ",
+          "title": "Забелязахме, че сте офлайн",
+          "button": "Свързване"
+        }
+      }
+    }
+  },
+  "ca-ES": {
+    "translation": {
+      "welcome": {
+        "title": "Inici",
+        "actions": {
+          "section": "Controleu el PC",
+          "controls": "Mostra tots els controls",
+          "audioControl": {
+            "title": "Control d'àudio",
+            "description": "Optimitza l'experiència d'àudio",
+            "description2": "Configura per optimitzar l'experiència d'àudio",
+            "description3": "Immersió en l'experiència d'àudio",
+            "description4": "Configura per optimitzar l'àudio",
+            "featureCard": "Element d'acció de control d'àudio",
+            "icon": "Icona de control d'àudio"
+          },
+          "videoControl": {
+            "title": "Control de vídeo",
+            "description": "Personalitza la configuració de vídeo per a conferències i transmissió en temps real",
+            "description2": "Estigueu a l'instant davant la càmera",
+            "description3": "Mitjançant el vídeo creeu aquesta sensació personal",
+            "description4": "Optimitza la configuració per a conferències i transmissió en temps real ",
+            "featureCard": "Element d'acció de control de vídeo",
+            "icon": "Icona de control de vídeo"
+          },
+          "displayControl": {
+            "title": "Control de visualització",
+            "description": "Seleccioneu un mode de visualització per a la pantalla",
+            "description2": "Seleccioneu un mode de visualització per optimitzar la pantalla",
+            "description3": "Establiu el mode per a la ubicació de la feina",
+            "description4": "Establiu l'estat d'ànim a qualsevol lloc amb els modes de visualització",
+            "description5": "Adapteu-vos a l'entorn amb els modes de visualització",
+            "description6": "Gestioneu la configuració de la pantalla del vostre ordinador o portàtil",
+            "featureCard": "Mostra l'element d'acció de control",
+            "icon": "Mostra la icona de control"
+          },
+          "programmableKey": {
+            "title": "Tecla programable",
+            "description": "Programeu un accés directe amb una tecla per obrir ràpidament aplicacions, fitxers i carpetes",
+            "description2": "Programeu accessos directes per obrir ràpidament aplicacions, fitxers o carpetes",
+            "description3": "Obriu un fitxer o carpeta d'aplicació amb una sola tecla",
+            "description4": "Obre diversos elements amb una sola tecla",
+            "description5": "Programeu un accés directe amb una tecla",
+            "description6": "Creeu accessos directes per obrir aplicacions, fitxers o programes ",
+            "featureCard": "Element d'acció de tecla programable",
+            "icon": "Icona tecla programable"
+          },
+          "support": {
+            "description": "Les opcions per obtenir ajuda",
+            "description2": "Obteniu l'ajuda que necessiteu",
+            "description3": "Estem al vostre servei",
+            "description4": "Les opcions per obtenir ajuda",
+            "featureCard": "Element d'acció de suport tècnic",
+            "icon": "Icona de suport tècnic",
+            "title": "Assistència"
+          }
+        },
+        "banner": {
+          "message": "La potència d'HP en una experiència",
+          "welcomeTo": "Us donem la benvinguda a",
+          "welcomeUser": "Us donem la benvinguda,"
+        },
+        "offline": {
+          "message": "Connecteu-vos a Internet per accedir a les vostres \n funcions disponibles ",
+          "title": "Hem observat que sou fora de línia",
+          "button": "Connecta"
+        }
+      }
+    }
+  },
+  "cs-CZ": {
+    "translation": {
+      "welcome": {
+        "title": "Domů",
+        "actions": {
+          "section": "Ovládejte svůj počítač",
+          "controls": "Zobrazit všechny ovládací prvky",
+          "audioControl": {
+            "title": "Ovládání zvuku",
+            "description": "Optimalizujte si poslech",
+            "description2": "Nakonfigurovat na optimalizaci poslechu",
+            "description3": "Ponořte se do poslechu",
+            "description4": "Nakonfigurovat na optimalizaci zvuku",
+            "featureCard": "Položka akce ovládání zvuku",
+            "icon": "Ikona ovládání zvuku"
+          },
+          "videoControl": {
+            "title": "Ovládání videa",
+            "description": "Přizpůsobit nastavení videa pro konference a streamování",
+            "description2": "Buďte v daném okamžiku u kamery",
+            "description3": "Použijte video k vytvoření osobního pocitu",
+            "description4": "Optimalizovat konference a streamování ",
+            "featureCard": "Položka akce ovládání videa",
+            "icon": "Ikona ovládání videa"
+          },
+          "displayControl": {
+            "title": "Ovládání displeje",
+            "description": "Vyberte režim zobrazení pro obrazovku",
+            "description2": "Vyberte režim zobrazení, abyste si optimalizovali obrazovku",
+            "description3": "Nastavte režim pro vaše místo výkonu práce",
+            "description4": "Vytvořte si všude správnou náladu pomocí režimů zobrazení",
+            "description5": "Přizpůsobte se svému okolí pomocí režimů zobrazení",
+            "description6": "Spravujte nastavení displeje svého počítače nebo notebooku",
+            "featureCard": "Položka akce ovládání displeje",
+            "icon": "Ikona ovládání displeje"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Naprogramujte si zkratku na jedno stisknutí pro rychlé otvírání aplikací, souborů a složek",
+            "description2": "Naprogramujte zkratky pro rychlé otvírání aplikací, souborů nebo složek",
+            "description3": "Otevřete aplikaci, soubor nebo složku stisknutím jediné klávesy",
+            "description4": "Otevřete více položek stisknutím jediné klávesy",
+            "description5": "Naprogramujte si zkratku na jedno stisknutí",
+            "description6": "Vytvořte si zkratky pro otvírání aplikací, souborů nebo programů ",
+            "featureCard": "Položka akce Programmable Key",
+            "icon": "Ikona Programmable Key"
+          },
+          "support": {
+            "description": "Vaše možnosti získání pomoci",
+            "description2": "Získejte potřebnou pomoc",
+            "description3": "Jsme zde pro vás",
+            "description4": "Vaše možnosti získání pomoci",
+            "featureCard": "Položka akce podpory",
+            "icon": "Ikona podpory",
+            "title": "Podpora"
+          }
+        },
+        "banner": {
+          "message": "Síla HP v jednom zážitku",
+          "welcomeTo": "Vítá vás",
+          "welcomeUser": "Vítejte,"
+        },
+        "offline": {
+          "message": "Připojte se k internetu, abyste mohli přistupovat \n k dostupným funkcím ",
+          "title": "Zaznamenali jsme, že jste offline",
+          "button": "Připojit"
+        }
+      }
+    }
+  },
+  "da-DK": {
+    "translation": {
+      "welcome": {
+        "title": "Startside",
+        "actions": {
+          "section": "Kontroller din pc",
+          "controls": "Se alle kontroller",
+          "audioControl": {
+            "title": "Lydjustering",
+            "description": "Optimer din lydoplevelse",
+            "description2": "Konfigurer for at optimere lydoplevelse",
+            "description3": "Lad dig omslutte af lyden",
+            "description4": "Konfigurer for at optimere lyd",
+            "featureCard": "Handlingselement til lydjustering",
+            "icon": "Ikon for lydjustering"
+          },
+          "videoControl": {
+            "title": "Videostyring",
+            "description": "Tilpas videoindstillinger til møder og streaming",
+            "description2": "Vær dig selv på kamera",
+            "description3": "Brug video til at opnå en behagelig stemning",
+            "description4": "Optimer møder og streaming ",
+            "featureCard": "Handlingselement til videostyring",
+            "icon": "Ikon for videostyring"
+          },
+          "displayControl": {
+            "title": "Skærmkontrol",
+            "description": "Vælg en indstilling til skærmen",
+            "description2": "Vælg en skærmindstilling for at optimere skærmen",
+            "description3": "Angiv indstillingen til din arbejdslokation",
+            "description4": "Angiv den skærmindstilling, der passer til omgivelserne",
+            "description5": "Tilpas skærmindstillingerne til omgivelserne",
+            "description6": "Administrer skærmindstillinger for din pc eller laptop",
+            "featureCard": "Handlingselement til skærmkontrol",
+            "icon": "Ikon for skærmkontrol"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programmer ét-tryksgenveje for hurtigt at åbne programmer, filer og mapper",
+            "description2": "Programmer genveje for hurtigt at åbne programmer, filer og mapper",
+            "description3": "Åbn en programfil eller mappe med ét-trykstaster",
+            "description4": "Åbn flere ting med ét tryk på en tast",
+            "description5": "Programmer ét-tryksgenveje",
+            "description6": "Opret genveje til at åbne apps, filer og programmer med ",
+            "featureCard": "Handlingselement for Programmable Key",
+            "icon": "Ikon for Programmable Key"
+          },
+          "support": {
+            "description": "Dine muligheder for at få hjælp",
+            "description2": "Få den hjælp, du har behov for",
+            "description3": "Vi er klar til at hjælpe dig",
+            "description4": "Dine muligheder for at få hjælp",
+            "featureCard": "Handlingselement for support",
+            "icon": "Support-ikon",
+            "title": "Support"
+          }
+        },
+        "banner": {
+          "message": "Kraften fra HP i én oplevelse",
+          "welcomeTo": "Velkommen til",
+          "welcomeUser": "Velkommen"
+        },
+        "offline": {
+          "message": "Opret forbindelse til internettet for at få adgang til dine \n tilgængelige funktioner ",
+          "title": "Vi har bemærket, at du er offline",
+          "button": "Opret forbindelse"
+        }
+      }
+    }
+  },
+  "de-DE": {
+    "translation": {
+      "welcome": {
+        "title": "Startseite",
+        "actions": {
+          "section": "Steuern Sie Ihren PC",
+          "controls": "Alle Steuerungen anzeigen",
+          "audioControl": {
+            "title": "Audiosteuerung",
+            "description": "Optimieren Sie Ihre Audioerfahrung",
+            "description2": "Konfigurieren zur Optimierung der Audioqualität",
+            "description3": "Tauchen Sie ein in Ihre Audioerfahrung",
+            "description4": "Konfigurieren für Audiooptimierung",
+            "featureCard": "Aktionselement Audiosteuerung",
+            "icon": "Symbol Audiosteuerung"
+          },
+          "videoControl": {
+            "title": "Videosteuerung",
+            "description": "Anpassen der Videoeinstellungen für Konferenzen und Streaming",
+            "description2": "Leben Sie den Moment vor der Kamera",
+            "description3": "Verwenden Sie Video, um das Gefühl persönlicher Anwesenheit zu erzeugen",
+            "description4": "Optimieren für Konferenzen und Streaming ",
+            "featureCard": "Aktionselement Videosteuerung",
+            "icon": "Symbol Videosteuerung"
+          },
+          "displayControl": {
+            "title": "Anzeigesteuerung",
+            "description": "Wählen Sie einen Anzeigemodus für Ihren Bildschirm aus",
+            "description2": "Wählen Sie einen Anzeigemodus für die Optimierung Ihres Bildschirms aus",
+            "description3": "Legen Sie den Modus für den Arbeitsstandort fest",
+            "description4": "Passen Sie die Anzeigemodi jederzeit Ihrer Stimmung an",
+            "description5": "Passen Sie sich mit den Anzeigemodi Ihrer Umgebung an",
+            "description6": "Anzeigeeinstellungen für Ihren PC oder Laptop verwalten",
+            "featureCard": "Aktionselement Anzeigesteuerung",
+            "icon": "Symbol Anzeigesteuerung"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Programmieren von One-Key-Tastenkombinationen für das schnelle Öffnen von Apps, Dateien und Ordnern",
+            "description2": "Programmieren von Tastenkombinationen für das schnelle Öffnen von Apps, Dateien und Ordnern",
+            "description3": "Öffnen von Anwendungsdateien oder Ordnern mit nur einem Tastendruck",
+            "description4": "Öffnen mehrere Elemente mit nur einem Tastendruck",
+            "description5": "Programmieren von One-Key-Tastenkombinationen",
+            "description6": "Erstellen Sie Tastenkombinationen für das Öffnen von Apps, Dateien und Programmen ",
+            "featureCard": "Aktionselement Programmable Key",
+            "icon": "Symbol Programmable Key"
+          },
+          "support": {
+            "description": "Ihre Möglichkeiten, Hilfe zu erhalten",
+            "description2": "Holen Sie sich die Hilfe, die Sie brauchen",
+            "description3": "Wir sind für Sie da",
+            "description4": "Ihre Möglichkeiten, Hilfe zu erhalten",
+            "featureCard": "Aktionselement Support",
+            "icon": "Symbol Support",
+            "title": "Support"
+          }
+        },
+        "banner": {
+          "message": "Die Power von HP in einem Erlebnis",
+          "welcomeTo": "Willkommen zu",
+          "welcomeUser": "Willkommen,"
+        },
+        "offline": {
+          "message": "Stellen Sie eine Verbindung zum Internet her, \n um auf Ihre verfügbaren Funktionen zuzugreifen. ",
+          "title": "Sie scheinen offline zu sein",
+          "button": "Verbinden"
+        }
+      }
+    }
+  },
+  "el-GR": {
+    "translation": {
+      "welcome": {
+        "title": "Αρχική",
+        "actions": {
+          "section": "Ελέγξτε τον υπολογιστή σας",
+          "controls": "Εμφάνιση όλων των ελέγχων",
+          "audioControl": {
+            "title": "Έλεγχος ήχου",
+            "description": "Βελτιστοποιήστε την εμπειρία ήχου σας",
+            "description2": "Διαμόρφωση για τη βελτιστοποίηση της εμπειρίας ήχου",
+            "description3": "Απολαύστε σε βάθος την ηχητική εμπειρία σας",
+            "description4": "Διαμόρφωση για τη βελτιστοποίηση του ήχου",
+            "featureCard": "Στοιχείο ενέργειας ελέγχου ήχου",
+            "icon": "Εικονίδιο ελέγχου ήχου"
+          },
+          "videoControl": {
+            "title": "Έλεγχος βίντεο",
+            "description": "Διαμόρφωση ρυθμίσεων βίντεο για την τηλεδιάσκεψη και τη ροή μέσων",
+            "description2": "Ζήστε τη στιγμή με την κάμερα",
+            "description3": "Χρησιμοποιήστε βίντεο για να δημιουργήσετε αυτή την προσωπική αίσθηση",
+            "description4": "Βελτιστοποίηση συνεδριάσεων και ροής ",
+            "featureCard": "Στοιχείο ενέργειας ελέγχου βίντεο",
+            "icon": "Εικονίδιο ελέγχου βίντεο"
+          },
+          "displayControl": {
+            "title": "Έλεγχος προβολής",
+            "description": "Επιλέξτε μια λειτουργία εμφάνισης για την οθόνη σας",
+            "description2": "Επιλέξτε μια λειτουργία εμφάνισης για να βελτιστοποιήσετε την οθόνη σας",
+            "description3": "Ρυθμίστε τη λειτουργία για την τοποθεσία εργασίας σας",
+            "description4": "Ρυθμίστε τη διάθεση οπουδήποτε με τις λειτουργίες προβολής",
+            "description5": "Προσαρμόστε στο περιβάλλον σας με λειτουργίες προβολής",
+            "description6": "Διαχείριση ρυθμίσεων προβολής για τον υπολογιστή ή τον φορητό υπολογιστή",
+            "featureCard": "Στοιχείο ενέργειας ελέγχου προβολής",
+            "icon": "Εικονίδιο ελέγχου προβολής"
+          },
+          "programmableKey": {
+            "title": "Προγραμματιζόμενο πλήκτρο",
+            "description": "Προγραμματίστε μια συντόμευση με ένα πλήκτρο για να ανοίγετε γρήγορα εφαρμογές, αρχεία και φακέλους",
+            "description2": "Προγραμματίστε συντομεύσεις για γρήγορο άνοιγμα εφαρμογών, αρχείων ή φακέλων",
+            "description3": "Ανοίξτε ένα αρχείο ή φάκελο εφαρμογής με ένα πάτημα πλήκτρου",
+            "description4": "Ανοίξτε πολλά στοιχεία με ένα πάτημα πλήκτρου",
+            "description5": "Προγραμματίστε μια συντόμευση με ένα πλήκτρο",
+            "description6": "Δημιουργία συντομεύσεων για το άνοιγμα εφαρμογών, αρχείων ή προγραμμάτων ",
+            "featureCard": "Στοιχείο ενέργειας προγραμματιζόμενου πλήκτρου",
+            "icon": "Εικονίδιο προγραμματιζόμενου πλήκτρου"
+          },
+          "support": {
+            "description": "Επιλογές για τη λήψη βοήθειας",
+            "description2": "Λάβετε τη βοήθεια που χρειάζεστε",
+            "description3": "Είμαστε εδώ για εσάς",
+            "description4": "Επιλογές για τη λήψη βοήθειας",
+            "featureCard": "Στοιχείο ενέργειας υποστήριξης",
+            "icon": "Εικονίδιο υποστήριξης",
+            "title": "Υποστήριξη"
+          }
+        },
+        "banner": {
+          "message": "Η ισχύς της HP σε μία ενιαία εμπειρία",
+          "welcomeTo": "Καλώς ήλθατε στο",
+          "welcomeUser": "Καλώς ήλθατε,"
+        },
+        "offline": {
+          "message": "Συνδεθείτε στο internet για να αποκτήσετε πρόσβαση στις \n διαθέσιμες λειτουργίες ",
+          "title": "Προσέξαμε ότι είστε εκτός σύνδεσης",
+          "button": "Σύνδεση"
+        }
+      }
+    }
+  },
+  "en-GB": {
+    "translation": {
+      "welcome": {
+        "title": "Home",
+        "actions": {
+          "section": "Control your PC",
+          "controls": "View all controls",
+          "audioControl": {
+            "title": "Audio control",
+            "description": "Optimise your audio experience",
+            "description2": "Configure to optimise audio experience",
+            "description3": "Immerse yourself in your audio experience",
+            "description4": "Configure to optimise audio",
+            "featureCard": "Audio Control Action Item",
+            "icon": "Audio Control Icon"
+          },
+          "videoControl": {
+            "title": "Video control",
+            "description": "Customise video settings for conferencing and streaming",
+            "description2": "Be in the moment on camera",
+            "description3": "Use video to create that in person feeling",
+            "description4": "Optimise conferencing and streaming ",
+            "featureCard": "Video Control Action Item",
+            "icon": "Video Control Icon"
+          },
+          "displayControl": {
+            "title": "Display control",
+            "description": "Select a display mode for your screen",
+            "description2": "Select a display mode to optimise your screen",
+            "description3": "Set the mode for your work location",
+            "description4": "Set the mood anywhere with display modes",
+            "description5": "Adapt to your surroundings with display modes",
+            "description6": "Manage display settings for your PC or laptop",
+            "featureCard": "Display Control Action Item",
+            "icon": "Display Control Icon"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Program a one-key shortcut to quickly open apps, files and folders",
+            "description2": "Program shortcuts to quickly open apps, files, or folders",
+            "description3": "Open an application file or folder in one key press",
+            "description4": "Open multiple items with one key press",
+            "description5": "Program a one-key shortcut",
+            "description6": "Create shortcuts to open apps, files, or programs ",
+            "featureCard": "Programmable Key Action Item",
+            "icon": "Programmable Key Icon"
+          },
+          "support": {
+            "description": "Your options for getting help",
+            "description2": "Get the help you need",
+            "description3": "We are here for you",
+            "description4": "Your options for getting help",
+            "featureCard": "Support Action Item",
+            "icon": "Support Icon",
+            "title": "Support"
+          }
+        },
+        "banner": {
+          "message": "The power of HP in one experience",
+          "welcomeTo": "Welcome to",
+          "welcomeUser": "Welcome,"
+        },
+        "offline": {
+          "message": "Connect to the internet to access your \n available features ",
+          "title": "We noticed that you're offline",
+          "button": "Connect"
+        }
+      }
+    }
+  },
+  "es-MX": {
+    "translation": {
+      "welcome": {
+        "title": "Inicio",
+        "actions": {
+          "section": "Controle su PC",
+          "controls": "Ver todos los controles",
+          "audioControl": {
+            "title": "Control de audio",
+            "description": "Optimice su experiencia de audio",
+            "description2": "Configure para optimizar la experiencia de audio",
+            "description3": "Obtenga experiencia de audio inmersiva",
+            "description4": "Configurar para optimizar el audio",
+            "featureCard": "Elemento de acción de Control de audio",
+            "icon": "Icono de Control de audio"
+          },
+          "videoControl": {
+            "title": "Control de video",
+            "description": "Personalizar la configuración de video para conferencias y transmisión",
+            "description2": "Esté presente en cámara",
+            "description3": "Use video para crear la sensación de estar en persona",
+            "description4": "Optimice conferencias y transmisión ",
+            "featureCard": "Elemento de acción de Control de video",
+            "icon": "Icono de Control de video"
+          },
+          "displayControl": {
+            "title": "Control de pantalla",
+            "description": "Seleccione un modo para su pantalla",
+            "description2": "Seleccione un modo de pantalla para optimizar la imagen",
+            "description3": "Establezca el modo para el lugar de trabajo",
+            "description4": "Cree el ambiente para cualquier lugar con modos de pantalla",
+            "description5": "Adapte su entorno con modos de pantalla",
+            "description6": "Administre las configuraciones de pantalla para su PC o portátil",
+            "featureCard": "Elemento de acción de Control de pantalla",
+            "icon": "Icono de Control de pantalla"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programe un acceso directo de una tecla para abrir con rapidez aplicaciones, archivos y carpetas",
+            "description2": "Programe accesos directos para abrir aplicaciones, archivos y carpetas con rapidez",
+            "description3": "Abra una aplicación, archivo o carpeta pulsando una tecla",
+            "description4": "Abra varios elementos pulsando una tecla",
+            "description5": "Programe un acceso directo de una tecla",
+            "description6": "Cree accesos directos para abrir aplicaciones, archivos o programas ",
+            "featureCard": "Elemento de acción de Programmable key",
+            "icon": "Icono de Programmable key"
+          },
+          "support": {
+            "description": "Sus opciones para obtener ayuda",
+            "description2": "Obtenga la ayuda que necesita",
+            "description3": "Estamos listos para ayudarlo",
+            "description4": "Sus opciones para obtener ayuda",
+            "featureCard": "Elemento de acción de Soporte",
+            "icon": "Icono de Soporte",
+            "title": "Soporte"
+          }
+        },
+        "banner": {
+          "message": "La potencia de HP en una experiencia",
+          "welcomeTo": "Bienvenidos a",
+          "welcomeUser": "Bienvenido"
+        },
+        "offline": {
+          "message": "Conéctese a Internet para acceder a sus \n recursos disponibles ",
+          "title": "Notamos que está desconectado",
+          "button": "Conectar"
+        }
+      }
+    }
+  },
+  "es-ES": {
+    "translation": {
+      "welcome": {
+        "title": "Te damos la bienvenida",
+        "actions": {
+          "section": "Controlar tu equipo",
+          "controls": "Ver todos los controles",
+          "audioControl": {
+            "title": "Control de audio",
+            "description": "Optimiza tu experiencia de audio",
+            "description2": "Configura para optimizar la experiencia auditiva",
+            "description3": "Sumérgete en tu experiencia de audio",
+            "description4": "Configura para optimizar el audio",
+            "featureCard": "Elemento de acción de control de audio",
+            "icon": "Ícono de control de audio"
+          },
+          "videoControl": {
+            "title": "Control de vídeo",
+            "description": "Personaliza los ajustes de vídeo para conferencias y streaming",
+            "description2": "Disfruta del momento en la cámara",
+            "description3": "Usa el vídeo para crear ese sentimiento que se obtiene en persona",
+            "description4": "Optimiza las conferencias y el streaming ",
+            "featureCard": "Elemento de acción de control de vídeo",
+            "icon": "Ícono de control de vídeo"
+          },
+          "displayControl": {
+            "title": "Control de visualización",
+            "description": "Selecciona un modo de visualización para tu pantalla",
+            "description2": "Selecciona un modo de visualización para optimizar tu pantalla",
+            "description3": "Configura el modo para tu lugar de trabajo",
+            "description4": "Establece el estado de ánimo en cualquier lugar con los modos de visualización",
+            "description5": "Adáptate a tu entorno con los modos de visualización",
+            "description6": "Gestiona los ajustes de visualización para el ordenador de sobremesa o portátil",
+            "featureCard": "Elemento de acción de control de visualización",
+            "icon": "Ícono de control de visualización"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programa un acceso directo de una tecla para abrir aplicaciones, archivos y carpetas rápidamente",
+            "description2": "Programa accesos directos abrir aplicaciones, archivos y carpetas rápidamente",
+            "description3": "Abre un archivo o carpeta de aplicación con solo presionar una tecla",
+            "description4": "Abre varios elementos con solo presionar una tecla",
+            "description5": "Programa un acceso directo de una tecla",
+            "description6": "Crea accesos directos para abrir aplicaciones, archivos o programas ",
+            "featureCard": "Elemento de acción de programmable key",
+            "icon": "Ícono de programmable key"
+          },
+          "support": {
+            "title": "Soporte",
+            "description": "Tus opciones para obtener ayuda",
+            "description2": "Obtén la ayuda que necesitas",
+            "description3": "Estamos aquí para ti",
+            "description4": "Tus opciones para obtener ayuda",
+            "featureCard": "Elemento de acción de soporte",
+            "icon": "Ícono de soporte"
+          }
+        },
+        "banner": {
+          "message": "El poder de HP en una experiencia",
+          "welcomeTo": "Bienvenido a",
+          "welcomeUser": "Bienvenido,"
+        },
+        "offline": {
+          "message": "Conéctate a Internet para acceder a tus \n funciones disponibles ",
+          "title": "Notamos que no estás conectado",
+          "button": "Conectar"
+        }
+      }
+    }
+  },
+  "et-EE": {
+    "translation": {
+      "welcome": {
+        "title": "Kodu",
+        "actions": {
+          "section": "Juhtige oma arvutit",
+          "controls": "Kuva kõik juhtelemendid",
+          "audioControl": {
+            "title": "Heli juhtimine",
+            "description": "Optimeerige oma helikogemust",
+            "description2": "Seadistage helikogemuse optimeerimiseks",
+            "description3": "Sukelduge oma helikogemusse",
+            "description4": "Seadistage heli optimeerimiseks",
+            "featureCard": "Helijuhtimise toiminguüksus",
+            "icon": "Heli juhtimise ikoon"
+          },
+          "videoControl": {
+            "title": "Video juhtimine",
+            "description": "Kohandage videosätteid konverentside ja voogesituse jaoks",
+            "description2": "Olge kaamera ees hetkes",
+            "description3": "Kasutage videot selle isikliku tunde loomiseks",
+            "description4": "Konverentside ja voogesituse optimeerimine ",
+            "featureCard": "Video juhtimise tegevusüksus",
+            "icon": "Video juhtimise ikoon"
+          },
+          "displayControl": {
+            "title": "Kuva juhtimine",
+            "description": "Valige oma ekraani jaoks kuvarežiim",
+            "description2": "Valige ekraani optimeerimiseks kuvarežiim",
+            "description3": "Määrake oma töökoha režiim",
+            "description4": "Seadistage kuvarežiimide abil meeleolu kõikjal",
+            "description5": "Kohanege ekraanirežiimide abil oma ümbrusega",
+            "description6": "Hallake oma arvuti või sülearvuti kuvaseadeid",
+            "featureCard": "Kuva juhtimise toiminguüksus",
+            "icon": "Kuva juhtimise ikoon"
+          },
+          "programmableKey": {
+            "title": "Programmeeritav võti",
+            "description": "Programmeerige ühe klahviga otsetee rakenduste, failide ja kaustade kiireks avamiseks",
+            "description2": "Programmi otseteed rakenduste, failide või kaustade kiireks avamiseks",
+            "description3": "Avage rakenduse fail või kaust ühe klahvivajutusega",
+            "description4": "Avage mitu üksust ühe klahvivajutusega",
+            "description5": "Programmeerige ühe klahviga otsetee",
+            "description6": "Looge rakenduste, failide või programmide avamiseks otseteid ",
+            "featureCard": "Programmeeritav võtmetoimingu üksus",
+            "icon": "Programmeeritava võtme ikoon"
+          },
+          "support": {
+            "description": "Teie võimalused abi saamiseks",
+            "description2": "Hankige vajalikku abi",
+            "description3": "Oleme siin teie jaoks",
+            "description4": "Teie võimalused abi saamiseks",
+            "featureCard": "Toetoimingu üksus",
+            "icon": "Toe ikoon",
+            "title": "Tugi"
+        },
+        "banner": {
+          "message": "HP jõud ühes kogemuses",
+          "welcomeTo": "Tere tulemast",
+          "welcomeUser": "Tere tulemast,"
+        },
+        "offline": {
+          "message": "Looge internetiühendus, et pääseda juurde oma \n saadaolevatele funktsioonidele ",
+          "title": "Märkasime, et olete võrguühenduseta",
+          "button": "Ühenda"
+        }
+      }
+    }
+  }
+  },
+  "eu-ES": {
+    "translation": {
+      "welcome": {
+        "title": "Hasiera",
+        "actions": {
+          "section": "Kontrolatu zure ordenagailua",
+          "controls": "Kontrol guztiak ikusi",
+          "audioControl": {
+            "title": "Audio-kontrola",
+            "description": "Hobetu zure audio-esperientzia",
+            "description2": "Konfiguratu audio-esperientzia hobetzeko",
+            "description3": "Murgildu audio-esperientzian",
+            "description4": "Konfiguratu audioa optimizatzeko",
+            "featureCard": "Audio-kontroleko ekintza-elementua",
+            "icon": "Audio-kontrolaren ikonoa"
+          },
+          "videoControl": {
+            "title": "Bideo-kontrola",
+            "description": "Pertsonalizatu bideo-konfigurazioa konferentzietarako eta streaming egiteko",
+            "description2": "Zaude unean kameraren aurrean",
+            "description3": "Erabili bideoa hori sentipen-pertsonalean sortzeko",
+            "description4": "Hitzaldiak eta transmisioa optimizatzea ",
+            "featureCard": "Bideo-kontroleko ekintza-elementua",
+            "icon": "Bideo-kontrolaren ikonoa"
+          },
+          "displayControl": {
+            "title": "Pantailaren kontrola",
+            "description": "Hautatu pantailarako bistaratze-modua",
+            "description2": "Hautatu bistaratze-modua pantaila optimizatzeko",
+            "description3": "Ezarri zure lanposturako modua",
+            "description4": "Aldatu umorea edozein lekutan bistaratze-moduei esker",
+            "description5": "Egokitu ingurunera bistaratze-moduei esker",
+            "description6": "Zure ordenagailu edo eramangarrirako pantailaren ezarpenak administratzea",
+            "featureCard": "Pantaila kontrolatzeko ekintza-elementua",
+            "icon": "Pantaila kontrolatzeko ikonoa"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programatu tekla-lasterbidea aplikazioak, fitxategiak eta karpetak bizkor irekitzeko",
+            "description2": "Programatu lasterbideak aplikazioak, fitxategiak eta karpetak bizkor irekitzeko",
+            "description3": "Ireki aplikazio, fitxategi edo karpeta bat tekla bakarra sakatuta",
+            "description4": "Ireki hainbat elementu tekla bakar batekin",
+            "description5": "Programatu tekla-lasterbide bat",
+            "description6": "Lasterbideak sortu aplikazioak, fitxategiak edo programak irekitzeko ",
+            "featureCard": "Programmable Key ekintza-elementua",
+            "icon": "Programmable Key ikonoa"
+          },
+          "support": {
+            "description": "Laguntza lortzeko aukerak",
+            "description2": "Lortu behar duzun laguntza",
+            "description3": "Hemen gaude zu laguntzeko",
+            "description4": "Laguntza lortzeko aukerak",
+            "featureCard": "Laguntza-ekintzaren elementua",
+            "icon": "Laguntzaren ikonoa",
+            "title": "Laguntza"
+          }
+        },
+        "banner": {
+          "message": "HPren boterea esperientzia batean",
+          "welcomeTo": "Ongi etorri",
+          "welcomeUser": "Ongi etorri"
+        },
+        "offline": {
+          "message": "Konektatu Internetera zure \n-an erabilgarri dauden ezaugarrietara sartzeko ",
+          "title": "Konturatu gara deskonektatuta zaudela",
+          "button": "Konektatu"
+        }
+      }
+    }
+  },
+  "fi-FI": {
+    "translation": {
+      "welcome": {
+        "title": "Etusivu",
+        "actions": {
+          "section": "Ohjaa tietokonettasi",
+          "controls": "Näytä kaikki ohjaimet",
+          "audioControl": {
+            "title": "Äänentoiston ohjaus",
+            "description": "Optimoi äänentoistokokemus",
+            "description2": "Optimoi kuuntelukokemus määrittämällä nämä",
+            "description3": "Uppoudu äänentoistokokemukseen",
+            "description4": "Optimoi äänentoisto määrittämällä nämä asetukset",
+            "featureCard": "Äänentoiston ohjaus -toimenpide",
+            "icon": "Äänentoiston ohjaus -kuvake"
+          },
+          "videoControl": {
+            "title": "Videokuvan ohjaus",
+            "description": "Muokkaa videoasetuksia neuvottelupuheluja ja suoratoistoa varten",
+            "description2": "Ole hetkessä kameran kuvassa",
+            "description3": "Luo vaikutelma läsnäolosta videokuvan avulla",
+            "description4": "Optimoi neuvottelukäyttö ja lähetys ",
+            "featureCard": "Videokuvan ohjaus -toimenpide",
+            "icon": "Videokuvan ohjaus -kuvake"
+          },
+          "displayControl": {
+            "title": "Näytön ohjaus",
+            "description": "Valitse näyttösi näyttötila",
+            "description2": "Valitse näyttötila näytön optimointia varten",
+            "description3": "Aseta tila työpaikkaasi varten",
+            "description4": "Luo tunnelmaa missä tahansa näyttötilojen avulla",
+            "description5": "Sopeudu ympäristöön näyttötilojen avulla",
+            "description6": "Hallitse tietokoneen tai kannettavan tietokoneen näyttöasetuksia",
+            "featureCard": "Näytön ohjaus -toimenpide",
+            "icon": "Näytön ohjaus -kuvake"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Ohjelmoi yhden näppäimen pikavalintoja, joilla voit avata nopeasti sovelluksia, tiedostoja ja kansioita",
+            "description2": "Ohjelmoi pikavalintoja, joilla voit avata nopeasti sovelluksia, tiedostoja ja kansioita",
+            "description3": "Avaa sovellustiedosto tai kansio yhdellä näppäilyllä",
+            "description4": "Avaa useita kohteita yhdellä näppäilyllä",
+            "description5": "Ohjelmoi yhden näppäimen pikavalinta",
+            "description6": "Luo pikavalintoja sovellusten, tiedostojen tai ohjelmien avaamiseen ",
+            "featureCard": "Programmable Key -toimenpide",
+            "icon": "Programmable Key -kuvake"
+          },
+          "support": {
+            "description": "Vaihtoehtoja avun hankkimiseen",
+            "description2": "Hanki apua, kun sitä tarvitaan",
+            "description3": "Olemme täällä sinua varten",
+            "description4": "Vaihtoehtoja avun hankkimiseen",
+            "featureCard": "Tuki-toimenpide",
+            "icon": "Tuki-kuvake",
+            "title": "Tuki"
+          }
+        },
+        "banner": {
+          "message": "HP:n mahti yhdessä käyttökokemuksessa",
+          "welcomeTo": "Tervetuloa palveluun",
+          "welcomeUser": "Tervetuloa"
+        },
+        "offline": {
+          "message": "Muodosta Internet-yhteys, jotta voit käyttää \n saatavilla olevia ominaisuuksia ",
+          "title": "Huomasimme, ettet ole yhteydessä palveluun",
+          "button": "Yhdistä"
+        }
+      }
+    }
+  },
+  "fr-CA": {
+    "translation": {
+      "welcome": {
+        "title": "Accueil",
+        "actions": {
+          "section": "Contrôlez votre PC",
+          "controls": "Voir toutes les commandes",
+          "audioControl": {
+            "title": "Contrôle audio",
+            "description": "Optimisez votre expérience audio",
+            "description2": "Configurer pour optimiser l'expérience audio",
+            "description3": "Plongez dans votre expérience audio",
+            "description4": "Configurer pour optimiser l'audio",
+            "featureCard": "Action de contrôle de l'audio",
+            "icon": "Icône de contrôle audio"
+          },
+          "videoControl": {
+            "title": "Contrôle vidéo",
+            "description": "Personnalisez les paramètres vidéo pour les conférences et la diffusion en continu",
+            "description2": "Vivez l'instant présent sur la caméra",
+            "description3": "Utilisez la vidéo pour créer cette sensation de présence",
+            "description4": "Optimiser la conférence et la diffusion en continu ",
+            "featureCard": "Élément d'action de contrôle vidéo",
+            "icon": "Icône de contrôle vidéo"
+          },
+          "displayControl": {
+            "title": "Contrôle de l'affichage",
+            "description": "Sélectionnez un mode d'affichage pour votre écran",
+            "description2": "Sélectionnez un mode d'affichage pour optimiser votre écran",
+            "description3": "Définissez le mode correspondant à votre lieu de travail",
+            "description4": "Créez l'ambiance partout avec les modes d'affichage",
+            "description5": "Adaptez-vous à votre environnement grâce aux modes d'affichage",
+            "description6": "Gérer les paramètres d'affichage de votre PC ou de votre ordinateur portable",
+            "featureCard": "Élément d'action de contrôle de l'affichage",
+            "icon": "Icône de contrôle de l'affichage"
+          },
+          "programmableKey": {
+            "title": "Touche programmable",
+            "description": "Programmez un raccourci d'une touche pour ouvrir rapidement des applications, des fichiers et des dossiers",
+            "description2": "Programmez des raccourcis pour ouvrir rapidement des applications, des fichiers ou des dossiers",
+            "description3": "Ouvrez un fichier ou un dossier d'application en appuyant sur une seule touche",
+            "description4": "Ouvrir plusieurs éléments en appuyant sur une seule touche",
+            "description5": "Programmez un raccourci à une touche",
+            "description6": "Créez des raccourcis pour ouvrir des applications, des fichiers ou des programmes ",
+            "featureCard": "Élément d'action de la touche programmable",
+            "icon": "Icône de la touche programmable"
+          },
+          "support": {
+            "description": "Vos options pour obtenir de l'aide",
+            "description2": "Obtenez l'aide dont vous avez besoin",
+            "description3": "Nous sommes là pour vous",
+            "description4": "Vos options pour obtenir de l'aide",
+            "featureCard": "Élément d'action de soutien",
+            "icon": "Icône de soutien",
+            "title": "Assistance"
+          }
+        },
+        "banner": {
+          "message": "La puissance de HP en une seule expérience",
+          "welcomeTo": "Bienvenue à",
+          "welcomeUser": "Bienvenue,"
+        },
+        "offline": {
+          "message": "Connectez-vous à Internet pour accéder à vos fonctions \n disponibles. ",
+          "title": "Nous avons remarqué que vous êtes hors ligne",
+          "button": "Connectez-vous à"
+        }
+      }
+    }
+  },
+  "fr-FR": {
+    "translation": {
+      "welcome": {
+        "title": "Domicile",
+        "actions": {
+          "section": "Contrôler votre PC",
+          "controls": "Afficher toutes les commandes",
+          "audioControl": {
+            "title": "Contrôle audio",
+            "description": "Optimisez votre expérience audio.",
+            "description2": "Configurez pour optimiser l&apos;expérience audio.",
+            "description3": "Immergez-vous dans votre expérience audio.",
+            "description4": "Configurer pour optimiser l&apos;audio",
+            "featureCard": "Élément d&apos;action Contrôle audio",
+            "icon": "Icône Contrôle audio"
+          },
+          "videoControl": {
+            "title": "Contrôle vidéo",
+            "description": "Personnalisez les paramètres vidéo pour les conférences et la diffusion en continu.",
+            "description2": "Soyez dans l&apos;instant présent sur la caméra.",
+            "description3": "Utilisez la vidéo pour créer ce sentiment de proximité.",
+            "description4": "Optimisez les visioconférences et la diffusion en continu. ",
+            "featureCard": "Élément d&apos;action Contrôle vidéo",
+            "icon": "Icône Contrôle vidéo"
+          },
+          "displayControl": {
+            "title": "Contrôle d&apos;affichage",
+            "description": "Sélectionnez un mode d&apos;affichage pour votre écran.",
+            "description2": "Sélectionnez un mode d&apos;affichage pour optimiser votre écran.",
+            "description3": "Définissez le mode pour votre lieu de travail.",
+            "description4": "Créez votre ambiance n&apos;importe où grâce aux modes d&apos;affichage.",
+            "description5": "Adaptez-vous à votre environnement grâce aux modes d&apos;affichage.",
+            "description6": "Gérez les paramètres d&apos;affichage pour votre PC ou ordinateur portable.",
+            "featureCard": "Élément d&apos;action Contrôle d&apos;affichage",
+            "icon": "Icône Contrôle d&apos;affichage"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Programmez un raccourci à une touche pour ouvrir rapidement des applications, des fichiers et des dossiers.",
+            "description2": "Programmez des raccourcis pour ouvrir rapidement des applications, des fichiers ou des dossiers.",
+            "description3": "Ouvrez un fichier ou un dossier d&apos;application en appuyant sur une seule touche.",
+            "description4": "Ouvrez plusieurs éléments en appuyant sur une seule touche.",
+            "description5": "Programmez un raccourci d&apos;une touche.",
+            "description6": "Créez des raccourcis pour ouvrir des applications, des fichiers ou des programmes. ",
+            "featureCard": "Élément d&apos;action Programmable Key",
+            "icon": "Icône Programmable Key"
+          },
+          "support": {
+            "description": "Vos options pour obtenir de l'aide",
+            "description2": "Obtenez l&apos;aide dont vous avez besoin",
+            "description3": "Nous sommes là pour vous",
+            "description4": "Vos options pour obtenir de l'aide",
+            "featureCard": "Élément d&apos;action Assistance",
+            "icon": "Icône Assistance",
+            "title": "Assistance"
+          }
+        },
+        "banner": {
+          "message": "Toute la puissance de HP dans une expérience unique",
+          "welcomeTo": "Bienvenue dans",
+          "welcomeUser": "Bienvenue,"
+        },
+        "offline": {
+          "message": "Connectez-vous à Internet pour accéder aux \n fonctions disponibles ",
+          "title": "Nous avons remarqué que vous êtes hors ligne",
+          "button": "Connecter"
+        }
+      }
+    }
+  },
+  "gl-ES": {
+    "translation": {
+      "welcome": {
+        "title": "Inicio",
+        "actions": {
+          "section": "Controlar o teu PC",
+          "controls": "Ver todos os controis",
+          "audioControl": {
+            "title": "Control de audio",
+            "description": "Optimizar a experiencia de audio",
+            "description2": "Configurar para optimizar a experiencia de audio",
+            "description3": "Mergúllate na túa experiencia de audio",
+            "description4": "Configurar para optimizar audio",
+            "featureCard": "Elemento de acción de control de audio",
+            "icon": "Icona de control de audio"
+          },
+          "videoControl": {
+            "title": "Control de vídeo",
+            "description": "Personalizar a configuración de vídeo para as conferencias e a transmisión",
+            "description2": "Estar no momento na cámara",
+            "description3": "Usar vídeo para crear ese sentimento en persoa",
+            "description4": "Optimizar conferencias e vídeos en directo ",
+            "featureCard": "Elemento de acción de control de vídeo",
+            "icon": "Icona de control de vídeo"
+          },
+          "displayControl": {
+            "title": "Control de pantalla",
+            "description": "Seleccionar un modo de visualización para a túa pantalla",
+            "description2": "Seleccionar un modo de visualización para optimizar a túa pantalla",
+            "description3": "Configurar o modo para a túa localización de traballo",
+            "description4": "Configurar o ambiente en calquera lugar con modos de visualización",
+            "description5": "Adaptar o contorno con modos de visualización",
+            "description6": "Xestionar configuración de pantalla para o teu PC ou portátil",
+            "featureCard": "Elemento de acción de control de pantalla",
+            "icon": "Icona de control de pantalla"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Configura un atallo cunha tecla par abrir axiña apps, ficheiros e cartafoles",
+            "description2": "Configura atallos par abrir axiña apps, ficheiros ou cartafoles",
+            "description3": "Abrir un ficheiro de aplicación ou cartafol premendo só unha tecla",
+            "description4": "Abrir múltiples elementos premendo só unha tecla",
+            "description5": "Configurar un atallo cunha tecla",
+            "description6": "Crea atallos para abrir app, ficheiros ou programas ",
+            "featureCard": "Elemento de acción de Programmable Key",
+            "icon": "Icona de Programmable Key"
+          },
+          "support": {
+            "description": "As súas opcións para obter axuda",
+            "description2": "Recibe a axuda que precisas",
+            "description3": "Estamos aquí para ti",
+            "description4": "As súas opcións para obter axuda",
+            "featureCard": "Elemento de acción de asistencia",
+            "icon": "Icona de asistencia",
+            "title": "Asistencia"
+          }
+        },
+        "banner": {
+          "message": "O poder de HP nunha experiencia",
+          "welcomeTo": "Benvido/a a",
+          "welcomeUser": "Benvido/a,"
+        },
+        "offline": {
+          "message": "Conectarte e Internet para acceder ás túas\n funcións dispoñibles ",
+          "title": "Vemos que estás desconectado",
+          "button": "Conectar"
+        }
+      }
+    }
+  },
+  "he-IL": {
+    "translation": {
+      "welcome": {
+        "title": "בית",
+        "actions": {
+          "section": "שלוט במחשב שלך",
+          "controls": "צפה בכל הפקדים",
+          "audioControl": {
+            "title": "בקרת אודיו",
+            "description": "ייעל את חוויית השמע שלך",
+            "description2": "הגדר כדי לייעל את חוויית השמע",
+            "description3": "היסחף לחווית השמע שלך",
+            "description4": "הגדר כדי לייעל את האודיו",
+            "featureCard": "פריט פעולה בקרת אודיו",
+            "icon": "סמל בקרת אודיו"
+          },
+          "videoControl": {
+            "title": "בקרת ווידוא",
+            "description": "התאם אישית את הגדרות הווידאו עבור שיחות ועידה והזרמה",
+            "description2": "תפוס את הרגע במצלמה",
+            "description3": "השתמש בווידאו כדי לייצר את התחושה האישית",
+            "description4": "ייעול שיחות ועידה וסטרימינג ",
+            "featureCard": "פריט פעולת בקרת ווידאו",
+            "icon": "סמל בקרת ווידאו"
+          },
+          "displayControl": {
+            "title": "בקרת תצוגה",
+            "description": "בחר מצב תצוגה למסך שלך",
+            "description2": "בחר מצב תצוגה לייעול המסך שלך",
+            "description3": "בחר את המצב למיקום העבודה שלך",
+            "description4": "קבע את מצב הרוח בכל מקום עם מצבי התצוגה",
+            "description5": "התאם את עצמך לסביבה באמצעות מצבי התצוגה",
+            "description6": "ניהול הגדרות התצוגה עבור המחשב האישי או הנייד שלך",
+            "featureCard": "פריט פעולת בקרת תצוגה",
+            "icon": "פריט בקרת תצוגה"
+          },
+          "programmableKey": {
+            "title": "מקש ניתן לתיכנות",
+            "description": "תכנת קיצור דרך במקש אחד לפתיחה מהירה של אפליקציות, קבצים ותיקיות",
+            "description2": "תכנת קיצורי דרך לפתיחה מהירה של אפליקציות, קבצים או תיקיות",
+            "description3": "פתח אפליקציה, קובץ או תיקייה עם לחיצה על מקש אחד",
+            "description4": "פתח פריטים מרובים עם לחיצה על מקש אחד",
+            "description5": "תכנת קיצור דרך במקש אחד",
+            "description6": "יצירת קיצורים לפתיחת אפליקציות, קבצים או תכנות ",
+            "featureCard": "פריט פעולת מקש ניתן לתיכנות",
+            "icon": "סמל מקש ניתן לתיכנות"
+          },
+          "support": {
+            "description": "האפשרויות שלך לקבלת עזרה",
+            "description2": "קבל את העזרה לה אתה זקוק",
+            "description3": "אנו כאן בשבילך",
+            "description4": "האפשרויות שלך לקבלת עזרה",
+            "featureCard": "פריט פעולת תמיכה",
+            "icon": "סמל תמיכה",
+            "title": "תמיכה"
+          }
+        },
+        "banner": {
+          "message": "העוצמה של HP בחוויה אחת",
+          "welcomeTo": "ברוך הבא ל",
+          "welcomeUser": "ברוך הבא,"
+        },
+        "offline": {
+          "message": "התחבר לאינטרנט כדי לגשת //nלתכונות הזמינות שלך ",
+          "title": "שמנו לב שאינך במצב מקוון",
+          "button": "התחבר"
+        }
+      }
+    }
+  },
+  "hr-HR": {
+    "translation": {
+      "welcome": {
+        "title": "Početna stranica",
+        "actions": {
+          "section": "Upravljajte svojim PC-jem",
+          "controls": "Prikaži sve kontrole",
+          "audioControl": {
+            "title": "Kontrola zvuka",
+            "description": "Optimizirajte zvuk",
+            "description2": "Konfigurirajte radi optimizacije zvuka",
+            "description3": "Uživajte u zvuku",
+            "description4": "Konfigurirajte za optimizaciju zvuka",
+            "featureCard": "Akcijska stavka kontrole zvuka",
+            "icon": "Ikona kontrole zvuka"
+          },
+          "videoControl": {
+            "title": "Kontrola videozapisa",
+            "description": "Prilagodite postavke videozapisa radi konferencija i strujanja",
+            "description2": "Budite usredotočeni tijekom snimanja",
+            "description3": "Upotrijebite videozapis radi veće bliskosti",
+            "description4": "Optimizacija konferencija i strujanja ",
+            "featureCard": "Akcijska stavka kontrole videozapisa",
+            "icon": "Ikona kontrole videozapisa"
+          },
+          "displayControl": {
+            "title": "Kontrola zaslona",
+            "description": "Odaberite način prikaza za svoj zaslon",
+            "description2": "Odaberite način prikaza za optimizaciju zaslona",
+            "description3": "Postavite način rada za svoju lokaciju rada",
+            "description4": "Uz načine prikaza odredite atmosferu bilo gdje",
+            "description5": "Uz načine prikaza prilagodite se okolini",
+            "description6": "Upravljanje postavkama prikaza za PC ili prijenosno računalo",
+            "featureCard": "Akcijska stavka kontrole zaslona",
+            "icon": "Ikona kontrole zaslona"
+          },
+          "programmableKey": {
+            "title": "Programabilna tipka",
+            "description": "Programirajte jednu tipku kao prečac za brzo otvaranje aplikacija, datoteka i mapa",
+            "description2": "Programirajte prečace za brzo otvaranje aplikacija, datoteka i mapa",
+            "description3": "Otvorite datoteku ili mapu aplikacije jednom tipkom",
+            "description4": "Otvorite više stavki jednom tipkom",
+            "description5": "Programirajte prečac s jednom tipkom",
+            "description6": "Stvorite prečace za otvaranje aplikacija, datoteka ili programa ",
+            "featureCard": "Akcijska stavka programabilne tipke",
+            "icon": "Ikona programabilne tipke"
+          },
+          "support": {
+            "description": "Načini na koje možete zatražiti pomoć",
+            "description2": "Dobit ćete pomoć koja vam je potrebna",
+            "description3": "Tu smo za vas",
+            "description4": "Načini na koje možete zatražiti pomoć",
+            "featureCard": "Akcijska stavka podrške",
+            "icon": "Ikona podrške",
+            "title": "Podrška"
+          }
+        },
+        "banner": {
+          "message": "HP-ova snaga u jednom sučelju",
+          "welcomeTo": "Dobro došli u",
+          "welcomeUser": "Dobro došli,"
+        },
+        "offline": {
+          "message": "Povežite se s internetom da biste pristupili \n dostupnim značajkama ",
+          "title": "Primijetili smo da niste povezani s internetom",
+          "button": "Povežite se"
+        }
+      }
+    }
+  },
+  "hu-HU": {
+    "translation": {
+      "welcome": {
+        "title": "Kezdőlap",
+        "actions": {
+          "section": "Számítógép vezérlése",
+          "controls": "Az összes vezérlő megtekintése",
+          "audioControl": {
+            "title": "Hangvezérlés",
+            "description": "Optimalizálja a hangélményt",
+            "description2": "Konfigurálás a hangélmény optimalizálásához",
+            "description3": "Merüljön el a hangélményben",
+            "description4": "Konfigurálás a hang optimalizálásához",
+            "featureCard": "Hangvezérlési műveleti elem",
+            "icon": "Hangvezérlés ikon"
+          },
+          "videoControl": {
+            "title": "Videóvezérlés",
+            "description": "Videóbeállítások testreszabása konferenciahíváshoz és streameléshez",
+            "description2": "Élje át a pillanatot a kamera előtt",
+            "description3": "Teremtse meg a személyes jelenlét érzését a videó segítségével",
+            "description4": "A konferenciahívás és a streamelés optimalizálása ",
+            "featureCard": "Videóvezérlési műveleti elem",
+            "icon": "Videóvezérlés ikon"
+          },
+          "displayControl": {
+            "title": "Megjelenítésvezérlők",
+            "description": "Megjelenítési mód kiválasztása a képernyőhöz",
+            "description2": "Megjelenítési mód kiválasztása a képernyő optimalizálásához",
+            "description3": "A munkavégzés helyének megfelelő üzemmód beállítása",
+            "description4": "Helyszínnek megfelelő hangulat beállítása a megjelenítési módokkal",
+            "description5": "Alkalmazkodás a környezetéhez a megjelenítési módokkal",
+            "description6": "A számítógép vagy laptop megjelenítési beállításainak kezelése",
+            "featureCard": "Megjelenítésvezérlési műveleti elem",
+            "icon": "Megjelenítésvezérlés"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Egybillentyűs billentyűparancs programozása az alkalmazások, fájlok és mappák gyors megnyitásához",
+            "description2": "Gyorsbillentyűk programozása az alkalmazások, fájlok vagy mappák gyors megnyitásához",
+            "description3": "Alkalmazás, fájl vagy mappa megnyitása egy billentyű lenyomásával",
+            "description4": "Több elem megnyitása egy billentyű lenyomásával",
+            "description5": "Egybillentyűs gyorsbillentyű programozása",
+            "description6": "Billentyűzetparancsok létrehozása az alkalmazások, fájlok vagy programok megnyitásához ",
+            "featureCard": "Programmable Key műveleti elem",
+            "icon": "Programmable Key ikon"
+          },
+          "support": {
+            "description": "Segítségkérési lehetőségek",
+            "description2": "Igény szerinti segítség",
+            "description3": "Állunk rendelkezésére",
+            "description4": "Segítségkérési lehetőségek",
+            "featureCard": "Támogatás műveleti elem",
+            "icon": "Támogatás ikon",
+            "title": "Támogatás"
+          }
+        },
+        "banner": {
+          "message": "A HP összes hatékony szolgáltatása egyetlen felületen",
+          "welcomeTo": "Üdvözöljük",
+          "welcomeUser": "Üdvözöljük!"
+        },
+        "offline": {
+          "message": "Csatlakozzon az internethez, hogy hozzáférhessen \n az elérhető funkciókhoz ",
+          "title": "Azt észleltük, hogy Ön nem csatlakozik az internethez",
+          "button": "Kapcsolódás"
+        }
+      }
+    }
+  },
+  "id-ID": {
+    "translation": {
+      "welcome": {
+        "title": "Beranda",
+        "actions": {
+          "section": "Kontrol PC Anda",
+          "controls": "Lihat semua kontrol",
+          "audioControl": {
+            "title": "Kontrol audio",
+            "description": "Optimalkan pengalaman audio Anda",
+            "description2": "Konfigurasi untuk mengoptimalkan pengalaman audio",
+            "description3": "Tenggelamkan diri Anda dalam pengalaman audio yang imersif",
+            "description4": "Konfigurasi untuk mengoptimalkan audio",
+            "featureCard": "Item Tindakan Kontrol Audio",
+            "icon": "Ikon Kontrol Audio"
+          },
+          "videoControl": {
+            "title": "Kontrol video",
+            "description": "Sesuaikan pengaturan video untuk konferensi dan streaming",
+            "description2": "Jadikan momen lebih hidup di depan kamera",
+            "description3": "Gunakan video untuk menciptakan kesan kehadiran langsung",
+            "description4": "Optimalkan konferensi dan streaming ",
+            "featureCard": "Item Tindakan Kontrol Video",
+            "icon": "Ikon Kontrol Video"
+          },
+          "displayControl": {
+            "title": "Kontrol tampilan",
+            "description": "Pilih mode tampilan untuk layar Anda",
+            "description2": "Pilih mode tampilan untuk mengoptimalkan layar Anda",
+            "description3": "Atur mode untuk lokasi kerja Anda",
+            "description4": "Atur suasana hati di mana saja dengan mode tampilan",
+            "description5": "Beradaptasi dengan lingkungan Anda dengan mode tampilan",
+            "description6": "Kelola pengaturan tampilan untuk PC atau laptop Anda",
+            "featureCard": "Item Tindakan Kontrol Tampilan",
+            "icon": "Ikon Kontrol Tampilan"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Program pintasan satu tombol untuk membuka aplikasi, file, dan folder dengan cepat",
+            "description2": "Pintasan program untuk membuka aplikasi, file, atau folder dengan cepat",
+            "description3": "Buka file atau folder aplikasi dalam sekali tekan tombol",
+            "description4": "Buka beberapa item dengan satu tekan tombol",
+            "description5": "Program pintasan satu tombol",
+            "description6": "Buat pintasan untuk membuka aplikasi, file, atau program ",
+            "featureCard": "Item Tindakan Programmable Key",
+            "icon": "Ikon Programmable Key"
+          },
+          "support": {
+            "description": "Pilihan Anda untuk mendapatkan bantuan",
+            "description2": "Dapatkan bantuan yang Anda butuhkan",
+            "description3": "Kami di sini untuk Anda",
+            "description4": "Pilihan Anda untuk mendapatkan bantuan",
+            "featureCard": "Item Tindakan Dukungan",
+            "icon": "Ikon Dukungan",
+            "title": "Dukungan"
+          }
+        },
+        "banner": {
+          "message": "Kekuatan HP dalam satu pengalaman",
+          "welcomeTo": "Selamat datang di",
+          "welcomeUser": "Selamat datang,"
+        },
+        "offline": {
+          "message": "Hubungkan ke internet untuk mengakses \n fitur yang tersedia ",
+          "title": "Kami melihat bahwa Anda offline",
+          "button": "Sambungkan"
+        }
+      }
+    }
+  },
+  "it-IT": {
+    "translation": {
+      "welcome": {
+        "title": "Home",
+        "actions": {
+          "section": "Controlla il tuo PC",
+          "controls": "Mostra tutti i controlli",
+          "audioControl": {
+            "title": "Controllo audio",
+            "description": "Ottimizza la tua esperienza audio",
+            "description2": "Configura per ottimizzare l'esperienza audio",
+            "description3": "Immergiti nella tua esperienza audio",
+            "description4": "Configura per ottimizzare l'audio",
+            "featureCard": "Attività Controllo audio",
+            "icon": "Icona Controllo audio"
+          },
+          "videoControl": {
+            "title": "Controllo video",
+            "description": "Personalizza le impostazioni video per servizi di conferenza e streaming",
+            "description2": "Cattura il momento con la fotocamera",
+            "description3": "Usa il video per creare sensazioni reali",
+            "description4": "Ottimizza videoconferenze e streaming ",
+            "featureCard": "Attività Controllo video",
+            "icon": "Icona Controllo video"
+          },
+          "displayControl": {
+            "title": "Controllo schermo",
+            "description": "Seleziona una modalità di visualizzazione per la schermata",
+            "description2": "Seleziona una modalità di visualizzazione per ottimizzare la schermata",
+            "description3": "Imposta la modalità per la postazione di lavoro",
+            "description4": "Crea l'atmosfera giusta ovunque con le modalità di visualizzazione",
+            "description5": "Allineati all'ambiente circostante con le modalità di visualizzazione",
+            "description6": "Gestisci le impostazioni dello schermo da tuo PC o laptop",
+            "featureCard": "Attività Controllo schermo",
+            "icon": "Icona Controllo schermo"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Programma una scorciatoia con un solo tasto per aprire rapidamente applicazioni, file e cartelle",
+            "description2": "Programma le scorciatoie per aprire rapidamente applicazioni, file o cartelle",
+            "description3": "Apri un file di applicazione o cartella premendo un unico tasto",
+            "description4": "Apri più elementi premendo un solo tasto",
+            "description5": "Programma una scorciatoia con un solo tasto",
+            "description6": "Crea collegamenti per aprire app, file o programmi ",
+            "featureCard": "Attività Programmable Key",
+            "icon": "Icona Programmable Key"
+          },
+          "support": {
+            "description": "Opzioni personali per ottenere assistenza",
+            "description2": "Richiedi il supporto necessario",
+            "description3": "Siamo qui per te",
+            "description4": "Opzioni personali per ottenere assistenza",
+            "featureCard": "Attività Supporto",
+            "icon": "Icona Supporto",
+            "title": "Supporto"
+          }
+        },
+        "banner": {
+          "message": "La potenza di HP in un'esperienza unificata",
+          "welcomeTo": "Ti diamo il benvenuto in",
+          "welcomeUser": "Ti diamo il benvenuto,"
+        },
+        "offline": {
+          "message": "Connettiti a internet per accedere alle \n funzionalità disponibili ",
+          "title": "Abbiamo notato che sei offline",
+          "button": "Connetti"
+        }
+      }
+    }
+  },
+  "ja-JP": {
+    "translation": {
+      "welcome": {
+        "title": "ホーム",
+        "actions": {
+          "section": "PCをコントロール",
+          "controls": "すべてのコントロールを表示",
+          "audioControl": {
+            "title": "オーディオコントロール",
+            "description": "オーディオ体験を最適化",
+            "description2": "オーディオ体験を最適化するよう設定",
+            "description3": "オーディオ体験による没入感",
+            "description4": "オーディオを最適化するように構成",
+            "featureCard": "オーディオコントロールアクションアイテム",
+            "icon": "オーディオコントロールアイコン"
+          },
+          "videoControl": {
+            "title": "ビデオコントロール",
+            "description": "会議とストリーミング用にビデオ設定を最適化",
+            "description2": "カメラで瞬間を捉える",
+            "description3": "ビデオを利用して対人感を演出",
+            "description4": "会議とストリーミングを最適化 ",
+            "featureCard": "ビデオコントロールアクションアイテム",
+            "icon": "ビデオコントロールアイコン"
+          },
+          "displayControl": {
+            "title": "ディスプレイコントロール",
+            "description": "画面のディスプレイ モードを選択",
+            "description2": "ディスプレイ モードを選択して画面を最適化",
+            "description3": "職場向けのモードを設定",
+            "description4": "ディスプレイ モードでどこでもモードを設定",
+            "description5": "ディスプレイ モードで周囲の環境に合わせる",
+            "description6": "PCまたはノートパソコンのディスプレイ設定を管理",
+            "featureCard": "ディスプレイコントロールアクションアイテム",
+            "icon": "ディスプレイコントロールアイコン"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "ワンキー ショートカットをプログラムしてアプリ、ファイル、フォルダを迅速にオープン",
+            "description2": "ショートカットをプログラムしてアプリ、ファイル、フォルダを迅速にオープン",
+            "description3": "アプリケーション ファイルやフォルダを 1 回のキー プレスで開く",
+            "description4": "複数のアイテムを 1 回の キー プレスで開く",
+            "description5": "ワンキー ショートカットをプログラム",
+            "description6": "アプリ、ファイル、またはプログラムを開くためのショートカットを作成 ",
+            "featureCard": "Programmable Keyアクションアイテム",
+            "icon": "Programmable Keyアイコン"
+          },
+          "support": {
+            "description": "ヘルプを依頼する方法",
+            "description2": "必要なヘルプを入手",
+            "description3": "お手伝いします",
+            "description4": "ヘルプを依頼する方法",
+            "featureCard": "サポートアクションアイテム",
+            "icon": "サポートアイコン",
+            "title": "サポート"
+          }
+        },
+        "banner": {
+          "message": "HPのパワーを 1 つのエクスペリエンスで",
+          "welcomeTo": "へようこそ",
+          "welcomeUser": "ようこそ"
+        },
+        "offline": {
+          "message": "インターネットに接続して\n利用可能な機能にアクセスしてください ",
+          "title": "お客様がオフラインであることがわかりました",
+          "button": "接続"
+        }
+      }
+    }
+  },
+  "ko-KR": {
+    "translation": {
+      "welcome": {
+        "title": "홈",
+        "actions": {
+          "section": "PC 제어",
+          "controls": "모든 관리 보기",
+          "audioControl": {
+            "title": "오디오 제어",
+            "description": "오디오 경험 최적화",
+            "description2": "오디오 경험 최적화 구성",
+            "description3": "오디오 경험에 몰입하세요",
+            "description4": "오디오 최적화 구성",
+            "featureCard": "오디오 제어 동작 항목",
+            "icon": "오디오 제어 아이콘"
+          },
+          "videoControl": {
+            "title": "동영상 제어",
+            "description": "회의 및 스트리밍용 동영상 설정 사용자 지정",
+            "description2": "카메라의 순간에 참여하세요",
+            "description3": "개인 감성을 완성하는 동영상을 사용하세요",
+            "description4": "회의 및 스트리밍 최적화 ",
+            "featureCard": "동영상 제어 동작 항목",
+            "icon": "동영상 제어 아이콘"
+          },
+          "displayControl": {
+            "title": "디스플레이 제어",
+            "description": "화면을 위한 디스플레이 모드를 선택하세요",
+            "description2": "화면을 최적화하기 위한 디스플레이 모드를 선택하세요",
+            "description3": "작업 위치에 따른 모드를 설정하세요",
+            "description4": "디스플레이 모드로 어디서나 무드를 설정하세요",
+            "description5": "디스플레이 모드로 환경에 맞추세요",
+            "description6": "사용자 PC 또는 노트북의 디스플레이 설정 관리",
+            "featureCard": "디스플레이 제어 동작 항목",
+            "icon": "디스플레이 제어 아이콘"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "1키 단축키 프로그래밍으로 빠르게 앱, 파일, 폴더를 여세요",
+            "description2": "단축키 프로그래밍으로 앱, 파일, 폴더를 빠르게 여세요",
+            "description3": "키 1개로 애플리케이션 파일이나 폴더를 여세요",
+            "description4": "키 1개로 여러 항목을 여세요",
+            "description5": "1키 단축키 프로그램",
+            "description6": "앱, 파일 또는 프로그램을 열기위한 바로 가기 생성 ",
+            "featureCard": "Programmable Key 동작 항목",
+            "icon": "Programmable Key 아이콘"
+          },
+          "support": {
+            "description": "지원 옵션",
+            "description2": "필요한 도움을 받으세요",
+            "description3": "언제나 도와드립니다",
+            "description4": "지원 옵션",
+            "featureCard": "지원 동작 항목",
+            "icon": "지원 아이콘",
+            "title": "지원"
+          }
+        },
+        "banner": {
+          "message": "한 번에 강력한 HP 성능 체험",
+          "welcomeTo": "시작",
+          "welcomeUser": "환영합니다,"
+        },
+        "offline": {
+          "message": "제공 기능에 액세스하려면\n인터넷에 연결하세요 ",
+          "title": "사용자가 오프라인입니다",
+          "button": "연결"
+        }
+      }
+    }
+  },
+  "lt-LT": {
+    "translation": {
+      "welcome": {
+        "title": "Pradžia",
+        "actions": {
+          "section": "Valdykite savo kompiuterį",
+          "controls": "Žr. visus valdiklius",
+          "audioControl": {
+            "title": "Garso valdymas",
+            "description": "Optimizuokite garso patirtį",
+            "description2": "Konfigūruokite, kad optimizuotumėte garso patirtį",
+            "description3": "Pasinerkite į garso patirtį",
+            "description4": "Konfigūruokite, kad optimizuotumėte garsą",
+            "featureCard": "Garso valdymo veiksmo elementas",
+            "icon": "Garso valdymo piktograma"
+          },
+          "videoControl": {
+            "title": "Vaizdo įrašo valdymas",
+            "description": "Tinkinkite vaizdo nustatymus konferencijoms ir srautiniam perdavimui",
+            "description2": "Mėgaukitės akimirka prieš kamerą",
+            "description3": "Naudokite vaizdo įrašą, kad sukurtumėte asmeniškumo jausmą",
+            "description4": "Optimizuokite konferencijas ir srautinį perdavimą ",
+            "featureCard": "Vaizdo įrašo valdymo veiksmo elementas",
+            "icon": "Vaizdo įrašo valdymo piktograma"
+          },
+          "displayControl": {
+            "title": "Ekrano valdymas",
+            "description": "Pasirinkite ekrano rodymo režimą",
+            "description2": "Pasirinkite rodymo režimą, kad optimizuotumėte ekraną",
+            "description3": "Nustatykite darbo vietos režimą",
+            "description4": "Nustatykite nuotaiką bet kur naudodami rodymo režimus",
+            "description5": "Prisitaikykite prie aplinkos naudodami rodymo režimus",
+            "description6": "Tvarkykite kompiuterio ar nešiojamojo kompiuterio ekrano nustatymus",
+            "featureCard": "Ekrano valdymo veiksmo elementas",
+            "icon": "Ekrano valdymo piktograma"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Užprogramuokite vieno klavišo spartųjį klavišą, kad greitai atidarytumėte programas, failus ir aplankus",
+            "description2": "Užprogramuokite sparčiuosius klavišus, skirtus greitai atidaryti programas, failus ar aplankus",
+            "description3": "Vienu klavišo paspaudimu atidarykite programos failą arba aplanką",
+            "description4": "Atidaryti kelis elementus vienu klavišo paspaudimu",
+            "description5": "Užprogramuokite vieno klavišo spartųjį klavišą",
+            "description6": "Kurkite nuorodas, kad atidarytumėte programėles, failus ar programas ",
+            "featureCard": "Programmable Key veiksmo piktograma",
+            "icon": "Programmable Key piktograma"
+          },
+          "support": {
+            "description": "Jūsų galimybės gauti pagalbą",
+            "description2": "Gaukite reikiamos pagalbos",
+            "description3": "Esame čia dėl jūsų",
+            "description4": "Jūsų galimybės gauti pagalbą",
+            "featureCard": "Palaikymo veiksmo elementas",
+            "icon": "Palaikymo piktograma",
+            "title": "Palaikymas"
+          }
+        },
+        "banner": {
+          "message": "Viena HP galios patirtis",
+          "welcomeTo": "Sveiki atvykę į",
+          "welcomeUser": "Sveiki atvykę,"
+        },
+        "offline": {
+          "message": "Priisijunkite prie interneto norėdami pasiekti savo \n pasiekiamas funkcijas ",
+          "title": "Pastebėjome, kad esate atsijungę",
+          "button": "Prisijungti"
+        }
+      }
+    }
+  },
+  "lv-LV": {
+    "translation": {
+      "welcome": {
+        "title": "Sākums",
+        "actions": {
+          "section": "Vadiet savu datoru",
+          "controls": "Skatīt visas vadīklas",
+          "audioControl": {
+            "title": "Audio vadīkla",
+            "description": "Optimizējiet savu audio pieredzi",
+            "description2": "Konfigurējiet, lai optimizētu audio pieredzi",
+            "description3": "Iedziļinieties audio piedzīvojumā",
+            "description4": "Konfigurējiet, lai optimizētu audio",
+            "featureCard": "Audio vadīklas darbības vienums",
+            "icon": "Ikona Audio vadīkla"
+          },
+          "videoControl": {
+            "title": "Video vadīkla",
+            "description": "Pielāgojiet video iestatījumus konferencēm un straumēšanai",
+            "description2": "Acumirklī pie kameras",
+            "description3": "Izmantojiet video, lai veidotu personīgu sajūtu",
+            "description4": "Konferenču un straumēšanas darbību optimizēšana ",
+            "featureCard": "Video vadīklas darbības vienums",
+            "icon": "Ikona Video vadīkla"
+          },
+          "displayControl": {
+            "title": "Displeja vadīkla",
+            "description": "Atlasiet displeja režīmu savam ekrānam",
+            "description2": "Atlasiet displeja režīmu, lai optimizētu ekrānu",
+            "description3": "Iestatiet režīmu savai darba vietai",
+            "description4": "Iestatiet noskaņu jebkurā vietā, izmantojot displeja režīmus",
+            "description5": "Pielāgojieties videi ar displeja režīmiem",
+            "description6": "Pārvaldiet sava personālā vai klēpjdatora displeja iestatījumus",
+            "featureCard": "Displeja vadīklas darbības vienums",
+            "icon": "Ikona Displeja vadīkla"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programmējiet viena taustiņa saīsni, lai ātri atvērtu lietotnes, failus un mapes",
+            "description2": "Programmējiet saīsnes, lai ātri atvērtu lietotnes, failus vai mapes",
+            "description3": "Atveriet lietotnes failu vai mapi, nospiežot vienu taustiņu",
+            "description4": "Atveriet vairākus vienumus, nospiežot vienu taustiņu",
+            "description5": "Programmējiet viena taustiņa saīsni",
+            "description6": "Izveidojiet saīsnes, lai atvērtu lietotnes, failus vai programmas ",
+            "featureCard": "Programmable Key darbības vienums",
+            "icon": "Ikona Programmable key"
+          },
+          "support": {
+            "description": "Jūsu opcijas palīdzības saņemšanai",
+            "description2": "Saņemiet nepieciešamo palīdzību",
+            "description3": "Labprāt palīdzēsim",
+            "description4": "Jūsu opcijas palīdzības saņemšanai",
+            "featureCard": "Atbalsta darbības vienums",
+            "icon": "Ikona Atbalsts",
+            "title": "Atbalsts"
+          }
+        },
+        "banner": {
+          "message": "HP jauda vienā piedzīvojumā",
+          "welcomeTo": "Sveicināti",
+          "welcomeUser": "Sveicināti,"
+        },
+        "offline": {
+          "message": "Izveidojiet savienojumu ar internetu, lai piekļūtu savām \n pieejamajām funkcijām ",
+          "title": "Pamanījām, ka esat bezsaistē",
+          "button": "Izveidot savienojumu"
+        }
+      }
+    }
+  },
+  "nb-NO": {
+    "translation": {
+      "welcome": {
+        "title": "Hjem",
+        "actions": {
+          "section": "Kontroller PC-en din",
+          "controls": "Se alle kontroller",
+          "audioControl": {
+            "title": "Lydkontroll",
+            "description": "Optimaliser lydopplevelsen",
+            "description2": "Konfigurer for å optimalisere lydopplevelsen",
+            "description3": "Fordyp deg i lydopplevelsen",
+            "description4": "Konfigurer for å optimalisere lyd",
+            "featureCard": "Handlingselement for lydkontroll",
+            "icon": "Lydkontroll-ikon"
+          },
+          "videoControl": {
+            "title": "Videokontroll",
+            "description": "Tilpass videoinnstillinger for konferanser og strømming",
+            "description2": "Vær i øyeblikket på kamera",
+            "description3": "Bruk video til å skape den personlige følelsen",
+            "description4": "Optimaliser konferanse og strømming ",
+            "featureCard": "Handlingselement for videokontroll",
+            "icon": "Videokontroll-ikon"
+          },
+          "displayControl": {
+            "title": "Skjermkontroll",
+            "description": "Velg en visningsmodus for skjermen",
+            "description2": "Velg en visningsmodus for å optimalisere skjermen",
+            "description3": "Angi modus for arbeidsstedet ditt",
+            "description4": "Angi stemningen hvor som helst med visningsmoduser",
+            "description5": "Tilpass deg omgivelsene med visningsmoduser",
+            "description6": "Administrer skjerminnstillinger for PC-en eller den bærbare datamaskinen",
+            "featureCard": "Handlingselement for vis kontroll",
+            "icon": "Vis kontroll-ikon"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Programmer en snarvei med én tast, for å raskt åpne apper, filer og mapper",
+            "description2": "Programmer snarveier for å raskt åpne apper, filer eller mapper",
+            "description3": "Åpne en programfil eller -mappe med ett tastetrykk",
+            "description4": "Åpne flere elementer med ett tastetrykk",
+            "description5": "Programmer en snarvei med én tast",
+            "description6": "Opprett snarveier for å åpne apper, filer eller programmer ",
+            "featureCard": "Handlingselement for Programmable Key",
+            "icon": "Programmable Key-ikon"
+          },
+          "support": {
+            "description": "Alternativer for å få hjelp",
+            "description2": "Få hjelpen du trenger",
+            "description3": "Vi hjelper deg",
+            "description4": "Alternativer for å få hjelp",
+            "featureCard": "Handlingselement for brukerstøtte",
+            "icon": "Brukerstøtte-ikon",
+            "title": "Brukerstøtte"
+          }
+        },
+        "banner": {
+          "message": "Kraften av HP i én opplevelse",
+          "welcomeTo": "Velkommen til",
+          "welcomeUser": "Velkommen,"
+        },
+        "offline": {
+          "message": "Koble til Internett for å få tilgang til dine\n tilgjengelige funksjoner ",
+          "title": "Vi la merke til at du er frakoblet",
+          "button": "Koble til"
+        }
+      }
+    }
+  },
+  "nl-NL": {
+    "translation": {
+      "welcome": {
+        "title": "Start",
+        "actions": {
+          "section": "Beheer uw pc",
+          "controls": "Alle bedieningselementen weergeven",
+          "audioControl": {
+            "title": "Geluidsinstelling",
+            "description": "Optimaliseer uw audio-ervaring",
+            "description2": "Configureren om de audio-ervaring te optimaliseren",
+            "description3": "Ga helemaal op in uw audio-ervaring",
+            "description4": "Configureren om audio te optimaliseren",
+            "featureCard": "Actie-item Geluidsinstelling",
+            "icon": "Pictogram Geluidsinstelling"
+          },
+          "videoControl": {
+            "title": "Videobesturing",
+            "description": "Video-instellingen aanpassen voor vergaderen en streamen",
+            "description2": "Ga op in het moment voor de camera",
+            "description3": "ebruik video om dat persoonlijke gevoel te creëren",
+            "description4": "Vergaderen en streamen optimaliseren ",
+            "featureCard": "Actie-item Videobesturing",
+            "icon": "Pictogram Videobesturing"
+          },
+          "displayControl": {
+            "title": "Weergavebesturing",
+            "description": "Selecteer een weergavemodus voor uw scherm",
+            "description2": "Selecteer een weergavemodus om uw scherm te optimaliseren",
+            "description3": "Stel de modus in voor uw werklocatie",
+            "description4": "Bepaal overal de sfeer met weergavemodi",
+            "description5": "Pas u met weergavemodi aan uw omgeving aan",
+            "description6": "Weergave-instellingen voor uw pc of laptop beheren",
+            "featureCard": "Actie-item Weergavebesturing",
+            "icon": "Pictogram Weergavebesturing"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programmeer een sneltoets om apps, bestanden en mappen snel te openen",
+            "description2": "Programmeer snelkoppelingen om apps, bestanden of mappen snel te openen",
+            "description3": "Open een toepassingsbestand of map met één druk op de knop",
+            "description4": "Open meerdere items met één druk op de knop",
+            "description5": "Programmeer een sneltoets",
+            "description6": "Creëer snelkoppelingen om apps, bestanden of programma’s te openen ",
+            "featureCard": "Actie-item Programmable Key",
+            "icon": "Pictogram Programmable Key"
+          },
+          "support": {
+            "description": "Uw opties om hulp te krijgen",
+            "description2": "Krijg de hulp die u nodig hebt",
+            "description3": "Wij zijn er voor u",
+            "description4": "Uw opties om hulp te krijgen",
+            "featureCard": "Actie-item Ondersteuning",
+            "icon": "Pictogram Ondersteuning",
+            "title": "Ondersteuning"
+          }
+        },
+        "banner": {
+          "message": "De kracht van HP in één ervaring",
+          "welcomeTo": "Welkom bij",
+          "welcomeUser": "Welkom,"
+        },
+        "offline": {
+          "message": "Maak verbinding met internet om toegang te krijgen tot uw \n beschikbare functies ",
+          "title": "We hebben gemerkt dat u offline bent",
+          "button": "Verbinding maken"
+        }
+      }
+    }
+  },
+  "pl-PL": {
+    "translation": {
+      "welcome": {
+        "title": "Strona główna",
+        "actions": {
+          "section": "Steruj swoim komputerem",
+          "controls": "Wyświetl wszystkie elementy sterujące",
+          "audioControl": {
+            "title": "Sterowanie dźwiękiem",
+            "description": "Optymalizacja wrażeń audio",
+            "description2": "Skonfiguruj, aby zoptymalizować ustawienia audio",
+            "description3": "Zanurz się w dźwiękach",
+            "description4": "Skonfiguruj, aby zoptymalizować dźwięk",
+            "featureCard": "Pozycja działania sterowania dźwiękiem",
+            "icon": "Ikona sterowania dźwiękiem"
+          },
+          "videoControl": {
+            "title": "Sterowanie wideo",
+            "description": "Dostosuj ustawienia wideo dla konferencji i przesyłania strumieniowego",
+            "description2": "Ciesz się chwilą przed kamerą",
+            "description3": "Wykorzystaj wideo do stworzenia szczególnej atmosfery",
+            "description4": "Zoptymalizuj konferencje i transmisje strumieniowe ",
+            "featureCard": "Pozycja działania sterowania wideo",
+            "icon": "Ikona sterowania wideo"
+          },
+          "displayControl": {
+            "title": "Sterowanie wyświetlaczem",
+            "description": "Wybierz tryb wyświetlania dla swojego ekranu",
+            "description2": "Wybierz tryb wyświetlania, aby zoptymalizować swój ekran",
+            "description3": "Ustaw tryb dla swojej lokalizacji pracy",
+            "description4": "Stwórz odpowiedni nastrój w każdym miejscu dzięki trybom wyświetlania",
+            "description5": "Dostosuj się do otoczenia dzięki trybom wyświetlania",
+            "description6": "Zarządzaj ustawieniami wyświetlania dla komputera PC lub laptopa",
+            "featureCard": "Pozycja działania sterowania wyświetlaczem",
+            "icon": "Ikona sterowania wyświetlaczem"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Zaprogramuj skrót dla jednego klawisza, aby szybko otworzyć aplikacje, pliki i foldery",
+            "description2": "Zaprogramuj skróty, aby szybko otwierać aplikacje, pliki lub foldery",
+            "description3": "Otwórz plik aplikacji lub folder, naciskając jeden klawisz",
+            "description4": "Otwieraj wiele pozycji jednym klawiszem",
+            "description5": "Zaprogramuj skrót dla jednego klawisza",
+            "description6": "Twórz skróty do otwierania aplikacji, plików lub programów ",
+            "featureCard": "Pozycja działania Programmable Key",
+            "icon": "Ikona Programmable Key"
+          },
+          "support": {
+            "description": "Opcje uzyskania pomocy",
+            "description2": "Uzyskaj potrzebną pomoc",
+            "description3": "Jesteśmy tutaj dla Ciebie",
+            "description4": "Opcje uzyskania pomocy",
+            "featureCard": "Pozycja działania wsparcia",
+            "icon": "Ikona wsparcia",
+            "title": "Pomoc techniczna"
+          }
+        },
+        "banner": {
+          "message": "Potęga HP w jednym doświadczeniu",
+          "welcomeTo": "Witamy w",
+          "welcomeUser": "Witamy"
+        },
+        "offline": {
+          "message": "Połącz się z internetem, aby uzyskać dostęp do \n dostępnych funkcji ",
+          "title": "Zauważyliśmy, że jesteś w trybie offline",
+          "button": "Połącz"
+        }
+      }
+    }
+  },
+  "pt-BR": {
+    "translation": {
+      "welcome": {
+        "title": "Página inicial",
+        "actions": {
+          "section": "Controle o seu PC",
+          "controls": "Exibir todos os controles",
+          "audioControl": {
+            "title": "Controle de áudio",
+            "description": "Otimize sua experiência de áudio",
+            "description2": "Configure para otimizar a experiência de áudio",
+            "description3": "Uma imersão completa na sua experiência de áudio",
+            "description4": "Configure para otimizar áudio",
+            "featureCard": "Item de ação do controle de áudio",
+            "icon": "Ícone do controle de áudio"
+          },
+          "videoControl": {
+            "title": "Controle de vídeo",
+            "description": "Personalize as configurações de vídeo para conferência e streaming",
+            "description2": "Esteja na câmera no momento certo",
+            "description3": "Use o vídeo para criar uma sensação de presença",
+            "description4": "Otimizar conferências e streaming ",
+            "featureCard": "Item de ação do controle de vídeo",
+            "icon": "Ícone do controle de vídeo"
+          },
+          "displayControl": {
+            "title": "Controle de exibição",
+            "description": "Selecione um modo de monitor para sua tela",
+            "description2": "Selecione um modo do monitor para otimizar sua tela",
+            "description3": "Defina o modo para o seu local de trabalho",
+            "description4": "Defina o clima em qualquer lugar, com os modos de monitor",
+            "description5": "Adapte-se ao seu ambiente com os modos do monitor",
+            "description6": "Gerenciar configurações de monitor do seu PC ou laptop",
+            "featureCard": "Item de ação de controle de monitor",
+            "icon": "Ícone de controle do monitor"
+          },
+          "programmableKey": {
+            "title": "Tecla programável",
+            "description": "Programe um atalho de uma tela para rapidamente abrir aplicativos, arquivos e pastas",
+            "description2": "Programe atalhos para rapidamente abrir aplicativos, arquivos ou pastas",
+            "description3": "Abra um aplicativo, arquivo ou pasta com uma só tecla",
+            "description4": "Abra vários itens com apenas uma tecla",
+            "description5": "Programar um atalho de uma tecla",
+            "description6": "Crie atalhos para abrir aplicativos, arquivos ou programas ",
+            "featureCard": "Item de ação da tecla programável",
+            "icon": "Ícone de tecla programável"
+          },
+          "support": {
+            "description": "Suas opções para obter ajuda",
+            "description2": "Receba a ajuda de que você precisa",
+            "description3": "Estamos aqui para você",
+            "description4": "Suas opções para obter ajuda",
+            "featureCard": "Item de ação do suporte",
+            "icon": "Ícone do suporte",
+            "title": "Suporte"
+          }
+        },
+        "banner": {
+          "message": "O poder da HP em uma experiência",
+          "welcomeTo": "Boas-vindas a",
+          "welcomeUser": "Boas-vindas,"
+        },
+        "offline": {
+          "message": "Conecte-se à Internet para acessar os recursos \n disponíveis para você ",
+          "title": "Percebemos que você está off-line",
+          "button": "Conectar"
+        }
+      }
+    }
+  },
+  "pt-PT": {
+    "translation": {
+      "welcome": {
+        "title": "Início",
+        "actions": {
+          "section": "Controlar o PC",
+          "controls": "Ver todos os controlos",
+          "audioControl": {
+            "title": "Controlo de áudio",
+            "description": "Otimize a sua experiência de áudio",
+            "description2": "Configurar para otimizar a experiência de áudio",
+            "description3": "Deixe-se envolver na sua experiência de áudio",
+            "description4": "Configurar para otimizar o áudio",
+            "featureCard": "Ítem de ação de controlo de áudio",
+            "icon": "Ícone de controlo de áudio"
+          },
+          "videoControl": {
+            "title": "Controlo de vídeo",
+            "description": "personalizar as definições de vídeo para conferências e streaming",
+            "description2": "Faça parte do momento na câmara",
+            "description3": "Utilize o vídeo para criar aquele sentimento presencial",
+            "description4": "Optimize a conferência e o streaming ",
+            "featureCard": "Ítem de ação do Controlo de vídeo",
+            "icon": "Ícone de controlo de vídeo"
+          },
+          "displayControl": {
+            "title": "Controlo do ecrã",
+            "description": "Selecione um modo de visualização para o seu ecrã",
+            "description2": "Selecione um modo de visualização para otimizar o seu ecrã",
+            "description3": "Defina o modo para o seu local de trabalho",
+            "description4": "Defina o espírito em qualquer lugar com modos de visualização",
+            "description5": "Adapte-se ao meio envolvente com modos de visualização",
+            "description6": "Gerir as definições de visualização do seu PC ou portátil",
+            "featureCard": "Ítem de ação de controlo do ecrã",
+            "icon": "Ícone de controlo do ecrã"
+          },
+          "programmableKey": {
+            "title": "Tecla programável",
+            "description": "Programe um atalho de tecla única para abrir rapidamente aplicações, ficheiros e pastas",
+            "description2": "Programe atalhos para abrir rapidamente aplicações, ficheiros ou pastas",
+            "description3": "Abra um ficheiro de aplicação ou pasta premindo uma única tecla",
+            "description4": "Abra múltiplos itens premindo uma única tecla",
+            "description5": "Programe um atalho de tecla única",
+            "description6": "Criar atalhos para abrir aplicações, ficheiros ou programas ",
+            "featureCard": "Item de ação de tecla programável",
+            "icon": "Ícone de tecla programável"
+          },
+          "support": {
+            "description": "As suas opções para obter ajuda",
+            "description2": "Obtenha a ajuda de que necessita",
+            "description3": "Estamos aqui para ajudar",
+            "description4": "As suas opções para obter ajuda",
+            "featureCard": "Ítem de ação do suporte",
+            "icon": "Ícone de suporte",
+            "title": "Suporte"
+          }
+        },
+        "banner": {
+          "message": "O poder da HP numa experiência",
+          "welcomeTo": "Bem-vindo a",
+          "welcomeUser": "Bem-vindo,"
+        },
+        "offline": {
+          "message": "Ligue à Internet para aceder às suas \n funcionalidades disponíveis ",
+          "title": "Reparámos que está offline",
+          "button": "Ligar"
+        }
+      }
+    }
+  },
+  "ro-RO": {
+    "translation": {
+      "welcome": {
+        "title": "La început",
+        "actions": {
+          "section": "Controlaţi-vă PC-ul",
+          "controls": "Vizualizaţi toate controalele",
+          "audioControl": {
+            "title": "Control sunet",
+            "description": "Optimizaţi-vă experienţa audio",
+            "description2": "Efectuaţi configurarea pentru a optimiza experienţa audio",
+            "description3": "Lăsaţi-vă captivaţi de experienţa audio",
+            "description4": "Configuraţi pentru a optimiza sunetul",
+            "featureCard": "Element de acţiune control sunet",
+            "icon": "Pictograma de Control sunet"
+          },
+          "videoControl": {
+            "title": "Control video",
+            "description": "Personalizaţi setările video pentru conferinţe şi streaming (redare în flux)",
+            "description2": "Fiţi în orice moment pe cameră",
+            "description3": "Utilizaţi camera video pentru a crea acea senzaţie în realitate",
+            "description4": "Optimizaţi teleconferinţele şi redarea în flux ",
+            "featureCard": "Element de acţiune control video",
+            "icon": "Pictograma de Control video"
+          },
+          "displayControl": {
+            "title": "Control afişare",
+            "description": "Selectaţi un mod de afişare pentru ecranul dvs.",
+            "description2": "Selectaţi un mod de afişare pentru a vă optimiza ecranul",
+            "description3": "Setaţi modul pentru locul dvs. de muncă",
+            "description4": "Setaţi oriunde ambianţa cu modurile de afişare",
+            "description5": "Adaptaţi-vă la mediul dvs. încojurător cu modurile de afişare",
+            "description6": "Gestionaţi setările de afişare pentru PC sau laptop",
+            "featureCard": "Element de acţiune control afişare",
+            "icon": "Pictograma de Control afişare"
+          },
+          "programmableKey": {
+            "title": "Tastă programabilă",
+            "description": "Programaţi pe o tastă o comandă rapidă pentru a deschide rapid aplicaţii, fişiere şi foldere",
+            "description2": "Programaţi comenzi rapide pentru a deschide rapid aplicaţii, fişiere sau foldere",
+            "description3": "Deschideţi un fişier sau un folder de aplicaţie cu o singură apăsare de tastă",
+            "description4": "Deschideţi mai multe elemente cu o singură apăsare de tastă",
+            "description5": "Programaţi o comandă rapidă cu o singură tastă",
+            "description6": "Creaţi comenzi rapide pentru a deschide aplicaţii, fişiere sau programe ",
+            "featureCard": "Element de acţiune tastă programabilă",
+            "icon": "Pictograma Tastă programabilă"
+          },
+          "support": {
+            "description": "Opţiunile dvs. pentru a obţine ajutor",
+            "description2": "Obţineţi ajutorul de care aveţi nevoie",
+            "description3": "Suntem aici pentru dvs.",
+            "description4": "Opţiunile dvs. pentru a obţine ajutor",
+            "featureCard": "Element de acţiune pentru asistenţă",
+            "icon": "Pictograma Asistenţă",
+            "title": "Asistenţă"
+          }
+        },
+        "banner": {
+          "message": "Puterea HP într-o singură experienţă",
+          "welcomeTo": "Bun venit la",
+          "welcomeUser": "Bun venit,"
+        },
+        "offline": {
+          "message": "Conectaţi-vă la Internet pentru a accesa \n caracteristicile disponibile ",
+          "title": "Am observat că sunteţi în mod offline",
+          "button": "Conectare"
+        }
+      }
+    }
+  },
+  "ru-RU": {
+    "translation": {
+      "welcome": {
+        "title": "Главная",
+        "actions": {
+          "section": "Управляйте своим ПК",
+          "controls": "Просмотрите все элементы управления",
+          "audioControl": {
+            "title": "Элементы управления звуком",
+            "description": "Оптимизируйте свой звук",
+            "description2": "Настройте для оптимизации звука",
+            "description3": "Погрузитесь в новый аудио опыт",
+            "description4": "Настройте для оптимизации звука",
+            "featureCard": "Действие для элемента управления звуком",
+            "icon": "Значок элемента управления звуком"
+          },
+          "videoControl": {
+            "title": "Элемент управления видео",
+            "description": "Настройте параметры видео для конференц-связи и потоковой трансляции",
+            "description2": "Снимите этот момент на камеру",
+            "description3": "Используйте видео, чтобы создать то личное чувство",
+            "description4": "Оптимизация конференц-связи и трансляций ",
+            "featureCard": "Действие для элемента управления видео",
+            "icon": "Значок элемента управления видео"
+          },
+          "displayControl": {
+            "title": "Управление экраном",
+            "description": "Выберите режим отображения для вашего экрана",
+            "description2": "Выберите режим отображения для оптимизации экрана",
+            "description3": "Установите режим для вашего рабочего места",
+            "description4": "Меняйте настроение в любом месте с режимами отображения",
+            "description5": "Адаптируйтесь к своему окружению с помощью режимов отображения",
+            "description6": "Управляйте настройками экрана вашего ПК или ноутбука",
+            "featureCard": "Действие для управления экраном",
+            "icon": "Значок управления экраном"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Запрограммируйте клавишу, чтобы быстро открывать приложения, файлы и папки.",
+            "description2": "Запрограммируйте ярлыки для быстрого открытия приложений, файлов или папок",
+            "description3": "Открывайте файл приложения или папку одним нажатием клавиши",
+            "description4": "Открывайте несколько элементов одним нажатием клавиши",
+            "description5": "Запрограммируйте клавишу для нажатия",
+            "description6": "Создайте ярлыки для запуска приложений, файлов и программ ",
+            "featureCard": "Действие для Programmable Key",
+            "icon": "Значок Programmable Key"
+          },
+          "support": {
+            "description": "Способы получения помощи",
+            "description2": "Получите необходимую помощь",
+            "description3": "Мы здесь для вас",
+            "description4": "Способы получения помощи",
+            "featureCard": "Действие для поддержки",
+            "icon": "Значок поддержки",
+            "title": "Поддержка"
+          }
+        },
+        "banner": {
+          "message": "Все функции HP в одном интерфейсе",
+          "welcomeTo": "Добро пожаловать в",
+          "welcomeUser": "Добро пожаловать,"
+        },
+        "offline": {
+          "message": "Подключитесь к Интернету, чтобы использовать \n доступные вам функции ",
+          "title": "Мы заметили, что вы не в сети",
+          "button": "Подключить"
+        }
+      }
+    }
+  },
+  "sk-SK": {
+    "translation": {
+      "welcome": {
+        "title": "Domov",
+        "actions": {
+          "section": "Ovládajte svoj počítač",
+          "controls": "Zobraziť všetky ovládacie prvky",
+          "audioControl": {
+            "title": "Ovládanie zvuku",
+            "description": "Optimalizujte zvukový zážitok",
+            "description2": "Konfiguráciou optimalizujte zvukový zážitok",
+            "description3": "Ponorte sa do zvukového zážitku",
+            "description4": "Konfiguráciou optimalizujte zvuk",
+            "featureCard": "Položka akcie ovládania zvuku",
+            "icon": "Ikona ovládania zvuku"
+          },
+          "videoControl": {
+            "title": "Ovládanie videa",
+            "description": "Prispôsobte nastavenia videa pre konferencie a streamovanie",
+            "description2": "Buďte v danom okamihu pred kamerou",
+            "description3": "Použite video na vytvorenie osobného pocitu",
+            "description4": "Optimalizujte konferencie a streamovanie ",
+            "featureCard": "Položka akcie ovládania videa",
+            "icon": "Ikona ovládania videa"
+          },
+          "displayControl": {
+            "title": "Ovládanie zobrazenia",
+            "description": "Vyberte režim zobrazenia pre obrazovku",
+            "description2": "Vyberte režim zobrazenia na optimalizáciu obrazovky",
+            "description3": "Nastavte režim pre pracovisko",
+            "description4": "Vytvorte náladu kdekoľvek pomocou režimov zobrazenia",
+            "description5": "Prispôsobte sa okoliu pomocou režimov zobrazenia",
+            "description6": "Spravujte nastavenia zobrazenia pre počítač alebo prenosný počítač",
+            "featureCard": "Položka akcie ovládania zobrazenia",
+            "icon": "Ikona ovládania zobrazenia"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "Naprogramujte skratku vyvolanú jedným klávesom na rýchle otváranie aplikácií, súborov a priečinkov",
+            "description2": "Naprogramujte skratky na rýchle otváranie aplikácií, súborov alebo priečinkov",
+            "description3": "Otvorte súbor alebo priečinok aplikácie jedným stlačením klávesu",
+            "description4": "Otvorte viacero položiek jedným stlačením klávesu",
+            "description5": "Naprogramujte skratku vyvolanú jedným klávesom",
+            "description6": "Vytvárajte skratky na otváranie aplikácií, súborov alebo programov ",
+            "featureCard": "Položka akcie aplikácie Programmable Key",
+            "icon": "Ikona aplikácie Programmable Key"
+          },
+          "support": {
+            "description": "Možnosti získania pomoci",
+            "description2": "Získajte pomoc, ktorú potrebujete",
+            "description3": "Sme tu pre vás",
+            "description4": "Možnosti získania pomoci",
+            "featureCard": "Položka akcie podpory",
+            "icon": "Ikona podpory",
+            "title": "Podpora"
+          }
+        },
+        "banner": {
+          "message": "Sila HP v jednom zážitku",
+          "welcomeTo": "Víta vás",
+          "welcomeUser": "Vitajte,"
+        },
+        "offline": {
+          "message": "Pripojte sa k internetu, aby ste získali prístup k \n dostupným funkciám ",
+          "title": "Všimli sme si, že ste offline",
+          "button": "Pripojiť"
+        }
+      }
+    }
+  },
+  "sl-SI": {
+    "translation": {
+      "welcome": {
+        "title": "Domov",
+        "actions": {
+          "section": "Nadzorujte svoj računalnik",
+          "controls": "Prikaz vseh kontrolnikov",
+          "audioControl": {
+            "title": "Kontrolnik za zvok",
+            "description": "Optimizirajte zvočno izkušnjo",
+            "description2": "Konfigurirajte, da optimizirate zvočno izkušnjo",
+            "description3": "Prepustite se zvočni izkušnji",
+            "description4": "Konfigurirajte, da optimizirate zvok",
+            "featureCard": "Element dejanja kontrolnika za zvok",
+            "icon": "Ikona kontrolnika za zvok"
+          },
+          "videoControl": {
+            "title": "Kontrolnik za video",
+            "description": "Prilagodite nastavitve videa za konference in pretakanje",
+            "description2": "V trenutku se pojavite na kameri",
+            "description3": "Z videom ustvarite občutek osebnega stika",
+            "description4": "Optimizirajte konference in pretakanje ",
+            "featureCard": "Element dejanja kontrolnika za video",
+            "icon": "Ikona kontrolnika za video"
+          },
+          "displayControl": {
+            "title": "Kontrolnik prikaza",
+            "description": "Izberite način prikaza za svoj zaslon",
+            "description2": "Izberite način prikaza, da optimizirate zaslon",
+            "description3": "Nastavite način za delovno mesto",
+            "description4": "Z načini prikaza kjer koli nastavite razpoloženje",
+            "description5": "Prilagodite se okolici z načini prikaza",
+            "description6": "Upravljajte nastavitve prikaza za osebni ali prenosni računalnik",
+            "featureCard": "Element dejanja kontrolnika prikaza",
+            "icon": "Ikona kontrolnika prikaza"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programirajte bližnjico z eno tipko za hitro odpiranje aplikacij, datotek in map",
+            "description2": "Programirajte bližnjice za hitro odpiranje aplikacij, datotek ali map",
+            "description3": "Odprite datoteko ali mapo aplikacije s pritiskom ene tipke",
+            "description4": "Odprite več elementov s pritiskom ene tipke",
+            "description5": "Programirajte bližnjico z eno tipko",
+            "description6": "Ustvarite bližnjice za odpiranje aplikacij, datotek ali programov ",
+            "featureCard": "Element dejanja Programmable Key",
+            "icon": "Ikona Programmable Key"
+          },
+          "support": {
+            "description": "Vaše možnosti za pridobitev pomoči",
+            "description2": "Dobite pomoč, ki jo potrebujete",
+            "description3": "Tukaj smo za vas",
+            "description4": "Vaše možnosti za pridobitev pomoči",
+            "featureCard": "Element dejanja podpore",
+            "icon": "Ikona podpore",
+            "title": "Podpora"
+          }
+        },
+        "banner": {
+          "message": "Moč HP-ja v eni izkušnji",
+          "welcomeTo": "Pozdravljeni v",
+          "welcomeUser": "Pozdravljeni,"
+        },
+        "offline": {
+          "message": "Povežite se v internet, da boste lahko dostopali do \n razpoložljivih funkcij ",
+          "title": "Opazili smo, da nimate vzpostavljene povezave",
+          "button": "Poveži"
+        }
+      }
+    }
+  },
+  "sr-LATN-rs": {
+    "translation": {
+      "welcome": {
+        "title": "Kuća",
+        "actions": {
+          "section": "Kontrolišite računar",
+          "controls": "Prikaži sve kontrole",
+          "audioControl": {
+            "title": "Kontrola zvuka",
+            "description": "Optimizujte doživljaj zvuka",
+            "description2": "Konfigurišite da biste optimizovali doživljaj zvuka",
+            "description3": "Prepustite se doživljaju zvuka",
+            "description4": "Konfigurišite da biste optimizovali zvuk",
+            "featureCard": "Stavka akcije kontrole zvuka",
+            "icon": "Ikona za kontrolu zvuka"
+          },
+          "videoControl": {
+            "title": "Video kontrola",
+            "description": "Prilagodite postavke videa za konferencije i strimovanje",
+            "description2": "Uživajte u trenutku pred kamerom",
+            "description3": "Koristite video da biste stvorili lični osećaj",
+            "description4": "Optimizujte konferencije i strimovanje ",
+            "featureCard": "Stavka radnje video kontrole",
+            "icon": "Ikona video kontrole"
+          },
+          "displayControl": {
+            "title": "Kontrola ekrana",
+            "description": "Izaberite režim prikaza za ekran",
+            "description2": "Izaberite režim prikaza da biste optimizovali ekran",
+            "description3": "Podesite režim za radnu lokaciju",
+            "description4": "Podesite atmosferu bilo gde pomoću režima prikaza",
+            "description5": "Prilagodite se okruženju pomoću režima prikaza",
+            "description6": "Upravljajte podešavanjima ekrana za svoj računar ili laptop",
+            "featureCard": "Stavka radnje kontrole ekrana",
+            "icon": "Ikona kontrole ekrana"
+          },
+          "programmableKey": {
+            "title": "Programabilni ključ",
+            "description": "Programirajte prečicu sa jednim tasterom za brzo otvaranje aplikacija, datoteka i fascikli",
+            "description2": "Programirajte prečice za brzo otvaranje aplikacija, datoteka ili fascikli",
+            "description3": "Otvorite datoteku ili fasciklu aplikacije jednim pritiskom na taster",
+            "description4": "Otvorite više stavki jednim pritiskom na taster",
+            "description5": "Programirajte prečicu jednim tasterom",
+            "description6": "Kreirajte prečice za otvaranje aplikacija, datoteka ili programa ",
+            "featureCard": "Programabilna ključna radna stavka",
+            "icon": "Ikona programabilnog tastera"
+          },
+          "support": {
+            "description": "Opcije da dobijete pomoć",
+            "description2": "Pronađite potrebnu pomoć",
+            "description3": "Tu smo za vas",
+            "description4": "Opcije da dobijete pomoć",
+            "featureCard": "Stavka radnje podrške",
+            "icon": "Ikona podrške",
+            "title": "Podrška"
+          }
+        },
+        "banner": {
+          "message": "Snaga HP tehnologije u jednom utisku pri radu",
+          "welcomeTo": "Dobro došli u",
+          "welcomeUser": "Dobro došli,"
+        },
+        "offline": {
+          "message": "Povežite se sa internetom da biste pristupali \n dostupnim funkcijama ",
+          "title": "Primetili smo da niste na mreži",
+          "button": "Povežite se"
+        }
+      }
+    }
+  },
+  "sr-BA": {
+    "translation": {
+      "welcome": {
+        "title": "Kuća",
+        "actions": {
+          "section": "Kontrolišite računar",
+          "controls": "Prikaži sve kontrole",
+          "audioControl": {
+            "title": "Kontrola zvuka",
+            "description": "Optimizujte doživljaj zvuka",
+            "description2": "Konfigurišite da biste optimizovali doživljaj zvuka",
+            "description3": "Prepustite se doživljaju zvuka",
+            "description4": "Konfigurišite da biste optimizovali zvuk",
+            "featureCard": "Stavka akcije kontrole zvuka",
+            "icon": "Ikona za kontrolu zvuka"
+          },
+          "videoControl": {
+            "title": "Video kontrola",
+            "description": "Prilagodite postavke videa za konferencije i strimovanje",
+            "description2": "Uživajte u trenutku pred kamerom",
+            "description3": "Koristite video da biste stvorili lični osećaj",
+            "description4": "Optimizujte konferencije i strimovanje ",
+            "featureCard": "Stavka radnje video kontrole",
+            "icon": "Ikona video kontrole"
+          },
+          "displayControl": {
+            "title": "Kontrola ekrana",
+            "description": "Izaberite režim prikaza za ekran",
+            "description2": "Izaberite režim prikaza da biste optimizovali ekran",
+            "description3": "Podesite režim za radnu lokaciju",
+            "description4": "Podesite atmosferu bilo gde pomoću režima prikaza",
+            "description5": "Prilagodite se okruženju pomoću režima prikaza",
+            "description6": "Upravljajte podešavanjima ekrana za svoj računar ili laptop",
+            "featureCard": "Stavka radnje kontrole ekrana",
+            "icon": "Ikona kontrole ekrana"
+          },
+          "programmableKey": {
+            "title": "Programabilni ključ",
+            "description": "Programirajte prečicu sa jednim tasterom za brzo otvaranje aplikacija, datoteka i fascikli",
+            "description2": "Programirajte prečice za brzo otvaranje aplikacija, datoteka ili fascikli",
+            "description3": "Otvorite datoteku ili fasciklu aplikacije jednim pritiskom na taster",
+            "description4": "Otvorite više stavki jednim pritiskom na taster",
+            "description5": "Programirajte prečicu jednim tasterom",
+            "description6": "Kreirajte prečice za otvaranje aplikacija, datoteka ili programa ",
+            "featureCard": "Programabilna ključna radna stavka",
+            "icon": "Ikona programabilnog tastera"
+          },
+          "support": {
+            "description": "Opcije da dobijete pomoć",
+            "description2": "Pronađite potrebnu pomoć",
+            "description3": "Tu smo za vas",
+            "description4": "Opcije da dobijete pomoć",
+            "featureCard": "Stavka radnje podrške",
+            "icon": "Ikona podrške",
+            "title": "Podrška"
+          }
+        },
+        "banner": {
+          "message": "Snaga HP tehnologije u jednom utisku pri radu",
+          "welcomeTo": "Dobro došli u",
+          "welcomeUser": "Dobro došli,"
+        },
+        "offline": {
+          "message": "Povežite se sa internetom da biste pristupali \n dostupnim funkcijama ",
+          "title": "Primetili smo da niste na mreži",
+          "button": "Povežite se"
+        }
+      }
+    }
+  },
+  "sv-SE": {
+    "translation": {
+      "welcome": {
+        "title": "Hem",
+        "actions": {
+          "section": "Kontrollera din dator",
+          "controls": "Se alla kontroller",
+          "audioControl": {
+            "title": "Ljudkontroll",
+            "description": "Optimera din ljudupplevelse",
+            "description2": "Konfigurera för att optimera ljudupplevelsen",
+            "description3": "Upplev en helt annan ljudupplevelse",
+            "description4": "Konfigurera för att optimera ljud",
+            "featureCard": "Ljudkontrollåtgärdspunkt",
+            "icon": "Ljudkontrollikon"
+          },
+          "videoControl": {
+            "title": "Videokontroll",
+            "description": "Anpassa videoinställningar för konferenser och streaming",
+            "description2": "Ta vara på stunden på bild",
+            "description3": "Använd video för att skapa en personlig känsla",
+            "description4": "Optimera konferenser och streaming ",
+            "featureCard": "Videokontrollåtgärdspunkt",
+            "icon": "Videokontrollikon"
+          },
+          "displayControl": {
+            "title": "Skärmkontroll",
+            "description": "Välj ett visningsläge för skärmen",
+            "description2": "Välj ett visningsläge för att optimera skärmen",
+            "description3": "Ställ in läget för arbetsplatsen",
+            "description4": "Ställ in stämningen på språng med visningslägen",
+            "description5": "Anpassa till omgivningen med visningslägen",
+            "description6": "Hantera skärminställningar för din dator eller bärbara dator",
+            "featureCard": "Skärmkontrollåtgärdspunkt",
+            "icon": "Skärmkontrollikon"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Programmera snabbgenvägar för att snabbt öppna appar, filer och mappar",
+            "description2": "Programmera genvägar för att snabbt öppna appar, filer eller mappar",
+            "description3": "Öppna en programfil eller mapp med en enda tangenttryckning",
+            "description4": "Öppna flera objekt med en enda tangenttryckning",
+            "description5": "Programmera snabbgenvägar",
+            "description6": "Skapa genvägar för att öppna appar, filer eller program ",
+            "featureCard": "Programmable Key-åtgärdspunkt",
+            "icon": "Programmable Key-ikon"
+          },
+          "support": {
+            "description": "Dina alternativ för att få hjälp",
+            "description2": "Få den hjälp du behöver",
+            "description3": "Vi finns här för att hjälpa till",
+            "description4": "Dina alternativ för att få hjälp",
+            "featureCard": "Support-åtgärdspunkt",
+            "icon": "Support-ikon",
+            "title": "Support"
+          }
+        },
+        "banner": {
+          "message": "Vad HP kan göra för dig i en enda upplevelse",
+          "welcomeTo": "Välkommen till",
+          "welcomeUser": "Välkommen,"
+        },
+        "offline": {
+          "message": "Anslut till internet för att komma åt dina \n tillgängliga funktioner ",
+          "title": "Vi ser att du är offline",
+          "button": "Anslut"
+        }
+      }
+    }
+  },
+  "th-TH": {
+    "translation": {
+      "welcome": {
+        "title": "หน้าหลัก",
+        "actions": {
+          "section": "ควบคุม PC ของคุณ",
+          "controls": "ดูการควบคุมทั้งหมด",
+          "audioControl": {
+            "title": "การควบคุมเสียง",
+            "description": "ปรับแต่งประสบการณ์เสียงของคุณ",
+            "description2": "กำหนดค่าเพื่อปรับแต่งประสบการณ์เสียง",
+            "description3": "ปล่อยใจของคุณให้เพลิดเพลินไปกับประสบการณ์เสียงของคุณ",
+            "description4": "กำหนดค่าเพื่อปรับแต่งเสียง",
+            "featureCard": "รายการดำเนินการควบคุมเสียง",
+            "icon": "ไอคอนการควบคุมเสียง"
+          },
+          "videoControl": {
+            "title": "การควบคุมวิดีโอ",
+            "description": "ปรับแต่งการตั้งค่าวิดีโอสำหรับการประชุมและการสตรีม",
+            "description2": "สัมผัสถึงช่วงเวลาที่กล้องบันทึกภาพไว้",
+            "description3": "ใช้วิดีโอเพื่อสร้างความรู้สึกราวกับอยู่ในเหตุการณ์ด้วยตัวเอง",
+            "description4": "ปรับแต่งการประชุมและการสตรีม ",
+            "featureCard": "รายการดำเนินการควบคุมวิดีโอ",
+            "icon": "ไอคอนการควบคุมวิดีโอ"
+          },
+          "displayControl": {
+            "title": "การควบคุมการแสดงผล",
+            "description": "เลือกโหมดการแสดงผลสำหรับหน้าจอของคุณ",
+            "description2": "เลือกโหมดการแสดงผลเพื่อปรับแต่งหน้าจอของคุณ",
+            "description3": "ตั้งค่าโหมดสำหรับตำแหน่งที่ตั้งที่ทำงานของคุณ",
+            "description4": "ปรับอารมณ์ได้ไม่ว่าคุณจะอยู่ที่ไหน ด้วยโหมดการแสดงผล",
+            "description5": "ปรับตัวตามสภาพแวดล้อมของคุณด้วยโหมดการแสดงผล",
+            "description6": "จัดการการตั้งค่าการแสดงผลสำหรับ PC หรือแล็ปท็อปของคุณ",
+            "featureCard": "รายการดำเนินการควบคุมการแสดงผล",
+            "icon": "ไอคอนการควบคุมการแสดงผล"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "ตั้งโปรแกรมทางลัดแบบปุ่มเดียว เพื่อเปิดแอป ไฟล์ และโฟลเดอร์อย่างรวดเร็ว",
+            "description2": "ตั้งโปรแกรมทางลัดเพื่อเปิดแอป ไฟล์ หรือโฟลเดอร์อย่างรวดเร็ว",
+            "description3": "เปิดไฟล์แอปพลิเคชันหรือโฟลเดอร์ได้ด้วยการกดเพียงปุ่มเดียว",
+            "description4": "เปิดหลายๆ รายการด้วยการกดเพียงปุ่มเดียว",
+            "description5": "ตั้งโปรแกรมทางลัดแบบปุ่มเดียว",
+            "description6": "สร้างทางลัดสำหรับเปิดแอป ไฟล์ หรือโปรแกรม ",
+            "featureCard": "รายการดำเนินการ Programmable Key",
+            "icon": "ไอคอน Programmable Key"
+          },
+          "support": {
+            "description": "ตัวเลือกของคุณในการขอความช่วยเหลือ",
+            "description2": "รับความช่วยเหลือที่คุณต้องการ",
+            "description3": "เราพร้อมช่วยเหลือคุณ",
+            "description4": "ตัวเลือกของคุณในการขอความช่วยเหลือ",
+            "featureCard": "รายการดำเนินการบริการช่วยเหลือ",
+            "icon": "ไอคอนบริการช่วยเหลือ",
+            "title": "บริการสนับสนุน"
+          }
+        },
+        "banner": {
+          "message": "ใช้ประโยชน์จาก HP ได้อย่างเต็มที่ในประสบการณ์เดียว",
+          "welcomeTo": "ยินดีต้อนรับสู่",
+          "welcomeUser": "ยินดีต้อนรับ"
+        },
+        "offline": {
+          "message": "เชื่อมต่อกับอินเทอร์เน็ตเพื่อเข้าถึง \n คุณลักษณะที่พร้อมใช้งานของคุณ ",
+          "title": "เราพบว่าคุณกำลังออฟไลน์",
+          "button": "เชื่อมต่อ"
+        }
+      }
+    }
+  },
+  "tr-TR": {
+    "translation": {
+      "welcome": {
+        "title": "Ana Sayfa",
+        "actions": {
+          "section": "Bilgisayarınızı kontrol edin",
+          "controls": "Bütün kontrolleri görüntüleyin",
+          "audioControl": {
+            "title": "Ses kontrolü",
+            "description": "Ses deneyiminizi iyileştirin",
+            "description2": "Ses deneyimini optimize etmek için yapılandırın",
+            "description3": "Kendinizi ses deneyimine kaptırın",
+            "description4": "Sesi optimize etmek için yapılandırın",
+            "featureCard": "Ses Kontrolü İşlem Öğesi",
+            "icon": "Ses Kontrolü Simgesi"
+          },
+          "videoControl": {
+            "title": "Video kontrolü",
+            "description": "Konferans ve akış yayını için video ayarlarını özelleştirin",
+            "description2": "Kamerada anı yaşayın",
+            "description3": "Kişisel bir his oluşturmak için video kullanın",
+            "description4": "Konferansı ve akışı optimize edin ",
+            "featureCard": "Video Kontrolü İşlem Öğesi",
+            "icon": "Video Kontrolü Simgesi"
+          },
+          "displayControl": {
+            "title": "Ekran kontrolü",
+            "description": "Ekranınız için bir görüntüleme modu seçin",
+            "description2": "Ekranınızı optimize etmek için bir görüntüleme modu seçin",
+            "description3": "İş konumunuz için modu ayarlayın",
+            "description4": "Görüntüleme modlarıyla istediğiniz yerde doğru atmosferi oluşturun",
+            "description5": "Görüntüleme modlarıyla çevrenize uyum sağlayın",
+            "description6": "Masaüstü ya da dizüstü bilgisayarınız için ekran ayarlarını yönetin",
+            "featureCard": "Ekran Kontrolü İşlem Öğesi",
+            "icon": "Ekran Kontrolü Simgesi"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Uygulamaları, dosyaları ve klasörleri hızla açmak için tek tuşlu bir kısayol programlayın",
+            "description2": "Uygulamalar, dosyalar veya klasörleri hızla açmak için kısayollar programlayın",
+            "description3": "Bir uygulama dosyası veya klasörü tek bir tuşa basarak açın",
+            "description4": "Tek bir tuşa basarak birden fazla öğeyi açın",
+            "description5": "Tek tuşlu bir kısayol programlayın",
+            "description6": "Uygulamaları, dosyaları ya da programları açmak için kısayollar oluşturun ",
+            "featureCard": "Programmable Key İşlem Öğesi",
+            "icon": "Programmable Key Simgesi"
+          },
+          "support": {
+            "description": "Yardım seçenekleriniz",
+            "description2": "İhtiyaç duyduğunuz yardımı alın",
+            "description3": "Sizin için buradayız",
+            "description4": "Yardım seçenekleriniz",
+            "featureCard": "Destek İşlem Öğesi",
+            "icon": "Destek Simgesi",
+            "title": "Destek"
+          }
+        },
+        "banner": {
+          "message": "HP'nin gücü tek bir deneyimde bir arada",
+          "welcomeTo": "Hoş geldiniz",
+          "welcomeUser": "Hoş geldiniz,"
+        },
+        "offline": {
+          "message": "Kullanılabilir özelliklerinize \n erişmek için internete bağlanın ",
+          "title": "Çevrimdışı olduğunuzu fark ettik",
+          "button": "Bağlan"
+        }
+      }
+    }
+  },
+  "uk-UA": {
+    "translation": {
+      "welcome": {
+        "title": "Головна",
+        "actions": {
+          "section": "Керування вашим ПК",
+          "controls": "Переглянути всі елементи контролю",
+          "audioControl": {
+            "title": "Керування звуком",
+            "description": "Оптимізуйте якість звуку",
+            "description2": "Налаштуйте для оптимізації якості звуку",
+            "description3": "Відчуйте якість звуку",
+            "description4": "Налаштуйте, щоб оптимізувати звук",
+            "featureCard": "Елемент керування звуком",
+            "icon": "Значок керування звуком"
+          },
+          "videoControl": {
+            "title": "Керування відео",
+            "description": "Персоналізація параметрів відео для конференц-зв’язку та потокового передавання",
+            "description2": "Будьте в моменті завдяки камері",
+            "description3": "Використовуйте відео для створення ефекту особистої присутності",
+            "description4": "Оптимізуйте конференції та трансляції ",
+            "featureCard": "Елемент керування відео",
+            "icon": "Значок керування відео"
+          },
+          "displayControl": {
+            "title": "Керування дисплеєм",
+            "description": "Виберіть режим дисплея для свого екрана",
+            "description2": "Виберіть режим дисплея, щоб оптимізувати екран",
+            "description3": "Установіть режим для робочого місця",
+            "description4": "Створюйте настрій будь-де за допомогою режимів дисплея",
+            "description5": "Адаптуйтеся до оточення за допомогою режимів дисплея",
+            "description6": "Налаштуйте параметри дисплея для вашого ПК або ноутбука",
+            "featureCard": "Елемент керування дисплеєм",
+            "icon": "Значок керування дисплеєм"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "Запрограмуйте комбінацію з однією клавішею, щоб швидко відкривати програми, файли й папки",
+            "description2": "Запрограмуйте комбінації клавіш, щоб швидко відкривати програми, файли або папки",
+            "description3": "Відкривайте файли або папки програми натисканням однієї клавіші",
+            "description4": "Відкривайте кілька елементів натисканням однієї клавіші",
+            "description5": "Запрограмуйте комбінацію з однією клавішею",
+            "description6": "Створіть сполучення клавіш, щоб швидко відкривати додатки, файли або програми ",
+            "featureCard": "Елемент керування Programmable Key",
+            "icon": "Значок Programmable Key"
+          },
+          "support": {
+            "description": "Ваші варіанти отримання допомоги",
+            "description2": "Отримати потрібну вам допомогу",
+            "description3": "Ми працюємо для вас",
+            "description4": "Ваші варіанти отримання допомоги",
+            "featureCard": "Елемент керування підтримкою",
+            "icon": "Значок підтримки",
+            "title": "Підтримка"
+          }
+        },
+        "banner": {
+          "message": "Уся потужність HP в одному рішенні",
+          "welcomeTo": "Вітаємо в",
+          "welcomeUser": "Вітаємо,"
+        },
+        "offline": {
+          "message": "Підключіться до інтернету, щоб перевірити доступні функції \n ",
+          "title": "Ми помітили, що у вас немає підключення до мережі",
+          "button": "Підключитися"
+        }
+      }
+    }
+  },
+  "zh-Hans": {
+    "translation": {
+      "welcome": {
+        "title": "主页",
+        "actions": {
+          "section": "控制您的电脑",
+          "controls": "查看所有控制",
+          "audioControl": {
+            "title": "音频控制",
+            "description": "优化您的音频体验",
+            "description2": "配置以优化音频体验",
+            "description3": "让您沉浸在音频体验中",
+            "description4": "配置以优化音频",
+            "featureCard": "音频控制操作项",
+            "icon": "音频控制图标"
+          },
+          "videoControl": {
+            "title": "视频控制",
+            "description": "自定义会议和直播的视频设置",
+            "description2": "在镜头前的那一刻",
+            "description3": "使用视频来创造亲身感受",
+            "description4": "优化视频会议和直播 ",
+            "featureCard": "视频控制操作项",
+            "icon": "视频控制图标"
+          },
+          "displayControl": {
+            "title": "显示控制",
+            "description": "为您的屏幕选择显示模式",
+            "description2": "选择显示模式来优化您的屏幕",
+            "description3": "为您的工作地点设置模式",
+            "description4": "使用显示模式在任何地方设置心情",
+            "description5": "通过显示模式适应您的环境",
+            "description6": "管理 PC 或笔记本电脑的显示设置",
+            "featureCard": "显示控制操作项",
+            "icon": "显示控制图标"
+          },
+          "rgbKeyBoard": {
+            "title": "RGB 键盘",
+            "description": "自定义您的键盘灯",
+            "description2": "选择首选的键盘灯光设置",
+            "description3": "用键盘点亮您的生活",
+            "description4": "用键盘灯让您的世界色彩缤纷",
+            "description5": "让您的键盘和您一样多姿多彩",
+            "description6": "选择您首选的键盘灯光",
+            "featureCard": "RGB 键盘操作项",
+            "icon": "RGB 键盘图标"
+          },
+          "programmableKey": {
+            "title": "Programmable key",
+            "description": "编程一键式快捷方式，以快速打开应用程序、文件和文件夹",
+            "description2": "程序快捷方式，以快速打开应用程序、文件或文件夹",
+            "description3": "一键打开应用程序文件或文件夹",
+            "description4": "一键打开多个项目",
+            "description5": "编程一键式快捷方式",
+            "description6": "创建快捷方式以打开应用程序、文件或程序 ",
+            "featureCard": "可编程键操作项",
+            "icon": "可编程键图标"
+          },
+          "support": {
+            "description": "您获得帮助的选项",
+            "description2": "获得您需要的帮助",
+            "description3": "我们随时为您提供服务",
+            "description4": "您获得帮助的选项",
+            "featureCard": "支持操作项",
+            "icon": "支持图标",
+            "title": "支持"
+        },
+        "banner": {
+          "message": "一次体验 HP 的强大功能",
+          "welcomeTo": "欢迎使用",
+          "welcomeUser": "欢迎，"
+        },
+        "offline": {
+          "message": "连接到 Internet 以访问您的\n可用功能 ",
+          "title": "我们注意到您离线了",
+          "button": "连接"
+        }
+      }
+    }
+  }
+  },
+  "zh-Hant": {
+    "translation": {
+      "welcome": {
+        "title": "主畫面",
+        "actions": {
+          "section": "控制你的 PC",
+          "controls": "查看所有控制項",
+          "audioControl": {
+            "title": "音效控制",
+            "description": "優化音效體驗",
+            "description2": "配置以優化音頻體驗",
+            "description3": "沉浸於音效體驗中",
+            "description4": "配置以優化音效",
+            "featureCard": "音效控制動作項",
+            "icon": "音效控制圖示"
+          },
+          "videoControl": {
+            "title": "視像控制",
+            "description": "自訂會議和串流的視像設定",
+            "description2": "在鏡頭中登場",
+            "description3": "使用視像營造親臨其境之感",
+            "description4": "優化會議和串流 ",
+            "featureCard": "視像控制動作項",
+            "icon": "視像控制圖示"
+          },
+          "displayControl": {
+            "title": "顯示器控制",
+            "description": "選擇螢幕的顯示模式",
+            "description2": "選擇顯示模式以優化螢幕",
+            "description3": "為工作地點設定模式",
+            "description4": "利用顯示模式，隨時隨地設置氣氛",
+            "description5": "利用顯示模式來適應周圍環境",
+            "description6": "管理 PC 或筆記簿型電腦的顯示器設定",
+            "featureCard": "顯示器控制動作項",
+            "icon": "顯示器控制圖示"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "編程一鍵式捷徑，快速開啟應用程式、檔案和資料夾",
+            "description2": "編程捷徑，以快速開啟應用程式、檔案或資料夾",
+            "description3": "一鍵開啟應用程序檔案或資料夾",
+            "description4": "一鍵開啟多個項目",
+            "description5": "設定一鍵式捷徑",
+            "description6": "建立捷徑，以開啟應用程式、檔案或程式 ",
+            "featureCard": "Programmable Key 動作項",
+            "icon": "Programmable Key 圖示"
+          },
+          "support": {
+            "description": "獲得協助的選項",
+            "description2": "獲得您需要的幫助",
+            "description3": "我們在此為您服務",
+            "description4": "獲得協助的選項",
+            "featureCard": "支援動作項目",
+            "icon": "支援圖示",
+            "title": "支援"
+          }
+        },
+        "banner": {
+          "message": "HP 的強大實力，盡在單一體驗之中",
+          "welcomeTo": "歡迎使用",
+          "welcomeUser": "歡迎，"
+        },
+        "offline": {
+          "message": "連接至互聯網，以存取你的\n可用功能 ",
+          "title": "我們留意到你已離線",
+          "button": "連接"
+        }
+      }
+    }
+  },
+  "zh-Hant-HK": {
+    "translation": {
+      "welcome": {
+        "title": "主畫面",
+        "actions": {
+          "section": "控制你的 PC",
+          "controls": "查看所有控制項",
+          "audioControl": {
+            "title": "音效控制",
+            "description": "優化音效體驗",
+            "description2": "配置以優化音頻體驗",
+            "description3": "沉浸於音效體驗中",
+            "description4": "配置以優化音效",
+            "featureCard": "音效控制動作項",
+            "icon": "音效控制圖示"
+          },
+          "videoControl": {
+            "title": "視像控制",
+            "description": "自訂會議和串流的視像設定",
+            "description2": "在鏡頭中登場",
+            "description3": "使用視像營造親臨其境之感",
+            "description4": "優化會議和串流 ",
+            "featureCard": "視像控制動作項",
+            "icon": "視像控制圖示"
+          },
+          "displayControl": {
+            "title": "顯示器控制",
+            "description": "選擇螢幕的顯示模式",
+            "description2": "選擇顯示模式以優化螢幕",
+            "description3": "為工作地點設定模式",
+            "description4": "利用顯示模式，隨時隨地設置氣氛",
+            "description5": "利用顯示模式來適應周圍環境",
+            "description6": "管理 PC 或筆記簿型電腦的顯示器設定",
+            "featureCard": "顯示器控制動作項",
+            "icon": "顯示器控制圖示"
+          },
+          "programmableKey": {
+            "title": "Programmable Key",
+            "description": "編程一鍵式捷徑，快速開啟應用程式、檔案和資料夾",
+            "description2": "編程捷徑，以快速開啟應用程式、檔案或資料夾",
+            "description3": "一鍵開啟應用程序檔案或資料夾",
+            "description4": "一鍵開啟多個項目",
+            "description5": "設定一鍵式捷徑",
+            "description6": "建立捷徑，以開啟應用程式、檔案或程式 ",
+            "featureCard": "Programmable Key 動作項",
+            "icon": "Programmable Key 圖示"
+          },
+          "support": {
+            "description": "你的支援選項",
+            "description2": "取得所需協助",
+            "description3": "我們隨時樂意提供協助",
+            "description4": "你的支援選項",
+            "featureCard": "支援動作項",
+            "icon": "支援圖示",
+            "title": "支援"
+          }
+        },
+        "banner": {
+          "message": "HP 的強大實力，盡在單一體驗之中",
+          "welcomeTo": "歡迎使用",
+          "welcomeUser": "歡迎，"
+        },
+        "offline": {
+          "message": "連接至互聯網，以存取你的\n可用功能 ",
+          "title": "我們留意到你已離線",
+          "button": "連接"
+        }
+      }
+    }
+  }
+}

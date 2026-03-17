@@ -1,0 +1,620 @@
+{
+  "ar-SA": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "[معرفة المزيد.]({{}}) قد ترسل HP معلوماتي خارج البلد التي أقيم فيها. ",
+        "body_section_1": "قد تستخدم HP معلومات حول نظامي لتزويدي بدعم العملاء. قم بتمكين جهاز الكمبيوتر من إظهار خيارات الاتصال ومعلومات الضمان ورسائل الدعم المهمة من HP.",
+        "body_section_2_link": "قد تستخدم HP معلومات بشأن نظامي لتحسين منتجات HP وخدماتها. [معرفة المزيد.]({{}})",
+        "body_section_3": "قد تستخدم HP تفاصيل اتصالي ومعلومات حول نظامي لإرسال عروض وأخبار مخصصة إليّ.",
+        "btn_accept": "قبول الكل",
+        "btn_decline": "رفض الكل",
+        "btn_manage": "إدارة الخيارات",
+        "header": "حول خصوصيتك"
+      }
+    }
+  },
+  "bg-BG": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP може да изпрати моята информация извън моята страна. [Научете още.]({{}})",
+        "body_section_1": "HP може да ползва информацията за системата ми, за да ми осигури поддръжка на клиента. Разрешавам на моя компютър да показва опции за връзка с HP, гаранционна информация и важни съобщения за поддръжка.",
+        "body_section_2_link": "HP може да използва информацията относно системата ми, за да подобрява продуктите и услугите на HP. [Научете повече.]({{}})",
+        "body_section_3": "HP може да ползва моите данни за контакт и информацията за моята система, за да ми праща персонализирани оферти и новини.",
+        "btn_accept": "Приемане на всичко",
+        "btn_decline": "Отказ на всичко",
+        "btn_manage": "Управление на опции",
+        "header": "За поверителността"
+      }
+    }
+  },
+  "ca-ES": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP pot enviar la meva informació fora del meu país. [Més informació.]({{}})",
+        "body_section_1": "HP pot utilitzar informació sobre el meu sistema per oferir-me suport tècnic cap al client. Activa el meu ordinador perquè mostri opcions de contacte d'HP, informació de garantia i missatges d'assistència importants.",
+        "body_section_2_link": "HP pot fer ús d'informació sobre el meu sistema per millorar els productes i serveis d'HP. [Més informació.]({{}})",
+        "body_section_3": "HP pot fer servir les meves dades de contacte i informació sobre el meu sistema per enviar-me ofertes i notícies personalitzades.",
+        "btn_accept": "Accepta-ho tot",
+        "btn_decline": "Rebutja-ho tot",
+        "btn_manage": "Gestiona les opcions",
+        "header": "Sobre la vostra privadesa"
+      }
+    }
+  },
+  "cs-CZ": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "Společnost HP smí posílat moje informace mimo moji zemi. [Více informací.]({{}})",
+        "body_section_1": "Společnost HP smí používat informace o mém systému k tomu, aby mi poskytovala zákaznickou podporu. Povolte mému počítači zobrazovat možnosti kontaktování HP, záruční informace a důležité zprávy podpory.",
+        "body_section_2_link": "Společnost HP smí používat informace o mém systému k vylepšování produktů a služeb HP. [Více informací.]({{}})",
+        "body_section_3": "Společnost HP smí využívat moje kontaktní údaje a informace o mém systému k zasílání osobně zaměřených nabídek a zpráv.",
+        "btn_accept": "Přijmout vše",
+        "btn_decline": "Odmítnout vše",
+        "btn_manage": "Spravovat možnosti",
+        "header": "Informace o vašem soukromí"
+      }
+    }
+  },
+  "da-DK": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP må gerne sende mine oplysninger til andre lande. [Få mere at vide.]({{}})",
+        "body_section_1": "HP må bruge oplysninger om mit system til at yde support til mig. Gør det muligt for min pc at vise, indstillingerne for HP-kontakt, garantioplysninger og vigtige supportmeddelelser.",
+        "body_section_2_link": "HP kan bruge oplysninger om mit system til at forbedre HP-produkter og -tjenester. [Få mere at vide.]({{}})",
+        "body_section_3": "HP må bruge mine kontaktoplysninger og oplysninger om mit system til at sende mig tilpassede tilbud og nyheder.",
+        "btn_accept": "Accepter alle",
+        "btn_decline": "Afvis alle",
+        "btn_manage": "Administrer indstillinger",
+        "header": "Om beskyttelse af dine personlige oplysninger"
+      }
+    }
+  },
+  "de-DE": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP kann meine Daten ins Ausland senden. [Weitere Informationen.]({{}})",
+        "body_section_1": "HP kann zur Unterstützung des Kundensupports Informationen über mein System verwenden. Meinen PC für HP Kontaktoptionen, Garantieinformationen und wichtige Supportmeldungen aktivieren.",
+        "body_section_2_link": "HP kann zur Verbesserung von HP Produkten und Services Informationen über mein System verwenden [Weitere Informationen.]({{}})",
+        "body_section_3": "HP kann meine Kontaktdaten und Informationen über mein System verwenden, um mir personalisierte Angebote und Neuigkeiten zu senden.",
+        "btn_accept": "Alle akzeptieren",
+        "btn_decline": "Alle ablehnen",
+        "btn_manage": "Optionen verwalten",
+        "header": "Informationen zu Ihrem Datenschutz"
+      }
+    }
+  },
+  "el-GR": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "Η HP μπορεί να στείλει τα στοιχεία μου εκτός της χώρας μου. [Μάθετε περισσότερα.]({{}})",
+        "body_section_1": "Η HP μπορεί να χρησιμοποιήσει πληροφορίες σχετικά με το σύστημά μου για να μου παρέχει υποστήριξη πελατών. Ενεργοποιήστε τον υπολογιστή μου να εμφανίζει επιλογές επαφών HP, πληροφορίες εγγύησης και σημαντικά μηνύματα υποστήριξης.",
+        "body_section_2_link": "Η HP μπορεί να χρησιμοποιήσει πληροφορίες σχετικά με το σύστημά μου για να βελτιώσει τα προϊόντα και τις υπηρεσίες της HP. [Μάθετε περισσότερα.]({{}})",
+        "body_section_3": "Η HP μπορεί να χρησιμοποιήσει τα στοιχεία επικοινωνίας μου και τις πληροφορίες σχετικά με το σύστημά μου για να μου στείλει εξατομικευμένες προσφορές και νέα.",
+        "btn_accept": "Αποδοχή όλων",
+        "btn_decline": "Απόρριψη όλων",
+        "btn_manage": "Διαχείριση επιλογών",
+        "header": "Σχετικά με το απόρρητό σας"
+      }
+    }
+  },
+  "en-US": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP may send my information outside my country. Learn more.",
+        "body_section_1": "HP may use information about my system to provide me with customer support. Enable my PC to show HP contact options, warranty information, and important support messages.",
+        "body_section_2_link": "HP may use information about my system to improve HP products and services. [Learn more.]({{}})",
+        "body_section_3": "HP may use my contact details and information about my system to send me personalized offers and news.",
+        "btn_accept": "Accept All",
+        "btn_decline": "Decline All",
+        "btn_manage": "Manage Options",
+        "header": "About your privacy",
+        "hp_icon": "HP Icon"
+      }
+    }
+  },
+  "en-GB": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP may send my information outside my country. [Learn more.]({{}})",
+        "body_section_1": "HP may use information about my system to provide me with customer support. Enable my PC to show HP contact options, warranty information, and important support messages.",
+        "body_section_2_link": "HP may use information about my system to improve HP products and services. [Learn more.]({{}})",
+        "body_section_3": "HP may use my contact details and information about my system to send me personalised offers and news.",
+        "btn_accept": "Accept All",
+        "btn_decline": "Decline All",
+        "btn_manage": "Manage Options",
+        "header": "About your privacy",
+        "hp_icon": "HP Icon"
+      }
+    }
+  },
+  "es-ES": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP puede enviar mi información fuera del país. [Más información.]({{}})",
+        "body_section_1": "HP puede usar información sobre mi sistema para brindarme soporte al cliente. Permitir que mi ordenador muestre opciones de contacto de HP, información de garantía y mensajes importantes de soporte.",
+        "body_section_2_link": "HP puede usar información sobre mi sistema para mejorar productos y servicios de HP.  [Obtener más información].({{}})",
+        "body_section_3": "HP puede usar mis datos de contacto y la información sobre mi sistema para enviarme ofertas y noticias personalizadas.",
+        "btn_accept": "Aceptar todo",
+        "btn_decline": "Rechazar todo",
+        "btn_manage": "Gestionar opciones",
+        "header": "Acerca de tu privacidad"
+      }
+    }
+  },
+  "es-MX": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP puede enviar mi información fuera de mi país. [Conozca más.]({{}})",
+        "body_section_1": "HP podrá usar información sobre mi sistema para proporcionarme soporte técnico. Permita que mi PC muestre opciones de contacto con HP, información sobre garantía y mensajes importantes de soporte.",
+        "body_section_2_link": "HP puede usar información sobre mi sistema para mejorar los productos y servicios HP. [Más información.]({{}})",
+        "body_section_3": "HP puede usar mis detalles de contacto y datos de mi sistema para enviarme ofertas y novedades personalizadas.",
+        "btn_accept": "Aceptar todo",
+        "btn_decline": "Rechazar todo",
+        "btn_manage": "Administrar opciones",
+        "header": "Acerca de su privacidad"
+      }
+    }
+  },
+  "et-EE": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP võib saata minu teavet väljapoole minu riiki. [Lisateave.]({{}})",
+        "body_section_1": "HP võib kasutada minu süsteemi kohta käivat teavet mulle klienditoe pakkumiseks. Lubage minu arvutil kuvada HP kontaktivalikuid, garantiiteavet ja olulisi tugiteateid.",
+        "body_section_2_link": "HP võib kasutada teavet minu süsteemi kohta HP toodete ja teenuste täiustamiseks. [Lisateave.]({{}})",
+        "body_section_3": "HP võib kasutada minu kontaktandmeid ja teavet minu süsteemi kohta, et saata mulle isikupärastatud pakkumisi ja uudiseid.",
+        "btn_accept": "Nõustu kõigega",
+        "btn_decline": "Keeldu kõigest",
+        "btn_manage": "Halda valikuid",
+        "header": "Teave teie privaatsuse kohta"
+      }
+    }
+  },
+  "eu-ES": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HPk nire herrialdetik kanpo bidal dezake informazioa. [Ikasi gehiago.]({{}})",
+        "body_section_1": "HPk nire sistemari buruzko informazioa erabil dezake, laguntza emateko. Gaitu nire ordenagailua HP harremanetarako aukerak, berme-informazioa eta laguntza-mezu garrantzitsuak erakusteko.",
+        "body_section_2_link": "HPk nire sistemari buruzko informazioa erabil dezake HPren produktuak eta zerbitzuak hobetzeko. [Informazio gehiago.]({{}})",
+        "body_section_3": "HPk harremanetarako datuak eta nire sistemari buruzko informazioa erabil ditzake eskaintza eta albiste pertsonalizatuak helarazteko.",
+        "btn_accept": "Onartu guztia",
+        "btn_decline": "Ukatu guztia",
+        "btn_manage": "Kudeatu aukerak",
+        "header": "Zure pribatutasunari buruz"
+      }
+    }
+  },
+  "fi-FI": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP saattaa lähettää tietoni asuinmaani ulkopuolelle. [Lisätietoja.]({{}})",
+        "body_section_1": "HP saa käyttää oman järjestelmäni tietoja asiakastuen antamiseen minulle. Ottamalla tämän käyttöön omassa tietokoneessani näen HP:n yhteydenottovaihtoehdot, takuutiedot ja tärkeät tukiviestit.",
+        "body_section_2_link": "HP saattaa käyttää järjestelmäni tietoja HP-tuotteiden ja -palvelujen parantamiseen. [Lisätietoja.]({{}})",
+        "body_section_3": "HP saa käyttää yhteystietojani ja oman järjestelmäni tietoja räätälöityjen tarjousten ja uutisten lähettämiseen minulle.",
+        "btn_accept": "Hyväksy kaikki",
+        "btn_decline": "Hylkää kaikki",
+        "btn_manage": "Hallitse vaihtoehtoja",
+        "header": "Tietoja tietosuojastasi"
+      }
+    }
+  },
+  "fr-FR": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP pourra envoyer mes informations en dehors de mon pays. [En savoir plus.]({{}})",
+        "body_section_1": "HP pourra utiliser les informations relatives à mon système pour me fournir une assistance à la clientèle. J'autorise mon PC à afficher les options de contact, les informations de garantie et les messages d'assistance HP importants.",
+        "body_section_2_link": "HP pourra utiliser les informations relatives à mon système pour améliorer les produits et services HP. [En savoir plus.]({{}})",
+        "body_section_3": "HP pourra utiliser mes coordonnées et des informations sur mon système pour m'envoyer des offres et des actualités personnalisées.",
+        "btn_accept": "Tout accepter",
+        "btn_decline": "Tout refuser",
+        "btn_manage": "Gérer les options",
+        "header": "À propos de votre confidentialité"
+      }
+    }
+  },
+  "fr-CA": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP peut envoyer mes informations en dehors de mon pays. [En savoir plus.]({{}})",
+        "body_section_1": "HP peut utiliser les informations relatives à mon système pour me fournir un soutien à la clientèle. Autoriser mon ordinateur personnel d'afficher les options de contact HP, les informations de garantie et les messages d'assistance importants.",
+        "body_section_2_link": "HP peut utiliser des informations sur mon système pour améliorer ses produits et services. [En savoir plus. ]({{}})",
+        "body_section_3": "HP peut utiliser mes coordonnées et les informations relatives à mon système pour m'envoyer des offres et des informations personnalisées.",
+        "btn_accept": "Tout accepter",
+        "btn_decline": "Refuser tout",
+        "btn_manage": "Gérer les options",
+        "header": "À propos de votre confidentialité"
+      }
+    }
+  },
+  "gl-ES": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP poderá enviar información miña fóra do meu país. [Obter máis información.]({{}})",
+        "body_section_1": "HP poderá utilizar información sobre o meu sistema para prestarme o Servizo de Asistencia. Permitir que o meu PC me mostre as opcións de contacto de HP, a información da garantía e outras mensaxes de axuda relevantes.",
+        "body_section_2_link": "HP pode utilizar a información sobre o meu sistema para mellorar os produtos e servizos de HP. [Máis información.]({{}})",
+        "body_section_3": "HP poderá utilizar os detalles do meu contacto e información sobre o meu sistema para enviarme ofertas e noticias personalizadas.",
+        "btn_accept": "Aceptar todo",
+        "btn_decline": "Rexeitar todo",
+        "btn_manage": "Xestionar opcións",
+        "header": "Información sobre a túa privacidade"
+      }
+    }
+  },
+  "he-IL": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "[קבל מידע נוסף.]({{}}) HP עשויה לשלוח את המידע שלי מחוץ למדינה שלי. ",
+        "body_section_1": "HP עשויה להשתמש במידע על המערכת שלי כדי לספק לי תמיכת לקוחות. אפשר למחשב שלי להציג אפשרויות ליצירת קשר של HP, מידע על אחריות והודעות תמיכה חשובות.",
+        "body_section_2_link": "HP רשאית להשתמש במידע על המערכת שלי כדי לשפר את המוצרים והשירותים של HP. [מידע נוסף.]({{}})",
+        "body_section_3": "HP עשויה להשתמש בפרטי הקשר שלי ובמידע על המערכת שלי כדי לשלוח לי הצעות וחדשות מותאמות אישית.",
+        "btn_accept": "קבל הכל",
+        "btn_decline": "סרב הכל",
+        "btn_manage": "נהל אפשרויות",
+        "header": "אודות הפרטיות שלך"
+      }
+    }
+  },
+  "hr-HR": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP može slati moje informacije izvan moje države. [Saznajte više.]({{}})",
+        "body_section_1": "HP može upotrebljavati informacije o mojem sustavu da bi mi pružio korisničku podršku. Omogući na mojem PC-ju prikaz HP-ovih mogućnosti za kontakt, informacija o jamstvu i važnih poruka za podršku.",
+        "body_section_2_link": "HP može upotrebljavati podatke o mom sustavu za poboljšanje HP-ovih proizvoda i usluga. [Saznajte više.]({{}})",
+        "body_section_3": "HP može upotrebljavati moje podatke za kontakt i informacije o mojem sustavu da bi mi slao personalizirane ponude i novosti.",
+        "btn_accept": "Prihvati sve",
+        "btn_decline": "Odbij sve",
+        "btn_manage": "Upravljanje mogućnostima",
+        "header": "O zaštiti vaše privatnosti"
+      }
+    }
+  },
+  "hu-HU": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "A HP az országon kívülre továbbíthatja az információimat. [További információk.]({{}})",
+        "body_section_1": "A HP felhasználhatja az általam használt rendszerről gyűjtött információkat ügyféltámogatás céljából. Engedélyezem, hogy a számítógép megjelenítse a HP-től származó kapcsolatfelvételi lehetőségeket, jótállási információkat és fontos támogatási üzeneteket.",
+        "body_section_2_link": "A HP-termékek és -szolgáltatások fejlesztése érdekében a HP felhasználhatja az általam használt rendszerről gyűjtött információkat. [További információk.]({{}})",
+        "body_section_3": "A HP a kapcsolattartási adataimat és az általam használt rendszerrel kapcsolatos információkat felhasználhatja személyre szabott ajánlatok és hírek küldéséhez.",
+        "btn_accept": "Összes elfogadása",
+        "btn_decline": "Összes elutasítása",
+        "btn_manage": "Beállítások kezelése",
+        "header": "Tudnivalók az adatvédelméről"
+      }
+    }
+  },
+  "id-ID": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP dapat mengirimkan informasi saya ke luar negara saya. [Pelajari lebih lanjut.]({{}})",
+        "body_section_1": "HP dapat menggunakan informasi tentang sistem saya untuk menyediakan dukungan pelanggan kepada saya. Aktifkan PC saya untuk menampilkan opsi kontak, informasi garansi, dan pesan dukungan penting HP.",
+        "body_section_2_link": "HP dapat menggunakan informasi tentang sistem saya untuk menyempurnakan produk dan layanan HP. [Pelajari lebih lanjut.]({{}})",
+        "body_section_3": "HP dapat menggunakan detail kontak saya dan informasi tentang sistem saya untuk mengirimi saya penawaran dan berita yang dipersonalisasi.",
+        "btn_accept": "Terima Semua",
+        "btn_decline": "Tolak Semua",
+        "btn_manage": "Kelola Opsi",
+        "header": "Tentang privasi Anda"
+      }
+    }
+  },
+  "it-IT": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP può inviare le mie informazioni al di fuori del mio Paese. [Per saperne di più.]({{}})",
+        "body_section_1": "HP può utilizzare le informazioni sul mio sistema ai fini dell'assistenza clienti. Consento la visualizzazione sul mio PC delle opzioni di contatto HP, delle informazioni sulla garanzia e di importanti messaggi di supporto.",
+        "body_section_2_link": "HP può usare le informazioni sul mio sistema per migliorare i prodotti e i servizi HP. [Maggiori informazioni.]({{}})",
+        "body_section_3": "HP può utilizzare i miei recapiti personali e le informazioni sul mio sistema per inviarmi novità e offerte personalizzate.",
+        "btn_accept": "Accetta tutto",
+        "btn_decline": "Rifiuta tutto",
+        "btn_manage": "Gestisci le opzioni",
+        "header": "Informazioni sulla privacy"
+      }
+    }
+  },
+  "ja-JP": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HPでは、私の情報を国外に送るかもしれません。 [詳細はこちら。]({{}})",
+        "body_section_1": "カスタマーサポートの提供にあたり、HP は私のシステムに関する情報を利用することができます。my PC を有効にして HP の連絡先オプション、保証情報、重要なサポートメッセージを表示します。",
+        "body_section_2_link": "HPは、HPの製品とサービスを改善するために私のシステムに関する情報を使用する場合があります。 [詳細はこちらをご覧ください。]({{}})",
+        "body_section_3": "HP は私の連絡先詳細および私のシステムに関する情報を利用して、パーソナライズされたオファーやニュースを私に送信することができます。",
+        "btn_accept": "すべて了承",
+        "btn_decline": "すべて拒否",
+        "btn_manage": "オプションを管理",
+        "header": "お客様のプライバシーについて"
+      }
+    }
+  },
+  "ko-KR": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP는 내 정보를 외부로 전송할 수 있습니다. [자세히 알아보기.]({{}})",
+        "body_section_1": "HP는 내 시스템 정보를 사용해 고객 지원을 제공할 수 있습니다. 내 PC에서 HP 문의 옵션, 보증 정보, 중요 지원 메시지 표시를 사용합니다.",
+        "body_section_2_link": "HP가 HP 제품 및 서비스 개선을 위해 내 시스템 정보를 활용할 수 있습니다. [자세한 정보.]({{}})",
+        "body_section_3": "HP에서 내 시스템의 연락처 세부 사항 및 정보를 사용해 맞춤 할인 및 소식을 제공할 수 있습니다.",
+        "btn_accept": "모두 수락",
+        "btn_decline": "모두 거부",
+        "btn_manage": "관리 옵션",
+        "header": "사용자 개인 정보 보안 관련 정보"
+      }
+    }
+  },
+  "lt-LT": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP gali siųsti mano informaciją už mano šalies ribų. [Sužinoti daugiau.]({{}})",
+        "body_section_1": "HP gali naudoti informaciją apie mano sistemą, kad suteiktų man klientų aptarnavimo paslaugas. Įgalinti mano kompiuterį rodyti HP susisiekimo parinktis, garantijos informaciją ir svarbius pagalbos pranešimus.",
+        "body_section_2_link": "HP gali naudoti informaciją apie mano sistemą, kad pagerintų HP produktų ir paslaugų kokybę. [Sužinokite daugiau.]({{}})",
+        "body_section_3": "HP gali naudoti mano kontaktinę informaciją ir informaciją apie mano sistemą, kad siųstų man asmeninius pasiūlymus ir naujienas.",
+        "btn_accept": "Priimti viską",
+        "btn_decline": "Atmesti viską",
+        "btn_manage": "Tvarkyti parinktis",
+        "header": "Apie jūsų privatumą"
+      }
+    }
+  },
+  "lv-LV": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP drīkst nosūtīt manu informāciju ārpus manas valsts. [Uzziniet vairāk.]({{}})",
+        "body_section_1": "HP var izmantot informāciju par manu sistēmu, lai man nodrošinātu klientu atbalstu. Iespējojiet manu datoru HP saziņas opciju, garantijas informācijas un svarīgu atbalsta ziņojumu rādīšanai.",
+        "body_section_2_link": "HP var izmantot informāciju par manu sistēmu, lai uzlabotu HP produktus un pakalpojumus. [Uzzināt vairāk.]({{}})",
+        "body_section_3": "HP var izmantot manu kontaktinformāciju un informāciju par manu sistēmu, lai man sūtītu personalizētus piedāvājumus un jaunumus.",
+        "btn_accept": "Piekrist visam",
+        "btn_decline": "Noraidīt visu",
+        "btn_manage": "Pārvaldīt opcijas",
+        "header": "Par jūsu privātumu"
+      }
+    }
+  },
+  "nb-NO": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP kan sende informasjonen min til andre land. [Få mer informasjon.]({{}})",
+        "body_section_1": "HP kan bruke informasjon om systemet mitt for å gi meg brukerstøtte. Aktiver PC-en min til å vise kontaktalternativer til HP, garantiinformasjon og viktige støttemeldinger.",
+        "body_section_2_link": "HP kan bruke informasjon om systemet mitt for å forbedre HPs produkter og tjenester. [Mer informasjon.]({{}})",
+        "body_section_3": "HP kan bruke kontaktdetaljene mine og informasjon om systemet mitt for å sende meg personlige tilbud og nyheter.",
+        "btn_accept": "Godta alle",
+        "btn_decline": "Avslå alle",
+        "btn_manage": "Administrer alternativer",
+        "header": "Om personvern"
+      }
+    }
+  },
+  "nl-NL": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP mag mijn informatie naar het buitenland verzenden. [Meer informatie.]({{}})",
+        "body_section_1": "HP mag informatie over mijn systeem gebruiken om mij klantenondersteuning te kunnen bieden. Laat mijn pc HP contactopties, garantie-informatie en belangrijke ondersteuningsberichten weergeven.",
+        "body_section_2_link": "HP mag informatie over mijn systeem gebruiken om HP producten en diensten te verbeteren. [Meer informatie.]({{}})",
+        "body_section_3": "HP mag mijn contactgegevens en informatie over mijn systeem gebruiken om mij gepersonaliseerde aanbiedingen en nieuws te sturen.",
+        "btn_accept": "Alles accepteren",
+        "btn_decline": "Alles weigeren",
+        "btn_manage": "Opties beheren",
+        "header": "Uw privacy"
+      }
+    }
+  },
+  "pl-PL": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP może przesyłać moje informacje poza mój kraj. [Dowiedz się więcej.]({{}})",
+        "body_section_1": "HP może wykorzystać informacje o moim systemie do zapewnienia mi pomocy technicznej. Włącz tę opcję na moim komputerze, aby wyświetlać opcje kontaktu HP, informacje o gwarancji oraz ważne wiadomości dotyczące pomocy technicznej.",
+        "body_section_2_link": "HP może wykorzystywać informacje o moim systemie do ulepszania produktów i usług HP. [Dowiedz się więcej]({{}}) .",
+        "body_section_3": "HP może wykorzystać moje dane kontaktowe oraz informacje o moim systemie do wysyłania mi spersonalizowanych ofert i aktualności.",
+        "btn_accept": "Akceptuj wszystko",
+        "btn_decline": "Odrzuć wszystko",
+        "btn_manage": "Zarządzaj opcjami",
+        "header": "Informacje dotyczące prywatności"
+      }
+    }
+  },
+  "pt-BR": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "A HP pode enviar informações para fora do meu país. [Saiba mais.]({{}})",
+        "body_section_1": "A HP pode usar informações sobre o meu sistema para me oferecer suporte ao cliente. Habilite meu PC para mostrar opções de contato, informações de garantia e importantes mensagens de suporte da HP.",
+        "body_section_2_link": "A HP pode usar informações sobre meu sistema para melhorar os produtos e serviços HP. [Saiba mais.]({{}})",
+        "body_section_3": "A HP pode usar meus detalhes de contato e informações sobre meu sistema para enviar ofertas e notícias personalizadas para mim.",
+        "btn_accept": "Aceitar tudo",
+        "btn_decline": "Recusar tudo",
+        "btn_manage": "Gerenciar opções",
+        "header": "Sobre a sua privacidade"
+      }
+    }
+  },
+  "pt-PT": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "A HP pode enviar as minhas informações para fora do meu país. [Saber mais.]({{}})",
+        "body_section_1": "A HP pode usar informações sobre o meu sistema para fornecer-me apoio ao cliente. Ativar o meu PC para mostrar opções de contacto HP, informações da garantia e mensagens de suporte importantes.",
+        "body_section_2_link": "A HP pode usar informações sobre o meu sistema para melhorar produtos e serviços da HP. [Mais informações.]({{}})",
+        "body_section_3": "A HP pode usar os meus dados de contacto e informações sobre o meu sistema para enviar-me ofertas e novidades personalizadas.",
+        "btn_accept": "Aceitar todas",
+        "btn_decline": "Recusar todas",
+        "btn_manage": "Gerir opções",
+        "header": "Sobre a sua privacidade"
+      }
+    }
+  },
+  "ro-RO": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP îmi poate trimite informaţiile în afara ţării mele. [Aflaţi mai multe.]({{}})",
+        "body_section_1": "HP poate utiliza informaţii despre sistemul meu pentru a-mi oferi asistenţa pentru clienţi. Activaţi PC-ul meu pentru a afişa opţiunile de contact HP, informaţiile despre garanţie şi mesajele importante de asistenţă.",
+        "body_section_2_link": "HP poate utiliza informaţii despre sistemul meu pentru a îmbunătăţi produsele şi serviciile HP. [Aflaţi mai multe.]({{}})",
+        "body_section_3": "HP poate utiliza datele mele de contact şi informaţiile despre sistemul meu pentru a-mi trimite oferte şi ştiri personalizate.",
+        "btn_accept": "Acceptare toate",
+        "btn_decline": "Refuzare toate",
+        "btn_manage": "Gestionaţi opţiunile",
+        "header": "Despre confidenţialitatea dvs"
+      }
+    }
+  },
+  "ru-RU": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "Компания HP может отправлять мою информацию за пределы моей страны. [Узнать больше.]({{}})",
+        "body_section_1": "Компания HP может использовать информацию о моей системе для оказания мне клиентcкой поддержки. Разрешить моему компьютеру отображать варианты обратной связи с HP, информацию о гарантии и важные сообщения службы поддержки.",
+        "body_section_2_link": "Компания HP может использовать информацию о моей системе для улучшения продуктов и услуг HP. [Подробнее.]({{}})",
+        "body_section_3": "Компания HP может использовать мои контактные данные и информацию о моей системе для отправки мне персонализированных предложений и новостей.",
+        "btn_accept": "Принять все",
+        "btn_decline": "Отклонить все",
+        "btn_manage": "Управление параметрами",
+        "header": "О вашей конфиденциальности"
+      }
+    }
+  },
+  "sk-SK": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "Spoločnosť HP môže odosielať moje informácie mimo mojej krajiny. [Získajte ďalšie informácie.]({{}})",
+        "body_section_1": "Spoločnosť HP môže používať informácie o mojom systéme, aby mi poskytovala zákaznícku podporu. Chcem povoliť, aby môj počítač zobrazoval kontaktné možnosti, informácie o záruke a dôležité správy od podpory HP.",
+        "body_section_2_link": "Spoločnosť HP môže používať informácie o mojom systéme na zlepšovanie produktov a služieb HP. [Získajte ďalšie informácie.]({{}})",
+        "body_section_3": "Spoločnosť HP môže používať moje kontaktné údaje a informácie o mojom systéme na zasielanie prispôsobených ponúk a noviniek.",
+        "btn_accept": "Prijať všetko",
+        "btn_decline": "Odmietnuť všetko",
+        "btn_manage": "Spravovať možnosti",
+        "header": "Informácie o ochrane osobných údajov"
+      }
+    }
+  },
+  "sl-SI": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP lahko pošlje moje podatke izven moje države. [Več informacij.]({{}})",
+        "body_section_1": "HP lahko uporablja informacije o mojem sistemu, da mi zagotavlja podporo za stranke. Moj računalnik omogočite za prikazovanje možnosti stika s HP-jem, informacij o garanciji in pomembnih sporočil o podpori.",
+        "body_section_2_link": "HP lahko uporablja informacije o mojem sistemu za izboljšanje HP-jevih izdelkov in storitev. [Več informacij.]({{}})",
+        "body_section_3": "HP lahko uporablja moje podatke za stik in informacije o sistemu, da mi pošilja prilagojene ponudbe in novice.",
+        "btn_accept": "Sprejmi vse",
+        "btn_decline": "Zavrni vse",
+        "btn_manage": "Upravljaj možnosti",
+        "header": "O zasebnosti"
+      }
+    }
+  },
+  "sr-LATN-rs": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP može slati moje podatke van moje zemlje. [Saznajte više.]({{}})",
+        "body_section_1": "HP može da koristi informacije o mom sistemu da bi mi pružao korisničku podršku. Omogućite mom računaru da prikaže opcije za kontakt sa kompanijom HP, informacije o garanciji i važne poruke podrške.",
+        "body_section_2_link": "HP može koristiti informacije o mom sistemu da poboljša HP proizvode i usluge. [Saznajte više.]({{}})",
+        "body_section_3": "HP može da koristi moje kontakt podatke i informacije o mom sistemu da bi mi slao personalizovane ponude i vesti.",
+        "btn_accept": "Prihvati sve",
+        "btn_decline": "Odbij sve",
+        "btn_manage": "Upravljajte opcijama",
+        "header": "O vašoj privatnosti"
+      }
+    }
+  },
+  "sr-BA": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP može slati moje podatke van moje zemlje. [Saznajte više.]({{}})",
+        "body_section_1": "HP može da koristi informacije o mom sistemu da bi mi pružao korisničku podršku. Omogućite mom računaru da prikaže opcije za kontakt sa kompanijom HP, informacije o garanciji i važne poruke podrške.",
+        "body_section_2_link": "HP može koristiti informacije o mom sistemu da poboljša HP proizvode i usluge. [Saznajte više.]({{}})",
+        "body_section_3": "HP može da koristi moje kontakt podatke i informacije o mom sistemu da bi mi slao personalizovane ponude i vesti.",
+        "btn_accept": "Prihvati sve",
+        "btn_decline": "Odbij sve",
+        "btn_manage": "Upravljajte opcijama",
+        "header": "O vašoj privatnosti"
+      }
+    }
+  },
+  "sv-SE": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP kan skicka min information utanför mitt land. [Läs mer.]({{}})",
+        "body_section_1": "HP kan använda informationen om mitt system för att erbjuda kundsupport. Gör det möjligt för min dator att visa HPs kontaktalternativ, garantiinformation och viktiga supportmeddelanden.",
+        "body_section_2_link": "HP kan använda information om mitt system för att förbättra HP-produkter och -tjänster. [Läs mer.]({{}})",
+        "body_section_3": "HP kan använda mina kontaktuppgifter och informationen om mitt system för att mig personliga erbjudanden och nyheter.",
+        "btn_accept": "Acceptera alla",
+        "btn_decline": "Avvisa alla",
+        "btn_manage": "Hantera alternativ",
+        "header": "Om din integritet"
+      }
+    }
+  },
+  "th-TH": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP อาจส่งข้อมูลของฉันออกนอกประเทศ [เรียนรู้เพิ่มเติม]({{}})",
+        "body_section_1": "HP อาจใช้ข้อมูลเกี่ยวกับระบบของฉันเพื่อให้ฉันติดต่อกับฝ่ายบริการลูกค้า เปิดใช้งาน PC ของฉันเพื่อแสดงตัวเลือกผู้ติดต่อของ HP ข้อมูลด้านการรับประกัน และข้อความการสนับสนุนที่สำคัญ",
+        "body_section_2_link": "HP อาจใช้ข้อมูลเกี่ยวกับระบบของฉันเพื่อปรับปรุงผลิตภัณฑ์และบริการของ HP ให้ดียิ่งขึ้น [ดูข้อมูลเพิ่มเติม]({{}})",
+        "body_section_3": "HP อาจใช้รายละเอียดผู้ติดต่อและข้อมูลเกี่ยวกับระบบของฉัน เพื่อส่งข้อเสนอและข่าวสารถึงฉัน",
+        "btn_accept": "เห็นด้วยทั้งหมด",
+        "btn_decline": "ปฏิเสธทั้งหมด",
+        "btn_manage": "จัดการตัวเลือก",
+        "header": "เกี่ยวกับความเป็นส่วนตัวของคุณ"
+      }
+    }
+  },
+  "tr-TR": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "HP bilgilerimi ülkemin dışına gönderebilir. [Daha fazla bilgi.]({{}})",
+        "body_section_1": "HP bana müşteri desteği sağlamak amacıyla sistemin hakkındaki bilgileri kullanabilir.Bilgisayarımın HP iletişim seçenekleri, garanti bilgileri ve önemli destek mesajlarını göstermesine izin ver.",
+        "body_section_2_link": "HP, HP ürünlerini ve hizmetlerini iyileştirmek için sistemim hakkındaki bilgileri kullanabilir. [Daha fazla bilgi.]({{}})",
+        "body_section_3": "HP, bana kişiselleştirilmiş teklifler ve haberler göndermek amacıyla sistemim hakkındaki bilgileri ve iletişim bilgilerimi kullanabilir.",
+        "btn_accept": "Tümünü Kabul Et",
+        "btn_decline": "Tümünü Reddet",
+        "btn_manage": "Seçenekleri Yönet",
+        "header": "Gizliliğiniz hakkında"
+      }
+    }
+  },
+  "uk-UA": {
+    "translation": {
+      "privacy": {
+        "body_section_0_link": "Компанія HP може надсилати мою інформацію за межі країни. [Дізнатися більше.]({{}})",
+        "body_section_1": "Компанія HP може використовувати інформацію про мою систему для надання мені клієнтської підтримки. Дозволити моєму ПК показувати контактні дані компанії HP, інформацію про гарантію та важливі повідомлення щодо підтримки.",
+        "body_section_2_link": "Компанія HP може використовувати інформацію про мою систему для покращення продуктів і послуг HP. [Дізнатися більше.]({{}})",
+        "body_section_3": "Компанія HP може використовувати мої контактні дані й інформацію для надсилання мені персоналізованих пропозицій та новин.",
+        "btn_accept": "Прийняти все",
+        "btn_decline": "Відхилити все",
+        "btn_manage": "Керувати параметрами",
+        "header": "Інформація про вашу конфіденційність"
+      }
+    }
+  },
+  "zh-Hans": {
+    "translation": {
+      "privacy": {
+        "header": "关于您的隐私",
+        "body_section_0_link": "HP 可能会将我的信息发送到国外。 [了解更多信息。]({{}})",
+        "body_section_1": "HP 可能会使用我的系统信息为我提供客户支持。让我的电脑显示 HP 联系选项、保修信息和重要支持消息。",
+        "body_section_2_link": "HP 可能会使用我的系统信息来改进 HP 产品和服务。 [了解更多。]({{}})",
+        "body_section_3": "HP 可能会使用我的联系方式和系统信息向我发送个性化优惠和新闻。",
+        "btn_accept": "全部接受",
+        "btn_decline": "全部拒绝",
+        "btn_manage": "管理选项"
+      }
+    }
+  },
+  "zh-Hant-HK": {
+    "translation": {
+      "privacy": {
+        "header": "關於你的私隱",
+        "body_section_0_link": "HP 可能會將我的資料傳送至我所在國家／地區以外。[了解更多資訊。]({{}})",
+        "body_section_1": "HP 可能使用我的系統相關資訊，以便為我提供客戶支援。允許我的 PC 向 HP 顯示聯絡資料、保養資料及重要支援訊息。",
+        "body_section_2_link": "HP 可能使用我的系統相關資訊，以便改善 HP 產品和服務。 了解更多資訊。",
+        "body_section_3": "HP 可能會使用我的聯絡資料以及我的系統相關資訊，以便向我傳送個人化優惠或資訊。",
+        "btn_accept": "全部接受",
+        "btn_decline": "全部拒絕",
+        "btn_manage": "管理選項"
+      }
+    }
+  },
+  "zh-Hant": {
+    "translation": {
+      "privacy": {
+        "header": "關於您的隱私權",
+        "body_section_0_link": "HP 可能會將我的資訊傳送到國外。[瞭解更多。]({{}})",
+        "body_section_1": "HP 可能會使用我的系統資訊向我提供客戶支援。使我的電腦能夠顯示 HP 連絡選項、保固資訊和重要支援訊息。",
+        "body_section_2_link": "HP 可能會使用有關我的系統的資訊來改善 HP 產品和服務。 [以瞭解更多資訊。]({{}})",
+        "body_section_3": "HP 可能會使用我的連絡細節和有關我系統的資訊，向我傳送個人化的優惠和新聞。",
+        "btn_accept": "接受全部",
+        "btn_decline": "拒絕全部",
+        "btn_manage": "管理選項"
+      }
+    }
+  }
+}

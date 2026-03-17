@@ -1,0 +1,8 @@
+{
+    "x_button_on_camera_scan": {
+        "locator": {
+            "xpath": "//android.widget.ImageButton[@resource-id='com.hp.printercontrol.debug:id/captureClose']",
+            "id": "captureClose"
+        }
+    }
+}

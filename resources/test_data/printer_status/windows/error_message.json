@@ -1,0 +1,414 @@
+{
+    "error": {
+        "cartridges_missing_65537": {
+            "cartridges_missing_65537_header": "Cartridges Missing",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges appear to be missing or incorrectly installed. Make sure all of the cartridges are properly installed. Pull out the cartridges, check that the plastic tape covering the nozzles has been removed, and then re-insert the cartridges securely in the slots. If the problem persists, try restarting the printer.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridge_problem_65542": {
+            "cartridge_problem_65542_header": "Cartridge Problem",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are not communicating correctly with the printer. If this problem persists, replace the cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "incompatible_cartridges_65543": {
+            "incompatible_cartridges_65543_header": "Incompatible Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges will not work in this printer. Replace them with supported cartridges.\r\n\r\nSee the label in your printer or visit HP Support for supported cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "use_setup_cartridges_65590": {
+            "use_setup_cartridges_65590_header": "Use SETUP Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "To complete printer setup, you must install the cartridges labeled SETUP that shipped with the printer. Replace the indicated cartridges with SETUP cartridges now. \r\n\r\nAfter printer setup is complete, the printer can use regular cartridges.\r\n\r\nIf there is an issue with a SETUP cartridge, contact support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "do_not_use_setup_cartridges_65591": {
+            "do_not_use_setup_cartridges_65591_header": "Do Not Use SETUP Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "SETUP cartridges cannot be used after the device has been initialized. Remove and install non-SETUP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "hp_protected_cartridges_installed_65612": {
+            "hp_protected_cartridges_installed_65612_header": "HP Protected Cartridges Installed",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges can only be used in the printer that initially protected the cartridges using the HP Cartridge Protection feature, and must be replaced.\r\n\r\nThe HP Cartridge Protection feature allows a printer owner to set the cartridges installed in their printer so that the cartridges will only work in that printer.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridge_problem_65675": {
+            "cartridge_problem_65675_header": "Cartridge Problem",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are not communicating correctly with the printer. If this problem persists, replace the cartridges.\r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "incompatible_cartridges_65676": {
+            "incompatible_cartridges_65676_header": "Incompatible Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges will not work in this printer. Replace them with supported cartridges.\r\n\r\nSee the label in your printer or visit HP Support for supported cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "do_not_use_setup_cartridges_65688": {
+            "do_not_use_setup_cartridges_65688_header": "Do Not Use SETUP Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "SETUP cartridges cannot be used after the device has been initialized. Remove and install non-SETUP cartridges.\r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridges_missing_65690": {
+            "cartridges_missing_65690_header": "Cartridges Missing",
+            "error_icon": "Minus Circle",
+            "body": "The cartridges listed above appear to be missing or damaged.\r\n\r\nHP recommends that you replace any missing cartridges as soon as possible to avoid print quality issues and possible extra usage and/or damage to the print system. \r\nPlease leave the printer powered on until all cartridges are installed to allow servicing to protect the print system. \r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "hp_protected_cartridges_installed_65694": {
+            "hp_protected_cartridges_installed_65694_header": "HP Protected Cartridges Installed",
+            "error_icon": "Minus Circle",
+            "body": "The cartridges listed above can only be used in the printer that initially protected the cartridges using the HP Cartridge Protection feature, and must be replaced.\r\n\r\nThe HP Cartridge Protection feature allows a printer owner to set the HP cartridges installed in their printer so that the cartridges will only work in that printer. \r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridges_require_hp_instant_ink_enrollment_65765": {
+            "cartridges_require_hp_instant_ink_enrollment_65765_header": "Cartridges Require HP Instant Ink Enrollment",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges can only be used in a printer that is currently enrolled in HP Instant Ink. \r\n\r\nTo enroll this printer in HP Instant Ink or if you believe your printer should accept these cartridges, visit www.hpinstantink.com",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "cartridges_missing_65769": {
+            "cartridges_missing_65769_header": "Cartridges Missing",
+            "error_icon": "Minus Circle",
+            "body": "Cartridges listed above seem to be missing, are not detected, or are incorrectly installed.\r\nIf cartridges have been installed, check that the plastic tape covering the ink nozzles has been removed. Alternatively, remove the cartridge and re-insert it securely.\r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "used_hp_instant_ink_cartridges_65773": {
+            "used_hp_instant_ink_cartridges_65773_header": "Used HP Instant Ink Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are not compatible with your printer. This error can occur if you install an HP Instant Ink cartridge into a printer that has not been enrolled in the HP Instant Ink program. It can also occur if the HP Instant Ink cartridge was previously used in a different printer enrolled in the HP Instant Ink program. For more information, visit the HP Instant Ink program website.\r\nTo continue printing, replace the indicated cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridge_or_account_issue_66175": {
+            "cartridge_or_account_issue_66175_header": "Cartridge or Account Issue",
+            "error_icon": "Minus Circle",
+            "body": "There is an issue with either the installed cartridges or your account payment method. You will be unable to print until the issue is resolved. \r\n\r\nFor more details, check the printer control panel if it has one. Or sign in to your HP account at either hpsmart.com or hpsmart.com/admin for information.\r\n\r\nTypical causes of this issue:\r\n• Instant Ink subscription cartridges only work with an active subscription.\r\n• HP All-In Plan printers require an active subscription.\r\n• HP+ printers require Original HP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridges_missing_66262": {
+            "cartridges_missing_66262_header": "Cartridges Missing",
+            "error_icon": "Minus Circle",
+            "body": "Cartridges appear to be missing. If cartridges are installed, check that the plastic tape covering the ink nozzles has been removed.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, and you don't have replacement cartridges, contact HP Instant Ink support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridge_problem_66277": {
+            "cartridge_problem_66277_header": "Cartridge Problem",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are not communicating correctly with the printer. If this problem persists, replace the cartridges.\r\n\r\nHP+ printers require Original HP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridge_problem_66278": {
+            "cartridge_problem_66278_header": "Cartridge Problem",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are not communicating correctly with the printer. If this problem persists, replace the cartridges.\r\n\r\nHP+ printers require Original HP cartridges.\r\n\r\nYour printer is enrolled in HP Instant Ink, and if you don't have a replacement cartridge, contact HP Instant Ink support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridge_problem_66279": {
+            "cartridge_problem_66279_header": "Cartridge Problem",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are not communicating correctly with the printer. If this problem persists, replace the cartridges.\r\n\r\nYour printer is enrolled in HP Instant Ink, and if you don't have a replacement cartridge, contact HP Instant Ink support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "incompatible_cartridges_66283": {
+            "incompatible_cartridges_66283_header": "Incompatible Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges will not work in this printer. Replace them with supported cartridges.\r\n\r\nSee the label in your printer or visit hp.com/support for supported cartridges.\r\n\r\nHP+ printers require Original HP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "incompatible_cartridges_66284": {
+            "incompatible_cartridges_66284_header": "Incompatible Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges will not work in this printer. Replace them with supported cartridges.\r\n\r\nSee the label in your printer or visit hp.com/support for supported cartridges.\r\n\r\nHP+ printers require Original HP cartridges.\r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "incompatible_cartridges_66285": {
+            "incompatible_cartridges_66285_header": "Incompatible Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges will not work in this printer. Replace them with supported cartridges.\r\n\r\nSee the label in your printer or visit hp.com/support for supported cartridges.\r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridges_rejected_66293": {
+            "cartridges_rejected_66293_header": "Cartridges Rejected",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges have been identified as used or counterfeit. \r\n\r\nHP+ printers require Original HP cartridges. Replace the non-original cartridges to continue printing.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "use_setup_cartridges_66297": {
+            "use_setup_cartridges_66297_header": "Use SETUP Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "Use SETUP cartridges that came with your printer.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "do_not_use_setup_cartridges_66298": {
+            "do_not_use_setup_cartridges_66298_header": "Do Not Use SETUP Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "SETUP cartridges cannot be used after the device has been initialized. Remove and install non-SETUP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "do_not_use_setup_cartridges_66299": {
+            "do_not_use_setup_cartridges_66299_header": "Do Not Use SETUP Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "SETUP cartridges cannot be used after the device has been initialized. Remove and install non-SETUP cartridges.\r\n\r\nHP+ printers require Original HP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "do_not_use_setup_cartridges_66300": {
+            "do_not_use_setup_cartridges_66300_header": "Do Not Use SETUP Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "SETUP cartridges cannot be used after the device has been initialized. Remove and install non-SETUP cartridges.\r\n\r\nHP+ printers require Original HP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "hp_protected_cartridges_installed_66304": {
+            "hp_protected_cartridges_installed_66304_header": "HP Protected Cartridges Installed",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are HP Protected cartridges which can only be used in the printer that initially protected them. The cartridges must be replaced.\r\n\r\nHP+ printers require Original HP cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "hp_protected_cartridges_installed_66305": {
+            "hp_protected_cartridges_installed_66305_header": "HP Protected Cartridges Installed",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are HP Protected cartridges which can only be used in the printer that initially protected them. The cartridges must be replaced.\r\n\r\nYour printer is enrolled in HP Instant Ink, and if you don't have a replacement cartridge, contact HP Instant Ink support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "hp_instant_ink_66315": {
+            "hp_instant_ink_66315_header": "HP Instant Ink",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges cannot be used until printer is enrolled in HP Instant Ink.\r\n\r\nIf you believe you should be enrolled, contact HP Instant Ink support.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "non_hp_circuitry_detected_66341": {
+            "non_hp_circuitry_detected_66341_header": "Non-HP Circuitry Detected",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges have been blocked by the printer firmware because they contain non-HP circuitry. This printer is intended to work only with new or reused cartridges that have new or reused HP circuitry. Replace the indicated cartridges to continue printing. For more information, go to www.hp.com/learn/ds.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "cartridges_in_wrong_slots_65544": {
+            "cartridges_in_wrong_slots_65544_header": "Cartridges in Wrong Slots",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are installed in the wrong slots. Reinsert them into the correct slots.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "hp_instant_ink_65846": {
+            "hp_instant_ink_65846_header": "HP Instant Ink",
+            "error_icon": "Minus Circle",
+            "body": "Only one set of HP Instant Ink Ready cartridges can be used in a printer. Remove and replace with other cartridges.",
+            "button_info": "None"
+        },
+        "cartridges_in_wrong_slot_66286": {
+            "cartridges_in_wrong_slot_66286_header": "Cartridges in Wrong Slot",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are installed in the wrong slots. Reinsert them into the correct slots.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "non_hp_chip_detected_66339": {
+            "non_hp_chip_detected_66339_header": "Non-HP Chip Detected",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges have been blocked by the printer firmware because they contain a non-HP chip. This printer is intended to work only with new or reused cartridges that have a new or reused HP chip. Replace the indicated cartridges to continue printing. For more information, go to www.hp.com/learn/ds.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "alignment_error_66564": {
+            "alignment_error_66564_header": "Alignment Error",
+            "error_icon": "Minus Circle",
+            "body": "An error occurred during cartridge alignment.\r\n\r\nRemove and securely reinsert the indicated cartridges. If the problem persists, replace the cartridges.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "nonhp_chip_detected_66339": {
+            "nonhp_chip_detected_66339_header": "Non-HP Chip Detected",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges have been blocked by the printer firmware because they contain a non-HP chip. This printer is intended to work only with new or reused cartridges that have a new or reused HP chip. Replace the indicated cartridges to continue printing. For more information, go to www.hp.com/learn/ds.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "nonhp_circuitry_detected_66341": {
+            "nonhp_circuitry_detected_66341_header": "Non-HP Circuitry Detected",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges have been blocked by the printer firmware because they contain non-HP circuitry. This printer is intended to work only with new or reused cartridges that have new or reused HP circuitry. Replace the indicated cartridges to continue printing. For more information, go to www.hp.com/learn/ds.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "fill_tanks_66019": {
+            "fill_tanks_66019_header": "Fill Tanks",
+            "error_icon": "Minus Circle",
+            "body": "The indicated tanks do not have enough ink to continue printing without risk of damage. Fill the indicated tanks now to continue printing.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "incompatible_printheads_66213": {
+            "incompatible_printheads_66213_header": "Incompatible Printheads",
+            "error_icon": "Minus Circle",
+            "body": "The indicated printheads will not work in this printer. Replace them with supported printheads. Visit HP Support for help with obtaining supported printheads.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "printheads_missing_66207": {
+            "printheads_missing_66207_header": "Printheads Missing",
+            "error_icon": "Minus Circle",
+            "body": "The indicated printheads appear to be missing. Remove and securely reinsert the printheads, making sure that the plastic tape covering the ink nozzles has been removed.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "alignment_is_not_finished_65571": {
+            "alignment_is_not_finished_65571_header": "Alignment is Not Finished",
+            "error_icon": "Minus Circle",
+            "body": "The alignment procedure requires you to scan the page that is automatically printed, and cannot be interrupted by a print job.\r\n\r\nTo continue the alignment procedure, cancel the print job, and then place the printed page on the glass and press the Black Copy button to complete the alignment.\r\n\r\nTo continue the print job instead of the alignment procedure, cancel the alignment procedure.",
+            "button_info": "None"
+        },
+        "print_head_problem_66211": {
+            "print_head_problem_66211_header": "Printhead Problem",
+            "error_icon": "Minus Circle",
+            "body": "The indicated printheads are not communicating correctly with the printer. If this problem persists, replace the printheads.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "missing_or_failed_printheads_65536": {
+            "missing_or_failed_printheads_65536_header": "Missing or Failed Printheads",
+            "error_icon": "Minus Circle",
+            "body": "The printhead appears to be missing, not detected, or incorrectly installed.\r\nReinstall the printhead. If the problem persists, contact support.",
+            "button_info": "None"
+        },
+        "cartridges_depleted_65539": {
+            "cartridges_depleted_65539_header": "Cartridges Depleted",
+            "error_icon": "Minus Circle",
+            "body": "The depleted cartridges must be replaced to resume printing. HP recommends that you do not remove a cartridge until a replacement is ready to install.\r\n\r\nCartridges can be recycled. Visit www.hp.com/recycle to learn more about HP's recycling programs.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "printer_failure_65541": {
+            "printer_failure_65541_header": "Printer Failure",
+            "error_icon": "Minus Circle",
+            "body": "There is a problem with the printer or print system. Turn off the printer, unplug and then plug in the power cord, and then turn on the printer again. If the problem persists, contact support.",
+            "button_info": "None"
+        },
+        "paper_too_short_to_auto_duplex_65572": {
+            "paper_too_short_to_auto_duplex_65572_header": "Paper Too Short to Auto-Duplex",
+            "error_icon": "Minus Circle",
+            "body": "If you want to use shorter paper, you can manually duplex it by selecting \"manual duplex\" or \"print odd pages\" and \"print even pages\" in your software application or print driver (if supported).",
+            "button_info": "None"
+        },
+        "problem_with_print_system_65599": {
+            "problem_with_print_system_65599_header": "Problem with Print System",
+            "error_icon": "Minus Circle",
+            "body": "Please remove the cartridges and examine them for any sign of leaks. If any cartridges have leaks, contact HP. Do not use cartridges that are leaking.\r\nIf there are no leaks, re-install cartridges and close the printer cover.\r\n\r\nTurn the printer off then on again.\r\n\r\nIf you get this message a second time, contact support.",
+            "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridge_door_open_65725": {
+            "cartridge_door_open_65725_header": "Cartridge Door Open",
+            "error_icon": "Minus Circle",
+            "body": "The door or cover must be closed to print. Check that it is completely closed.\r\nIf the problem persists after all doors and covers are properly closed, contact support.",
+            "button_info": "None"
+        },
+        "supply_system_problem_65800": {
+            "supply_system_problem_65800_header": "Supply System Problem",
+            "error_icon": "Minus Circle",
+            "body": "There is a problem with the supply system.\r\nTry replacing the indicated cartridges with different, non-empty, cartridges. If the problem persists, contact support.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+         "printhead_failure_66209": {
+             "printhead_failure_66209_header": "Printhead Failure",
+             "error_icon": "Minus Circle",
+             "body": "At least one of the printheads has a problem. Click Help for more information. \r\nMake sure all of the printheads are properly installed. Make sure the plastic tape covering the nozzles has been removed and the printheads are securely seated in the slots. If the problem persists, try restarting the printer.",
+             "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "hp_protected_printheads_installed_66230": {
+             "hp_protected_printheads_installed_66230_header": "HP Protected Printheads Installed",
+             "error_icon": "Minus Circle",
+             "body": "The indicated printheads can only be used in the printer that initially protected the printheads using the HP Printhead Protection feature, and must be replaced.\r\n\r\nThe HP Printhead Protection feature allows a printer owner to set the printheads installed in their printer so that the printheads will only work in that printer. ",
+             "button_info": "<Secondary>\r\n\"Get More Help\""
+        },
+        "fill_tanks_66333": {
+             "fill_tanks_66333_header": "Fill Tanks",
+             "error_icon": "Minus Circle",
+             "body": "The indicated tanks do not have enough ink to continue printing without risk of damage. Fill the indicated tanks now to continue printing.\r\n\r\nIf your printer is enrolled in HP Instant Ink, you should already have a replacement bottle. Sign in to your HP account on the home screen to check your status.",
+             "button_info": "<Secondary>\r\n\"Get More Help\""
+         },
+         "protected_cartridges_installed_66035": {
+            "protected_cartridges_installed_66035_header": "Protected Cartridges Installed",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges can only be used in the printer or fleet of printers that initially protected the cartridges using the Cartridge Protection feature. These cartridges are not usable in this printer and must be replaced. The Cartridge Protection feature allows a printer or fleet owner to restrict usage of a cartridge to their printer or fleet of printers",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "unauthorized_cartridges_65926": {
+            "unauthorized_cartridges_65926_header": "Unauthorized Cartridges",
+            "error_icon": "Minus Circle",
+            "body": "The administrator has configured this printer to only use Original HP cartridges. The cartridge must be replaced to continue printing.\r\nIf you believe you purchased Original HP cartridges, visit us at www.hp.com/go/anticounterfeit for more information or to report fraud.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "cartridges_very_low_66039": {
+            "cartridges_very_low_66039_header": "Cartridges Very Low",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are very low.\r\n\r\nThe Very Low Behavior setting has been customer-configured to stop when the cartridge level is very low. The cartridges might still be able to produce acceptable print quality.\r\n\r\nTo continue printing, either replace the cartridges or set the Very Low Behavior setting for these cartridges to \"Continue\".\r\n\r\nVisit HP Supplies Recycling to learn more about HP's recycling programs.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridges_missing_66034": {
+            "cartridges_missing_66034_header": "Cartridges Missing",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges seem to be missing, are not detected, or are incorrectly installed.\r\n\r\nIf cartridges have been installed, remove the cartridge and re-insert it securely.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "used_or_counterfeit_cartridges_installed_66043": {
+            "used_or_counterfeit_cartridges_installed_66043_header": "Used or Counterfeit Cartridges Installed",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are used or counterfeit.\r\n\r\nAny printer repair required as a result of using these cartridges is not covered under warranty. Supply status and features depending on cartridge status might not be available. \r\n\r\nIf you believe you purchased Original HP cartridges, visit the HP Anti-Counterfeit website (www.hp.com/go/anticounterfeit) for more information or to report fraud. \r\n \r\nSee the printer control panel for more information.",
+            "button_info": "<Secondary>\r\n\"OK\"\r\n\"Get Supplies\""
+        },
+         "supply_problem_66038": {
+            "supply_problem_66038_header": "Supply Problem",
+            "error_icon": "Minus Circle",
+            "body": "The indicated supplies are not communicating correctly with the printer.\r\n\r\nTry reinstalling the supplies. If this problem persists, replace the supplies to continue printing.",
+            "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+         "cartridges_missing_65589": {
+            "cartridges_missing_65589_header": "Cartridges Missing",
+            "error_icon": "Minus Circle",
+            "body": "The indicated cartridges are missing or damaged.\r\n\r\nHP recommends that you replace any missing cartridges as soon as possible. Please leave the printer powered on until all cartridges are installed.",
+            "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+         "printhead_not_present_66128": {
+            "printhead_not_present_66128_header": "Printheads Not Present",
+            "error_icon": "Minus Circle",
+            "body": "The indicated printheads are either missing or incorrectly installed.\r\n\r\nInstall any missing printheads.\r\n\r\nIf these printheads are installed, remove and reseat them.",
+            "button_info": "None"
+        },
+         "printhead_replacement_incomplete_66130": {
+            "printhead_replacement_incomplete_66130_header": "Printhead Replacement Process Incomplete",
+            "error_icon": "Minus Circle",
+            "body": "The indicated printheads cannot be used yet. The printhead replacement process was not completed properly.\r\n\r\nRestart and complete the printhead replacement process.",
+            "button_info": "None"
+        },
+         "printhead_reseat_66131": {
+             "printhead_reseat_66131_header": "Reseat Printheads",
+             "error_icon": "Minus Circle",
+             "body": "The indicated printheads need to be reseated.\r\n\r\nIf the problem persists, replace the printheads.",
+             "button_info": "None"
+        },
+         "outofink_66537": {
+             "outofink_66537_header": "Cartridges Depleted",
+             "error_icon": "Minus Circle",
+             "body": "The depleted cartridges must be replaced to resume printing. HP recommends that you do not remove a cartridge until a replacement is ready to install.\r\n\r\nCartridges can be recycled. Visit [hyperlink] www.hp.com/recycle to learn more about HP's recycling programs.",
+             "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+         "cartridge_safe_stop_65939": {
+             "cartridge_safe_stop_65939_header": "Continuous Ink System Detected",
+             "error_icon": "Minus Circle",
+             "body": "ATTENTION: This printer is not designed to use continuous ink systems.\r\n\r\nTo resume printing, remove continuous ink system and install Original HP (or compatible) cartridges.",
+             "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "printhead_failure_66442": {
+             "printhead_failure_66442_header": "Printhead Problem",
+             "error_icon": "Minus Circle",
+             "body": "The printhead appears to be missing, incorrectly installed, or incompatible. Reinstall the printhead. If the problem persists, contact support.",
+             "button_info": "None"
+        },
+        "idsstartup_blocked_loi_flow_66440": {
+             "idsstartup_blocked_loi_flow_66440_header": "Fill Tanks",
+             "error_icon": "Minus Circle",
+             "body": "The indicated tanks do not have enough ink to initialize the printhead. Fill the indicated tanks now to continue.",
+             "button_info": "<Secondary>\r\n\"Get Supplies\""
+        },
+        "outofink_66618": {
+             "outofink_66618_header": "Fill Tanks",
+             "error_icon": "Minus Circle",
+             "body": "The indicated tanks do not have enough ink to continue printing without risk of damage. Fill the indicated tanks now to continue printing or cancel the job.",
+             "button_info": "<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+         }
+
+
+    }
+}

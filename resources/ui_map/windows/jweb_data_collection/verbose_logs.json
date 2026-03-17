@@ -1,0 +1,7 @@
+{
+  "verbose_logs_response_error": {
+    "locator": {
+      "xpath": "//Text[@AutomationId='logValue']"
+    }
+  }
+}

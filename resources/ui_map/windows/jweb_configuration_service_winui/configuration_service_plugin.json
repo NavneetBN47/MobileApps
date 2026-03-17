@@ -1,0 +1,148 @@
+{
+  "initialize_configuration_service_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Initialize Configuration Service']"
+    }
+  },
+  "configuration_service_header_title": {
+    "locator": {
+      "xpath": "//Text[@Name='Configuration Service Tester']"
+    }
+  },
+  "select_provider_combobox": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='ProviderComboBox']"
+    }
+  },
+  "get_configuration_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Get Configuration']"
+    }
+  },
+  "launchdarkly_option": {
+    "locator": {
+      "xpath": "//ListItem[@Name='launchdarkly']"
+    }
+  },
+  "unsupported_provider_option": {
+    "locator": {
+      "xpath": "//ListItem[@Name='unsupported_provider']"
+    }
+  },
+  "sdk_key_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='SdkKeyTextBox']"
+    }
+  },
+  "context_key_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='ContextKeyTextBox']"
+    }
+  },
+  "browse_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Browse']"
+    }
+  },
+  "content_scroll_viewer_popup": {
+    "locator": {
+      "xpath": "//Pane[@AutomationId='ContentScrollViewer']"
+    }
+  },
+  "initialize_message_text": {
+    "locator": {
+      "xpath": "//Pane[@AutomationId='ContentScrollViewer']//Text[2]"
+    }
+  },
+  "content_scroll_viewer_popup_ok_button": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='CloseButton']"
+    }
+  },
+  "configuration_message_text": {
+    "locator": {
+      "xpath": "//Text[@AutomationId='GetConfigResultTextBlock']"
+    }
+  },
+  "get_configuration_text_box": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='GetConfigKeyTextBox']"
+    }
+  },
+   "subscribe_configuration_text_box": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='SubscribeConfigKeyTextBox']"
+    }
+  },
+   "subscribe_configuration_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Subscribe']"
+    }
+  },
+  "subscribe_configuration_text_block": {
+    "locator": {
+      "xpath": "//Text[@AutomationId='SubscribeConfigResultTextBlock']"
+    }
+  },
+  "subscription_success_message": {
+    "locator": {
+      "xpath": "//Text[contains(@Name,'Subscribed successfully. SubscriptionId')]"
+    }
+  },
+   "unsubscribe_configuration_text_box": {
+    "locator": {
+      "xpath": ["//Edit[@AutomationId='UnsubscribeFromConfigurationSubscriptionIdTextBox']", 
+              "//Edit[@AutomationId='UnsubscribeFromConfigurationsSubscriptionIdTextBox']"]
+    }
+  },
+    "unsubscribe_configuration_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Unsubscribe']"
+    }
+  },
+  "unsubscription_success_message": {
+    "locator": {
+      "xpath": "//Text[contains(@Name,'Unsubscribed successfully.')]"
+    }
+  },
+  "get_all_configuration_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Get All Configurations']"
+    }
+  },
+  "get_all_configuration_list_items": {
+    "locator": {
+      "xpath": "//List[@AutomationId='GetAllConfigsListView']//ListItem"
+    }
+  },
+  "subscribe_all_configurations_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Subscribe to All Configurations']"
+    }
+  },
+  "unsubscribe_all_configurations_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Unsubscribe from All Configurations']"
+    }
+  },
+  "de_initialize_configuration_service_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='De-Initialize Configuration Service']"
+    }
+  },
+  "list_item_provider": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='ProviderComboBox']//ListItem"
+    }
+  },
+  "weblet_tab_btn": {
+    "locator": {
+      "xpath": "//TabItem[@Name='Weblet']"
+    }
+  },
+  "configuration_service_tab_btn": {
+    "locator": {
+      "xpath": "//TabItem[@Name='ConfigurationService']"
+    }
+  }
+}

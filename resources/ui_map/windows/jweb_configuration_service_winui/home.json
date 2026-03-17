@@ -1,0 +1,7 @@
+{
+  "configuration_service_btn": {
+    "locator": {
+      "name": "Configuration Service"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"solutions_mfe": {
+	    "locator": {
+		"xpath": "//section[@id='@jarvis/react-ecp-solutions']"
+	    }
+	}
+}

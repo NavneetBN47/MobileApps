@@ -1,0 +1,367 @@
+{
+    "add_shortcuts_btn": 
+    {
+    "locator": {
+      "xpath": "//XCUIElementTypeGroup/XCUIElementTypeButton[@label='Add Shortcut']",
+      "css selector": "#add-shortcut-btn",
+      "id": "add-shortcut-btn",
+      "name": "Plus Add new Shortcut Arrow Right"
+    }
+    },
+    "create_your_own_shortcut_btn": {
+    "locator": {
+      "name": "Pencil Create your own Shortcut Arrow Right"
+    }
+  },"save_destinations_toggle": {
+    "locator": {
+      "xpath":"(//XCUIElementTypeSwitch[@name='ContextualMenuButton'])[3]"
+    }
+  },"email_destinations_toggle": {
+    "locator": {
+      "xpath":"(//XCUIElementTypeSwitch[@name='ContextualMenuButton'])[2]"
+    }
+  },"print_destinations_toggle": {
+    "locator": {
+      "xpath":"(//XCUIElementTypeSwitch[@name='ContextualMenuButton'])[1]"
+    }
+  },"cancel_btn": {
+    "locator": {
+      "name": "Cancel"
+    }
+  },"cancel_yes_btn": {
+    "locator": {
+      "name": "Yes, cancel"
+    }
+  },"cancel_goback_btn": {
+    "locator": {
+      "name": "Go back"    
+    } 
+  },"print_toggle_btn": {
+    "locator":{
+      "name": "Print Toggle"
+    }
+  },"continue_btn": {
+    "locator": {
+      "name": "Continue"
+    } 
+  },"edit_btn" : {
+    "locator": {
+      "name": "Edit",
+      "xpath": "//XCUIElementTypeButton[@label='Edit']"
+    }
+  },"add_print_screen_title": {
+    "locator": {
+      "name": "Add Print Screen"
+    }
+  },"edit_print_screen_title" :{
+    "locator": {
+      "name": "Edit Print Screen"
+    }
+  },"copies_dropdown": {
+    "locator": {
+      "name": "Copies Dropdown",
+      "xpath": "(//XCUIElementTypeButton[@name='Open'])[1]"
+    }
+  },"copies_dropdown_option": {
+    "locator":{
+      "name": "Copies Dropdown Option",
+      "xpath": "//XCUIElementTypeStaticText[@label='Copies']/following-sibling::XCUIElementTypeOther[1]//XCUIElementTypeButton[@label='1']"
+    }
+  },"copies_dropdown_selected_value":{
+    "locator":{
+      "name": "Copies Dropdown Selected Value",
+      "xpath": "//XCUIElementTypeStaticText[@label='Copies']/following-sibling::XCUIElementTypeOther[1]//XCUIElementTypeStaticText[@label='1']"
+    }
+  },"color_dropdown":{
+    "locator": {
+      "name": "Color Dropdown",
+      "xpath": "(//XCUIElementTypeButton[@name='Open'])[2]"
+    }
+  },
+  "_shared_smart_task_tile": {
+    "locator": {
+      "name": ["Smart Tasks Tile", "Shortcuts Speed up repetitive tasks."],
+      "id": "Shortcuts Tile",
+      "str_id": "cSmartTasks"
+    }
+  },
+  "color_label": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypePopUpButton[@label='Color Grayscale']",
+        "//XCUIElementTypePopUpButton[@label='Color Color']"
+      ],
+      "css selector": "div#select-color-setting",
+      "id": "select-color-setting"
+    }
+  },
+  "copies_label": {
+    "locator": {
+      "name": "Copies",
+      "xpath": "//XCUIElementTypeStaticText[@label='Copies']"
+    }
+  },
+  "settings_button": {
+    "locator": {
+      "name": "settings_btn"
+    }
+  },
+  "settings_title": {
+    "locator": {
+      "name": "Settings",
+      "xpath": "//XCUIElementTypeStaticText[@label='Settings']"
+    }
+  },
+  "shortcut_name_item": {
+    "locator": {
+      "id": "shortcut-name-box",
+      "name": "Shortcut Name"
+    }
+  },
+  "shortcuts_title": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Shortcuts']",
+      "id": "title",
+      "name": "Shortcuts"
+    }
+  },
+  "two-sided_dropdown": {
+    "locator": {
+      "xpath": "(//XCUIElementTypeButton[@name='Open'])[3]"
+    }
+  },
+  "copies_dropdown_2": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@label='Copies']/following-sibling::XCUIElementTypeOther[1]//XCUIElementTypeButton[@label='2']",
+      "name": "2"
+    },
+    "copies_dropdown_3": {
+      "locator": {
+        "xpath": "//XCUIElementTypeStaticText[@label='Copies']/following-sibling::XCUIElementTypeOther[1]//XCUIElementTypeStaticText[@label='3']",
+        "name": "3"
+      }
+    }
+  },
+  "copies_dropdown_4": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@label='Copies']/following-sibling::XCUIElementTypeOther[1]//XCUIElementTypeStaticText[@label='4']",
+      "name": "4"
+    }
+  },
+  "graycolor_dropdown_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@label='Color']/following-sibling::XCUIElementTypeOther[1]//XCUIElementTypeButton[@label='Grayscale']",
+      "name": "Grayscale"
+    }
+  },
+  "two_sided_dropdown_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@label='Two-Sided']/following-sibling::XCUIElementTypeOther[1]//XCUIElementTypeButton[@label='Off']",
+      "name": "Off"
+    }
+  },
+  "two_sided_dropdown_shortedge": {
+    "locator": {
+      "name": "Short Edge"
+    }
+  },
+  "two_sided_dropdown_longedge": {
+    "locator": {
+      "name": "Long Edge"
+    }
+  },
+  "email_icon_image": {
+    "locator": {
+      "xpath": ["(//XCUIElementTypeButton[contains(@name, 'Email')]/ancestor::XCUIElementTypeOther[1]//XCUIElementTypeImage)[1]",
+                "//XCUIElementTypeButton[contains(@name, 'Email')]/preceding-sibling::XCUIElementTypeOther[1]//XCUIElementTypeImage"]
+    }
+  },
+  "delete_email_shortcut_btn": {
+    "locator": {
+      "xpath": ["//XCUIElementTypeButton[contains(@name, 'Envelope Email')]/following-sibling::XCUIElementTypeButton[2]",
+                "//XCUIElementTypeButton[@name='Envelope Email qa_mobiauto_2025_07_10_03_05_08_GCQHX5']/following-sibling::XCUIElementTypeButton[2]"]
+    }
+  },
+  "shortcuts_back_btn": {
+    "locator": {
+      "name": "Back",
+      "xpath": ["//XCUIElementTypeStaticText[@label='Shortcuts']/preceding::XCUIElementTypeButton[1]",
+              "(//XCUIElementTypeButton)[1]","//XCUIElementTypeStaticText[@label='Add new Shortcuts']/preceding::XCUIElementTypeButton[1]"]
+    }
+  },
+  "edit_btn_disabled": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Edit' and @enabled='false']"
+    }
+  },
+  "edit_add_shortcut_btn_disabled": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Add new Shortcut' and @enabled='false']"
+    }
+  },
+  "edit_shortcuts_print_btn"  : {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeButton[starts-with(@name, 'Printer') and starts-with(@label, 'Printer')][1]",
+        "//XCUIElementTypeButton[contains(@name, 'Printer')][1]//XCUIElementTypeImage[contains(@name, 'Edit') or contains(@name, 'Pencil')]",
+        "(//XCUIElementTypeButton[contains(@name, 'Printer')])[1]//*[contains(@name, 'Edit')]"
+      ]
+    }
+  },
+  "edit_shortcuts_email_btn" : {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeButton[starts-with(@name, 'Envelope') and starts-with(@label, 'Envelope')][1]",
+        "//XCUIElementTypeButton[contains(@name, 'Envelope')][1]//XCUIElementTypeImage[contains(@name, 'Edit') or contains(@name, 'Pencil')]",
+        "(//XCUIElementTypeButton[contains(@name, 'Envelope')])[1]//*[contains(@name, 'Edit')]"
+      ]
+    }
+  },
+  "edit_shortcuts_save_btn" : {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@name, 'Save')]/following-sibling::XCUIElementTypeButton[1]"
+    }
+  },
+  "two_sided_dropdown_selected": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Two-sided:')]",
+      "name": "Two-sided selected value"
+    }
+  },
+  "add_to_shortcut_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Add to Shortcut']",
+      "name": ["Add to Shortcut","Add Print"]
+    }
+  },
+  "add_shortcut_screen_title": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@label='Add Shortcut']",
+      "name": "Add Shortcut"
+    }
+  },
+  "print_details_preserved": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Print:')]",
+      "name": "Print details"
+    }
+  },
+  "add_email_screen_title": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@label='Add Email']",
+      "name": "Add Email"
+    }
+  },
+  "email_to_field": {
+    "locator": {
+      "xpath": ["//XCUIElementTypeTextField[@name='To:']",
+                "//XCUIElementTypeTextField[@index='3']",
+                "//XCUIElementTypeOther[contains(@name,'To:')]/following-sibling::XCUIElementTypeTextField[1]"],
+      "name": "To:"
+    }
+  },
+  "email_details_preserved": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Email:')]",
+      "name": "Email details"
+    }
+  },
+  "email_error_message": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Invalid email')]",
+      "name": "Email error message"
+    }
+  },
+  "multiple_email_details_preserved": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Emails:')]",
+      "name": "Multiple email details"
+    }
+  },
+  "too_many_emails_error_message": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Too many email addresses')]",
+      "name": "Too many emails error"
+    }
+  },
+  "subject_to_field": {
+    "locator": {
+      "xpath": [
+      "//XCUIElementTypeTextField[@value='You have files from Qama!']",
+      "//XCUIElementTypeStaticText[@label='Subject:']/following-sibling::XCUIElementTypeTextField[1]",
+      "//XCUIElementTypeTextField[contains(@value, 'You have files')]"
+    ],
+      "name": "Subject"
+    }
+  },
+  "email_body_field": {
+    "locator": {
+      "xpath": [
+      "//XCUIElementTypeTextView[contains(@value, 'The attached files have been sent to you from Qama')]",
+      "//XCUIElementTypeStaticText[@label='Body']/following-sibling::XCUIElementTypeTextView[1]",
+      "//XCUIElementTypeTextView[contains(@value, 'qa.mobiauto+ucde_stage')]",
+      "//XCUIElementTypeOther[@name='Body']/following-sibling::XCUIElementTypeTextView[1]",
+      "//XCUIElementTypeTextView[@x='53' and @y='506']",
+      "//XCUIElementTypeStaticText[@name='Body' and @enabled='true']"
+    ],
+      "name": "Body"
+    }
+  },
+  "google_drive_accounts": {
+    "locator": {
+      "xpath": ["//XCUIElementTypeButton[@name='Google Drive Accounts']",
+                "(//XCUIElementTypeButton[contains(@name, 'ContextualMenuButton')])[1]",
+                "//XCUIElementTypeButton[contains(@name, 'Google Drive Account-1') and contains(@name, 'ContextualMenuButton')]"
+               ],
+      "name": "Google Drive Account-1"
+    }
+  },
+  "google_drive_sign_in": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Google Drive Sign In']",
+      "name": "Google Drive Sign In"
+    }
+  },
+  "existing_shortcuts_button" : {
+    "locator": {
+      "xpath": ["//XCUIElementTypeButton[@name='Plus Add new Shortcut Arrow Right']/following-sibling::XCUIElementTypeButton[2]",
+                "(//XCUIElementTypeButton[contains(@label, 'Arrow Right')])[1]"]
+    }
+  },
+  "select_source_message": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@label='Select a source]",
+      "name": "Select a source"
+    }
+  },
+  "camera_scan_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Camera Scan']",
+      "name": "Camera scan"
+    }
+  },
+  "print_scan_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Printer scan']",
+      "name": "Printer scan"
+    }
+  },
+  "files_photo_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Files and photos']",
+      "name": "Files and photos"
+    }
+  },
+  "printing_btn_txt": {
+        "locator": {
+            "str_id": "cPrintingEllipsis",
+            "name": "Printing…",
+            "partial_text": "Printing"
+        }
+    },
+    "printing_msg_txt": {
+        "locator": {
+            "name": "Please wait on this screen until job has been sent"
+        }
+    }
+}

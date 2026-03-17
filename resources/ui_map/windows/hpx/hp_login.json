@@ -1,0 +1,77 @@
+{
+    "close_btn":{
+        "locator": {
+            "name": "Close"
+        }
+    },
+    "profile_icon":{
+        "locator": {
+            "id": "AUID_APPBAR_Profile_AvatarPressable"
+        }
+    },
+    "sign_in_title":{
+        "locator": {
+            "name": "Sign in"
+        }
+    },
+    "username_form":{
+        "locator": {
+            "id": "username"
+        }
+    },
+    "next_button":{
+        "locator": {
+            "id": "user-name-form-submit"
+        }
+    },
+    "sign_out_button":{
+        "locator": {
+            "id": "AUID_APPBAR_Profile_SignOut"
+        }
+    },
+    "my_account_button":{
+        "locator": {
+            "id": "AUID_APPBAR_Profile_GotoMyAccount"
+        }
+    },
+    "manage_account_link":{
+        "locator": {
+            "name": "Manage my account"
+        }
+    },
+    "password_form":{
+        "locator": {
+            "id": "password"
+        }
+    },
+    "sign_in_button":{
+        "locator": {
+            "id": "sign-in"
+        }
+    },
+    "success_icon":{
+        "locator": {
+            "name": "FA"
+        }
+    },
+    "firstname":{
+        "locator": {
+            "id": "firstName"
+        }
+    },
+    "signup_link":{
+        "locator": {
+            "name": "Sign up"
+        }
+    },
+    "signin_create_account_btn":{
+        "locator": {
+            "xpath":"//Button[@Name='Sign in / Create account']"
+        }
+    },
+    "user_signed_in":{
+        "locator": {
+            "id": "AUID_APPBAR_Profile_UserName"
+        }
+    }
+}

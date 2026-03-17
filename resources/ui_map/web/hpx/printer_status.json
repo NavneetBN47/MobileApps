@@ -1,0 +1,83 @@
+{
+    "status_ioref_item": {
+        "locator": {"xpath": "//List[@AutomationId='MasterListView']/ListItem[contains(@Name,'{}')]"}
+    },
+    "middle_icon_image": {
+        "locator": {
+            "xpath": "//List[@AutomationId='MasterListView']/ListItem[contains(@Name, '{}')]/Image[1]"}
+    },
+    "middle_status_list": {
+        "locator": {
+            "xpath": "//List[@AutomationId='MasterListView']"}
+    },
+    "middle_status_item": {
+        "locator": {
+            "xpath": "//List[@AutomationId='MasterListView']/ListItem[{}]"}
+    },
+    "middle_title_text": {
+        "locator": {
+            "xpath": "//List[@AutomationId='MasterListView']/ListItem[contains(@Name, '{}')]/Text[2]"}
+    },
+    "middle_body_text": {
+        "locator": {
+            "xpath": "//List[@AutomationId='MasterListView']/ListItem[contains(@Name, '{}')]/Text[last()]"}
+    },
+    "middle_info_close_btn": {
+        "locator": {
+            "xpath": "//List[@AutomationId='MasterListView']/ListItem[contains(@Name, '{}')]/Text[5]"}
+    },
+    "right_icon_image": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='FullTextBlock']/preceding-sibling::Image[last()]"}
+    },
+    "right_title_text": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='FullTextBlock']/preceding-sibling::Text[last()]"}
+    },
+    "right_body_text": {
+        "locator": {
+            "id": "FullTextBlock"}
+    },
+    "right_body_link": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='{}']"}
+    },
+    "right_body_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='{}']"}
+    },
+    "dialog_ok_btn": {
+        "locator": {
+            "xpath": "//Button[@AutomationId='TitleBackButton']/following-sibling::Button[2]"}
+    },
+    "printer_image": {
+        "locator": {
+            "id": "DeviceImage"}
+    },
+    "printer_status_icon": {
+        "locator": {
+            "id": "DeviceStateIconImage"}
+    },
+    "printer_status_title": {
+        "locator": {
+            "id": "DeviceStateTitleText"}
+    },
+    "printer_status_title_text": {
+        "locator": {
+            "xpath": "//Text[@Name='{}']"}
+    },
+    "printer_status_text": {
+        "locator": {
+            "id": "DeviceStateSubtitleText"}
+    },
+    "webpage_close_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='close' and @ClassName='close_btn']"}
+
+    },
+    "chatbot_dialog": {
+        "locator": {
+            "id": "chatbotToronto"}
+    }
+
+}

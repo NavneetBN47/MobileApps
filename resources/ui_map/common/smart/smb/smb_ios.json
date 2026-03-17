@@ -1,0 +1,50 @@
+{
+  "welcome_back_title": {
+    "locator": {"str_id": "cSelectOrganizationTitle"}
+  },
+  "continue_btn": {
+    "locator": {"str_id": "cContinue",
+    "name": "Continue"}
+  },
+  "my_printers_txt": {
+    "locator": {
+      "str_id": "cMyPrinters",
+      "xpath": "//XCUIElementTypeStaticText[starts-with(@name, 'Personal_')]"
+    }
+  },
+  "select_org_message": {
+    "locator": {"str_id": "cSelectOrganizationMessage"}
+  },
+  "manage_hp_account_btn": {
+    "locator": {
+      "str_id": "cMyHPAccount",
+      "name": "Manage HP Account",
+      "xpath": "//XCUIElementTypeButton[@name='Manage HP Account']"
+    }
+  },
+   "org_item_from_account": {
+    "locator": {"xpath": "//XCUIElementTypeStaticText[contains(@name, '{}')]"}
+  },
+  "are_you_sure_popup_title": {
+    "locator": {"str_id": "cSignOutConfirmTitle",
+    "name": "Are you sure you want to sign out of your HP account?"}
+  },
+  "are_you_sure_popup_message": {
+    "locator": {
+      "str_id": "cSignOutConfirmMessage",
+      "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Signing out of your HP account will hide printers associated')]"
+    }
+  },
+  "are_you_sure_cancel_btn": {
+    "locator": {
+      "id": "Cancel",
+      "str_id": "cCancel"
+    }
+  },
+  "are_you_sure_sign_out_btn": {
+    "locator": {
+      "str_id": "cSignout",
+      "name": "Sign out"
+    }
+  }
+}

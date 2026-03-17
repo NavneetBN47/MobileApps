@@ -1,0 +1,79 @@
+{
+    "value_proposition_div":{
+        "locator": {
+            "css selector":["div#app",".value-prop-info", ".redesignValuePropContentV2Moobe-module_contentBody__1pAj2"],
+            "xpath": "//*[@id='@jarvis/react-smb-instant-ink-signup']"
+        }
+    },
+    "skip_button":
+    {
+        "locator":{"css selector":["div[data-testid='skip-button']","[data-analyticsid='SkipTrialButton']", "[data-testid='ucde-skip-link'], [data-testid='refuse-button']"],
+                    "xpath": "//Button[@Name='Skip Offe']"}
+    },
+    "yes_skip_offer_btn":{
+        "locator": {"css selector":["button[data-testid='ucde-skip-button']","[data-analyticsid='SkipOfferButton']", "[data-analyticsid='SkipOfferLink'], [data-testid='flip-skip-button']"]}
+    },
+    "skip_offer_overlay":{
+        "locator":{"css selector":"[data-testid='skip-offer-link']"}
+    },
+    "Enroll_in_instant_ink_info_page":{
+        "locator":{"css selector":["div[class*='cardInfoContainer']","[data-testid='plan-card']", "#enroll-info-container"]}
+    },
+    "value_prop_title":{
+        "locator":{"css selector":"h3.title-regular--light.value-prop-title"}
+    },
+    "learn_more_overlay_btn":{
+        "locator":{"css selector":["[data-analyticsid='IInkLearnMoreLink']","[data-analyticsid='InstantInkLearnMoreLink']", "[data-testid='learn-more-link']"]}
+    },
+    "survey_modal_iframe":{
+        "locator":{"css selector":"#kampyleForm46153"}
+    },
+    "survey_modal_overlay":{
+        "locator":{"css selector":".pageRepeater"}
+    },
+    "close_btn_survey_modal":{
+        "locator":{"css selector":".cancel-btn"}
+    },
+    "continue_btn":{
+        "locator":{"css selector":["[data-testid='continue-button']", "[data-testid='ucde-continue-button']", "[data-testid='ill-try-it-button']"]}
+    },
+    "are_you_sure_to_skip_overlay":{
+        "locator":{"css selector":".vn-modal--content.css-1f6u1hf"}
+    },
+    "are_you_sure_to_skip_overlay_skip_btn":{
+        "locator":{"css selector":"[data-testid='ucde-skip-button']"}
+    },
+    "automatic_printer_updates":{
+        "locator":{"css selector":["[data-testid='auto-printer-page']","#app"]}
+    },
+    "automatic_printer_updates_continue_btn":{
+        "locator":{"css selector":["[data-testid='btn-continue']", "[data-testid='continue-button']"]}
+    },
+    "automatic_renewal_notice_disclaimer":{
+        "locator":{"css selector":["[data-testid='disclaimer']", "[data-testid='content-arn-component']", "[data-testid='header-arn-component']"]}
+    },
+    "terms_of_agreement_checkbox":{
+        "locator":{"css selector":"[data-testid='terms-agreement']"}
+    },
+    "agree_ink_terms_of_service_checkbox":{
+        "locator":{"css selector":"[for='accept-terms']"}
+    },
+    "disclaimer_show_more_button":{
+        "locator":{"css selector":"[data-testid='show-more-button']"}
+    },
+    "redeem_btn":{
+        "locator":{"css selector":["[data-testid='redeem-button']","[data-testid='confirm-button']"]}
+    },
+    "do_not_enable_ink_btn":{
+        "locator":{"xpath": "//Button[@Name='Do not enable ink delivery']"}
+    },
+    "notify_opt":{
+        "locator":{"xpath": "//Pane[@Name='HP Product Setup']/Text[8]"}
+    },
+    "Apply_btn":{
+        "locator":{"xpath": "//Button[@Name='Apply']"}
+    },
+    "toner_is_on_the_way":{
+        "locator":{"css selector":"[data-testid='thank-you']"}
+    }
+}

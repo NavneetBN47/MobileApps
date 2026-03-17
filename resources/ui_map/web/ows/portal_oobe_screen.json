@@ -1,0 +1,343 @@
+{
+    "emulator_load_div":{
+        "locator": {"id": "xmo2-emulator"}
+    },
+    "access_beta_page":{
+        "locator": {"css selector":"#error-text-box"}
+    },
+    "go_btn":{
+        "locator":{"css selector":"button[type='submit']"}
+    },
+    "continue_btn":{
+        "locator":{"css selector":["[data-testid='submit']", "[data-testid='pairing-code-confirm']", "button[type='button']", "[data-testid='value-prop-continue']", "[data-testid='submit-selection']", "[data-testid='activate-hp-plus'], [data-testid='continue'], [data-testid='continue-button']"]}
+    },
+    "printer_stepper":{
+        "locator":{"css selector":"#veneer-stepper"}
+    },
+    "support_page":{
+        "locator":{"css selector":"#hp-support-com"}
+    },
+    "select_account_type_page":{
+        "locator":{"css selector":["[data-testid='account-type-page']", "[data-testid='AccountTypePage']"]}
+    },
+    "select_personal_use_btn":{
+        "locator":{"css selector":"[data-testid='button-personal']"}
+    },
+    "select_business_printer_btn":{
+        "locator":{"css selector":"[data-testid='button-businesstransactionalsmb']"}
+    },
+    "select_printer_oranization":{
+        "locator":{"css selector":"input[value*='company']"}
+    },
+    "selected_personal_company_option":{
+        "comment":{"jira_ticket":"https://hp-jira.external.hp.com/browse/ONBP-1943"},
+        "locator":{"css selector":[".css-33v5o6", ".css-10gc33f"]}
+    },
+    "sign_in_btn":{
+        "locator":{"css selector":"[data-testid='submit-selection']"}
+    },
+    "hp_t&C_eula_page":{
+        "locator":{"css selector":"[data-testid='create-acct-page']"}
+    },
+    "cancel_setup_btn":{
+        "locator":{"css selector":"[data-testid='btn-cancel']"}
+    },
+    "printer_check_icon":{
+        "locator":{"css selector":"svg[aria-label='Printer Check']"}
+    },
+    "truck_icon":{
+        "locator":{"css selector":"svg[aria-label='Truck']"}
+    },
+    "hp_learn_url":{
+        "locator":{"css selector":"a[href='https://www.hp.com/learn/ds']"}
+    },
+    "continue_online_setup_pop_model_btn":{
+        "locator":{"css selector":"[data-testid='btn-modal-continue']"}
+    },
+    "cancel_online_setup_pop_model_btn":{
+        "locator":{"css selector":"[data-testid='btn-modal-cancel']"}
+    },
+    "close_popup_x":{
+        "locator":{"css selector":".vn-modal__close"}
+    },
+    "smb_dashboard":{
+        "locator":{"css selector":"[class*='react-smb-dashboar']"}
+    },
+    "personal_printer_btn":{
+        "locator":{"css selector":"button[data-testid='personal']"}
+    },
+    "hp_logo":{
+        "locator":{"css selector":"path.multicolor"}
+    },
+    "activated_checkmark":{
+        "locator":{"css selector":["img[alt='checkmark']","._3zgrm9HiFP3zWvWlQiKj6p"]}
+    },
+    "hp_printer_img":{
+        "locator":{"css selector":"img[alt='printer image']"}
+    },
+    "left_panel_printer_container":{
+        "locator":{"xpath":"//*[@id='@jarvis/oobe-layout']"}
+    },
+    "set_up_print":{
+        "locator":{"css selector":"button[data-testid='setup-printer']"}
+    },
+    "printer_setup_img":{
+        "locator":{"css selector":"path[class='rounded lined']"}
+    },
+    "exit_setup":{
+        "locator":{"css selector":"button[data-testid='exit-setup']"}
+    },
+    "123_url":{
+        "locator":{"css selector":["a[target='_blank']", "a[href='http://123.hp.com/devices/setup/downloading']"]}
+    },
+    "organization_description":{
+        "locator":{"css selector":"#organization-description"}
+    },
+    "checkbox":{
+        "locator":{"css selector":".vn-checkbox__span"}
+    },
+    "sucess_check_circle":{
+        "locator":{"css selector":"svg[aria-label='Check Circle']"}
+    },
+    "learn_more":{
+        "locator":{"css selector":"[data-testid='show-benefits']"}
+    },
+    "hp_plus_smart_printer_requirements_page":{
+        "locator":{"css selector":["[data-testid='activation-page']","[data-testid='ActivationPage']"]}
+    },
+    "confirm_hp_plus_activation":{
+        "locator":{"css selector":"[data-testid='activation-confirm']"}
+    },
+    "printer_activation_page":{
+        "locator":{"css selector":["[data-testid='printer-activation-page']","[data-testid='activating-page']", "[data-testid='ActivatingPage']"]},
+        "analytics":[{
+            "event":["ScreenDisplayed,PrinterActivationProgress,/PortalOobe/,InitiationScreen,PairingCode-v01",
+                     "ScreenDisplayed,PrinterActivationProgress,/PortalOobe/,TokenScreen,PairingCode-v01",
+                     "ScreenDisplayed,PrinterActivationProgress,/PortalOobe/,IrisScreen,PairingCode-v01",
+                     "ScreenDisplayed,PrinterActivationProgress,/PortalOobe/,IotScreen,PairingCode-v01",
+                     "ScreenDisplayed,PrinterActivationProgress,/PortalOobe/,RegisterDeviceScreen,PairingCode-v01",
+                     "ScreenDisplayed,PrinterActivationSuccess,/PortalOobe/,PairingCode-v01"],
+            "trigger":"wait_v"
+        }]
+    },
+    "printer_activation_page_benefits":{
+        "locator":{"css selector":"[data-testid='activation-benefits']"}
+    },
+    "printer_activation_page_connecting_text":{
+        "locator":{"css selector":"[data-testid='activating-text']"}
+    },
+    "activation_error_overlay":{
+        "locator":{"css selector":["[aria-describedby='setup-print-desc']",".vn-modal--content"]}
+    },
+    "try_again_btn":{
+        "locator":{"css selector":"[data-testid='try-again']"}
+    },
+    "hp_admin_link":{
+        "locator":{"css selector":"[data-analyticsid='HpAdminLink']"}
+    },
+    "checkmark_circle":{
+        "locator":{"css selector":"svg.css-nwbq12",
+                   "xpath":"//*[contains(@class, 'base-Icon')]"}
+    },
+    "accept_auto_updates":{
+        "locator":{"css selector":"button[data-testid='btn-continue']"}
+    },
+    "select_fw_auto_update_radio_btn":{
+        "locator":{"css selector":"[data-testid='auto']"}
+    },
+    "fw_auto_update_notice_apply_btn":{
+        "locator":{"css selector":"[data-testid='btn-apply']"}
+    },
+    "finish_printer_setup_page":{
+        "locator":{"css selector":"[data-testid='background']"}
+    },
+    "set_up_print_send_test_page_btn":{
+        "locator":{"css selector":"[data-testid='setup-option-print-button']"}
+    },
+    "set_up_print_send_test_page_section":{
+        "locator":{"css selector":"[data-testid='setup-option-print']"}
+    },
+    "set_up_print_page":{
+        "locator":{"css selector":"[data-testid='setup-print-page-windows']"}
+    },
+    "install_print_driver_btn":{
+        "locator":{"css selector":"[data-testid='install']"}
+    },
+    "already_have_driver_button":{
+        "locator":{"css selector":"[data-testid='already-have-driver']"}
+    },
+    "install_hp_smart_btn":{
+        "locator":{"css selector":"[data-testid='hp-smart']"}
+    },
+    "print_btn":{
+        "locator":{"css selector":"[data-testid='first-print-button']"}
+    },
+    "done_btn":{
+        "locator":{"css selector":["[data-testid='done']","button.css-13gwoo4:nth-child(1)"]}
+    },
+    "set_up_scan_destinations_btn":{
+        "locator":{"css selector":"[data-testid='setup-option-scan-button']"}
+    },
+    "set_up_scan_destinations_section":{
+        "locator":{"css selector":"[data-testid='setup-option-scan']"}
+    },
+    "scan_overlay_screen":{
+        "locator":{"css selector":"[data-testid='scan-component-container']"}
+    },
+    "scan_to_email_section":{
+        "locator":{"css selector":"div#scan-to-destination-email-container"}
+    },
+    "scan_to_email_btn":{
+        "locator":{"css selector":"button#email-button"}
+    },
+    "scan_to_cloud_section":{
+        "locator":{"css selector":"div#scan-to-destination-cloud-container"}
+    },
+    "scan_to_cloud_btn":{
+        "locator":{"css selector":"button#cloud-button"}
+    },
+    "set_up_fax_btn":{
+        "locator":{"css selector":"[data-testid='setup-option-fax-button']"}
+    },
+    "set_up_fax_section":{
+        "locator":{"css selector":"[data-testid='setup-option-fax']"}
+    },
+    "invite_users_and_admin_btn":{
+        "locator":{"css selector":"[data-testid='setup-option-invite-button']"}
+    },
+    "invite_users_and_admin_section":{
+        "locator":{"css selector":"[data-testid='setup-option-invite']"}
+    },
+    "go_to_hp_smart_btn":{
+        "locator":{"css selector":"[data-testid='exit-setup']"}
+    },
+    "install_drivers_page":{
+        "locator":{"css selector":"[data-testid='install-drivers-windows-page']"},
+        "analytics":[{
+            "event":"ScreenDisplayed,InstallDriverWindows,/PortalOobe/,InstallDriversandTestPage-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "install_drivers_page_nonwindows":{
+        "locator":{"css selector":"[data-testid='install-drivers-page']"},
+        "analytics":[{
+            "event":"ScreenDisplayed,InstallDriverOther,/PortalOobe/,InstallDriversandTestPage-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "install_drivers_page_content":{
+        "locator":{"css selector":"[data-testid='text-subheader']"}
+    },
+    "install_drivers_page_content_nonwindows":{
+        "locator":{"css selector":"[data-testid='card-text-0']"}
+    },
+    "install_driver_btn":{
+        "locator":{"css selector":"[data-testid='install-driver']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,InstallDriverWindows,/PortalOobe/,InstallDriverButton,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "install_drivers_page_drivers_link":{
+        "locator":{"css selector":"[data-testid='hp-smart-driver']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,InstallDriverWindows,/PortalOobe/,HpSmartDriverLink,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "install_drivers_page_continue_btn":{
+        "locator":{"css selector":"[data-testid='continue']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,InstallDriverWindows,/PortalOobe/,ContinueButton,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "install_drivers_page_skip_btn":{
+        "locator":{"css selector":"[data-testid='skip']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,InstallDriverWindows,/PortalOobe/,SkipButton,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "install_drivers_page_nonwindows_learn_more":{
+        "locator":{"css selector":"[data-testid='card-text-2']"},
+        "analytics":[{
+            "event":"ControlHyperLinkClicked,InstallDriverOther,/PortalOobe/,LearnHpSmartLink,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "install_hp_smart_driver_btn_page_nonwindows":{
+        "locator":{"css selector":"[data-testid='install-hp-smart']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,InstallDriverOther,/PortalOobe/,InstallDriverButton,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "install_drivers_page_continue_btn_nonwindows":{
+        "comment":"Duplicate Locator because differnet event for nonwindows OS",
+        "locator":{"css selector":"[data-testid='continue']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,InstallDriverOther,/PortalOobe/,ContinueButton,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "install_dirvers_page_skip_btn_nonwindows":{
+        "comment":"Duplicate Locator because differnet event for nonwindows OS",
+        "locator":{"css selector":"[data-testid='skip']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,InstallDriverOther,/PortalOobe/,SkipButton,InstallDriversandTestPage-v01",
+            "trigger":"click"
+        }]
+    },
+    "scan_and_fax_tile_finish_printer_setup":{
+        "locator":{"css selector":"[data-testid='image-Scan and fax setup']"}
+    },
+    "users_management_finish_printer_setup":{
+        "locator":{"css selector":"[data-testid='image-User management']"}
+    },
+    "fleet_control_finish_printer_setup":{
+        "locator":{"css selector":"[data-testid='image-Fleet control']"}
+    },
+    "subscriptions_tile_finish_printer_setup":{
+        "locator":{"css selector":"[data-testid='image-Subscriptions']"}
+    },
+    "print_solutions_tile_finish_printer_setup":{
+        "locator":{"css selector":"[data-testid='image-Print Solutions']"}
+    },
+    "continue_to_hp_smart_admin_page":{
+        "locator":{"css selector":"[data-testid='hp-smart-admin-page']"},
+        "analytics":[{
+            "event":"ScreenDisplayed,SmartAdminValueProp,/PortalOobe/,HpSmartAdminHandOff-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "open_hp_smart_admin":{
+        "comment":"Duplicate locator but differenrt page and different event",
+        "locator":{"css selector":"[data-testid='continue']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,SmartAdminValueProp,/PortalOobe/,HpSmartAdminButton,HpSmartAdminHandOff-v01",
+            "trigger":"click"
+        }]
+    },
+    "survey_modal":{
+        "locator":{"css selector":"#liveForm > div > div.live-form-content > div.modal-live-form.ng-scope > div > div"}
+    },
+    "survey_modal_close_btn":{
+        "locator":{"css selector":"#liveForm > div > div.row.neb-form-close-btn-container > div > button"}
+    },
+    "scan_to_email_enabled_modal":{
+        "locator":{"css selector":"[data-testid='scan-setup-complete']"}
+    },
+    "scan_setup_complete_modal_close_btn":{
+        "locator":{"css selector":"[data-testid='scan-setup-complete-button']"}
+    },
+    "scan_to_email_modal_body":{
+        "locator":{"css selector":"#scan-setup-complete-desc"}
+    },
+    "scan_to_email_modal_add_contacts":{
+        "locator":{"css selector":"[data-testid='scan-setup-complete-button-add-contact']"}
+    },
+    "scan_to_email_modal_done_btn":{
+        "locator":{"css selector":"[data-testid='scan-setup-complete-button-add-contact']"}
+    }
+}

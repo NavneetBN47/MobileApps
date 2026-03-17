@@ -1,0 +1,1 @@
+en-US,ar-SA,zh-Hant-HK,en-GB,he-IL,bg-BG,cs-CZ,da-DK,el-GR,et-EE,fi-FI,hu-HU,id-ID,fr-CA,ja-JP,ko-KR,lv-LV,fr-FR,nb-NO,nl-NL,pl-PL,pt-BR,ro-RO,sk-SK,th-TH,zh-Hans,zh-Hant,uk-UA,tr-TR,sv-SE,sr-LATN-rs,sl-SI,ru-RU,pt-PT,lt-LT,hr-HR,ca-ES,de-DE,es-ES,es-MX,eu-ES,gl-ES,it-IT

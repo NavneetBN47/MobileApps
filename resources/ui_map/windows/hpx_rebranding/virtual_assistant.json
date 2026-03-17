@@ -1,0 +1,323 @@
+{
+    "get_help_text": {
+        "locator": {
+            "id": "Support.SupportCard.GetHelp"
+        }
+    },
+    "get_help_subtitle":{
+        "locator":{
+            "xpath": "//Text[@Name='Get help']"
+        }
+    },
+    "start_virtual_assistant":{
+        "locator":{
+            "xpath": "//Button[@Name='Start Virtual Assistant']"
+        }
+    },
+    "start_msg_va": {
+        "locator": {
+            "xpath": "//Text[contains(@Name, 'Hi HP Virtual Assistant.')]"
+        }
+    },
+    "view_manuals_and_guides_link":{
+        "locator":{
+            "id": "Support.SupportCard.SeeManualsGuidesButton"
+        }
+    },
+    "find_a_repair_center": {
+        "locator": {
+            "id": "Support.SupportCard.FindRepairButton"
+        }
+    },
+    "start_a_repair_order":{
+        "locator":{
+            "id": "Support.SupportCard.StartRepairButton"
+        }
+    },
+    "get_more_help_on_our_website_link":{
+        "locator":{
+            "id": "Support.SupportCard.ProductPageButton"
+        }
+    },
+    "contact_us":{
+        "locator":{
+            "id": "Support.SupportCard.ContactUsButton"
+        }
+    },
+    "va_chat_header":{
+        "locator":{
+            "id": "VirtualAssistant.VirtualAssistant.VirtualAssistantTitle"
+        }
+    },
+    "how_can_i_assist_you":{
+        "locator":{
+            "xpath": "//Text[@Name='How can I assist you?']"
+        }
+    },
+    "pc_btn_va":{
+        "locator":{
+            "xpath": ["//Button[@HelpText='PC']", "//Button[@Name='PC']"]
+        }
+    },
+    "perfomance":{
+        "locator":{
+            "xpath": "//Button[@Name='Performance']"
+        }
+    },
+    "product_information":{
+        "locator":{
+            "xpath": "//Button[@Name='Product information']"
+        }
+    },
+    "yes_btn":{
+        "locator":{
+            "xpath": "//Button[@Name='Yes']"
+        }
+    },
+    "rephrase_my_question_btn":{
+        "locator":{
+            "xpath": "//Button[@Name='Rephrase my question']"
+        }
+    },
+    "hp_pc_updating_driver_link": {
+        "locator": {
+            "class name": "ac-anchor",
+            "xpath": ["//HyperLink[@Name='HP PCs - Updating drivers using Windows Update (Windows 11, 10)']", "//HyperLink[@ClassName='ac-anchor']"]
+        }
+    },
+    "printer_related_support":{
+        "locator":{
+            "xpath": "//Button[@Name='Printer']"
+        }
+    },
+    "support_gpt":{
+        "locator":{
+            "xpath": ["//Button[@Name='Use SupportGPT']", "//Button[@Name=\"Chat with HP's SupportGPT for AI Answers\"]", "//Button[@Name='Get an AI Answer']"]
+        }
+    },
+    "great_deals_from_hp":{
+        "locator":{
+            "xpath": "//Button[@Name='Great deals from HP']"
+        }
+    },
+    "enter_your_question":{
+        "locator":{
+            "xpath": ["//Edit[@ClassName='webchat__send-box-text-box__input']", "//Edit[@Name='Message input box']"]
+        }
+    },
+    "i_can_help_you_with":{
+        "locator":{
+            "xpath": "//Text[contains(@Name, 'I can help you with')]"
+        }
+    },
+    "send_btn":{
+        "locator":{
+            "xpath": "//Button[@Name='Send']"
+        }
+    },
+    "feedback_va_btn":{
+        "locator":{
+            "id": "botaction_feedback",
+            "xpath": "//HyperLink[@Name='Feedback']"
+        }
+    },
+    "how_satisfied_text":  {
+        "locator":{
+            "xpath": "//Text[@Name='How satisfied are you with this chat?']"
+        }
+    },
+    "va_resolve_my_issue":{
+        "locator":{
+            "xpath": "//Text[@Name='The HP virtual assistant made it easy to resolve my issue.']"
+        }
+    },
+    "would_like_to_tell_more":{
+        "locator":{
+            "xpath": "//Text[@Name='Would you like to tell us more?']"
+        }
+    },
+    "enter_your_feedback_textbox":{
+        "locator":{
+            "xpath": "//Edit[contains(@HelpText,'Enter your feedback here ')]"
+        }
+    },
+    "submit_feedback_va_btn":{
+        "locator":{
+            "xpath": ["//Button[@Name='Submit']", "//Button[@HelpText='Submit']"]
+        }
+    },
+    "feedback_skip_va_btn":{
+        "locator":{
+            "xpath":  ["//Button[@Name='Skip']", "//Button[@HelpText='Skip']"]
+        }
+    },
+    "start_over_btn":{
+        "locator":{
+            "id": "botaction_startover",
+            "xpath": "//HyperLink[@Name='Start over']"
+        }
+    },
+    "start_over_with_a_new_issue_btn":{
+        "locator":{
+            "xpath": "//Button[@Name='Start over with a new issue']"
+        }
+    },
+    "i_would_like_to_continue_btn":{
+        "locator":{
+            "xpath": "//Text[@Name='Never mind, I would like to continue']"
+        }
+    },
+    "va_bottom_privacy_btn":{
+        "locator":{
+            "xpath": ["//HyperLink[@Name='Privacy']", "//HyperLink[@Name='Privacy Statement']"]
+        }
+    },
+    "end_session_btn":{
+        "locator":{
+            "id": "VirtualAssistant.VirtualAssistant.EndVASessionButton",
+            "xpath": "//Button[@Name='End session']"
+        }
+    },
+    "minimize_btn_va":{
+        "locator": {
+            "id": "VirtualAssistantMinimizedButton"
+        }
+    },
+    "close_va_popup":{
+        "locator":{
+            "xpath": "//Group[@ClassName='clientos-ui-toolkit-modal-container clientos-ui-toolkit-modal__small css-9xksin']"
+        }
+    },
+    "close_va_btn":{
+        "locator":{
+            "xpath": "//Group[@ClassName='vn-modal--content css-1mr4b13']//Button[@Name='Close']",
+            "class name": "clientos-ui-toolkit-button label clientos-ui-toolkit-button__secondary clientos-ui-toolkit-button__medium expanded css-l3jais"
+        }
+    },
+    "keep_open_va_btn":{
+        "locator":{
+            "xpath": "//Group[@ClassName='vn-modal--content css-1mr4b13']//Button[@Name='Keep open']",
+            "class name": "clientos-ui-toolkit-button label clientos-ui-toolkit-button__primary clientos-ui-toolkit-button__medium expanded css-l3jais"
+        }
+    },
+    "did_this_solve_the_problem":{
+        "locator":{
+            "xpath": "//Text[@Name='Did this solve the problem?']"
+        }
+    },
+    "yes_solved_btn":{
+        "locator":{
+            "xpath": "//Button[@Name='Yes']"
+        }
+    },
+    "not_solved_btn":{
+        "locator":{
+            "xpath": "//Button[@Name='No']"
+        }
+    },
+    "feature_unavailable_ok_btn": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'clientos-ui-toolkit-button label clientos-ui-toolkit-button__primary clientos-ui-toolkit-button__medium css-l3jais']"
+        }
+    },
+    "hp_privacy_statement_link_after_feedback": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='HP's Privacy Statement']"
+        }
+    },
+    "tab_name_update_driver": {
+        "locator": {
+            "xpath": "//TabItem[contains(@Name, 'HP PCs - Updating drivers using Windows Update (Windows 11, 10)')]"
+        }
+    },
+    "what_can_we_help_you_header": {
+        "locator": {
+            "xpath": "//Text[@Name='What can we help you with?']"
+        }
+    },
+    "computer_is_slow": {
+        "locator": {
+            "id": "Support.VaPcIntents.ComputerIsSlowButton"
+        }
+    },
+    "display_or_touchscreen": {
+        "locator": {
+            "id": "Support.VaPcIntents.DisplayOrTouchIssueButton"
+        }
+    },
+    "keyboard_or_mouse": {
+        "locator": {
+            "id": "Support.VaPcIntents.KeyboardMouseSettingsButton"
+        }
+    },
+    "restore_computer_settings": {
+        "locator": {
+            "id": "Support.VaPcIntents.RestoreComputerSettingsButton"
+        }
+    },
+    "no_sound": {
+        "locator": {
+            "id": "Support.VaPcIntents.NoSoundButton"
+        }
+    },
+    "show_more_btn_va": {
+        "locator": {
+            "id": "Support.VaPcIntents.ShowMorePcButton"
+        }
+    },
+    "computer_locks_freezes": {
+        "locator": {
+            "id": "Support.VaPcIntents.ComputerLocksOrFreezesButton"
+        }
+    },
+    "windows_support": {
+        "locator": {
+            "id": "Support.VaPcIntents.WindowsSupportButton"
+        }
+    },
+    "computer_not_start": {
+        "locator": {
+            "id": "Support.VaPcIntents.ComputerWillNotStartButton"
+        }
+    },
+    "storage_issue": {
+        "locator": {
+            "id": "Support.VaPcIntents.StorageIssueButton"
+        }
+    },
+    "cannot_login_computer": {
+        "locator": {
+            "id": "Support.VaPcIntents.CannotLoginComputerButton"
+        }
+    },
+    "cant_connect_computer_to_printer": {
+        "locator": {
+            "id": "Support.VaPcIntents.CannotConnectPrinterButton"
+        }
+    },
+    "other_btn_va": {
+        "locator": {
+            "id": "Support.VaPcIntents.OthersPcButton"
+        }
+    },
+    "show_less_va": {
+        "locator": {
+            "id": "Support.VaPcIntents.ShowLessPcButton"
+        }
+    },
+    "va_back_btn": {
+        "locator": {
+            "id": "NavBar.NavBarView.BackButton"
+        }
+    },
+    "chromebook_card": {
+        "locator": {
+            "xpath": "//Text[@Name='Are you using a Chromebook?']"
+        }
+    },
+    "chromecard_no_btn": {
+        "locator": {
+            "xpath": "//Button[@HelpText='No']"
+        }
+    }
+}

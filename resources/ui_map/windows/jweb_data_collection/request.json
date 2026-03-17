@@ -1,0 +1,22 @@
+{
+  "data_valve_request_url": {
+    "locator": {
+      "xpath": "//List[@AutomationId='requestLogTable']//ListItem[{}]//Edit"
+    }
+  },
+  "data_valve_controller_second_attempt_status_code": {
+    "locator": {
+      "xpath": "//ListItem[@Name='HP.Jarvis.DataCollection.Reference.UWP.RequestLog+RequestLogView'][1]//Edit[3]"
+    }
+  },
+  "data_valve_controller_first_attempt_status_code": {
+    "locator": {
+      "xpath": "//ListItem[@Name='HP.Jarvis.DataCollection.Reference.UWP.RequestLog+RequestLogView'][2]//Edit[3]"
+    }
+  },
+  "request_url_code": {
+    "locator": {
+      "xpath": "//List[@AutomationId='requestLogTable']//ListItem[{}]//Edit[3]"
+    }
+  }
+}

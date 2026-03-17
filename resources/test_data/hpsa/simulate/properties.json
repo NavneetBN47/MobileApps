@@ -1,0 +1,8 @@
+{
+    "@hp-af/feature-switch/overrides": {
+        "analyticsdatacollection-core":false,
+        "analyticsdatacollection-dataos": false, 
+        "analyticsdatacollection-psdatalake": false
+    },
+    "@hp-af/common-consents/termsOfUseAccepted": "true"
+}

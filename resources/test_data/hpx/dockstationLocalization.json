@@ -1,0 +1,1190 @@
+{
+  "en": {
+    "translation": {
+      "pCDock": {
+        "title": "Dock Station",
+        "serialNumber": "Serial Number",
+        "disconnected": "Disconnected",
+        "connected": "Connected",
+        "connection": "Connection",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Firmware Version",
+        "supportButton": "Dock Support",
+        "deviceNameValidation": "Dock Station name can't contain any special characters, please only use letters, hyphens, and numbers.",
+        "noData": "N/A",
+        "notificationDockDetected": "Dock detected",
+        "notificationDockMessage": "We detected you have a instadock connected, do you want to set it up now?",
+        "notificationDockErased": "Instadock connection interrupted",
+        "notificationDockBodyErased": "To restore connection, open myHP to turn this feature back on.",
+        "notificationDockDismiss": "Dismiss",
+        "notificationOpenMy": "Open myHP",
+        "instadockModalTitle": "How it works",
+        "instadockModalDescription": "Turning on Instadock will pair your notebook with the dock, The next time you approach the dock with your notebook, both the dock and the notebook will be powered on/woken up before physically connected through automatic pairing as you approach your desk.",
+        "instadockModalLabel": "*This feature allows pairing with up to 2 notebook.",
+        "close": "Close"
+      }
+    }
+  },
+  "ar": {
+    "translation": {
+      "pCDock": {
+        "title": "محطة الإرساء",
+        "serialNumber": "الرقم التسلسلي",
+        "disconnected": "غير متصل",
+        "connected": "متصل",
+        "connection": "الاتصال",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "إصدار البرنامج الثابت",
+        "supportButton": "دعم الإرساء",
+        "deviceNameValidation": "لا يمكن أن يحتوي اسم محطة الإرساء على أي أحرف خاصة، يُرجى استخدام الأحرف والواصلات والأرقام فقط.",
+        "noData": "غير متاح",
+        "notificationDockDetected": "تم اكتشاف قاعدة الإرساء",
+        "notificationDockMessage": "اكتشفنا أن لديك جهاز Instadock متصلاً، هل تريد إعداده الآن؟",
+        "notificationDockErased": "تم قطع اتصال Instadock",
+        "notificationDockBodyErased": "لاستعادة الاتصال، افتح myHP لتشغيل هذه الميزة مجددًا.",
+        "notificationDockDismiss": "رفض",
+        "notificationOpenMy": "افتح myHP",
+        "instadockModalTitle": "كيف يعمل",
+        "instadockModalDescription": "سيؤدي تشغيل Instadock إلى إقران الكمبيوتر الدفتري الخاص بك بقاعدة الإرساء، وفي المرة التالية التي تقترب فيها من قاعدة الإرساء مع الكمبيوتر الدفتري الخاص بك، سيتم تشغيل/إيقاظ قاعدة الإرساء والكمبيوتر الدفتري قبل توصيلهما فعليًا عبر الاقتران التلقائي عند اقترابك من مكتبك.",
+        "instadockModalLabel": "*تسمح هذه الميزة بالاقتران بما يصل إلى جهازين دفتريين.",
+        "close": "إغلاق"
+      }
+    }
+  },
+  "bg": {
+    "translation": {
+      "pCDock": {
+        "title": "Докинг станция",
+        "serialNumber": "Сериен номер",
+        "disconnected": "Прекъснато",
+        "connected": "Свързано",
+        "connection": "Връзка",
+        "typeC": "Тип C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Версия на фърмуера",
+        "supportButton": "Поддръжка на докинг станция",
+        "deviceNameValidation": "Името на докинг станцията не може да съдържа специални знаци, използвайте само букви, тирета и цифри.",
+        "noData": "Не е приложимо",
+        "notificationDockDetected": "Открита е докинг станция",
+        "notificationDockMessage": "Установихме, че сте свързали Instadock, какво да го настроите сега?",
+        "notificationDockErased": "Връзката с Instadock е прекъсната",
+        "notificationDockBodyErased": "За да възстановите връзката, отворете myHP, за да включите отново тази функция.",
+        "notificationDockDismiss": "Отхвърляне",
+        "notificationOpenMy": "Отворете myHP",
+        "instadockModalTitle": "Как работи",
+        "instadockModalDescription": "Включването на Instadock ще сдвои вашия преносим компютър с докинг станцията. Следващия път, когато се приближите до докинг станцията с вашия преносим компютър, както докинг станцията, така и преносимият компютър ще бъдат включени/събудени, преди да се свържат физически чрез автоматично сдвояване, когато се приближите до бюрото си.",
+        "instadockModalLabel": "*Тази функция позволява сдвояване с до 2 преносими компютри.",
+        "close": "Затваряне"
+      }
+    }
+  },
+  "ca-ES": {
+    "translation": {
+      "pCDock": {
+        "title": "Estació d'acoblament",
+        "serialNumber": "Número de sèrie",
+        "disconnected": "Desconnectat",
+        "connected": "Connectat",
+        "connection": "Connexió",
+        "typeC": "Tipus C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versió de firmware",
+        "supportButton": "Suport d'acoblament",
+        "deviceNameValidation": "El nom de l'estació d'acoblament no pot contenir caràcters especials, feu servir només  lletres, guions i nombres.",
+        "noData": "NP",
+        "notificationDockDetected": "Base detectada",
+        "notificationDockMessage": "Hem detectat que tens un Instadock connectat, el vols configurar ara?",
+        "notificationDockErased": "S'ha interromput la connexió d'Instadock",
+        "notificationDockBodyErased": "Per restablir la connexió, obre myHP per tornar a activar aquesta funció.",
+        "notificationDockDismiss": "Descarta",
+        "notificationOpenMy": "Obre myHP",
+        "instadockModalTitle": "Com funciona",
+        "instadockModalDescription": "En activar Instadock, el portàtil s'acoblarà amb la base, la propera vegada que t'hi apropis amb el portàtil, tant la base com el portàtil s'encendran o s'activaran abans de connectar-te físicament mitjançant l'aparellament automàtic quan t'acostis a l'escriptori.",
+        "instadockModalLabel": "*Aquesta funció permet l'aparellament amb fins a 2 portàtils.",
+        "close": "Tanca"
+      }
+    }
+  },
+  "cs": {
+    "translation": {
+      "pCDock": {
+        "title": "Dokovací stanice",
+        "serialNumber": "Sériové číslo",
+        "disconnected": "Odpojeno",
+        "connected": "Připojeno",
+        "connection": "Připojení",
+        "typeC": "Typ C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Verze firmwaru",
+        "supportButton": "Podpora dokování",
+        "deviceNameValidation": "Název dokovací stanice nemůže obsahovat žádné speciální znaky, používejte pouze písmena, pomlčky a číslice.",
+        "noData": "Není k dispozici",
+        "notificationDockDetected": "Detekována dokovací stanice",
+        "notificationDockMessage": "Zjistili jsme, že máte připojený Instadock, chcete jej nyní nastavit?",
+        "notificationDockErased": "Připojení Instadocku přerušeno",
+        "notificationDockBodyErased": "Chcete-li připojení obnovit, otevřete myHP a tuto funkci opět zapněte.",
+        "notificationDockDismiss": "Zrušit",
+        "notificationOpenMy": "Otevřít myHP",
+        "instadockModalTitle": "Jak to funguje",
+        "instadockModalDescription": "Zapnutím funkce Instadock se notebook spáruje s dokovací stanicí a při příštím přiblížení k dokovací stanici s notebookem se dokovací stanice i notebook zapnou/probudí a poté se fyzicky připojí prostřednictvím automatického párování, jakmile se přiblížíte ke stolu.",
+        "instadockModalLabel": "*Tato funkce umožňuje spárování až se 2 notebooky.",
+        "close": "Zavřít"
+      }
+    }
+  },
+  "da": {
+    "translation": {
+      "pCDock": {
+        "title": "Dockingstation",
+        "serialNumber": "Serienummer",
+        "disconnected": "Forbindelse afbrudt",
+        "connected": "Tilsluttet",
+        "connection": "Tilslutning",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Firmwareversion",
+        "supportButton": "Dock-understøttelse",
+        "deviceNameValidation": "Navnet på dockingstationen må ikke indeholde specialtegn. Brug kun bogstaver, bindestreger og tal.",
+        "noData": "Ikke relevant",
+        "notificationDockDetected": "Dock blev registreret",
+        "notificationDockMessage": "Vi har registreret, at du har tilsluttet en Instadock. Vil du konfigurere den nu?",
+        "notificationDockErased": "Instadock-forbindelse blev afbrudt",
+        "notificationDockBodyErased": "For at genoprette forbindelsen skal du åbne myHP for at slå denne funktion til igen.",
+        "notificationDockDismiss": "Annuller",
+        "notificationOpenMy": "Åbn myHP",
+        "instadockModalTitle": "Sådan fungerer det",
+        "instadockModalDescription": "Når du slår Instadock til, parres din bærbare computer med docken, og næste gang du nærmer dig docken med din bærbare computer, tændes/vækkes både docken og den bærbare computer, før de forbindes fysisk via automatisk parring, når du nærmer dig dit skrivebord.",
+        "instadockModalLabel": "*Denne funktion gør det muligt at parre op til to bærbare pc'er.",
+        "close": "Luk"
+      }
+    }
+  },
+  "de": {
+    "translation": {
+      "pCDock": {
+        "title": "Dockingstation",
+        "serialNumber": "Seriennummer",
+        "disconnected": "Getrennt",
+        "connected": "Verbunden",
+        "connection": "Verbindung",
+        "typeC": "USB-Type-C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Firmware-Version",
+        "supportButton": "Docking-Support",
+        "deviceNameValidation": "Der Name der Dockingstation darf keine Sonderzeichen enthalten, bitte verwende nur Buchstaben, Bindestriche und Zahlen.",
+        "noData": "k. A.",
+        "notificationDockDetected": "Dock erkannt",
+        "notificationDockMessage": "Wir haben festgestellt, dass Sie ein Instadock verbunden haben. Möchten Sie es jetzt einrichten?",
+        "notificationDockErased": "Instadock-Verbindung unterbrochen",
+        "notificationDockBodyErased": "Um die Verbindung wiederherzustellen, öffnen Sie myHP, um diese Funktion wieder zu aktivieren.",
+        "notificationDockDismiss": "Verwerfen",
+        "notificationOpenMy": "myHP öffnen",
+        "instadockModalTitle": "Wie es funktioniert",
+        "instadockModalDescription": "Wenn Sie Instadock einschalten, wird Ihr Notebook mit dem Dock gekoppelt. Wenn Sie sich das nächste Mal mit Ihrem Notebook dem Dock nähern, werden sowohl das Dock als auch das Notebook eingeschaltet/aktiviert, bevor sie physisch durch automatische Kopplung verbunden werden, sobald Sie sich Ihrem Schreibtisch nähern.",
+        "instadockModalLabel": "*Diese Funktion ermöglicht die Kopplung mit bis zu 2 Notebooks.",
+        "close": "Schließen"
+      }
+    }
+  },
+  "el": {
+    "translation": {
+      "pCDock": {
+        "title": "Σταθμός βάσης",
+        "serialNumber": "Σειριακός αριθμός",
+        "disconnected": "Αποσυνδέθηκε",
+        "connected": "Συνδέθηκε",
+        "connection": "Σύνδεση",
+        "typeC": "Τύπου C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Έκδοση υλικολογισμικού",
+        "supportButton": "Υποστήριξη βάσης",
+        "deviceNameValidation": "Το όνομα του σταθμού βάσης δεν μπορεί να περιέχει ειδικούς χαρακτήρες. Χρησιμοποιήστε μόνο γράμματα, παύλες και αριθμούς.",
+        "noData": "Δ/Υ",
+        "notificationDockDetected": "Ανιχνεύτηκε βάση",
+        "notificationDockMessage": "Διαπιστώσαμε ότι έχετε συνδεδεμένο ένα Instadock, θέλετε να το ρυθμίσετε τώρα;",
+        "notificationDockErased": "Η σύνδεση του Instadock διακόπηκε",
+        "notificationDockBodyErased": "Για να επαναφέρετε τη σύνδεση, ανοίξτε το myHP για να ενεργοποιήσετε ξανά αυτήν τη δυνατότητα.",
+        "notificationDockDismiss": "Απόρριψη",
+        "notificationOpenMy": "Άνοιγμα myHP",
+        "instadockModalTitle": "Πώς λειτουργεί",
+        "instadockModalDescription": "Η ενεργοποίηση του Instadock θα αντιστοιχίσει τον φορητό υπολογιστή σας με τη βάση. Την επόμενη φορά που θα προσεγγίσετε τη βάση με τον φορητό υπολογιστή σας, τόσο η βάση όσο και ο φορητός υπολογιστής θα ενεργοποιηθούν/αφυπνιστούν πριν συνδεθούν φυσικά μέσω αυτόματης ζεύξης καθώς προσεγγίζετε το γραφείο σας.",
+        "instadockModalLabel": "*Αυτή η λειτουργία επιτρέπει τη σύζευξη με έως και 2 φορητούς υπολογιστές.",
+        "close": "Κλείσιμο"
+      }
+    }
+  },
+  "en-GB": {
+    "translation": {
+      "pCDock": {
+        "title": "Dock Station",
+        "serialNumber": "Serial Number",
+        "disconnected": "Disconnected",
+        "connected": "Connected",
+        "connection": "Connection",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Firmware Version",
+        "supportButton": "Dock Support",
+        "deviceNameValidation": "Dock Station name can't contain any special characters, please only use letters, hyphens, and numbers.",
+        "noData": "N/A",
+        "notificationDockDetected": "Dock detected",
+        "notificationDockMessage": "We detected you have an Instadock connected, do you wat to set it up now?",
+        "notificationDockErased": "Instadock connection interrupted",
+        "notificationDockBodyErased": "To restore connection, open myHP to turn this feature back on.",
+        "notificationDockDismiss": "Dismiss",
+        "notificationOpenMy": "Open myHP",
+        "instadockModalTitle": "How it works",
+        "instadockModalDescription": "Turning on Instadock will pair your notebook with the dock. The next time you approach the dock with your notebook, both the dock and the notebook will be powered on/woken up before physically connecting through automatic pairing as you approach your desk.",
+        "instadockModalLabel": "*This feature allows pairing with up to 2 notebook.",
+        "close": "Close"
+      }
+    }
+  },
+  "es": {
+    "translation": {
+      "pCDock": {
+        "title": "Base de conexión",
+        "serialNumber": "Número de serie",
+        "disconnected": "Desconectado",
+        "connected": "Conectado",
+        "connection": "Conexión",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versión de firmware",
+        "supportButton": "Soporte de la base",
+        "deviceNameValidation": "El nombre de la base de conexión no puede contener caracteres especiales; use solo letras, guiones y números.",
+        "noData": "N/D",
+        "notificationDockDetected": "Base de conexión detectada",
+        "notificationDockMessage": "Detectamos que tiene un Instadock conectado. ¿Desea instalarlo ahora?",
+        "notificationDockErased": "Conexión de Instadock interrumpida",
+        "notificationDockBodyErased": "Para restaurar la conexión, abra myHP para reactivar esta función",
+        "notificationDockDismiss": "Descartar",
+        "notificationOpenMy": "Abrir myHP",
+        "instadockModalTitle": "Cómo funciona",
+        "instadockModalDescription": "Al activar Instadock emparejará su notebook con la base de conexión. La próxima vez que se acerque a la base con su notebook, la base y la notebook se encenderán/ reanudarán antes de conectarlas físicamente, mediante un emparejamiento automático a medida que se acerca a su escritorio.",
+        "instadockModalLabel": "*Esta función permite emparejar hasta 2 notebooks.",
+        "close": "Cerrar"
+      }
+    }
+  },
+  "es-ES": {
+    "translation": {
+      "pCDock": {
+        "title": "Estación de acoplamiento",
+        "serialNumber": "Número de serie",
+        "disconnected": "Desconectado",
+        "connected": "Conectado",
+        "connection": "Conexión",
+        "typeC": "Tipo C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versión del firmware",
+        "supportButton": "Asistencia de acoplamiento",
+        "deviceNameValidation": "El nombre de la estación de acoplamiento no puede contener ningún caracter especial. Solo utiliza letras, guiones y números.",
+        "noData": "N/A",
+        "notificationDockDetected": "Estación de acoplamiento detectada",
+        "notificationDockMessage": "Hemos detectado que tienes Instadock conectado, ¿quieres configurarlo ahora?",
+        "notificationDockErased": "Conexión de Instadock interrumpida",
+        "notificationDockBodyErased": "Para restablecer la conexión, abre myHP para volver a activar esta función.",
+        "notificationDockDismiss": "Descartar",
+        "notificationOpenMy": "Abrir myHP",
+        "instadockModalTitle": "Cómo funciona",
+        "instadockModalDescription": "Al activar Instadock, tu notebook se emparejará con la estación de acoplamiento. La próxima vez que te acerques a la estación de acoplamiento con tu notebook, tanto la estación como el notebook se encenderán/activarán a medida que te acercas a tu escritorio antes de que los conectes físicamente a través del emparejamiento automático.",
+        "instadockModalLabel": "*Esta función permite el emparejamiento con un máximo de 2 notebooks.",
+        "close": "Cerrar"
+      }
+    }
+  },
+  "et": {
+    "translation": {
+      "pCDock": {
+        "title": "Dokkjaam",
+        "serialNumber": "Seerianumber",
+        "disconnected": "Ühendus katkestatud",
+        "connected": "Ühendatud",
+        "connection": "Ühendus",
+        "typeC": "Tüüp C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Püsivara versioon",
+        "supportButton": "Doki tugi",
+        "deviceNameValidation": "Dokijaama nimi ei tohi sisaldada erimärke, kasutage ainult tähti, sidekriipse ja numbreid.",
+        "noData": "Pole",
+        "notificationDockDetected": "Tuvastati dokk",
+        "notificationDockMessage": "Tuvastasime, et teil on ühendatud Instadock. Kas soovite selle kohe seadistada?",
+        "notificationDockErased": "Instadocki ühendus katkes",
+        "notificationDockBodyErased": "Ühenduse taastamiseks avage myHP, et see funktsioon uuesti sisse lülitada.",
+        "notificationDockDismiss": "Vabasta",
+        "notificationOpenMy": "Ava myHP",
+        "instadockModalTitle": "Kuidas see toimib",
+        "instadockModalDescription": "Instadocki sisselülitamisel seotakse teie sülearvuti dokiga. Järgmisel korral, kui sülearvutiga dokile lähenete, lülitatakse nii dokk kui ka sülearvuti toide sisse / äratatakse üles, enne kui töölauale lähenedes automaatse sidumise kaudu füüsiliselt ühendatakse.",
+        "instadockModalLabel": "*See funktsioon võimaldab siduda kuni 2 sülearvutiga.",
+        "close": "Sulge"
+      }
+    }
+  },
+  "eu-ES": {
+    "translation": {
+      "pCDock": {
+        "title": "Akoplamendu-estazioa",
+        "serialNumber": "Serie-zenbakia",
+        "disconnected": "Deskonektatuta",
+        "connected": "Konektatuta",
+        "connection": "Konexioa",
+        "typeC": "C motako",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Firmwarearen bertsioa",
+        "supportButton": "Akoplamendurako laguntza",
+        "deviceNameValidation": "Akoplamendu-estazioaren izenak ezin du karaktere berezirik izan; mesedez, erabili letrak, gidoiak eta zenbakiak bakarrik",
+        "noData": "E/A",
+        "notificationDockDetected": "Akoplamendu bat detektatu da",
+        "notificationDockMessage": "Instadock bat konektatuta duzula detektatu dugu. Orain konfiguratu nahi duzu?",
+        "notificationDockErased": "Instadock konexioa etenda",
+        "notificationDockBodyErased": "Konexioa berrezartzeko, ireki myHP funtzio hori berriro aktibatzeko.",
+        "notificationDockDismiss": "Utzi",
+        "notificationOpenMy": "Ireki myHP",
+        "instadockModalTitle": "Nola funtzionatzen duen",
+        "instadockModalDescription": "Instadock aktibatzean, zure eramangarria akoplamenduarekin parekatuko da. Zure ordenagailu eramangarriarekin akoplamendura hurbiltzen zaren hurrengo aldian, bai akoplamendua bai eramangarria piztu/esnatu egingo dira zure mahaigainera hurbiltzen zarenean parekatze automatikoaren bidez fisikoki konektatu aurretik.",
+        "instadockModalLabel": "* Funtzio horri esker, gehienez 2 eramangarri pareka daitezke.",
+        "close": "Itxi"
+      }
+    }
+  },
+  "fi": {
+    "translation": {
+      "pCDock": {
+        "title": "Telakka",
+        "serialNumber": "Sarjanumero",
+        "disconnected": "Ei yhdistetty",
+        "connected": "Yhdistetty",
+        "connection": "Yhteys",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Laiteohjelmistoversio",
+        "supportButton": "Telakan tuki",
+        "deviceNameValidation": "Telakan nimessä ei saa olla erikoismerkkejä. Käytä vain kirjaimia, tavuviivoja ja numeroita.",
+        "noData": "–",
+        "notificationDockDetected": "Telakka tunnistettu",
+        "notificationDockMessage": "Huomasimme, että jokin Instadock on yhdistetty. Määritetäänkö se nyt?",
+        "notificationDockErased": "Instadock-yhteys katkaistu",
+        "notificationDockBodyErased": "Voit palauttaa yhteyden avaamalla myHP-sovelluksen, jolloin tämä toiminto kytkeytyy taas päälle.",
+        "notificationDockDismiss": "Poista",
+        "notificationOpenMy": "Avaa myHP",
+        "instadockModalTitle": "Näin se toimii",
+        "instadockModalDescription": "Kun Instadock kytketään päälle, kannettava tietokoneesi pariutuu telakkaan. Kun lähestyt telakkaa seuraavan kerran kannettavan tietokoneen kanssa, sekä telakka että kannettava tietokone käynnistyvät/heräävät ennen kuin ne yhdistetään fyysisesti automaattisen parituksen avulla, kun lähestyt työpöytääsi.",
+        "instadockModalLabel": "*Tähän toimintoon voi parittaa enintään 2 kannettavaa tietokonetta.",
+        "close": "Sulje"
+      }
+    }
+  },
+  "fr-CA": {
+    "translation": {
+      "pCDock": {
+        "title": "Station d'accueil",
+        "serialNumber": "Numéro de série",
+        "disconnected": "Déconnecté",
+        "connected": "Connecté",
+        "connection": "Connexion",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Version du micrologiciel",
+        "supportButton": "Support d’accueil",
+        "deviceNameValidation": "Le nom de la station d'accueil ne peut pas contenir de caractères spéciaux. Utilisez uniquement des lettres, des traits d'union et des chiffres.",
+        "noData": "S/O",
+        "notificationDockDetected": "Station d’accueil détectée",
+        "notificationDockMessage": "Nous avons détecté que vous avez connecté un Instadock, voulez-vous la configurer maintenant?",
+        "notificationDockErased": "Connexion à Instadock interrompue",
+        "notificationDockBodyErased": "Pour rétablir la connexion, ouvrez myHP pour réactiver cette fonction.",
+        "notificationDockDismiss": "Rejeter",
+        "notificationOpenMy": "Ouvrir myHP",
+        "instadockModalTitle": "Comment cela fonctionne",
+        "instadockModalDescription": "La prochaine fois que vous vous approcherez de l’Instadock avec votre ordinateur portable, la station d’accueil et l’ordinateur portable seront allumés/passés sous tension avant d’être physiquement connectés grâce à l’appairage automatique lorsque vous vous approcherez de votre bureau.",
+        "instadockModalLabel": "*Cette fonction permet d’appairer jusqu’à 2 ordinateurs portables.",
+        "close": "Fermer"
+      }
+    }
+  },
+  "fr": {
+    "translation": {
+      "pCDock": {
+        "title": "Station d'accueil",
+        "serialNumber": "Numéro de série",
+        "disconnected": "Déconnecté",
+        "connected": "Connecté",
+        "connection": "Connexion",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Version du micrologiciel",
+        "supportButton": "Support de connexion",
+        "deviceNameValidation": "Le nom de la station d'accueil ne peut pas contenir de caractères spéciaux. Utilisez uniquement des lettres, des traits d'union et des chiffres.",
+        "noData": "N/A",
+        "notificationDockDetected": "Station d'accueil détectée",
+        "notificationDockMessage": "Nous avons détecté que vous avez un Instadock connecté, voulez-vous le configurer maintenant ?",
+        "notificationDockErased": "Connexion Instadock interrompue",
+        "notificationDockBodyErased": "Pour rétablir la connexion, ouvrez myHP pour réactiver cette fonction.",
+        "notificationDockDismiss": "Ignorer",
+        "notificationOpenMy": "Ouvrir myHP",
+        "instadockModalTitle": "Comment ça marche",
+        "instadockModalDescription": "L'activation d'Instadock associe votre ordinateur portable à la station d'accueil. La prochaine fois que vous vous approcherez de la station d'accueil avec votre ordinateur portable, la station d'accueil et l'ordinateur portable seront tous deux mis sous tension/réveillés avant d'être physiquement connectés par association automatique lorsque vous vous approcherez de votre bureau.",
+        "instadockModalLabel": "*Cette fonction permet d'associer jusqu'à 2 ordinateurs portables.",
+        "close": "Fermer"
+      }
+    }
+  },
+  "gl-ES": {
+    "translation": {
+      "pCDock": {
+        "title": "Base de conexión",
+        "serialNumber": "Número de serie",
+        "disconnected": "Desconectado",
+        "connected": "Conectado",
+        "connection": "Conexión",
+        "typeC": "Tipo C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versión do firmware",
+        "supportButton": "Soporte de axuste",
+        "deviceNameValidation": "O nome da base de conexión non pode conter caracteres especiais, por favor, utilice só letras, guións e números.",
+        "noData": "n/a",
+        "notificationDockDetected": "Porto detectado",
+        "notificationDockMessage": "Detectamos que ten un Instadock conectado, quere configuralo agora?",
+        "notificationDockErased": "Conexión Instadock interrompida",
+        "notificationDockBodyErased": "Para restablecer a conexión, abra myHP para volver activar esta función.",
+        "notificationDockDismiss": "Rexeitar",
+        "notificationOpenMy": "Abrir myHP",
+        "instadockModalTitle": "Como funciona",
+        "instadockModalDescription": "Ao activar Instadock emparellará o seu portátil co porto, a próxima vez que se achegue ao porto co seu portátil, tanto o porto como o portátil acenderanse/espertarán antes de conectarse fisicamente a través do emparellamento automático cando se achegue ao seu escritorio.",
+        "instadockModalLabel": "*Esta función permite o emparellamento con ata 2 portátiles.",
+        "close": "Pechar"
+      }
+    }
+  },
+  "he": {
+    "translation": {
+      "pCDock": {
+        "title": "תחנת עגינה",
+        "serialNumber": "מספר סידורי",
+        "disconnected": "לא מחובר",
+        "connected": "מחובר",
+        "connection": "חיבור",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "גרסת קושחה",
+        "supportButton": "תמיכה לעגינה",
+        "deviceNameValidation": "שם תחנת העגינה לא יכול להכיל תווים מיוחדים, יש להשתמש רק באותיות, במקפים ובמספרים.",
+        "noData": "לא רלוונטי",
+        "notificationDockDetected": "תחנת עגינה זוהתה",
+        "notificationDockMessage": "גילינו שיש לך Instadock מחובר, האם ברצונך להגדיר אותו עכשיו?",
+        "notificationDockErased": "חיבור Instadock הופסק",
+        "notificationDockBodyErased": "כדי לשחזר את החיבור, יש לפתוח את myHP כדי להפעיל מחדש תכונה זו.",
+        "notificationDockDismiss": "התעלם",
+        "notificationOpenMy": "לפתוח את myHP",
+        "instadockModalTitle": "כיצד זה עובד",
+        "instadockModalDescription": "הפעלת Instadock תצמיד את המחשב הנייד שלך לתחנת העגינה, בפעם הבאה שתתקרב/י לתחנת העגינה עם המחברת שלך, הן תחנת העגינה והן המחשב הנייד יופעלו/יתעוררו לפני חיבור פיזי באמצעות קישור אוטומטית כאשר תתקרב/י לשולחן העבודה שלך.",
+        "instadockModalLabel": "*תכונה זו מאפשרת קישור עם עד 2 מחשבים ניידים.",
+        "close": "סגור"
+      }
+    }
+  },
+  "hr": {
+    "translation": {
+      "pCDock": {
+        "title": "Priključna stanica",
+        "serialNumber": "Serijski broj",
+        "disconnected": "Nije povezano",
+        "connected": "Povezano",
+        "connection": "Povezivanje",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Verzija firmvera",
+        "supportButton": "Podrška za priključivanje",
+        "deviceNameValidation": "Naziv priključne stanice ne smije sadržavati posebne znakove. Upotrebljavajte samo slova, spojnice i brojeve.",
+        "noData": "N.D.",
+        "notificationDockDetected": "Otkrivena je priključna stanica",
+        "notificationDockMessage": "Otkrili smo da imate priključen InstaDock, želite li ga odmah postaviti?",
+        "notificationDockErased": "Veza s InstaDockom je prekinuta",
+        "notificationDockBodyErased": "Da biste ponovno uspostavili vezu, otvorite myHP da biste ponovno uključili tu značajku.",
+        "notificationDockDismiss": "Odbaci",
+        "notificationOpenMy": "Otvori myHP",
+        "instadockModalTitle": "Kako to funkcionira",
+        "instadockModalDescription": "Kada uključite Instadock, prijenosno će se računalo upariti s priključnom stanicom. Kada sljedeći put pristupite priključnoj stanici s prijenosnim računalom, priključna stanica i prijenosno računalo uključit će se / aktivirati prije fizičkog povezivanja putem automatskog uparivanja kad se približite svom stolu.",
+        "instadockModalLabel": "*Ta značajka omogućuje uparivanje do 2 prijenosna računala.",
+        "close": "Zatvori"
+      }
+    }
+  },
+  "hu": {
+    "translation": {
+      "pCDock": {
+        "title": "Dokkoló",
+        "serialNumber": "Sorozatszám",
+        "disconnected": "Nincs kapcsolat",
+        "connected": "Csatlakoztatva",
+        "connection": "Kapcsolat",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Firmware verziója",
+        "supportButton": "Dock Support",
+        "deviceNameValidation": "A dokkoló neve nem tartalmazhat speciális karaktereket, kérjük, csak betűket, számokat és kötőjelet használjon.",
+        "noData": "Nincs adat",
+        "notificationDockDetected": "Dokkoló érzékelve",
+        "notificationDockMessage": "Úgy érzékeltük, hogy csatlakoztatva van egy Instadock. Szeretné most beállítani?",
+        "notificationDockErased": "Instadock-kapcsolat megszakadt",
+        "notificationDockBodyErased": "A csatlakozás visszaállításához nyissa meg a myHP-t, és kapcsolja vissza ezt a funkciót.",
+        "notificationDockDismiss": "Elvetés",
+        "notificationOpenMy": "myHP megnyitása",
+        "instadockModalTitle": "A működés mikéntje",
+        "instadockModalDescription": "Az Instadock bekapcsolásával párosíthatja noteszgépét a dokkolóhoz, és a következő alkalommal, amikor megközelíti az asztalát, a dokkoló érzékeli közelségét, a dokkoló és a noteszgép is bekapcsol/felébred még az automatikus párosítással történő fizikai csatlakozás előtt.",
+        "instadockModalLabel": "*Ez a funkció legfeljebb két noteszgép párosítását teszi lehetővé.",
+        "close": "Bezárás"
+      }
+    }
+  },
+  "id": {
+    "translation": {
+      "pCDock": {
+        "title": "Stasiun Penyambungan",
+        "serialNumber": "Nomor Seri",
+        "disconnected": "Terputus",
+        "connected": "Tersambung",
+        "connection": "Koneksi",
+        "typeC": "Tipe C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versi Firmware",
+        "supportButton": "Dukungan Stasiun Penyambungan",
+        "deviceNameValidation": "Nama Stasiun Penyambungan tidak boleh mengandung karakter khusus apa pun. Harap hanya gunakan huruf, tanda hubung, dan angka.",
+        "noData": "T/A",
+        "notificationDockDetected": "Dock terdeteksi",
+        "notificationDockMessage": "Kami mendeteksi Anda memiliki Instadock yang terhubung, apakah Anda ingin mengaturnya sekarang?",
+        "notificationDockErased": "Koneksi Instadock terganggu",
+        "notificationDockBodyErased": "Untuk memulihkan koneksi, buka myHP untuk mengaktifkan kembali fitur ini.",
+        "notificationDockDismiss": "Buang",
+        "notificationOpenMy": "Buka myHP",
+        "instadockModalTitle": "Cara kerjanya",
+        "instadockModalDescription": "Mengaktifkan Instadock akan menyambungkan notebook Anda dengan dock. Saat Anda mendekati dock dengan notebook, dock dan notebook akan menyala/aktif sebelum terhubung secara fisik melalui penyambungan otomatis saat Anda menghampiri meja Anda.",
+        "instadockModalLabel": "*Fitur ini dapat digunakan untuk menyambungkan dengan hingga 2 notebook.",
+        "close": "Tutup"
+      }
+    }
+  },
+  "it": {
+    "translation": {
+      "pCDock": {
+        "title": "Dock station",
+        "serialNumber": "Numero di serie",
+        "disconnected": "Disconnesso",
+        "connected": "Connesso",
+        "connection": "Connessione",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versione firmware",
+        "supportButton": "Supporto dock",
+        "deviceNameValidation": "Il nome della dock station non può contenere caratteri speciali, ma solo lettere, trattini e numeri.",
+        "noData": "N/D",
+        "notificationDockDetected": "Dock rilevato",
+        "notificationDockMessage": "È stato rilevato un Instadock connesso. Configurarlo adesso?",
+        "notificationDockErased": "Connessione a Instadock interrotta",
+        "notificationDockBodyErased": "Per ripristinare la connessione, aprire myHP per riattivare questa funzione.",
+        "notificationDockDismiss": "Elimina",
+        "notificationOpenMy": "Apri myHP",
+        "instadockModalTitle": "Modalità operative",
+        "instadockModalDescription": "Attivando Instadock, il notebook in uso verrà abbinato al dock. La volta successiva che utilizzerai il dock con il tuo notebook, il dock e il notebook insieme verranno alimentati/attivati prima di essere connessi fisicamente tramite abbinamento automatico quando vorrai utiizzare il desktop.",
+        "instadockModalLabel": "*Questa funzione consente di abbinare fino a 2 notebook.",
+        "close": "Chiudi"
+      }
+    }
+  },
+  "ja": {
+    "translation": {
+      "pCDock": {
+        "title": "ドックステーション",
+        "serialNumber": "シリアル番号",
+        "disconnected": "未接続",
+        "connected": "接続済み",
+        "connection": "接続",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "ファームウェアのバージョン",
+        "supportButton": "ドックサポート",
+        "deviceNameValidation": "ドック ステーションの名前に特殊文字を含めることはできません。文字、ハイフン、数字のみ使用してください。",
+        "noData": "該当なし",
+        "notificationDockDetected": "ドックが検出されました",
+        "notificationDockMessage": "Instadockが接続されていました。今すぐセットアップしますか？",
+        "notificationDockErased": "Instadockの接続が中断されました",
+        "notificationDockBodyErased": "接続を復元するには、myHPを開いてこの機能をオンに戻します。",
+        "notificationDockDismiss": "無視",
+        "notificationOpenMy": "myHPを開く",
+        "instadockModalTitle": "仕組み",
+        "instadockModalDescription": "Instadockをオンにすると、ノートブックとドックがペアリングされ、次回ノートブックをドックに近づくと、デスクに近づくことで自動ペアリングされ、物理的に接続される前に、ドックとノートブックの両方が電源オン/起動されます。",
+        "instadockModalLabel": "*この機能では、最大2個のノートブックとペアリングできます。",
+        "close": "閉じる"
+      }
+    }
+  },
+  "ko": {
+    "translation": {
+      "pCDock": {
+        "title": "독 스테이션",
+        "serialNumber": "시리얼 번호",
+        "disconnected": "연결 끊김",
+        "connected": "연결됨",
+        "connection": "연결",
+        "typeC": "C형",
+        "thunderbolt": "썬더볼트",
+        "firmwareVersion": "펌웨어 버전",
+        "supportButton": "독 지원",
+        "deviceNameValidation": "독 스테이션 이름에 특수문자를 사용할 수 없습니다. 문자, 하이픈, 숫자만 사용해야 합니다.",
+        "noData": "N/A",
+        "notificationDockDetected": "독 감지됨",
+        "notificationDockMessage": "Instadock 연결이 감지되었습니다. 지금 설치합니까?",
+        "notificationDockErased": "Instadock 연결 중단",
+        "notificationDockBodyErased": "연결을 복원하려면 myHP를 열고 이 기능을 다시 켜십시오.",
+        "notificationDockDismiss": "취소",
+        "notificationOpenMy": "myHP 열기",
+        "instadockModalTitle": "사용 방법",
+        "instadockModalDescription": "Instadock을 켜면 노트북과 독이 페어링됩니다. 이후 사용자가 책상에 접근하여 독과 노트북이 가까워지면 자동 페어링을 통해 독과 노트북이 물리적으로 연결되기 전부터 전원이 켜지고 동작합니다.",
+        "instadockModalLabel": "*이 기능은 최대 2대의 노트북 페어링을 허용합니다.",
+        "close": "닫기"
+      }
+    }
+  },
+  "lt": {
+    "translation": {
+      "pCDock": {
+        "title": "Jungčių stotelė",
+        "serialNumber": "Serijos numeris",
+        "disconnected": "Atjungta",
+        "connected": "Prijungta",
+        "connection": "Ryšys",
+        "typeC": "C tipas",
+        "thunderbolt": "„Thunderbolt“",
+        "firmwareVersion": "Programinės aparatinės įrangos versija",
+        "supportButton": "Jungčių stotelės palaikymas",
+        "deviceNameValidation": "Jungčių stotelės pavadinimas negali būti sudarytas iš specialiųjų simbolių, naudokite tik raides, brūkšnelius ir skaičius.",
+        "noData": "Netaikoma",
+        "notificationDockDetected": "Jungtis aptikta",
+        "notificationDockMessage": "Aptikome, kad prijungėte „Instadock”, ar norite nustatyti ją dabar?",
+        "notificationDockErased": "„Instadock“ ryšys sutrikdytas",
+        "notificationDockBodyErased": "Norėdami atkurti ryšį, atidarykite „myHP“, kad vėl įjungtumėte šią funkciją.",
+        "notificationDockDismiss": "Atmesti",
+        "notificationOpenMy": "Atidarykite „myHP“",
+        "instadockModalTitle": "Kaip tai veikia",
+        "instadockModalDescription": "Įjungus „Instadock“, jūsų užrašų knygutė bus susieta su jugtimi. Kai kitą kartą prieisite prie jungties su užrašų knygute, abu įrenginiai bus įjungti / pabudinti, prieš fiziškai prisijungiant automatiniu poravimu, kai prieinate prie stalo.",
+        "instadockModalLabel": "*Ši funkcija leidžia susieti iki 2 užrašų knygučių.",
+        "close": "Uždaryti"
+      }
+    }
+  },
+  "lv": {
+    "translation": {
+      "pCDock": {
+        "title": "Dokstacija",
+        "serialNumber": "Sērijas numurs",
+        "disconnected": "Atvienots",
+        "connected": "Savienots",
+        "connection": "Savienojums",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Aparātprogrammatūras versija",
+        "supportButton": "Dokstacijas atbalsts",
+        "deviceNameValidation": "Dokstacijas nosaukums nevar saturēt īpašās rakstzīmes; lūdzu, izmantojiet tikai burtus, defises un ciparus.",
+        "noData": "N/P",
+        "notificationDockDetected": "Noteikts doks",
+        "notificationDockMessage": "Mēs noteicām, ka jums ir izveidots savienojums ar Instadock. Vai vēlaties to iestatīt tūlīt?",
+        "notificationDockErased": "Instadock savienojums pārtraukts",
+        "notificationDockBodyErased": "Lai atjaunotu savienojumu, atveriet myHP, lai no jauna ieslēgtu šo funkciju.",
+        "notificationDockDismiss": "Noraidīt",
+        "notificationOpenMy": "Atvērt myHP",
+        "instadockModalTitle": "Kā tas darbojas",
+        "instadockModalDescription": "Ieslēdzot Instadock, jūsu piezīmjdators tiks savienots pārī ar dokstaciju. Nākamreiz, kad tuvosieties dokstacijai ar piezīmjdatoru, gan dokstacija, gan piezīmjdators ieslēgsies/izies no miega režīma, pirms tiks fiziski savienoti, izmantojot automātisko savienošanu pārī, kamēr tuvojaties galdam.",
+        "instadockModalLabel": "*Šī funkcija ļauj savienot pārī ne vairāk kā 2 piezīmjdatorus.",
+        "close": "Aizvērt"
+      }
+    }
+  },
+  "nb-NO": {
+    "translation": {
+      "pCDock": {
+        "title": "Forankringsstasjon",
+        "serialNumber": "Serienummer",
+        "disconnected": "Frakoblet",
+        "connected": "Tilkoblet",
+        "connection": "Tilkobling",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Fastvareversjon",
+        "supportButton": "Forankringsstøtte",
+        "deviceNameValidation": "Forankringsstasjonens navn kan ikke inneholde spesialtegn. Bruk kun bokstaver, bindestreker og tall.",
+        "noData": "I/A",
+        "notificationDockDetected": "Forankring oppdaget",
+        "notificationDockMessage": "Vi har oppdaget at en Instadock er tilkoblet. Vil du sette denne opp nå?",
+        "notificationDockErased": "Instadock-tilkobling avbrutt",
+        "notificationDockBodyErased": "For å gjenopprette tilkoblingen, åpner du myHP for å slå funksjonen på igjen.",
+        "notificationDockDismiss": "Avvis",
+        "notificationOpenMy": "Åpne myHP",
+        "instadockModalTitle": "Slik fungerer det",
+        "instadockModalDescription": "Når du slår på Instadock, pares den bærbare PC-en med forankringsstasjonen. Neste gang du nærmer deg forankringsstasjonen med den bærbare PC-en, slås begge på / vekkes begge opp før de kobles til fysisk gjennom automatisk paring når du nærmer deg skrivebordet.",
+        "instadockModalLabel": "*Denne funksjonen tillater paring med opptil to bærbare PC-er.",
+        "close": "Lukk"
+      }
+    }
+  },
+  "nl": {
+    "translation": {
+      "pCDock": {
+        "title": "Dockingstation",
+        "serialNumber": "Serienummer",
+        "disconnected": "Verbroken",
+        "connected": "Verbonden",
+        "connection": "Verbinding",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Firmwareversie",
+        "supportButton": "Ondersteuning voor dock",
+        "deviceNameValidation": "Naam van dockingstation kan geen speciale tekens bevatten. Gebruik alleen letters, streepjes en cijfers.",
+        "noData": "N.v.t.",
+        "notificationDockDetected": "Dock gedetecteerd",
+        "notificationDockMessage": "Wij hebben gedetecteerd dat er een Instadock is aangesloten. Wilt u het nu instellen?",
+        "notificationDockErased": "Verbinding Instadock onderbroken",
+        "notificationDockBodyErased": "Open myHP om deze functie weer in te schakelen als u de verbinding wilt herstellen.",
+        "notificationDockDismiss": "Negeren",
+        "notificationOpenMy": "myHP openen",
+        "instadockModalTitle": "Zo werkt het",
+        "instadockModalDescription": "Als u Instadock inschakelt, wordt uw notebook gekoppeld met het dock. Als u het dock de volgende keer nadert met uw notebook, worden zowel het dock als de notebook ingeschakeld/geactiveerd voordat er fysiek verbinding is gemaakt via automatisch koppelen als u uw bureau nadert.",
+        "instadockModalLabel": "*Deze functie staat koppelen met maximaal 2 notebooks toe.",
+        "close": "Sluiten"
+      }
+    }
+  },
+  "pl": {
+    "translation": {
+      "pCDock": {
+        "title": "Stacja dokująca",
+        "serialNumber": "Numer seryjny",
+        "disconnected": "Rozłączono",
+        "connected": "Połączono",
+        "connection": "Połączenie",
+        "typeC": "Typ C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Wersja oprogramowania sprzętowego",
+        "supportButton": "Wsparcie stacji dokującej",
+        "deviceNameValidation": "Nazwa stacji dokującej nie może zawierać żadnych znaków specjalnych, używaj tylko liter, łączników i cyfr.",
+        "noData": "Nie dotyczy",
+        "notificationDockDetected": "Wykryto dokowanie",
+        "notificationDockMessage": "Wykryliśmy, że masz podłączony Instadock, czy chcesz go teraz skonfigurować?",
+        "notificationDockErased": "Połączenie Instadock zostało przerwane",
+        "notificationDockBodyErased": "Aby przywrócić połączenie, otwórz myHP, aby ponownie włączyć tę funkcję.",
+        "notificationDockDismiss": "Odrzuć",
+        "notificationOpenMy": "Otwórz myHP",
+        "instadockModalTitle": "Jak to działa",
+        "instadockModalDescription": "Włączenie Instadock spowoduje sparowanie notebooka ze stacją dokującą. Następnym razem, gdy zbliżysz się do stacji dokującej z notebookiem, zarówno stacja dokująca, jak i notebook zostaną włączone / wybudzone przed fizycznym połączeniem poprzez automatyczne parowanie, gdy zbliżysz się do biurka.",
+        "instadockModalLabel": "*Ta funkcja umożliwia parowanie z maksymalnie 2 notebookami.",
+        "close": "Zamknij"
+      }
+    }
+  },
+  "pt-BR": {
+    "translation": {
+      "pCDock": {
+        "title": "Estação de acoplamento",
+        "serialNumber": "Número de série",
+        "disconnected": "Desconectado",
+        "connected": "Conectado",
+        "connection": "Conexão",
+        "typeC": "Type-C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versão do firmware",
+        "supportButton": "Suporte da estação",
+        "deviceNameValidation": "O nome da estação de acoplamento não pode conter quaisquer caracteres especiais; por favor, use apenas letras, hífenes e números.",
+        "noData": "N/D",
+        "notificationDockDetected": "Estação de acoplamento detectada",
+        "notificationDockMessage": "Detectamos que você tem uma Instadock conectada, deseja configurá-la agora?",
+        "notificationDockErased": "Conexão da Instadock interrompida",
+        "notificationDockBodyErased": "Para restaurar a conexão, abra o myHP para religar esse recurso.",
+        "notificationDockDismiss": "Dispensar",
+        "notificationOpenMy": "Abrir o myHP",
+        "instadockModalTitle": "Como funciona",
+        "instadockModalDescription": "Ligar a Instadock vai parear o seu notebook com a estação de acoplamento. Na próxima vez que você se aproximar da estação de acoplamento com o notebook, ambos serão ligados/acordados antes de serem fisicamente conectados por meio de um pareamento automático conforme você se aproximar da sua mesa.",
+        "instadockModalLabel": "*Esse recurso permite o pareamento com até dois notebooks.",
+        "close": "Fechar"
+      }
+    }
+  },
+  "pt-PT": {
+    "translation": {
+      "pCDock": {
+        "title": "Estação de ancoragem",
+        "serialNumber": "Número de série",
+        "disconnected": "Desligado",
+        "connected": "Ligado",
+        "connection": "Ligação",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versão do firmware",
+        "supportButton": "Suporte da estação de ancoragem",
+        "deviceNameValidation": "O nome da estação de ancoragem não pode conter quaisquer caracteres especiais. Utilizar apenas letras, hífenes e números.",
+        "noData": "N/d",
+        "notificationDockDetected": "Estação de ancoragem detetada",
+        "notificationDockMessage": "Foi detetada uma ligação Instadock. Pretende configurá-la agora?",
+        "notificationDockErased": "Ligação Instadock interrompida",
+        "notificationDockBodyErased": "Para repor a ligação, abra o myHP para reativar essa funcionalidade.",
+        "notificationDockDismiss": "Ignorar",
+        "notificationOpenMy": "Abrir o myHP",
+        "instadockModalTitle": "Como funciona",
+        "instadockModalDescription": "Ao ativar a Instadock, isso irá emparelhar o seu computador portátil com a estação de ancoragem. Da próxima vez que aproximar a estação de ancoragem ao seu computador portátil, ambos ligarão/reativarão antes de serem ligados fisicamente através de um emparelhamento automático.",
+        "instadockModalLabel": "*Esta funcionalidade permite o emparelhamento de até 2 computadores portáteis.",
+        "close": "Fechar"
+      }
+    }
+  },
+  "ro": {
+    "translation": {
+      "pCDock": {
+        "title": "Staţie de andocare",
+        "serialNumber": "Număr de serie",
+        "disconnected": "Deconectat",
+        "connected": "Conectat",
+        "connection": "Conexiune",
+        "typeC": "Tip C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Versiune firmware",
+        "supportButton": "Asistenţă andocare",
+        "deviceNameValidation": "Numele staţiei de andocare nu poate conţine caractere speciale; utilizaţi numai litere, cratime şi cifre.",
+        "noData": "N/A",
+        "notificationDockDetected": "S-a detectat o staţie de andocare",
+        "notificationDockMessage": "Am detectat că aveţi un InstaDock conectat, doriţi să îl configuraţi acum?",
+        "notificationDockErased": "Conexiunea la InstaDock s-a întrerupt",
+        "notificationDockBodyErased": "Pentru a restabili conexiunea, deschideţi myHP pentru a reactiva această caracteristică.",
+        "notificationDockDismiss": "Renunţare",
+        "notificationOpenMy": "Deschideţi myHP",
+        "instadockModalTitle": "Cum funcţionează",
+        "instadockModalDescription": "Pornirea InstaDock va asocia notebook-ul cu staţia de andocare. Data viitoare când vă apropiaţi de staţia de andocare cu notebook-ul, atât staţia de andocare, cât şi notebook-ul vor fi pornite/trezite înainte de a fi conectate fizic prin asociere automată pe măsură ce vă apropiaţi de birou.",
+        "instadockModalLabel": "*Această caracteristică permite asocierea cu până la 2 notebook-uri.",
+        "close": "Închidere"
+      }
+    }
+  },
+  "ru": {
+    "translation": {
+      "pCDock": {
+        "title": "Док-станция",
+        "serialNumber": "Серийный номер",
+        "disconnected": "Отключено",
+        "connected": "Подключено",
+        "connection": "Соединение",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Версия микропрограммы",
+        "supportButton": "Поддержка док-станции",
+        "deviceNameValidation": "Имя док-станции не должно содержать специальных символов, используйте только буквы, дефисы и цифры.",
+        "noData": "Н/Д",
+        "notificationDockDetected": "Обнаружена док-станция",
+        "notificationDockMessage": "Обнаружена подключенная док-станция Instadock, хотите настроить ее?",
+        "notificationDockErased": "Подключение к Instadock прервано",
+        "notificationDockBodyErased": "Чтобы восстановить подключение, откройте myHP и включите эту функцию снова.",
+        "notificationDockDismiss": "Отклонить",
+        "notificationOpenMy": "Открыть myHP",
+        "instadockModalTitle": "Принципы работы",
+        "instadockModalDescription": "При включении Instadock ноутбук будет сопряжен с док-станцией. В следующий раз, когда вы подойдете к док-станции с ноутбуком, и док-станция, и ноутбук будут включены/пробуждены еще до физического подключения с помощью автоматического сопряжения при приближении к рабочему месту.",
+        "instadockModalLabel": "*Эта функция позволяет выполнить сопряжение максимум с 2 ноутбуками.",
+        "close": "Закрыть"
+      }
+    }
+  },
+  "sk": {
+    "translation": {
+      "pCDock": {
+        "title": "Dokovacia stanica",
+        "serialNumber": "Sériové číslo",
+        "disconnected": "Odpojené",
+        "connected": "Pripojené",
+        "connection": "Pripojenie",
+        "typeC": "Typ C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Verzia firmvéru",
+        "supportButton": "Podpora pre dok",
+        "deviceNameValidation": "Názov dokovacej stanice nemôže obsahovať špeciálne znaky. Používajte iba písmená, spojovníky a číslice.",
+        "noData": "Nie je k dispozícii",
+        "notificationDockDetected": "Dock zaznamenaný",
+        "notificationDockMessage": "Zaznamenali sme, že máte pripojený Instadock. Chcete ho teraz nastaviť?",
+        "notificationDockErased": "Pripojenie Instadock prerušené",
+        "notificationDockBodyErased": "Ak chcete obnoviť pripojenie, spustite aplikáciu myHP a zapnite túto funkciu.",
+        "notificationDockDismiss": "Zrušiť",
+        "notificationOpenMy": "Spustiť aplikáciu myHP",
+        "instadockModalTitle": "Ako to funguje",
+        "instadockModalDescription": "Po zapnutí Instadock sa notebook spáruje s dokovacou stanicou. Pri ďalšom priblížení k dokovacej stanici s notebookom sa dokovacia stanica aj notebook zapnú/prebudia ešte pred fyzickým pripojením prostredníctvom funkcie automatického párovania pri príchode k stolu.",
+        "instadockModalLabel": "* Táto funkcia umožňuje spárovanie až s 2 notebookmi.",
+        "close": "Zavrieť"
+      }
+    }
+  },
+  "sl": {
+    "translation": {
+      "pCDock": {
+        "title": "Priklopna postaja",
+        "serialNumber": "Serijska številka",
+        "disconnected": "Povezava je prekinjena",
+        "connected": "Povezava je vzpostavljena",
+        "connection": "Povezava",
+        "typeC": "Tip C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Različica vdelane programske opreme",
+        "supportButton": "Podpora za priklopno postajo",
+        "deviceNameValidation": "Ime priklopne postaje ne sme vsebovati nobenih posebnih znakov. Uporabite samo črke, pomišljaje in številke.",
+        "noData": "Ni na voljo",
+        "notificationDockDetected": "Zaznana priklopna postaja",
+        "notificationDockMessage": "Zaznali smo, da imate priključeno priklopno postajo Instadock. Ali jo želite namestiti zdaj?",
+        "notificationDockErased": "Povezava Instadock je prekinjena",
+        "notificationDockBodyErased": "Če želite obnoviti povezavo, odprite myHP, da znova vklopite to funkcijo.",
+        "notificationDockDismiss": "Zapri",
+        "notificationOpenMy": "Odpri myHP",
+        "instadockModalTitle": "Kako deluje",
+        "instadockModalDescription": "Če vklopite Instadock, bo vaš prenosni računalnik seznanjen s priklopno postajo. Ko se naslednjič približate priklopni postaji s prenosnim računalnikom, se bosta priklopna postaja in prenosni računalnik vklopila/prebudila, preden se bosta fizično povezala prek samodejnega seznanjanja, ko se boste približali mizi.",
+        "instadockModalLabel": "*Ta funkcija omogoča seznanjanje z največ 2 prenosnima računalnikoma.",
+        "close": "Zapri"
+      }
+    }
+  },
+  "sr-Latn-RS": {
+    "translation": {
+      "pCDock": {
+        "title": "Priključna stanica",
+        "serialNumber": "Serijski broj",
+        "disconnected": "Veza je prekinuta",
+        "connected": "Povezano",
+        "connection": "Veza",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Verzija firmvera",
+        "supportButton": "Podrška za priključnu stanicu",
+        "deviceNameValidation": "Naziv priključne stanice ne sme sadržavati specijalne karaktere; koristite samo slova, crtice i brojeve.",
+        "noData": "Nije dostupno",
+        "notificationDockDetected": "Priključna stanica je otkrivena",
+        "notificationDockMessage": "Otkrili smo da imate povezan Instadock, da li želite sada da ga podesite?",
+        "notificationDockErased": "Instadock veza je prekinuta",
+        "notificationDockBodyErased": "Da biste vratili vezu, otvorite myHP da biste ponovo uključili ovu funkciju.",
+        "notificationDockDismiss": "Odbaci",
+        "notificationOpenMy": "Otvorite myHP",
+        "instadockModalTitle": "Kako to radi",
+        "instadockModalDescription": "Uključivanje Instadock-a će upariti vaš prenosni računar sa priključnom stanicom. Sledeći put kada se približite priključnoj stanici sa prenosnim računarom, priključna stanica i prenosni računar će se uključiti/probuditi pre nego što se fizički povežu putem automatskog uparivanja dok se približavate svom stolu.",
+        "instadockModalLabel": "*Ova funkcija omogućava uparivanje sa najviše 2 prenosna računara.",
+        "close": "Zatvori"
+      }
+    }
+  },
+  "sr-BA": {
+    "translation": {
+      "pCDock": {
+        "title": "Priključna stanica",
+        "serialNumber": "Serijski broj",
+        "disconnected": "Veza je prekinuta",
+        "connected": "Povezano",
+        "connection": "Veza",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Verzija firmvera",
+        "supportButton": "Podrška za priključnu stanicu",
+        "deviceNameValidation": "Naziv priključne stanice ne sme sadržavati specijalne karaktere; koristite samo slova, crtice i brojeve.",
+        "noData": "Nije dostupno",
+        "notificationDockDetected": "Priključna stanica je otkrivena",
+        "notificationDockMessage": "Otkrili smo da imate povezan Instadock, da li želite sada da ga podesite?",
+        "notificationDockErased": "Instadock veza je prekinuta",
+        "notificationDockBodyErased": "Da biste vratili vezu, otvorite myHP da biste ponovo uključili ovu funkciju.",
+        "notificationDockDismiss": "Odbaci",
+        "notificationOpenMy": "Otvorite myHP",
+        "instadockModalTitle": "Kako to radi",
+        "instadockModalDescription": "Uključivanje Instadock-a će upariti vaš prenosni računar sa priključnom stanicom. Sledeći put kada se približite priključnoj stanici sa prenosnim računarom, priključna stanica i prenosni računar će se uključiti/probuditi pre nego što se fizički povežu putem automatskog uparivanja dok se približavate svom stolu.",
+        "instadockModalLabel": "*Ova funkcija omogućava uparivanje sa najviše 2 prenosna računara.",
+        "close": "Zatvori"
+      }
+    }
+  },
+  "sv": {
+    "translation": {
+      "pCDock": {
+        "title": "Dockningsstation",
+        "serialNumber": "Serienummer",
+        "disconnected": "Bortkopplad",
+        "connected": "Ansluten",
+        "connection": "Anslutning",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Version av inbyggd programvara",
+        "supportButton": "Support för dockningsstation",
+        "deviceNameValidation": "Dockningsstationens namn får inte innehålla specialtecken. Använd endast bokstäver, bindestreck och siffror.",
+        "noData": "N/A",
+        "notificationDockDetected": "Dockningsstation detekterad",
+        "notificationDockMessage": "Vi ser att du har en Instadock ansluten. Vill du konfigurera den?",
+        "notificationDockErased": "Anslutningen till din Instadock avbröts",
+        "notificationDockBodyErased": "Öppna myHP för att aktivera den här funktionen igen och på så sätt återställa anslutningen.",
+        "notificationDockDismiss": "Avfärda",
+        "notificationOpenMy": "Öppna myHP",
+        "instadockModalTitle": "Så fungerar det",
+        "instadockModalDescription": "Om du aktiverar Instadock kopplas den bärbara datorn ihop med dockan. Nästa gång du kommer nära dockan med din bärbara dator slås den på/väcks innan de ansluts fysiskt tack vare automatisk parkoppling, när du närmar dig skrivbordet.",
+        "instadockModalLabel": "*Den här funktionen tillåter parkoppling med upp till två bärbara datorer.",
+        "close": "Stäng"
+      }
+    }
+  },
+  "th": {
+    "translation": {
+      "pCDock": {
+        "title": "ชุดเชื่อมต่ออุปกรณ์",
+        "serialNumber": "หมายเลขซีเรียล",
+        "disconnected": "ตัดการเชื่อมต่อแล้ว",
+        "connected": "เชื่อมต่อแล้ว",
+        "connection": "การเชื่อมต่อ",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "เวอร์ชันเฟิร์มแวร์",
+        "supportButton": "บริการสนับสนุนชุดเชื่อมต่ออุปกรณ์",
+        "deviceNameValidation": "ชื่อชุดเชื่อมต่ออุปกรณ์ต้องไม่มีอักขระพิเศษ โปรดใช้เฉพาะตัวอักษร ขีดกลาง และตัวเลขเท่านั้น",
+        "noData": "N/A",
+        "notificationDockDetected": "ตรวจพบชุดเชื่อมต่ออุปกรณ์",
+        "notificationDockMessage": "เราตรวจพบว่าคุณเชื่อมต่อ Instadock ไว้ คุณต้องการตั้งค่าตอนนี้เลยหรือไม่",
+        "notificationDockErased": "การเชื่อมต่อ Instadock ถูกขัดจังหวะ",
+        "notificationDockBodyErased": "หากต้องการคืนค่าการเชื่อมต่อ ให้เปิด myHP เพื่อเปิดฟีเจอร์นี้กลับมาอีกครั้ง",
+        "notificationDockDismiss": "ปิด",
+        "notificationOpenMy": "เปิด myHP",
+        "instadockModalTitle": "ลักษณะการทำงาน",
+        "instadockModalDescription": "การเปิด Instadock จะจับคู่โน้ตบุ๊กของคุณเข้ากับชุดเชื่อมต่ออุปกรณ์ ในครั้งถัดไปที่คุณนำโน้ตบุ๊กเข้าใกล้ชุดเชื่อมต่ออุปกรณ์ ทั้งชุดเชื่อมต่ออุปกรณ์และโน้ตบุ๊กจะถูกเปิด/ปลุกก่อนที่จะเชื่อมต่อจริงผ่านการจับคู่อัตโนมัติในขณะที่คุณเข้ามาใกล้โต๊ะทำงานของคุณ",
+        "instadockModalLabel": "*ฟีเจอร์นี้สามารถจับคู่กับโน้ตบุ๊กได้สูงสุด 2 เครื่อง",
+        "close": "ปิด"
+      }
+    }
+  },
+  "tr": {
+    "translation": {
+      "pCDock": {
+        "title": "Dock İstasyonu",
+        "serialNumber": "Seri Numarası",
+        "disconnected": "Bağlantı Kesildi",
+        "connected": "Bağlantı Kuruldu",
+        "connection": "Bağlantı",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Ürün Yazılımı Sürümü",
+        "supportButton": "Dock Desteği",
+        "deviceNameValidation": "Dock İstasyonu adı herhangi bir özel karakter içeremez; lütfen sadece harf, tire ve sayılar kullanın.",
+        "noData": "Yok",
+        "notificationDockDetected": "Dock algılandı",
+        "notificationDockMessage": "Bir Instadock'u bağladığınızı tespit ettik; ayarlarını şimdi yapmak ister misiniz?",
+        "notificationDockErased": "Instadock bağlantısı kesildi",
+        "notificationDockBodyErased": "Bağlantıyı yeniden kurmak için bu özelliği tekrar açmak amacıyla myHP'yi açın.",
+        "notificationDockDismiss": "Son Ver",
+        "notificationOpenMy": "myHP'yi Aç",
+        "instadockModalTitle": "Çalışma şekli",
+        "instadockModalDescription": "Instadock'un açılması dizüstü bilgisayarınızı dock ile eşleştirecektir: Dock'a bir daha dizüstü bilgisayarınızla yaklaştığınızda, otomatik eşleştirmeyle fiziksel olarak bağlanmadan önce hem dock hem de dizüstü bilgisayarınız açılacak/uyandırılacaktır.",
+        "instadockModalLabel": "*Bu özellik 2 adete kadar dizüstü bilgisayarın eşleştirilmesine olanak verir.",
+        "close": "Kapat"
+      }
+    }
+  },
+  "uk": {
+    "translation": {
+      "pCDock": {
+        "title": "Док-станція",
+        "serialNumber": "Серійний номер",
+        "disconnected": "Відключено",
+        "connected": "Підключено",
+        "connection": "Підключення",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "Версія мікропрограми",
+        "supportButton": "Підтримка док-станції",
+        "deviceNameValidation": "Назва док-станції не може містити спеціальних символів, використовуйте лише літери, дефіси й цифри.",
+        "noData": "Н/Д",
+        "notificationDockDetected": "Виявлено док",
+        "notificationDockMessage": "Ми виявили, що у вас підключений Instadock, налаштувати його зараз?",
+        "notificationDockErased": "Перервано з’єднання з Instadock",
+        "notificationDockBodyErased": "Щоб відновити з’єднання, відкрийте myHP і ввімкніть цю функцію.",
+        "notificationDockDismiss": "Відхилити",
+        "notificationOpenMy": "Відкрити myHP",
+        "instadockModalTitle": "Як це працює",
+        "instadockModalDescription": "Увімкнення Instadock з’єднає ваш ноутбук з док-станцією. Наступного разу, коли ви підійдете до док-станції з ноутбуком, і док-станція, і ноутбук увімкнуться/прокинуться перед фізичним з’єднанням завдяки автоматичному з’єднанню, коли ви наблизитеся до свого столу.",
+        "instadockModalLabel": "*Ця функція підтримує з’єднання до 2 ноутбуків.",
+        "close": "Закрити"
+      }
+    }
+  },
+  "zh-Hans": {
+    "translation": {
+      "pCDock": {
+        "title": "扩展坞",
+        "serialNumber": "序列号",
+        "disconnected": "已断开",
+        "connected": "已连接",
+        "connection": "连接",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "固件版本",
+        "supportButton": "扩展坞支持",
+        "deviceNameValidation": "扩展坞名称不能包含任何特殊字符，请仅使用字母、连字符和数字。",
+        "noData": "不适用",
+        "notificationDockDetected": "检测到扩展坞",
+        "notificationDockMessage": "我们检测到您已连接 Instadock，您想现在进行设置吗？",
+        "notificationDockErased": "Instadock 的连接已中断",
+        "notificationDockBodyErased": "要恢复连接，请打开 myHP 以重新开启此功能。",
+        "notificationDockDismiss": "忽略",
+        "notificationOpenMy": "打开 myHP",
+        "instadockModalTitle": "工作原理",
+        "instadockModalDescription": "开启 Instadock 会将您的笔记本电脑与扩展坞配对，下次您带着笔记本电脑靠近扩展坞时，在您走到办公桌的过程中，扩展坞和笔记本电脑会在物理连接之前通过自动配对开启/唤醒。",
+        "instadockModalLabel": "*此功能允许最多与 2 台笔记本电脑配对。",
+        "close": "关闭"
+      }
+    }
+  },
+  "zh-Hant": {
+    "translation": {
+      "pCDock": {
+        "title": "銜接座",
+        "serialNumber": "序號",
+        "disconnected": "已中斷連線",
+        "connected": "已連線",
+        "connection": "連線",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "韌體版本",
+        "supportButton": "銜接支援",
+        "deviceNameValidation": "銜接座名稱不能包含任何特殊字元，請僅使用字母、連字號字元和數字。",
+        "noData": "不適用",
+        "notificationDockDetected": "偵測到泊接座",
+        "notificationDockMessage": "我們偵測到您已連接 Instadock，您現在要設定它嗎？",
+        "notificationDockErased": "Instadock 連線中斷",
+        "notificationDockBodyErased": "若要還原連線，請開啟 myHP 以重新啟用此功能。",
+        "notificationDockDismiss": "關閉",
+        "notificationOpenMy": "開啟 myHP",
+        "instadockModalTitle": "運作方式",
+        "instadockModalDescription": "開啟 Instadock 會將您筆記型筆電與泊接座配對。下次您帶著筆記型電腦接近泊接座時，泊接座和筆記型電腦都會開啟/喚醒，然後在您接近辦公桌時透過自動配對進行實體連線。",
+        "instadockModalLabel": "*此功能最多可與 2 部筆記型電腦配對。",
+        "close": "關閉"
+      }
+    }
+  },
+  "zh-Hant-HK": {
+    "translation": {
+      "pCDock": {
+        "title": "擴充基座",
+        "serialNumber": "序列號",
+        "disconnected": "已中斷",
+        "connected": "已連接",
+        "connection": "連接",
+        "typeC": "Type C",
+        "thunderbolt": "Thunderbolt",
+        "firmwareVersion": "固件版本",
+        "supportButton": "擴充基座支援",
+        "deviceNameValidation": "擴充基座名稱不能包含任何特殊字元，請僅使用英文字母、連字符和數字。",
+        "noData": "不適用",
+        "notificationDockDetected": "偵測到擴充基座",
+        "notificationDockMessage": "我們偵測到你已連接 Instadock，想立即設定？",
+        "notificationDockErased": "Instadock 連線已中斷",
+        "notificationDockBodyErased": "如需恢復連線，請開啟 myHP 以重新開啟此功能。",
+        "notificationDockDismiss": "撤銷",
+        "notificationOpenMy": "開啟 myHP",
+        "instadockModalTitle": "如何運作",
+        "instadockModalDescription": "開啟 Instadock 後，你的筆記簿型電腦將會與擴充基座配對。當你下次帶著筆記簿型電腦靠近擴充基座時，擴充基座和筆記簿型電腦都將開啟/喚醒，然後當你靠近辦公桌時，便會進行自動配對，從而省卻實體方式連接。",
+        "instadockModalLabel": "*此功能最多可與 2 部筆記簿型電腦配對。",
+        "close": "關閉"
+      }
+    }
+  }
+}

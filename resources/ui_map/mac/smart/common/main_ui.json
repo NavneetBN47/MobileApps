@@ -1,0 +1,247 @@
+{
+    "desktop":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Finder']/AXScrollArea[0]"}
+    },
+    
+    "coach_mark":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[2]/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:51']"}
+    },
+    
+    "add_your_first_printer_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:520' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:305']/AXScrollArea[@AXIdentifier='_NS:73']/AXScrollArea[@AXIdentifier='_NS:618']/AXGroup[@AXIdentifier='_NS:10']/AXStaticText[@AXIdentifier='_NS:228']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:500' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:94']/AXScrollArea[@AXIdentifier='_NS:760']/AXScrollArea[@AXIdentifier='_NS:1017']/AXGroup[@AXIdentifier='_NS:180']/AXStaticText[@AXIdentifier='_NS:86']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1025']/AXGroup[@AXIdentifier='_NS:68']/AXStaticText[@AXIdentifier='_NS:180']"]}
+    },
+
+    "printer_name":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[@AXIdentifier='_NS:13']/AXScrollArea[@AXIdentifier='_NS:24']/AXGroup[@AXIdentifier='_NS:11']/AXStaticText[@AXIdentifier='_NS:240']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1025']/AXGroup[@AXIdentifier='_NS:68']/AXStaticText[@AXIdentifier='_NS:137']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:1088']/AXGroup[@AXIdentifier='_NS:387']/AXStaticText[@AXIdentifier='_NS:697']"]}
+    },
+    
+    "printer_status":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:674']/AXGroup[@AXIdentifier='_NS:73']/AXStaticText[@AXIdentifier='_NS:658']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1025']/AXGroup[@AXIdentifier='_NS:68']/AXStaticText[@AXIdentifier='_NS:594']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:1088']/AXGroup[@AXIdentifier='_NS:387']/AXStaticText[@AXIdentifier='_NS:349']"]}
+    },
+    
+    "printer_status_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1025']/AXGroup[@AXIdentifier='_NS:68']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:594']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:674']/AXGroup[@AXIdentifier='_NS:73']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:658']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:1088']/AXGroup[@AXIdentifier='_NS:387']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:349']"]}
+    },
+    
+    "printer_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:500' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:94']/AXScrollArea[@AXIdentifier='_NS:760']/AXScrollArea[@AXIdentifier='_NS:1017']/AXGroup[@AXIdentifier='_NS:180']/AXImage[@AXIdentifier='_NS:128']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:783']/AXScrollArea[@AXIdentifier='_NS:140']/AXScrollArea[@AXIdentifier='_NS:481']/AXGroup[@AXIdentifier='_NS:151']/AXImage[@AXIdentifier='_NS:724']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1025']/AXGroup[@AXIdentifier='_NS:68']/AXImage[@AXIdentifier='_NS:101']"]}
+    },
+    
+    "printer_status_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[@AXIdentifier='_NS:225']/AXScrollArea[@AXIdentifier='_NS:274']/AXGroup[@AXIdentifier='_NS:11']/AXImage[@AXIdentifier='_NS:294']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:783']/AXScrollArea[@AXIdentifier='_NS:140']/AXScrollArea[@AXIdentifier='_NS:481']/AXGroup[@AXIdentifier='_NS:151']/AXImage[@AXIdentifier='_NS:154']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1025']/AXGroup[@AXIdentifier='_NS:68']/AXImage[@AXIdentifier='_NS:384']"]}
+    },
+    
+    "estimated_supply_levels_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[@AXIdentifier='_NS:225']/AXScrollArea[@AXIdentifier='_NS:274']/AXGroup[@AXIdentifier='_NS:11']/AXGroup[@AXIdentifier='_NS:332']/AXStaticText[@AXIdentifier='_NS:343']"}
+    },
+   
+    "x_of_x_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[@AXIdentifier='_NS:13']/AXStaticText[@AXValue='1 of 1' and @AXIdentifier='_NS:109']"}
+    },
+
+    "add_printer_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1025']/AXGroup[@AXIdentifier='_NS:68']/AXButton[@AXIdentifier='_NS:698']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:674']/AXGroup[@AXIdentifier='_NS:73']/AXButton[@AXIdentifier='_NS:465']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:235' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:626']/AXScrollArea[@AXIdentifier='_NS:826']/AXScrollArea[@AXIdentifier='_NS:356']/AXGroup[@AXIdentifier='_NS:263']/AXButton[@AXIdentifier='_NS:537']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:235' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[0]"]}
+
+    },
+
+    "get_ink_tile":{
+    	"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:519' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:406']/AXScrollArea[@AXIdentifier='_NS:744']/AXScrollArea[@AXIdentifier='_NS:51']/AXList[@AXIdentifier='_NS:30' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXIdentifier='_NS:14']",
+    	                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXIdentifier='_NS:97']",
+                            "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:767']/AXList[@AXIdentifier='_NS:267' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXIdentifier='_NS:16']"]}
+	 },
+
+
+    "get_supplies_tile_no_printer":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:520' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:305']/AXScrollArea[@AXIdentifier='_NS:73']/AXScrollArea[@AXIdentifier='_NS:3']/AXList[@AXIdentifier='_NS:165' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:27']"}
+    },
+
+    "scan_tile":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:235' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:626']/AXScrollArea[@AXIdentifier='_NS:826']/AXScrollArea[@AXIdentifier='_NS:996']/AXList[@AXIdentifier='_NS:827' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:119']"]}
+	},
+    
+    "shortcuts_tile":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:767']/AXList[@AXIdentifier='_NS:267' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:126']"]}
+	},
+
+    "printables_tile":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:767']/AXList[@AXIdentifier='_NS:267' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:126']"]}
+	},
+     
+    "print_document_tile":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:767']/AXList[@AXIdentifier='_NS:267' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:126']"]}
+	},
+    
+    "mobile_fax_tile":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:767']/AXList[@AXIdentifier='_NS:267' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:126']"]}
+	},
+    
+    "help_center_tile":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:767']/AXList[@AXIdentifier='_NS:267' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:126']"]}
+	},
+    
+    "print_photo_tile":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:767']/AXList[@AXIdentifier='_NS:267' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:126']"]}
+	},
+
+    "printer_settings_tile":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:91']/AXList[@AXIdentifier='_NS:301' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:16']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:953']/AXList[@AXIdentifier='_NS:567' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:85']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:235' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:626']/AXScrollArea[@AXIdentifier='_NS:826']/AXScrollArea[@AXIdentifier='_NS:996']/AXList[@AXIdentifier='_NS:827' and @AXSubrole='AXCollectionList']/AXList[@AXSubrole='AXSectionList']/AXGroup[@AXIdentifier='BottomTileItem']/AXStaticText[@AXValue={} and @AXIdentifier='_NS:119']"]}
+	},
+
+    "private_pickup_files_number":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[@AXIdentifier='_NS:225']/AXScrollArea[@AXIdentifier='_NS:274']/AXGroup[@AXIdentifier='_NS:11']/AXGroup[@AXIdentifier='_NS:332']/AXStaticText[0]"}
+    },
+
+    "private_pickup_files_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[@AXIdentifier='_NS:352']/AXScrollArea[@AXIdentifier='_NS:376']/AXGroup[@AXIdentifier='_NS:11']/AXGroup[@AXIdentifier='_NS:332']/AXStaticText[@AXIdentifier='_NS:369']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[@AXIdentifier='_NS:225']/AXScrollArea[@AXIdentifier='_NS:274']/AXGroup[@AXIdentifier='_NS:11']/AXGroup[@AXIdentifier='_NS:332']/AXStaticText[@AXIdentifier='_NS:369']"]}
+    },
+
+    "forget_printer_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:11']"}
+    },
+
+    "forget_printer_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:11']"}
+    },
+ 
+    "left_arrow_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXButton[@AXIdentifier='_NS:770']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXButton[@AXIdentifier='_NS:907']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXButton[@AXIdentifier='_NS:642']"]}
+    },
+
+    "right_arrow_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:402']/AXScrollArea[@AXIdentifier='_NS:851']/AXButton[@AXIdentifier='_NS:959']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXButton[@AXIdentifier='_NS:204']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXButton[@AXIdentifier='_NS:137']"]}
+    },
+
+    "forget_this_printer_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[@AXIdentifier='_NS:13']/AXButton[@AXIdentifier='_NS:26']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[@AXIdentifier='_NS:13']/AXButton[@AXIdentifier='_NS:66']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[@AXIdentifier='_NS:13']/AXButton[@AXIdentifier='_NS:102']"]}
+    },
+
+    "finish_setup_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:783']/AXScrollArea[@AXIdentifier='_NS:140']/AXScrollArea[@AXIdentifier='_NS:481']/AXGroup[@AXIdentifier='_NS:151']/AXGroup[@AXIdentifier='_NS:409']/AXButton[@AXIdentifier='_NS:586']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:851']/AXScrollArea[@AXIdentifier='_NS:1023']/AXScrollArea[@AXIdentifier='_NS:674']/AXGroup[@AXIdentifier='_NS:73']/AXGroup[@AXIdentifier='_NS:697']/AXButton[@AXIdentifier='_NS:281']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:46']/AXScrollArea[@AXIdentifier='_NS:250']/AXScrollArea[@AXIdentifier='_NS:1088']/AXGroup[@AXIdentifier='_NS:387']/AXGroup[@AXIdentifier='_NS:555']/AXButton[@AXIdentifier='_NS:386']"]}
+    },
+
+    "finish_setup_to_use_hp_smart_features_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[@AXIdentifier='_NS:13']/AXScrollArea[@AXIdentifier='_NS:62']/AXGroup[@AXIdentifier='_NS:11']/AXStaticText[@AXIdentifier='_NS:363']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[@AXIdentifier='_NS:225']/AXScrollArea[@AXIdentifier='_NS:267']/AXGroup[@AXIdentifier='_NS:11']/AXStaticText[@AXIdentifier='_NS:397']"]}
+    },
+
+    "potg_optimize_dialog_close_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:452']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:341']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXButton[@AXIdentifier='_NS:523']"]}
+    },
+
+    "potg_optimize_dialog_introducing_print_anywhere_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:413']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:302']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXStaticText[@AXIdentifier='_NS:483']"]}
+    },
+
+    "potg_optimize_dialog_send_files_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"]}
+    },
+
+    "potg_optimize_dialog_optimize_printers_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"]}
+    },
+
+    "potg_optimize_dialog_optimize_printers_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:459']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:348']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXButton[@AXIdentifier='_NS:506']"]}
+    },
+
+    "potg_optimize_dialog_updating_settings_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:434']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:95']/AXStaticText[@AXIdentifier='_NS:504']"]}
+    },
+
+    "hide_printer_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:520' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:305']/AXScrollArea[@AXIdentifier='_NS:73']/AXButton[@AXIdentifier='_NS:13']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:880']/AXScrollArea[@AXIdentifier='_NS:486']/AXButton[@AXIdentifier='_NS:375']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:500' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:94']/AXScrollArea[@AXIdentifier='_NS:760']/AXButton[@AXIdentifier='_NS:911']"]}
+    },
+
+    "allow_hp_diagnose_fix_dialog_allow_btn":{
+
+        
+
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:519' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='1']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:217' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='1']",
+
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='1']"]}
+    },
+
+    "my_account_printers_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXHeading[@AXTitle='Printers']/AXStaticText[@AXValue='Printers']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:520' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXHeading[@AXTitle='Printers']/AXStaticText[@AXValue='Printers']"]}
+    },
+
+    "install_to_print_dialog_title":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:111']"}
+    },
+
+    "install_to_print_dialog_the_selected_printer_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:187']"}
+    },
+
+    "install_to_print_dialog_please_install_the_printer_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:28']"}
+    },
+
+    "install_to_print_dialog_set_as_default_printer_checkbox":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXCheckBox[@AXIdentifier='_NS:144']"}
+    },
+
+    "install_to_print_dialog_i_will_do_this_later_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:80']"}
+    },
+
+    "install_to_print_dialog_install_printer_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:135']"}
+    }
+
+    
+}
+

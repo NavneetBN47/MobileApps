@@ -1,0 +1,37 @@
+{
+    "text_file_job_txt": {
+      "locator": {"css selector": ["[id^='jobName'][title='{}']", 
+                                  "[id^='jobName']"]}
+    },
+    "text_file_job_status_txt": {
+      "locator": {"css selector": "[id^='jobStatus']",
+                  "id": "jobStatus{}"}
+    },
+    "text_file_job_failure_icon": {
+      "locator": {"css selector": "[id^='failureStatusIcon]",
+                  "id": "failureStatusIcon{}"}
+    },
+    "text_file_job_btn": {
+      "_comment": "Android Only",
+      "locator": {"css selector": "[id^='actionButton']",
+                  "id": "actionButton{}"}
+    },
+    "text_file_job_download_btn": {
+      "_comment": "Android Only",
+      "locator": {"id": "downloadText"}
+    },
+    "text_file_job_share_btn": {
+      "_comment": "Android Only",
+      "locator": {"id": "shareText"}
+    },
+    "text_file_job_delete_btn": {
+      "_comment": "Android Only",
+      "locator": {"id": "deleteText"}
+    },
+    "text_files_title_txt": {
+      "locator": {"id": "title"}
+    },
+    "text_files_accessibility_txt": {
+      "locator": {"id": "filesAccessibleWarning"}
+    }
+}

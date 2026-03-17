@@ -1,0 +1,269 @@
+{
+    "profile_title_desc":{
+        "locator": {
+            "css selector": "div[data-testid='account-profile-component'] .body"
+        },
+        "localization": {
+            "en": "Manage profile details and change account password."
+        }
+    },
+    "profile_username_txt_box":{
+        "locator": {
+            "css selector": "input[data-testid='profile-userName']"
+        }
+    },
+    "profile_username_label":{
+        "locator": {
+            "css selector": "label#profile-userName-label"
+        }
+    }, 
+    "profile_first_name_txt_box":{
+        "locator": {
+            "css selector": "input[data-testid='profile-givenName']"
+        }
+    }, 
+    "profile_firstname_label": {
+        "comment": "locator mismatch between PIE & Stage - ",
+        "locator": {
+            "css selector": ["[data-testid='profile-form-fields'] div:nth-child(2) label",
+                            "[data-testid='profile-form-fields'] div:nth-child(3) label"]
+        },
+        "localization": {
+            "en": "First Name*"
+        }
+    },
+    "profile_last_name_txt_box":{
+        "locator": {
+            "css selector": "input[data-testid='profile-familyName']"
+        }
+    },
+    "profile_lastname_label": {
+        "locator": {
+            "css selector": "[data-testid='profile-form-fields'] div:nth-child(1) label"
+        },
+        "localization": {
+            "en": "Last Name*"
+        }
+    },
+    "profile_email_txt_box":{
+        "locator": {
+            "css selector": "input[data-testid='profile-email']"
+        }
+    },
+    "profile_email_label":{
+        "comment": "locator mismatch between PIE & Stage - ",
+        "locator": {
+            "css selector":"[data-testid='profile-form-fields'] div:nth-child(3) label"
+        },
+        "localization": {
+            "en": "Email"
+        }
+    },
+    "profile_email":{
+        "comment": "locator mismatch between PIE & Stage - ",
+        "locator": {
+            "css selector": "[data-testid='profile-form-fields'] div:nth-child(5) label"
+        },
+        "localization": {
+            "en": "Email"
+        }
+    },
+    "profile_country_dropdown": {
+        "locator": {
+            "css selector": "div#profile-Select-DropDown"
+        }
+    }, 
+    "profile_country_label":{
+        "locator": {
+            "css selector": "label#profile-Select-DropDown-label"
+        },
+        "localization": {
+            "en": "Country/Region*"
+        }
+    },
+    "profile_country_option": {
+        "locator": {
+            "css selector": "li#profile-country-option-{}"
+        }
+    },
+    "profile_phone_number":{
+        "locator": {
+            "css selector": "[data-testid='profile-phoneNumber']"
+        }
+    },
+    "profile_phone_number_label": {
+        "locator": {
+            "css selector": ["[data-testid='profile-form-fields'] div:nth-child(4) label",
+                            "[data-testid='profile-form-fields'] div:nth-child(7) label"]
+        },
+        "localization": {
+            "en": "Phone number"
+        }
+    },
+    "profile_language_dropdown": {
+        "locator": {
+            "css selector": "div#profile-language"
+        }
+    },
+    "profile_language_label":{
+        "locator": {
+            "css selector": "label#profile-language-label"
+        }
+    },
+    "profile_language_option":{
+        "locator": {
+            "css selector": "li#profile-language-option-{}"
+        }
+    },
+    "apply_changes_button":{
+        "locator": {
+            "css selector": "button[data-testid='profile-contextual-toolbar-submit-button']"
+        }
+    },
+    "change_password_link":{
+        "locator": {
+            "css selector": "div[data-testid='user-profile-changePassword-link']>a"
+        }
+    },
+    "profile_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='profile-contextual-toolbar-cancel-button']"
+        }
+    },
+    "profile_email_error_label":{
+        "locator": {
+            "css selector": "p#profile-email-helper-text > span.caption"
+        }
+    },
+    "popup_Updating_email_will_not_change_Username":{
+        "locator":{
+            "css selector":"div#regular-modal-desc "
+        }
+    },
+    "popup_Updating_email_will_not_change_Username_desc":{
+        "locator":{
+            "css selector":"div#regular-modal-desc  p"
+        }
+    },
+    "popup_continue_button":{
+        "locator": {
+            "css selector": "button[aria-label='Continue']"
+        }
+    },
+    "success_alert":{
+        "locator": {
+            "css selector": "div[role='alert'] div>span"
+        },
+        "localization": {
+            "en": "Changes on Account Profile were saved successfully."
+        }
+    },
+    "change_password_label":{
+        "locator": {
+            "css selector": "div#root h6"
+        }
+    },
+    "account_profile_organization_tab":{
+        "locator": {
+            "css selector": "div#organization"
+        }
+    },
+    "account_profile_personal_tab":{
+        "locator": {
+            "css selector": "div#profile"
+        }
+    },
+    "organization_uid_txt": {
+        "locator": {
+            "css selector": "input[data-testid='organization-uid']"
+        }
+    },
+    "organization_name_txt": {
+        "locator": {
+            "css selector": "input[data-testid='organization-accountName']"
+        }
+    },
+    "organization_description_txt": {
+        "locator": {
+            "css selector": "textarea[data-testid='organization-description']"
+        }
+    },
+    "organization_uid_lbl": {
+        "locator": {
+            "xpath": "//label[contains(text(),'UID')]"
+        }
+    },
+    "organization_name_lbl": {
+        "locator": {
+            "xpath": "//label[contains(text(),'Organization Name')]"
+        }
+    },
+    "organization_description_lbl": {
+        "locator": {
+            "css selector": "label#organization-description-label"
+        },
+        "localization": {
+            "en": "Organization Description"
+        }
+    },
+    "unsaved_changes_popup_title": {
+        "locator": {
+            "css selector": "label[data-testid='confirmation-modal-title']"
+        },
+        "localization": {
+            "en": "Unsaved Changes"
+        }
+    },
+    "unsaved_changes_popup_desc":{
+        "locator": {
+            "css selector": "div[data-testid='confirmation-modal-description']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? Your changes have not been saved and will be discarded if you leave now."
+        }
+    },
+    "unsaved_changes_popup_cancel_button": {
+        "locator": {
+            "css selector": "button[data-testid='confirmation-modal-cancel-btn']"
+        }
+    },
+    "unsaved_changes_popup_leave_button": {
+        "locator": {
+            "css selector": "button[data-testid='leave-button']"
+        }
+    },
+    "account_profile_card": {
+        "locator": {
+            "css selector": "[data-testid='setting-account-profile']"
+        }
+    },
+    "account_profile_card_title": {
+        "locator": {
+            "css selector": "[data-testid='setting-account-profile-tile-description-title']"
+        },
+        "localization": {
+            "en": "Account Profile"
+        }
+    },
+    "account_profile_card_desc": {
+        "locator": {
+            "css selector": "[data-testid='setting-account-profile-tile-description-text']"
+        },
+        "localization": {
+            "en": "Manage profile details. Change account password."
+        }
+    },
+    "account_profile_card_chevron": {
+        "locator": {
+            "css selector": "[data-testid='setting-account-profile-tile-chevron-wrapper']"
+        }
+    },
+    "profile_page_title":{
+        "locator": {
+            "css selector": "div[data-testid='account-profile-component'] .title-small"
+        },
+        "localization": {
+            "en": "Account Profile"
+        }
+    }
+}

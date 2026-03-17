@@ -1,0 +1,38 @@
+{
+    "help_center_nav_bar": {
+        "locator": {
+            "xpath": "//XCUIElementTypeNavigationBar[@name='{}']"
+        }
+    },
+    "help_document_web_view": {
+        "locator": {
+            "name": "Help Document Web View"
+        }
+    },
+    "account_prop_nav_bar": {
+        "locator": {
+            "name": "HPPrinterControl.OWSValuePropositionView"
+        }
+    },
+    "account_prop_more_btn": {
+        "locator": {
+            "name": "More",
+            "label": "icon more white vert"
+        }
+    },
+    "hp_privacy_statement_navbar": {
+        "locator": {
+            "name": "HP Privacy Statement"
+        }
+    },
+    "accept_btn": {
+        "locator": {
+            "name": "Accept"
+        }
+    },
+    "hp_privacy_office_title": {
+        "locator": {
+            "name": "Contact HP Privacy Office"
+        }
+    }
+}

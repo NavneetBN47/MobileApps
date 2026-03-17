@@ -1,0 +1,218 @@
+{
+    "C31868423": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion 15-dq1000 x360 Convertible PC series (6UQ10AV)", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion 15-dq1000 x360 Convertible PC series (6UQ10AV)", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C32330579": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion 15-dq1000 x360 Convertible PC series (6UQ10AV)", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion 15-dq1000 x360 Convertible PC series (6UQ10AV)", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },   
+    "C31866691": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion 15-dq1000 x360 Convertible PC series (6UQ10AV)", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "productName":"HP Pavilion 15-dq1000 x360 Convertible PC series (6UQ10AV)", 
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":true
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C31868417": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CG02735RG",
+                "productNumber":"158U3AA#ABA",
+                "productNumberNoRegion":"158U3AA",
+                "productName":"HP EliteBook 830 G7 Notebook PC (8PV76AV)", 
+                "productLineCode":"AN",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":false,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CG02735RG",
+                "productNumber":"158U3AA#ABA",
+                "productNumberNoRegion":"158U3AA",
+                "productName":"HP EliteBook 830 G7 Notebook PC (8PV76AV)", 
+                "productLineCode":"AN",
+                "productLine":"103C_5336AN",
+                "isSubscriptionDevice":false,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C35894753": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CG02735RG",
+                "productNumber":"158U3AA#ABA",
+                "productNumberNoRegion":"158U3AA",
+                "productName":"HP EliteBook 830 G7 Notebook PC (8PV76AV)", 
+                "productLineCode":"AN",
+                "productLine":"103C_5336KV",
+                "isSubscriptionDevice":false,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-GB",
+            "@hp-support/region":"GB"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CG02735RG",
+                "productNumber":"158U3AA#ABA",
+                "productNumberNoRegion":"158U3AA",
+                "productName":"HP EliteBook 830 G7 Notebook PC (8PV76AV)", 
+                "productLineCode":"AN",
+                "productLine":"103C_5336KV",
+                "isSubscriptionDevice":false,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C12345678": {
+        "itg":{
+            "@hp-af/feature-switch/overrides": {
+                "supporthome-core":true
+            }
+        },
+        "stg":{
+            "@hp-af/feature-switch/overrides": {
+                "supporthome-core":true
+            }
+        }
+    }
+}

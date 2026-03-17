@@ -1,0 +1,147 @@
+{
+  "service_routing_header": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='header']/Text[@Name='Service Routing']"
+    }
+  },
+  "get_services_test_button": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getServicesItem']/Button[@AutomationId='getServicesTestButton']"
+    }
+  }, 
+  "get_services_test_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getServicesItem']/Text[@Name='Result']/following-sibling::Text[2]"
+    }
+  }, 
+  "service_availability_service_id": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getServiceAvailabilityItem']//Edit[@AutomationId='serviceId']"
+    }
+  }, 
+  "get_service_availability_test_button": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getServiceAvailabilityItem']/Button[@AutomationId='getServiceAvailabilityTestButton']"
+    }
+  },
+  "get_service_availability_result_txt": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getServiceAvailabilityItem']/Text[@Name='Result']/following-sibling::Text[2]"
+    }
+  },
+  "launch_service_svc_id": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='launchServiceItem']/Edit[@AutomationId='launchServiceOptionsServiceId']"
+    }
+  },
+  "launch_service_test_btn": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='launchServiceItem']/Button[@AutomationId='getServiceAvailabilityTestButton']"
+    }
+  },
+  "service_launch_result_txt": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='launchServiceItem']//Text[@Name='Result']/following-sibling::Text[2]"
+    }
+  },
+  "service_launch_data": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='launchServiceItem']/Edit[@AutomationId='serviceLaunchDataField']"
+    }
+  },
+  "transition_type_drop_down_menu": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='launchServiceItem']/ComboBox[@AutomationId='launchServiceOptionsTransitionTypeOptionSelect']"
+    }
+  },
+  "transition_type_none": {
+    "locator": {
+      "name": "none"
+    }
+  },
+  "transition_type_forward": {
+    "locator": {
+      "name": "forward"
+    }
+  },
+  "transition_type_backward": {
+    "locator": {
+      "name": "backward"
+    }
+  },
+  "launch_service_options_availability_test_btn": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='serviceInstanceLaunchOptionsItem']/Button[@AutomationId='getLaunchServiceOptionsAvailabilityTestButton']"
+    }
+  },
+  "service_options_availability_result_text": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='serviceInstanceLaunchOptionsItem']/Text[@Name='Result']/following-sibling::Text[2]"
+    }
+  },
+  "get_service_instance_test_btn": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='serviceInstanceItem']/Button[@AutomationId='getServiceAvailabilityTestButton']"
+    }
+  },
+  "get_service_instance_result_txt": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='serviceInstanceItem']//Text[@Name='Result']/following-sibling::Text[2]"
+    }
+  },
+  "back_btn": {
+    "locator": {
+      "name": "Back"
+    }
+  }, 
+  "go_back_btn": {
+    "locator": {
+      "name": "Go Back"
+    }
+  }, 
+  "refresh_available_services_from_repo": {
+    "locator": {
+       "xpath": "//Button[@AutomationId='refreshServiceAvailabilityToggle']"
+    }
+  },
+  "close_service_instance_test_btn": {
+    "locator": {
+         "xpath": "//Button[@AutomationId='closeServiceInstanceTestButton']"
+    }
+  },
+  "display_under_navbar_switch": {
+    "locator": {
+         "xpath": "//Button[@AutomationId='displayUnderNavBarToggle']"
+    }
+  },
+  "custom_plugin_dropdown":{
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='customPluginsSideMenuItem']"
+ }
+  },
+  "settings_side_menu":{
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='settingsSideMenuItem']//HyperLink[@Name='Settings']"
+ }
+  },
+  "toggle_enforce_navigation_whitelist": {
+    "locator": {
+         "xpath": "//Button[@AutomationId='enforceNavigationWhitelist']"
+    }
+  },
+  "left_go_back_btn": {
+    "locator": {
+       "xpath": "//Window[@AutomationId='TitleBarLeftButtons']/Button[@AutomationId='Back']"
+    }
+  },
+  "notification_toast_text": {
+    "locator": {
+      "xpath": "//Text[@LocalizedControlType='alert' and contains(@Name,'servicerouting')] | //Text[@LocalizedControlType='alert']//Text[contains(@Name,'servicerouting')]"
+    }
+  },
+  "hidden_back_btn": {
+    "locator": {
+      "xpath": "//Window[contains(@ClassName,'CoreWindow')]/Button"
+    }
+  }
+}

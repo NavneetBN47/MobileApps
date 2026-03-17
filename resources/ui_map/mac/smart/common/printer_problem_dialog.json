@@ -1,0 +1,27 @@
+{
+    "printer_problem_dialog_title":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:16']"}
+    },
+    
+    "printer_problem_dialog_image":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXImage[@AXIdentifier='_NS:152']"}
+    },
+    
+    "printer_problem_dialog_content":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:136']"}
+    },
+    
+    "printer_problem_dialog_return_to_home_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='3']"}
+    },
+    
+    "printer_problem_dialog_cancel_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='2']"}
+    },
+    
+    "printer_problem_dialog_skip_printing_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:582' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='1']"}
+    }
+    
+}
+

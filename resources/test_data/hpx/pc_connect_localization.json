@@ -1,0 +1,2273 @@
+{
+    "en-US": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC Connect",
+                "moduleDescription": "Connect and configure your network options",
+                "moduleIconAccessibilityLabel": "5G Icon",
+                "moduleTitle": "5G",
+                "connected": "Connected",
+                "secured": "Secured",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Submit",
+                "passwordUpdated": "Password Updated",
+                "5gConnectivity": "5G Connectivity",
+                "eSIM": "eSIM",
+                "disconnect": "Disconnect",
+                "availableNetworks": "Available networks",
+                "networkAndInternetSettings": "Network & Internet settings",
+                "connect": "Connect",
+                "coverageMap": "Coverage Map",
+                "connectInRange": "Connect when in range",
+                "gateway": "Gateway",
+                "inLast30days": "in the last 30 days",
+                "shareMyinternet": "Share my internet connection from",
+                "shareOver": "Share over",
+                "usageData": "Usage data",
+                "simNumber": "Sim Number",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Connect",
+                    "connected": "Connected, Secured",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Disconnect"
+                },
+                "mobileHotspot": {
+                    "title": "Mobile hotspot",
+                    "password": "password"
+                },
+                "header": {
+                    "nav": "[PC Device] > Connectivity"
+                },
+                "toast": {
+                    "connectedTitle": "5G connection established",
+                    "connectedContent": "5G connection has been established",
+                    "disconnectedTitle": "5G connection disconnected",
+                    "disconnectedContent": "5G connection has been disconnected"
+                }
+            }
+        }
+    },
+    "ar-SA": {
+        "translation": {
+            "pCConnect": {
+                "title": "توصيل جهاز الكمبيوتر",
+                "moduleDescription": "التوصيل وتكوين خيارات الشبكة",
+                "moduleIconAccessibilityLabel": "أيقونة 5G",
+                "moduleTitle": "5G",
+                "connected": "متصل",
+                "secured": "مؤمن",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "إرسال",
+                "passwordUpdated": "تم تحديث كلمة المرور",
+                "5gConnectivity": "اتصال 5G",
+                "eSIM": "eSIM",
+                "disconnect": "قطع اتصال",
+                "availableNetworks": "الشبكات المتوفّرة",
+                "networkAndInternetSettings": "إعدادات الشبكة والإنترنت",
+                "connect": "الاتصال",
+                "coverageMap": "خريطة التغطية",
+                "connectInRange": "اتصال عند وجودها في النطاق",
+                "gateway": "البوابة",
+                "inLast30days": "في آخر 30 يومًا",
+                "shareMyinternet": "مشاركة اتصال الإنترنت الخاص بي من",
+                "shareOver": "المشاركة عبر",
+                "usageData": "بيانات الاستخدام",
+                "simNumber": "رقم بطاقة Sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "إيثرنت",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "الاتصال",
+                    "connected": "متصل، مؤمن",
+                    "ip": "IP:",
+                    "gateway": "البوابة:",
+                    "disconnect": "قطع اتصال"
+                },
+                "mobileHotspot": {
+                    "title": "نقطة اتصال الهواتف الجوالة",
+                    "password": "كلمة المرور"
+                },
+                "header": {
+                    "nav": "[جهاز الكمبيوتر الشخصي] > الاتصال"
+                },
+                "toast": {
+                    "connectedTitle": "تم إنشاء اتصال 5G",
+                    "connectedContent": "تم إنشاء اتصال 5G",
+                    "disconnectedTitle": "تم قطع اتصال 5G",
+                    "disconnectedContent": "تم قطع اتصال 5G"
+                }
+            }
+        }
+    },
+    "bg-BG": {
+        "translation": {
+            "pCConnect": {
+                "title": "Връзка към комп.",
+                "moduleDescription": "Свържете се и конфигурирайте вашите мрежови опции",
+                "moduleIconAccessibilityLabel": "5G икона",
+                "moduleTitle": "5G",
+                "connected": "Свързано",
+                "secured": "Защитена",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Подаване",
+                "passwordUpdated": "Актуализ. парола",
+                "5gConnectivity": "5G връзка",
+                "eSIM": "eSIM",
+                "disconnect": "Прек. на връзката",
+                "availableNetworks": "Достъпни мрежи",
+                "networkAndInternetSettings": "Настр. за мрежа и интернет",
+                "connect": "Свързване",
+                "coverageMap": "Карта на обхвата",
+                "connectInRange": "Свързване при обхват",
+                "gateway": "Шлюз",
+                "inLast30days": "през посл. 30 дни",
+                "shareMyinternet": "Спод. на интернет връзката ми от",
+                "shareOver": "Спод. чрез",
+                "usageData": "Изп. на данни",
+                "simNumber": "Номер на Sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Свързване",
+                    "connected": "Свързано, сигурно",
+                    "ip": "IP:",
+                    "gateway": "Шлюз:",
+                    "disconnect": "Прек. на връзката"
+                },
+                "mobileHotspot": {
+                    "title": "Мобилен хотспот",
+                    "password": "парола"
+                },
+                "header": {
+                    "nav": "[Комп. у-во] > Свързаност"
+                },
+                "toast": {
+                    "connectedTitle": "установена е 5G връзка",
+                    "connectedContent": "установена беше 5G връзка",
+                    "disconnectedTitle": "5G връзката е прекъсната",
+                    "disconnectedContent": "5G връзката беше прекъсната"
+                }
+            }
+        }
+    },
+    "ca-ES": {
+        "translation": {
+            "pCConnect": {
+                "title": "Connexió al PC",
+                "moduleDescription": "Connecteu-vos i configureu les vostres opcions de xarxa",
+                "moduleIconAccessibilityLabel": "Icona 5G",
+                "moduleTitle": "5G",
+                "connected": "Connectat",
+                "secured": "Assegurat",
+                "iP": "IP",
+                "wiFi": "Wifi",
+                "submit": "Envia",
+                "passwordUpdated": "Contrasenya actualitzada",
+                "5gConnectivity": "Connectivitat 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Desconnecta",
+                "availableNetworks": "Xarxes disponibles",
+                "networkAndInternetSettings": "Configuració de xarxa i Internet",
+                "connect": "Connecta",
+                "coverageMap": "Mapa de cobertura",
+                "connectInRange": "Connecta't quan estigui a l'abast",
+                "gateway": "Passarel·la",
+                "inLast30days": "en els últims 30 dies",
+                "shareMyinternet": "Comparteix la meva connexió a Internet des de",
+                "shareOver": "Comparteix per",
+                "usageData": "Dades d'ús",
+                "simNumber": "Número Sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Connecta",
+                    "connected": "Connectat, assegurat",
+                    "ip": "IP:",
+                    "gateway": "Passarel·la:",
+                    "disconnect": "Desconnecta"
+                },
+                "mobileHotspot": {
+                    "title": "Zona mòbil activa",
+                    "password": "contrasenya"
+                },
+                "header": {
+                    "nav": "[Dispositiu de PC] > Connectivitat"
+                },
+                "toast": {
+                    "connectedTitle": "Connexió 5G establerta",
+                    "connectedContent": "S'ha establert la connexió 5G",
+                    "disconnectedTitle": "Connexió 5G desconnectada",
+                    "disconnectedContent": "La connexió 5G s'ha desconnectat"
+                }
+            }
+        }
+    },
+    "cs-CZ": {
+        "translation": {
+            "pCConnect": {
+                "title": "Připojení PC",
+                "moduleDescription": "Připojte se a nakonfigurujte možnosti sítě",
+                "moduleIconAccessibilityLabel": "Ikona 5G",
+                "moduleTitle": "5G",
+                "connected": "Připojeno",
+                "secured": "Zabezpečeno",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Odeslat",
+                "passwordUpdated": "Heslo bylo aktualizováno",
+                "5gConnectivity": "Připojení 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Odpojit",
+                "availableNetworks": "Dostupné sítě",
+                "networkAndInternetSettings": "Nastavení sítě a internetu",
+                "connect": "Připojit",
+                "coverageMap": "Mapa pokrytí",
+                "connectInRange": "Připojit, když je v dosahu",
+                "gateway": "Brána",
+                "inLast30days": "za posledních 30 dnů",
+                "shareMyinternet": "Sdílet moje internetové připojení k",
+                "shareOver": "Sdílet pomocí",
+                "usageData": "Údaje o využití",
+                "simNumber": "Číslo SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Připojit",
+                    "connected": "Připojeno, zabezpečeno",
+                    "ip": "IP:",
+                    "gateway": "Brána:",
+                    "disconnect": "Odpojit"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilní hotspot",
+                    "password": "heslo"
+                },
+                "header": {
+                    "nav": "[Počítačové zařízení] > Možnosti připojení"
+                },
+                "toast": {
+                    "connectedTitle": "Připojení 5G navázáno",
+                    "connectedContent": "Připojení 5G bylo navázáno",
+                    "disconnectedTitle": "Připojení 5G odpojeno",
+                    "disconnectedContent": "Připojení 5G bylo odpojeno"
+                }
+            }
+        }
+    },
+    "da-DK": {
+        "translation": {
+            "pCConnect": {
+                "title": "Pc-tilslutning",
+                "moduleDescription": "Tilslut, og konfigurer netværksindstillinger",
+                "moduleIconAccessibilityLabel": "5G-ikon",
+                "moduleTitle": "5G",
+                "connected": "Tilsluttet",
+                "secured": "Sikret",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Indsend",
+                "passwordUpdated": "Adgangskode opdateret",
+                "5gConnectivity": "5G-tilslutning",
+                "eSIM": "eSIM",
+                "disconnect": "Afbryd forbindelse",
+                "availableNetworks": "Tilgængelige netværk",
+                "networkAndInternetSettings": "Netværks- og internetindstillinger",
+                "connect": "Opret forbindelse",
+                "coverageMap": "Dækningskort",
+                "connectInRange": "Tilslut, når inden for rækkevidde",
+                "gateway": "Gateway",
+                "inLast30days": "inden for de seneste 30 dage",
+                "shareMyinternet": "Del min internetforbindelse fra",
+                "shareOver": "Del via",
+                "usageData": "Forbrugsdata",
+                "simNumber": "Simkortnummer",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Opret forbindelse",
+                    "connected": "Tilsluttet, sikret",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Afbryd forbindelse"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilt hotspot",
+                    "password": "adgangskode"
+                },
+                "header": {
+                    "nav": "[Pc-enhed] > Tilslutning"
+                },
+                "toast": {
+                    "connectedTitle": "5G-forbindelse oprettet",
+                    "connectedContent": "5G-forbindelse blev oprettet",
+                    "disconnectedTitle": "5G-forbindelse afbrudt",
+                    "disconnectedContent": "5G-forbindelse blev afbrudt"
+                }
+            }
+        }
+    },
+    "de-DE": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC verbinden",
+                "moduleDescription": "Verbinden und Netzwerkoptionen konfigurieren",
+                "moduleIconAccessibilityLabel": "5G Symbol",
+                "moduleTitle": "5G",
+                "connected": "Verbunden",
+                "secured": "Gesichert",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Senden",
+                "passwordUpdated": "Passwort aktualisiert",
+                "5gConnectivity": "5G Konnektivität",
+                "eSIM": "eSIM",
+                "disconnect": "Trennen",
+                "availableNetworks": "Verfügbare Netzwerke",
+                "networkAndInternetSettings": "Netzwerk- und Interneteinstellungen",
+                "connect": "Verbinden",
+                "coverageMap": "Abdeckungskarte",
+                "connectInRange": "Verbinden, wenn in Reichweite",
+                "gateway": "Gateway",
+                "inLast30days": "in den letzten 30 Tagen",
+                "shareMyinternet": "Meine Internetverbindung teilen von",
+                "shareOver": "Teilen über",
+                "usageData": "Nutzungsdaten",
+                "simNumber": "Sim-Nummer",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Verbinden",
+                    "connected": "Verbinden, Gesichert",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Trennen"
+                },
+                "mobileHotspot": {
+                    "title": "Mobiler Hotspot",
+                    "password": "Passwort"
+                },
+                "header": {
+                    "nav": "[PC-Gerät] > Konnektivität"
+                },
+                "toast": {
+                    "connectedTitle": "5G-Verbindung hergestellt",
+                    "connectedContent": "5G-Verbindung wurde hergestellt",
+                    "disconnectedTitle": "5G-Verbindung getrennt",
+                    "disconnectedContent": "5G-Verbindung wurde getrennt"
+                }
+            }
+        }
+    },
+    "el-GR": {
+        "translation": {
+            "pCConnect": {
+                "title": "Σύνδεση PC",
+                "moduleDescription": "Σύνδεση και διαμόρφωση των επιλογών δικτύου",
+                "moduleIconAccessibilityLabel": "Εικονίδιο 5G",
+                "moduleTitle": "5G",
+                "connected": "Συνδέθηκε",
+                "secured": "Ασφαλές",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Υποβολή",
+                "passwordUpdated": "Ο κωδικός πρόσβασης ενημερώθηκε",
+                "5gConnectivity": "Συνδεσιμότητα 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Αποσύνδεση",
+                "availableNetworks": "Διαθέσιμα δίκτυα",
+                "networkAndInternetSettings": "Ρυθμίσεις δικτύου & Internet",
+                "connect": "Σύνδεση",
+                "coverageMap": "Χάρτης κάλυψης",
+                "connectInRange": "Σύνδεση όταν βρίσκεται εντός εμβέλειας",
+                "gateway": "Πύλη",
+                "inLast30days": "τις τελευταίες 30 ημέρες",
+                "shareMyinternet": "Κοινή χρήση της σύνδεσης internet από",
+                "shareOver": "Κοινοποίηση μέσω",
+                "usageData": "Δεδομένα χρήσης",
+                "simNumber": "Αριθμός Sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Σύνδεση",
+                    "connected": "Συνδεδεμένο, Ασφαλές",
+                    "ip": "IP:",
+                    "gateway": "Πύλη:",
+                    "disconnect": "Αποσύνδεση"
+                },
+                "mobileHotspot": {
+                    "title": "Σημείο σύνδεσης κινητού τηλεφώνου",
+                    "password": "κωδικός πρόσβασης"
+                },
+                "header": {
+                    "nav": "[Συσκευή PC] > Συνδεσιμότητα"
+                },
+                "toast": {
+                    "connectedTitle": "Η σύνδεση 5G επιτεύχθηκε",
+                    "connectedContent": "Επιτεύχθηκε σύνδεση 5G",
+                    "disconnectedTitle": "Σύνδεση 5G αποσυνδεδεμένη",
+                    "disconnectedContent": "Η σύνδεση 5G αποσυνδέθηκε"
+                }
+            }
+        }
+    },
+    "en-GB": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC Connect",
+                "moduleDescription": "Connect and configure your network options",
+                "moduleIconAccessibilityLabel": "5G Icon",
+                "moduleTitle": "5G",
+                "connected": "Connected",
+                "secured": "Secured",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Submit",
+                "passwordUpdated": "Password Updated",
+                "5gConnectivity": "5G Connectivity",
+                "eSIM": "eSIM",
+                "disconnect": "Disconnect",
+                "availableNetworks": "Available networks",
+                "networkAndInternetSettings": "Network & Internet settings",
+                "connect": "Connect",
+                "coverageMap": "Coverage Map",
+                "connectInRange": "Connect when in range",
+                "gateway": "Gateway",
+                "inLast30days": "in the last 30 days",
+                "shareMyinternet": "Share my internet connection from",
+                "shareOver": "Share over",
+                "usageData": "Usage data",
+                "simNumber": "Sim Number",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Connect",
+                    "connected": "Connected, Secured",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Disconnect"
+                },
+                "mobileHotspot": {
+                    "title": "Mobile hotspot",
+                    "password": "password"
+                },
+                "header": {
+                    "nav": "[PC Device] > Connectivity"
+                },
+                "toast": {
+                    "connectedTitle": "5G connection established",
+                    "connectedContent": "5G connection has been established",
+                    "disconnectedTitle": "5G connection disconnected",
+                    "disconnectedContent": "5G connection has been disconnected"
+                }
+            }
+        }
+    },
+    "es-ES": {
+        "translation": {
+            "pCConnect": {
+                "title": "Conexión del equipo",
+                "moduleDescription": "Conecte y configure sus opciones de red",
+                "moduleIconAccessibilityLabel": "Icono de 5G",
+                "moduleTitle": "5G",
+                "connected": "Conectado",
+                "secured": "Seguro",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Enviar",
+                "passwordUpdated": "Contraseña actualizada",
+                "5gConnectivity": "Conectividad SG",
+                "eSIM": "eSIM",
+                "disconnect": "Desconectar",
+                "availableNetworks": "Redes disponibles",
+                "networkAndInternetSettings": "Configuración de red e Internet",
+                "connect": "Conectar",
+                "coverageMap": "Mapa de coberturas",
+                "connectInRange": "Conectar cuando esté dentro del rango",
+                "gateway": "Portal",
+                "inLast30days": "en los últimos 30 años",
+                "shareMyinternet": "Compartir mi conexión a Internet desde",
+                "shareOver": "Terminar de compartir",
+                "usageData": "Uso de datos",
+                "simNumber": "Número SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Conectar",
+                    "connected": "Conectado, seguro",
+                    "ip": "IP:",
+                    "gateway": "Portal:",
+                    "disconnect": "Desconectar"
+                },
+                "mobileHotspot": {
+                    "title": "Punto de acceso Wi-Fi móvil",
+                    "password": "contraseña"
+                },
+                "header": {
+                    "nav": "[Equipo] > Conectividad"
+                },
+                "toast": {
+                    "connectedTitle": "Conexión 5G establecida",
+                    "connectedContent": "Se estableció la conexión 5G",
+                    "disconnectedTitle": "Conexión 5G desconectada",
+                    "disconnectedContent": "Se desconectó la conexión 5G"
+                }
+            }
+        }
+    },
+    "es-MX": {
+        "translation": {
+            "pCConnect": {
+                "title": "Conexión de PC",
+                "connected": "Conectado",
+                "secured": "Seguro",
+                "moduleTitle": "5G",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Enviar",
+                "passwordUpdated": "Contraseña actualizada",
+                "5gConnectivity": "Conectividad 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Desconectar",
+                "availableNetworks": "Redes disponibles",
+                "networkAndInternetSettings": "Configuración de redes e Internet",
+                "connect": "Conectarse",
+                "coverageMap": "Mapa de cobertura",
+                "connectInRange": "Conectar cuando esté dentro del alcance",
+                "gateway": "Puerta de enlace",
+                "inLast30days": "En los últimos 30 días",
+                "shareMyinternet": "Compartir mi conexión de Internet desde",
+                "shareOver": "Compartir por",
+                "usageData": "Datos de uso",
+                "simNumber": "Número Sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Conectarse",
+                    "connected": "Conectado, seguro",
+                    "ip": "IP:",
+                    "gateway": "Puerta de enlace:",
+                    "disconnect": "Desconectar"
+                },
+                "mobileHotspot": {
+                    "title": "Punto de acceso móvil",
+                    "password": "contraseña"
+                },
+                "header": {
+                    "nav": "[PC] > Conectividad"
+                },
+                "toast": {
+                    "connectedTitle": "Conexión 5G establecida",
+                    "connectedContent": "Se estableció la conexión 5G",
+                    "disconnectedTitle": "Conexión 5G interrumpida",
+                    "disconnectedContent": "Se interrumpió la conexión 5G"
+                }
+            }
+        }
+    },
+    "et-EE": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC Connect",
+                "moduleDescription": "Ühendage ja konfigureerige oma võrgusuvandid",
+                "moduleIconAccessibilityLabel": "5G ikoon",
+                "moduleTitle": "5G",
+                "connected": "Ühendatud",
+                "secured": "Turvaline",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Kinnita",
+                "passwordUpdated": "Parool värskendatud",
+                "5gConnectivity": "5G ühendusvus",
+                "eSIM": "eSIM",
+                "disconnect": "Katkesta ühendus",
+                "availableNetworks": "Saadaolevad võrgud",
+                "networkAndInternetSettings": "Võrgu ja interneti sätted",
+                "connect": "Ühenda",
+                "coverageMap": "Katvuskaart",
+                "connectInRange": "Ühenda, kui on leviulatuses",
+                "gateway": "Värav",
+                "inLast30days": "Viimase 30 päeva jooksul",
+                "shareMyinternet": "Jaga minu internetiühendust asukohast",
+                "shareOver": "Jaga üle",
+                "usageData": "Kasutusandmed",
+                "simNumber": "Sim-number",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Ühenda",
+                    "connected": "Ühendatud, turvaline",
+                    "ip": "IP:",
+                    "gateway": "Värav:",
+                    "disconnect": "Katkesta ühendus"
+                },
+                "mobileHotspot": {
+                    "title": "Mobiilne kuumkoht",
+                    "password": "parool"
+                },
+                "header": {
+                    "nav": "[PC seade] > ühenduvus"
+                },
+                "toast": {
+                    "connectedTitle": "5G-ühendus loodud",
+                    "connectedContent": "5G-ühendus on loodud",
+                    "disconnectedTitle": "5G-ühendus katkes",
+                    "disconnectedContent": "5G-ühendus on katkestatud"
+                }
+            }
+        }
+    },
+    "eu-ES": {
+        "translation": {
+            "pCConnect": {
+                "title": "Konektatu ordenagailua",
+                "moduleDescription": "Konektatu eta konfiguratu zure sare-aukerak",
+                "moduleIconAccessibilityLabel": "5G Ikonoa",
+                "moduleTitle": "5G",
+                "connected": "Konektatuta",
+                "secured": "Babestua",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Bidali",
+                "passwordUpdated": "Pashitza eguneratua",
+                "5gConnectivity": "5G konektibitatea",
+                "eSIM": "eSIM",
+                "disconnect": "Deskonektatu",
+                "availableNetworks": "Sare erabilgarriak",
+                "networkAndInternetSettings": "Sarea eta Internet konfiguratzea",
+                "connect": "Konektatu",
+                "coverageMap": "Estaldura mapa",
+                "connectInRange": "Konektatu irismenaren barruan dagoenean",
+                "gateway": "Atebidea",
+                "inLast30days": "Azken 30 egunetan",
+                "shareMyinternet": "Interneteko nire konexioa partekatu",
+                "shareOver": "Partekatu",
+                "usageData": "Erabilera-datuak",
+                "simNumber": "SIM zenbakia",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Konektatu",
+                    "connected": "Konektatua, babestua",
+                    "ip": "IP:",
+                    "gateway": "Atebidea:",
+                    "disconnect": "Deskonektatu"
+                },
+                "mobileHotspot": {
+                    "title": "Hari gabeko sare publikoa",
+                    "password": "Pasahitza"
+                },
+                "header": {
+                    "nav": "[Ordenagailua] > Konektibitatea"
+                },
+                "toast": {
+                    "connectedTitle": "5G konexioa ezarrita",
+                    "connectedContent": "5G konexioa ezarri da",
+                    "disconnectedTitle": "5G konexioa deskonektatua",
+                    "disconnectedContent": "5G konexioa deskonektatu da"
+                }
+            }
+        }
+    },
+    "fi-FI": {
+        "translation": {
+            "pCConnect": {
+                "title": "Yhteys tietokoneeseen",
+                "moduleDescription": "Yhdistä ja määritä verkkoasetuksia",
+                "moduleIconAccessibilityLabel": "5G-kuvake",
+                "moduleTitle": "5G",
+                "connected": "Yhdistetty",
+                "secured": "Suojattu",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Lähetä",
+                "passwordUpdated": "Salasana päivitetty",
+                "5gConnectivity": "5G-liitettävyys",
+                "eSIM": "eSIM",
+                "disconnect": "Katkaise yhteys",
+                "availableNetworks": "Käytettävissä olevat verkot",
+                "networkAndInternetSettings": "Verkko- ja Internet-asetukset",
+                "connect": "Yhdistä",
+                "coverageMap": "Saatavuuskartta",
+                "connectInRange": "Yhdistä kun kantamalla",
+                "gateway": "Yhdyskäytävä",
+                "inLast30days": "Viimeisen 30 vrk aikana",
+                "shareMyinternet": "Jaa Internet-yhteyteni lähteestä",
+                "shareOver": "Jakaminen loppui",
+                "usageData": "Käyttötiedot",
+                "simNumber": "Sim-kortin numero",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Yhdistä",
+                    "connected": "Yhdistetty, suojattu",
+                    "ip": "IP:",
+                    "gateway": "Yhdyskäytävä:",
+                    "disconnect": "Katkaise yhteys"
+                },
+                "mobileHotspot": {
+                    "title": "Mobiilitukiasema",
+                    "password": "salasana"
+                },
+                "header": {
+                    "nav": "[PC-laite] > Liitettävyys"
+                },
+                "toast": {
+                    "connectedTitle": "5G-yhteys luotu",
+                    "connectedContent": "5G-yhteys on luotu",
+                    "disconnectedTitle": "5G-yhteys katkaistu",
+                    "disconnectedContent": "5G-yhteys on katkaistu"
+                }
+            }
+        }
+    },
+    "fr-CA": {
+        "translation": {
+            "pCConnect": {
+                "title": "Connexion PC",
+                "moduleDescription": "Connectez et configurez vos options réseau",
+                "moduleIconAccessibilityLabel": "Icône 5G",
+                "moduleTitle": "5G",
+                "connected": "Connecté",
+                "secured": "Sécurisé",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Soumettre",
+                "passwordUpdated": "Mot de passe mis à jour",
+                "5gConnectivity": "Connectivité 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Déconnexion",
+                "availableNetworks": "Réseaux disponibles",
+                "networkAndInternetSettings": "Paramètres réseau et Internet",
+                "connect": "Connectez-vous à",
+                "coverageMap": "Carte de couverture",
+                "connectInRange": "Me connecter lorsque en portée du signal",
+                "gateway": "Passerelle",
+                "inLast30days": "au cours des 30 derniers jours",
+                "shareMyinternet": "Partager ma connexion Internet de",
+                "shareOver": "Partager via",
+                "usageData": "Données d'utilisation",
+                "simNumber": "Numéro SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Connectez-vous à",
+                    "connected": "Connecté, sécurisé",
+                    "ip": "IP :",
+                    "gateway": "Passerelle :",
+                    "disconnect": "Déconnexion"
+                },
+                "mobileHotspot": {
+                    "title": "Point d’accès sans fil",
+                    "password": "Mot de passe"
+                },
+                "header": {
+                    "nav": "[Périphérique PC] > Connectivité"
+                },
+                "toast": {
+                    "connectedTitle": "Connexion 5G établie",
+                    "connectedContent": "La connexion 5G a été établie",
+                    "disconnectedTitle": "Connexion 5G déconnectée",
+                    "disconnectedContent": "La connexion 5G a été déconnectée"
+                }
+            }
+        }
+    },
+    "fr-FR": {
+        "translation": {
+            "pCConnect": {
+                "title": "Connexion PC",
+                "moduleDescription": "Connectez et configurez vos options réseau.",
+                "moduleIconAccessibilityLabel": "Icône 5G",
+                "moduleTitle": "5G",
+                "connected": "Connecté",
+                "secured": "Sécurisé",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Soumettre",
+                "passwordUpdated": "Mot de passe mis à jour",
+                "5gConnectivity": "Connectivité 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Déconnecter",
+                "availableNetworks": "Réseaux disponibles",
+                "networkAndInternetSettings": "Paramètres réseau et Internet",
+                "connect": "Connexion",
+                "coverageMap": "Carte de couverture",
+                "connectInRange": "Se connecter à portée",
+                "gateway": "Passerelle",
+                "inLast30days": "au cours des 30 derniers jours",
+                "shareMyinternet": "Partager ma connexion Internet à partir de",
+                "shareOver": "Partager sur",
+                "usageData": "Données d'utilisation",
+                "simNumber": "Numéro SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Connexion",
+                    "connected": "Connecté, sécurisé",
+                    "ip": "IP :",
+                    "gateway": "Passerelle :",
+                    "disconnect": "Déconnecter"
+                },
+                "mobileHotspot": {
+                    "title": "Point d'accès mobile",
+                    "password": "mot de passe"
+                },
+                "header": {
+                    "nav": "[Équipement PC] > Connectivité"
+                },
+                "toast": {
+                    "connectedTitle": "Connexion 5G établie",
+                    "connectedContent": "La connexion 5G a été établie.",
+                    "disconnectedTitle": "Connexion 5G perdue",
+                    "disconnectedContent": "La connexion 5G a été perdue."
+                }
+            }
+        }
+    },
+    "gl-ES": {
+        "translation": {
+            "pCConnect": {
+                "title": "Conexión ao PC",
+                "moduleDescription": "Conecte e configure as súas opcións de rede",
+                "moduleIconAccessibilityLabel": "Icona de 5G",
+                "moduleTitle": "5G",
+                "connected": "Conectado",
+                "secured": "Asegurado",
+                "iP": "IP",
+                "wiFi": "wifi",
+                "submit": "Enviar",
+                "passwordUpdated": "Contrasinal actualizado",
+                "5gConnectivity": "Conexión 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Desconectar",
+                "availableNetworks": "Redes dispoñibles",
+                "networkAndInternetSettings": "Configuración de rede e Internet",
+                "connect": "Conectar",
+                "coverageMap": "Mapa de cobertura",
+                "connectInRange": "Conectarse cando estea no alcance",
+                "gateway": "Pasarela",
+                "inLast30days": "nos últimos trinta días",
+                "shareMyinternet": "Compartir a miña conexión de Internet desde",
+                "shareOver": "Compartir sobre",
+                "usageData": "Datos de uso",
+                "simNumber": "Número sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Conectar",
+                    "connected": "Conectado, asegurado",
+                    "ip": "IP:",
+                    "gateway": "Pasarela:",
+                    "disconnect": "Desconectar"
+                },
+                "mobileHotspot": {
+                    "title": "Punto de acceso móbil",
+                    "password": "contrasinal"
+                },
+                "header": {
+                    "nav": "[Dispositivo PC] > Conectividade"
+                },
+                "toast": {
+                    "connectedTitle": "Conexión 5G establecida",
+                    "connectedContent": "Estableceuse a conexión 5G",
+                    "disconnectedTitle": "Conexión 5G desconectada",
+                    "disconnectedContent": "Desconectouse a conexión 5G"
+                }
+            }
+        }
+    },
+    "he-IL": {
+        "translation": {
+            "pCConnect": {
+                "title": "חיבור למחשב",
+                "moduleDescription": "חבר והגדר את אפשרויות הרשת שלך",
+                "moduleIconAccessibilityLabel": "סמל 5G",
+                "moduleTitle": "5G",
+                "connected": "מחובר",
+                "secured": "מאובטח",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "שלח",
+                "passwordUpdated": "הסיסמה עודכנה",
+                "5gConnectivity": "קישוריות ‎5G",
+                "eSIM": "eSIM",
+                "disconnect": "ניתוק",
+                "availableNetworks": "רשתות זמינות",
+                "networkAndInternetSettings": "הגדרות רשת ואינטרנט",
+                "connect": "התחבר",
+                "coverageMap": "מפת כיסוי",
+                "connectInRange": "התחבר כשנמצא בטווח",
+                "gateway": "שער",
+                "inLast30days": "ב-30 הימים האחרונים",
+                "shareMyinternet": "שתף את החיבור שלי לאינטרנט מ",
+                "shareOver": "שתף מעל",
+                "usageData": "נתוני שימוש",
+                "simNumber": "מספר הסים",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "התחבר",
+                    "connected": "מחובר, מאובטח",
+                    "ip": "IP:",
+                    "gateway": "שער:",
+                    "disconnect": "ניתוק"
+                },
+                "mobileHotspot": {
+                    "title": "נקודה חמה ניידת",
+                    "password": "סיסמה"
+                },
+                "header": {
+                    "nav": "‎[PC Device]‎ > קישוריות"
+                },
+                "toast": {
+                    "connectedTitle": "נוצר חיבור ‎5G",
+                    "connectedContent": "חיבור‎ ‎נוצר ‎5G",
+                    "disconnectedTitle": "חיבור ‎5G נותק",
+                    "disconnectedContent": "חיבור ‎5G נותק"
+                }
+            }
+        }
+    },
+    "hr-HR": {
+        "translation": {
+            "pCConnect": {
+                "title": "Povezivanje s računalom",
+                "moduleDescription": "Povežite i konfigurirajte mogućnosti mreže",
+                "moduleIconAccessibilityLabel": "Ikona 5G-a",
+                "moduleTitle": "5G",
+                "connected": "Povezano",
+                "secured": "Zaštićeno",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Pošalji",
+                "passwordUpdated": "Lozinka je ažurirana",
+                "5gConnectivity": "5G veza",
+                "eSIM": "eSIM",
+                "disconnect": "Prekini vezu",
+                "availableNetworks": "Dostupne mreže",
+                "networkAndInternetSettings": "Postavke mreže i interneta",
+                "connect": "Povežite se",
+                "coverageMap": "Karta pokrivenosti",
+                "connectInRange": "Poveži se kada budeš u dosegu",
+                "gateway": "Pristupnik",
+                "inLast30days": "u zadnjih 30 dana",
+                "shareMyinternet": "Dijeli moju internetsku vezu s",
+                "shareOver": "Dijeli putem",
+                "usageData": "Podaci o upotrebi",
+                "simNumber": "Broj SIM kartice",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Povežite se",
+                    "connected": "Povezano, zaštićeno",
+                    "ip": "IP:",
+                    "gateway": "Pristupnik:",
+                    "disconnect": "Prekini vezu"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilna pristupna točka",
+                    "password": "lozinka"
+                },
+                "header": {
+                    "nav": "[PC] > Veza"
+                },
+                "toast": {
+                    "connectedTitle": "5G veza uspostavljena",
+                    "connectedContent": "Uspostavljena je 5G veza",
+                    "disconnectedTitle": "5G veza prekinuta",
+                    "disconnectedContent": "5G veza je prekinuta"
+                }
+            }
+        }
+    },
+    "hu-HU": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC csatlakoztatása",
+                "moduleDescription": "Csatlakozás és a hálózati lehetőségek konfigurálása",
+                "moduleIconAccessibilityLabel": "5G ikon",
+                "moduleTitle": "5G",
+                "connected": "Csatlakoztatva",
+                "secured": "Védett",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Küldés",
+                "passwordUpdated": "Jelszó frissítve",
+                "5gConnectivity": "5G kapcsolat",
+                "eSIM": "eSIM",
+                "disconnect": "Kapcsolat bontása",
+                "availableNetworks": "Elérhető hálózatok",
+                "networkAndInternetSettings": "Hálózati és internetbeállítások",
+                "connect": "Csatlakoztatás",
+                "coverageMap": "Lefedettségi térkép",
+                "connectInRange": "Kapcsolódás hatótávolságon belül",
+                "gateway": "Átjáró",
+                "inLast30days": "az elmúlt 30 nap során",
+                "shareMyinternet": "Internetkapcsolat megosztása innen:",
+                "shareOver": "Megosztás a következőn:",
+                "usageData": "Használati adatok",
+                "simNumber": "SIM-szám",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Csatlakoztatás",
+                    "connected": "Csatlakozva, védett",
+                    "ip": "IP:",
+                    "gateway": "Átjáró:",
+                    "disconnect": "Kapcsolat bontása"
+                },
+                "mobileHotspot": {
+                    "title": "Mobil hotspot",
+                    "password": "jelszó"
+                },
+                "header": {
+                    "nav": "[PC-eszköz] > Kapcsolat"
+                },
+                "toast": {
+                    "connectedTitle": "Az 5G-kapcsolat létrejött",
+                    "connectedContent": "Az 5G kapcsolat létrejött",
+                    "disconnectedTitle": "Az 5G-kapcsolat megszakadt",
+                    "disconnectedContent": "Az 5G-kapcsolat megszakadt"
+                }
+            }
+        }
+    },
+    "id-ID": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC Terhubung",
+                "moduleDescription": "Hubungkan dan konfigurasi opsi jaringan Anda",
+                "moduleIconAccessibilityLabel": "Ikon 5G",
+                "moduleTitle": "5G",
+                "connected": "Tersambung",
+                "secured": "Aman",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Kirim",
+                "passwordUpdated": "Kata sandi Diperbarui",
+                "5gConnectivity": "Konektivitas 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Putuskan",
+                "availableNetworks": "Jaringan yang tersedia",
+                "networkAndInternetSettings": "Pengaturan Jaringan & Internet",
+                "connect": "Sambungkan",
+                "coverageMap": "Peta Cakupan",
+                "connectInRange": "Hubungkan saat berada dalam jangkauan",
+                "gateway": "Gateway",
+                "inLast30days": "dalam 30 hari terakhir",
+                "shareMyinternet": "Bagikan koneksi internet saya dari",
+                "shareOver": "Bagikan melalui",
+                "usageData": "Data penggunaan",
+                "simNumber": "Nomor Sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Sambungkan",
+                    "connected": "Terhubung, Aman",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Putuskan"
+                },
+                "mobileHotspot": {
+                    "title": "Hotspot seluler",
+                    "password": "kata sandi"
+                },
+                "header": {
+                    "nav": "[Perangkat PC] > Konektivitas"
+                },
+                "toast": {
+                    "connectedTitle": "Koneksi 5G dibuat",
+                    "connectedContent": "Koneksi 5G telah dibuat",
+                    "disconnectedTitle": "Koneksi 5G terputus",
+                    "disconnectedContent": "Koneksi 5G telah terputus"
+                }
+            }
+        }
+    },
+    "it-IT": {
+        "translation": {
+            "pCConnect": {
+                "title": "Connetti PC",
+                "moduleDescription": "Connetti e configura le opzioni di rete",
+                "moduleIconAccessibilityLabel": "Icona 5G",
+                "moduleTitle": "5G",
+                "connected": "Connesso",
+                "secured": "Protetto",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Invia",
+                "passwordUpdated": "Password aggiornata",
+                "5gConnectivity": "Connettività 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Disconnetti",
+                "availableNetworks": "Reti disponibili",
+                "networkAndInternetSettings": "Impostazioni Rete e Internet",
+                "connect": "Connetti",
+                "coverageMap": "Mappa di copertura",
+                "connectInRange": "Connetti se nel campo",
+                "gateway": "Gateway",
+                "inLast30days": "negli ultimi 30 giorni",
+                "shareMyinternet": "Condividi la mia connessione Internet da",
+                "shareOver": "Condivisione tramite",
+                "usageData": "Dati di utilizzo",
+                "simNumber": "Numero SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Connetti",
+                    "connected": "Connesso, Protetto",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Disconnetti"
+                },
+                "mobileHotspot": {
+                    "title": "Hotspot mobile",
+                    "password": "password"
+                },
+                "header": {
+                    "nav": "[Dispositivo PC] > Connettività"
+                },
+                "toast": {
+                    "connectedTitle": "Connessione 5G stabilita",
+                    "connectedContent": "È stata stabilita la connessione 5G",
+                    "disconnectedTitle": "Connessione 5G interrotta",
+                    "disconnectedContent": "È stata interrotta la connessione 5G"
+                }
+            }
+        }
+    },
+    "ja-JP": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC接続",
+                "moduleDescription": "ネットワークオプションの接続と設定",
+                "moduleIconAccessibilityLabel": "5Gアイコン",
+                "moduleTitle": "5G",
+                "connected": "接続済み",
+                "secured": "セキュア",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "送信",
+                "passwordUpdated": "パスワードが更新されました",
+                "5gConnectivity": "5G 接続",
+                "eSIM": "eSIM",
+                "disconnect": "切断",
+                "availableNetworks": "利用可能なネットワーク",
+                "networkAndInternetSettings": "ネットワークとインターネットの設定",
+                "connect": "接続",
+                "coverageMap": "カバレッジマップ",
+                "connectInRange": "範囲内で接続",
+                "gateway": "ゲートウェイ",
+                "inLast30days": "過去30日間",
+                "shareMyinternet": "からインターネット接続を共有",
+                "shareOver": "で共有",
+                "usageData": "使用状況データ",
+                "simNumber": "シム番号",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "イーサネット",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "接続",
+                    "connected": "コネクテッド、セキュア",
+                    "ip": "IP:",
+                    "gateway": "ゲートウェイ：",
+                    "disconnect": "切断"
+                },
+                "mobileHotspot": {
+                    "title": "モバイルホットスポット",
+                    "password": "パスワード"
+                },
+                "header": {
+                    "nav": "[PCデバイス] > 接続"
+                },
+                "toast": {
+                    "connectedTitle": "5G接続を確立されました",
+                    "connectedContent": "5G接続を確立されました",
+                    "disconnectedTitle": "5G接続が切断されました",
+                    "disconnectedContent": "5G接続が切断されました"
+                }
+            }
+        }
+    },
+    "ko-KR": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC 연결",
+                "moduleDescription": "네크워크 옵션 연결 및 구성",
+                "moduleIconAccessibilityLabel": "5G 아이콘",
+                "moduleTitle": "5G",
+                "connected": "연결됨",
+                "secured": "보안",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "제출",
+                "passwordUpdated": "비밀번호 업데이트됨",
+                "5gConnectivity": "5G 연결",
+                "eSIM": "eSIM",
+                "disconnect": "연결 끊김",
+                "availableNetworks": "사용 가능 네트워크",
+                "networkAndInternetSettings": "네트워크 및 인터넷 설정",
+                "connect": "연결",
+                "coverageMap": "범위 맵",
+                "connectInRange": "범위 내에 있을 때 연결",
+                "gateway": "게이트웨이",
+                "inLast30days": "최근 30일",
+                "shareMyinternet": "다음에서 내 인터넷 연결 공유",
+                "shareOver": "다음을 통해 공유",
+                "usageData": "사용량 데이터",
+                "simNumber": "Sim 번호",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "이더넷",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "연결",
+                    "connected": "연결됨, 보안",
+                    "ip": "IP:",
+                    "gateway": "게이트웨이:",
+                    "disconnect": "연결 끊김"
+                },
+                "mobileHotspot": {
+                    "title": "모바일 핫스팟",
+                    "password": "비밀번호"
+                },
+                "header": {
+                    "nav": "[PC 장치] > 연결"
+                },
+                "toast": {
+                    "connectedTitle": "5G 연결 설정됨",
+                    "connectedContent": "5G 연결이 설정되었습니다",
+                    "disconnectedTitle": "5G 연결 중단됨",
+                    "disconnectedContent": "5G c=연결이 중단되었습니다"
+                }
+            }
+        }
+    },
+    "lt-LT": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC prijungimas",
+                "moduleDescription": "Prijunkite ir sukonfigūruokite tinklo parinktis",
+                "moduleIconAccessibilityLabel": "5G piktograma",
+                "moduleTitle": "5G",
+                "connected": "Prijungta",
+                "secured": "Apsaugota",
+                "iP": "IP",
+                "wiFi": "„Wi-Fi“",
+                "submit": "Pateikti",
+                "passwordUpdated": "Slaptažodis atnaujintas",
+                "5gConnectivity": "5G junglumas",
+                "eSIM": "eSIM",
+                "disconnect": "Atsijungti",
+                "availableNetworks": "Pasiekiami tinklai",
+                "networkAndInternetSettings": "Tinklo ir interneto nustatymai",
+                "connect": "Prisijungti",
+                "coverageMap": "Aprėpties žemėlapis",
+                "connectInRange": "Prisijungti esant diapazone",
+                "gateway": "Vartai",
+                "inLast30days": "Per pastarąsias 30 dienų",
+                "shareMyinternet": "Dalytis savo interneto ryšiu iš",
+                "shareOver": "Dalytis per",
+                "usageData": "Suvartojimo duomenys",
+                "simNumber": "Sim numeris",
+                "tmobile": "„T-Mobile“",
+                "ethernet": {
+                    "title": "Eternetas",
+                    "comcast": "„XFINITY - Comcast“",
+                    "connect": "Prisijungti",
+                    "connected": "Prisijungta, apsaugota",
+                    "ip": "IP:",
+                    "gateway": "Vartai:",
+                    "disconnect": "Atsijungti"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilioji viešoji prieiga",
+                    "password": "slaptažodis"
+                },
+                "header": {
+                    "nav": "[Kompiuteris] > Junglumas"
+                },
+                "toast": {
+                    "connectedTitle": "5G ryšys užmegztas",
+                    "connectedContent": "5G ryšys užmegztas",
+                    "disconnectedTitle": "5G ryšys atjungtas",
+                    "disconnectedContent": "5G ryšys atjungtas"
+                }
+            }
+        }
+    },
+    "lv-LV": {
+        "translation": {
+            "pCConnect": {
+                "title": "Datora savienošana",
+                "moduleDescription": "Savienojiet un konfigurējiet savas tīkla opcijas",
+                "moduleIconAccessibilityLabel": "Ikona 5G",
+                "moduleTitle": "5G",
+                "connected": "Savienots",
+                "secured": "Aktivizēta aizsardzība",
+                "iP": "IP",
+                "wiFi": "Wi‑Fi",
+                "submit": "Iesniegt",
+                "passwordUpdated": "Parole atjaunināta",
+                "5gConnectivity": "5G savienojamība",
+                "eSIM": "eSIM",
+                "disconnect": "Atvienot",
+                "availableNetworks": "Pieejamie tīkli",
+                "networkAndInternetSettings": "Tīkla un interneta iestatījumi",
+                "connect": "Izveidot savienojumu",
+                "coverageMap": "Tvēruma karte",
+                "connectInRange": "Izveidot savienojumu, kad ir diapazonā",
+                "gateway": "Vārteja",
+                "inLast30days": "pēdējo 30 dienu laikā",
+                "shareMyinternet": "Kopīgot manu interneta savienojumu no",
+                "shareOver": "Kopīgot, izmantojot",
+                "usageData": "Lietojuma dati",
+                "simNumber": "Sim numurs",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Izveidot savienojumu",
+                    "connected": "Savienots, drošs",
+                    "ip": "IP:",
+                    "gateway": "Vārteja:",
+                    "disconnect": "Atvienot"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilais tīklājs",
+                    "password": "parole"
+                },
+                "header": {
+                    "nav": "[Datora ierīce] > Savienojamība"
+                },
+                "toast": {
+                    "connectedTitle": "Izveidots 5G savienojums",
+                    "connectedContent": "Ir izveidots 5G savienojums",
+                    "disconnectedTitle": "5G savienojums atvienots",
+                    "disconnectedContent": "5G savienojums ir atvienots"
+                }
+            }
+        }
+    },
+    "nb-NO": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC-tilkobling",
+                "moduleDescription": "Koble til og konfigurer nettverksalternativene dine",
+                "moduleIconAccessibilityLabel": "5G-ikon",
+                "moduleTitle": "5G",
+                "connected": "Tilkoblet",
+                "secured": "Sikret",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Send inn",
+                "passwordUpdated": "Passord oppdatert",
+                "5gConnectivity": "5G-tilkobling",
+                "eSIM": "eSIM",
+                "disconnect": "Koble fra",
+                "availableNetworks": "Tilgjengelige nettverk",
+                "networkAndInternetSettings": "Nettverk og Internett-innstillinger",
+                "connect": "Koble til",
+                "coverageMap": "Dekningskart",
+                "connectInRange": "Koble til når du er innenfor rekkevidde",
+                "gateway": "Gateway",
+                "inLast30days": "de siste 30 dagene",
+                "shareMyinternet": "Del Internett-tilkoblingen min fra",
+                "shareOver": "Del over",
+                "usageData": "Bruksdata",
+                "simNumber": "Sim-nummer",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Koble til",
+                    "connected": "Tilkoblet, sikret",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Koble fra"
+                },
+                "mobileHotspot": {
+                    "title": "Mobil hotspot",
+                    "password": "passord"
+                },
+                "header": {
+                    "nav": "[PC-enhet] > Tilkobling"
+                },
+                "toast": {
+                    "connectedTitle": "5G-tilkobling opprettet",
+                    "connectedContent": "5G-tilkobling er opprettet",
+                    "disconnectedTitle": "5G-tilkobling frakoblet",
+                    "disconnectedContent": "5G-tilkoblingen er frakoblet"
+                }
+            }
+        }
+    },
+    "nl-NL": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC Connect",
+                "moduleDescription": "Uw netwerkopties verbinden en configureren",
+                "moduleIconAccessibilityLabel": "Pictogram 5G",
+                "moduleTitle": "5G",
+                "connected": "Verbonden",
+                "secured": "Beveiligd",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Verzenden",
+                "passwordUpdated": "Wachtwoord bijgewerkt",
+                "5gConnectivity": "5G-verbindingen",
+                "eSIM": "eSIM",
+                "disconnect": "Verbinding verbreken",
+                "availableNetworks": "Beschikbare netwerken",
+                "networkAndInternetSettings": "Netwerk- en internetinstellingen",
+                "connect": "Verbinding maken",
+                "coverageMap": "Dekkingskaart",
+                "connectInRange": "Verbinding maken als er bereik is",
+                "gateway": "Gateway",
+                "inLast30days": "in de afgelopen 30 dagen",
+                "shareMyinternet": "Deel mijn internetverbinding van",
+                "shareOver": "Delen via",
+                "usageData": "Gegevens over het gebruik",
+                "simNumber": "Simnummer",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Verbinding maken",
+                    "connected": "Verbonden, beveiligd",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Verbinding verbreken"
+                },
+                "mobileHotspot": {
+                    "title": "Mobiele hotspot",
+                    "password": "wachtwoord"
+                },
+                "header": {
+                    "nav": "[Pc-apparaat] > Aansluitingen"
+                },
+                "toast": {
+                    "connectedTitle": "5G-verbinding tot stand gebracht",
+                    "connectedContent": "5G-verbinding is tot stand gebracht",
+                    "disconnectedTitle": "5G-verbinding verbroken",
+                    "disconnectedContent": "5G-verbinding is verbroken"
+                }
+            }
+        }
+    },
+    "pl-PL": {
+        "translation": {
+            "pCConnect": {
+                "title": "Połączenie z PC",
+                "moduleDescription": "Połącz i skonfiguruj opcje sieciowe",
+                "moduleIconAccessibilityLabel": "Ikona 5G",
+                "moduleTitle": "5G",
+                "connected": "Połączono",
+                "secured": "Zabezpieczono",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Prześlij",
+                "passwordUpdated": "Zaktualizowano hasło",
+                "5gConnectivity": "Łączność 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Rozłącz",
+                "availableNetworks": "Dostępne sieci",
+                "networkAndInternetSettings": "Ustawienia sieci i Internetu",
+                "connect": "Połącz",
+                "coverageMap": "Mapa zasięgu",
+                "connectInRange": "Połącz, gdy w zasięgu",
+                "gateway": "Bramka",
+                "inLast30days": "w ostatnich 30 dniach",
+                "shareMyinternet": "Udostępnij moje połączenie internetowe z",
+                "shareOver": "Podziel się",
+                "usageData": "Dane dotyczące użytkowania",
+                "simNumber": "Numer sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Połącz",
+                    "connected": "Połączony, zabezpieczony",
+                    "ip": "IP:",
+                    "gateway": "Bramka:",
+                    "disconnect": "Rozłącz"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilny punkt dostępu",
+                    "password": "hasło"
+                },
+                "header": {
+                    "nav": "[Urządzenie PC] > Łączność"
+                },
+                "toast": {
+                    "connectedTitle": "Nawiązano połączenie 5G",
+                    "connectedContent": "Połączenie 5G zostało nawiązane",
+                    "disconnectedTitle": "Rozłączono połączenie 5G",
+                    "disconnectedContent": "Połączenie 5G zostało przerwane"
+                }
+            }
+        }
+    },
+    "pt-BR": {
+        "translation": {
+            "pCConnect": {
+                "title": "Conexão PC",
+                "moduleDescription": "Conecte e configure suas opções de rede",
+                "moduleIconAccessibilityLabel": "Ícone do 5G",
+                "moduleTitle": "5G",
+                "connected": "Conectado",
+                "secured": "Protegido",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Enviar",
+                "passwordUpdated": "Senha atualizada",
+                "5gConnectivity": "Conectividade 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Desconectar",
+                "availableNetworks": "Redes disponíveis",
+                "networkAndInternetSettings": "Configurações de rede e internet",
+                "connect": "Conectar",
+                "coverageMap": "Mapa de cobertura",
+                "connectInRange": "Conectar quando ao alcance",
+                "gateway": "Gateway",
+                "inLast30days": "nos últimos 30 dias",
+                "shareMyinternet": "Compartilhar minha conexão de internet de",
+                "shareOver": "Compartilhamento encerrado",
+                "usageData": "Dados de uso",
+                "simNumber": "Número do SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Conectar",
+                    "connected": "Conectado, protegido",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Desconectar"
+                },
+                "mobileHotspot": {
+                    "title": "Hotspot móvel",
+                    "password": "senha"
+                },
+                "header": {
+                    "nav": "[PC Device] > Conectividade"
+                },
+                "toast": {
+                    "connectedTitle": "Conexão 5G estabelecida",
+                    "connectedContent": "A conexão 5G foi estabelecida",
+                    "disconnectedTitle": "Conexão 5G encerrada",
+                    "disconnectedContent": "A conexão 5G foi encerrada"
+                }
+            }
+        }
+    },
+    "pt-PT": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC Connect",
+                "moduleDescription": "Ligar e configurar as opções de rede",
+                "moduleIconAccessibilityLabel": "Ícone 5G",
+                "moduleTitle": "5G",
+                "connected": "Ligado",
+                "secured": "Seguro",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Submeter",
+                "passwordUpdated": "Palavra-passe Atualizada",
+                "5gConnectivity": "Conectividade 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Desligar",
+                "availableNetworks": "Redes disponíveis",
+                "networkAndInternetSettings": "Definições de Rede e Internet",
+                "connect": "Ligar",
+                "coverageMap": "Mapa de cobertura",
+                "connectInRange": "Ligar quando estiver ao alcance",
+                "gateway": "Gateway",
+                "inLast30days": "Nos últimos 30 dias",
+                "shareMyinternet": "Partilhar a minha ligação à Internet a partir de",
+                "shareOver": "Partilhar através de",
+                "usageData": "Dados de utilização",
+                "simNumber": "Número Sim",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Ligar",
+                    "connected": "Ligado, Seguro",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Desligar"
+                },
+                "mobileHotspot": {
+                    "title": "Hotspot móvel",
+                    "password": "palavra-passe"
+                },
+                "header": {
+                    "nav": "[Dispositivo PC] >Conectividade"
+                },
+                "toast": {
+                    "connectedTitle": "Ligação 5G estabelecida",
+                    "connectedContent": "A ligação 5G foi estabelecida",
+                    "disconnectedTitle": "Ligação 5G desligada",
+                    "disconnectedContent": "A ligação 5G foi desligada"
+                }
+            }
+        }
+    },
+    "ro-RO": {
+        "translation": {
+            "pCConnect": {
+                "title": "Conectare PC",
+                "moduleDescription": "Conectaţi-vă şi configuraţi-vă opţiunile de reţea",
+                "moduleIconAccessibilityLabel": "Pictograma 5G",
+                "moduleTitle": "5G",
+                "connected": "Conectat",
+                "secured": "Securizat",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Trimitere",
+                "passwordUpdated": "Parolă actualizată",
+                "5gConnectivity": "Conectivitate 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Deconectare",
+                "availableNetworks": "Reţele disponibile",
+                "networkAndInternetSettings": "Setări Reţea şi Internet",
+                "connect": "Conectare",
+                "coverageMap": "Harta acoperirii",
+                "connectInRange": "Conectare când vă aflaţi în raza de acţiune",
+                "gateway": "Gateway",
+                "inLast30days": "în ultimele 30 de zile",
+                "shareMyinternet": "Partajare conexiunea mea la Internet de la",
+                "shareOver": "Partejare încheiată",
+                "usageData": "Date privind utilizarea",
+                "simNumber": "Număr SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Conectare",
+                    "connected": "Conectat, Securizat",
+                    "ip": "IP:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Deconectare"
+                },
+                "mobileHotspot": {
+                    "title": "Punct de acces pentru mobile",
+                    "password": "parolă"
+                },
+                "header": {
+                    "nav": "[Dispozitiv PC] > Conectivitate"
+                },
+                "toast": {
+                    "connectedTitle": "S-a stabilit conexiunea 5G",
+                    "connectedContent": "Conexiunea 5G a fost stabilită",
+                    "disconnectedTitle": "S-a deconectat conexiunea 5G",
+                    "disconnectedContent": "Conexiunea 5G a fost deconectată"
+                }
+            }
+        }
+    },
+    "ru-RU": {
+        "translation": {
+            "pCConnect": {
+                "title": "Подключение ПК",
+                "moduleDescription": "Устанавливайте подключение и настраивайте сетевые параметры",
+                "moduleIconAccessibilityLabel": "Значок 5G",
+                "moduleTitle": "5G",
+                "connected": "Подключено",
+                "secured": "Защищено",
+                "iP": "IP-адрес",
+                "wiFi": "Wi-Fi",
+                "submit": "Отправить",
+                "passwordUpdated": "Пароль обновлен",
+                "5gConnectivity": "Подключение 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Отключить",
+                "availableNetworks": "Доступные сети",
+                "networkAndInternetSettings": "Настройки сети и Интернета",
+                "connect": "Подключить",
+                "coverageMap": "Карта покрытия",
+                "connectInRange": "Подключаться в радиусе действия",
+                "gateway": "Шлюз",
+                "inLast30days": "в последние 30 дней",
+                "shareMyinternet": "Поделиться моим подключением к Интернету от",
+                "shareOver": "Поделиться через",
+                "usageData": "Данные об использовании",
+                "simNumber": "Номер SIM-карты",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Подключить",
+                    "connected": "Подключено, защищено",
+                    "ip": "IP-адрес:",
+                    "gateway": "Шлюз:",
+                    "disconnect": "Отключить"
+                },
+                "mobileHotspot": {
+                    "title": "Мобильный хот-спот",
+                    "password": "пароль"
+                },
+                "header": {
+                    "nav": "[PC Device] > Подключение"
+                },
+                "toast": {
+                    "connectedTitle": "Подключение 5G установлено",
+                    "connectedContent": "Подключение 5G было установлено",
+                    "disconnectedTitle": "Подключение 5G отключено",
+                    "disconnectedContent": "Подключение 5G было отключено"
+                }
+            }
+        }
+    },
+    "sk-SK": {
+        "translation": {
+            "pCConnect": {
+                "title": "Pripojenie počítača",
+                "moduleDescription": "Pripojte a konfigurujte možnosti siete",
+                "moduleIconAccessibilityLabel": "Ikona 5G",
+                "moduleTitle": "5G",
+                "connected": "Pripojené",
+                "secured": "Zabezpečené",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Odoslať",
+                "passwordUpdated": "Heslo sa aktualizovalo",
+                "5gConnectivity": "Pripojenie 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Odpojiť",
+                "availableNetworks": "Dostupné siete",
+                "networkAndInternetSettings": "Nastavenia siete a internetu",
+                "connect": "Pripojiť",
+                "coverageMap": "Mapa pokrytia",
+                "connectInRange": "Pripojiť, ak je v dosahu",
+                "gateway": "Brána",
+                "inLast30days": "za posledných 30 dní",
+                "shareMyinternet": "Zdieľať moje internetové pripojenie z",
+                "shareOver": "Zdieľať cez",
+                "usageData": "Údaje o používaní",
+                "simNumber": "Číslo karty SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Pripojiť",
+                    "connected": "Pripojené, zabezpečené",
+                    "ip": "IP:",
+                    "gateway": "Brána:",
+                    "disconnect": "Odpojiť"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilný hotspot",
+                    "password": "heslo"
+                },
+                "header": {
+                    "nav": "[Počítačové zariadenie] > Pripojenie"
+                },
+                "toast": {
+                    "connectedTitle": "Pripojenie 5G vytvorené",
+                    "connectedContent": "Pripojenie 5G sa vytvorilo",
+                    "disconnectedTitle": "Pripojenie 5G odpojené",
+                    "disconnectedContent": "Pripojenie 5G sa odpojilo"
+                }
+            }
+        }
+    },
+    "sl-SI": {
+        "translation": {
+            "pCConnect": {
+                "title": "Povezava računalnika",
+                "moduleDescription": "Povežite in konfigurirajte omrežne možnosti",
+                "moduleIconAccessibilityLabel": "Ikona 5G",
+                "moduleTitle": "5G",
+                "connected": "Povezava je vzpostavljena",
+                "secured": "Zaščiteno",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Pošlji",
+                "passwordUpdated": "Geslo je posodobljeno",
+                "5gConnectivity": "Povezovanje 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Prekini povezavo",
+                "availableNetworks": "Razpoložljiva omrežja",
+                "networkAndInternetSettings": "Nastavitve omrežja in interneta",
+                "connect": "Poveži",
+                "coverageMap": "Načrt pokritosti",
+                "connectInRange": "Poveži, ko je v dosegu",
+                "gateway": "Prehod",
+                "inLast30days": "v zadnjih 30 dneh",
+                "shareMyinternet": "Deli mojo internetno povezavo iz",
+                "shareOver": "Deli prek",
+                "usageData": "Podatki o porabi",
+                "simNumber": "Številka SIM",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Poveži",
+                    "connected": "Povezan, zaščiten",
+                    "ip": "IP:",
+                    "gateway": "Prehod:",
+                    "disconnect": "Prekini povezavo"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilna dostopna točka",
+                    "password": "geslo"
+                },
+                "header": {
+                    "nav": "[Osebni računalnik] > Povezljivost"
+                },
+                "toast": {
+                    "connectedTitle": "Povezava 5G je bila vzpostavljena",
+                    "connectedContent": "Povezava 5G je vzpostavljena",
+                    "disconnectedTitle": "Povezava 5G je bila prekinjena",
+                    "disconnectedContent": "Povezava 5G je prekinjena"
+                }
+            }
+        }
+    },
+    "sr-LATN-rs": {
+        "translation": {
+            "pCConnect": {
+                "title": "Povezivanje sa računarom",
+                "moduleDescription": "Povežite se i konfigurišite opcije mreže",
+                "moduleIconAccessibilityLabel": "5G ikona",
+                "moduleTitle": "5G",
+                "connected": "Povezano",
+                "secured": "Zaštićeno",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Prosledi",
+                "passwordUpdated": "Lozinka je ažurirana",
+                "5gConnectivity": "5G veza",
+                "eSIM": "eSIM",
+                "disconnect": "Prekinite vezu",
+                "availableNetworks": "Dostupne mreže",
+                "networkAndInternetSettings": "Postavke mreže i interneta",
+                "connect": "Povežite se",
+                "coverageMap": "Mapa pokrivenosti",
+                "connectInRange": "Poveži se kada si u dometu",
+                "gateway": "Mrežni prolaz",
+                "inLast30days": "u poslednjih 30 dana",
+                "shareMyinternet": "Deli moju internet vezu sa",
+                "shareOver": "Deli putem",
+                "usageData": "Podaci o korišćenju",
+                "simNumber": "Broj SIM kartice",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Povežite se",
+                    "connected": "Povezano, zaštićeno",
+                    "ip": "IP:",
+                    "gateway": "Mrežni prolaz:",
+                    "disconnect": "Prekinite vezu"
+                },
+                "mobileHotspot": {
+                    "title": "Mobilni hotspot",
+                    "password": "lozinka"
+                },
+                "header": {
+                    "nav": "[PC uređaj] > Povezivanje"
+                },
+                "toast": {
+                    "connectedTitle": "5G veza je uspostavljena",
+                    "connectedContent": "5G veza je uspostavljena",
+                    "disconnectedTitle": "5G veza je prekinuta",
+                    "disconnectedContent": "5G veza je prekinuta"
+                }
+            }
+        }
+    },
+    "sv-SE": {
+        "translation": {
+            "pCConnect": {
+                "title": "Datoranslutning",
+                "moduleDescription": "Anslut och konfigurera nätverksalternativen",
+                "moduleIconAccessibilityLabel": "5G-ikon",
+                "moduleTitle": "5G",
+                "connected": "Ansluten",
+                "secured": "Säkrad",
+                "iP": "IP-adress",
+                "wiFi": "Wi-Fi",
+                "submit": "Skicka in",
+                "passwordUpdated": "Lösenord uppdaterat",
+                "5gConnectivity": "5G-anslutningsmöjligheter",
+                "eSIM": "eSIM",
+                "disconnect": "Koppla bort",
+                "availableNetworks": "Tillgängliga nätverk",
+                "networkAndInternetSettings": "Nätverks- och internetinställningar",
+                "connect": "Anslut",
+                "coverageMap": "Täckningskarta",
+                "connectInRange": "Anslut när du befinner dig inom räckhåll",
+                "gateway": "Gateway",
+                "inLast30days": "under de senaste 30 dagarna",
+                "shareMyinternet": "Dela min internetanslutning från",
+                "shareOver": "Dela över",
+                "usageData": "Användningsdata",
+                "simNumber": "SIM-nummer",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Anslut",
+                    "connected": "Ansluten, säkrad",
+                    "ip": "IP-adress:",
+                    "gateway": "Gateway:",
+                    "disconnect": "Koppla bort"
+                },
+                "mobileHotspot": {
+                    "title": "Mobil hotspot",
+                    "password": "lösenord"
+                },
+                "header": {
+                    "nav": "[PC-enhet] > Anslutningar"
+                },
+                "toast": {
+                    "connectedTitle": "5G-anslutning upprättad",
+                    "connectedContent": "5G-anslutning har upprättats",
+                    "disconnectedTitle": "5G-anslutning bortkopplad",
+                    "disconnectedContent": "5G-anslutningen har kopplats bort"
+                }
+            }
+        }
+    },
+    "th-TH": {
+        "translation": {
+            "pCConnect": {
+                "title": "เชื่อมต่อ PC",
+                "moduleDescription": "เชื่อมต่อและกำหนดค่าตัวเลือกเครือข่ายของคุณ",
+                "moduleIconAccessibilityLabel": "ไอคอน 5G",
+                "moduleTitle": "5G",
+                "connected": "เชื่อมต่อแล้ว",
+                "secured": "ปลอดภัย",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "ส่ง",
+                "passwordUpdated": "อัปเดตรหัสผ่านแล้ว",
+                "5gConnectivity": "การเชื่อมต่อ 5G",
+                "eSIM": "eSIM",
+                "disconnect": "ตัดการเชื่อมต่อ",
+                "availableNetworks": "เครือข่ายที่พร้อมใช้งาน",
+                "networkAndInternetSettings": "การตั้งค่าเครือข่ายและอินเทอร์เน็ต",
+                "connect": "เชื่อมต่อ",
+                "coverageMap": "แผนที่ความครอบคลุม",
+                "connectInRange": "เชื่อมต่อเมื่ออยู่ภายในระยะ",
+                "gateway": "เกตเวย์",
+                "inLast30days": "ภายใน 30 วันที่ผ่านมา",
+                "shareMyinternet": "แชร์การเชื่อมต่ออินเทอร์เน็ตของฉันจาก",
+                "shareOver": "แชร์ผ่าน",
+                "usageData": "ข้อมูลการใช้งาน",
+                "simNumber": "หมายเลขซิม",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "เชื่อมต่อ",
+                    "connected": "เชื่อมต่อแล้ว ปลอดภัย",
+                    "ip": "IP:",
+                    "gateway": "เกตเวย์:",
+                    "disconnect": "ตัดการเชื่อมต่อ"
+                },
+                "mobileHotspot": {
+                    "title": "ฮอตสปอตจากมือถือ",
+                    "password": "รหัสผ่าน"
+                },
+                "header": {
+                    "nav": "[อุปกรณ์ PC] > การเชื่อมต่อ"
+                },
+                "toast": {
+                    "connectedTitle": "สร้างการเชื่อมต่อ 5G แล้ว",
+                    "connectedContent": "ดำเนินการสร้างการเชื่อมต่อ 5G แล้ว",
+                    "disconnectedTitle": "ตัดการเชื่อมต่อ 5G แล้ว",
+                    "disconnectedContent": "การเชื่อมต่อ 5G ถูกตัดแล้ว"
+                }
+            }
+        }
+    },
+    "tr-TR": {
+        "translation": {
+            "pCConnect": {
+                "title": "Bilgisayar Bağlantısı",
+                "moduleDescription": "Bağlanın ve ağ seçeneklerinizi yapılandırın",
+                "moduleIconAccessibilityLabel": "5G Simgesi",
+                "moduleTitle": "5G",
+                "connected": "Bağlantı Kuruldu",
+                "secured": "Güvenli",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Gönder",
+                "passwordUpdated": "Parola Güncellendi",
+                "5gConnectivity": "5G Bağlantısı",
+                "eSIM": "e-SIM",
+                "disconnect": "Bağlantıyı Kes",
+                "availableNetworks": "Mevcut ağlar",
+                "networkAndInternetSettings": "Ağ ve İnternet Ayarları",
+                "connect": "Bağlan",
+                "coverageMap": "Kapsam Haritası",
+                "connectInRange": "Kapsam alanındayken bağlan",
+                "gateway": "Ağ geçidi",
+                "inLast30days": "son 30 günde",
+                "shareMyinternet": "İnternet bağlantımı şuradan paylaş",
+                "shareOver": "Şunun üzerinden paylaş",
+                "usageData": "Kullanım verileri",
+                "simNumber": "Sim Numarası",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "Bağlan",
+                    "connected": "Bağlandı, Güvenli",
+                    "ip": "IP:",
+                    "gateway": "Ağ geçidi:",
+                    "disconnect": "Bağlantıyı Kes"
+                },
+                "mobileHotspot": {
+                    "title": "Mobil bağlantı noktası",
+                    "password": "parola"
+                },
+                "header": {
+                    "nav": "[Bilgisayar Cihazı] > Bağlanabilirlik"
+                },
+                "toast": {
+                    "connectedTitle": "5G bağlantısı kuruldu",
+                    "connectedContent": "5G bağlantısı kuruldu",
+                    "disconnectedTitle": "5G bağlantısı kesildi",
+                    "disconnectedContent": "5G bağlantısı kesildi"
+                }
+            }
+        }
+    },
+    "uk-UA": {
+        "translation": {
+            "pCConnect": {
+                "title": "Підключення ПК",
+                "moduleDescription": "Підключіть і налаштуйте параметри мережі",
+                "moduleIconAccessibilityLabel": "Значок 5G",
+                "moduleTitle": "5G",
+                "connected": "Підключено",
+                "secured": "Захищено",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "Надіслати",
+                "passwordUpdated": "Пароль оновлено",
+                "5gConnectivity": "Можливість підключення 5G",
+                "eSIM": "eSIM",
+                "disconnect": "Відключити",
+                "availableNetworks": "Доступні мережі",
+                "networkAndInternetSettings": "Параметри мережі та інтернету",
+                "connect": "Підключитися",
+                "coverageMap": "Карта покриття",
+                "connectInRange": "Підключатися в діапазоні",
+                "gateway": "Шлюз",
+                "inLast30days": "за останні 30 днів",
+                "shareMyinternet": "Поділитися моїм підключенням до інтернету з",
+                "shareOver": "Поділитися через",
+                "usageData": "Дані про використання",
+                "simNumber": "Номер SIM-карти",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "Ethernet",
+                    "comcast": "XFINITY – Comcast",
+                    "connect": "Підключитися",
+                    "connected": "Підключено, захищено",
+                    "ip": "IP:",
+                    "gateway": "Шлюз:",
+                    "disconnect": "Відключити"
+                },
+                "mobileHotspot": {
+                    "title": "Мобільна точка доступу",
+                    "password": "пароль"
+                },
+                "header": {
+                    "nav": "[Комп’ютерний пристрій] > Підключення"
+                },
+                "toast": {
+                    "connectedTitle": "Встановлено з’єднання 5G",
+                    "connectedContent": "Було встановлено з’єднання 5G",
+                    "disconnectedTitle": "Відключено з’єднання 5G",
+                    "disconnectedContent": "Було відключено з’єднання 5G"
+                }
+            }
+        }
+    },
+    "zh-Hans": {
+        "translation": {
+            "pCConnect": {
+                "title": "电脑连接",
+                "connected": "已连接",
+                "secured": "安全",
+                "moduleTitle": "5G",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "提交",
+                "passwordUpdated": "密码已更新",
+                "5gConnectivity": "5G 连接",
+                "eSIM": "eSIM",
+                "disconnect": "断开连接",
+                "availableNetworks": "可用网络",
+                "networkAndInternetSettings": "网络和 Internet 设置",
+                "connect": "连接",
+                "coverageMap": "覆盖地图",
+                "connectInRange": "在范围内时连接",
+                "gateway": "网关",
+                "inLast30days": "过去 30 天内",
+                "shareMyinternet": "分享我的 Internet 连接",
+                "shareOver": "分享方式",
+                "usageData": "使用数据",
+                "simNumber": "SIM 号码",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "以太网",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "连接",
+                    "connected": "已连接，安全",
+                    "ip": "IP：",
+                    "gateway": "网关：",
+                    "disconnect": "断开连接"
+                },
+                "mobileHotspot": {
+                    "title": "移动热点",
+                    "password": "密码"
+                },
+                "header": {
+                    "nav": "[电脑设备] > 连接"
+                },
+                "toast": {
+                    "connectedTitle": "5G 连接已建立",
+                    "connectedContent": "5G 连接已建立",
+                    "disconnectedTitle": "5G 连接已断开",
+                    "disconnectedContent": "5G 连接已断开"
+                }
+            }
+        }
+    },
+    "zh-Hant-HK": {
+        "translation": {
+            "pCConnect": {
+                "title": "PC 連接",
+                "connected": "已連接",
+                "secured": "安全",
+                "moduleTitle": "5G",
+                "iP": "IP 位址",
+                "wiFi": "Wi-Fi",
+                "submit": "提交",
+                "passwordUpdated": "密碼已更新",
+                "5gConnectivity": "5G 連接功能",
+                "eSIM": "eSIM",
+                "disconnect": "中斷",
+                "availableNetworks": "可用網絡",
+                "networkAndInternetSettings": "網絡與互聯網設定",
+                "connect": "連接",
+                "coverageMap": "覆蓋範圍地圖",
+                "connectInRange": "在範圍內時連接",
+                "gateway": "閘道",
+                "inLast30days": "過去 30 天內",
+                "shareMyinternet": "分享我的互聯網連接，從",
+                "shareOver": "分享，在",
+                "usageData": "使用情況數據",
+                "simNumber": "Sim 號碼",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "乙太網絡",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "連接",
+                    "connected": "已連接，安全",
+                    "ip": "IP 位址:",
+                    "gateway": "閘道:",
+                    "disconnect": "中斷"
+                },
+                "mobileHotspot": {
+                    "title": "流動熱點",
+                    "password": "密碼"
+                },
+                "header": {
+                    "nav": "[PC 裝置] > 連接"
+                },
+                "toast": {
+                    "connectedTitle": "5G 連接已建立",
+                    "connectedContent": "5G 連接已成功建立",
+                    "disconnectedTitle": "5G 連接已中斷",
+                    "disconnectedContent": "5G 連接已成功中斷"
+                }
+            }
+        }
+    },
+    "zh-Hant": {
+        "translation": {
+            "pCConnect": {
+                "title": "電腦連線",
+                "connected": "已連線",
+                "secured": "已安全",
+                "moduleTitle": "5G",
+                "iP": "IP",
+                "wiFi": "Wi-Fi",
+                "submit": "提交",
+                "passwordUpdated": "密碼已更新",
+                "5gConnectivity": "5G 連線",
+                "eSIM": "eSIM",
+                "disconnect": "中斷連線",
+                "availableNetworks": "可用網路",
+                "networkAndInternetSettings": "網路和網際網路設定",
+                "connect": "連線",
+                "coverageMap": "涵蓋範圍地圖",
+                "connectInRange": "在範圍內時連線",
+                "gateway": "閘道",
+                "inLast30days": "在過去 30 天內",
+                "shareMyinternet": "共享我的網際網路連線",
+                "shareOver": "共享方法",
+                "usageData": "使用資料",
+                "simNumber": "Sim 號碼",
+                "tmobile": "T-Mobile",
+                "ethernet": {
+                    "title": "乙太網路",
+                    "comcast": "XFINITY - Comcast",
+                    "connect": "連線",
+                    "connected": "已連線，已安全",
+                    "ip": "IP：",
+                    "gateway": "閘道：",
+                    "disconnect": "中斷連線"
+                },
+                "mobileHotspot": {
+                    "title": "行動熱點",
+                    "password": "密碼"
+                },
+                "header": {
+                    "nav": "[電腦裝置] > 連線"
+                },
+                "toast": {
+                    "connectedTitle": "5G 連線已建立",
+                    "connectedContent": "5G 連線已建立",
+                    "disconnectedTitle": "5G 連線已中斷",
+                    "disconnectedContent": "5G 連線已中斷"
+                }
+            }
+        }
+    }
+}

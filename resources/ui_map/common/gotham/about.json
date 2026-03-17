@@ -1,0 +1,137 @@
+{
+    "about_logo": {
+        "locator": {"id": "Logo"}
+    },
+    "hp_smart_name": {
+        "locator": {"xpath": "//Image[@AutomationId='Logo']/following-sibling::Text[1]"}
+    },
+    "hp_smart_version": {
+        "locator": {"xpath": "//Image[@AutomationId='Logo']/following-sibling::Text[2]"}
+    },
+    "app_id_link": {
+        "locator": {"id": "AppInstanceId"}
+    },
+    "app_id_copy_btn": {
+        "locator": {"xpath": "//Image[@AutomationId='AppinstanceAbout']/parent::Button"}
+    },
+    "copied_tips": {
+        "locator": {"xpath": "//Window[@Name='PopupHost']"}
+    },
+    "privacy_link": {
+        "locator": {"id": "PrivacyLink"}
+    },
+    "eula_link": {
+        "locator": {"id": "EULALink"}
+    },
+    "term_of_use_link": {
+        "locator": {"id": "TOULink"}
+    },
+    "copyright_text": {
+        "locator": {"xpath": "//Window[2]/Text[last()]"}
+    },
+    "developer_tools_title": {
+        "locator": {"id": "HpTitle"}
+    },
+    "enable_oobe_logging_toggle": {
+        "locator": {"id": "OobeLogChkBx"}
+    },
+    "enable_logging_toggle": {
+        "locator": {"id": "LogChkBx"}
+    },
+    "log_value_box": {
+        "locator": {"id": "LogValCmboBox"}
+    },
+    "dynamic_log_value": {
+        "locator": {"text": "{}"}
+    },
+    "log_value_num": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='LogValCmboBox']/ListItem[1]"}
+    },
+    "use_webview2_toggle": {
+        "locator": {"id": "WebView2ChkBx"}
+    },
+    "auto_open_webview2_toggle": {
+        "locator": {"id": "WebView2DevToolsChkBx"}
+    },
+    "turn_on_officemode_toggle": {
+        "locator": {"id": "OfficeChkBx"}
+    },
+    "turn_on_private_pickup_toggle": {
+        "locator": {"id": "PrivatePickupChk"}
+    },
+    "use_dev_stack_toggle": {
+        "locator": {"id": "UseDevStackForHpSmartChk"}
+    },
+    "enable_cloudscan_toggle": {
+        "locator": {"id": "CloudScanChkBx"}
+    },
+    "allow_unfiltered_toggle": {
+        "locator": {"id": "AllowUnfilteredDataChk"}
+    },
+    "enable_screen_names_toggle": {
+        "locator": {"id": "ShowScreenNamesInODFlowChk"}
+    },
+    "clear_logs_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='CopyLogsButton']//preceding-sibling::Button[2]"}
+    },
+    "copy_oobe_logs_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='CopyLogsButton']//preceding-sibling::Button[1]"}
+    },
+    "copy_logs_btn": {
+        "locator": {"id": "CopyLogsButton"}
+    },
+    "advanced_tools_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='CopyLogsButton']//following-sibling::Button[1]"}
+    },
+    "hide_developer_tools_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='CopyLogsButton']//following-sibling::Button[2]"}
+    },
+    "cancel_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='CopyLogsButton']//following-sibling::Button[3]"}
+    },
+    "save_settings_btn": {
+        "locator": {"xpath": "//Button[@AutomationId='CopyLogsButton']//following-sibling::Button[4]"}
+    },
+    "settings_saved_title": {
+        "locator": {"text": "Settings saved."}
+    },
+    "close_btn": {
+        "locator": {"id": "Button0"}
+    },
+    "file_name_edit": {
+        "locator": {"id": "1001"}
+    },
+    "dialog_save_btn": {
+        "locator": {"id": "1"}
+    },
+    "oobe_log_content": {
+        "locator": {"text": "OOBE Log file copied."}
+    },
+    "logs_copied_content": {
+        "locator": {"xpath": "//Text[contains(@Name, 'Logs copied to')]"}
+    },
+    "enter_password_edit": {
+        "locator": {"xpath": "//Edit[@Name='Enter password:']"}
+    },
+    "at_close_btn": {
+        "locator": {"id": "XButton"}
+    },
+    "test_mode_toggle": {
+        "locator": {"id": "TestModeChkBx"}
+    },
+    "mns_check_box": {
+        "locator": {"id": "MnsTestChkBox"}
+    },
+    "ars_check_box": {
+        "locator": {"id": "ArsTestChkBx"}
+    },
+    "pie_radio_btn": {
+        "locator": {"id": "OwsRadioPie"}
+    },
+    "stage_radio_btn": {
+        "locator": {"id": "OwsRadioStage"}
+    },
+    "prod_radio_btn": {
+        "locator": {"id": "OwsRadioProd"}
+    }
+}

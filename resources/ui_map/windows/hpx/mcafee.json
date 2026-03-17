@@ -1,0 +1,34 @@
+{
+    "mcafee_sub_title":{
+        "locator": {
+            "id": "AUID_FIRSTUSE_McAfeeView_Lbl_HeaderTitle"
+        }
+    },
+    "sign_in_email":{
+        "locator": {
+            "id": "AUID_FIRSTUSE_McAfeeView_Txt_EmailInput"
+        }
+    },
+
+    "next_button":{
+        "locator": {
+            "id": "AUID_FIRSTUSE_McAfeeView_Btn_RegisterButton"
+        }
+    },
+    "email_errorMessage":{
+        "locator": {
+            "name": "A valid email is required."
+        }
+    },
+    "skip_button":{
+        "locator": {
+            "name": "Skip this step"
+        }
+    },
+    "success_message":{
+        "locator": {
+            "name": "Thank you!"
+        }
+    }
+
+}

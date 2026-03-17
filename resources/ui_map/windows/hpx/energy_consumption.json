@@ -1,0 +1,152 @@
+{
+    "energy_consumption": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcecometer-core"
+        }
+    },"energy_consumption_header": {
+        "locator": {
+            "id": "AUID_pcecometer-core_NavBreadcrumb_Pcecometer-core"
+        }
+    },"app_version": {
+        "locator": {
+            "id": "AUID_SETTINGS_About_Version"
+        }
+    },"about_button": {
+        "locator": {
+            "id": "AUID_SETTINGS_About_Tab"
+        }
+    },"setting_module": {
+        "locator": {
+            "id": "settings_core_NavigationViewItem_ID"
+        }
+    },"current_app_version": {
+        "locator": {
+            "id": "Asettings_core_NavigationViewItem_ID"
+        }
+    },
+    "data_consumption_header": {
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_Header"
+        }
+    },
+    "product_carbon_footprint_link":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_NAVIGATION_Energy Consumption_Link_ProductCarbonPrint']/Text[@ClassName='TextBlock']"
+        }
+    },
+    "energy_environment_link":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_NAVIGATION_Energy Consumption_Link_EnergyEnv']/Text[@ClassName='TextBlock']"
+        }
+    },
+    "product_carbon_footprint_report_title":{
+        "locator": {
+            "name": "Product Carbon Footprint"
+        }
+    },
+    "epa_home_page_title":{
+        "locator": {
+            "name": "Home"
+        }
+    },
+    "energy_environment_report_title":{
+        "locator": {
+            "name": "Energy and the Environment"
+        }
+    },
+    "consumption_trend_dropdown":{
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_Dropdown"
+        }
+    },
+    "consumption_trend_6_days":{
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_Last 6 days_Dropdown_Item"
+        }
+    },
+    "consumption_trend_6_month":{
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_Last 6 months_Dropdown_Item"
+        }
+    },
+    "consumption_trend_12_hours":{
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_Last 12 hours_Dropdown_Item"
+        }
+    },
+    "power_consumption_measurement":{
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_reference"
+        }
+    },
+    "consumption_trend_description":{
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_description"
+        }
+    },
+    "daily_average_text":{
+        "locator": {
+            "id": "AUID_PCEcoMeter_Consumption_Trends_dailyAverage"
+        }
+    },
+    "how_to_adjust_power_and_sleep_settings_in_windows_link":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_Link_PowerSleepSettings"
+        }
+    },
+    "caring_for_your_battery_in_windows_link":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_Link_CareforBattery"
+        }
+    },
+    "battery_saving_tips_for_windows_link":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_Link_BatterySavingTip"
+        }
+    },
+    "change_the_power_mode_for_your_windows_pc_link":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_Link_ChangePowerMode"
+        }
+    },
+    "manage_background_activity_for_apps_in_windows_link":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_Link_ManageBackgroundApps"
+        }
+    },
+    "learn_more_about_energy_recommendations_microsoft_support_link":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_Link_MicroEnergyRecommendations"
+        }
+    },
+    "power_sleep_setting_webpage_url":{
+        "locator": {
+            "name": "Address and search bar"
+        }
+    },
+    "hp_logo":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_HPLogo"
+        }
+    },
+    "energy_recommendation_logo":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_HandWithPlantLogo"
+        }
+    },
+    "hp_excite_msg":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_TreeSaveDescription"
+        }
+    },
+    "go_beyond_hyperlink":{
+        "locator": {
+            "id": "AUID_NAVIGATION_Energy Consumption_Link_LearnMore"
+        }
+    },
+    "download_report_button":{
+        "locator": {
+            "name": "Download Report "
+        }
+    }
+}

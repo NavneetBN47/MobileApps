@@ -1,0 +1,18 @@
+{
+    "audio_card":{
+        "locator": {
+            "name": "Audio"
+        }
+    },
+    "scroll_window":{
+        "locator": {
+            "xpath": "//Window[@ClassName=\"ApplicationFrameWindow\"]"
+        }
+    },
+    "well_being_card":{
+        "locator": {
+            "id": "PcDeviceCards.PcDeviceActionCards.PcwellbeingXCoreCard"
+        }
+    }
+    
+}

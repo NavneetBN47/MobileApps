@@ -1,0 +1,213 @@
+{
+    "help_and_support_button":{
+        "locator": {
+            "css selector": "button#help-support-button"
+        }
+    },
+    "help_and_support_page_breadcrumb":{
+        "locator": {
+            "css selector": "[id='helpSupport'] [aria-current='page']"
+        },
+        "localization": {
+            "en": "Help & Support"
+        }
+    },
+    "help_and_support_page_header":{
+        "locator": {
+            "css selector": "#partner-help-and-support-header"
+        },
+        "localization": {
+            "en": "Need assistance?"
+        }
+    },
+    "help_and_support_page_header_description":{
+        "locator": {
+            "css selector": "h6"
+        },
+        "localization": {
+            "en": "HP wants to help. Popular topics are here, or contact us about your specific need."
+        }
+    },
+    "help_and_support_page_get_started_widget":{
+        "locator": {
+            "css selector": "div#get-started"
+        }
+    },
+    "help_and_support_page_get_started_widget_title":{
+        "locator": {
+            "css selector": "#get-started h3 div>div"
+        },
+        "localization": {
+            "en": "Get started"
+        }
+    },
+    "help_and_support_page_get_started_widget_description":{
+        "locator": {
+            "css selector": "div#get-started p"
+        },
+        "localization": {
+            "en": "Follow this guide for a quick start with HP Workforce Experience Platform"
+        }
+    },
+    "help_and_support_page_get_started_widget_navigation_button":{
+        "locator": {
+            "css selector": "div#get-started > div:nth-of-type(2) svg"
+        }
+    },
+    "help_and_support_page_system_requirements_widget":{
+        "locator": {
+            "css selector": "div#system-requirements"
+        }
+    },
+    "help_and_support_page_system_requirements_widget_title":{
+        "locator": {
+            "css selector": "#system-requirements h3 div>div"
+        },
+        "localization": {
+            "en": "System requirements"
+        }
+    },
+    "help_and_support_page_system_requirements_widget_description":{
+        "locator": {
+            "css selector": "div#system-requirements p"
+        },
+        "localization": {
+            "en": "View system requirements for the HP Workforce Experience Platform"
+        }
+    },
+    "help_and_support_page_system_requirements_widget_navigation_button":{
+        "locator": {
+            "css selector": "div#system-requirements > div:nth-of-type(2) svg"
+        }
+    },
+    "help_and_support_page_knowledge_base_widget":{
+        "locator": {
+            "css selector": "div#academy"
+        }
+    },
+    "help_and_support_page_knowledge_base_widget_title":{
+        "locator": {
+            "css selector": "div#academy h3 div>div"
+        },
+        "localization": {
+            "en": "Knowledge base"
+        }
+    },
+    "help_and_support_page_knowledge_base_widget_description":{
+        "locator": {
+            "css selector": "div#academy p"
+        },
+        "localization": {
+            "en": "The fastest way to find answers and take quick tutorials"
+        }
+    },
+    "help_and_support_page_knowledge_base_widget_navigation_button":{
+        "locator": {
+            "css selector": "div#academy > div:nth-of-type(2) svg"
+        }
+    },
+    "help_and_support_page_software_download_widget":{
+        "locator": {
+            "css selector": "div#software-download"
+        }
+    },
+    "help_and_support_page_software_download_widget_title":{
+        "locator": {
+            "css selector": "div#software-download h3 div>div"
+        },
+        "localization": {
+            "en": "Software download"
+        }
+    },
+    "help_and_support_page_software_download_widget_description":{
+        "locator": {
+            "css selector": "div#software-download p"
+        },
+        "localization": {
+            "en": "The source to get all the Workforce Experience Platform software"
+        }
+    },
+    "help_and_support_page_software_download_widget_navigation_button":{
+        "locator": {
+            "css selector": "div#software-download > div:nth-of-type(2) svg"
+        }
+    },
+    "help_and_support_page_whats_new_widget":{
+        "locator": {
+            "css selector": "div#whats-new"
+        }
+    },
+    "help_and_support_page_whats_new_widget_title":{
+        "locator": {
+            "css selector": "div#whats-new h3 div>div"
+        },
+        "localization": {
+            "en": "What's new"
+        }
+    },
+    "help_and_support_page_whats_new_widget_description":{
+        "locator": {
+            "css selector": "div#whats-new p"
+        },
+        "localization": {
+            "en": "View updates and new features released in the latest versions"
+        }
+    },
+    "help_and_support_page_whats_new_widget_navigation_button":{
+        "locator": {
+            "css selector": "div#whats-new > div:nth-of-type(2) svg"
+        }
+    },
+    "help_and_support_page_send_feedback_widget":{
+        "locator": {
+            "css selector": "div#send-feedback"
+        }
+    },
+    "help_and_support_page_send_feedback_widget_title":{
+        "locator": {
+            "css selector": "div#send-feedback h3 div>div"
+        },
+        "localization": {
+            "en": "Send Feedback"
+        }
+    },
+    "help_and_support_page_send_feedback_widget_description":{
+        "locator": {
+            "css selector": "div#send-feedback p"
+        },
+        "localization": {
+            "en": "Provide feedback to help us improve your experience on the platform"
+        }
+    },
+    "help_and_support_page_send_feedback_widget_navigation_button":{
+        "locator": {
+            "css selector": "div#send-feedback > div:nth-of-type(2) svg"
+        }
+    },
+    "help_and_support_page_my_support_cases_widget":{
+        "locator": {
+            "css selector": "div#my-support-cases"
+        }
+    },
+    "help_and_support_page_my_support_cases_widget_title":{
+        "locator": {
+            "xpath": "//div[1][contains(text(), 'My Support Cases')]"
+        },
+        "localization": {
+            "en": "My Support Cases"
+        }
+    },
+    "help_and_support_page_my_support_cases_widget_description":{
+        "locator": {
+            "xpath": "//div[1][contains(text(), 'support cases')]"
+        },
+        "localization": {
+            "en": "See the latest status of your submitted support cases"
+        }
+    },
+    "help_and_support_page_my_support_cases_widget_navigation_button":{
+        "locator": {
+            "css selector": "div#my-support-cases > div:nth-of-type(2) svg"
+        }
+    }
+}

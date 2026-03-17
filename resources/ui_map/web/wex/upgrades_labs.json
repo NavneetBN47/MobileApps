@@ -1,0 +1,72 @@
+  {
+    "labs_page_breadcrumb":{
+        "locator": {
+            "css selector": "#labDetails span[aria-current='page']"
+        }
+    },
+    "labs_page_title":{
+        "locator": {
+            "css selector": "div#dui-container h3"
+        }
+    },
+    "welcome_to_labs_page_title":{
+        "locator": {
+            "css selector": "div[class='header-container'] h1"
+        }
+    },
+    "labs_page_description":{
+        "locator": {
+            "css selector": "div[class='header-container'] p"
+        }
+    },
+    "labs_page_fleet_explorer_card":{
+        "locator": {
+            "css selector": "div#labs-fleet-explorer-card"
+        }
+    },
+    "labs_page_fleet_explorer_card_title":{
+        "locator": {
+            "css selector": "div#labs-fleet-explorer-card h2#fleet-explorer-title"
+        }
+    },
+    "labs_page_fleet_explorer_card_try_now_button":{
+        "locator": {
+            "css selector": "div#labs-fleet-explorer-card div.launch-button button"
+        }
+    },
+    "labs_page_smart_refresh_card":{
+        "locator": {
+            "css selector": "div#labs-smart-refresh-v2-card"
+        }
+    },
+    "labs_page_smart_refresh_card_title":{
+        "locator": {
+            "css selector": "div#labs-smart-refresh-v2-card h2#smart-refresh-title"
+        }
+    },
+    "labs_page_smart_refresh_card_try_now_button":{
+        "locator": {
+            "css selector": "div#labs-smart-refresh-v2-card div.launch-button button"
+        }
+    },
+    "labs_page_request_features_card":{
+        "locator": {
+            "css selector": "div#labs-request-features-card"
+        }
+    },
+    "labs_page_request_features_card_title":{
+        "locator": {
+            "css selector": "div#labs-request-features-card h2#labs-request-features-card-title"
+        }
+    },
+    "labs_page_request_features_card_description":{
+        "locator": {
+            "css selector": "div#labs-request-features-card p"
+        }
+    },
+    "labs_page_request_features_card_request_button":{
+        "locator": {
+            "css selector": "div#labs-request-features-card button"
+        }
+    }
+  }

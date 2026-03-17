@@ -1,0 +1,707 @@
+{
+    "en": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Add Application",
+          "allAppsIcon": "All Applications",
+          "scrollRight": "Scroll applications to the right side",
+          "scrollLeft": "Scroll applications to the left side",
+          "deleteApp": "Delete Application",
+          "deleteModalTitle": "Delete App Setting",
+          "deleteModalDescription": "Are you sure you want to remove this app configuration?",
+          "deleteModalCheckBoxText": "Do not show again",
+          "cancel": "Cancel",
+          "continue": "Continue",
+          "close": "Close"
+        }
+      }
+    },
+    "ar": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "إضافة تطبيق",
+          "allAppsIcon": "كل التطبيقات",
+          "scrollRight": "تحريك التطبيقات إلى الجانب الأيمن",
+          "scrollLeft": "تحريك التطبيقات إلى الجانب الأيسر",
+          "deleteApp": "حذف التطبيق",
+          "deleteModalTitle": "حذف إعداد التطبيق",
+          "deleteModalDescription": "هل تريد بالتأكيد إزالة تكوين التطبيق هذا؟",
+          "deleteModalCheckBoxText": "عدم الإظهار مرة أخرى",
+          "cancel": "إلغاء الأمر",
+          "continue": "متابعة"
+        }
+      }
+    },
+    "bg": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Добавяне на приложение",
+          "allAppsIcon": "Всички приложения",
+          "scrollRight": "Приложения за превъртане от дясната страна",
+          "scrollLeft": "Приложения за превъртане от лявата страна",
+          "deleteApp": "Изтриване на приложение",
+          "deleteModalTitle": "Настройване на изтриване на приложение",
+          "deleteModalDescription": "Наистина ли искате да премахнете тази конфигурация на приложение?",
+          "deleteModalCheckBoxText": "Не показвай отново",
+          "cancel": "Отказ",
+          "continue": "Продължи"
+        }
+      }
+    },
+    "ca-ES": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Afegeix una aplicació",
+          "allAppsIcon": "Totes les aplicacions",
+          "scrollRight": "Desplaceu-vos per les aplicacions al costat dret",
+          "scrollLeft": "Desplaceu-vos per les aplicacions al costat esquerre",
+          "deleteApp": "Suprimeix l’aplicació",
+          "deleteModalTitle": "Suprimeix la configuració de l'aplicació",
+          "deleteModalDescription": "Segur que voleu eliminar la configuració d'aquesta app?",
+          "deleteModalCheckBoxText": "No ho tornis a mostrar",
+          "cancel": "Cancel·la",
+          "continue": "Continua"
+        }
+      }
+    },
+    "cs": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Přidat aplikaci",
+          "allAppsIcon": "Všechny aplikace",
+          "scrollRight": "Posunout aplikace na pravou stranu",
+          "scrollLeft": "Posunout aplikace na levou stranu",
+          "deleteApp": "Odstranit aplikaci",
+          "deleteModalTitle": "Odstranit nastavení aplikace",
+          "deleteModalDescription": "Opravdu chcete odebrat konfiguraci této aplikace?",
+          "deleteModalCheckBoxText": "Znovu nezobrazovat",
+          "cancel": "Zrušit",
+          "continue": "Pokračovat"
+        }
+      }
+    },
+    "da": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Tilføj program",
+          "allAppsIcon": "Alle programmer",
+          "scrollRight": "Rul programmer mod højre",
+          "scrollLeft": "Rul programmer mod venstre",
+          "deleteApp": "Slet program",
+          "deleteModalTitle": "Slet programindstillinger",
+          "deleteModalDescription": "Er du sikker på, at du vil slette denne programonfiguration?",
+          "deleteModalCheckBoxText": "Vis ikke igen",
+          "cancel": "Annuller",
+          "continue": "Fortsæt"
+        }
+      }
+    },
+    "de": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Anwendung hinzufügen",
+          "allAppsIcon": "Alle Anwendungen",
+          "scrollRight": "Anwendungen auf der linken Seite blättern",
+          "scrollLeft": "Anwendungen auf der linken Seite blättern",
+          "deleteApp": "Anwendung löschen",
+          "deleteModalTitle": "Anwendungseinstellung löschen",
+          "deleteModalDescription": "Sind Sie sicher, dass Sie diese App-Konfiguration entfernen möchten?",
+          "deleteModalCheckBoxText": "Nicht mehr anzeigen",
+          "cancel": "Abbrechen",
+          "continue": "Weiter"
+        }
+      }
+    },
+    "el": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Προσθήκη εφαρμογής",
+          "allAppsIcon": "Όλες οι εφαρμογές",
+          "scrollRight": "Κύλιση εφαρμογών προς τα δεξιά",
+          "scrollLeft": "Κύλιση εφαρμογών προς τα αριστερά",
+          "deleteApp": "Διαγραφή εφαρμογής",
+          "deleteModalTitle": "Διαγραφή ρύθμισης εφαρμογής",
+          "deleteModalDescription": "Είστε βέβαιοι ότι θέλετε να καταργήσετε τη διαμόρφωση αυτής της εφαρμογής;",
+          "deleteModalCheckBoxText": "Να μην εμφανιστεί ξανά",
+          "cancel": "Άκυρο",
+          "continue": "Συνέχεια"
+        }
+      }
+    },
+    "en-GB": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Add Application",
+          "allAppsIcon": "All Applications",
+          "scrollRight": "Scroll applications to the right side",
+          "scrollLeft": "Scroll applications to the left side",
+          "deleteApp": "Delete Application",
+          "deleteModalTitle": "Delete App Setting",
+          "deleteModalDescription": "Are you sure you want to remove this app configuration?",
+          "deleteModalCheckBoxText": "Do not show again",
+          "cancel": "Cancel",
+          "continue": "Continue"
+        }
+      }
+    },
+    "es": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Agregar aplicación",
+          "allAppsIcon": "Todas las aplicaciones",
+          "scrollRight": "Desplazar aplicaciones a la derecha",
+          "scrollLeft": "Desplazar aplicaciones a la izquierda",
+          "deleteApp": "Eliminar aplicación",
+          "deleteModalTitle": "Eliminar ajuste de aplicación",
+          "deleteModalDescription": "¿Está seguro de que desea eliminar este ajuste de aplicación?",
+          "deleteModalCheckBoxText": "No mostrar nuevamente",
+          "cancel": "Cancelar",
+          "continue": "Continuar"
+        }
+      }
+    },
+    "es-ES": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Añadir aplicación",
+          "allAppsIcon": "Todas las aplicaciones",
+          "scrollRight": "Desplazar aplicaciones a la derecha",
+          "scrollLeft": "Desplazar aplicaciones a la izquierda",
+          "deleteApp": "Borrar aplicación",
+          "deleteModalTitle": "Borrar ajustes de la aplicación",
+          "deleteModalDescription": "¿Estás seguro que deseas eliminar la configuración de esta aplicación?",
+          "deleteModalCheckBoxText": "No volver a mostrar",
+          "cancel": "Cancelar",
+          "continue": "Continuar"
+        }
+      }
+    },
+    "et": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Lisa rakendus",
+          "allAppsIcon": "Kõik rakendused",
+          "scrollRight": "Kerige rakendusi paremale küljele",
+          "scrollLeft": "Kerige rakendusi vasakule küljele",
+          "deleteApp": "Kustuta rakendus",
+          "deleteModalTitle": "Kustuta rakenduse säte",
+          "deleteModalDescription": "Kas olete kindel, et soovite selle rakenduse konfiguratsiooni eemaldada?",
+          "deleteModalCheckBoxText": "Ära näita uuesti",
+          "cancel": "Tühista",
+          "continue": "Jätka"
+        }
+      }
+    },
+    "eu-ES": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Aplikazioa gehitu",
+          "allAppsIcon": "Aplikazio guztiak",
+          "scrollRight": "Aplikazioak eskuineko aldera korritu",
+          "scrollLeft": "Aplikazioak ezkerreko aldera korritu",
+          "deleteApp": "Aplikazioa ezabatu",
+          "deleteModalTitle": "Aplikazioaren ezarpena ezabatu",
+          "deleteModalDescription": "Ziur zaude aplikazio honen konfigurazioa ezabatu nahi duzula?",
+          "deleteModalCheckBoxText": "Ez erakutsi berriro",
+          "cancel": "Utzi",
+          "continue": "Jarraitu"
+        }
+      }
+    },
+    "fi": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Lisää sovellus",
+          "allAppsIcon": "Kaikki sovellukset",
+          "scrollRight": "Vieritä sovelluklsia oikeaan laitaan",
+          "scrollLeft": "Vieritä sovelluklsia vasempaan laitaan",
+          "deleteApp": "Poista sovellus",
+          "deleteModalTitle": "Poista sovellusasetus",
+          "deleteModalDescription": "Haluatko varmasti poistaa tämän sovelluskonfiguraation?",
+          "deleteModalCheckBoxText": "Älä näytä uudelleen",
+          "cancel": "Peruuta",
+          "continue": "Jatka"
+        }
+      }
+    },
+    "fr-CA": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Ajouter une application",
+          "allAppsIcon": "Toutes les applications",
+          "scrollRight": "Faites défiler les applications vers la droite",
+          "scrollLeft": "Faites défiler les applications vers la gauche",
+          "deleteApp": "Supprimer l’application",
+          "deleteModalTitle": "Supprimer les paramètres de l’application",
+          "deleteModalDescription": "Êtes-vous certain de vouloir supprimer cette configuration d’application?",
+          "deleteModalCheckBoxText": "Ne pas afficher à nouveau",
+          "cancel": "Annuler",
+          "continue": "Continuer"
+        }
+      }
+    },
+    "fr": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Ajouter une application",
+          "allAppsIcon": "Toutes les applications",
+          "scrollRight": "Faire défiler les applications vers la droite",
+          "scrollLeft": "Faire défiler les applications vers la gauche",
+          "deleteApp": "Supprimer l'application",
+          "deleteModalTitle": "Supprimer le paramètre d'application",
+          "deleteModalDescription": "Êtes-vous sûr de vouloir supprimer cette configuration de l'application ?",
+          "deleteModalCheckBoxText": "Ne plus afficher",
+          "cancel": "Annuler",
+          "continue": "Continuer"
+        }
+      }
+    },
+    "gl-ES": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Engadir solicitude",
+          "allAppsIcon": "Todas as aplicacións",
+          "scrollRight": "Desprazar aplicacións cara á dereita",
+          "scrollLeft": "Desprazar aplicacións cara ao lado esquerdo",
+          "deleteApp": "Eliminar aplicación",
+          "deleteModalTitle": "Eliminar configuración de aplicación",
+          "deleteModalDescription": "Está seguro de que desexa eliminar a configuración desta aplicación?",
+          "deleteModalCheckBoxText": "Non mostrar de novo",
+          "cancel": "Cancelar",
+          "continue": "Continuar"
+        }
+      }
+    },
+    "he": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "הוסף אפליקציה",
+          "allAppsIcon": "כל האפליקציות",
+          "scrollRight": "גלול יישומים לצד ימין",
+          "scrollLeft": "גלול יישומים לצד שמאל",
+          "deleteApp": "מחק אפליקציה",
+          "deleteModalTitle": "מחק את הגדרת האפליקצה",
+          "deleteModalDescription": "האם אתה בטוח שברצונך להסיר את תצורת האפליקציה הזו?",
+          "deleteModalCheckBoxText": "אל תציג את זה שוב",
+          "cancel": "ביטול",
+          "continue": "המשך"
+        }
+      }
+    },
+    "hr": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Dodaj aplikaciju",
+          "allAppsIcon": "Sve aplikacije",
+          "scrollRight": "Pomakni aplikacije na desnu stranu",
+          "scrollLeft": "Pomakni aplikacije na lijevu stranu",
+          "deleteApp": "Izbriši aplikaciju",
+          "deleteModalTitle": "Izbriši postavku aplikacije",
+          "deleteModalDescription": "Želite li zaista ukloniti konfiguraciju te aplikacije?",
+          "deleteModalCheckBoxText": "Nemoj ponovno prikazivati",
+          "cancel": "Odustani",
+          "continue": "Nastavi"
+        }
+      }
+    },
+    "hu": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Alkalmazás hozzáadása",
+          "allAppsIcon": "Minden alkalmazás",
+          "scrollRight": "Alkalmazások görgetése jobbra",
+          "scrollLeft": "Alkalmazások görgetése balra",
+          "deleteApp": "Alkalmazás törlése",
+          "deleteModalTitle": "Alkalmazásbeállítás törlése",
+          "deleteModalDescription": "Biztosan el kívánja távolítani ezt az alkalmazáskonfigurációt?",
+          "deleteModalCheckBoxText": "Ne jelenjen meg újra",
+          "cancel": "Mégse",
+          "continue": "Folytatás"
+        }
+      }
+    },
+    "id": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Tambah Aplikasi",
+          "allAppsIcon": "Semua Aplikasi",
+          "scrollRight": "Gulir aplikasi ke sisi kanan",
+          "scrollLeft": "Gulir aplikasi ke sisi kiri",
+          "deleteApp": "Hapus Aplikasi",
+          "deleteModalTitle": "Hapus Pengaturan Aplikasi",
+          "deleteModalDescription": "Anda yakin ingin menghapus konfigurasi aplikasi ini?",
+          "deleteModalCheckBoxText": "Jangan tampilkan lagi",
+          "cancel": "Batal",
+          "continue": "Lanjutkan"
+        }
+      }
+    },
+    "it": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Aggiungi applicazione",
+          "allAppsIcon": "Tutte le applicazioni",
+          "scrollRight": "Scorri le applicazioni sulla destra",
+          "scrollLeft": "Scorri le applicazioni sulla sinistra",
+          "deleteApp": "Elimina applicazione",
+          "deleteModalTitle": "Elimina impostazione app",
+          "deleteModalDescription": "Vuoi rimuovere questa configurazione dell'app?",
+          "deleteModalCheckBoxText": "Non visualizzare più questo messaggio",
+          "cancel": "Annulla",
+          "continue": "Continua"
+        }
+      }
+    },
+    "ja": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "アプリを追加",
+          "allAppsIcon": "すべてのアプリ",
+          "scrollRight": "アプリを右側にスクロール",
+          "scrollLeft": "アプリを左側にスクロール",
+          "deleteApp": "アプリを削除",
+          "deleteModalTitle": "アプリ設定を削除",
+          "deleteModalDescription": "このアプリの設定を削除してよろしいですか？",
+          "deleteModalCheckBoxText": "後表示しない",
+          "cancel": "キャンセル",
+          "continue": "継続"
+        }
+      }
+    },
+    "ko": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "애플리케이션 추가",
+          "allAppsIcon": "모든 애플리케이션",
+          "scrollRight": "오른쪽으로 애플리케이션 스크롤",
+          "scrollLeft": "왼쪽으로 애플리케이션 스크롤",
+          "deleteApp": "애플리케이션 삭제",
+          "deleteModalTitle": "앱 설정 삭제",
+          "deleteModalDescription": "이 앱 설정을 삭제하시겠습니까?",
+          "deleteModalCheckBoxText": "다시 표시 안 함",
+          "cancel": "취소",
+          "continue": "계속"
+        }
+      }
+    },
+    "lt": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Įtraukti programą",
+          "allAppsIcon": "Visos programos",
+          "scrollRight": "Slinkti programas į dešinę",
+          "scrollLeft": "Slinkti programas į kairę",
+          "deleteApp": "Šalinti programą",
+          "deleteModalTitle": "Šalinti programos parametrą",
+          "deleteModalDescription": "Ar tikrai norite pašalinti šią programos konfigūraciją?",
+          "deleteModalCheckBoxText": "Daugiau nerodyti",
+          "cancel": "Atšaukti",
+          "continue": "Tęsti"
+        }
+      }
+    },
+    "lv": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Programmas pievienošana",
+          "allAppsIcon": "Visas programmas",
+          "scrollRight": "Ritiniet programmas pa labi",
+          "scrollLeft": "Ritiniet programmas pa kreisi",
+          "deleteApp": "Programmas dzēšana",
+          "deleteModalTitle": "Programmas iestatījuma dzēšana",
+          "deleteModalDescription": "Vai tiešām vēlaties noņemt šo programmas konfigurāciju?",
+          "deleteModalCheckBoxText": "Vairs nerādīt",
+          "cancel": "Atcelt",
+          "continue": "Turpināt"
+        }
+      }
+    },
+    "nb-NO": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Legg til program",
+          "allAppsIcon": "Alle programmer",
+          "scrollRight": "Bla programmer til høyre side",
+          "scrollLeft": "Bla programmer til venstre side",
+          "deleteApp": "Slett program",
+          "deleteModalTitle": "Slett app-innstilling",
+          "deleteModalDescription": "Er du sikker på at du vil fjerne denne app-konfigurasjonen?",
+          "deleteModalCheckBoxText": "Ikke vis flere ganger",
+          "cancel": "Avbryt",
+          "continue": "Fortsett"
+        }
+      }
+    },
+    "nl": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Toepassing toevoegen",
+          "allAppsIcon": "Alle toepassingen",
+          "scrollRight": "Toepassingen naar de rechterkant schuiven",
+          "scrollLeft": "Toepassingen naar de linkerkant schuiven",
+          "deleteApp": "Toepassing verwijderen",
+          "deleteModalTitle": "Appinstelling verwijderen",
+          "deleteModalDescription": "Weet u zeker dat u deze appconfiguratie wilt verwijderen?",
+          "deleteModalCheckBoxText": "Niet opnieuw weergeven",
+          "cancel": "Annuleren",
+          "continue": "Doorgaan"
+        }
+      }
+    },
+    "pl": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Dodaj aplikację",
+          "allAppsIcon": "Wszystkie aplikacje",
+          "scrollRight": "Przewiń aplikacje do prawej strony",
+          "scrollLeft": "Przewiń aplikacje do lewej strony",
+          "deleteApp": "Usuń aplikację",
+          "deleteModalTitle": "Usuń ustawienia aplikacji",
+          "deleteModalDescription": "Czy na pewno chcesz usunąć tę konfigurację aplikacji?",
+          "deleteModalCheckBoxText": "Nie pokazuj ponownie",
+          "cancel": "Anuluj",
+          "continue": "Kontynuuj"
+        }
+      }
+    },
+    "pt-BR": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Adicionar aplicativo",
+          "allAppsIcon": "Todos os aplicativos",
+          "scrollRight": "Rolar os aplicativos para o lado direito",
+          "scrollLeft": "Rolar os aplicativos para o lado esquerdo",
+          "deleteApp": "Excluir aplicativo",
+          "deleteModalTitle": "Excluir configuração do aplicativo",
+          "deleteModalDescription": "Tem certeza de que deseja remover esta configuração do aplicativo?",
+          "deleteModalCheckBoxText": "Não mostrar novamente",
+          "cancel": "Cancelar",
+          "continue": "Continuar"
+        }
+      }
+    },
+    "pt-PT": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Adicionar aplicação",
+          "allAppsIcon": "Todas as aplicações",
+          "scrollRight": "Percorrer as aplicações para o lado direito",
+          "scrollLeft": "Percorrer as aplicações para o lado esquerdo",
+          "deleteApp": "Eliminar a aplicação",
+          "deleteModalTitle": "Eliminar a definição da aplicação",
+          "deleteModalDescription": "Tem a certeza de que pretende remover a configuração desta aplicação?",
+          "deleteModalCheckBoxText": "Não mostrar novamente",
+          "cancel": "Cancelar",
+          "continue": "Continuar"
+        }
+      }
+    },
+    "ro": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Adăugare aplicaţie",
+          "allAppsIcon": "Toate aplicaţiile",
+          "scrollRight": "Defilaţi aplicaţiile din partea dreaptă",
+          "scrollLeft": "Defilaţi aplicaţiile din partea stângă",
+          "deleteApp": "Ştergere aplicaţie",
+          "deleteModalTitle": "Ştergeţi setarea aplicaţiei",
+          "deleteModalDescription": "Sigur doriţi să eliminaţi această configuraţie a aplicaţiei?",
+          "deleteModalCheckBoxText": "Să nu se mai arate",
+          "cancel": "Anulare",
+          "continue": "Continuare"
+        }
+      }
+    },
+    "ru": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Добавить приложение",
+          "allAppsIcon": "Все приложения",
+          "scrollRight": "Прокрутка приложений в правую сторону",
+          "scrollLeft": "Прокрутка приложений в левую сторону",
+          "deleteApp": "Удалить приложение",
+          "deleteModalTitle": "Удалить настройки приложения",
+          "deleteModalDescription": "Действительно удалить конфигурацию этого приложения?",
+          "deleteModalCheckBoxText": "Больше не показывать",
+          "cancel": "Отмена",
+          "continue": "Продолжить"
+        }
+      }
+    },
+    "sk": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Pridať aplikáciu",
+          "allAppsIcon": "Všetky aplikácie",
+          "scrollRight": "Posunúť aplikácie na pravú stranu",
+          "scrollLeft": "Posunúť aplikácie na ľavú stranu",
+          "deleteApp": "Odstrániť aplikáciu",
+          "deleteModalTitle": "Odstrániť nastavenie aplikácie",
+          "deleteModalDescription": "Naozaj chcete odstrániť túto konfiguráciu aplikácie?",
+          "deleteModalCheckBoxText": "Nabudúce nezobrazovať",
+          "cancel": "Zrušiť",
+          "continue": "Pokračovať"
+        }
+      }
+    },
+    "sl": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Dodaj aplikacijo",
+          "allAppsIcon": "Vse aplikacije",
+          "scrollRight": "Pomakni aplikacije v desno",
+          "scrollLeft": "Pomakni aplikacije v levo",
+          "deleteApp": "Izbriši aplikacijo",
+          "deleteModalTitle": "Izbriši nastavitev aplikacije",
+          "deleteModalDescription": "Ste prepričani, da želite odstraniti to konfiguracijo aplikacije?",
+          "deleteModalCheckBoxText": "Tega ne kaži več",
+          "cancel": "Prekliči",
+          "continue": "Nadaljuj"
+        }
+      }
+    },
+    "sr-Latn-RS": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Dodaj aplikaciju",
+          "allAppsIcon": "Sve aplikacije",
+          "scrollRight": "Pomerite aplikacije na desnu stranu",
+          "scrollLeft": "Pomerite aplikacije na levu stranu",
+          "deleteApp": "Izbriši aplikaciju",
+          "deleteModalTitle": "Izbrišite podešavanja aplikacija",
+          "deleteModalDescription": "Da li ste sigurni da želite da uklonite ovu konfiguraciju aplikacija?",
+          "deleteModalCheckBoxText": "Ne prikazuj ponovo",
+          "cancel": "Otkaži",
+          "continue": "Nastavi"
+        }
+      }
+    },
+    "sr-BA": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Dodaj aplikaciju",
+          "allAppsIcon": "Sve aplikacije",
+          "scrollRight": "Pomerite aplikacije na desnu stranu",
+          "scrollLeft": "Pomerite aplikacije na levu stranu",
+          "deleteApp": "Izbriši aplikaciju",
+          "deleteModalTitle": "Izbrišite podešavanja aplikacija",
+          "deleteModalDescription": "Da li ste sigurni da želite da uklonite ovu konfiguraciju aplikacija?",
+          "deleteModalCheckBoxText": "Ne prikazuj ponovo",
+          "cancel": "Otkaži",
+          "continue": "Nastavi"
+        }
+      }
+    },
+    "sv": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Lägg till en applikation",
+          "allAppsIcon": "Alla applikationer",
+          "scrollRight": "Bläddra applikationer till höger sida",
+          "scrollLeft": "Bläddra applikationer till vänster sida",
+          "deleteApp": "Ta bort applikationen",
+          "deleteModalTitle": "Ta bort appinställningarna",
+          "deleteModalDescription": "Vill du ta bort den här appkonfigurationen?",
+          "deleteModalCheckBoxText": "Visa inte igen",
+          "cancel": "Avbryt",
+          "continue": "Fortsätt"
+        }
+      }
+    },
+    "th": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "เพิ่มแอปพลิเคชัน",
+          "allAppsIcon": "แอปพลิเคชันทั้งหมด",
+          "scrollRight": "เลื่อนแอปพลิเคชันไปทางขวา",
+          "scrollLeft": "เลื่อนแอปพลิเคชันไปทางซ้าย",
+          "deleteApp": "ลบแอปพลิเคชัน",
+          "deleteModalTitle": "ลบการตั้งค่าแอป",
+          "deleteModalDescription": "แน่ใจหรือว่าคุณต้องการลบการกำหนดค่าแอปนี้",
+          "deleteModalCheckBoxText": "ไม่ต้องแสดงอีก",
+          "cancel": "ยกเลิก",
+          "continue": "ดำเนินการต่อ"
+        }
+      }
+    },
+    "tr": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Uygulama Ekle",
+          "allAppsIcon": "Tüm Uygulamalar",
+          "scrollRight": "Uygulamaları sağa kaydır",
+          "scrollLeft": "Uygulamaları sola kaydır",
+          "deleteApp": "Uygulamayı Sil",
+          "deleteModalTitle": "Uygulama Ayarını Sil",
+          "deleteModalDescription": "Bu uygulama yapılandırmasını kaldırmak istediğinize emin misiniz?",
+          "deleteModalCheckBoxText": "Bunu tekrar gösterme",
+          "cancel": "İptal",
+          "continue": "Devam"
+        }
+      }
+    },
+    "uk": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "Додати програму",
+          "allAppsIcon": "Усі програми",
+          "scrollRight": "Прокрутити програми паворуч",
+          "scrollLeft": "Прокрутити програми паворуч",
+          "deleteApp": "Видалити програму",
+          "deleteModalTitle": "Видалити налаштування програми",
+          "deleteModalDescription": "Дійсно видалити конфігурацію цієї програми??",
+          "deleteModalCheckBoxText": "Більше не показувати",
+          "cancel": "Скасувати",
+          "continue": "Продовжити"
+        }
+      }
+    },
+    "zh-Hans": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "添加应用程序",
+          "allAppsIcon": "所有应用程序",
+          "scrollRight": "将应用程序滚动到右侧",
+          "scrollLeft": "将应用程序滚动到左侧",
+          "deleteApp": "删除应用程序",
+          "deleteModalTitle": "删除应用设置",
+          "deleteModalDescription": "确定要移除此应用配置吗？",
+          "deleteModalCheckBoxText": "不再显示",
+          "cancel": "取消",
+          "continue": "继续"
+        }
+      }
+    },
+    "zh-Hant-HK": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "新增應用程式",
+          "allAppsIcon": "全部應用程式",
+          "scrollRight": "滾動應用程式至右側",
+          "scrollLeft": "滾動應用程式至左側",
+          "deleteApp": "刪除應用程式",
+          "deleteModalTitle": "刪除應用程式設定",
+          "deleteModalDescription": "你是否確定要移除此應用程式配置?",
+          "deleteModalCheckBoxText": "下次不再顯示",
+          "cancel": "取消",
+          "continue": "繼續"
+        }
+      }
+    },
+    "zh-Hant": {
+      "translation": {
+        "appBarSetting": {
+          "addApplication": "新增應用程式",
+          "allAppsIcon": "所有應用程式",
+          "scrollRight": "將應用程式捲動到右側",
+          "scrollLeft": "將應用程式捲動到左側",
+          "deleteApp": "刪除應用程式",
+          "deleteModalTitle": "刪除應用程式設定",
+          "deleteModalDescription": "您確定要移除此應用程式組態嗎？",
+          "deleteModalCheckBoxText": "不要再顯示",
+          "cancel": "取消",
+          "continue": "繼續"
+        }
+      }
+    }
+  }

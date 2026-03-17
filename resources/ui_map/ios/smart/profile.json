@@ -1,0 +1,156 @@
+{
+
+    "hpx_profile_close_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Close']",
+            "name": "Close"
+        }
+    },
+    "hpx_profile_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Profile']",
+            "name": "Profile"
+        }
+    },
+    "hpx_settings_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Settings Arrow Right']",
+            "name": "Settings Arrow Right"
+        }
+    },
+    "hpx_feedback_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Send feedback']",
+            "name": "Send feedback"
+        }
+    },
+    "hpx_profile_settings_page_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Settings']",
+            "name": "Settings"
+        }
+    },
+    "hpx_profile_settings_page_back_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Menu']",
+            "name": "Menu"
+        }
+    },
+    "hpx_global_nav_bar": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Sign in']",
+            "name": "Sign in"
+        }
+    },
+    "hpx_profile_support_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Support Arrow Right']",
+            "name": "Support Arrow Right"
+        }
+    },
+    "hpx_profile_subcription_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Subscriptions Link']",
+            "name": "Subscriptions Link"
+        }
+    },
+    "hpx_profile_settings_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Settings Arrow Right']",
+            "name": "Settings Arrow Right"
+        }
+    },
+    "hpx_profile_delete_account_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Delete your account Link']"
+        }
+    },
+    "hpx_profile_feedback_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Send feedback']",
+            "name": "Send feedback"
+        }
+    },
+    "hpx_goto_hp_support_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Go to support.hp.com']",
+            "name": "Go to support.hp.com"
+        }
+    },
+    "hpx_support_back_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Menu']",
+            "name": "Menu"
+        }
+    },
+    "hpx_manage_privacy_settings_btn": {
+        "locator": {
+            "name": "Manage privacy settings Arrow Right"
+        }
+    },
+    "hpx_view_privacy_resources_btn": {
+        "locator": {
+            "name": "View privacy resources Arrow Right"
+        }
+    },
+    "hpx_privacy_statement_link": {
+        "locator": {
+            "name": "HP Privacy Statement Link"
+        }
+    },
+    "hpx_privacy_statement_link_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@value='‎hp.com, secure']"
+        }
+    },
+    "hpx_google_analytics_policy_link": {
+        "locator": {
+            "name": "Google analytics privacy policy Link"
+        }
+    },
+    "hpx_google_analytics_policy_link_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@value='‎policies.google.com, secure']"
+        }
+    },
+    "hpx_adobe_privacy_link": {
+        "locator": {
+            "name": "Adobe privacy Link"
+        }
+    },
+    "hpx_adobe_privacy_link_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@value='‎adobe.com, secure']"
+        }
+    },
+    "hpx_optimizing_link": {
+        "locator": {
+            "name": "Optimizely Link"
+        }
+    },
+    "hpx_optimizing_link_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@value='‎optimizely.com, secure']"
+        }
+    },
+    "hpx_term_of_use": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Terms of Use Link']"
+        }
+    },
+    "hpx_term_of_use_link_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@value='‎hpsmart.com, secure']"
+        }
+    },
+    "hpx_end_user_license_agreement": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='End User License Agreement Link']"
+        }
+    },
+    "hpx_legal_info": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Legal information Arrow Right']"
+        }
+    }
+}

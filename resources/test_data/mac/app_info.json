@@ -1,0 +1,25 @@
+{"mac_smart":{
+	"app_log_file":{
+		"file_path": "~/Library/Containers/com.hp.SmartMac/Data/Library/Application Support/HP Smart",
+		"connected_remote_jobs_path": "~/Library/Containers/com.hp.SmartMac/Data/Library/Application Support/HP Smart/ConnectedRemoteJobs.xml",
+		"pepto_data_path": "~/Library/Containers/com.hp.SmartMac/Data/Library/Application Support/HP Smart/HPSmartSettings.xml",
+		"pdsmq_file_path": "~/Library/Containers/com.hp.SmartMac/Data/tmp/HP/PDSMQ",
+        "pdsmq_data_path": "~/Library/Containers/com.hp.SmartMac/Data/tmp/HP/PDSMQ/Pdsmq.Data.txt",
+        "cdm_file_path": "~/Library/Containers/com.hp.SmartMac/Data/Library/Caches/com.hp.SmartMac",
+        "cdm_data_path": "~/Library/Containers/com.hp.SmartMac/Data/Library/Caches/com.hp.SmartMac/CDM.Data.txt",
+        "hpsmart_log_path": "~/Library/Containers/com.hp.SmartMac/Data/Library/Application Support/HP Smart/Logs/HPSmart.log"
+    },
+    
+    "app_package_path":{
+        "app_resource_path": "/cscr.hp.com/san/nexus/wip2/cscr/HP_Smart",
+        "latest_app_path": "~/Downloads/HP_Smart.pkg"
+    },
+
+    "ssh_key_path":{
+		"key_path": "~/Desktop/sshkey"
+    }
+
+}
+
+}
+

@@ -1,0 +1,103 @@
+{
+    "get_supplies_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.HpConnected/Resources/HpGetSuppliesDisplayNameId"}
+    },
+    "scan_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.ScanCapture/Resources/ScanId"}
+    },
+    "shortcuts_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.SmartTasks/Resources/SmartTasksExtDisplayNameId"}
+    },
+    "printables_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.Support/Resources/PrintablesId"}
+    },
+    "print_documents_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.IppPrint/Resources/Document_CmdDisplayNameId"}
+    },
+    "mobile_fax_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.SoftFax/Resources/SoftFaxExtDisplayNameId"}
+    },
+    "help_support_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.Support/Resources/OnlineProductSupportCmdDisplayNameId4"}
+    },
+    "print_photos_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.PrintPhotos/Resources/PrintPhotos_CmdDisplayNameId",
+                    "xpath": "//List[@AutomationId='ItemsListView']/ListItem[contains(@Name,'Print Photos')]"}
+    },
+    "printer_settings_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.PrinterInformation/Resources/PrinterInfo_TileName"}
+    },
+    "tiles_list": {
+        "_comment": "Personalize tiles",
+        "locator": {"id": "ItemsListView"}
+    },
+    "dynamic_tile": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//List[@AutomationId='ItemsListView']/ListItem[{}]"}
+    },
+    "dynamic_tile_option_image": {
+        "_comment": "Personalize tiles image",
+        "locator": {"xpath": "//List[@AutomationId='ItemsListView']/ListItem[{}]/Group[1]/Image[@AutomationId='TileImage']"}
+    },
+    "dynamic_tile_option_get_supplies": {
+        "_comment": "For Get supplies Personalize tiles only",
+        "locator": {"xpath": "//List[@AutomationId='ItemsListView']/ListItem[{}]/Group[1]/Text[1]"}
+    },
+    "dynamic_tile_option": {
+        "_comment": "For Personalize tiles except Get Supplies",
+        "locator": {"xpath": "//List[@AutomationId='ItemsListView']/ListItem[{}]/Group[1]/Text[2]"}
+    },
+    "play_learn_option": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//List[@AutomationId='ItemsListView']/ListItem[contains(@Name,'Play & Learn')]"}
+    },
+    "get_supplies_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Get Supplies')]/Button[1]"}
+    },
+    "scan_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Scan Use the printer')]/Button[1]"}
+    },
+    "shortcuts_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Shortcuts')]/Button[1]"}
+    },
+    "printables_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Printables')]/Button[1]"}
+    },
+    "print_documents_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Print Documents')]/Button[1]"}
+    },
+    "mobile_fax_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Mobile Fax')]/Button[1]"}
+    },
+    "help_support_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Help & Support')]/Button[1]"}
+    },
+    "print_photos_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Print Photos')]/Button[1]"}
+    },
+    "printer_settings_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'Printer Settings')]/Button[1]"}
+    },
+    "my_hp_could_scans_toggle": {
+        "_comment": "Personalize tiles",
+        "locator": {"xpath": "//Group[contains(@Name,'My HP Cloud Scans')]/Button[1]"}
+    }
+}

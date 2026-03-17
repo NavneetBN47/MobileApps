@@ -1,0 +1,22 @@
+{
+    "Minimize_Button":{
+        "locator": {
+            "id": "Minimize"
+        }
+    },
+    "Maximize_Button":{
+        "locator": {
+            "id": "Maximize"
+        }
+    },
+    "Close_Button":{
+        "locator": {
+            "id": "Close"
+        }
+    },
+    "app_state_maximized": {
+        "locator": {
+          "xpath": "//Window[@WindowVisualState='Maximized']"
+        }
+      }
+}

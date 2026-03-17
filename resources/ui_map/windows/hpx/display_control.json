@@ -1,0 +1,787 @@
+{
+    "myHP_logo": {
+        "locator": {
+            "id": "AUID_APPBAR_AppBarView_myHPIcon"
+        }
+    },
+    "pc_devices_navigation_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_NavBreadcrumb_Pcdevice"
+        }
+    },
+    "pc_devices_display_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_NavBreadcrumb_PCDisplay"
+        }
+    },
+    "Brightness_contrast": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_brightncontrast_title"
+        }
+    },
+    "Brightness_slider": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_brightncontrastcard_Brightness"
+        }
+    },
+    "Contrast_slider": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_brightncontrastcard_Contrast"
+        }
+    },
+    "Restore_default": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_DisplayControlContainer_Restore_Button"
+        }
+    },
+    "Display_modes_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_DisplayModes_DisplayModesTitle"
+        }
+    },
+    "Standard_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_Mode_TitleStandard"
+        }
+    },
+    "Default_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_DefaultContainer"
+        }
+    },
+    "Work_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_WorkWellLitContainer"
+        }
+    },
+    "Low_Light_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_WorkLowLightingContainer"
+        }
+    },
+    "Entertainment_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_EntertainmentContainer"
+        }
+    },
+    "Low_blue_light_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_LowBlueLightContainer"
+        }
+    },
+    "Advanced_Title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_Mode_TitleAdvanced"
+        }
+    },
+    "sRGB_Web_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_WebContainer"
+        }
+    },
+    "Adobe_RGB_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_PrintingAndImagingContainer"
+        }
+    },
+    "Display_P3_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_DisplayP3Container"
+        }
+    },
+    "Native_tile": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_NativeContainer"
+        }
+    },
+    "Low_Blue_Light_Scheduler_Title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerModalContent_lowbluelightscheduler"
+        }
+    },
+    "Low_Blue_Light_Scheduler_Modal_Title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerModalContent_Modal_Title"
+        }
+    },
+    "Low_Blue_Light_Scheduler_Modal_SubTitle": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerModalContent_Modal_SubTitle"
+        }
+    },
+    "Schedule_Title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerModalContent_Schedule_Switch_Text"
+        }
+    },
+    "Schedule_Toggle": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_Schedule_Switch"
+        }
+    },
+    "Turn_On_Text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn On"
+        }
+    },
+    "Turn_Off_Text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn Off"
+        }
+    },
+    "Save_Button": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerModalContent_Save_Button"
+        }
+    },
+    "Cancel_Button": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerModalContent_Cancel_Button"
+        }
+    },
+    "turn_on_hour_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerDropdowns_Turn OnHour_Dropdown"
+        }
+    },
+    "turn_on_am_pm_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerDropdowns_Turn OnAM/PM_Dropdown"
+        }
+    },
+    "turn_off_hour_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerDropdowns_Turn OffHour_Dropdown"
+        }
+    },
+    "turn_off_am_pm_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_SchedulerDropdowns_Turn OffAM/PM_Dropdown"
+        }
+    },
+    "adobe_rgb_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_PrintingAndImagingModename"
+        }
+    },
+    "display_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_NavBreadcrumb_Pcdisplay-core"
+        }
+    },
+    "advanced_setting": {
+        "locator": {
+            "xpath": "//Button[contains(@AutomationId, 'AUID_PCDISPLAY_AdvanceSetting_AdvanceSettingIcon')]"
+        }
+    },
+    "advanced_settings_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_Modal_Title"
+        }
+    },
+    "low_blue_light_txt": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_Schedule_Switch_Text"
+        }
+    },
+    "low_blue_light_toggle_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_lowbluelight_LowblueLightToolTipTitle"
+        }
+    },
+    "low_blue_light_toggle": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_Schedule_Switch"
+        }
+    },
+    "turn_on_advanced_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn On"
+        }
+    },
+    "turn_on_combo_advanced_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM_Dropdown"
+        }
+    },
+    "turn_on_am": {
+        "locator": {
+            "xpath": "//Window[@AutomationId='Popup']/ComboBox[starts-with(@AutomationId,'AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM')]/ListItem[1]"
+        }
+    },
+    "turn_on_pm": {
+        "locator": {
+            "xpath": "//Window[@AutomationId='Popup']/ComboBox[starts-with(@AutomationId,'AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM')]/ListItem[2]"
+        }
+    },
+    "turn_off_advanced_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn Off"
+        }
+    },
+    "turn_off_combo_advanced_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffAM/PM_Dropdown"
+        }
+    },
+    "turn_off_am": {
+        "locator": {
+            "xpath": "//Window[@AutomationId='Popup']/ComboBox[starts-with(@AutomationId,'AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffAM/P')]/ListItem[1]"
+        }
+    },
+    "turn_off_pm": {
+        "locator": {
+            "xpath": "//Window[@AutomationId='Popup']/ComboBox[starts-with(@AutomationId,'AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffAM/P')]/ListItem[2]"
+        }
+    },
+    "close_btn_advanced_settings": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow'][@Name='myHP']/Button[@ClassName='DynamicAutomationPeer'][@Name='Close']"
+        }
+    },
+    "add_application": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Add_Application_Button"
+        }
+    },
+    "applications": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_Applications"
+        }
+    },
+    "search_application": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_SearchApplication"
+        }
+    },
+    "cancel": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_CancelButton"
+        }
+    },
+    "app_in_list": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_AppText"
+        }
+    },
+    "add_btn": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_AddButton"
+        }
+    },
+    "added_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Select_Application_ToolTip"
+        }
+    },
+    "delete_app_setting": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_DeleteModal_TitleTextView"
+        }
+    },
+    "delete_app_setting_sub_title": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_DeleteModal_DescriptionTextView"
+        }
+    },
+    "do_not_show_again": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_DeleteModal_DoNotShowAgain_Checkbox"
+        }
+    },
+    "cancel_on_delete_app_setting": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Cancel_Button"
+        }
+    },
+    "continue_on_delete_app_setting": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Continue_Button"
+        }
+    },
+    "close_on_delete_app_setting": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_CloseDeleteAppModal"
+        }
+    },
+    "neutral_mode": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_NeutralImage"
+        }
+    },
+    "game_mode": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_GamingImage"
+        }
+    },
+    "reading_mode": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_ReadingImage"
+        }
+    },
+    "night_mode": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_NightImage"
+        }
+    },
+    "movie_mode": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_MovieImage"
+        }
+    },
+    "enhanceplus_mode": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_HPEnhancePlusContainer"
+        }
+    },
+    "system_brightness": {
+        "locator": {
+            "name": "Brightness"
+        }
+    },
+    "dropdown_on_item": {
+        "locator": {
+            "name": "7:00"
+        }
+    },
+    "dropdown_on_am_pm_item": {
+        "locator": {
+            "xpath": "//ListItem[@Name='am'][starts-with(@AutomationId,'AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM')]"
+        }
+    },
+    "advance_setting_error_message": {
+        "locator": {
+            "name": "Time cannot be same"
+        }
+    },
+    "red_slider": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_Red"
+        }
+    },
+    "green_slider": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_Green"
+        }
+    },
+    "blue_slider": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_Blue"
+        }
+    },
+    "color_adjestments_tool_tip": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_colorAdjustments_colorAdjustmentsToolTipTitle"
+        }
+    },
+    "turn_off_am_pm_combo_advanced_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffAM/PM_Dropdown"
+        }
+    },
+    "turn_on_hr_combo_advanced_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnHour_Dropdown"
+        }
+    },
+    "turn_off_hr_combo_advanced_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffHour_Dropdown"
+        }
+    },
+    "native_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_NativeModename"
+        }
+    },
+    "color_adjestments": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_coloradjustments_title"
+        }
+    },
+    "r_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_text_R"
+        }
+    },
+    "g_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_text_G"
+        }
+    },
+    "b_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsContent_text_B"
+        }
+    },
+    "use_hdmi_input": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMICard_Use_HDMI_Input"
+        }
+    },
+    "use_hdmi_input_tooltip": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMICARD_useHdmiInputTooltipTitle"
+        }
+    },
+    "switch_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMICard_HDMI_Input_Switch"
+        }
+    },
+    "press_text": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Text[@ClassName='TextBlock'][2]"
+        }
+    },
+    "hdmi_input_osd_help_text": {
+        "locator": {
+            "xpath": "//Custom[@AutomationId='AUID_PCDISPLAY_HDMICard_HDMI_OSD_HelpMenu_Hyperlink']/Text[@ClassName='TextBlock']"
+        }
+    },
+    "back_to_pc_desktop_window_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIWarningModal_backToPcDesktopModelDescription_Header"
+        }
+    },
+    "back_to_pc_desktop_window_sub_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIWarningModal_backToPcDesktopModelDescription"
+        }
+    },
+    "keys_to_stop_using_pcdesktop_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIWarningModal_image_TEXT"
+        }
+    },
+    "do_not_show_text_on_back_to_pc_desktop_window": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIWarningModal_DO_NOT_SHOW_AGAIN_CHECKBOX_TEXT"
+        }
+    },
+    "cancel_btn_on_back_to_pc_desktop_window": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIWarningModal_Cancel"
+        }
+    },
+    "continue_btn_on_back_to_pc_desktop_window": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIWarningModal_Continue"
+        }
+    },
+    "hdmi_input_osd_help_title_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIHelpMenuModal_backToPcDesktopModelDescription_Header"
+        }
+    },
+    "hdmi_input_osd_help_sub_title_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIHelpMenuModal_hdmiOsdHelpModelDescription"
+        }
+    },
+    "up_down_arrows_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIHelpMenuModal_pCDisplay.UpDownArrows"
+        }
+    },
+    "enter_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIHelpMenuModal_pCDisplay.enter"
+        }
+    },
+    "navigate_osd_menu_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIHelpMenuModal_pCDisplay.UpDownArrowsDescription"
+        }
+    },
+    "enter_des_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIHelpMenuModal_pCDisplay.enterDescription"
+        }
+    },
+    "close_btn_on_hdmi_input_osd_help_window": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIHelpMenuModal_Close"
+        }
+    },
+    "restore_factory_settings_continue": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_RestoreDefaultWarningModal_Continue"
+        }
+    },
+    "hpmi_input_description": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMICard_hdmiInputDescription"
+        }
+    },
+    "dropdown_on_item_default": {
+        "locator": {
+            "name": "10:00"
+        }
+    },
+    "hdr_button": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDRCard_HDRSwitch"
+        }
+    },
+    "hdr_tooltips": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDRCard_HDRTooltipTitle"
+        }
+    },
+    "hdr_disable_text": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDREnabledInfoCard_HDRDisabledText"
+        }
+    },
+    "disable_button": {
+        "locator": {
+            "name": "Disable HDR"
+        }
+    },
+    "hdr_windows_settings": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDRCard_OpenDisplaySettings"
+        }
+    },
+    "hdr_restore_pop_up_windows_title": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_RestoreDefaultWarningModal_restoreToGlobalSettings_Header"
+        }
+    },
+    "hdr_restore_pop_up_windows_subtitle": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_RestoreDefaultWarningModal_restoreToGlobalSettingsMessage"
+        }
+    },
+    "hdr_restore_pop_up_windows_checkbox": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_RestoreDefaultWarningModal_DO_NOT_SHOW_AGAIN_CHECKBOX"
+        }
+    },
+    "hdr_restore_pop_up_windows_do_not_show": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_RestoreDefaultWarningModal_DO_NOT_SHOW_AGAIN_CHECKBOX_TEXT"
+        }
+    },
+    "hdr_restore_pop_up_windows_cancel_button": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_RestoreDefaultWarningModal_Cancel_Button"
+        }
+    },
+    "application_text_in_application_list_pop": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_Applications"
+        }
+    },
+    "tencent_video_app": {
+        "locator": {
+            "name": "腾讯视频"
+        }
+    },
+    "iqiyi_app": {
+        "locator": {
+            "name": "爱奇艺"
+        }
+    },
+    "disney_plus_app": {
+        "locator": {
+            "name": "Disney+"
+        }
+    },
+    "default_global_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Select_AllApplications_Button"
+        }
+    },
+    "calculator_app": {
+        "locator": {
+            "name": "Calculator"
+        }
+    },
+    "delete_calculator_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_Calculator"
+        }
+    },   
+    "open_app_from_ms_store": {
+        "locator": {
+            "id": "AppIdentityOpenButton"
+        }
+    },
+    "delete_disney_plus_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_Disney+"
+        }
+    },
+    "delete_tencent_video_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_腾讯视频"
+        }
+    },
+    "delete_iqiyi_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_爱奇艺"
+        }
+    },
+    "pop_up_continue": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_RestoreDefaultWarningModal_Continue"
+        }
+    },
+    "turn_on_time_drop_down_list_show": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnHour_Dropdown_Item']/*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnHour_Dropdown_Item']"
+        }
+    },
+    "turn_off_time_drop_down_list_show": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffHour_Dropdown_Item']/*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffHour_Dropdown_Item']"
+        }
+    },
+    "time_is_11:00": {
+        "locator": {
+            "name": "11:00"
+        }
+    },
+    "time_is_6:00": {
+        "locator": {
+            "name": "6:00"
+        }
+    },
+    "time_is_8:00": {
+        "locator": {
+            "name": "8:00"
+        }
+    },
+    "am_on_am_pm_turn_on_drop_down": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM_Dropdown']/*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM_Dropdown_Item'][1]"
+        }
+    },
+    "turn_on_time_state_list_show": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM_Dropdown_Item"
+        }
+    },
+    "turn_off_time_state_list_show": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OffAM/PM_Dropdown_Item"
+        }
+    },
+    "turn_off_time_state_is_pm": {
+        "locator": {
+            "name": "pm"
+        }
+    },
+    "pm_on_am_pm_turn_on_drop_down": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM_Dropdown']/*[@AutomationId='AUID_PCDISPLAY_AdvancedSettingsLBLSchedulerDropDown_Turn OnAM/PM_Dropdown_Item'][2]"
+        }
+    },
+    "access_app_delete_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_Access"
+        }
+    },
+    "close_btn_on_restore_popup": {
+        "locator": {
+            "name": "Close"
+        }
+    },
+    "reading_mode_container": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_ReadingContainer"
+        }
+    },
+    "neutral_mode_container": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_NeutralContainer"
+        }
+    },
+    "night_mode_container":{
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_NightContainer"
+        }
+    },
+    "out_off_sync_title":{
+        "locator": {
+            "id": "AUID_PCDISPLAY_OutOfSyncInfoCard_OutOffSyncTitle"
+        }
+    },
+    "see_more_link":{
+        "locator": {
+            "name": "See More"
+        }
+    },
+    "not_synchronized_title":{
+        "locator": {
+            "id": "AUID_PCDISPLAY_OutOfSyncModel_appSettingNotSyncModalHeader"
+        }
+    },
+    "not_synchronized_des":{
+        "locator": {
+            "id": "AUID_PCDISPLAY_OutOfSyncModel_appSettingNoSyncModalDescription"
+        }
+    },
+    "discard_changes_button":{
+        "locator": {
+            "id": "AUID_PCDISPLAY_OutOfSyncModel_DiscardChangesButton"
+        }
+    },
+    "keep_new_changes_button":{
+        "locator": {
+            "id": "AUID_PCDISPLAY_OutOfSyncModel_keepNewChanges"
+        }
+    },
+     "turn_off_time_state_is_am": {
+        "locator": {
+            "name": "am"
+        }
+    },
+    "calculator_in_app_window": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_AppItem"
+        }
+    },
+    "warm_mode": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_ModesView_WarmImage"
+        }
+    },
+    "calculator_in_app_list": {
+        "locator": {
+            "xpath": "//*[@Name='Calculator'][starts-with(@AutomationId,'AUID_ContextAware_AppSettingsBar_Select_Application_Button_')]"
+        }
+    },
+    "check_box_on_backup_to_pc_desktop": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_HDMIWarningModal_DO_NOT_SHOW_AGAIN_CHECKBOX"
+        }
+    },
+    "color_filter_toggle": {
+        "locator": {
+            "xpath": "//*[@Name='Color filters'][@ClassName='ToggleSwitch']"
+        }
+    },
+    "cool_mode": {
+        "locator": {
+            "xpath": "//Button[@Name='Cool'][@AutomationId='AUID_PCDISPLAY_ModesView_CoolContainer']"
+        }
+    },
+    "bt709_mode": {
+        "locator": {
+            "xpath": "//Button[@Name='BT709 (D65)'][@AutomationId='AUID_PCDISPLAY_ModesView_BT709D65Container']"
+        }
+    },
+    "srgb_d65_mode": {
+        "locator": {
+            "xpath": "//Button[@Name='sRGB (D65)'][@AutomationId='AUID_PCDISPLAY_ModesView_SRGBD65Container']"
+        }
+    },
+    "p3_d65_mode": {
+        "locator": {
+            "xpath": "//Button[@Name='P3 (D65)'][@AutomationId='AUID_PCDISPLAY_ModesView_P3D65Container']"
+        }
+    }
+}

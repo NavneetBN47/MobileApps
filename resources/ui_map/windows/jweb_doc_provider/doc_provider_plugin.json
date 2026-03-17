@@ -1,0 +1,97 @@
+{
+  "doc_provider_header": {
+    "locator": {
+      "xpath": "//Text[@Name='DocProvider']"
+    }
+  },
+  "navigate_back_btn": {
+    "locator": {
+      "xpath": "//Pane[@ClassName='WebView']/preceding-sibling::Button"
+    }
+  },
+  "get_result_doc_set_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='getResultDocSetButton']"
+    }
+  },
+  "get_result_doc_set_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getResultDocSetItem']/Text[@Name='Result']/following-sibling::Text[contains(@Name, '{')]"
+    }
+  },
+  "file_name_doc_result_textbox": {
+    "locator": {
+      "xpath": "//Edit[contains(@AutomationId, 'docIdForAddDocToResultDocSet')]"
+    }
+  },
+  "media_type_doc_result_textbox": {
+    "locator": {
+      "xpath": "//Edit[contains(@AutomationId, 'mediaTypeForAddDocToResultDocSet')]"
+    }
+  },
+  "base_encoded_doc_result_textbox": {
+    "locator": {
+      "xpath": "//Edit[contains(@AutomationId, 'dataForAddDocToResultDocSet')]"
+    }
+  },
+  "add_doc_to_result_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='addDocToResultDocSetButton']"
+    }
+  },
+  "get_result_add_doc_to_result_doc_set": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='addDocToResultDocSetItem']/Text[@Name='Result']/following-sibling::Text[contains(@Name, '{')]"
+    }
+  },
+  "remove_docs_from_result_textbox": {
+    "locator": {
+      "xpath": "//Edit[contains(@AutomationId, 'docIdForRemoveDocSetFromDocSet')]"
+    }
+  },
+  "remove_docs_from_result_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='removeDocsFromResultDocSetButton']"
+    }
+  },
+  "get_remove_docs_from_doc_set_result_text": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='removeDocsFromResultDocSetItem']/Text[@Name='Result']/following-sibling::Text"
+    }
+  },
+  "doc_set_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[contains(@AutomationId, 'docSetIdForGetDocSet')]"
+    }
+  },
+  "get_doc_set_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='getDocSetButton']"
+    }
+  },
+  "get_doc_set_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getDocSetItem']/Text[@Name='Result']/following-sibling::Text[contains(@Name, '{')]"
+    }
+  },
+  "get_doc_data_doc_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[contains(@AutomationId, 'docId-')]"
+    }
+  },
+  "get_set_id_data_doc_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[contains(@AutomationId, 'docSetId-')]"
+    }
+  },
+  "get_doc_data_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='getDocDataButton']"
+    }
+  },
+  "get_doc_data_result_text": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getDocDataFromDocDataItem']/Text[@Name='Result']/following-sibling::Text[contains(@Name, '{')]"
+    }
+  }
+}

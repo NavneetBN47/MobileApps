@@ -1,0 +1,127 @@
+{
+  "use_custom_metadata_values_toggle": {
+    "locator": {
+      "id": "settings_custom_metadata"
+    }
+  },
+  "settings_back_button": {
+    "locator": {
+      "xpath": "//*[@content-desc='Navigate up']"
+    }
+  },
+  "settings_save_button": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/button_update_category_info"
+    }
+  },
+  "settings_data_valve_stack_label": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_data_valve_stack_spinner"
+    }
+  },
+  "settings_data_ingress_stack_label": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_data_ingress_stack_spinner"
+    }
+  },
+  "stack_option_button": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='{}']"
+    }
+  },
+  "choose_tree_file": {
+    "locator": {
+      "css selector": "#filterCDMTreesContent input[type='file']"
+    }
+  },
+  "test_cdm_tree": {
+    "locator": {
+      "id": "filterCDMTreesButton"
+    }
+  },
+  "settings_value_store": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_value_store"
+    }
+  },
+  "settings_vs_app_instance_id": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_vs_app_instanced_id"
+    }
+  },
+  "settings_vs_stratus_user_id": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_vs_stratus_user_id"
+    }
+  },
+  "settings_vs_account_login_id": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_vs_account_login_id"
+    }
+  },
+  "settings_vs_device_id": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_vs_device_id"
+    }
+  },
+  "settings_vs_model_number": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_vs_model_number"
+    }
+  },
+  "settings_vs_tenant_id": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_vs_tenant_id"
+    }
+  },
+  "settings_app_instanced_id": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_app_instanced_id"
+    }
+  },
+  "settings_asset_type": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_asset_type"
+    }
+  },
+  "settings_queue_toggle": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_use_queue_policy"
+    }
+  },
+  "settings_use_custom_batching_toggle": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_custom_batching_enabled"
+    }
+  },
+  "settings_allow_batch_toggle": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_batching_enabled"
+    }
+  },
+  "asset_unit": {
+    "locator": {
+      "css selector": "#settings_asset_unit_spinner"
+    }
+  },
+  "asset_unit_selector": {
+    "locator": {
+      "xpath": "//android.widget.ListView/android.widget.TextView[@text='{}']"
+    }
+  },
+  "settings_stratus_user_id": {
+    "locator": {
+      "css selector": "#settings_stratus_user_id"
+    }
+  },
+  "settings_vs_consent_basis_id": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/settings_vs_consent_basis_id"
+    }
+  },
+  "settings_device_id": {
+    "locator": {
+      "css selector": "#settings_device_id"
+    }
+  }
+}

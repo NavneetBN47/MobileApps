@@ -1,0 +1,12 @@
+{
+    "fill_ink_tanks":{
+        "locator": {"css selector": "div.modal.generic-error-modal"}
+    },
+    "install_printheads_popup_continue_btn":{
+        "locator": {"xpath":"//button[@ng-click='nextStep()']",
+                    "css selector": "button.btn-enabled.btn-primary.ng-binding"}
+    },
+    "install_printheads_popup":{
+        "locator":{"css selector":["div.modal.generic-error-modal", "div.modal"]}
+        }
+}

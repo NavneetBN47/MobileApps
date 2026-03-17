@@ -1,0 +1,3566 @@
+{
+    "en": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Camera Shutter is Closed",
+          "description": "Open your camera shutter to enable Screen Distance.",
+          "or": "Or",
+          "turnOff": "turn Screen Distance off.",
+          "learnMore": "Learn More",
+          "Close": "Close",
+          "titleV2": "Screen Distance is unavailable when your camera shutter is closed.",
+          "disableScreenDistance": "Disable Screen Distance",
+          "open": "Open"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Screen Distance features are only available in clamshell mode.",
+          "title2": "Screen Distance features are unavailable when your camera shutter is closed.",
+          "description": "Open camera shutter to use Screen Distance features."
+        },
+        "pCScreenDistance": {
+          "title": "Screen Distance",
+          "moduleIconAccessibilityLabel": "Screen Distance Icon",
+          "restoreText": "Restore Default Settings",
+          "introHeading": "Screen Distance",
+          "introDescription": "Sitting too close to your monitor can cause eye strain. You will receive a notification if you move too close to your monitor or too close from your preferred distance. This feature requires access to your camera.",
+          "default": "Default",
+          "snoozeHeading": "Snooze",
+          "alertOptionsHeading": "Alert Options",
+          "setDistanceHeading": "Set Preferred Distance",
+          "currentDistance": "Current Set Distance: ",
+          "distanceCm": "cm",
+          "distanceInch": "inch",
+          "setDistanceDescription": "Set a custom threshold for your preferred distance. Your device camera will be used to detect the distance between you and your device.",
+          "tooltipsLabel": "Tooltips label",
+          "tooltipsDescription": "This feature only works when your built-in camera is facing you (pictured below). This feature does not support external monitors.",
+          "set": "Set",
+          "featureOn": "On",
+          "featureOff": "Off",
+          "blurTransparencyNotificationMessage": "Enable Transparency in System Settings to use Blur",
+          "blurTransparencyNotificationButton": "Transparency Settings",
+          "blurTransparencyNotificationOpen": "Open Transparency Settings",
+          "blurHighContrastNotificationMessage": "Disable High Contrast mode to use Blur",
+          "blurHighContrastNotificationButton": "High Contrast Settings",
+          "blurHighContrastNotificationOpen": "Open High Contrast Settings",
+          "distanceIn": "in",
+          "distanceInches": "inches",
+          "tooltips": "tooltips"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Nudge",
+          "nudgeMeDescription": "Receive a minor notification. Dismiss it by moving back or pressing the “esc” key.",
+          "fullNotification": "Alert",
+          "fullNotificationDescription": "A notification that includes more options to snooze or dismiss.",
+          "blurMyDisplay": "Blur",
+          "blurMyDisplayDescription": "Blurs the display. Return to normal by moving back or pressing the “esc” key."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Change Distance",
+          "resetButton": "Reset",
+          "saveButton": "Save",
+          "cancelButton": "Cancel",
+          "allSetDescription": "You are all set"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Manage and analyze the time you spend on your PC",
+              "featureCard": "Wellness Action Item",
+              "icon": "Wellness Icon",
+              "title": "Screen Time"
+            },
+            "pcscreendistance": {
+              "description": "Notifies you when you are too close to the screen. Prevents eye strain.",
+              "featureCard": "Screen Distance Action Item",
+              "icon": "Screen Distance Icon",
+              "title": "Screen Distance",
+              "descriptionV2": "Get notified when you are too close to your screen"
+            }
+          }
+        }
+      }
+    },
+    "ar": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "يتم إغلاق غالق الكاميرا",
+          "description": "افتح غالق الكاميرا لتفعيل المسافة إلى الشاشة.",
+          "or": "أو",
+          "turnOff": "أوقف تشغيل المسافة إلى الشاشة.",
+          "learnMore": "معرفة المزيد",
+          "Close": "إغلاق",
+          "titleV2": "مسافة الشاشة غير متوفِّرة عند إغلاق مصراع الكاميرا.",
+          "disableScreenDistance": "تعطيل مسافة الشاشة",
+          "open": "فتح"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "لا تتوفر ميزات المسافة إلى الشاشة إلا في وضع إغلاق الغطاء.",
+          "title2": "لا تتوفر ميزات المسافة إلى الشاشة إلا عندما يكون غالق الكاميرا مغلقًا.",
+          "description": "افتح غالق الكاميرا لاستخدام ميزات المسافة إلى الشاشة."
+        },
+        "pCScreenDistance": {
+          "title": "مسافة الشاشة",
+          "moduleIconAccessibilityLabel": "أيقونة مسافة الشاشة",
+          "restoreText": "استعادة الإعدادات الافتراضية",
+          "introHeading": "مسافة الشاشة",
+          "introDescription": "قد يؤدي الجلوس بالقرب من الشاشة إلى تعرُّض العينين للإجهاد. ستتلقّى إشعارًا إذا اقتربت كثيرًا من شاشتك أو اقتربت كثيرًا من المسافة المفضلة لديك. تتطلب هذه الميزة الوصول إلى الكاميرا الخاصة بك.",
+          "default": "افتراضي",
+          "snoozeHeading": "تأجيل",
+          "alertOptionsHeading": "خيارات التنبيه",
+          "setDistanceHeading": "تعيين المسافة المفضلة",
+          "currentDistance": "المسافة المحدَّدة الحالية: ",
+          "distanceCm": "سم",
+          "distanceInch": "بوصة",
+          "setDistanceDescription": "عيَّن حدًا مخصصًا للمسافة المُفضَّلة لديك. سيتم استخدام كاميرا جهازك لاكتشاف المسافة بينك وبين جهازك.",
+          "tooltipsLabel": "ملصق تلميحات الأدوات",
+          "tooltipsDescription": "تعمل هذه الميزة فقط عندما تكون الكاميرا المدمجة مقابلة لك (كما هو موضح في الصورة أدناه). هذه الميزة لا تدعم الشاشات الخارجية.",
+          "set": "تعيين",
+          "featureOn": "تشغيل",
+          "featureOff": "إيقاف التشغيل",
+          "blurTransparencyNotificationMessage": "تمكين الشفافية في إعدادات النظام لاستخدام الطمس",
+          "blurTransparencyNotificationButton": "إعدادات الشفافية",
+          "blurTransparencyNotificationOpen": "افتح إعدادات الشفافية",
+          "blurHighContrastNotificationMessage": "تعطيل وضع التباين العالي لاستخدام \"التمويه\"",
+          "blurHighContrastNotificationButton": "إعدادات التباين العالي",
+          "blurHighContrastNotificationOpen": "افتح إعدادات التباين العالي",
+          "distanceIn": "بوصة",
+          "distanceInches": "بوصات",
+          "tooltips": "تلميحات الأدوات"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "إشارة تنبيه",
+          "nudgeMeDescription": "احصل على إشعار بسيط. ارفضه بالرجوع للخلف أو بالضغط على مفتاح \"esc\".",
+          "fullNotification": "تنبيه",
+          "fullNotificationDescription": "يتضمن الإشعار المزيد من الخيارات للتأجيل أو الرفض.",
+          "blurMyDisplay": "تمويه",
+          "blurMyDisplayDescription": "تتعرّض الشاشة للتمويه. ارجع إلى الوضع الطبيعي بالرجوع إلى الخلف أو الضغط على مفتاح \"esc\"."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "تغيير المسافة",
+          "resetButton": "إعادة الضبط",
+          "saveButton": "حفظ",
+          "cancelButton": "إلغاء الأمر",
+          "allSetDescription": "كل شئ جاهز"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "إدارة الوقت الذي تقضيه أمام جهاز الكمبيوتر وتحليله",
+              "featureCard": "عنصر إجراء الصحة",
+              "icon": "أيقونة Wellness",
+              "title": "وقت الشاشة"
+            },
+            "pcscreendistance": {
+              "description": "يخطرك عندما تقترب أكثر من اللازم من الشاشة. يقي من إجهاد العين.",
+              "featureCard": "عنصر إجراء المسافة إلى الشاشة",
+              "icon": "أيقونة مسافة الشاشة",
+              "title": "مسافة الشاشة",
+              "descriptionV2": "استلم إشعارًا عندما تكون قريبًا جدًا من شاشتك"
+            }
+          }
+        }
+      }
+    },
+    "bg": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Затворът на камерата е затворен",
+          "description": "Отворете затвора на вашата камера, за да позволите функцията разстояние от екрана.",
+          "or": "Или",
+          "turnOff": "Изключете разстояние от екрана.",
+          "learnMore": "Научете още",
+          "Close": "Затваряне",
+          "titleV2": "Разстоянието до екрана не е налично, когато затворът на камерата ви е затворен.",
+          "disableScreenDistance": "Деактивиране на разстоянието до екрана",
+          "open": "Отваряне"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Функциите за разстояние до екрана са налични само в режим clamshell.",
+          "title2": "Функциите за разстояние до екрана не са налични, когато затворът на камерата ви е затворен.",
+          "description": "Отворете затвора на камерата, за да използвате функциите за разстояние до екрана."
+        },
+        "pCScreenDistance": {
+          "title": "Разстояние от екрана",
+          "moduleIconAccessibilityLabel": "Икона на разстояние от екрана",
+          "restoreText": "Възстанови настройките по подразбиране",
+          "introHeading": "Разстояние от екрана",
+          "introDescription": "Седенето твърде близо до монитора може да причини напрежение на очите. Ще получите известие, ако се преместите прекалено близо до монитора или прекалено далеч от предпочитаното ви разстояние. Тази функция изисква достъп до камерата.",
+          "default": "По подразбиране",
+          "snoozeHeading": "Дрямка",
+          "alertOptionsHeading": "Опции за предупреждения",
+          "setDistanceHeading": "Задаване на предпочитано разстояние",
+          "currentDistance": "Текущо зададено разстояние: ",
+          "distanceCm": "cm",
+          "distanceInch": "инч",
+          "setDistanceDescription": "Задайте праг по избор за предпочитаното от вас разстояние. Камерата на вашето устройство ще се използва за откриване на разстоянието между вас и вашето устройство.",
+          "tooltipsLabel": "Етикет за съвети",
+          "tooltipsDescription": "Тази функция работи само когато вградената ви камера е обърната към вас (на снимката по-долу). Тази функция не поддържа външни монитори.",
+          "set": "Задаване",
+          "featureOn": "Включен",
+          "featureOff": "Изключен",
+          "blurTransparencyNotificationMessage": "Активирайте „Прозрачност“ в системните настройки, за да използвате „Замъгляване“",
+          "blurTransparencyNotificationButton": "Настройки за прозрачност",
+          "blurTransparencyNotificationOpen": "Отворете настройките за прозрачност",
+          "blurHighContrastNotificationMessage": "Деактивирайте режима „Висок контраст“, за да използвате „Замъгляване“",
+          "blurHighContrastNotificationButton": "Настройки за висок контраст",
+          "blurHighContrastNotificationOpen": "Отворете настройките за висок контраст",
+          "distanceIn": "in",
+          "distanceInches": "инча",
+          "tooltips": "Съвети"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Побутване",
+          "nudgeMeDescription": "Получаване на незначително известие. Отхвърлете го, като се върнете назад или натиснете клавиша „esc“.",
+          "fullNotification": "Известие",
+          "fullNotificationDescription": "Известие, което включва повече опции за отлагане или отхвърляне.",
+          "blurMyDisplay": "Замъгляване",
+          "blurMyDisplayDescription": "Замъглява дисплея. Върнете се към нормалния, като се върнете назад или натиснете клавиша „esc“."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Промяна на разстоянието",
+          "resetButton": "Нулиране",
+          "saveButton": "Запис",
+          "cancelButton": "Отказ",
+          "allSetDescription": "Всичко е готово"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Управялвайте и анализирайте времето, което прекарвате на вашия компютър",
+              "featureCard": "Елемент за действие за Wellness",
+              "icon": "Икона на Wellness",
+              "title": "Екранно време"
+            },
+            "pcscreendistance": {
+              "description": "Известия, когато се намирате прекалено близо до екрана. Предотвратява напрежението в очите.",
+              "featureCard": "Елемент за действие Разстояние до екрана",
+              "icon": "Икона на разстояние от екрана",
+              "title": "Разстояние от екрана",
+              "descriptionV2": "Получавайте известия, когато сте твърде близо до екрана си"
+            }
+          }
+        }
+      }
+    },
+    "ca-ES": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "L'obturador de la càmera està tancat",
+          "description": "Obre l'obturador de la càmera per activar la distància de pantalla.",
+          "or": "O bé",
+          "turnOff": "desactiva la Distància de Pantalla.",
+          "learnMore": "Més informació",
+          "Close": "Tanca",
+          "titleV2": "La distància de la pantalla no està disponible quan l'obturador de la càmera està tancat.",
+          "disableScreenDistance": "Deshabilita la distància de pantalla",
+          "open": "Obre"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Les funcions de distància de pantalla només estan disponibles en mode clamshell.",
+          "title2": "Les funcions de distància de pantalla no estan disponibles amb l'obturador de la càmera tancat.",
+          "description": "Obre l'obturador de la càmera per utilitzar les funcions de distància de pantalla."
+        },
+        "pCScreenDistance": {
+          "title": "Distància de la pantalla",
+          "moduleIconAccessibilityLabel": "Icona de distància de pantalla",
+          "restoreText": "Restaura la configuració predeterminada",
+          "introHeading": "Distància de la pantalla",
+          "introDescription": "Seure massa a prop del monitor pot causar fatiga ocular. Rebràs una notificació si t'apropes massa al monitor o ets massa a prop de la distància preferida.",
+          "default": "Predeterminat",
+          "snoozeHeading": "Repetició d'alarma",
+          "alertOptionsHeading": "Opcions d'alerta",
+          "setDistanceHeading": "Estableix la distància preferida",
+          "currentDistance": "Distància actual establerta: ",
+          "distanceCm": "cm",
+          "distanceInch": "polzada",
+          "setDistanceDescription": "Per configurar la distància de la pantalla, hauríem d'accedir a la càmera per detectar la distància entre tu i el teu dispositiu.",
+          "tooltipsLabel": "Etiqueta d'informació sobre eines",
+          "tooltipsDescription": "Aquesta funció només funciona quan teniu la càmera integrada de cara (a la foto següent). Aquesta funció no és compatible amb monitors externs.",
+          "set": "Defineix",
+          "featureOn": "ON",
+          "featureOff": "OFF",
+          "blurTransparencyNotificationMessage": "Habilita la transparència a la configuració del sistema per fer ús del desenfocament",
+          "blurTransparencyNotificationButton": "Configuració de transparència",
+          "blurTransparencyNotificationOpen": "Obre la Configuració de transparència",
+          "blurHighContrastNotificationMessage": "Deshabilita el mode d’alt contrast per aplicar el desenfocament",
+          "blurHighContrastNotificationButton": "Configuració d'alt contrast",
+          "blurHighContrastNotificationOpen": "Obre la configuració d'alt contrast",
+          "distanceIn": "in",
+          "distanceInches": "polzades",
+          "tooltips": "Indicadors de funció"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Toca'm",
+          "nudgeMeDescription": "Una notificació d'activitat m'avisa durant 2 segons. Descarta-la retrocedint o prement la tecla \"esc\".",
+          "fullNotification": "Avís",
+          "fullNotificationDescription": "Una notificació inclou més opcions per posposar o ignorar.",
+          "blurMyDisplay": "Desenfoca'm la pantalla",
+          "blurMyDisplayDescription": "La pantalla es difumina i mostra la notificació d'activitat. Descarta-la retrocedint o prement la tecla \"esc\"."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Canvia la distància",
+          "resetButton": "Restableix",
+          "saveButton": "Desa",
+          "cancelButton": "Cancel·la",
+          "allSetDescription": "Ho tens tot a punt"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gestioneu i analitzeu el temps que passeu a l'ordinador",
+              "featureCard": "Element d'acció de benestar",
+              "icon": "Icona de Wellness",
+              "title": "Temps de pantalla"
+            },
+            "pcscreendistance": {
+              "description": "Us avisa quan us trobeu massa a prop de la pantalla. Evita la fatiga ocular.",
+              "featureCard": "Element d'acció de distància de pantalla",
+              "icon": "Icona de distància de pantalla",
+              "title": "Distància de la pantalla",
+              "descriptionV2": "Rep una notificació quan estiguis massa a prop de la pantalla"
+            }
+          }
+        }
+      }
+    },
+    "cs": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Závěrka kamery je zavřená",
+          "description": "Otevřete závěrku kamery, aby bylo možné povolit funkci Vzdálenost od obrazovky.",
+          "or": "Nebo",
+          "turnOff": "vypněte funkci Vzdálenost od obrazovky.",
+          "learnMore": "Více informací",
+          "Close": "Zavřít",
+          "titleV2": "Když je závěrka kamery zavřená, funkce Vzdálenost od obrazovky není k dispozici.",
+          "disableScreenDistance": "Zakázat Vzdálenost od obrazovky",
+          "open": "Otevřít"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Funkce Vzdálenost od obrazovky jsou k dispozici pouze v režimu vyklápění.",
+          "title2": "Když je závěrka kamery zavřená, funkce Vzdálenost od obrazovky nejsou k dispozici.",
+          "description": "Chcete-li používat funkce Vzdálenost od obrazovky, otevřete závěrku kamery."
+        },
+        "pCScreenDistance": {
+          "title": "Vzdálenost od obrazovky",
+          "moduleIconAccessibilityLabel": "Ikona vzdálenosti od obrazovky",
+          "restoreText": "Obnovit výchozí nastavení",
+          "introHeading": "Vzdálenost od obrazovky",
+          "introDescription": "Sezení příliš blízko u monitoru může způsobit namáhání očí. Pokud se přiblížíte příliš blízko k monitoru nebo od vaší upřednostňované vzdálenosti, obdržíte oznámení. Tato funkce vyžaduje přístup ke kameře.",
+          "default": "Výchozí",
+          "snoozeHeading": "Odložit",
+          "alertOptionsHeading": "Možnosti upozornění",
+          "setDistanceHeading": "Nastavit upřednostňovanou vzdálenost",
+          "currentDistance": "Aktuální nastavená vzdálenost: ",
+          "distanceCm": "cm",
+          "distanceInch": "palce",
+          "setDistanceDescription": "Nastavte si vlastní prahovou hodnotu upřednostňované vzdálenosti. Ke zjišťování vzdálenosti mezi vámi a zařízením se bude využívat kamera tohoto zařízení.",
+          "tooltipsLabel": "Text popisů",
+          "tooltipsDescription": "Tato funkce funguje pouze v případě, že vestavěná kamera je obrácena směrem k vám (vyobrazeno níže). Tato funkce nepodporuje externí monitory.",
+          "set": "Nastavit",
+          "featureOn": "Zapnout",
+          "featureOff": "Vypnout",
+          "blurTransparencyNotificationMessage": "Chcete-li použít rozostření, povolte Průhlednost v Nastavení systému",
+          "blurTransparencyNotificationButton": "Nastavení průhlednosti",
+          "blurTransparencyNotificationOpen": "Otevřít nastavení průhlednosti",
+          "blurHighContrastNotificationMessage": "Deaktivujte režim vysokého kontrastu, aby bylo možné použít rozostření",
+          "blurHighContrastNotificationButton": "Nastavení vysokého kontrastu",
+          "blurHighContrastNotificationOpen": "Otevřít nastavení vysokého kontrastu",
+          "distanceIn": "palce",
+          "distanceInches": "palce",
+          "tooltips": "popisy"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Pošťouchnout",
+          "nudgeMeDescription": "Přijměte informační oznámení. Zavřete jej přechodem zpět nebo stisknutím klávesy “esc”.",
+          "fullNotification": "Upozornění",
+          "fullNotificationDescription": "Upozornění, které obsahuje více možností odložení nebo zavření.",
+          "blurMyDisplay": "Rozostření",
+          "blurMyDisplayDescription": "Rozostři displej. Přechodem zpět nebo stisknutím klávesy “esc” se vraťte k normálnímu zobrazení."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Změnit vzdálenost",
+          "resetButton": "Resetovat",
+          "saveButton": "Uložit",
+          "cancelButton": "Zrušit",
+          "allSetDescription": "Vše je nastaveno"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Organizujte a analyzujte čas, který trávíte u počítače",
+              "featureCard": "Položka akce pohody",
+              "icon": "Ikona pohody",
+              "title": "Čas před obrazovkou"
+            },
+            "pcscreendistance": {
+              "description": "Upozorní vás, když jste příliš blízko obrazovky. Zabraňuje namáhání očí.",
+              "featureCard": "Položka akce vzdálenosti od obrazovky",
+              "icon": "Ikona vzdálenosti od obrazovky",
+              "title": "Vzdálenost od obrazovky",
+              "descriptionV2": "Nechte se upozornit, když jste příliš blízko obrazovky"
+            }
+          }
+        }
+      }
+    },
+    "da": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kamerablænde er lukket",
+          "description": "Åbn din kamerablænde for at aktivere Afstand til skærm,",
+          "or": "eller",
+          "turnOff": "deaktiver Afstand til skærm.",
+          "learnMore": "Få mere at vide",
+          "Close": "Luk",
+          "titleV2": "Skærmafstand er ikke tilgængelig, når kamerablænden er lukket.",
+          "disableScreenDistance": "Deaktiver skærmafstand",
+          "open": "Åben"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Afstand til skærm-funktioner er kun tilgængelige i sammenklappet tilstand.",
+          "title2": "Afstand til skærm-funktioner er ikke tilgængelige, når kameraets dæksel er lukket.",
+          "description": "Åbn kameraets dæksel for at bruge Afstand til skærm-funktionerne."
+        },
+        "pCScreenDistance": {
+          "title": "Afstand til skærm",
+          "moduleIconAccessibilityLabel": "Ikon for skærmafstand",
+          "restoreText": "Gendan standardindstillinger",
+          "introHeading": "Afstand til skærm",
+          "introDescription": "Hvis du sidder for tæt på din skærm, kan det belaste dine øjne. Du får en meddelelse, hvis du flytter dig for tæt på din skærm eller for tæt på din foretrukne afstand.",
+          "default": "Standard",
+          "snoozeHeading": "Udsæt",
+          "alertOptionsHeading": "Indstillinger for advarsler",
+          "setDistanceHeading": "Angiv foretrukket afstand",
+          "currentDistance": "Nuværende indstilling for afstand: ",
+          "distanceCm": "cm",
+          "distanceInch": "tommer",
+          "setDistanceDescription": "For at kunne konfigurere din afstand til din skærm skal vi have adgang til dit kamera, så vi kan registrere afstanden mellem dig og din enhed.",
+          "tooltipsLabel": "Mærkat om værktøjstip",
+          "tooltipsDescription": "Denne funktion fungerer kun, når dit indbyggede kamera vender mod dig (se billede herunder). Denne funktion understøtter ikke eksterne skærme.",
+          "set": "Angiv",
+          "featureOn": "Aktiver",
+          "featureOff": "Deaktiver",
+          "blurTransparencyNotificationMessage": "Aktiver gennemsigtighed i systemindstillinger for at bruge sløring",
+          "blurTransparencyNotificationButton": "Indstillinger for gennemsigtighed",
+          "blurTransparencyNotificationOpen": "Åbn Indstillinger for gennemsigtighed",
+          "blurHighContrastNotificationMessage": "Deaktiver tilstanden Høj kontrast for at bruge sløring",
+          "blurHighContrastNotificationButton": "Indstillinger for Høj kontrast",
+          "blurHighContrastNotificationOpen": "Åbn indstillingerne Høj kontrast",
+          "distanceIn": "tommer",
+          "distanceInches": "tommer",
+          "tooltips": "værktøjstip"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Flyt mig",
+          "nudgeMeDescription": "En toast viser en meddelelse i 2 sekunder. Annuller den ved at flytte dig baglæns eller ved at trykke på esc-tasten.",
+          "fullNotification": "Advarsel",
+          "fullNotificationDescription": "En meddelelse omfatter flere muligheder for at udsætte eller annullere.",
+          "blurMyDisplay": "Slør min skærm",
+          "blurMyDisplayDescription": "Slører skærmen og viser toasten. Annuller den ved at flytte baglæns eller trykke på esc-tasten."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Tilpas afstand",
+          "resetButton": "Nulstil",
+          "saveButton": "Gem",
+          "cancelButton": "Annuller",
+          "allSetDescription": "Du er helt klar"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Administrer og analyser den tid, du bruger ved din pc",
+              "featureCard": "Handlingselement for helbredstilstand",
+              "icon": "Ikon for helbredsmæssig tilstand",
+              "title": "Skærmtid"
+            },
+            "pcscreendistance": {
+              "description": "Giver dig besked, hvis du sidder for tæt på skærmen. Forhindrer øjenskader.",
+              "featureCard": "Handlingselement for Afstand til skærm",
+              "icon": "Ikon for skærmafstand",
+              "title": "Afstand til skærm",
+              "descriptionV2": "Få besked, når du er for tæt på din skærm"
+            }
+          }
+        }
+      }
+    },
+    "de": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Der Kamera-Auslöser ist geschlossen",
+          "description": "Öffnen Sie den Kamera-Auslöser, um  Bildschirmabstand zu aktivieren.",
+          "or": "Oder",
+          "turnOff": "schalten Sie Bildschirmabstand aus.",
+          "learnMore": "Weitere Informationen",
+          "Close": "Schließen",
+          "titleV2": "Der Bildschirmabstand ist bei geschlossenem Kamera-Auslöser nicht verfügbar.",
+          "disableScreenDistance": "Bildschirmabstand deaktivieren",
+          "open": "Öffnen"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Die Funktionen für den Bildschirmabstand sind nur im Clamshell-Modus verfügbar.",
+          "title2": "Der Bildschirmabstand ist bei geschlossenem Kamera-Auslöser nicht verfügbar.",
+          "description": "Öffnen Sie für die Nutzung der Bildschirmzeit-Funktionen den Kamera-Auslöser."
+        },
+        "pCScreenDistance": {
+          "title": "Bildschirmabstand",
+          "moduleIconAccessibilityLabel": "Symbol Bildschirmabstand",
+          "restoreText": "Standardeinstellungen wiederherstellen",
+          "introHeading": "Bildschirmabstand",
+          "introDescription": "Ein zu nahes Sitzen am Monitor kann zu einer Überanstrengung der Augen führen. Sie erhalten eine Benachrichtigung, wenn Sie sich zu nahe an Ihrem Monitor befinden oder zu weit von Ihrem bevorzugten Abstand entfernt sind. Diese Funktion erfordert den Zugriff auf Ihre Kamera.",
+          "default": "Standard",
+          "snoozeHeading": "Schlummern",
+          "alertOptionsHeading": "Warnoptionen",
+          "setDistanceHeading": "Bevorzugten Abstand einstellen",
+          "currentDistance": "Derzeit festgelegter Abstand: ",
+          "distanceCm": "cm",
+          "distanceInch": "Zoll",
+          "setDistanceDescription": "Um Ihren Bildschirmabstand einzustellen, müssen wir auf Ihre Kamera zugreifen, um den Abstand zwischen Ihnen und Ihrem Gerät zu ermitteln.",
+          "tooltipsLabel": "Quickinfo-Bezeichnung",
+          "tooltipsDescription": "Diese Funktion funktioniert nur, wenn Ihre integrierte Kamera auf Sie gerichtet ist (siehe Abbildung unten). Externe Monitore werden von dieser Funktion nicht unterstützt.",
+          "set": "Festgelegt",
+          "featureOn": "An",
+          "featureOff": "Aus",
+          "blurTransparencyNotificationMessage": "Aktivieren Sie Transparenz in den Systemeinstellungen, um den Weichzeichner zu verwenden.",
+          "blurTransparencyNotificationButton": "Transparenzeinstellungen",
+          "blurTransparencyNotificationOpen": "Transparenzeinstellungen öffnen",
+          "blurHighContrastNotificationMessage": "Deaktivieren Sie den Hochkontrastmodus, um den Weichzeichner zu verwenden",
+          "blurHighContrastNotificationButton": "Hochkontrast-Einstellungen",
+          "blurHighContrastNotificationOpen": "Hochkontrast-Einstellungen öffnen",
+          "distanceIn": "Zoll",
+          "distanceInches": "Zoll",
+          "tooltips": "Quickinfos"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Anstupsen",
+          "nudgeMeDescription": "Sie erhalten eine kurze Benachrichtigung. Blenden Sie sie aus, indem Sie zurückgehen oder die „Esc”-Taste drücken.",
+          "fullNotification": "Alarm",
+          "fullNotificationDescription": "Eine Benachrichtigung enthält weitere Optionen zum Schlummern oder Ausblenden.",
+          "blurMyDisplay": "Unschärfe",
+          "blurMyDisplayDescription": "Die Anzeige wird weichgezeichnet. Kehren Sie in den Normalzustand zurück, indem Sie zurückgehen oder die Taste „Esc” drücken."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Abstand ändern",
+          "resetButton": "Zurücksetzen",
+          "saveButton": "Speichern",
+          "cancelButton": "Abbrechen",
+          "allSetDescription": "Sie sind startklar"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Verwalten und analysieren Sie die Zeit, die Sie mit Ihrem PC verbringen",
+              "featureCard": "Wellness Aktionselement",
+              "icon": "Symbol Wohlbefinden",
+              "title": "Bildschirmzeit"
+            },
+            "pcscreendistance": {
+              "description": "Weist Sie darauf hin, wenn Sie zu nah am Bildschirm sitzen. Verhindert eine Überanstrengung der Augen.",
+              "featureCard": "Element Bildschirmabstand",
+              "icon": "Symbol Bildschirmabstand",
+              "title": "Bildschirmabstand",
+              "descriptionV2": "Lassen Sie sich benachrichtigen, wenn Sie zu nah an Ihrem Bildschirm sind"
+            }
+          }
+        }
+      }
+    },
+    "el": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Το κλείστρο της κάμερας είναι κλειστό",
+          "description": "Ανοίξτε το κλείστρο της κάμερας για να ενεργοποιήσετε την Απόσταση οθόνης.",
+          "or": "Ή",
+          "turnOff": "απενεργοποιήστε την Απόσταση οθόνης.",
+          "learnMore": "Μάθετε περισσότερα",
+          "Close": "Κλείσιμο",
+          "titleV2": "Η λειτουργία Απόστασης από την οθόνη δεν είναι διαθέσιμη όταν το κλείστρο της κάμερας είναι κλειστό.",
+          "disableScreenDistance": "Απενεργοποίηση της Απόστασης Οθόνης",
+          "open": "Άνοιγμα"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Οι λειτουργίες της απόστασης από την οθόνη είναι διαθέσιμες μόνο σε λειτουργία clamshell.",
+          "title2": "Οι λειτουργίες της απόστασης από την οθόνη δεν είναι διαθέσιμες όταν το κλείστρο της κάμερας είναι κλειστό.",
+          "description": "Ανοίξτε το κλείστρο της κάμερας για να χρησιμοποιήσετε τις λειτουργίες της απόστασης από την οθόνη."
+        },
+        "pCScreenDistance": {
+          "title": "Απόσταση οθόνης",
+          "moduleIconAccessibilityLabel": "Εικονίδιο απόστασης από την οθόνη",
+          "restoreText": "Επαναφορά προεπιλεγμένων ρυθμίσεων",
+          "introHeading": "Απόσταση οθόνης",
+          "introDescription": "Το να κάθεστε πολύ κοντά στην οθόνη σας μπορεί να προκαλέσει καταπόνηση των ματιών. Θα λάβετε μια ειδοποίηση εάν πλησιάσετε πολύ κοντά στην οθόνη σας ή πολύ κοντά από την απόσταση που προτιμάτε. Αυτή η λειτουργία απαιτεί πρόσβαση στην κάμερά σας.",
+          "default": "Προεπιλογή",
+          "snoozeHeading": "Αδράνεια",
+          "alertOptionsHeading": "Επιλογές ειδοποίησης",
+          "setDistanceHeading": "Ρύθμιση προτιμώμενης απόστασης",
+          "currentDistance": "Τρέχουσα ρυθμισμένη απόσταση: ",
+          "distanceCm": "cm",
+          "distanceInch": "ίντσα",
+          "setDistanceDescription": "Ρυθμίστε ένα προσαρμοσμένο όριο για την προτιμώμενη απόσταση. Η κάμερα της συσκευής σας θα χρησιμοποιηθεί για να ανιχνεύει την απόσταση ανάμεσα σε εσάς και τη συσκευή σας.",
+          "tooltipsLabel": "Ετικέτα συμβουλών εργαλείων",
+          "tooltipsDescription": "Αυτή η δυνατότητα λειτουργεί μόνο όταν η ενσωματωμένη κάμερά είναι στραμμένη προς τα εσάς (απεικονίζεται παρακάτω)​. Αυτή η δυνατότητα δεν υποστηρίζει εξωτερικές οθόνες.",
+          "set": "Ρύθμιση",
+          "featureOn": "Ενεργοποιημένο",
+          "featureOff": "Απενεργοποιημένο",
+          "blurTransparencyNotificationMessage": "Ενεργοποιήστε τη Διαφάνεια στις Ρυθμίσεις συστήματος για να χρησιμοποιήσετε το Θάμπωμα",
+          "blurTransparencyNotificationButton": "Ρυθμίσεις διαφάνειας",
+          "blurTransparencyNotificationOpen": "Άνοιγμα ρυθμίσεων διαφάνειας",
+          "blurHighContrastNotificationMessage": "Απενεργοποιήστε τη λειτουργία Υψηλής αντίθεσης για να χρησιμοποιήσετε το Θάμπωμα",
+          "blurHighContrastNotificationButton": "Ρυθμίσεις υψηλής αντίθεσης",
+          "blurHighContrastNotificationOpen": "Άνοιγμα ρυθμίσεων υψηλής αντίθεσης",
+          "distanceIn": "in",
+          "distanceInches": "ίντσες",
+          "tooltips": "Συμβουλές εργαλείων"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Προτροπή",
+          "nudgeMeDescription": "Λάβετε μια δευτερεύουσα ειδοποίηση. Απορρίψτε τη κινούμενοι προς τα πίσω ή πατώντας το πλήκτρο “esc”.",
+          "fullNotification": "Ειδοποίηση",
+          "fullNotificationDescription": "Μια ειδοποίηση που περιλαμβάνει περισσότερες επιλογές από την αναβολή ή απόρριψη.",
+          "blurMyDisplay": "Θόλωμα οθόνης",
+          "blurMyDisplayDescription": "Θολώνει την οθόνη. Επιστρέψτε σε κανονική κατάσταση κινούμενοι προς τα πίσω ή πατώντας το πλήκτρο “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Αλλαγή απόστασης",
+          "resetButton": "Επαναφορά",
+          "saveButton": "Αποθήκευση",
+          "cancelButton": "Άκυρο",
+          "allSetDescription": "Είστε έτοιμοι"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Διαχειριστείτε και αναλύστε τον χρόνο που περνάτε στο PC σας",
+              "featureCard": "Στοιχείο ενέργειας ευεξίας",
+              "icon": "Εικονίδιο ευεξίας",
+              "title": "Χρόνος μπροστά στην οθόνη"
+            },
+            "pcscreendistance": {
+              "description": "Σας ειδοποιεί όταν είστε πολύ κοντά στην οθόνη. Αποτρέπει την καταπόνηση των ματιών.",
+              "featureCard": "Στοιχείο ενέργειας απόστασης από την οθόνη",
+              "icon": "Εικονίδιο απόστασης από την οθόνη",
+              "title": "Απόσταση οθόνης",
+              "descriptionV2": "Λάβετε ειδοποίηση όταν βρίσκεστε πολύ κοντά στην οθόνη σας"
+            }
+          }
+        }
+      }
+    },
+    "en-GB": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Camera Shutter is Closed",
+          "description": "Open your camera shutter to enable Screen Distance.",
+          "or": "Or",
+          "turnOff": "turn Screen Distance off.",
+          "learnMore": "Learn More",
+          "Close": "Close",
+          "titleV2": "Screen Distance is unavailable when your camera shutter is closed.",
+          "disableScreenDistance": "Disable Screen Distance",
+          "open": "Open"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Screen Distance features are only available in clamshell mode.",
+          "title2": "Screen Distance features are unavailable when your camera shutter is closed.",
+          "description": "Open camera shutter to use Screen Distance features."
+        },
+        "pCScreenDistance": {
+          "title": "Screen Distance",
+          "moduleIconAccessibilityLabel": "Screen Distance Icon",
+          "restoreText": "Restore Default Settings",
+          "introHeading": "Screen Distance",
+          "introDescription": "Sitting too close to your monitor can cause eye strain. You will receive a notification if you move too close to your monitor or too close from your preferred distance.",
+          "default": "Default",
+          "snoozeHeading": "Snooze",
+          "alertOptionsHeading": "Alert Options",
+          "setDistanceHeading": "Set Preferred Distance",
+          "currentDistance": "Current Set Distance: ",
+          "distanceCm": "cm",
+          "distanceInch": "inch",
+          "setDistanceDescription": "To set up your screen distance we would have to access your camera to detect the distance between you and your device.",
+          "tooltipsLabel": "Tooltips label",
+          "tooltipsDescription": "This feature only works when your built-in camera is facing you (pictured below)​. This feature does not support external monitors.",
+          "set": "Set",
+          "featureOn": "On",
+          "featureOff": "Off",
+          "blurTransparencyNotificationMessage": "Enable Transparency in System Settings to use Blur",
+          "blurTransparencyNotificationButton": "Transparency Settings",
+          "blurTransparencyNotificationOpen": "Open Transparency Settings",
+          "blurHighContrastNotificationMessage": "Disable High Contrast mode to use Blur",
+          "blurHighContrastNotificationButton": "High Contrast Settings",
+          "blurHighContrastNotificationOpen": "Open High Contrast Settings",
+          "distanceIn": "in",
+          "distanceInches": "inches",
+          "tooltips": "tooltips"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Nudge",
+          "nudgeMeDescription": "Receive a minor notification. Dismiss it by moving back or pressing the “esc” key.",
+          "fullNotification": "Alert",
+          "fullNotificationDescription": "A notification that includes more options to snooze or dismiss.",
+          "blurMyDisplay": "Blur",
+          "blurMyDisplayDescription": "Blurs the display. Return to normal by moving back or pressing the “esc” key."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Change Distance",
+          "resetButton": "Reset",
+          "saveButton": "Save",
+          "cancelButton": "Cancel",
+          "allSetDescription": "You are all set"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Manage and analyse the time you spend on your PC",
+              "featureCard": "Wellness Action Item",
+              "icon": "Wellness Icon",
+              "title": "Screen Time"
+            },
+            "pcscreendistance": {
+              "description": "Notifies you when you are too close to the screen. Prevents eye strain.",
+              "featureCard": "Screen Distance Action Item",
+              "icon": "Screen Distance Icon",
+              "title": "Screen Distance",
+              "descriptionV2": "Get notified when you are too close to your screen"
+            }
+          }
+        }
+      }
+    },
+    "es": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "El obturador de la cámara está cerrado",
+          "description": "Abra el obturador de su cámara para habilitar la distancia de pantalla.",
+          "or": "O",
+          "turnOff": "desactivar la distancia de la pantalla.",
+          "learnMore": "Conozca más",
+          "Close": "Cerrar",
+          "titleV2": "La Distancia de pantalla no está disponible con el obturador de la cámara cerrado.",
+          "disableScreenDistance": "Desactivar distancia de pantalla",
+          "open": "Abrir"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Las funciones de Distancia de pantalla solo están disponibles en modo laptop.",
+          "title2": "Las funciones de Distancia de pantalla no están disponibles con el obturador de la cámara cerrado.",
+          "description": "Abra el obturador de la cámara para usar las funciones de Distancia de pantalla."
+        },
+        "pCScreenDistance": {
+          "title": "Distancia de la pantalla",
+          "moduleIconAccessibilityLabel": "Icono de distancia de la pantalla",
+          "restoreText": "Restaurar configuración predeterminada",
+          "introHeading": "Distancia de la pantalla",
+          "introDescription": "Sentarse demasiado cerca del monitor puede provocar fatiga visual. Recibirá una notificación si se acerca demasiado al monitor o demasiado desde su distancia preferida. Esta función requiere acceso a su cámara.",
+          "default": "Predeterminado",
+          "snoozeHeading": "Posponer",
+          "alertOptionsHeading": "Opciones de alerta",
+          "setDistanceHeading": "Establecer la distancia preferida",
+          "currentDistance": "Distancia actual de ajuste: ",
+          "distanceCm": "cm",
+          "distanceInch": "pulgada",
+          "setDistanceDescription": "Establezca un umbral personalizado para la distancia que prefiera. Se utilizará la cámara de su dispositivo para detectar la distancia entre usted y el dispositivo.",
+          "tooltipsLabel": "Etiqueta de información sobre herramientas",
+          "tooltipsDescription": "Este recurso solo funciona cuando la cámara integrada está orientada hacia usted (imagen de abajo). Esta función no es compatible con monitores externos.",
+          "set": "Establecer",
+          "featureOn": "Activado",
+          "featureOff": "Desactivado",
+          "blurTransparencyNotificationMessage": "Habilitar transparencia en la Configuración del sistema para usar Difuminado",
+          "blurTransparencyNotificationButton": "Configuración de Transparencia",
+          "blurTransparencyNotificationOpen": "Abrir configuración de Transparencia",
+          "blurHighContrastNotificationMessage": "Deshabilitar modo de Alto contraste para usar Desenfocar",
+          "blurHighContrastNotificationButton": "Configuración de Alto contraste",
+          "blurHighContrastNotificationOpen": "Abrir configuración de Alto contraste",
+          "distanceIn": "pulg.",
+          "distanceInches": "pulgadas",
+          "tooltips": "información sobre herramientas"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Enviarme un zumbido",
+          "nudgeMeDescription": "Recibir una notificación menor. Descártela retrocediendo o pulsando la tecla “esc”.",
+          "fullNotification": "Alerta",
+          "fullNotificationDescription": "Una notificación que incluye más opciones para posponer o descartar.",
+          "blurMyDisplay": "Desenfocar",
+          "blurMyDisplayDescription": "La pantalla se desenfoca. Para volver a la normalidad retroceda o presione la tecla “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Cambiar distancia",
+          "resetButton": "Reiniciar",
+          "saveButton": "Guardar",
+          "cancelButton": "Cancelar",
+          "allSetDescription": "Ya está todo listo"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gestionar y analizar el tiempo que pasa frente a la PC",
+              "featureCard": "Elemento de acción de bienestar",
+              "icon": "Icono de bienestar",
+              "title": "Tiempo frente a la pantalla"
+            },
+            "pcscreendistance": {
+              "description": "Le notifica si está demasiado cerca de la pantalla, para evitar fatiga visual.",
+              "featureCard": "Elemento de acción de distancia de la pantalla",
+              "icon": "Icono de distancia de la pantalla",
+              "title": "Distancia de la pantalla",
+              "descriptionV2": "Reciba una notificación si está demasiado cerca de la pantalla"
+            }
+          }
+        }
+      }
+    },
+    "es-ES": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "El obturador de la cámara está cerrado",
+          "description": "Abre el obturador de la cámara para activar la distancia de la pantalla.",
+          "or": "O",
+          "turnOff": "apaga la distancia de la pantalla.",
+          "learnMore": "Más información",
+          "Close": "Cerrar",
+          "titleV2": "La distancia de la pantalla no está disponible cuando el obturador de la cámara está cerrado.",
+          "disableScreenDistance": "Deshabilitar la distancia de la pantalla",
+          "open": "Abrir"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Las funciones de Distancia de la pantalla solo están disponibles en modo clamshell.",
+          "title2": "Las funciones de Distancia de la pantalla no están disponibles cuando el obturador de la cámara está cerrado.",
+          "description": "Abre el obturador de la cámara para usar las funciones de Distancia de la pantalla."
+        },
+        "pCScreenDistance": {
+          "title": "Distancia de la pantalla",
+          "moduleIconAccessibilityLabel": "Icono de distancia de la pantalla",
+          "restoreText": "Restablecer ajustes predeterminados",
+          "introHeading": "Distancia de la pantalla",
+          "introDescription": "Sentarse demasiado cerca de tu monitor puede causar cansancio en la vista. Recibirás una notificación si te acercas demasiado a tu monitor o te aproximas a tu distancia preferida. Esta función requiere acceso a tu cámara.",
+          "default": "Predeterminado",
+          "snoozeHeading": "Repetir",
+          "alertOptionsHeading": "Opciones de alertas",
+          "setDistanceHeading": "Establecer distancia preferida",
+          "currentDistance": "Distancia establecida actual: ",
+          "distanceCm": "cm",
+          "distanceInch": "pulgada",
+          "setDistanceDescription": "Para establecer un límite personalizado para tu distancia preferida, se utilizará la cámara de tu dispositivo para detectar la distancia entre tú y tu dispositivo.",
+          "tooltipsLabel": "Etiqueta de tooltip",
+          "tooltipsDescription": "Esta función solo funciona cuando tu cámara integrada está enfocada hacia ti (siguiente imagen). Esta función no admite monitores externos.",
+          "set": "Establecer",
+          "featureOn": "Encendido",
+          "featureOff": "Apagado",
+          "blurTransparencyNotificationMessage": "Activa Transparencia en Ajustes del sistema para usar Difuminar",
+          "blurTransparencyNotificationButton": "Ajustes de transferencia",
+          "blurTransparencyNotificationOpen": "Abrir Ajustes de transparencia",
+          "blurHighContrastNotificationMessage": "Desactivar modo de alto contraste para usar Difuminar",
+          "blurHighContrastNotificationButton": "Ajustes de alto contraste",
+          "blurHighContrastNotificationOpen": "Abrir Ajustes de alto contraste",
+          "distanceIn": "in",
+          "distanceInches": "pulgadas",
+          "tooltips": "descripciones emergentes"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Acercar",
+          "nudgeMeDescription": "Recibe una breve notificación. Para descartarla, muévete hacia atrás o presiona la tecla “esc”.",
+          "fullNotification": "Alerta",
+          "fullNotificationDescription": "Una notificación que incluye más opciones para repetir o descartar.",
+          "blurMyDisplay": "Desenfocar",
+          "blurMyDisplayDescription": "La pantalla se vuelve borrosa. Para que regrese a su estado normal, muévete hacia atrás o presiona la tecla “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Cambiar distancia",
+          "resetButton": "Restablecer",
+          "saveButton": "Guardar",
+          "cancelButton": "Cancelar",
+          "allSetDescription": "Listo"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gestiona y analiza el tiempo que pasas en tu ordenador",
+              "featureCard": "Elemento de acción de bienestar",
+              "icon": "Icono de bienestar",
+              "title": "Tiempo de pantalla"
+            },
+            "pcscreendistance": {
+              "description": "Te notifica cuando estás muy cerca de la pantalla. Evita fatiga visual.",
+              "featureCard": "Elemento de acción de Distancia de la pantalla",
+              "icon": "Icono de distancia de la pantalla",
+              "title": "Distancia de la pantalla",
+              "descriptionV2": "Recibe notificaciones cuando estés muy cerca de tu pantalla"
+            }
+          }
+        }
+      }
+    },
+    "et": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kaamera katik on suletud",
+          "description": "Ekraani kauguse lubamiseks avage kaamera katik",
+          "or": "või",
+          "turnOff": "lülitage funktsioon Ekraani kaugus välja.",
+          "learnMore": "Lisateave",
+          "Close": "Sulge",
+          "titleV2": "Ekraani kaugus pole saadaval, kui kaamera katik on suletud.",
+          "disableScreenDistance": "Keela ekraani kaugus",
+          "open": "Ava"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Ekraani kauguse funktsioonid on saadaval ainult klapirežiimis.",
+          "title2": "Ekraani kauguse funktsioonid pole saadaval, kui kaamera katik on suletud.",
+          "description": "Ekraani kauguse funktsioonide kasutamiseks avage kaamera katik."
+        },
+        "pCScreenDistance": {
+          "title": "Ekraani kaugus",
+          "moduleIconAccessibilityLabel": "Ekraani vahemaa ikoon",
+          "restoreText": "Taasta vaikesätted",
+          "introHeading": "Ekraani kaugus",
+          "introDescription": "Monitorile liiga lähedal istumine võib põhjustada silmade väsimust. Saate teate, kui liigute monitorile liiga lähedale või olete eelistatud kaugusest lähemal. See funktsioon nõuab juurdepääsu teie kaamerale.",
+          "default": "Vaikimisi",
+          "snoozeHeading": "Uinak",
+          "alertOptionsHeading": "Hoiatusvalikud",
+          "setDistanceHeading": "Määra eelistatud kaugus",
+          "currentDistance": "Praegune määratud kaugus: ",
+          "distanceCm": "cm",
+          "distanceInch": "toll",
+          "setDistanceDescription": "Määrake oma eelistatud vahemaa jaoks kohandatud lävi. Teie seadme kaamerat kasutatakse teie ja teie seadme vahelise kauguse tuvastamiseks.",
+          "tooltipsLabel": "Kohtspikrite silt",
+          "tooltipsDescription": "See funktsioon töötab ainult siis, kui teie sisseehitatud kaamera on teie poole (allolev pilt). See funktsioon ei toeta väliseid monitore.",
+          "set": "Määra",
+          "featureOn": "Sees",
+          "featureOff": "Väljas",
+          "blurTransparencyNotificationMessage": "Hägususe kasutamiseks lubage süsteemisätetes läbipaistvus",
+          "blurTransparencyNotificationButton": "Läbipaistvuse sätted",
+          "blurTransparencyNotificationOpen": "Ava läbipaistvuse sätted",
+          "blurHighContrastNotificationMessage": "Hägususe kasutamiseks keelake suure kontrastsusega režiim",
+          "blurHighContrastNotificationButton": "Suure kontrastsuse sätted",
+          "blurHighContrastNotificationOpen": "Avage suure kontrastsusega sätted",
+          "distanceIn": "tolli",
+          "distanceInches": "tolli",
+          "tooltips": "Kohtspikrid"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Müksa",
+          "nudgeMeDescription": "Saate väikese märguanne. Loobuge sellest, liikudes tagasi või vajutades klahvi Esc.",
+          "fullNotification": "Hoiatus",
+          "fullNotificationDescription": "Märguanne, mis sisaldab rohkem võimalusi edasilükkamiseks või sellest loobumiseks.",
+          "blurMyDisplay": "Hägustamine",
+          "blurMyDisplayDescription": "Hägustab ekraani. Naaske tavaolekusse, liikudes tagasi või vajutades klahvi Esc."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Muuda vahemaad",
+          "resetButton": "Lähtesta",
+          "saveButton": "Salvesta",
+          "cancelButton": "Tühista",
+          "allSetDescription": "Kõik on valmis"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Hallake ja analüüsige arvutis veedetud aega",
+              "featureCard": "Tervise tegevusüksus",
+              "icon": "Heaolu ikoon",
+              "title": "Ekraaniaeg"
+            },
+            "pcscreendistance": {
+              "description": "Annab teile märku, kui olete ekraanile liiga lähedal. Hoiab ära silmade pinget.",
+              "featureCard": "Ekraani kauguse tegevusüksus",
+              "icon": "Ekraani vahemaa ikoon",
+              "title": "Ekraani kaugus",
+              "descriptionV2": "Saate märguande, kui olete ekraanile liiga lähedal"
+            }
+          }
+        }
+      }
+    },
+    "eu-ES": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kameraren kliskagailua itxita dago",
+          "description": "Ireki zure kameraren kliskagailua, pantailatik distantzia gaitzeko.",
+          "or": "Ala",
+          "turnOff": "pantailatik distantzia desaktibatzeko.",
+          "learnMore": "Ikasi gehiago",
+          "Close": "Itxi",
+          "titleV2": "Pantailaren distantzia ez dago erabilgarri kameraren obturadorea itxita dagoenean.",
+          "disableScreenDistance": "Pantailatik distantzia desgaitu",
+          "open": "Irekita"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Pantaila-distantziaren funtzionaltasuna maskor-moduan baino ezin da erabili.",
+          "title2": "Pantaila-distantziaren funtzionaltasuna kamerako obturadorea itxita dagoenean baino ezin da erabili.",
+          "description": "Ireki kamerako obturadorea pantaila-distantziaren funtzionaltasuna erabiltzeko."
+        },
+        "pCScreenDistance": {
+          "title": "Pantailaren distantzia",
+          "moduleIconAccessibilityLabel": "Pantailatik distantziaren ikonoa",
+          "restoreText": "Lehenetsitako konfigurazioa berrezarri",
+          "introHeading": "Pantailaren distantzia",
+          "introDescription": "Monitoretik gertuegi esertzeak ikusmen-nekea eragin dezake. Jakinarazpen bat jasoko duzu zure monitorera gehiegi hurbiltzen bazara edo nahi duzun distantziatik gehiegi hurbiltzen bazara.",
+          "default": "Lehenetsia",
+          "snoozeHeading": "Lokartu",
+          "alertOptionsHeading": "Alerta-aukerak",
+          "setDistanceHeading": "Ezarri distantzia gogokoena",
+          "currentDistance": "Egungo ezarritako distantzia: ",
+          "distanceCm": "cm",
+          "distanceInch": "Hazbetea",
+          "setDistanceDescription": "Zure pantailatik distantzia konfiguratzeko, zure kamerara sartu beharko genuke, zure gailuaren eta zure arteko distantzia detektatzeko.",
+          "tooltipsLabel": "Argibide-etiketa",
+          "tooltipsDescription": "Eginbide hau kamera integratua zuregana orientatuta dagoenean soilik aktibatzen da (beheko irudia). Eginbide hau ez da bateragarria kanpoko monitoreekin.",
+          "set": "Ezarri",
+          "featureOn": "Aktibatuta",
+          "featureOff": "Desaktibatuta",
+          "blurTransparencyNotificationMessage": "Gaitu gardetasuna sistemaren ezarpenak, lausotzea erabiltzeko",
+          "blurTransparencyNotificationButton": "Gardentasunaren ezarpenak",
+          "blurTransparencyNotificationOpen": "Ireki gardentasunaren ezarpenak",
+          "blurHighContrastNotificationMessage": "Desaktibatu kontraste handiko modua Lausotu erabiltzeko",
+          "blurHighContrastNotificationButton": "Kontraste handiko ezarpenak",
+          "blurHighContrastNotificationOpen": "Ireki kontraste handiko ezarpenak",
+          "distanceIn": "in",
+          "distanceInches": "hazbeteak",
+          "tooltips": "Argibideak"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Abisatu",
+          "nudgeMeDescription": "Jakinarazpen batek bi segundoz abisatzen dit. Kendu hori atzera eginez edo \"esc\" tekla sakatuz.",
+          "fullNotification": "Erne",
+          "fullNotificationDescription": "Jakinarazpen batek aukera gehiago ditu atzeratzeko edo kentzeko.",
+          "blurMyDisplay": "Nire pantaila lausotu",
+          "blurMyDisplayDescription": "Pantaila lausotzen da eta jakinarazpena erakusten da. Kendu hori atzera eginez edo \"esc\" tekla sakatuz."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Distantzia aldatu",
+          "resetButton": "Berrezarri",
+          "saveButton": "Gorde",
+          "cancelButton": "Utzi",
+          "allSetDescription": "Dena prest dago"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Kudeatu eta aztertu zure PCan pasatzen duzun denbora",
+              "featureCard": "Ongizate-ekintzaren elementua",
+              "icon": "Ongizatearen ikonoa",
+              "title": "Pantailaren denbora"
+            },
+            "pcscreendistance": {
+              "description": "Jakinaraziko dizu pantailatik oso gertu bazaude. Ikusmenaren nekea prebenitzen du.",
+              "featureCard": "Pantaila-distantziaren ekintzaren elementua",
+              "icon": "Pantailatik distantziaren ikonoa",
+              "title": "Pantailaren distantzia",
+              "descriptionV2": "Jaso jakinarazpen bat pantailatik gertuegi zaudenean"
+            }
+          }
+        }
+      }
+    },
+    "fi": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kameran suljin on kiinni",
+          "description": "Avaa kameran suljin, jotta voit käyttää näytön etäisyystoimintoa.",
+          "or": "Tai",
+          "turnOff": "poista näytön etäisyystoiminto käytöstä.",
+          "learnMore": "Lisätietoja",
+          "Close": "Sulje",
+          "titleV2": "Näytön etäisyys ei ole käytettävissä, kun kameran suljin on kiinni.",
+          "disableScreenDistance": "Poista näytön etäisyys käytöstä",
+          "open": "Avaa"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Näytön etäisyystoimintoja voi käyttää vain kansi suljettuna.",
+          "title2": "Näytön etäisyystoimintoja ei voi käyttää, kun kameran suljin on kiinni.",
+          "description": "Avaa kameran suljin, jotta voit käyttää näytön etäisyystoimintoja."
+        },
+        "pCScreenDistance": {
+          "title": "Näytön etäisyys",
+          "moduleIconAccessibilityLabel": "Näytön etäisyys -kuvake",
+          "restoreText": "Palauta oletusasetukset",
+          "introHeading": "Näytön etäisyys",
+          "introDescription": "Istuminen liian lähellä näyttöä voi rasittaa silmiä. Saat ilmoituksen, jos siirryt liian lähelle näyttöä tai liian lähelle suosimaltasi käyttöetäisyydeltä. Tämä toiminto edellyttää kameran käyttölupaa.",
+          "default": "Oletus",
+          "snoozeHeading": "Lepotila",
+          "alertOptionsHeading": "Ilmoitusvaihtoehdot",
+          "setDistanceHeading": "Määritä suosittu käyttöetäisyys",
+          "currentDistance": "Nykyinen määritetty etäisyys: ",
+          "distanceCm": "cm",
+          "distanceInch": "tuuma",
+          "setDistanceDescription": "Aseta haluamasi näytön katseluetäisyys. Etäisyytesi laitteesta selvitetään laitteesi kameran avulla.",
+          "tooltipsLabel": "Työkaluvihjeiden otsikko",
+          "tooltipsDescription": "Tämä toiminto toimii vain, kun sisäänrakennettu kamera on suunnattu sinua kohti (kuvassa alla). Tämä toiminto ei tue ulkoisia näyttöjä.",
+          "set": "Määritä",
+          "featureOn": "Päällä",
+          "featureOff": "Pois",
+          "blurTransparencyNotificationMessage": "Käytä sumennusta ottamalla läpinäkyvyys käyttöön järjestelmäasetuksissa",
+          "blurTransparencyNotificationButton": "Läpinäkyvyysasetukset",
+          "blurTransparencyNotificationOpen": "Avaa läpinäkyvyysasetukset",
+          "blurHighContrastNotificationMessage": "Käytä sumennusta poistamalla suuren kontrastin tila käytöstä",
+          "blurHighContrastNotificationButton": "Suuren kontrastin asetukset",
+          "blurHighContrastNotificationOpen": "Avaa suuren kontrastin asetukset",
+          "distanceIn": "tuumaa",
+          "distanceInches": "tuumaa",
+          "tooltips": "Työkaluvihjeet"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Ilmoita",
+          "nudgeMeDescription": "Saat pienen ilmoituksen. Voit piilottaa sen siirtymällä taaksepäin tai painamalla Esc-näppäintä.",
+          "fullNotification": "Hälytä",
+          "fullNotificationDescription": "Ilmoitus, jossa näytetään lisää odotus- tai piilotusvaihtoehtoja.",
+          "blurMyDisplay": "Sumenna näyttö",
+          "blurMyDisplayDescription": "Näyttö sumentuu. Voit palauttaa näytön normaaliksi siirtymällä poispäin tai painamalla Esc-näppäintä."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Muuta etäisyyttä",
+          "resetButton": "Nollaa",
+          "saveButton": "Tallenna",
+          "cancelButton": "Peruuta",
+          "allSetDescription": "Määritys on tehty"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Hallitse ja analysoi tietokoneen ääressä viettämääsi aikaa",
+              "featureCard": "Hyvinvointitoiminto",
+              "icon": "Hyvinvointikuvake",
+              "title": "Näyttöaika"
+            },
+            "pcscreendistance": {
+              "description": "Ilmoittaa, kun olet liian lähellä näyttöä. Estää silmien rasittumisen.",
+              "featureCard": "Näytön etäisyystoiminto",
+              "icon": "Näytön etäisyys -kuvake",
+              "title": "Näytön etäisyys",
+              "descriptionV2": "Saa ilmoitus, kun olet liian lähellä näyttöä"
+            }
+          }
+        }
+      }
+    },
+    "fr-CA": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "L’obturateur de l’appareil photo est fermé",
+          "description": "Ouvrez l’obturateur de votre appareil photo pour activer la distance écran.",
+          "or": "Ou",
+          "turnOff": "désactiver la distance écran.",
+          "learnMore": "En savoir plus",
+          "Close": "Fermer",
+          "titleV2": "La distance de l'écran n'est pas disponible lorsque l'obturateur de l'appareil photo est fermé.",
+          "disableScreenDistance": "Désactiver la distance d’écran",
+          "open": "Ouvrir"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Les fonctionnalités de distance d’écran ne sont disponibles qu’en mode clapet.",
+          "title2": "Les fonctionnalités de distance d’écran ne sont pas disponibles lorsque l’obturateur de l’appareil photo est fermé.",
+          "description": "Ouvrez l’obturateur de l’appareil photo pour accéder aux fonctionnalités de distance d’écran."
+        },
+        "pCScreenDistance": {
+          "title": "Distance écran",
+          "moduleIconAccessibilityLabel": "Icône de distance à l’écran",
+          "restoreText": "Restaurer les paramètres par défaut",
+          "introHeading": "Distance écran",
+          "introDescription": "Rester trop près de votre écran peut causer de la fatigue oculaire. Vous recevrez une notification si vous vous approchez trop de votre moniteur ou trop près de votre distance préférée.",
+          "default": "Par défaut",
+          "snoozeHeading": "Rappel de sonnerie",
+          "alertOptionsHeading": "Options d’alerte",
+          "setDistanceHeading": "Établir la distance privilégiée",
+          "currentDistance": "Distance définie actuelle : ",
+          "distanceCm": "cm",
+          "distanceInch": "pouce",
+          "setDistanceDescription": "Pour configurer la distance de votre écran, nous devons accéder à votre caméra pour détecter la distance entre vous et votre appareil.",
+          "tooltipsLabel": "Étiquette d’infobulles",
+          "tooltipsDescription": "Cette fonction ne fonctionne que lorsque votre appareil photo intégré vous fait face (voir la photo ci-dessous). Cette fonction ne prend pas en charge les écrans externes.",
+          "set": "Régler",
+          "featureOn": "Marche",
+          "featureOff": "Arrêt",
+          "blurTransparencyNotificationMessage": "Activer la transparence dans les paramètres du système pour utiliser le flou",
+          "blurTransparencyNotificationButton": "Paramètres de transparence",
+          "blurTransparencyNotificationOpen": "Ouvrir les paramètres de transparence",
+          "blurHighContrastNotificationMessage": "Désactiver le mode contraste élevé pour utiliser le flou",
+          "blurHighContrastNotificationButton": "Paramètres de contraste élevé",
+          "blurHighContrastNotificationOpen": "Ouvrir les paramètres de contraste élevé",
+          "distanceIn": "dans",
+          "distanceInches": "pouces",
+          "tooltips": "infobulles"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Me guider",
+          "nudgeMeDescription": "Recevoir une notification mineure. Pour la faire disparaître, reculez ou appuyez sur la touche « esc ».",
+          "fullNotification": "Alerte",
+          "fullNotificationDescription": "Une notification inclut plus d’options pour un rappel de sonnerie ou pour rejeter.",
+          "blurMyDisplay": "Flou",
+          "blurMyDisplayDescription": "Rend l’affichage flou. Revenez à la normale en reculant ou en appuyant sur la touche « esc »."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Modifier la distance",
+          "resetButton": "Réinitialiser",
+          "saveButton": "Enregistrer",
+          "cancelButton": "Annuler",
+          "allSetDescription": "Tout est prêt"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gérez et analysez le temps que vous passez sur votre PC",
+              "featureCard": "Mesure relative au bien-être",
+              "icon": "Icône du bien-être",
+              "title": "Temps d’écran"
+            },
+            "pcscreendistance": {
+              "description": "Vous avertit lorsque vous êtes trop près de l’écran. Prévient la fatigue oculaire.",
+              "featureCard": "Mesure relative à la distance d’écran",
+              "icon": "Icône de distance à l’écran",
+              "title": "Distance écran",
+              "descriptionV2": "Obtenez une notification lorsque vous êtes trop près de votre écran"
+            }
+          }
+        }
+      }
+    },
+    "fr": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "L'obturateur de la caméra est fermé",
+          "description": "Ouvrez l'obturateur de votre appareil photo pour activer la distance de l'écran.",
+          "or": "Ou",
+          "turnOff": "désactivez la distance de l'écran.",
+          "learnMore": "En savoir plus",
+          "Close": "Fermer",
+          "titleV2": "Distance de l'écran n'est pas disponible lorsque l'obturateur de la caméra est fermé.",
+          "disableScreenDistance": "Désactiver la distance de l'écran",
+          "open": "Ouvrir"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Les fonctions de distance par rapport à l'écran ne sont disponibles qu'en mode clapet.",
+          "title2": "Les fonctions de distance par rapport à l'écran ne sont pas disponibles lorsque l'obturateur de l'appareil photo est fermé.",
+          "description": "Ouvrez l'obturateur de l'appareil photo pour utiliser les fonctions de distance par rapport à l'écran."
+        },
+        "pCScreenDistance": {
+          "title": "Distance de l'écran",
+          "moduleIconAccessibilityLabel": "Icône Distance de l'écran",
+          "restoreText": "Restaurer paramètres par défaut",
+          "introHeading": "Distance de l'écran",
+          "introDescription": "Le fait d'être assis trop près de votre écran peut entraîner une fatigue oculaire. Vous recevrez une notification si vous vous rapprochez trop de votre écran ou si vous vous éloignez trop de la distance que vous avez choisie. Cette fonction nécessite l'accès à votre appareil photo.",
+          "default": "Par défaut",
+          "snoozeHeading": "Répéter",
+          "alertOptionsHeading": "Options d'alerte",
+          "setDistanceHeading": "Définir la distance préférée",
+          "currentDistance": "Distance définie actuelle : ",
+          "distanceCm": "cm",
+          "distanceInch": "pouce",
+          "setDistanceDescription": "Définissez un seuil personnalisé pour la distance de votre choix. L'appareil photo de votre appareil sera utilisé pour détecter la distance entre vous et votre appareil.",
+          "tooltipsLabel": "Libellé des infobulles",
+          "tooltipsDescription": "Cette fonction ne fonctionne que lorsque votre appareil photo intégré est orienté vers vous (voir l'image ci-dessous). Cette fonction ne prend pas en charge les moniteurs externes.",
+          "set": "Définir",
+          "featureOn": "Activer",
+          "featureOff": "Désactiver",
+          "blurTransparencyNotificationMessage": "Activer la transparence dans les paramètres du système pour utiliser le flou",
+          "blurTransparencyNotificationButton": "Paramètres de transparence",
+          "blurTransparencyNotificationOpen": "Ouvrir les paramètres de transparence",
+          "blurHighContrastNotificationMessage": "Désactiver le mode Contraste élevé pour utiliser le flou",
+          "blurHighContrastNotificationButton": "Paramètres Contraste élevé",
+          "blurHighContrastNotificationOpen": "Ouvrir les paramètres de contraste élevé",
+          "distanceIn": "po",
+          "distanceInches": "pouces",
+          "tooltips": "Infobulles"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Me rappeler à l'ordre",
+          "nudgeMeDescription": "Recevez une notification mineure. Il suffit de reculer ou d'appuyer sur la touche “Échap” pour le faire disparaître.",
+          "fullNotification": "Alerte",
+          "fullNotificationDescription": "Une notification comporte plus d'options de répétition ou d'annulation.",
+          "blurMyDisplay": "Brouiller mon écran",
+          "blurMyDisplayDescription": "Rend l'affichage flou. Revenez à la normale en reculant ou en appuyant sur la touche “Échap”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Changer la distance",
+          "resetButton": "Réinitialiser",
+          "saveButton": "Enregistrer",
+          "cancelButton": "Annuler",
+          "allSetDescription": "Tout est prêt"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gérez et analysez le temps que vous passez sur votre PC.",
+              "featureCard": "Élément Action Bien-être",
+              "icon": "Icône Bien-être",
+              "title": "Temps d'écran"
+            },
+            "pcscreendistance": {
+              "description": "Vous avertit lorsque vous êtes trop près de l'écran. Prévient la fatigue oculaire.",
+              "featureCard": "Élément Action Distance de l'écran",
+              "icon": "Icône Distance de l'écran",
+              "title": "Distance de l'écran",
+              "descriptionV2": "Soyez averti lorsque vous êtes trop près de votre écran"
+            }
+          }
+        }
+      }
+    },
+    "gl-ES": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "O obturador da cámara está pechado",
+          "description": "Abra o obturador da súa cámara para activar a distancia de pantalla.",
+          "or": "ou",
+          "turnOff": "desactive a distancia da pantalla",
+          "learnMore": "Máis información",
+          "Close": "Pechar",
+          "titleV2": "A distancia da pantalla non está dispoñible cando o obturador da cámara está pechado.",
+          "disableScreenDistance": "Desactivar distancia da pantalla",
+          "open": "Aberto"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "As funcións de distancia de pantalla só están dispoñibles no modo con cuncha de ameixa.",
+          "title2": "As funcións de distancia de pantalla non están dispoñibles cando o obturador da cámara está pechado.",
+          "description": "Abra o obturador da cámara para utilizar as funcións de distancia de pantalla."
+        },
+        "pCScreenDistance": {
+          "title": "Distancia da pantalla",
+          "moduleIconAccessibilityLabel": "Icona de distancia da pantalla",
+          "restoreText": "Restaurar a configuración por defecto",
+          "introHeading": "Distancia da pantalla",
+          "introDescription": "Sentar demasiado preto do seu monitor pode provocar fatiga visual. Recibirá unha notificación se se achega demasiado ao seu monitor ou se se afasta demasiado da súa distancia preferida.",
+          "default": "Por defecto",
+          "snoozeHeading": "Repetir",
+          "alertOptionsHeading": "Opcións de alerta",
+          "setDistanceHeading": "Establecer a distancia preferida",
+          "currentDistance": "Distancia de axuste actual ",
+          "distanceCm": "cm",
+          "distanceInch": "Polgadas",
+          "setDistanceDescription": "Para configurar a distancia da súa pantalla teriamos que acceder á súa cámara para detectar a distancia entre vostede e o seu dispositivo.",
+          "tooltipsLabel": "Etiqueta\"axuda contextual\"",
+          "tooltipsDescription": "Esta característica só funciona cando a cámara integrada está orientada cara a vostede (imaxe inferior). Esta característica non é compatible con monitores externos.",
+          "set": "Configurar",
+          "featureOn": "Activado",
+          "featureOff": "Desactivado",
+          "blurTransparencyNotificationMessage": "Active a transparencia nos axustes do sistema para utilizar o desenfoque",
+          "blurTransparencyNotificationButton": "Axustes de transparencia",
+          "blurTransparencyNotificationOpen": "Abrir axustes de transparencia",
+          "blurHighContrastNotificationMessage": "Desactivar o modo alto contraste para utilizar o desenfoque",
+          "blurHighContrastNotificationButton": "Axustes de alto contraste",
+          "blurHighContrastNotificationOpen": "Abrir os axustes de alto contraste",
+          "distanceIn": "en",
+          "distanceInches": "Polgadas",
+          "tooltips": "Axuda contextual"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Empúxeme",
+          "nudgeMeDescription": "Un favorito avísame durante 2 segundos. Retíreo retrocedendo ou pulsando a tecla \"esc\".",
+          "fullNotification": "Alerta",
+          "fullNotificationDescription": "Unha notificación inclúe máis opcións para pospoñela ou descartala.",
+          "blurMyDisplay": "Desenfocar a miña pantalla",
+          "blurMyDisplayDescription": "A pantalla desenfócase e amosa o favorito. Desactíveo retrocedendo ou premendo a tecla \"esc\"."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "cambiar a distancia",
+          "resetButton": "Reconfigurar",
+          "saveButton": "Gardar",
+          "cancelButton": "Cancelar",
+          "allSetDescription": "Xa está todo listo"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Xestione e analice o tempo que pasa no seu PC",
+              "featureCard": "Benestar elemento de acción",
+              "icon": "Icona de Wellness",
+              "title": "Tempo na pantalla"
+            },
+            "pcscreendistance": {
+              "description": "Avísalle cando está demasiado preto da pantalla. Evita a fatiga visual.",
+              "featureCard": "Elemento de acción distancia da pantalla",
+              "icon": "Icona de distancia da pantalla",
+              "title": "Distancia da pantalla",
+              "descriptionV2": "Reciba unha notificación cando estea demasiado preto da pantalla"
+            }
+          }
+        }
+      }
+    },
+    "he": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "עדשת המצלמה סגורה",
+          "description": "פתח את עדשת המצלמה כדי לאפשר מרחק מסך.",
+          "or": "לחלופין",
+          "turnOff": "כבה את מרחק מסך.",
+          "learnMore": "קבל מידע נוסף",
+          "Close": "סגור",
+          "titleV2": "תכונת מרחק מהמסך אינה זמינה כאשר תריס המצלמה שלך סגור.",
+          "disableScreenDistance": "השבת את מרחק המסך",
+          "open": "פתח"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "תכונות המרחק מהמסך זמינות במצב צדפה בלבד.",
+          "title2": "תכונות המרחק מהמסך אינן זמינות כשתריס המצלמה סגור.",
+          "description": "פתח את תריס המצלמה כדי להשתמש בתכונות המרחק מהמסך."
+        },
+        "pCScreenDistance": {
+          "title": "מרחק מהמסך",
+          "moduleIconAccessibilityLabel": "סמל מרחק מהמסך",
+          "restoreText": "שחזר הגדרות ברירת מחדל",
+          "introHeading": "מרחק מהמסך",
+          "introDescription": "ישיבה קרוב מידי לצג עלולה לגרום לעומס על העיניים. תקבל התראה אם תזוז קרוב מידי לצג או קרוב מידי מהמרחק המועדף שלך. תכונה זו דורשת את הגישה למצלמה שלך.",
+          "default": "ברירת מחדל",
+          "snoozeHeading": "השהייה",
+          "alertOptionsHeading": "אפשרויות התראה",
+          "setDistanceHeading": "הגדר מרחק מועדף",
+          "currentDistance": "מרחק מוגדר נוכחי: ",
+          "distanceCm": "ס“מ",
+          "distanceInch": "אינץ'",
+          "setDistanceDescription": "הגדר סף מותאם אישית למרחק המועדף עליך. מצלמת המכשיר שלך תשמש לזיהוי המרחק בינך לבין המכשיר שלך.",
+          "tooltipsLabel": "תווית תיאורי כלים",
+          "tooltipsDescription": "תכונה זו פועלת רק כאשר המצלמה המובנית שלך פונה אליך (תמונה למטה). תכונה זו אינה תומכת בצגים חיצוניים.",
+          "set": "הגדר",
+          "featureOn": "הפעלה",
+          "featureOff": "כיבוי",
+          "blurTransparencyNotificationMessage": "הפעל שקיפות בהגדרות המערכת כדי להשתמש בטשטוש",
+          "blurTransparencyNotificationButton": "הגדרות שקיפות",
+          "blurTransparencyNotificationOpen": "פתח הגדרות שקיפות",
+          "blurHighContrastNotificationMessage": "השבת מצב ניגודיות גבוהה כדי להשתמש בטשטוש",
+          "blurHighContrastNotificationButton": "הגדרות ניגודיות גבוהה",
+          "blurHighContrastNotificationOpen": "פתח הגדרות ניגודיות גבוהה",
+          "distanceIn": "אינץ'",
+          "distanceInches": "אינצ'ים",
+          "tooltips": "תיאורי כלים"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "נודניק",
+          "nudgeMeDescription": "קבל התראה קטנה. בטל על ידי מעבר לאחור או הקשה על מקש “esc”.",
+          "fullNotification": "התראה",
+          "fullNotificationDescription": "התראה הכוללת אפשרויות נוספות לנודניק או לביטול.",
+          "blurMyDisplay": "טשטש את הצג",
+          "blurMyDisplayDescription": "מטשטש את הצג. חזור למצב הרגיל על ידי מעבר לאחור או הקשה על מקש “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "שנה מרחק",
+          "resetButton": "אתחול",
+          "saveButton": "שמור",
+          "cancelButton": "ביטול",
+          "allSetDescription": "הכול מוכן"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "נהל ונתח את הזמן שאתה מבלה על המחשב",
+              "featureCard": "פריט פעולת רווחה",
+              "icon": "סמל רווחה",
+              "title": "זמן מסך"
+            },
+            "pcscreendistance": {
+              "description": "מודיע לך כאשר אתה קרוב מיד למסך, מונע עומס בעיניים.",
+              "featureCard": "סמל פעולת מרחק מהמסך",
+              "icon": "סמל מרחק מהמסך",
+              "title": "מרחק מהמסך",
+              "descriptionV2": "קבל התראה כאשר אתה קרוב מדי למסך שלך"
+            }
+          }
+        }
+      }
+    },
+    "hr": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Zatvarač kamere je zatvoren",
+          "description": "Otvorite zatvarač kamere da biste omogućili Udaljenost od zaslona",
+          "or": "Ili",
+          "turnOff": "isključite Udaljenost od zaslona.",
+          "learnMore": "Saznajte više",
+          "Close": "Zatvori",
+          "titleV2": "Udaljenost od zaslona nije dostupna kada je zatvarač kamere zatvoren.",
+          "disableScreenDistance": "Onemogući udaljenost od zaslona",
+          "open": "Otvoreno"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Značajke udaljenosti od zaslona dostupne su samo u načinu rada za preklopna računala.",
+          "title2": "Značajke udaljenosti od zaslona nisu dostupne kada je zatvoren zatvarač kamere.",
+          "description": "Da biste omogućili značajke udaljenosti od zaslona, zatvarač kamere otvorite."
+        },
+        "pCScreenDistance": {
+          "title": "Udaljenost od zaslona",
+          "moduleIconAccessibilityLabel": "Ikona razmaka od zaslona",
+          "restoreText": "Vrati na zadane postavke",
+          "introHeading": "Udaljenost od zaslona",
+          "introDescription": "Sjedenjem preblizu monitoru može doći do zamora očiju. Ako se previše približite monitoru ili se previše približite u odnosu na odabrani razmak, pojavit će se obavijest.",
+          "default": "Zadano",
+          "snoozeHeading": "Odgodi",
+          "alertOptionsHeading": "Mogućnosti upozorenja",
+          "setDistanceHeading": "Postavi željenu udaljenost",
+          "currentDistance": "Trenutno postavljena udaljenost ",
+          "distanceCm": "cm",
+          "distanceInch": "inča",
+          "setDistanceDescription": "Postavite prilagođeni prag za razmak. Za otkrivanje razmaka između vas i zaslona koristit će se kamera zaslona.",
+          "tooltipsLabel": "Natpis na opisu elementa",
+          "tooltipsDescription": "Ta značajka funkcionira samo ako se ugrađena kamera nalazi nasuprot vama (na slici dolje)​. Značajka ne podržava vanjske monitore.",
+          "set": "Postavi",
+          "featureOn": "Uključeno",
+          "featureOff": "Isključeno",
+          "blurTransparencyNotificationMessage": "Za zamućenje omogućite transparentnost u postavkama sustava",
+          "blurTransparencyNotificationButton": "Postavke prozirnosti",
+          "blurTransparencyNotificationOpen": "Otvori postavke prozirnosti",
+          "blurHighContrastNotificationMessage": "Da biste upotrebljavali zamućenje, onemogućite visokokontrastni način rada",
+          "blurHighContrastNotificationButton": "Postavke visokog kontrasta",
+          "blurHighContrastNotificationOpen": "Otvori postavke visokog kontrasta",
+          "distanceIn": "in",
+          "distanceInches": "u inčima",
+          "tooltips": "Opisi elemenata"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Podsjetnik",
+          "nudgeMeDescription": "Primajte brze obavijesti. Odbacite ih tako da se vratite ili pritisnete tipku \"esc\".",
+          "fullNotification": "Upozorenje",
+          "fullNotificationDescription": "Obavijest sadrži više mogućnosti za odgodu ili odbacivanje.",
+          "blurMyDisplay": "Zamuti",
+          "blurMyDisplayDescription": "Zaslon se zamućuje. Vratite se na normalni zaslon ili pritisnite tipku \"esc\"."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Promjena udaljenosti",
+          "resetButton": "Ponovno postavi",
+          "saveButton": "Spremi",
+          "cancelButton": "Odustani",
+          "allSetDescription": "Sve je spremno"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Upravljajte vremenom koje provodite na PC-ju i analizirajte ga",
+              "featureCard": "Akcijska stavka dobrobiti",
+              "icon": "Ikona dobrobiti",
+              "title": "Vrijeme pred zaslonom"
+            },
+            "pcscreendistance": {
+              "description": "Obavještava vas kada ste preblizu zaslonu. Sprječava naprezanje očiju.",
+              "featureCard": "Akcijska stavka udaljenosti od zaslona",
+              "icon": "Ikona razmaka od zaslona",
+              "title": "Udaljenost od zaslona",
+              "descriptionV2": "Primite obavijest kada ste preblizu zaslonu"
+            }
+          }
+        }
+      }
+    },
+    "hu": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "A kamerazár be van zárva",
+          "description": "Nyissa ki a kamerazárat a Képernyőtől való távolság funkció engedélyezéséhez.",
+          "or": "Vagy",
+          "turnOff": "kapcsolja ki a Képernyőtől való távolság funkciót.",
+          "learnMore": "További információk",
+          "Close": "Bezárás",
+          "titleV2": "A Képernyőtől való távolság nem elérhető, amikor a kamerazár be van zárva.",
+          "disableScreenDistance": "Képernyőtől való távolság funkció kikapcsolása",
+          "open": "Megnyitás"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "A Képernyőtől való távolság funkciói csak clamshell módban érhetők el.",
+          "title2": "A Képernyőtől való távolság funkciói nem érhetők el reteszelt kamerazárral.",
+          "description": "Nyissa ki a kamerazárat a Képernyőtől való távolság funkciók használatához."
+        },
+        "pCScreenDistance": {
+          "title": "Képernyőtől való távolság",
+          "moduleIconAccessibilityLabel": "Képernyőtől való távolság ikon",
+          "restoreText": "Alapértelmezett beállítások visszaállítása",
+          "introHeading": "Képernyőtől való távolság",
+          "introDescription": "Ha túl közel ül a monitorhoz, az megterhelő lehet a szemnek. Értesítést kap, ha a monitorhoz túl közel vagy az előnyben részesített távolságnál közelebb van. A funkció a kamerához való hozzáférést igényli.",
+          "default": "Alapértelmezett",
+          "snoozeHeading": "Szundi",
+          "alertOptionsHeading": "Riasztási beállítások",
+          "setDistanceHeading": "Előnyben részesített távolság beállítása",
+          "currentDistance": "Aktuális beállított távolság ",
+          "distanceCm": "cm",
+          "distanceInch": "hüvelyk",
+          "setDistanceDescription": "Beállíthat az előnyben részesített távolságra vonatkozó egyéni küszöbértéket. A funkció az eszköz kamerájával észleli az Ön és az eszköz közötti távolságot.",
+          "tooltipsLabel": "Eszköztippek címke",
+          "tooltipsDescription": "Ez a funkció csak akkor használható, ha a beépített kamera Ön felé néz (lásd az alábbi ábrát). A funkció nem támogat külső monitorokat.",
+          "set": "Beállítás",
+          "featureOn": "Be",
+          "featureOff": "Ki",
+          "blurTransparencyNotificationMessage": "Átlátszóság engedélyezése a rendszerbeállításokban a homályosítás használatához",
+          "blurTransparencyNotificationButton": "Átlátszósági beállítások",
+          "blurTransparencyNotificationOpen": "Átlátszósági beállítások megnyitása",
+          "blurHighContrastNotificationMessage": "Magas kontraszt mód letiltás Homályosítás használatához",
+          "blurHighContrastNotificationButton": "Magas kontraszt beállításai",
+          "blurHighContrastNotificationOpen": "Magas kontraszt beállításainak megnyitása",
+          "distanceIn": "hüvelyk",
+          "distanceInches": "hüvelyk",
+          "tooltips": "eszköztippek"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Figyelmeztetés",
+          "nudgeMeDescription": "Alacsony szintű értesítés jelenik meg. A bezárásához menjen hátrébb, vagy nyomja le az „esc” billentyűt.",
+          "fullNotification": "Riasztás",
+          "fullNotificationDescription": "Értesítés, amely többféleképpen késleltethető vagy zárható be.",
+          "blurMyDisplay": "Homályosítás",
+          "blurMyDisplayDescription": "Elhomályosítja a kijelzőt. A normál nézet visszaállításához menjen hátrébb, vagy nyomja le az „esc” billentyűt."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Távolság módosítása",
+          "resetButton": "Alaphelyzetbe állítás",
+          "saveButton": "Mentés",
+          "cancelButton": "Mégse",
+          "allSetDescription": "Készen is van"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Kezelheti és elemezheti, mennyi időt tölt a PC előtt",
+              "featureCard": "Jólléti műveleti elem",
+              "icon": "Wellness ikon",
+              "title": "Képernyő előtt töltött idő"
+            },
+            "pcscreendistance": {
+              "description": "Értesíti, ha túl közelről nézi a képernyőt. Segít elkerülni a szem megerőltetését.",
+              "featureCard": "Képernyőtől való távolság műveleti elem",
+              "icon": "Képernyőtől való távolság ikon",
+              "title": "Képernyőtől való távolság",
+              "descriptionV2": "Értesítést kap, ha túl közel van a képernyőhöz"
+            }
+          }
+        }
+      }
+    },
+    "id": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Rana Kamera Tertutup",
+          "description": "Buka rana kamera Anda untuk mengaktifkan Jarak Layar.",
+          "or": "Atau",
+          "turnOff": "matikan Jarak Layar.",
+          "learnMore": "Pelajari Lebih Lanjut",
+          "Close": "Tutup",
+          "titleV2": "Jarak Layar tidak tersedia jika rana kamera tertutup.",
+          "disableScreenDistance": "Nonaktifkan Jarak Layar",
+          "open": "Buka"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Fitur Jarak Dari Layar hanya tersedia dalam mode clamshell.",
+          "title2": "Fitur Jarak Dari Layar tidak tersedia saat rana kamera tertutup.",
+          "description": "Buka rana kamera untuk menggunakan fitur Jarak Dari Layar."
+        },
+        "pCScreenDistance": {
+          "title": "Jarak Layar",
+          "moduleIconAccessibilityLabel": "Ikon Jarak Layar",
+          "restoreText": "Pulihkan Pengaturan Default",
+          "introHeading": "Jarak Layar",
+          "introDescription": "Duduk terlalu dekat dengan monitor dapat menyebabkan ketegangan mata. Anda akan menerima notifikasi jika terlalu dekat dengan monitor atau terlalu dekat dari jarak pilihan Anda. Fitur ini memerlukan akses ke kamera Anda.",
+          "default": "Default",
+          "snoozeHeading": "Tunda",
+          "alertOptionsHeading": "Opsi Peringatan",
+          "setDistanceHeading": "Tetapkan Jarak Pilihan",
+          "currentDistance": "Jarak yang Ditetapkan Saat Ini: ",
+          "distanceCm": "cm",
+          "distanceInch": "inci",
+          "setDistanceDescription": "Tetapkan ambang khusus untuk jarak pilihan Anda. Kamera perangkat akan digunakan untuk mendeteksi jarak antara Anda dan perangkat Anda.",
+          "tooltipsLabel": "Label kiat alat",
+          "tooltipsDescription": "Fitur ini hanya dapat digunakan saat kamera internal menghadap ke Anda (gambar di bawah). Fitur ini tidak mendukung monitor eksternal.",
+          "set": "Setel",
+          "featureOn": "Aktif",
+          "featureOff": "Nonaktif",
+          "blurTransparencyNotificationMessage": "Aktifkan Transparansi di Pengaturan Sistem untuk menggunakan fitur Buram",
+          "blurTransparencyNotificationButton": "Pengaturan Transparansi",
+          "blurTransparencyNotificationOpen": "Buka Pengaturan Transparansi",
+          "blurHighContrastNotificationMessage": "Nonaktifkan mode Kontras Tinggi untuk menggunakan Blur",
+          "blurHighContrastNotificationButton": "Pengaturan Kontras Tinggi",
+          "blurHighContrastNotificationOpen": "Buka Pengaturan Kontras Tinggi",
+          "distanceIn": "inci",
+          "distanceInches": "inci",
+          "tooltips": "kiat-kiat alat"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Dorongan",
+          "nudgeMeDescription": "Terima pemberitahuan singkat. Tutup dengan mundur atau menekan tombol “esc”.",
+          "fullNotification": "Perhatian",
+          "fullNotificationDescription": "Notifikasi yang berisi lebih banyak opsi untuk menunda atau menutup.",
+          "blurMyDisplay": "Buram",
+          "blurMyDisplayDescription": "Memburamkan layar. Kembali ke posisi awal dengan mundur atau menekan tombol “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Ubah Jarak",
+          "resetButton": "Atur Ulang",
+          "saveButton": "Simpan",
+          "cancelButton": "Batal",
+          "allSetDescription": "Semuanya telah disetel"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Kelola dan analisis waktu yang Anda habiskan saat menggunakan PC",
+              "featureCard": "Item Tindakan Kesehatan",
+              "icon": "Ikon Kesehatan",
+              "title": "Waktu Di Depan Layar"
+            },
+            "pcscreendistance": {
+              "description": "Memberi tahu jika Anda terlalu dekat dengan layar. Mencegah mata tegang.",
+              "featureCard": "Item Tindakan Jarak dari Layar",
+              "icon": "Ikon Jarak Layar",
+              "title": "Jarak Layar",
+              "descriptionV2": "Beri tahu jika Anda terlalu dekat dengan layar"
+            }
+          }
+        }
+      }
+    },
+    "it": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Otturatore chiuso",
+          "description": "Apri l'otturatore per abilitare Distanza schermo.",
+          "or": "O",
+          "turnOff": "disabilita Distanza schermo.",
+          "learnMore": "Per saperne di più",
+          "Close": "Chiudi",
+          "titleV2": "Distanza schermo non è disponibile quando l'otturatore della videocamera è chiuso.",
+          "disableScreenDistance": "Disabilita Distanza schermo",
+          "open": "Aperto"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Le funzioni di Distanza schermo sono disponibili sono in modalità schermo chiuso.",
+          "title2": "Le funzioni di Distanza schermo non sono disponibili quando l'otturatore della fotocamera è chiuso.",
+          "description": "Apri l'otturatore della fotocamera per usare le funzioni di Distanza schermo."
+        },
+        "pCScreenDistance": {
+          "title": "Distanza schermo",
+          "moduleIconAccessibilityLabel": "Icona Distanza schermo",
+          "restoreText": "Ripristina impostazioni predefinite",
+          "introHeading": "Distanza schermo",
+          "introDescription": "Sedersi troppo vicino al monitor può causare l'affaticamento degli occhi. Riceverai una notifica se ti avvicini troppo al monitor o rispetto alla tua distanza preferita. Questa funzione richiede l'accesso alla videocamera.",
+          "default": "Predefinito",
+          "snoozeHeading": "Posponi",
+          "alertOptionsHeading": "Opzioni avviso",
+          "setDistanceHeading": "Imposta distanza preferita",
+          "currentDistance": "Distanza impostata corrente: ",
+          "distanceCm": "cm",
+          "distanceInch": "pollice",
+          "setDistanceDescription": "Imposta un limite personalizzato per la tua distanza preferita. La videocamera del dispositivo verrà utilizzata per rilevare la distanza tra te e il dispositivo.",
+          "tooltipsLabel": "Etichetta descrizioni comandi",
+          "tooltipsDescription": "Questa funzione è attiva solo quando la videocamera integrata è rivolta verso di te (vedi l'immagine seguente)​. Questa funzione non supporta monitor esterni.",
+          "set": "Imposta",
+          "featureOn": "On",
+          "featureOff": "Off",
+          "blurTransparencyNotificationMessage": "Abilita la trasparenza nelle Impostazioni di sistema per usare la sfocatura",
+          "blurTransparencyNotificationButton": "Impostazioni trasparenza",
+          "blurTransparencyNotificationOpen": "Apri impostazioni trasparenza",
+          "blurHighContrastNotificationMessage": "Disabilita modalità contrasto elevato per usare la sfocatura",
+          "blurHighContrastNotificationButton": "Impostazioni contrasto elevato",
+          "blurHighContrastNotificationOpen": "Apri impostazioni contrasto elevato",
+          "distanceIn": "pollici",
+          "distanceInches": "pollici",
+          "tooltips": "Descrizioni comandi"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Avvisami",
+          "nudgeMeDescription": "Ricevi una notifica discreta. Per eliminarla, arretra o premi il tasto “Esc”.",
+          "fullNotification": "Avviso",
+          "fullNotificationDescription": "Una notifica che include più opzioni per posporre o eliminare l'avviso.",
+          "blurMyDisplay": "Sfocatura",
+          "blurMyDisplayDescription": "Viene applicata una sfocatura al display. Per tornare alla condizione precedente, arretra o premi il tasto “Esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Cambia distanza",
+          "resetButton": "Ripristina",
+          "saveButton": "Salva",
+          "cancelButton": "Annulla",
+          "allSetDescription": "Operazione completata"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gestisci e analizza il tempo che trascorri al PC",
+              "featureCard": "Attività Benessere",
+              "icon": "Icona Benessere",
+              "title": "Tempo al PC"
+            },
+            "pcscreendistance": {
+              "description": "Ti avvisa se ti avvicini troppo allo schermo. Evita l'affaticamento degli occhi.",
+              "featureCard": "Attività Distanza schermo",
+              "icon": "Icona Distanza schermo",
+              "title": "Distanza schermo",
+              "descriptionV2": "Ricevi una notifica quando ti avvicini troppo allo schermo"
+            }
+          }
+        }
+      }
+    },
+    "ja": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "カメラのシャッターが閉まっている",
+          "description": "カメラのシャッターを開けて画面までの距離を有効にします。",
+          "or": "または",
+          "turnOff": "画面までの距離をオフにします。",
+          "learnMore": "詳細",
+          "Close": "閉じる",
+          "titleV2": "カメラのシャッターが閉まっているときは、画面との距離を使用できません。",
+          "disableScreenDistance": "画面距離を無効にする",
+          "open": "開く"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "画面距離機能は、クラムシェル モードでのみ使用できます。",
+          "title2": "カメラのシャッターが閉まっているときには画面距離機能を使用できません。",
+          "description": "画面距離機能を使用するには、カメラのシャッターを開きます。"
+        },
+        "pCScreenDistance": {
+          "title": "画面までの距離",
+          "moduleIconAccessibilityLabel": "スクリーンとの距離アイコン",
+          "restoreText": "既定の設定を復元",
+          "introHeading": "画面までの距離",
+          "introDescription": "モニターに近づきすぎると、目が疲れることがあります。モニターに近づきすぎたり、好みの距離から近づきすぎたりすると、通知を受け取ります。この機能にはカメラへのアクセスが必要です。",
+          "default": "デフォルト",
+          "snoozeHeading": "スヌーズ",
+          "alertOptionsHeading": "アラートオプション",
+          "setDistanceHeading": "推奨距離の設定",
+          "currentDistance": "現在の設定距離： ",
+          "distanceCm": "cm",
+          "distanceInch": "インチ",
+          "setDistanceDescription": "好みの距離のカスタムしきい値を設定します。デバイスのカメラで、あなたとデバイス間の距離を検出します。",
+          "tooltipsLabel": "ツールチップラベル",
+          "tooltipsDescription": "この機能は、内蔵カメラが自分の方を向いている時のみ機能します（下図）。この機能は外部モニターをサポートしていません。",
+          "set": "設定",
+          "featureOn": "オン",
+          "featureOff": "オフ",
+          "blurTransparencyNotificationMessage": "システム設定で透明度を有効にしてぼかしを使用",
+          "blurTransparencyNotificationButton": "透明度設定",
+          "blurTransparencyNotificationOpen": "透明度設定を開く",
+          "blurHighContrastNotificationMessage": "ハイコントラストモードを無効にしてぼかしを使用",
+          "blurHighContrastNotificationButton": "ハイコントラスト設定",
+          "blurHighContrastNotificationOpen": "ハイコントラスト設定を開く",
+          "distanceIn": "インチ",
+          "distanceInches": "インチ",
+          "tooltips": "ツールチップ"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "シェイク",
+          "nudgeMeDescription": "マイナーな通知を受け取ります。戻るか「esc」キーを押して閉じます。",
+          "fullNotification": "アラート",
+          "fullNotificationDescription": "スヌーズまたは閉じるための追加オプションが含まれた通知。",
+          "blurMyDisplay": "ぼかし",
+          "blurMyDisplayDescription": "ディスプレイをぼかします。戻るか「esc」キーを押して通常の状態に戻ります。"
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "距離を変更",
+          "resetButton": "リセット",
+          "saveButton": "保存",
+          "cancelButton": "キャンセル",
+          "allSetDescription": "準備が整いました"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "PCで使う時間を管理および分析",
+              "featureCard": "ウェルネス アクション アイテム",
+              "icon": "健康アイコン",
+              "title": "画面タイム"
+            },
+            "pcscreendistance": {
+              "description": "画面に近すぎると通知します。目の疲れを防ぎます。",
+              "featureCard": "画面距離アクション アイテム",
+              "icon": "スクリーンとの距離アイコン",
+              "title": "画面までの距離",
+              "descriptionV2": "画面に近すぎると通知"
+            }
+          }
+        }
+      }
+    },
+    "ko": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "카메라 셔터 닫힘",
+          "description": "화면 거리를 사용하려면 카메라 셔터를 엽니다.",
+          "or": "또는",
+          "turnOff": "화면 거리를 끕니다.",
+          "learnMore": "자세히",
+          "Close": "닫기",
+          "titleV2": "카메라 셔터가 닫혀 있으면 화면 거리를 사용할 수 없습니다.",
+          "disableScreenDistance": "화면 거리 비활성화",
+          "open": "열기"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "화면 거리 기능은 클램셸 모드에서만 사용할 수 있습니다.",
+          "title2": "카메라 셔터가 닫혀 있으면 화면 거리 기능을 사용할 수 없습니다.",
+          "description": "화면 거리 기능을 사용하려면 카메라 셔터를 여십시오."
+        },
+        "pCScreenDistance": {
+          "title": "화면 거리",
+          "moduleIconAccessibilityLabel": "화면 거리 아이콘",
+          "restoreText": "기본 설정 복원",
+          "introHeading": "화면 거리",
+          "introDescription": "모니터에 너무 가까이 앉을 경우 눈이 피로할 수 있습니다. 모니터에 너무 가깝게 앉거나 설정 거리보다 너무 가까우면 알림을 받을 수 있습니다. 이 기능은 카메라 액세스가 필요합니다.",
+          "default": "기본",
+          "snoozeHeading": "스누즈",
+          "alertOptionsHeading": "알림 옵션",
+          "setDistanceHeading": "맞춤 거리 설정",
+          "currentDistance": "현재 설정 거리: ",
+          "distanceCm": "cm",
+          "distanceInch": "인치",
+          "setDistanceDescription": "설정 거리에 대한 맞춤 한계를 설정하세요. 장치 카메라가 장치와 사용자 간 거리를 감지하는 데 사용됩니다.",
+          "tooltipsLabel": "툴팁 레이블",
+          "tooltipsDescription": "이 기능은 내장 카메라가 사용자를 향할 때만 동작합니다(아래 그림). 이 기능은 외부 모니터를 지원하지 않습니다.",
+          "set": "설정",
+          "featureOn": "켜짐",
+          "featureOff": "꺼짐",
+          "blurTransparencyNotificationMessage": "시스템 설정에서 투명도를 사용하도록 설정하여 흐리게 사용",
+          "blurTransparencyNotificationButton": "투명도 설정",
+          "blurTransparencyNotificationOpen": "투명도 설정 열기",
+          "blurHighContrastNotificationMessage": "고대비 모드를 사용하지 않도록 설정하여 흐리게 사용",
+          "blurHighContrastNotificationButton": "고대비 설정",
+          "blurHighContrastNotificationOpen": "고대비 설정 열기",
+          "distanceIn": "인치",
+          "distanceInches": "인치",
+          "tooltips": "툴팁"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "찌르기",
+          "nudgeMeDescription": "모니터 알림을 받습니다. 뒤로 이동하거나 “esc” 키를 눌러 해제합니다.",
+          "fullNotification": "경고",
+          "fullNotificationDescription": "다시 알림이나 취소와 같이 더 많은 옵션이 포함된 알림입니다.",
+          "blurMyDisplay": "흐리게",
+          "blurMyDisplayDescription": "화면을 흐리게 합니다. 뒤로 이동하거나 “esc” 키를 눌러 원래대로 돌아옵니다."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "거리 변경",
+          "resetButton": "초기화",
+          "saveButton": "저장",
+          "cancelButton": "취소",
+          "allSetDescription": "설정이 완료되었습니다"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "PC 사용 시간을 관리하고 분석합니다.",
+              "featureCard": "웰빙 동작 항목",
+              "icon": "Wellness 아이콘",
+              "title": "화면 시간"
+            },
+            "pcscreendistance": {
+              "description": "화면에 너무 가까운 경우 알림을 보냅니다. 눈의 피로를 예방합니다.",
+              "featureCard": "회면 거리 동작 항목",
+              "icon": "화면 거리 아이콘",
+              "title": "화면 거리",
+              "descriptionV2": "화면에 너무 가까운 경우 알림 받기"
+            }
+          }
+        }
+      }
+    },
+    "lt": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Fotoaparato užraktas uždarytas",
+          "description": "Atidarykite fotoaparato užraktą, kad įjungtumėte funkciją „Atstumas iki ekrano“.",
+          "or": "Arba",
+          "turnOff": "išjunkite funkciją „Ekrano laikas“.",
+          "learnMore": "Sužinoti daugiau",
+          "Close": "Uždaryti",
+          "titleV2": "Atstumo iki ekrano funkcija nepasiekiama, kai fotoaparato užraktas uždarytas.",
+          "disableScreenDistance": "Išjungti ekrano nuotolį",
+          "open": "Atidaryti"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Atstumo iki ekrano funkcijos pasiekiamos tik užvertu režimu.",
+          "title2": "Uždarius fotoaparato užraktą, atstumo iki ekrano funkcijų naudoti negalima.",
+          "description": "Jei norite naudoti atstumo iki ekrano funkcijas, atidarykite fotoaparato užraktą."
+        },
+        "pCScreenDistance": {
+          "title": "Atstumas iki ekrano",
+          "moduleIconAccessibilityLabel": "Atstumo iki ekrano piktograma",
+          "restoreText": "Atstatyti pirminius nustatymus",
+          "introHeading": "Atstumas iki ekrano",
+          "introDescription": "Sėdint per arti monitoriaus, gali atsirasti akių nuovargis. Jei priartėsite per arti monitoriaus arba per arti savo pageidaujamo atstumo, gausite pranešimą.",
+          "default": "Numatytoji",
+          "snoozeHeading": "Atidėti",
+          "alertOptionsHeading": "Įspėjimo parinktys",
+          "setDistanceHeading": "Nustatyti pageidaujamą atstumą",
+          "currentDistance": "Dabartinis nustatytas atstumas: ",
+          "distanceCm": "cm",
+          "distanceInch": "colis",
+          "setDistanceDescription": "Kad galėtume nustatyti atstumą iki ekrano, mums reikalinga prieiga prie jūsų fotoaparato – taip nustatysime atstumą nuo jūsų iki įrenginio.",
+          "tooltipsLabel": "Įrankių rodyklės etiketė",
+          "tooltipsDescription": "Ši funkcija veikia tik tada, kai įmontuota kamera yra nukreipta į jus (pav. toliau). Ši funkcija nepalaiko išorinių monitorių.",
+          "set": "Nustatyti",
+          "featureOn": "Įjungti",
+          "featureOff": "Išjungti",
+          "blurTransparencyNotificationMessage": "Sistemos nustatymuose įjungti skaidrumą, kad būtų galima naudoti suliejimo funkciją",
+          "blurTransparencyNotificationButton": "Skaidrumo nustatymai",
+          "blurTransparencyNotificationOpen": "Atidaryti skaidrumo nustatymus",
+          "blurHighContrastNotificationMessage": "Išjunkite didelio kontrasto režimą, kad būtų galima naudoti suliejimą",
+          "blurHighContrastNotificationButton": "Didelio kontrasto nustatymai",
+          "blurHighContrastNotificationOpen": "Atidaryti didelio kontrasto nustatymus",
+          "distanceIn": "col.",
+          "distanceInches": "coliai",
+          "tooltips": "Patarimai dėl įrankių"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Paraginti mane",
+          "nudgeMeDescription": "Laikinasis pranešimas informuos mane 2 sekundes. Atmesti galima atsitraukus atgal arba paspaudus klavišą „Esc“.",
+          "fullNotification": "Įspėjimas",
+          "fullNotificationDescription": "Pranešime pateikiama daugiau atidėjimo arba atmetimo parinkčių.",
+          "blurMyDisplay": "Sulieti mano ekraną",
+          "blurMyDisplayDescription": "Ekranas suliejamas ir rodomas laikinasis pranešimas. Atmesti galima atsitraukus atgal arba paspaudus klavišą „Esc“."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Keisti atstumą",
+          "resetButton": "Nustatyti iš naujo",
+          "saveButton": "Išsaugoti",
+          "cancelButton": "Atšaukti",
+          "allSetDescription": "Viskas parengta"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Valdykite ir analizuokite laiką, kurį praleidžiate prie kompiuterio",
+              "featureCard": "Sveikatingumo veiksmo elementas",
+              "icon": "Sveikatingumo piktograma",
+              "title": "Ekrano laikas"
+            },
+            "pcscreendistance": {
+              "description": "Informuoja, jeigu esate per arti ekrano. Padeda išvengti prisimerkimo.",
+              "featureCard": "Atstumo iki ekrano veiksmo elementas",
+              "icon": "Atstumo iki ekrano piktograma",
+              "title": "Atstumas iki ekrano",
+              "descriptionV2": "Gaukite įspėjimą, kai pernelyg prisiartinate prie ekrano"
+            }
+          }
+        }
+      }
+    },
+    "lv": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kameras aizvars ir aizvērts",
+          "description": "Atveriet kameras aizvaru, lai iespējotu ekrāna atstatumu.",
+          "or": "Vai",
+          "turnOff": "izslēdziet ekrāna atstatumu.",
+          "learnMore": "Uzzināt vairāk",
+          "Close": "Aizvērt",
+          "titleV2": "Ja kameras slēdzis ir aizvērts, ekrāna attālums nav pieejams.",
+          "disableScreenDistance": "Atspējot ekrāna atstatumu",
+          "open": "Atvērt"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Ekrāna atstatuma funkcijas ir pieejamas tikai gliemežnīcas režīmā.",
+          "title2": "Ekrāna atstatuma funkcijas nav pieejamas, ja kameras aizvars ir aizvērts.",
+          "description": "Atveriet kameras aizvaru, lai izmantotu ekrāna atstatuma funkcijas."
+        },
+        "pCScreenDistance": {
+          "title": "Ekrāna atstatums",
+          "moduleIconAccessibilityLabel": "Ikona Ekrāna atstatums",
+          "restoreText": "Atjaunot noklusējuma iestatījumus",
+          "introHeading": "Ekrāna atstatums",
+          "introDescription": "Sēdēšana pārāk tuvu monitoram var izraisīt acu spriedzi. Ja pārvietosieties pārāk tuvu monitoram vai pārāk tuvu attiecībā pret savu izvēlēto atstatumu, saņemsiet paziņojumu. Šai funkcijai ir nepieciešama piekļuve jūsu kamerai.",
+          "default": "Noklusējums",
+          "snoozeHeading": "Snauda",
+          "alertOptionsHeading": "Brīdinājuma opcijas",
+          "setDistanceHeading": "Iestatīt vēlamo atstatumu",
+          "currentDistance": "Pašlaik iestatītais atstatums: ",
+          "distanceCm": "cm",
+          "distanceInch": "colla",
+          "setDistanceDescription": "Iestatiet pielāgotu robežvērtību jūsu vēlamajam atstatumam. Jūsu ierīces kamera tiks izmantota, lai noteiktu atstatumu starp jums un jūsu ierīci.",
+          "tooltipsLabel": "Rīku padomu marķējums",
+          "tooltipsDescription": "Šī funkcija darbojas tikai tad, kad jūsu iebūvētā kamera ir vērsta pret jums (redzams tālāk attēlā). Šī funkcija neatbalsta ārējus monitorus.",
+          "set": "Iestatīt",
+          "featureOn": "Ieslēgt",
+          "featureOff": "Izslēgt",
+          "blurTransparencyNotificationMessage": "Iespējot caurspīdīgumu sistēmas iestatījumos, lai izmantotu aizmiglošanu",
+          "blurTransparencyNotificationButton": "Caurspīdīguma iestatījumi",
+          "blurTransparencyNotificationOpen": "Atvērt caurspīdīguma iestatījumus",
+          "blurHighContrastNotificationMessage": "Atspējot augsta kontrasta režīmu, lai izmantotu aizmiglošanu",
+          "blurHighContrastNotificationButton": "Augsta kontrasta iestatījumi",
+          "blurHighContrastNotificationOpen": "Atvērt augsta kontrasta iestatījumus",
+          "distanceIn": "collas",
+          "distanceInches": "collas",
+          "tooltips": "rīku padomi"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Atgādināt man",
+          "nudgeMeDescription": "Saņemts nenozīmīgs paziņojums. Noraidiet to, pārejot atpakaļ vai nospiežot taustiņu “esc”.",
+          "fullNotification": "Brīdinājums",
+          "fullNotificationDescription": "Paziņojums, kas iekļauj vairāk snaudas vai noraidīšanas opciju.",
+          "blurMyDisplay": "Aizmiglot",
+          "blurMyDisplayDescription": "Displejs aizmiglojas. Atgriezieties uz parasto displeju, pārejot atpakaļ vai nospiežot taustiņu “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Mainīt atstatumu",
+          "resetButton": "Atiestatīt",
+          "saveButton": "Saglabāt",
+          "cancelButton": "Atcelt",
+          "allSetDescription": "Viss iestatīts"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Pārvaldiet un analizējiet pie datora pavadīto laiku",
+              "featureCard": "Labklājības darbības vienums",
+              "icon": "Ikona Labklājība",
+              "title": "Ekrāna laiks"
+            },
+            "pcscreendistance": {
+              "description": "Informē jūs, kad esat pārāk tuvu ekrānam. Novērš acu pārpūli.",
+              "featureCard": "Ekrāna atstatuma darbības vienums",
+              "icon": "Ikona Ekrāna atstatums",
+              "title": "Ekrāna atstatums",
+              "descriptionV2": "Saņemt paziņojumu, kad esat pārāk tuvu ekrānam"
+            }
+          }
+        }
+      }
+    },
+    "nb-NO": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kamerautløser er lukket",
+          "description": "Åpne kamerautløseren for å aktivere skjermavstand.",
+          "or": "Eller",
+          "turnOff": "slå av skjermavstand.",
+          "learnMore": "Mer informasjon",
+          "Close": "Lukk",
+          "titleV2": "Skjermavstand er utilgjengelig når kamerautløseren er lukket.",
+          "disableScreenDistance": "Deaktiver skjermavstand",
+          "open": "Åpen"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Skjermavstandsfunksjoner er bare tilgjengelig i clamshell-modus.",
+          "title2": "Skjermavstandsfunksjoner er utilgjengelige når kameralukkeren er lukket.",
+          "description": "Åpne kameralukkeren for å bruke skjermavstandsfunksjoner."
+        },
+        "pCScreenDistance": {
+          "title": "Skjermavstand",
+          "moduleIconAccessibilityLabel": "Skjermavstand-ikon",
+          "restoreText": "Gjenopprett standard innstillinger",
+          "introHeading": "Skjermavstand",
+          "introDescription": "Det å sitte for nær skjermen kan føre til belastning på øynene. Du vil motta et varsel hvis du beveger deg for nær skjermen eller for nær din foretrukne avstand. Denne funksjonen krever tilgang til kameraet.",
+          "default": "Standard",
+          "snoozeHeading": "Utsett",
+          "alertOptionsHeading": "Varslingsalternativer",
+          "setDistanceHeading": "Angi foretrukket avstand",
+          "currentDistance": "Gjeldende innstilt avstand: ",
+          "distanceCm": "cm",
+          "distanceInch": "tomme",
+          "setDistanceDescription": "Angi en egendefinert terskel for din foretrukne avstand. Kameraet på enheten din vil bli brukt til å oppdage avstanden mellom deg og enheten din.",
+          "tooltipsLabel": "Verktøytips-etikett",
+          "tooltipsDescription": "Denne funksjonen fungerer bare når det innebygde kameraet vender mot deg (bildet nedenfor). Denne funksjonen støtter ikke eksterne skjermer.",
+          "set": "Angi",
+          "featureOn": "På",
+          "featureOff": "Av",
+          "blurTransparencyNotificationMessage": "Aktiver gjennomsiktighet i systeminnstillinger for å bruke uskarphet",
+          "blurTransparencyNotificationButton": "Innstillinger for gjennomsiktighet",
+          "blurTransparencyNotificationOpen": "Åpne innstillinger for gjennomsiktighet",
+          "blurHighContrastNotificationMessage": "Deaktiver høykontrastmodus for å bruke Uskarp",
+          "blurHighContrastNotificationButton": "Innstillinger for høykontrast",
+          "blurHighContrastNotificationOpen": "Åpne innstillinger for høykontrast",
+          "distanceIn": "tm",
+          "distanceInches": "tommer",
+          "tooltips": "verktøytips"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Nudge",
+          "nudgeMeDescription": "Motta et mindre varsel. Avvis det ved å gå tilbake eller trykke på «Esc»-tasten.",
+          "fullNotification": "Varsel",
+          "fullNotificationDescription": "Et varsel som inneholder flere alternativer for å slumre eller avvise.",
+          "blurMyDisplay": "Uskarpt",
+          "blurMyDisplayDescription": "Gjør skjermen uskarp. Gå tilbake til normal ved å gå tilbake eller trykke på «Esc»-tasten."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Endre avstand",
+          "resetButton": "Tilbakestill",
+          "saveButton": "Lagre",
+          "cancelButton": "Avbryt",
+          "allSetDescription": "Du er klar"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Administrer og analyser tiden du bruker på PC-en",
+              "featureCard": "Handlingselement for velvære",
+              "icon": "Velvære-ikon",
+              "title": "Skjermtid"
+            },
+            "pcscreendistance": {
+              "description": "Varsler deg når du er for nærme skjermen. Forhindrer øyeanstrengelser.",
+              "featureCard": "Handlingselement for skjermavstand",
+              "icon": "Skjermavstand-ikon",
+              "title": "Skjermavstand",
+              "descriptionV2": "Bli varslet når du er for nærme skjermen"
+            }
+          }
+        }
+      }
+    },
+    "nl": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Camerasluiter is gesloten",
+          "description": "Open de camerasluiter om Schermafstand in te schakelen.",
+          "or": "Of",
+          "turnOff": "schakel Schermafstand uit.",
+          "learnMore": "Meer informatie",
+          "Close": "Sluiten",
+          "titleV2": "Schermafstand is niet beschikbaar wanneer uw camerasluiter is gesloten.",
+          "disableScreenDistance": "Schermafstand uitschakelen",
+          "open": "Openen"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Schermafstandfuncties zijn alleen beschikbaar in de clamshellmodus.",
+          "title2": "Schermafstandfuncties zijn niet beschikbaar wanneer uw camerasluiter is gesloten.",
+          "description": "Open de camerasluiter om schermafstandfuncties te gebruiken."
+        },
+        "pCScreenDistance": {
+          "title": "Schermafstand",
+          "moduleIconAccessibilityLabel": "Schermafstand-pictogram",
+          "restoreText": "Standaardinstellingen herstellen",
+          "introHeading": "Schermafstand",
+          "introDescription": "Als u te dicht bij de monitor zit, kan dat vermoeidheid van de ogen veroorzaken. U krijgt een melding als u te dicht bij uw monitor of te dicht bij uw gewenste afstand komt. Voor deze functie is toegang tot de camera vereist.",
+          "default": "Standaard",
+          "snoozeHeading": "Sluimeren",
+          "alertOptionsHeading": "Waarschuwingsopties",
+          "setDistanceHeading": "Voorkeursafstand instellen",
+          "currentDistance": "Huidig ingestelde afstand: ",
+          "distanceCm": "cm",
+          "distanceInch": "inch",
+          "setDistanceDescription": "Stel een aangepaste drempelwaarde in voor uw gewenste afstand. De camera van uw apparaat wordt gebruikt om de afstand tussen u en uw apparaat te detecteren.",
+          "tooltipsLabel": "Tooltipslabel",
+          "tooltipsDescription": "Deze functie werkt alleen als de ingebouwde camera naar u toe is gericht (zie afbeelding hieronder). Externe monitors worden niet ondersteund door deze functie.",
+          "set": "Instellen",
+          "featureOn": "Aan",
+          "featureOff": "Uit",
+          "blurTransparencyNotificationMessage": "Schakel Transparantie in Systeeminstellingen in om Vervagen te gebruiken",
+          "blurTransparencyNotificationButton": "Transparantie-instellingen",
+          "blurTransparencyNotificationOpen": "Transparantie-instellingen openen",
+          "blurHighContrastNotificationMessage": "Modus hoog contrast uitschakelen om vervagen te gebruiken",
+          "blurHighContrastNotificationButton": "Instellingen hoog contrast",
+          "blurHighContrastNotificationOpen": "Instellingen hoog contrast openen",
+          "distanceIn": "inch",
+          "distanceInches": "inch",
+          "tooltips": "tooltips"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Waarschuwen",
+          "nudgeMeDescription": "Ontvang een kleine melding. Ga naar achteren of druk op “esc” om dit af te sluiten.",
+          "fullNotification": "Waarschuwing",
+          "fullNotificationDescription": "Een melding die meer opties voor sluimeren of afwijzen bevat.",
+          "blurMyDisplay": "Vervagen",
+          "blurMyDisplayDescription": "Vervaagt het scherm. Ga terug naar naar normaal door naar achteren te gaan of op “esc” te drukken."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Afstand wijzigen",
+          "resetButton": "Opnieuw instellen",
+          "saveButton": "Opslaan",
+          "cancelButton": "Annuleren",
+          "allSetDescription": "U bent helemaal klaar"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Analyseer en beheer de tijd die u besteedt achter de pc",
+              "featureCard": "Actie-item wellness",
+              "icon": "Wellness-pictogram",
+              "title": "Schermtijd"
+            },
+            "pcscreendistance": {
+              "description": "Waarschuwt u als u te dicht bij het scherm zit. Voorkomt vermoeidheid van de ogen.",
+              "featureCard": "Actie-item schermafstand",
+              "icon": "Schermafstand-pictogram",
+              "title": "Schermafstand",
+              "descriptionV2": "Ontvang een melding als u te dicht bij uw scherm zit"
+            }
+          }
+        }
+      }
+    },
+    "pl": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Migawka aparatu jest zamknięta",
+          "description": "Otwórz migawkę aparatu, aby włączyć funkcję Odległość ekranu.",
+          "or": "Lub",
+          "turnOff": "wyłącz opcję Odległość od ekranu.",
+          "learnMore": "Dowiedz się więcej",
+          "Close": "Zamknij",
+          "titleV2": "Odległość ekranu jest niedostępna, gdy migawka aparatu jest zamknięta.",
+          "disableScreenDistance": "Wyłącz odległość ekranu",
+          "open": "Otwórz"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Funkcje odległości ekranu są dostępne tylko w trybie clamshell.",
+          "title2": "Funkcje odległości ekranu są niedostępne, gdy migawka aparatu jest zamknięta.",
+          "description": "Otwórz migawkę aparatu, aby użyć funkcji odległości ekranu."
+        },
+        "pCScreenDistance": {
+          "title": "Odległość od ekranu",
+          "moduleIconAccessibilityLabel": "Ikona odległości ekranu",
+          "restoreText": "Przywróć ustawienia domyślne",
+          "introHeading": "Odległość od ekranu",
+          "introDescription": "Siedzenie zbyt blisko monitora może powodować zmęczenie oczu. Otrzymasz powiadomienie, jeśli zbliżysz się zbyt blisko monitora lub zbyt blisko z preferowanej odległości.",
+          "default": "Domyślne",
+          "snoozeHeading": "Drzemka",
+          "alertOptionsHeading": "Opcje alertu",
+          "setDistanceHeading": "Ustaw preferowaną odległość",
+          "currentDistance": "Aktualnie ustawiona odległość: ",
+          "distanceCm": "cm",
+          "distanceInch": "cal",
+          "setDistanceDescription": "Ustaw niestandardowy próg dla preferowanej odległości. Kamera Twojego urządzenia będzie używana do wykrywania odległości między Tobą a urządzeniem.",
+          "tooltipsLabel": "Etykieta podpowiedzi",
+          "tooltipsDescription": "Ta funkcja działa tylko wtedy, gdy wbudowana kamera jest skierowana w Twoją stronę (zdjęcie poniżej). Ta funkcja nie obsługuje monitorów zewnętrznych.",
+          "set": "Ustaw",
+          "featureOn": "Wł.",
+          "featureOff": "Wył.",
+          "blurTransparencyNotificationMessage": "Włącz przezroczystość w ustawieniach systemu, aby używać rozmycia",
+          "blurTransparencyNotificationButton": "Ustawienia przezroczystości",
+          "blurTransparencyNotificationOpen": "Otwórz ustawienia przezroczystości",
+          "blurHighContrastNotificationMessage": "Wyłącz tryb wysokiego kontrastu, aby użyć rozmycia",
+          "blurHighContrastNotificationButton": "Ustawienia wysokiego kontrastu",
+          "blurHighContrastNotificationOpen": "Otwórz ustawienia wysokiego kontrastu",
+          "distanceIn": "cale",
+          "distanceInches": "cale",
+          "tooltips": "Etykiety narzędzi"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Naciśnij mnie",
+          "nudgeMeDescription": "Otrzymanie drobnego powiadomienia. Odrzuć je, cofając się lub naciskając klawisz „esc”.",
+          "fullNotification": "Alarm",
+          "fullNotificationDescription": "Powiadomienie zawiera więcej opcji drzemki lub odrzucenia.",
+          "blurMyDisplay": "Rozmycie mojego wyświetlacza",
+          "blurMyDisplayDescription": "Powoduje rozmycie ekranu. Przywróć normalny tryb, cofając się lub naciskając przycisk „esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Zmień odległość",
+          "resetButton": "Uruchom ponownie",
+          "saveButton": "Zapisz",
+          "cancelButton": "Anuluj",
+          "allSetDescription": "Wszystko gotowe"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Zarządzaj i analizuj czas spędzany na komputerze",
+              "featureCard": "Czynność poprawiająca samopoczucie",
+              "icon": "Ikona dobrego samopoczucia",
+              "title": "Czas ekranowy"
+            },
+            "pcscreendistance": {
+              "description": "Powiadamia, gdy jesteś zbyt blisko ekranu. Zapobiega zmęczeniu oczu.",
+              "featureCard": "Czynność dotycząca odległości ekranu",
+              "icon": "Ikona odległości ekranu",
+              "title": "Odległość od ekranu",
+              "descriptionV2": "Otrzymuj powiadomienia, gdy znajdziesz się zbyt blisko ekranu"
+            }
+          }
+        }
+      }
+    },
+    "pt-BR": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "O obturador da câmera está fechado",
+          "description": "Abra o obturador da câmera para ativar a Distância da tela.",
+          "or": "Ou",
+          "turnOff": "desative a Distância da tela.",
+          "learnMore": "Saiba mais",
+          "Close": "Fechar",
+          "titleV2": "A Distância da tela fica indisponível quando o obturador da câmera está fechado.",
+          "disableScreenDistance": "Desativar distância da tela",
+          "open": "Abrir"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Os recursos de distância da tela estão disponíveis somente no modo concha.",
+          "title2": "Os recursos de Distância da tela não ficam disponíveis quando o obturador da câmera está fechado.",
+          "description": "Abra o obturador da câmera para usar os recursos de Distância da tela."
+        },
+        "pCScreenDistance": {
+          "title": "Distância da tela",
+          "moduleIconAccessibilityLabel": "Ícone de distância da tela",
+          "restoreText": "Restaurar configurações padrão",
+          "introHeading": "Distância da tela",
+          "introDescription": "Sentar muito perto do monitor pode causar fadiga ocular. Você receberá uma notificação se ficar muito perto do monitor ou da sua distância preferida. Esse recurso exige acesso à sua câmera.",
+          "default": "Padrão",
+          "snoozeHeading": "Soneca",
+          "alertOptionsHeading": "Opções de alerta",
+          "setDistanceHeading": "Definir distância preferida",
+          "currentDistance": "Distância definida: ",
+          "distanceCm": "cm",
+          "distanceInch": "polegada",
+          "setDistanceDescription": "Defina um limite personalizado para sua distância preferida. A câmera do seu dispositivo será usada para detectar a distância entre você e o seu dispositivo.",
+          "tooltipsLabel": "Etiqueta das legendas",
+          "tooltipsDescription": "Esse recurso funciona somente quando sua câmera integrada está voltada para você (imagem abaixo). Esse recurso não suporta monitores externos.",
+          "set": "Definir",
+          "featureOn": "Ligar",
+          "featureOff": "Desligar",
+          "blurTransparencyNotificationMessage": "Habilitar transparência nas Configurações do sistema para usar Desfocar",
+          "blurTransparencyNotificationButton": "Configurações de transparência",
+          "blurTransparencyNotificationOpen": "Abrir Configurações de transparência",
+          "blurHighContrastNotificationMessage": "Desative o modo de Alto contraste para usar o Desfoque",
+          "blurHighContrastNotificationButton": "Configurações de Alto contraste",
+          "blurHighContrastNotificationOpen": "Abrir Configurações de Alto contraste",
+          "distanceIn": "pol.",
+          "distanceInches": "polegadas",
+          "tooltips": "dicas"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Avisar",
+          "nudgeMeDescription": "Receba uma pequena notificação. Descarte-a voltando ou pressionando a tecla “esc”.",
+          "fullNotification": "Alerta",
+          "fullNotificationDescription": "Uma notificação que inclui mais opções para soneca ou descarte.",
+          "blurMyDisplay": "Desfocar",
+          "blurMyDisplayDescription": "Desfoca a tela. Regresse ao normal voltando ou pressionando a tecla “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Alterar distância",
+          "resetButton": "Redefinir",
+          "saveButton": "Salvar",
+          "cancelButton": "Cancelar",
+          "allSetDescription": "Está tudo pronto"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gerencie e analise o tempo que você passa no seu PC",
+              "featureCard": "Item de ação de bem-estar",
+              "icon": "Ícone de bem-estar",
+              "title": "Tempo de tela"
+            },
+            "pcscreendistance": {
+              "description": "Exibe uma notificação quando você estiver muito perto da tela. Previne o cansaço visual.",
+              "featureCard": "Item de ação de Distância da tela",
+              "icon": "Ícone de distância da tela",
+              "title": "Distância da tela",
+              "descriptionV2": "Seja notificado quando você chegar muito perto da sua tela"
+            }
+          }
+        }
+      }
+    },
+    "pt-PT": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "O obturador da câmara está fechado",
+          "description": "Abra o obturador da câmara para ativar a Distância ao ecrã.",
+          "or": "Ou",
+          "turnOff": "desligue a Distância ao ecrã.",
+          "learnMore": "Saber mais",
+          "Close": "Fechar",
+          "titleV2": "Distância do ecrã não está disponível quando o obturador da câmara está fechado.",
+          "disableScreenDistance": "Desativar Distância do ecrã",
+          "open": "Abrir"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "As funcionalidades Distância ao ecrã só estão disponíveis no modo Concha.",
+          "title2": "As funcionalidades Distância ao ecrã estão indisponíveis quando o obturador da câmara está fechado.",
+          "description": "Abra o obturador da câmara para utilizar as funcionalidades Distância ao ecrã."
+        },
+        "pCScreenDistance": {
+          "title": "Distância ao ecrã",
+          "moduleIconAccessibilityLabel": "Ícone de distância para o ecrã",
+          "restoreText": "Restaurar predefinições",
+          "introHeading": "Distância ao ecrã",
+          "introDescription": "Sentar-se demasiado próximo do monitor pode causar tensão ocular. Irá receber uma notificação se estiver demasiado próximo do monitor ou demasiado afastado da sua distância preferencial. Esta funcionalidade necessita de acesso à sua câmara.",
+          "default": "Predefinição",
+          "snoozeHeading": "Suspender",
+          "alertOptionsHeading": "Opções de alerta",
+          "setDistanceHeading": "Definir a distância preferencial",
+          "currentDistance": "Distância atualmente definida: ",
+          "distanceCm": "cm",
+          "distanceInch": "polegada",
+          "setDistanceDescription": "Defina um limiar personalizado para a sua distância preferencial. A câmara do seu dispositivo será utilizada para detetar a distância entre si e o dispositivo.",
+          "tooltipsLabel": "Etiqueta de descrição",
+          "tooltipsDescription": "Esta funcionalidade só funciona quando a sua câmara incorporada está virada para si (imagem em baixo). Esta funcionalidade não suporta monitores externos.",
+          "set": "Definir",
+          "featureOn": "Ligado",
+          "featureOff": "Desligado",
+          "blurTransparencyNotificationMessage": "Permitir transparência nas Definições do sistema para utilizar a Desfocagem",
+          "blurTransparencyNotificationButton": "Definições de transparência",
+          "blurTransparencyNotificationOpen": "Abrir Definições de transparência",
+          "blurHighContrastNotificationMessage": "Desativar o modo Alto contraste para utilizar Desfocagem",
+          "blurHighContrastNotificationButton": "Definições de Alto contraste",
+          "blurHighContrastNotificationOpen": "Abrir as definições de Alto contraste",
+          "distanceIn": "pol.",
+          "distanceInches": "polegadas",
+          "tooltips": "Sugestões da ferramenta"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Deslocar",
+          "nudgeMeDescription": "Recebe uma pequena notificação. Dispense-a recuando ou premindo a tecla \"esc\".",
+          "fullNotification": "Alerta",
+          "fullNotificationDescription": "Uma notificação que inclui mais opções para adiar ou dispensar.",
+          "blurMyDisplay": "Desfocar",
+          "blurMyDisplayDescription": "Desfoca o ecrã. Volte ao normal recuando ou premindo a tecla “esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Alterar a distância",
+          "resetButton": "Repor",
+          "saveButton": "Guardar",
+          "cancelButton": "Cancelar",
+          "allSetDescription": "Está preparado"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gira e analise o tempo que gasta no seu PC",
+              "featureCard": "Item de ação de Bem-estar",
+              "icon": "Ícone de bem-estar",
+              "title": "Tempo no ecrã"
+            },
+            "pcscreendistance": {
+              "description": "Notifica-o quando está demasiado próximo do ecrã. Evita o cansaço ocular.",
+              "featureCard": "Item de ação Distância ao ecrã",
+              "icon": "Ícone de distância para o ecrã",
+              "title": "Distância ao ecrã",
+              "descriptionV2": "Receba uma notificação quando estiver demasiado próximo do ecrã"
+            }
+          }
+        }
+      }
+    },
+    "ro": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Obturatorul camerei este închis",
+          "description": "Deschideţi obturatorul camerei pentru a activa funcţia Distanţă faţă de ecran.",
+          "or": "sau",
+          "turnOff": "dezactivaţi funcţia Distanţă faţă de ecran.",
+          "learnMore": "Aflaţi mai multe",
+          "Close": "Închidere",
+          "titleV2": "Distanţa faţă de ecran nu este disponibilă atunci când obturatorul camerei este închis.",
+          "disableScreenDistance": "Dezactivare funţie Distanţă faţă de ecran",
+          "open": "Deschidere"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Caracteristicile pentru Distanţa faţă de ecran sunt disponibile numai în mod clapă.",
+          "title2": "Caracteristicile pentru Distanţa faţă de ecran nu sunt disponibile atunci când obturatorul camerei este închis.",
+          "description": "Deschideţi obturatorul camerei pentru a utiliza caracteristicile pentru Distanţa faţă de ecran."
+        },
+        "pCScreenDistance": {
+          "title": "Distanţa faţă de ecran",
+          "moduleIconAccessibilityLabel": "Pictograma Distanţă faţă de ecran",
+          "restoreText": "Restabilire setări implicite",
+          "introHeading": "Distanţa faţă de ecran",
+          "introDescription": "Aşezarea prea aproape de monitor poate provoca obosirea ochilor. Veţi primi o notificare dacă vă mutaţi prea aproape de monitor sau prea aproape în raport cu distanţa preferată. Această caracteristică necesită acces la camera video.",
+          "default": "Implicit",
+          "snoozeHeading": "Amânare",
+          "alertOptionsHeading": "Opţiuni de alertare",
+          "setDistanceHeading": "Setare distanţă preferată",
+          "currentDistance": "Distanţa setată actuală: ",
+          "distanceCm": "cm",
+          "distanceInch": "inch",
+          "setDistanceDescription": "Setaţi un prag personalizat pentru distanţa preferată. Camera de pe dispozitivul dvs. va fi utilizată pentru a detecta distanţa dintre dvs. şi dispozitiv.",
+          "tooltipsLabel": "Etichetă Sugestii",
+          "tooltipsDescription": "Această caracteristică funcţionează numai atunci când camera dvs. încorporată este orientată către dvs. (fotografia de mai jos). Această caracteristică nu acceptă monitoarele externe.",
+          "set": "Setaţi",
+          "featureOn": "Activat",
+          "featureOff": "Dezactivat",
+          "blurTransparencyNotificationMessage": "Activaţi Transparenţa în Setările sistemului pentru a utiliza Înceţoşarea",
+          "blurTransparencyNotificationButton": "Setări de transparenţă",
+          "blurTransparencyNotificationOpen": "Deschidere setări de transparenţă",
+          "blurHighContrastNotificationMessage": "Dezactivaţi modul de Contrast ridicat pentru a utiliza Înceţoşarea",
+          "blurHighContrastNotificationButton": "Setări de Contrast ridicat",
+          "blurHighContrastNotificationOpen": "Deschidere setări de Contrast ridicat",
+          "distanceIn": "inch",
+          "distanceInches": "inchi",
+          "tooltips": "Sugestii"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Atenţionare",
+          "nudgeMeDescription": "Primiţi o notificare minoră. Respingeţi-o prin mutare înapoi sau apăsarea tastei Esc.",
+          "fullNotification": "Alertă",
+          "fullNotificationDescription": "O notificare care include mai multe opţiuni de amânare sau renunţare.",
+          "blurMyDisplay": "Estompare",
+          "blurMyDisplayDescription": "Estompează afişarea. Reveniţi la normal prin mutare înapoi sau prin apăsarea tastei Esc."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Schimbare distanţă",
+          "resetButton": "Resetare",
+          "saveButton": "Salvare",
+          "cancelButton": "Anulare",
+          "allSetDescription": "Toate sunt pregătite"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Gestionaţi şi administraţi timpul petrecut pe PC",
+              "featureCard": "Element de acţiune pentru Starea de sănătate",
+              "icon": "Pictograma Stare de sănătate",
+              "title": "Timp petrecut în faţa ecranului"
+            },
+            "pcscreendistance": {
+              "description": "Vă anunţă când sunteţi prea aproape de ecran. Previne obosirea ochilor.",
+              "featureCard": "Element de acţiune pentru Distanţa faţă de ecran",
+              "icon": "Pictograma Distanţă faţă de ecran",
+              "title": "Distanţa faţă de ecran",
+              "descriptionV2": "Sunteţi anunţaţi atunci când vă aflaţi prea aproape de ecran"
+            }
+          }
+        }
+      }
+    },
+    "ru": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Затвор камеры закрыт",
+          "description": "Откройте затвор камеры, чтобы включить функцию «Расстояние от экрана».",
+          "or": "Или",
+          "turnOff": "отключите «Расстояние от экрана».",
+          "learnMore": "Узнать больше",
+          "Close": "Закрыть",
+          "titleV2": "Определение расстояния до экрана недоступно при закрытом затворе камеры.",
+          "disableScreenDistance": "Отключить определние расстояния до экрана",
+          "open": "Открытые"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Функции «Расстояние от экрана» доступны только в режиме ноутбука.",
+          "title2": "Функции «Расстояние от экрана» недоступны при закрытой шторке камеры.",
+          "description": "Откройте шторку камеры, чтобы использовать функции «Расстояние от экрана»."
+        },
+        "pCScreenDistance": {
+          "title": "Расстояние от экрана",
+          "moduleIconAccessibilityLabel": "Значок «Расстояние от экрана»",
+          "restoreText": "Восстановить параметры по умолчанию",
+          "introHeading": "Расстояние от экрана",
+          "introDescription": "Если сидеть слишком близко к монитору, может возникнуть переутомление глаз. Вы получите уведомление, если будете находиться слишком близко к монитору или ближе предпочитаемого вами расстояния. Для использования этой функции требуется доступ к камере.",
+          "default": "По умолчанию",
+          "snoozeHeading": "Отложить",
+          "alertOptionsHeading": "Параметры оповещения",
+          "setDistanceHeading": "Установите предпочитаемое расстояние",
+          "currentDistance": "Установленное сейчас расстояние: ",
+          "distanceCm": "см",
+          "distanceInch": "д.",
+          "setDistanceDescription": "Установите пороговое значение для предпочитаемого расстояния. Расстояние между вами и устройством будет определяться с помощью камеры устройства.",
+          "tooltipsLabel": "Подпись: подсказки",
+          "tooltipsDescription": "Эта функция работает, только когда встроенная камера направлена на вас (смотрите изображение ниже). Эта функция не поддерживает внешние мониторы.",
+          "set": "Установить",
+          "featureOn": "Вкл",
+          "featureOff": "Выкл",
+          "blurTransparencyNotificationMessage": "Включите прозрачность в настройках системы, чтобы использовать размытие",
+          "blurTransparencyNotificationButton": "Настройки прозрачности",
+          "blurTransparencyNotificationOpen": "Открыть настройки прозрачности",
+          "blurHighContrastNotificationMessage": "Отключите режим высокой контрастности, чтобы использовать размытие",
+          "blurHighContrastNotificationButton": "Настройки высокой контрастности",
+          "blurHighContrastNotificationOpen": "Открыть настройки высокой контрастности",
+          "distanceIn": "д.",
+          "distanceInches": "д.",
+          "tooltips": "подсказки"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Уведомление",
+          "nudgeMeDescription": "Вы получите небольшое уведомление. Закрыть его можно, вернувшись назад или нажав клавишу Esc.",
+          "fullNotification": "Предупреждение",
+          "fullNotificationDescription": "Уведомление, включающее дополнительные способы отложить или закрыть его.",
+          "blurMyDisplay": "Размытие",
+          "blurMyDisplayDescription": "Размывает дисплей. Перейти обратно в нормальный режим можно, вернувшись назад или нажав клавишу Esc."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Изменить расстояние",
+          "resetButton": "Сбросить",
+          "saveButton": "Сохранить",
+          "cancelButton": "Отмена",
+          "allSetDescription": "Все готово"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Отслеживайте и анализируйте время, проводимое за ПК",
+              "featureCard": "Действие «Здоровье»",
+              "icon": "Значок «Здоровье»",
+              "title": "Экранное время"
+            },
+            "pcscreendistance": {
+              "description": "Уведомляет вас, когда вы слишком близко к экрану. Предупреждает переутомление глаз.",
+              "featureCard": "Действие «Расстояние от экрана»",
+              "icon": "Значок «Расстояние от экрана»",
+              "title": "Расстояние от экрана",
+              "descriptionV2": "Вы получите уведомление, если будете находиться слишком близко к экрану"
+            }
+          }
+        }
+      }
+    },
+    "sk": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kryt kamery je zatvorený",
+          "description": "Otvorením krytu kamery povoľte funkciu Vzdialenosť od obrazovky.",
+          "or": "Alebo",
+          "turnOff": "vypnite vzdialenosť od obrazovky.",
+          "learnMore": "Ďalšie informácie",
+          "Close": "Zavrieť",
+          "titleV2": "Ak je kryt kamery zavretý, funkcia Vzdialenosť obrazovky nie je k dispozícii.",
+          "disableScreenDistance": "Zakázať vzdialenosť od obrazovky",
+          "open": "Otvoriť"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Funkcie Vzdialenosť od obrazovky sú k dispozícii iba v režime mušle.",
+          "title2": "Ak je kryt kamery zavretý, funkcie Vzdialenosť od obrazovky nie sú k dispozícii.",
+          "description": "Ak chcete funkcie Vzdialenosť od obrazovky používať, otvorte kryt kamery."
+        },
+        "pCScreenDistance": {
+          "title": "Vzdialenosť od obrazovky",
+          "moduleIconAccessibilityLabel": "Ikona Vzdialenosť od obrazovky",
+          "restoreText": "Obnoviť predvolené nastavenia",
+          "introHeading": "Vzdialenosť od obrazovky",
+          "introDescription": "Sedenie príliš blízko k monitoru môže spôsobiť únavu očí. Ak sa premiestnite príliš blízko k monitoru alebo príliš blízko z preferovanej vzdialenosti, dostanete upozornenie. Táto funkcia vyžaduje prístup ku kamere.",
+          "default": "Predvolené",
+          "snoozeHeading": "Odložiť",
+          "alertOptionsHeading": "Možnosti upozornení",
+          "setDistanceHeading": "Nastaviť preferovanú vzdialenosť",
+          "currentDistance": "Aktuálne nastavená vzdialenosť: ",
+          "distanceCm": "cm",
+          "distanceInch": "palec",
+          "setDistanceDescription": "Nastavte vlastnú prahovú hodnotu preferovanej vzdialenosti. Na zistenie vzdialenosti medzi vami a zariadením sa použije kamera zariadenia.",
+          "tooltipsLabel": "Označenie Popisy",
+          "tooltipsDescription": "Táto funkcia je k dispozícii iba vtedy, keď je vstavaná kamera otočená k vám (obrázok nižšie). Táto funkcia nepodporuje externé monitory.",
+          "set": "Nastaviť",
+          "featureOn": "Zapnúť",
+          "featureOff": "Vypnúť",
+          "blurTransparencyNotificationMessage": "Ak chcete použiť rozmazanie, v časti Nastavenia systému povoľte možnosť Priehľadnosť",
+          "blurTransparencyNotificationButton": "Nastavenia priehľadnosti",
+          "blurTransparencyNotificationOpen": "Otvoriť nastavenia priehľadnosti",
+          "blurHighContrastNotificationMessage": "Ak chcete použiť rozmazanie, zakážte režim Vysoký kontrast",
+          "blurHighContrastNotificationButton": "Nastavenia vysokého kontrastu",
+          "blurHighContrastNotificationOpen": "Otvoriť nastavenia vysokého kontrastu",
+          "distanceIn": "palcov",
+          "distanceInches": "palce",
+          "tooltips": "popisy"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Štuchnúť",
+          "nudgeMeDescription": "Zobrazí sa menšie upozornenie. Zrušíte ho pohybom späť alebo stlačením klávesu esc.",
+          "fullNotification": "Výstraha",
+          "fullNotificationDescription": "Upozornenie, ktoré obsahuje viac možností na odloženie alebo zrušenie.",
+          "blurMyDisplay": "Rozmazať",
+          "blurMyDisplayDescription": "Rozmaže obrazovku. K normálnemu zobrazeniu sa vrátite pohybom späť alebo stlačením klávesu esc."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Zmeniť vzdialenosť",
+          "resetButton": "Obnoviť",
+          "saveButton": "Uložiť",
+          "cancelButton": "Zrušiť",
+          "allSetDescription": "Všetko je nastavené"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Spravujte a analyzujte čas strávený pred počítačom",
+              "featureCard": "Položka akcie Zdravý životný štýl",
+              "icon": "Ikona Zdravý životný štýl",
+              "title": "Čas pred obrazovkou"
+            },
+            "pcscreendistance": {
+              "description": "Upozorní vás, keď ste príliš blízko pri obrazovke. Zabraňuje namáhaniu očí.",
+              "featureCard": "Položka akcie Vzdialenosť od obrazovky",
+              "icon": "Ikona Vzdialenosť od obrazovky",
+              "title": "Vzdialenosť od obrazovky",
+              "descriptionV2": "Upozornenie, keď ste príliš blízko pri obrazovke"
+            }
+          }
+        }
+      }
+    },
+    "sl": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Zaklop kamere je zaprt",
+          "description": "Odprite zaklop kamere, da omogočite razdaljo od zaslona.",
+          "or": "Ali",
+          "turnOff": "Izklopite razdaljo od zaslona.",
+          "learnMore": "Več informacij",
+          "Close": "Zapri",
+          "titleV2": "Funkcija razdalje od zaslona ni na voljo, če je zapiralo kamere zaprto.",
+          "disableScreenDistance": "Onemogoči razdaljo od zaslona",
+          "open": "Odpri"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Funkcije oddaljenosti zaslona so na voljo samo v načinu školjke.",
+          "title2": "Funkcije oddaljenosti zaslona niso na voljo, kadar je zaklop kamere zaprt.",
+          "description": "Odprite zaklop kamere, če želite uporabiti funkcije oddaljenosti zaslona."
+        },
+        "pCScreenDistance": {
+          "title": "Razdalja od zaslona",
+          "moduleIconAccessibilityLabel": "Ikona razdalje od zaslona",
+          "restoreText": "Obnovi privzete nastavitve",
+          "introHeading": "Razdalja od zaslona",
+          "introDescription": "Če sedite preblizu monitorja, lahko pride do utrujenosti oči. V primeru, da sedite preblizu monitorja ali preblizu glede na želeno razdaljo, boste prejeli obvestilo. Ta funkcija zahteva dostop do kamere.",
+          "default": "Privzeto",
+          "snoozeHeading": "Dremež",
+          "alertOptionsHeading": "Možnosti opozoril",
+          "setDistanceHeading": "Nastavi želeno razdaljo",
+          "currentDistance": "Trenutna nastavljena razdalja: ",
+          "distanceCm": "cm",
+          "distanceInch": "palec",
+          "setDistanceDescription": "Nastavite mejno vrednost po meri za želeno razdaljo. Za zaznavanje razdalje med vami in napravo bo uporabljena kamera vaše naprave.",
+          "tooltipsLabel": "Oznaka opisov orodij",
+          "tooltipsDescription": "Ta funkcija deluje samo, če je vgrajena kamera obrnjena proti vam (kot na spodnji sliki)​. Ta funkcija ne podpira zunanjih monitorjev.",
+          "set": "Nastavi",
+          "featureOn": "Vklopljeno",
+          "featureOff": "Izklopljeno",
+          "blurTransparencyNotificationMessage": "Omogočite »Prosojnost« in »Sistemske nastavitve«, da boste lahko uporabljali možnost »Zameglitev«",
+          "blurTransparencyNotificationButton": "Nastavitve prosojnosti",
+          "blurTransparencyNotificationOpen": "Odpri nastavitve prosojnosti",
+          "blurHighContrastNotificationMessage": "Za uporabo zameglitve onemogočite visokokontrastni način",
+          "blurHighContrastNotificationButton": "Nastavitve visokega kontrasta",
+          "blurHighContrastNotificationOpen": "Odpri nastavitve visokega kontrasta",
+          "distanceIn": "palci",
+          "distanceInches": "palci",
+          "tooltips": "Namigi za orodja"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Dregni me",
+          "nudgeMeDescription": "Prejmite krajše obvestilo. Odstranite ga tako, da se premaknete nazaj ali pritisnete tipko »esc«.",
+          "fullNotification": "Opozorilo",
+          "fullNotificationDescription": "Obvestilo, ki vključuje več možnosti za ponovni opomnik ali opustitev.",
+          "blurMyDisplay": "Zamegli",
+          "blurMyDisplayDescription": "Zamegli zaslon. V običajen prikaz se vrnete tako, da se premaknete nazaj ali pritisnete tipko »esc«."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Spremeni razdaljo",
+          "resetButton": "Ponastavi",
+          "saveButton": "Shrani",
+          "cancelButton": "Prekliči",
+          "allSetDescription": "Vse je pripravljeno"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Upravljajte in analizirajte čas uporabe računalnika",
+              "featureCard": "Opravilo dobrega počutja",
+              "icon": "Ikona dobrega počutja",
+              "title": "Čas uporabe zaslona"
+            },
+            "pcscreendistance": {
+              "description": "Obvesti vas, če ste preblizu zaslonu. Preprečuje utrujenost oči.",
+              "featureCard": "Opravilo oddaljenosti zaslona",
+              "icon": "Ikona razdalje od zaslona",
+              "title": "Razdalja od zaslona",
+              "descriptionV2": "Prejmite obvestilo, če ste preblizu zaslonu"
+            }
+          }
+        }
+      }
+    },
+    "sr-Latn-RS": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Zatvarač kamere je zatvoren",
+          "description": "Otvorite zatvarač kamere da biste omogućili Udaljenost ekrana.",
+          "or": "Ili",
+          "turnOff": "isključite Udaljenost od ekrana.",
+          "learnMore": "Saznajte više",
+          "Close": "Zatvori",
+          "titleV2": "Razdaljina ekrana nije dostupna kada je zatvoren poklopac kamere.",
+          "disableScreenDistance": "Onemogući udaljenost ekrana",
+          "open": "Otvoreno"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Funkcije udaljenosti od ekrana su dostupne samo u režimu preklopa.",
+          "title2": "Funkcije udaljenosti od ekrana nisu dostupne kada je zatvoren zatvarač kamere.",
+          "description": "Otvorite zatvarač kamere da biste koristili funkcije udaljenosti od ekrana."
+        },
+        "pCScreenDistance": {
+          "title": "Udaljenost od ekrana",
+          "moduleIconAccessibilityLabel": "Ikona udaljenosti od ekrana",
+          "restoreText": "Vrati podrazumevane postavke",
+          "introHeading": "Udaljenost od ekrana",
+          "introDescription": "Ako sedite previše blizu monitora, to može izazvati naprezanje očiju. Dobićete obaveštenje ako se previše približite monitoru ili budete previše blizu u odnosu na željenu udaljenost. Ova funkcija zahteva pristup kameri.",
+          "default": "Podrazumevano",
+          "snoozeHeading": "Odloži",
+          "alertOptionsHeading": "Opcije upozorenja",
+          "setDistanceHeading": "Postavite željenu udaljenost",
+          "currentDistance": "Trenutno postavljeno rastojanje: ",
+          "distanceCm": "cm",
+          "distanceInch": "inč",
+          "setDistanceDescription": "Podesite prilagođenu graničnu vrednost za željenu udaljenost. Kamera uređaja će se koristiti za otkrivanje udaljenosti između vas i vašeg uređaja.",
+          "tooltipsLabel": "Oznaka opisa alatke",
+          "tooltipsDescription": "Ova funkcija radi samo kada je ugrađena kamera okrenuta prema vama (kao što je prikazano na slici ispod). Ova funkcija ne podržava spoljne monitore.",
+          "set": "Podesi",
+          "featureOn": "Uključeno",
+          "featureOff": "Isključeno",
+          "blurTransparencyNotificationMessage": "Omogućite prozirnost u podešavanjima sistema da biste koristili zamućenje",
+          "blurTransparencyNotificationButton": "Postavke providnosti",
+          "blurTransparencyNotificationOpen": "Otvaranje postavki providnosti",
+          "blurHighContrastNotificationMessage": "Onemogućite režim visokog kontrasta da biste koristili zamućenje",
+          "blurHighContrastNotificationButton": "Postavke visokog kontrasta",
+          "blurHighContrastNotificationOpen": "Otvaranje postavki visokog kontrasta",
+          "distanceIn": "in",
+          "distanceInches": "inča",
+          "tooltips": "opisi alatki"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Gurni",
+          "nudgeMeDescription": "Primite kraće obaveštenje. Odbacite ga pomeranjem unazad ili pritiskom tastera „esc“.",
+          "fullNotification": "Upozorenje",
+          "fullNotificationDescription": "Obaveštenje koje sadrži više opcija za odlaganje ili odbacivanje.",
+          "blurMyDisplay": "Zamagli",
+          "blurMyDisplayDescription": "Zamagljuje ekran. Vratite se na normalan ekran pomeranjem unazad ili pritiskom tastera „esc“."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Promenite udaljenost",
+          "resetButton": "Poništi",
+          "saveButton": "Sačuvaj",
+          "cancelButton": "Otkaži",
+          "allSetDescription": "Sve je spremno"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Upravljajte vremenom koje provodite za računarom i analizirajte ga",
+              "featureCard": "Stavka radnje dobrobiti",
+              "icon": "Ikona dobrobiti",
+              "title": "Vreme ispred ekrana"
+            },
+            "pcscreendistance": {
+              "description": "Obaveštava vas kada ste preblizu ekranu. Sprečava naprezanje očiju.",
+              "featureCard": "Stavka radnje udaljenosti od ekrana",
+              "icon": "Ikona udaljenosti od ekrana",
+              "title": "Udaljenost od ekrana",
+              "descriptionV2": "Dobijajte obaveštenja kada ste previše blizu ekrana"
+            }
+          }
+        }
+      }
+    },
+    "sr-BA": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Zatvarač kamere je zatvoren",
+          "description": "Otvorite zatvarač kamere da biste omogućili Udaljenost ekrana.",
+          "or": "Ili",
+          "turnOff": "isključite Udaljenost od ekrana.",
+          "learnMore": "Saznajte više",
+          "Close": "Zatvori",
+          "titleV2": "Razdaljina ekrana nije dostupna kada je zatvoren poklopac kamere.",
+          "disableScreenDistance": "Onemogući udaljenost ekrana",
+          "open": "Otvoreno"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Funkcije udaljenosti od ekrana su dostupne samo u režimu preklopa.",
+          "title2": "Funkcije udaljenosti od ekrana nisu dostupne kada je zatvoren zatvarač kamere.",
+          "description": "Otvorite zatvarač kamere da biste koristili funkcije udaljenosti od ekrana."
+        },
+        "pCScreenDistance": {
+          "title": "Udaljenost od ekrana",
+          "moduleIconAccessibilityLabel": "Ikona udaljenosti od ekrana",
+          "restoreText": "Vrati podrazumevane postavke",
+          "introHeading": "Udaljenost od ekrana",
+          "introDescription": "Ako sedite previše blizu monitora, to može izazvati naprezanje očiju. Dobićete obaveštenje ako se previše približite monitoru ili budete previše blizu u odnosu na željenu udaljenost. Ova funkcija zahteva pristup kameri.",
+          "default": "Podrazumevano",
+          "snoozeHeading": "Odloži",
+          "alertOptionsHeading": "Opcije upozorenja",
+          "setDistanceHeading": "Postavite željenu udaljenost",
+          "currentDistance": "Trenutno postavljeno rastojanje: ",
+          "distanceCm": "cm",
+          "distanceInch": "inč",
+          "setDistanceDescription": "Podesite prilagođenu graničnu vrednost za željenu udaljenost. Kamera uređaja će se koristiti za otkrivanje udaljenosti između vas i vašeg uređaja.",
+          "tooltipsLabel": "Oznaka opisa alatke",
+          "tooltipsDescription": "Ova funkcija radi samo kada je ugrađena kamera okrenuta prema vama (kao što je prikazano na slici ispod). Ova funkcija ne podržava spoljne monitore.",
+          "set": "Podesi",
+          "featureOn": "Uključeno",
+          "featureOff": "Isključeno",
+          "blurTransparencyNotificationMessage": "Omogućite prozirnost u podešavanjima sistema da biste koristili zamućenje",
+          "blurTransparencyNotificationButton": "Postavke providnosti",
+          "blurTransparencyNotificationOpen": "Otvaranje postavki providnosti",
+          "blurHighContrastNotificationMessage": "Onemogućite režim visokog kontrasta da biste koristili zamućenje",
+          "blurHighContrastNotificationButton": "Postavke visokog kontrasta",
+          "blurHighContrastNotificationOpen": "Otvaranje postavki visokog kontrasta",
+          "distanceIn": "in",
+          "distanceInches": "inča",
+          "tooltips": "opisi alatki"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Gurni",
+          "nudgeMeDescription": "Primite kraće obaveštenje. Odbacite ga pomeranjem unazad ili pritiskom tastera „esc“.",
+          "fullNotification": "Upozorenje",
+          "fullNotificationDescription": "Obaveštenje koje sadrži više opcija za odlaganje ili odbacivanje.",
+          "blurMyDisplay": "Zamagli",
+          "blurMyDisplayDescription": "Zamagljuje ekran. Vratite se na normalan ekran pomeranjem unazad ili pritiskom tastera „esc“."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Promenite udaljenost",
+          "resetButton": "Poništi",
+          "saveButton": "Sačuvaj",
+          "cancelButton": "Otkaži",
+          "allSetDescription": "Sve je spremno"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Upravljajte vremenom koje provodite za računarom i analizirajte ga",
+              "featureCard": "Stavka radnje dobrobiti",
+              "icon": "Ikona dobrobiti",
+              "title": "Vreme ispred ekrana"
+            },
+            "pcscreendistance": {
+              "description": "Obaveštava vas kada ste preblizu ekranu. Sprečava naprezanje očiju.",
+              "featureCard": "Stavka radnje udaljenosti od ekrana",
+              "icon": "Ikona udaljenosti od ekrana",
+              "title": "Udaljenost od ekrana",
+              "descriptionV2": "Dobijajte obaveštenja kada ste previše blizu ekrana"
+            }
+          }
+        }
+      }
+    },
+    "sv": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kameraslutaren är stängd",
+          "description": "Öppna kameraslutaren för att aktivera skärmavståndet.",
+          "or": "Eller",
+          "turnOff": "inaktivera skärmavståndet.",
+          "learnMore": "Läs mer",
+          "Close": "Stäng",
+          "titleV2": "Avstånd till skärmen är inte tillgängligt när kamerans slutare är stängd.",
+          "disableScreenDistance": "Inaktivera skärmavstånd",
+          "open": "Öppna"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Funktionerna Skärmavstånd är endast tillgängliga i clamshell-läget.",
+          "title2": "Funktionerna Skärmavstånd är inte tillgängliga medan kamerans slutare är stängd.",
+          "description": "Öppna kamerans slutare för att använda funktionerna Skärmavstånd."
+        },
+        "pCScreenDistance": {
+          "title": "Avstånd till bildskärmen",
+          "moduleIconAccessibilityLabel": "Ikon för Skärmavstånd",
+          "restoreText": "Återställ standardinställningarna",
+          "introHeading": "Avstånd till bildskärmen",
+          "introDescription": "Att sitta för nära bildskärmen kan orsaka ansträngningar i ögonen. Ett meddelande visas om du sitter för nära bildskärmen eller under önskat avstånd. Den här funktionen kräver åtkomst till kameran.",
+          "default": "Standard",
+          "snoozeHeading": "Viloläge",
+          "alertOptionsHeading": "Varningsalternativ",
+          "setDistanceHeading": "Ställ in önskat avstånd",
+          "currentDistance": "Aktuellt inställt avstånd: ",
+          "distanceCm": "cm",
+          "distanceInch": "tum",
+          "setDistanceDescription": "Ställ in ett anpassat gränsvärde som ditt föredragna avstånd. Enhetens kamera används sedan för att känna av avståndet mellan dig och enheten.",
+          "tooltipsLabel": "Etikett för verktygstips",
+          "tooltipsDescription": "Den här funktionen fungerar endast när den inbyggda kameran är vänd mot dig (bilden nedan). Den här funktionen har inte stöd för externa bildskärmar.",
+          "set": "Ställ in",
+          "featureOn": "På",
+          "featureOff": "Av",
+          "blurTransparencyNotificationMessage": "Aktivera transparens i systeminställningarna för att använda oskärpa",
+          "blurTransparencyNotificationButton": "Transparensinställningar",
+          "blurTransparencyNotificationOpen": "Öppna transparensinställningar",
+          "blurHighContrastNotificationMessage": "Inaktivera högkontrastläget för att använda oskärpa",
+          "blurHighContrastNotificationButton": "Inställningar för hög kontrast",
+          "blurHighContrastNotificationOpen": "Öppna inställningar för hög kontrast",
+          "distanceIn": "tum",
+          "distanceInches": "tum",
+          "tooltips": "verktygstips"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Meddela",
+          "nudgeMeDescription": "Få ett mindre meddelande. Stäng det genom att gå tillbaka eller trycka på tangenten ”Esc”.",
+          "fullNotification": "Varning",
+          "fullNotificationDescription": "Ett meddelande som innehåller fler olika alternativ att snooza eller avvisa.",
+          "blurMyDisplay": "Gör oskarp",
+          "blurMyDisplayDescription": "Gör bildskärmen oskarp. Inaktivera funktionen genom att gå tillbaka eller trycka på tangenten ”Esc”."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Ändra avstånd",
+          "resetButton": "Återställ",
+          "saveButton": "Spara",
+          "cancelButton": "Avbryt",
+          "allSetDescription": "Nu är du redo"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Hantera och analysera tiden som spenderas vid datorn",
+              "featureCard": "Åtgärdspunkt för friskvård",
+              "icon": "Ikon för Friskvård",
+              "title": "Skärmtid"
+            },
+            "pcscreendistance": {
+              "description": "Meddelar när du befinner dig för nära bildskärmen. Förhindrar ansträngda ögon.",
+              "featureCard": "Åtgärdspunkt för skärmavstånd",
+              "icon": "Ikon för Skärmavstånd",
+              "title": "Avstånd till bildskärmen",
+              "descriptionV2": "Få ett meddelande när du är för nära bildskärmen"
+            }
+          }
+        }
+      }
+    },
+    "th": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "ชัตเตอร์กล้องปิดอยู่",
+          "description": "เปิดชัตเตอร์กล้องของคุณเพื่อเปิดใช้งานระยะห่างจากหน้าจอ",
+          "or": "หรือ",
+          "turnOff": "ปิดระยะห่างจากหน้าจอ",
+          "learnMore": "เรียนรู้เพิ่มเติม",
+          "Close": "ปิด",
+          "titleV2": "ไม่สามารถใช้ฟีเจอร์ระยะห่างหน้าจอได้ในขณะที่ชัตเตอร์กล้องของคุณถูกปิดไว้",
+          "disableScreenDistance": "ปิดใช้งานระยะห่างจากหน้าจอ",
+          "open": "เปิด"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "ใช้คุณสมบัติระยะห่างหน้าจอได้ในโหมดฝาพับเท่านั้น",
+          "title2": "ในขณะที่ปิดชัตเตอร์กล้องอยู่ จะใช้งานคุณสมบัติระยะห่างหน้าจอไม่ได้",
+          "description": "เปิดชัตเตอร์กล้องเพื่อใช้คุณสมบัติระยะห่างหน้าจอ"
+        },
+        "pCScreenDistance": {
+          "title": "ระยะห่างจากหน้าจอ",
+          "moduleIconAccessibilityLabel": "ไอคอนระยะห่างจากหน้าจอ",
+          "restoreText": "คืนค่าการตั้งค่าเริ่มต้น",
+          "introHeading": "ระยะห่างจากหน้าจอ",
+          "introDescription": "การนั่งใกล้กับจอภาพของคุณมากเกินไป อาจทำให้ดวงตาของคุณล้า คุณจะได้รับการแจ้งเตือนเมื่อคุณขยับเข้าใกล้จอภาพมากเกินไป หรืออยู่ห่างจากระยะที่คุณต้องการมากเกินไป ฟีเจอร์นี้จำเป็นต้องเข้าถึงกล้องของคุณ",
+          "default": "ค่าเริ่มต้น",
+          "snoozeHeading": "เลื่อนการเตือน",
+          "alertOptionsHeading": "ตัวเลือกการแจ้งเตือน",
+          "setDistanceHeading": "ตั้งค่าระยะห่างที่ต้องการ",
+          "currentDistance": "ระยะห่างที่ตั้งไว้ในปัจจุบัน: ",
+          "distanceCm": "ซม.",
+          "distanceInch": "นิ้ว",
+          "setDistanceDescription": "ตั้งค่าเกณฑ์แบบกำหนดเอง เพื่อกำหนดระยะห่างที่คุณต้องการ ระบบจะใช้กล้องในอุปกรณ์ของคุณเพื่อตรวจจับระยะห่างระหว่างคุณและอุปกรณ์ของคุณ",
+          "tooltipsLabel": "ป้ายกำกับคำแนะนำเครื่องมือ",
+          "tooltipsDescription": "ฟีเจอร์นี้จะใช้งานเฉพาะเมื่อกล้องในอุปกรณ์ของคุณเป็นแบบหันหน้าเข้าหาคุณ (ตามรูปด้านข้าง) ฟีเจอร์นี้ไม่รองรับจอภาพภายนอก",
+          "set": "เซ็ต",
+          "featureOn": "เปิด",
+          "featureOff": "ปิด",
+          "blurTransparencyNotificationMessage": "เปิดใช้งานความโปร่งใสในการตั้งค่าระบบเพื่อใช้เบลอ",
+          "blurTransparencyNotificationButton": "การตั้งค่าความโปร่งใส",
+          "blurTransparencyNotificationOpen": "เปิดการตั้งค่าความโปร่งใส",
+          "blurHighContrastNotificationMessage": "ปิดใช้งานโหมดความคมชัดสูงเพื่อใช้การเบลอ",
+          "blurHighContrastNotificationButton": "การตั้งค่าความคมชัดสูง",
+          "blurHighContrastNotificationOpen": "เปิดการตั้งค่าความคมชัดสูง",
+          "distanceIn": "นิ้ว",
+          "distanceInches": "นิ้ว",
+          "tooltips": "คำแนะนำเครื่องมือ"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "เขย่าเตือน",
+          "nudgeMeDescription": "รับการแจ้งเตือนเพียงเล็กน้อย ปิดโดยการขยับถอยหลัง หรือกดแป้น “esc”",
+          "fullNotification": "การแจ้งเตือน",
+          "fullNotificationDescription": "การแจ้งเตือนที่มาพร้อมตัวเลือกเพิ่มเติมในการเลื่อนการเตือนหรือปิด",
+          "blurMyDisplay": "เบลอ",
+          "blurMyDisplayDescription": "เบลอจอแสดงผล มุมมองจะกลับเป็นปกติ เมื่อขยับถอยหลังหรือกดแป้น “esc”"
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "เปลี่ยนระยะห่าง",
+          "resetButton": "รีเซ็ต",
+          "saveButton": "บันทึก",
+          "cancelButton": "ยกเลิก",
+          "allSetDescription": "เรียบร้อยแล้ว"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "จัดการและวิเคราะห์เวลาที่คุณใช้งานพีซี",
+              "featureCard": "รายการการสั่งการเพื่อความเป็นอยู่ที่ดี",
+              "icon": "ไอคอนความเป็นอยู่ที่ดี",
+              "title": "เวลาหน้าจอ"
+            },
+            "pcscreendistance": {
+              "description": "แจ้งให้คุณทราเมื่อคุณอยู่ใกล้ขจอภาพมากเกินไป ป้องกันการเกิดอาการตาล้า",
+              "featureCard": "รายการการสั่งการระยะห่างหน้าจอ",
+              "icon": "ไอคอนระยะห่างจากหน้าจอ",
+              "title": "ระยะห่างจากหน้าจอ",
+              "descriptionV2": "รับการแจ้งให้ทราบเมื่อคุณอยู่ใกล้จอภาพมากเกินไป"
+            }
+          }
+        }
+      }
+    },
+    "tr": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Kamera Deklanşörü Kapalı",
+          "description": "Ekran Mesafesini etkinleştirmek için kamera deklanşörünüzü açın.",
+          "or": "Veya",
+          "turnOff": "Ekran Mesafesini kapatın.",
+          "learnMore": "Daha Fazla Bilgi",
+          "Close": "Kapat",
+          "titleV2": "Kamera perdesi kapalıyken Ekran Mesafesi kullanılamaz.",
+          "disableScreenDistance": "Ekran Mesafesini Devre Dışı Bırak",
+          "open": "Aç"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Ekran Mesafesi özellikleri sadece portatif bilgisayr modunda kullanılabilir.",
+          "title2": "Ekran Mesafesi özellikleri, kameranızın perdesi kapalıyken kullanılamaz.",
+          "description": "Ekran Mesafesi özelliklerini kullanmak için kamera perdesini açın."
+        },
+        "pCScreenDistance": {
+          "title": "Ekran Mesafesi",
+          "moduleIconAccessibilityLabel": "Ekran Mesafesi Simgesi",
+          "restoreText": "Varsayılan Ayarları Geri Yükle",
+          "introHeading": "Ekran Mesafesi",
+          "introDescription": "Monitörünüze çok yakın oturmak göz yorgunluğuna neden olabilir. Monitörünüze çok yaklaşırsanız veya tercih ettiğiniz mesafeden çok yaklaşırsanız bir bildirim alırsınız. Bu özellik, kameranıza erişim gerektirir.",
+          "default": "Varsayılan",
+          "snoozeHeading": "Ertele",
+          "alertOptionsHeading": "Uyarı Seçenekleri",
+          "setDistanceHeading": "Tercih Ettiğiniz Mesafeyi Ayarlayın",
+          "currentDistance": "Geçerli Ayar Mesafesi: ",
+          "distanceCm": "cm",
+          "distanceInch": "inç",
+          "setDistanceDescription": "Tercih ettiğiniz mesafe için özel bir eşik ayarlayın. Sizinle cihazınız arasındaki mesafeyi tespit etmek için cihazınızın kamerası kullanılacaktır.",
+          "tooltipsLabel": "Araç ipuçları etiketi",
+          "tooltipsDescription": "Bu özellik sadece, dahili kameranız size dönükken çalışır (aşağıdaki resimde gösterilmektedir). Bu özellik, harici monitörleri desteklememektedir.",
+          "set": "Ayar",
+          "featureOn": "Açık",
+          "featureOff": "Kapalı",
+          "blurTransparencyNotificationMessage": "Bulanıklığı kullanmak için Sistem Ayarlarında Şeffaflığı etkinleştirin",
+          "blurTransparencyNotificationButton": "Şeffaflık Ayarları",
+          "blurTransparencyNotificationOpen": "Şeffaflık Ayarlarını Aç",
+          "blurHighContrastNotificationMessage": "Bulanıklığı kullanmak için Yüksek Kontrast modunu devre dışı bırak",
+          "blurHighContrastNotificationButton": "Yüksek Kontrast Ayarları",
+          "blurHighContrastNotificationOpen": "Yüksek Kontrast Ayarlarını Aç",
+          "distanceIn": "in",
+          "distanceInches": "inç",
+          "tooltips": "Araç ipuçları"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Beni uyar",
+          "nudgeMeDescription": "Küçük bir bildirim alın. Geri giderek veya “esc” tuşuna basarak kapatın.",
+          "fullNotification": "Uyarı",
+          "fullNotificationDescription": "Ertelemek veya kapatmak için daha fazla seçenek içeren bir bildirim.",
+          "blurMyDisplay": "Bulanıklaştır",
+          "blurMyDisplayDescription": "Ekranı bulanıklaştırır. Geri giderek veya “esc” tuşuna basarak normal hale dönün."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Mesafeyi Değiştir",
+          "resetButton": "Sıfırlayın",
+          "saveButton": "Kaydet",
+          "cancelButton": "İptal",
+          "allSetDescription": "Tüm ayarları yaptınız"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Bilgisayarınızda geçirdiğiniz vakti yönetin ve analiz edin",
+              "featureCard": "Sağlık Eylemi Öğesi",
+              "icon": "Sağlık Simgesi",
+              "title": "Ekran Süresi"
+            },
+            "pcscreendistance": {
+              "description": "Ekrana çok yakın olduğunuzda sizi uyarır. Göz yorgunluğunu önler.",
+              "featureCard": "Ekran Mesafesi Eylemi Öğesi",
+              "icon": "Ekran Mesafesi Simgesi",
+              "title": "Ekran Mesafesi",
+              "descriptionV2": "Ekranınıza çok yakın olduğunuzda bildirim alın"
+            }
+          }
+        }
+      }
+    },
+    "uk": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "Затвор камери закрито",
+          "description": "Відкрийте затвор камери, щоб увімкнути функцію «Відстань до екрана»,",
+          "or": "або",
+          "turnOff": "вимкніть функцію «Відстань до екрана».",
+          "learnMore": "Дізнатися більше",
+          "Close": "Закрити",
+          "titleV2": "Відстань до проєкційного екрана недоступна, коли фотографічний затвор закрито.",
+          "disableScreenDistance": "Вимкнути функцію «Відстань до екрана»",
+          "open": "Відкрити"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "Функції «Відстань до екрана» доступні лише в режимі із закритою кришкою.",
+          "title2": "Функції «Відстань до екрана» недоступні, коли закрито затвор камери.",
+          "description": "Відкрийте затвор камери, щоб використовувати функції «Відстань до екрана»."
+        },
+        "pCScreenDistance": {
+          "title": "Відстань до екрана",
+          "moduleIconAccessibilityLabel": "Значок відстані до екрана",
+          "restoreText": "Відновити налаштування за замовчуванням",
+          "introHeading": "Відстань до екрана",
+          "introDescription": "Перебування в безпосередній близькості до екрана може викликати напруження очей. Ви отримаєте сповіщення, якщо наблизитеся до екрана занадто близько або ближче, ніж на вказану вами відстань. Для роботи цій функції потрібен доступ до камери.",
+          "default": "За замовчуванням",
+          "snoozeHeading": "Відкласти",
+          "alertOptionsHeading": "Параметри оповіщень",
+          "setDistanceHeading": "Установлення рекомендованої відстані",
+          "currentDistance": "Поточна встановлена відстань: ",
+          "distanceCm": "см",
+          "distanceInch": "дюйм",
+          "setDistanceDescription": "Встановіть власне порогове значення для бажаної відстані. Камера пристрою буде використовуватися для визначення відстані між вами та пристроєм.",
+          "tooltipsLabel": "Мітка підказок",
+          "tooltipsDescription": "Ця функція працює лише тоді, коли вбудована камера спрямована на вас (як показано на малюнку нижче). Ця функція не підтримує зовнішні монітори.",
+          "set": "Установити",
+          "featureOn": "Увімк.",
+          "featureOff": "Вимк.",
+          "blurTransparencyNotificationMessage": "Увімкнути прозорість у налаштуваннях системи, щоб використовувати розмиття",
+          "blurTransparencyNotificationButton": "Налаштування прозорості",
+          "blurTransparencyNotificationOpen": "Відкрити налаштування прозорості",
+          "blurHighContrastNotificationMessage": "Вимкнути режим високої контрастності, щоб використовувати розмиття",
+          "blurHighContrastNotificationButton": "Налаштування високої контрастності",
+          "blurHighContrastNotificationOpen": "Відкрити налаштування високої контрастності",
+          "distanceIn": "дюйм.",
+          "distanceInches": "дюйм.",
+          "tooltips": "підказки"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "Рекомендація",
+          "nudgeMeDescription": "Отримайте коротке сповіщення. Вимкніть його, перемістившись назад або натиснувши клавішу Esc.",
+          "fullNotification": "Попередження",
+          "fullNotificationDescription": "Сповіщення, яке включає більше параметрів відкладення або вимкнення.",
+          "blurMyDisplay": "Розмиття",
+          "blurMyDisplayDescription": "Розмиває зображення на екрані. Поверніться до нормального режиму, перемістившись назад або натиснувши клавішу Esc."
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "Змінити відстань",
+          "resetButton": "Скинути",
+          "saveButton": "Зберегти",
+          "cancelButton": "Скасувати",
+          "allSetDescription": "Усе готово"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "Аналізуйте й керуйте часом, який ви проводите за комп’ютером",
+              "featureCard": "Інтерактивний елемент здоров’я",
+              "icon": "Значок здоров’я",
+              "title": "Екранний час"
+            },
+            "pcscreendistance": {
+              "description": "Сповіщає, якщо ви занадто близько до монітора. Запобігає втомі очей.",
+              "featureCard": "Інтерактивний елемент відстані до екрана",
+              "icon": "Значок відстані до екрана",
+              "title": "Відстань до екрана",
+              "descriptionV2": "Отримуйте сповіщення, коли ви перебуваєте заблизько до екрана"
+            }
+          }
+        }
+      }
+    },
+    "zh-Hans": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "相机快门已关闭",
+          "description": "打开相机快门以启用屏幕距离。",
+          "or": "或者",
+          "turnOff": "关闭屏幕距离。",
+          "learnMore": "了解更多",
+          "Close": "关闭",
+          "titleV2": "当相机快门关闭时，屏幕距离不可用。",
+          "disableScreenDistance": "禁用屏幕距离",
+          "open": "未结"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "屏幕距离功能仅在翻盖模式下可用。",
+          "title2": "当相机快门关闭时，屏幕距离功能不可用。",
+          "description": "打开相机快门以使用屏幕距离功能。"
+        },
+        "pCScreenDistance": {
+          "title": "屏幕距离",
+          "moduleIconAccessibilityLabel": "屏幕距离图标",
+          "restoreText": "恢复默认设置",
+          "introHeading": "屏幕距离",
+          "introDescription": "坐得太靠近显示器会导致眼睛疲劳。如果您离显示器太近或离您的首选距离太近，您将收到通知。此功能需要访问您的相机。",
+          "default": "默认",
+          "snoozeHeading": "延后",
+          "alertOptionsHeading": "警报选项",
+          "setDistanceHeading": "设置首选距离",
+          "currentDistance": "当前设置的距离： ",
+          "distanceCm": "厘米",
+          "distanceInch": "英寸",
+          "setDistanceDescription": "为您的首选距离设置自定义阈值。您的设备相机将用于检测您和设备之间的距离。",
+          "tooltipsLabel": "工具提示标签",
+          "tooltipsDescription": "此功能仅在您的内置相机面向您时有效（如下图所示）。此功能不支持外部显示器。",
+          "set": "设置",
+          "featureOn": "开",
+          "featureOff": "关",
+          "blurTransparencyNotificationMessage": "在系统设置中启用透明度以使用“模糊”",
+          "blurTransparencyNotificationButton": "透明度设置",
+          "blurTransparencyNotificationOpen": "打开透明度设置",
+          "blurHighContrastNotificationMessage": "禁用高对比度模式以使用模糊",
+          "blurHighContrastNotificationButton": "高对比度设置",
+          "blurHighContrastNotificationOpen": "打开高对比度设置",
+          "distanceIn": "英寸",
+          "distanceInches": "英寸",
+          "tooltips": "工具提示"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "提醒",
+          "nudgeMeDescription": "收到小通知。向后移动或按“esc”键将其关闭。",
+          "fullNotification": "警告",
+          "fullNotificationDescription": "包含更多延后或关闭选项的通知。",
+          "blurMyDisplay": "模糊",
+          "blurMyDisplayDescription": "模糊显示。通过向后移动或按“esc”键恢复正常。"
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "更改距离",
+          "resetButton": "重置",
+          "saveButton": "保存",
+          "cancelButton": "取消",
+          "allSetDescription": "一切就绪"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "管理和分析您在 PC 上花费的时间",
+              "featureCard": "健康操作项",
+              "icon": "健康图标",
+              "title": "屏幕使用时间"
+            },
+            "pcscreendistance": {
+              "description": "当您离屏幕太近时会通知您。防止眼睛疲劳。",
+              "featureCard": "屏幕距离操作项",
+              "icon": "屏幕距离图标",
+              "title": "屏幕距离",
+              "descriptionV2": "当您离屏幕太近时会获得通知"
+            }
+          }
+        }
+      }
+    },
+    "zh-Hant": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "相機快門關閉",
+          "description": "開啟相機快門以啟用螢幕距離。",
+          "or": "或",
+          "turnOff": "關閉螢幕距離。",
+          "learnMore": "瞭解更多",
+          "Close": "關閉",
+          "titleV2": "當相機快門關閉時，螢幕距離不可用。",
+          "disableScreenDistance": "停用螢幕距離",
+          "open": "開啟"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "螢幕距離功能僅在翻蓋模式下可用。",
+          "title2": "當相機快門關閉時，螢幕距離功能不可用。",
+          "description": "開啟相機快門以使用螢幕距離功能。"
+        },
+        "pCScreenDistance": {
+          "title": "螢幕距離",
+          "moduleIconAccessibilityLabel": "畫面距離圖示",
+          "restoreText": "還原預設設定",
+          "introHeading": "螢幕距離",
+          "introDescription": "坐得太靠近顯示器會導致眼睛疲勞。如果您離顯示器太近或距離您的偏好距離太近，您將收到通知。此功能必須存取您的相機。",
+          "default": "預設值",
+          "snoozeHeading": "延時",
+          "alertOptionsHeading": "警示選項",
+          "setDistanceHeading": "設定偏好距離",
+          "currentDistance": "目前設定距離： ",
+          "distanceCm": "cm",
+          "distanceInch": "英吋",
+          "setDistanceDescription": "為您的偏好距離設定自訂臨界值。您的裝置相機將用於偵測您和裝置之間的距離。",
+          "tooltipsLabel": "工具提示標籤",
+          "tooltipsDescription": "此功能僅在您的內建相機面對您時有效 (如下圖所示)。此功能不支援外接顯示器。",
+          "set": "設定",
+          "featureOn": "開啟",
+          "featureOff": "關閉",
+          "blurTransparencyNotificationMessage": "在系統設定中啟用透明度以使用模糊",
+          "blurTransparencyNotificationButton": "透明度設定",
+          "blurTransparencyNotificationOpen": "開啟透明度設定",
+          "blurHighContrastNotificationMessage": "停用高對比模式以使用模糊",
+          "blurHighContrastNotificationButton": "高對比設定",
+          "blurHighContrastNotificationOpen": "開啟高對比設定",
+          "distanceIn": "在",
+          "distanceInches": "英吋",
+          "tooltips": "工具提示"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "來電震動",
+          "nudgeMeDescription": "收到一個小通知。移回或按下「esc」鍵將其關閉。",
+          "fullNotification": "警示",
+          "fullNotificationDescription": "通知會包含更多延時或關閉選項。",
+          "blurMyDisplay": "模糊",
+          "blurMyDisplayDescription": "模糊顯示器。移回或按下「esc」鍵以返回正常。"
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "變更距離",
+          "resetButton": "重設",
+          "saveButton": "儲存",
+          "cancelButton": "取消",
+          "allSetDescription": "一切就緒"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "管理和分析您在 PC 上花費的時間",
+              "featureCard": "健全動作項目",
+              "icon": "健全圖示",
+              "title": "螢幕時間"
+            },
+            "pcscreendistance": {
+              "description": "當您距離螢幕太近時會通知您。防止眼睛疲勞。",
+              "featureCard": "螢幕距離動作項目",
+              "icon": "畫面距離圖示",
+              "title": "螢幕距離",
+              "descriptionV2": "當您離螢幕太近時收到通知"
+            }
+          }
+        }
+      }
+    },
+    "zh-Hant-HK": {
+      "translation": {
+        "pCScreenDistanceCameraShutterWarning": {
+          "title": "鏡頭護窗已關閉",
+          "description": "開啟鏡頭護窗，以啟用屏幕距離。",
+          "or": "或是",
+          "turnOff": "關閉螢幕距離。",
+          "learnMore": "了解更多資訊",
+          "Close": "關閉",
+          "titleV2": "當鏡頭護窗已關閉時，無法使用「螢幕距離」功能。",
+          "disableScreenDistance": "停用螢幕距離",
+          "open": "開啟"
+        },
+        "pCScreenDistanceCameraShutterWarning24C2": {
+          "title1": "螢幕距離功能僅限於翻蓋模式下可用。",
+          "title2": "當鏡頭護窗關閉時，螢幕距離功能無法使用。",
+          "description": "開啟鏡頭護窗，以使用螢幕距離功能。"
+        },
+        "pCScreenDistance": {
+          "title": "螢幕距離",
+          "moduleIconAccessibilityLabel": "螢幕距離圖示",
+          "restoreText": "還原預設值設定",
+          "introHeading": "螢幕距離",
+          "introDescription": "坐得太近顯示器，可能導致雙眼疲勞。若你離顯示器過近，或者過於接近你的首選距離，你將收到通知。此功能須存取你的鏡頭。",
+          "default": "預設",
+          "snoozeHeading": "延時",
+          "alertOptionsHeading": "警示選項",
+          "setDistanceHeading": "設定偏好距離",
+          "currentDistance": "目前設定距離: ",
+          "distanceCm": "厘米",
+          "distanceInch": "吋",
+          "setDistanceDescription": "設定自訂首選距離閾值。你的裝置鏡頭將用於偵測你與裝置之間的距離。",
+          "tooltipsLabel": "工具貼士標籤",
+          "tooltipsDescription": "僅當內建相機面對你時，此功能才可運行 (如下圖所示)此功能不支援外部顯示器。",
+          "set": "設定",
+          "featureOn": "開啟",
+          "featureOff": "關閉",
+          "blurTransparencyNotificationMessage": "在系統設定中啟用透明度，以使用「模糊」",
+          "blurTransparencyNotificationButton": "透明度設定",
+          "blurTransparencyNotificationOpen": "開啟「透明度」設定",
+          "blurHighContrastNotificationMessage": "停用「高對比」模式以使用「模糊」",
+          "blurHighContrastNotificationButton": "「高對比」設定",
+          "blurHighContrastNotificationOpen": "開啟「高對比」設定",
+          "distanceIn": "吋",
+          "distanceInches": "吋",
+          "tooltips": "工具貼士"
+        },
+        "pCScreenDistanceAlertOptions": {
+          "nudgeMe": "快速推送",
+          "nudgeMeDescription": "接收小通知。後退或按下「esc」鍵以關閉。",
+          "fullNotification": "警示",
+          "fullNotificationDescription": "包含更多延後或解除選項的通知。",
+          "blurMyDisplay": "模糊",
+          "blurMyDisplayDescription": "模糊顯示屏。後退或按下「esc」鍵以恢復正常。"
+        },
+        "pCSetScreenDistance": {
+          "changeDistanceButton": "變更距離",
+          "resetButton": "重設",
+          "saveButton": "儲存",
+          "cancelButton": "取消",
+          "allSetDescription": "你已一切就緒"
+        },
+        "pCDevice": {
+          "actions": {
+            "pCWellness": {
+              "description": "管理及分析你的 PC 使用時間",
+              "featureCard": "保健操作項",
+              "icon": "健康圖示",
+              "title": "螢幕使用時間"
+            },
+            "pcscreendistance": {
+              "description": "當你距離螢幕太近時通知你。預防雙眼疲勞。",
+              "featureCard": "螢幕距離操作項",
+              "icon": "螢幕距離圖示",
+              "title": "螢幕距離",
+              "descriptionV2": "當你距離螢幕太近時發出通知"
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,78 @@
+{
+    "printer_network_card":{
+        "locator":{"css selector":"[data-testid='card-content']"}
+    },
+    "printer_network_page_title":{
+        "locator":{"xpath":"//h1[@data-testid='header'][1]"},
+        "localization":{"en":"Connect printer to network"}
+    },
+    "card_image":{
+        "locator":{"css selector":"[data-testid='card-image']"}
+    },
+    "card_instruction":{
+        "locator":{"css selector":"[data-testid='card-instructions']"},
+        "localization":{
+            "en":"1. Touch in the top right corner or in the bottom right of the screen, depending on your model.\n\n2. Select how you want to connect the printer and follow the on-screen prompts.\n\n3. Once the printer is connected to the internet, come back to this screen and select ‘Next’."}
+    },
+    "already_connected_to_the_network_btn":{
+        "locator":{"css selector":"[data-testid='skip-internet-connection']"}
+    },
+    "hp_software":{
+        "locator":{"css selector":["[data-testid='hp-software']", "[data-testid='carousel-page']"]}
+    },
+    "install_hp_smart_btn":{
+        "locator":{"css selector":["[data-testid='install-hp-smart']", "[data-testid='information_message']"]}
+    },
+    "use_usb_instead_btn":{
+        "locator":{"css selector":"[data-testid='setup-offline']"}
+    },
+    "connect_printer_to_internet_modal":{
+        "locator":{"css selector":"[data-testid='modal-content']"}
+    },
+    "connect_printer_to_internet_continue_with_usb_btn":{
+        "locator":{"css selector":"[data-testid='primary-button-USE_OFFLINE']"}
+    },
+    "connect_printer_to_internet_modal_close_btn":{
+        "locator":{"css selector":"[data-testid='secondary-button-USE_OFFLINE']"}
+    },
+    "trouble_installing_get_tips_btn":{
+        "locator":{"css selector":"[data-testid='open-trouble-installing-modal']"}
+    },
+    "trouble_installing_get_tips_close_btn":{
+        "locator":{"css selector":"[data-testid='primary-button-TROUBLE_INSTALLING']"}
+    },
+    "finish_printer_setup_page":{
+        "locator":{"css selector":"[data-testid='finish-setup-business-main-content']"}
+    },
+    "finish_printer_setup_header":{
+        "locator":{"xpath":"//div[@class='header']"}
+    },
+    "card_body":{
+        "locator":{"css selector":"[data-testid='body']"}
+    },
+    "page_image":{
+        "locator":{"css selector":"[data-testid='image']"}
+    },
+    "business_use_icon":{
+        "locator":{"css selector":"[data-testid='business-icon']"}
+    },
+    "button_text":{
+        "locator":{"css selector":"[data-testid ='Next']"}
+    },
+    "unsupported_os_page_content":{
+        "locator":{"css selector":"[data-testid='main-content']"}
+    },
+    "unsupported_os_card_image":{
+        "locator":{"css selector":"[data-testid='card-device-image-container']"}
+    },
+    "unsupported_os_qr_code":{
+        "locator":{"css selector":"[data-testid='card-qr-image-1']"}
+    },
+    "unsupported_os_card_body":{
+        "locator":{"css selector":"[data-testid='card-body-0']"}
+    },
+    "unsupported_os_after_setup_section":{
+        "locator":{"css selector":"[data-testid='after-setup-section']"}
+    }
+
+}

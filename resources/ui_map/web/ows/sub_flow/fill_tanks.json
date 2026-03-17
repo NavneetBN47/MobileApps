@@ -1,0 +1,19 @@
+{
+    "screw_cap":{
+        "locator":{"css selector":"label[for='screw-cap']"}
+    },
+    "flip_cap":{
+        "locator":{"css selector":"label[for='flip-cap']"}
+    },
+    "fill_ink_tanks_popup_continue_btn":{
+        "locator": {"xpath":"//button[@ng-click='nextStep()']",
+                    "css selector": "button.btn-enabled.btn-primary.ng-binding"}
+    },
+    "fill_ink_tanks_popup":{
+        "locator": {"css selector": ["div.modal.generic-error-modal", "div.modal"]}
+    },
+    "continue_btn":{
+        "locator":{"xpath":"//button[@ng-click='sendSkipStep()']",
+                   "css selector":"button.continue.btn-enabled.btn-primary.ng-binding"}
+    }
+}

@@ -1,0 +1,34 @@
+{
+
+    "sign_in_dialog_username_inputbox":{
+        "locator": {"name": "Username or Email Address"}
+    },
+
+    "sign_in_dialog_next_btn":{
+        "locator": {"name": "NEXT"}
+    },
+
+    "sign_in_dialog_password_inputbox":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXGroup[@AXDOMIdentifier='passwordContainer']/AXTextField[@AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[3]/AXTextField[@AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXTextField[@AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']"]}
+    },
+
+    "sign_in_dialog_sign_in_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXGroup[4]/AXButton[0]",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[5]/AXButton[@AXDOMIdentifier='sign-in']"]}
+    },
+
+    "sign_in_dialog_close_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXButton[@AXSubrole='AXCloseButton']"}
+    },
+
+    "sign_in_dialog_sign_up_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXButton[@AXDOMIdentifier='sign-up']",
+                              "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[5]/AXButton[@AXDOMIdentifier='sign-up']"]}
+    },
+
+    "sign_in_dialog_i_accept_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[@AXDOMIdentifier='onetrust-consent-sdk']/AXGroup[@AXDOMIdentifier='onetrust-banner-sdk']/AXGroup[@AXSubrole='AXApplicationDialog']/AXGroup[@AXDOMIdentifier='onetrust-button-group-parent']/AXGroup[@AXDOMIdentifier='onetrust-button-group']/AXGroup[0]/AXButton[@AXDOMIdentifier='onetrust-accept-btn-handler']"}
+    }
+}

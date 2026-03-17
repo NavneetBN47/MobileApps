@@ -1,0 +1,30 @@
+{
+    "we_found_your_hp_plus_printer_title":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:69']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:225' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:49']",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:115']"]}
+	},
+    
+    "we_found_your_hp_plus_printer_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:11']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:225' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:102']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:26']"]}
+    },
+
+	"hp_plus_printers_require_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"]}
+    },
+		
+	"keep_the_usb_cord_text":{
+		"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]",
+		                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"]}
+	},
+
+    "continue_btn":{
+    	"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:48']",
+    	                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:225' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:176']",
+    	                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:314' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:58']"]}
+    }
+
+}

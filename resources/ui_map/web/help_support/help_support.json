@@ -1,0 +1,201 @@
+{
+    "help_center_title":{
+        "locator":{
+            "xpath":"//h1[text()='Welcome to HP Smart App Help and Support']",
+            "name":"Welcome to HP Smart App Help and Support"
+        }
+    },
+    "chat_with_virtual_assistant_image":{
+        "_comment": "Chat with Virtual Assistant image on Help & Support screen",
+        "locator":{
+            "xpath": "//Button[@AutomationId='chatbotLink']/preceding-sibling::Image[1]"
+        }
+    },
+    "chat_with_virtual_assistant_content":{
+        "_comment": "Chat with Virtual Assistant content on Help & Support screen",
+        "locator":{
+            "xpath": "//Button[@AutomationId='chatbotLink']/preceding-sibling::Text"
+        }
+    },
+    "chat_with_virtual_assistant_btn":{
+        "_comment": "Chat with Virtual Assistant button on Help & Support screen",
+        "locator":{
+            "css selector":"button#chatbotLink",
+            "name": "Chat with Virtual Assistant",
+            "id": "chatbotLink"
+        }
+    },
+    "contact_hp_btn":{
+        "_comment": "Contact HP button on Help & Support screen",
+        "locator":{
+            "name": "Contact HP",
+            "id": "contacthpLink"
+        }
+    },
+    "getting_to_know_hp_smart_item":{
+        "_comment": "Getting to Know HP Smart item under About HP Smart section on Help & Support screen",
+        "locator":{
+            "id": "getting-to-know-hp-smart",
+            "css selector":"#getting-to-know-hp-smart"
+        }
+    },
+     "getting_to_know_hp_smart_message":{
+        "locator":{
+            "css selector":"#accordion_getting-to-know-hp-smart"
+        }
+    },
+    "starting_off_item":{
+        "_comment": "Getting to Know HP Smart item under About HP Smart section on Help & Support screen",
+        "locator":{
+            "id": "starting-off"
+        }
+    },
+    "sharing_files_item":{
+        "_comment": "Sharing Files item under About HP Smart section  on Help & Support screen",
+        "locator":{
+            "id": "sharing-files"
+        }
+    },
+    "what_is_hp_plus_item":{
+        "_comment": "What is HP+ item under HP+ section on Help & Support screen",
+        "locator":{
+            "id": "whatishpplus"
+        }
+    },
+    "hp_smart_security_item":{
+        "_comment": "HP Smart Security item under HP+ section on Help & Support screen",
+        "locator":{
+            "id": "hpsmartsecurity"
+        }
+    },
+    "what_is_hp_smart_advance_item":{
+        "_comment": "What is HP Smart Advance item under HP Smart Advance section on Help & Support screen",
+        "locator":{
+            "id": "hpsmartadvnohp"
+        }
+    },
+    "print_anywhere_item":{
+        "_comment": "Print Anywhere item under HP Smart Advance section on Help & Support screen",
+        "locator":{
+            "id": "printanywhereadvance"
+        }
+    },
+    "learn_more_item":{
+        "_comment": "Learn More item under HP Instant Ink section on Help & Support screen",
+        "locator":{
+            "id": "learn-more"
+        }
+    },
+    "print_support_link":{
+        "_comment": "Printer Support Link under Printer and Connection Information section on Help & Support screen",
+        "locator":{
+            "id": "printerSupport"
+        }
+    },
+    "finding_your_printer_item":{
+        "_comment": "Finding Your Printer item under Printer and Connection Information section on Help & Support screen",
+        "locator":{
+            "id": "finding-your-printer"
+        }
+    },
+    "connecting_to_your_printer_item":{
+        "_comment": "Connecting to Your Printer item under Printer and Connection Information section on Help & Support screen",
+        "locator":{
+            "id": "connecting-to-your-printer"
+        }
+    },
+    "viewing_printer_information_item":{
+        "_comment": "Viewing Printer Information item under Printer and Connection Information section on Help & Support screen",
+        "locator":{
+            "id": "viewing-printer-information"
+        }
+    },
+    "printing_item":{
+        "_comment": "Printing item under Print Scan and Share section on Help & Support screen",
+        "locator":{
+            "id": "printing"
+        }
+    },
+    "scanning_item":{
+        "_comment": "Scanning item under Print Scan and Share section on Help & Support screen",
+        "locator":{
+            "xpath": "//XCUIElementTypeGroup/XCUIElementTypeStaticText[@value='Scanning']",
+            "id": "scanning"
+        }
+    },
+    "shortcuts_item":{
+        "_comment": "Shortcuts item under Print Scan and Share section on Help & Support screen",
+        "locator":{
+            "id": "shortcuts"
+        }
+    },
+    "fax_item":{
+        "_comment": "Fax item under Print Scan and Share section on Help & Support screen",
+        "locator":{
+            "id": "fax"
+        }
+    },
+    "print_anywhere_online_support_link":{
+        "_comment": "Print Anywhere Online Support link on Help & Support screen",
+        "locator":{
+            "id": "printAnywhereOnlineSupport"
+        }
+    },
+    "shortcuts_online_supoort_link":{
+        "_comment": "Shortcuts Online Support link on Help & Support screen",
+        "locator":{
+            "id": "shortcutsOnlineSupport"
+        }
+    },
+    "hp_mobile_printing_link":{
+        "_comment": "HP Mobile Printing link on Help & Support screen",
+        "locator":{
+            "id": "hPMobilePrinting"
+        }
+    },
+    "accept_cookies_btn":{
+        "locator":{
+            "xpath": "//button[@title='Accept Cookies']",
+            "name": "Accept Cookies"
+        }
+    },
+    "virtual_agent":{
+        "locator":{
+            "name": "Virtual Agent"
+        }
+    },
+    "diagnose_fix_link":{
+        "_comment": "Diagnose & Fix",
+        "locator":{
+            "id": "psdr2a",
+            "xpath": "//HyperLink[@Name='Diagnose & Fix']"
+        }
+    },
+    "hp_universal_fax_driver_text":{
+        "locator":{
+            "xpath": "//Text[@Name='HP Universal Fax Driver']"
+        }
+    },
+    "download_here_link":{
+        "locator":{
+            "xpath": "//Text[@Name='HP Universal Fax Driver']/following-sibling::HyperLink[1]"
+        }
+    },
+    "close_btn": {
+        "locator": {
+            "id": "Close"
+        }
+    },
+    "hp_support_url": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@name='TabBarItemTitle']",
+            "name": "TabBarItemTitle"
+        }
+    },
+    "hp_subscriptions_url": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[@name='TabBarItemTitle']",
+            "name": "TabBarItemTitle"
+        }
+    }
+}

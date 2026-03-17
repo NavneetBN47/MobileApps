@@ -1,0 +1,716 @@
+{
+    "_section": "Shared",
+    "title_txt": {
+        "locator": {"xpath": ["//*[@resource-id='com.hp.printercontrol.debug:id/topAppBar']/*[@text='{}']",
+                              "//*[@resource-id='com.hp.printercontrol.debug:id/activity_toolbar']/*[@text='{}']"]}
+    },
+    "_section": "Preview Landing screen",
+    "preview_title_str": {
+        "locator": {"str_id": "landing_page_title_preview"}
+    },
+    "back_arrow_btn": {
+        "locator": {
+            "xpath": "//android.widget.ImageButton[@content-desc='Navigate up']"
+        }
+    },
+    "top_toolbar": {
+        "locator": {"id": "top_chip_scroll_view"}
+    },
+    "add_btn": {
+        "locator": {"id": "add_page_chip"}
+    },
+    "rotate_btn": {
+        "locator": {"id": "rotate_page_chip"}
+    },
+         "scribble_btn": {
+        "locator": {"id": "scribble_chip"}
+    },
+    "redaction_btn": {
+        "locator": {"id": "redact_chip"}
+    },
+    "bottom_navbar": {
+        "locator": {"id": "landingPageBottomLayout"}
+    },
+    "print_btn": {
+        "locator": {"str_id": "print"}
+    },
+    "print_preview_btn": {
+        "locator": {"str_id": "print_preview"}
+    },
+    "share_btn": {
+        "locator": {"str_id": "share"}
+    },
+    "shortcuts_btn": {
+        "locator": {"str_id": "shortcuts_title_plural"}
+    },
+    "save_btn": {
+        "locator": {"str_id": "save"}
+    },
+    "fax_btn": {
+        "locator": {"str_id": "fax"}
+    },
+    "page_options_btn": {
+        "locator": {"id": "pageOptionsButton"}
+    },
+    "edit_btn": {
+        "locator": {"str_id": "edit"}
+    },
+    "delete_btn": {
+        "locator": {"str_id": "delete"}
+    },
+    "delete_btn_copy": {
+        "locator": {"id": "com.hp.printercontrol.debug:id/imageButtonDeletePage"}
+    },
+    "replace_btn": {
+        "locator": {"str_id": "replace"}
+    },
+    "rotate_image_btn": {
+        "locator": {"id": "rotateImageButton"},
+        "_comment": "The rotate button on the bottom right of the current page on the preview screen"
+    },
+    "preview_img": {
+        "locator": {"id": ["image_recycler_view", "toolPanelContainer"]}
+    },
+    "preview_page_count_txt": {
+        "locator": {"id": "image_number"}
+    },
+    "processing_popup_header_txt": {
+        "locator": {"str_id": "dialog_processing_pages_title"}
+    },
+    "processing_popup_body_txt": {
+        "locator": {"str_id": "dialog_processing_pages_message"}
+    },
+    "processing_popup_cancel_btn": {
+        "locator": {"id": "com.hp.printercontrol.debug:id/btn_cancel"}
+    },
+    "exit_popup_title": {
+        "locator": {"id": "preview_exit_title"}
+    },
+    "exit_popup_home_btn": {
+        "locator": {"id": ["preview_exit_go_home", "btn_go_home"]}
+    },
+    "exit_popup_scan_btn": {
+        "locator": {"id": "preview_exit_new_scan"}
+    },
+    "exit_popup_add_btn": {
+        "locator": {"id": "preview_exit_add_images"}
+    },
+    "exit_popup_cancel_btn": {
+        "locator": {"id": "preview_exit_cancel"}
+    },
+    "shortcuts_file_name": {
+        "locator": {"id": "shortcuts_file"}
+    },
+    "shortcut_name": {
+        "locator": {"xpath": "//android.widget.TextView[@resource-id='flyout-title']"}
+    },
+    "more_options_btn": {
+        "locator": {"str_id": "print_settings_more_options_reskin",
+            "xpath": ["//*[@resource-id='com.hp.printercontrol.debug:id/topAppBar']//android.widget.ImageView", "//android.view.View[@index='12' and @resource-id='ic_MoreOptionsId']"]}
+    },
+    "more_options_help_btn": {
+        "locator": {"str_id": "print_help"}
+    },
+    "print_paper_size_btn": {
+        "locator": {"xpath": "//android.widget.TextView[@text='Paper size']/following-sibling::android.widget.TextView[1]"}
+    },
+    "more_options_format_btn": {
+        "locator": {"str_id": "print_format"}
+    },
+    "_section": "Print Help screen",
+    "print_help_ok_btn": {
+        "locator": {"id": "printersetup_help_ok_button"}
+    },
+    "google_play_link": {
+        "locator": {"str_id": "dialog_help_on_printing_hp_Serviceplugin_steps_1_link"}
+    },
+    "settings_link": {
+        "locator": {"str_id": "dialog_help_on_printing_hp_Serviceplugin_steps_2_link"}
+    },
+    "print_plugin_cb": {
+        "locator": {"id": "printersetup_hp_printservice_plugin_checkBox"}
+    },
+    "print_settings_cb": {
+        "locator": {"id": "printersetup_printing_settings_checkBox"}
+    },
+    "printer_select_cb": {
+        "locator": {"id": "printersetup_printerselection_checkBox"}
+    },
+    "_section": "Print Format screen",
+    "print_format_txt": {
+        "locator": {"str_id": "print_format"}
+    },
+    "jpg_print_format": {
+        "locator": {"id": "radioButtonImage"}
+    },
+    "pdf_print_format": {
+        "locator": {"id": "radioButtonDocument"}
+    },
+    "send_btn":{
+      "locator": {"id": "com.google.android.gm:id/send"}
+    },
+    "_section": "Action(Share / Save / Convert to Text) screen",
+    "share_title_str": {
+        "locator": {"str_id": "share_options_page_title"}
+    },
+    "save_title_str": {
+        "locator": {"str_id": "save_options_page_title"}
+    },
+    "share_gmail_str": {
+        "locator": {"str_id": "gmail"}
+    },
+    "done_btn": {
+        "locator": {"str_id": "done"}
+    },
+    "to_tf":{
+      "_comment": "xpath is for Android 11",
+      "locator": {"id": ["com.google.android.gm:id/to", "com.google.android.gm:id/to_content"],
+                  "xpath": "//android.view.ViewGroup[@resource-id='com.google.android.gm:id/peoplekit_autocomplete_chip_group']/android.widget.EditText"}
+    },
+    "convert_to_text_title_str": {
+        "locator": {"str_id": "scanning_convert_to_text"}
+    },
+    "action_btn": {
+        "locator": {"id": "actionButton",
+                    "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/actionButton' and @text='{}']"}
+    },
+    "create_file_str": {
+        "locator": {"str_id": "scanning_create_file"}
+    },
+    "file_type_dropdown": {
+        "locator": {"id": "fileTypeTitle",
+                    "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/fileTypeTitle' and @text='{}']"}
+    },
+    "document_size_dropdown": {
+        "locator": {
+                    "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/pageSizeSpinner' and @text='{}']"}
+    },
+    "basic_pdf": {
+        "locator": {"str_id": "share_options_file_type_title_basic_pdf",
+                    "xpath": "//android.view.ViewGroup[2]"}
+    },
+    "image_jpg": {
+        "locator": {"str_id": ["share_options_file_type_title_jpeg", "share_options_file_type_title_jpeg_reskin"]}
+    },
+    "searchable_pdf": {
+        "locator": {"str_id": "share_options_file_type_title_searchable_pdf"}
+    },
+    "word_doc": {
+        "locator": {"str_id": "share_options_file_type_title_searchable_doc"}
+    },
+    "plain_txt": {
+        "locator": {"str_id": "share_options_file_type_title_plain_text"}
+    },
+    "file_name_txt": {
+        "locator": {"id": "filename_edit"}
+    },
+    "save_hp_files_switch": {
+        "locator": {"id": "switchSaveOriginalHPFiles"}
+    },
+    "smart_filename_switch": {
+        "locator": {"id": "smart_filename_switch"}
+    },
+    "smart_filename_txt": {
+        "locator": {"id": "smart_filename_title"}
+    },
+    "smart_filename_info_btn": {
+        "locator": {"id": "smart_filename_tooltip"}
+    },
+    "smart_filename_info_msg": {
+        "locator": {"str_id": "smart_filename_tooltip"}
+    },
+    "pdf_password_switch": {
+        "locator": {"id": "switchPDFPassword"}
+    },
+    "pdf_password_txt": {
+        "locator": {"id": "password_edit"}
+    },
+    "format_hint_str": {
+        "locator": {"str_id": "save_share_options_hint"}
+    },
+    "pwd_hint_str": {
+        "locator": {"str_id": "pdf_enter_password_hint"}
+    },
+    "short_pwd_hint_str": {
+        "locator": {"str_id": "pdf_password_error_length_short"}
+    },
+    "short_pwd_with_spaces_hint_str": {
+        "locator": {"str_id": "pdf_password_error_length_short_space"}
+    },
+    "long_pwd_hint_str": {
+        "locator": {"str_id": "pdf_password_error_length_long"}
+    },
+    "long_pwd_with_spaces_hint_str": {
+        "locator": {"str_id": "pdf_password_error_length_long_space"}
+    },
+    "pwd_with_spaces_hint_str": {
+        "locator": {"str_id": "pdf_password_error_space"}
+    },
+    "language_btn": {
+        "locator": {"xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/languageHeaderTextView']/following-sibling::*[@resource-id='com.hp.printercontrol.debug:id/ocrLanguageTextView']"}
+    },
+    "selected_language_txt": {
+        "locator": {"xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/checkMarkImageView']/preceding-sibling::*[@resource-id='com.hp.printercontrol.debug:id/ocrLanguageTextView']"},
+        "_comment": "The selected language on the language menu, denoted by the checkmark."
+    },
+    "language_menu_list": {
+        "locator": {"id": "ocrLanguagesRecyclerview"}
+    },
+    "downloading_lang_title_txt": {
+        "locator": {"id": "dlg_download_ocr_language_title"}
+    },
+    "downloading_lang_sub_txt": {
+        "locator": {"id": "dlg_download_ocr_language_msg"}
+    },
+    "downloading_lang_cancel_btn": {
+        "locator": {"id": "btn_cancel"}
+    },
+    "downloading_lang_cancel_msg": {
+        "locator": {"str_id": "orc_language_download_status_download_aborted"}
+    },
+    "language_menu_item": {
+        "locator": {"xpath": ["//*[@resource-id='com.hp.printercontrol.debug:id/ocrRootView']/*[@resource-id='com.hp.printercontrol.debug:id/ocrLanguageTextView']",
+                            "//*[@resource-id='com.hp.printercontrol.debug:id/ocrRootView']/*[@resource-id='com.hp.printercontrol.debug:id/ocrLanguageTextView' and @text='{}']"]
+        }
+    },
+    "language_done_btn": {
+        "locator": {"id": "done"}
+    },
+    "language_info_btn": {
+        "locator": {"id": "languageToolTip"}
+    },
+    "language_info_str": {
+        "locator": {"str_id": "scanning_select_the_language_of_your_document"}
+    },
+    "file_size_btn": {
+        "locator": {"id": "fileSizeSpinner"}
+    },
+    "document_size_spinner": {
+        "locator": {"id": "pageSizeSpinner"}
+    },
+    "document_size_a4": {
+        "locator": {"str_id": "input_type_document_a4"}
+    },
+    "document_size_8.5x11": {
+        "locator": {"str_id": ["input_type_document_letter", "input_type_document_letter_reskin"]}
+    },
+    "document_size_8.5x14": {
+        "locator": {"str_id": ["input_type_document_legal", "input_type_document_legal_reskin"]}
+    },
+    "document_size_3.5x5": {
+        "locator": {"str_id": ["input_type_image_3x5_reskin", "input_type_image_3x5"]}
+    },
+    "document_size_4x6": {
+        "locator": {"str_id": ["input_type_image_4x6_reskin","input_type_image_4x6"]}
+    },
+    "document_size_5x7": {
+        "locator": {"str_id": ["input_type_image_5x7_reskin","input_type_image_5x7"]}
+    },
+    "document_size_business_card": {
+        "locator": {"str_id": ["business_card_reskin","business_card"]}
+    },
+    "document_size_license": {
+        "locator": {"str_id": ["digitalcopy_layout_driver_license_reskin","digitalcopy_layout_driver_license"]}
+    },
+    "file_size_item": {
+        "locator": {"partial_text": "{}"},
+        "_comment": "Use with file_size_* locator str_id values to locate file_size menu items"
+    },
+    "file_size_actual": {
+        "locator": {"str_id": ["file_size_actual", "file_size_actual_reskin"],
+                    "xpath": "//android.widget.TextView[contains(@text='Actual size')]"}
+    },
+    "file_size_small": {
+        "locator": {"str_id": "file_size_small",
+                    "xpath": "//android.widget.TextView[contains(@text='Small')]"}  
+    },
+    "file_size_medium": {
+        "locator": {"str_id": "file_size_medium",
+                    "xpath": "//android.widget.TextView[contains(@text='Medium')]"}
+    },
+    "file_saved_popup_ok_btn": {
+        "locator": {"id": "btn_ok"}
+    },
+    "img_too_large_toast": {
+        "locator": {"str_id": "edit_out_of_memory_message"}
+    },
+    "shortcuts_image": {
+        "locator": {"id": "com.hp.printercontrol.debug:id/header"}
+    },
+    "shortcuts_image_text": {
+        "locator": {"id": "com.hp.printercontrol.debug:id/shortcutsSheetFragmentContainer"}
+    },
+    "continue_to_fax_text": {
+        "locator": {"id": "com.hp.printercontrol.debug:id/continueButton"}
+    },
+    "shortcuts_select": {
+        "locator": {"xpath": "//android.widget.Button[@index='0' and contains(@text='Start')]"}
+    },
+    "print_swipe_options": {
+        "locator": {"id": "ic_printPreviewImageId"}
+    },
+    "print_more_options": {
+        "locator": {"id": "ic_MoreOptionsId",
+                    "str_id": ["print_settings__more_options", "print_settings_more_options_reskin"]}
+    },
+    "paper_size_dropdown": {
+        "locator": {"xpath": "//android.view.View[@index='8'"}
+    },
+    "_section": "Print Size screen",
+    "print_size_title_str": {
+        "locator": {"str_id": "print_size"}
+    },
+    "two_side_print_unavailable_txt": {
+        "locator": {"str_id": "duplex_not_available_msg"}
+    },
+    "print_size_4x6_two_sided": {
+        "locator": {"str_id": "imperial_4x6_duplex"}
+    },
+    "print_size_4x6": {
+        "locator": {"str_id": "imperial_4x6_standard"}
+    },
+    "print_size_5x7": {
+        "locator": {"str_id": "imperial_5x7"}
+    },
+    "print_size_5x5": {
+        "locator": {"str_id": "imperial_5x5_square"}
+    },
+    "print_size_4x12": {
+        "locator": {"str_id": "imperial_4x12_panoramic"}
+    },
+    "print_size_5x11": {
+        "locator": {"str_id": "imperial_8_5x11_letter"}
+    },
+    "print_size_a4": {
+        "locator": {"str_id": "imperial_A4"}
+    },
+    "_section": "Fax screen",
+    "fax_next_btn": {
+        "locator": {"id": "nextbutton"}
+    },
+    "fax_limit_msg": {
+        "locator": {"xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/dialog_main_text']"}
+    },
+    "fax_page_limit": {
+        "locator": {"str_id": "softfax_page_count_limit"}
+    },
+    "fax_size_limit": {
+        "locator": {"str_id": "softfax_file_size_limit"}
+    },
+    "_section": "Two-sided Preview screen",
+    "two_side_preview_title_txt": {
+        "locator": {"str_id": "two_sided_preview"}
+    },
+    "two_side_front_btn": {
+        "locator": {"id": "frontButton"}
+    },
+    "two_side_back_btn": {
+        "locator": {"id": "backButton"}
+    },
+    "two_side_preview_img": {
+        "locator": {"id": ["previewBackImageView", "previewImageView"]}
+    },
+    "_section": "Auto-Rotate screen",
+    "auto_rotate_title_str": {
+        "locator": {"str_id": "preview_rotate"}
+    },
+    "page_cell": {
+        "locator": {
+            "id": "auto_rotate_page_list"
+        }
+    },
+    "auto_rotate_image": {
+        "locator": {
+            "id": "landing_page_auto_rotate_item",
+            "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/landing_page_auto_rotate_item'][{}]"
+        },
+        "_comment": "An image on the rotation screen"
+    },
+    "auto_rotate_image_checkmark" :{
+        "locator": {
+            "id": "auto_rotate_image_selected",
+            "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/landing_page_auto_rotate_item'][{}]//*[@resource-id='com.hp.printercontrol.debug:id/auto_rotate_image_selected']"
+        }
+    },
+    "auto_rotate_reset_btn": {
+        "locator": {"id": "auto_rotate_reset_button"}
+    },
+    "auto_rotate_done_btn": {
+        "locator": {"id": "auto_rotate_done"}
+    },
+    "auto_rotate_slide_bar_handle": {
+        "locator": {"id": "auto_rotate_grabber"}
+    },
+    "auto_rotate_rotate_btn": {
+        "locator": {"id": "auto_rotate_rotate_image"}
+    },
+    "auto_rotate_delete_btn": {
+        "locator": {"id": "auto_rotate_delete_image"}
+    },
+    "auto_rotate_discard_title": {
+        "locator": {
+            "id": "auto_rotation_exit_title"
+        }
+    },
+    "auto_rotate_discard_txt": {
+        "locator": {
+            "id": "auto_rotation_exit_body"
+        }
+    },
+    "auto_rotate_discard_yes_btn": {
+        "locator": {"id": "auto_rotate_yes"}
+    },
+    "auto_rotate_discard_no_btn": {
+        "locator": {"id": "auto_rotate_no"}
+    },
+    "auto_rotate_progress_icon": {
+        "locator": {"id": "auto_rotate_progress"}
+    },
+    "_section": "Reorder screen",
+    "reorder_title_str": {
+        "locator": {"str_id": "reorder"}
+    },
+    "reorder_btn": {
+        "locator": {"id": "reorder_page_chip"}
+    },
+    "file_size_popup": {
+        "locator": {"id": "dialog_main_text"}
+    },
+    "reorder_discard_yes_btn": {
+        "locator": {"id": "android:id/button1"}
+    },
+    "reorder_discard_no_btn": {
+        "locator": {"id": "android:id/button2"}
+    },
+    "reorder_done_btn": {
+        "locator": {"id": "edit_done"}
+    },
+    "reorder_img": {
+        "locator": {"xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/textViewIndex' and @text='{}']/preceding-sibling::*[1]/*[@resource-id='com.hp.printercontrol.debug:id/imageView']"}
+    },
+    "text_extract_btn": {
+        "locator": {"id": "text_extract_chip"}
+    },
+    "text_extract_edit_text_cancel_btn": {
+        "locator":{"str_id": "cancel" }
+     },
+     "text_not_extracted":{
+        "locator":{"str_id": "dialog_text_extract_not_detected_title"}
+     },
+    "go_to_home_btn": {
+        "locator": {"id": "btn_go_home"}
+    },
+    "_section": "Adjust boundaries screen",
+    "adjust_boundaries_title": {
+        "locator": {
+            "str_id": "adjust_boundaries_screen_title"
+        }
+    },
+    "adjust_boundaries_next_btn": {
+        "locator": {
+            "str_id": "next"
+        }
+    },
+    "adjust_boundaries_auto_btn": {
+        "locator": {
+            "str_id": "scanning_auto"
+        }
+    },
+    "adjust_boundaries_full_btn": {
+        "locator": {
+            "str_id": "scanning_full"
+        }
+    },
+    "adjust_boundaries_flatten_btn": {
+        "locator": {
+            "str_id": "scanning_flatten"
+        }
+    },
+    "_section": "Dynamic Studio",
+    "preview_btn": {
+        "locator": {
+            "str_id": "next",
+            "id": "ic_previewButtonId",
+            "xpath": "//android.widget.TextView[contains(@resource-id, 'ic_previewButtonId')]"
+        }
+    },
+    "exit_without_saving_popup_title": {
+        "locator": {
+            "str_id": "dialog_body__sure_to_exit_desc"
+        }
+    },
+    "exit_without_saving_yes_btn": {
+        "locator": {
+            "id": "ic_yesExitWithoutSaveId",
+            "xpath": "//android.widget.TextView[contains(@resource-id, 'ic_yesExitWithoutSaveId')]"
+        }
+    },
+    "exit_without_saving_no_btn": {
+        "locator": {
+            "id": "ic_noExitWithoutSaveId",
+            "xpath": "//android.widget.TextView[contains(@resource-id, 'ic_noExitWithoutSaveId')]"
+        }
+    },
+    "undo_btn": {
+        "locator": {
+            "id": "ic_undoButtonId",
+            "xpath": "//android.widget.ImageView[contains(@resource-id, 'ic_undoButtonId')]"
+        }
+    },
+    "redo_btn": {
+        "locator": {
+            "id": "ic_redoButtonId",
+            "xpath": "//android.widget.ImageView[contains(@resource-id, 'ic_redoButtonId')]"
+        }
+    },
+    "ds_layout_btn": {
+        "locator": {
+            "id": "ic_layoutBottomBarContentStateId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_layoutBottomBarContentStateId')]"
+        }
+    },
+    "ds_layout_fit_option": {
+        "locator": {
+            "id": "ic_ic_fitImageLayoutIdLayoutId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_ic_fitImageLayoutIdLayoutId')]"
+        }
+    },
+    "ds_layout_fill_option": {
+        "locator": {
+            "id": "ic_ic_fillImageLayoutIdLayoutId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_ic_fillImageLayoutIdLayoutId')]"
+        }
+    },
+    "ds_layout_border_option": {
+        "locator": {
+            "id": "ic_ic_borderImageLayoutIdLayoutId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_ic_borderImageLayoutIdLayoutId')]"
+        }
+    },
+    "ds_layout_crop_option": {
+        "locator": {
+            "id": "ic_ic_cropImageLayoutIdLayoutId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_ic_cropImageLayoutIdLayoutId')]"
+        }
+    },
+    "ds_layout_rotate_option": {
+        "locator": {
+            "id": "ic_ic_rotateRightImageLayoutIdLayoutId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_ic_rotateRightImageLayoutIdLayoutId')]"
+        }
+    },
+    "ds_layout_flip_h_option": {
+        "locator": {
+            "id": "ic_ic_flipHorizontalImageLayoutIdLayoutId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_ic_flipHorizontalImageLayoutIdLayoutId')]"
+        }
+    },
+    "ds_layout_flip_v_option": {
+        "locator": {
+            "id": "ic_ic_flipVerticalImageLayoutIdLayoutId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_ic_flipVerticalImageLayoutIdLayoutId')]"
+        }
+    },
+    "ds_layout_image": {
+        "locator": {
+            "id": "ic_imageEditorId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_imageEditorId')]"}
+    },
+     "ds_paper_btn": {
+        "locator": {
+            "id": "ic_paperBottomBarContentStateId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_paperBottomBarContentStateId')]"
+        }
+    },
+    "printer_object_title": {
+        "locator": {"id": "ic_titleTextId",
+            "xpath": "//*[contains(@resource-id, 'ic_titleTextId')]"}
+    },
+     "additional_paper_option": {
+        "locator": {"id": "ic_additionalPaperMenuId",
+            "xpath": "//*[contains(@resource-id, 'ic_additionalPaperMenuId')]"}
+    },
+     "image_potrait_orientation_option": {
+        "locator": {"id": "ic_PotraitOrientationId",
+            "xpath": "//*[contains(@resource-id, 'ic_PotraitOrientationId')]"}
+    },
+     "image_landscape_orientation_option": {
+        "locator": {"id": "ic_LandscapeOrientationId",
+            "xpath": "//*[contains(@resource-id, 'ic_LandscapeOrientationId')]"}
+    },
+     "check_mark_icon": {
+        "locator": {"id": "ic_checkmarkId",
+            "xpath": "//*[contains(@resource-id, 'ic_checkmarkId')]"}
+    },
+    "load_paper_msg": {
+        "locator": {"str_id": "status_msg_loadpaper"}
+    },
+    "ds_paper_size_8x5_11": {
+        "locator": {"str_id": "ds_imperial_na_letter_8_5x11in",
+                    "id": "ic_na_letter_8.5x11inId"}
+    },
+    "ds_paper_size_a4": {
+        "locator": {
+            "id": "ic_iso_a4_210x297mmId",
+            "str_id": "ds_imperial_iso_a4_210x297mm"
+        }
+    },
+    "ds_paper_main_tray": {
+        "locator": {"str_id": ["ds_paper_tray_main", "paper_tray_option_tray1"]}
+    },
+    "ds_paper_photo_tray": {
+        "locator": {"str_id": ["ds_paper_tray_photo", "paper_tray_option_tray2"]}
+    },
+    "ds_cards_btn": {
+        "locator": {
+            "id": "ic_templateBottomBarContentStateId",
+            "xpath": "//android.view.View[contains(@resource-id, 'ic_templateBottomBarContentStateId')]"
+        }
+    },
+    "front_btn": {
+        "locator": {
+            "str_id": "ds_duplex_front"
+        }
+    },
+    "back_btn": {
+        "locator": {
+            "str_id": "ds_duplex_back"
+        }
+    },
+    "mothers_day_template_option": {
+        "locator": {
+            "text": "Mothers Day"
+        }
+    },
+    "graduation_template_option": {
+        "locator": {
+            "text": "Graduation"
+        }
+    },
+    "no_shortcuts_option": {
+        "locator": {
+            "id": "no-shortcuts-container-flyout"
+        }
+    },
+    "shortcuts_sign_in_btn": {
+        "locator": {
+            "id": "sign_in"
+        }
+    },
+    "select_printer_title": {
+        "locator": {
+            "str_id": "select_printer"
+        }
+    },
+    "ds_info_unselected_btn": {
+        "locator": {
+           "id": "ic_toolTipId",
+            "xpath": "//*[contains(@resource-id, 'ic_toolTipId')]"
+        }
+    },
+    "ds_info_tooltip": {
+        "locator": {
+            "str_id": "ds_tooltip_text"
+        }
+    }
+}

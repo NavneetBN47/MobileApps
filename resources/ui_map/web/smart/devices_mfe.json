@@ -1,0 +1,154 @@
+{
+    "new_hp_app_popup_skip_btn":{
+        "_comment": "Object have no id currently",
+        "locator": {
+            "xpath": ["//button[descendant::span[text() = 'Skip']]"]
+        }
+    },
+    "app_bar_mfe_section":{
+        "locator": {
+            "css selector": "div[id='AppBar.AppBarView.AppBarContainer']"
+        }
+    },
+    "device_status_section":{
+        "locator": {
+            "css selector": "section[id*='@hpx-core-experiences/react-device-statuses-mfe']"
+        }
+    },
+    "top_add_button":{
+        "locator": {
+            "css selector": "button:has(svg[aria-label='Plus'])",
+            "xpath" : "//android.widget.Button[@text='Add device']"
+        }
+    },
+    "top_profile_button":{
+        "locator": {
+            "css selector": "button:has(svg[aria-label='Person'])"
+        }
+    },
+    "top_signin_button":{
+        "locator": {
+            "css selector": "button[id='NavBar.NavBarView.SignInButton']"
+        }
+    },
+
+    "device_tile":{
+        "locator": {
+            "css selector": "div.card-wrapper"
+        }
+    },
+    "account_panel_section":{
+        "locator": {
+            "css selector": "section[id='@hpx-core-experiences/react-side-flyout-mfe']"
+        }
+    },
+    "account_panel_close_button":{
+        "locator": {
+            "css selector": "button:has(svg[aria-label='X'])"
+        }
+    },
+    "device_icon":{
+        "locator": {
+            "css selector": "div[id='DeviceList.Devices.PrimaryCard']"
+        }
+    },
+    "windows_dummy_printer_device": {
+        "locator": {
+            "xpath": "//Text[@Name='HP ENVY Inspire 7200 series']"
+        }
+    },
+    "main_webview_pane": {
+        "locator": {
+            "xpath": "//Pane[@ClassName='Chrome_WidgetWin_1']"
+        }
+    },
+    "device_card": {
+        "locator": {
+            "class name": "clientos-ui-toolkit-primary-device-card card-wrapper css-1fbksb1"
+        }
+    },
+    "hpx_whats_new_popup_title": {
+      "locator": {
+        "id": "clientos-ui-toolkit-tour-modal__content__header-0"
+      }
+    },
+    "hpx_whats_new_popup_sub_title": {
+      "locator": {
+        "id": "clientos-ui-toolkit-tour-modal__content__description-0"
+      }
+    },
+    "hpx_whats_new_popup_second_screen_title": {
+      "locator": {
+        "id": "clientos-ui-toolkit-tour-modal__content__header-1"
+      }
+    },
+    "hpx_whats_new_popup_second_screen_sub_title": {
+      "locator": {
+        "id": "clientos-ui-toolkit-tour-modal__content__description-1"
+      }
+    },
+    "hpx_whats_new_popup_third_screen_title": {
+      "locator": {
+        "id": "clientos-ui-toolkit-tour-modal__content__header-2"
+      }
+    },
+    "hpx_whats_new_popup_third_screen_sub_title": {
+      "locator": {
+        "id": "clientos-ui-toolkit-tour-modal__content__description-2"
+      }
+    },
+    "hpx_whats_new_popup_next_btn": {
+      "locator": {
+        "xpath" :["//button[@id='clientos-ui-toolkit-button' and contains(., 'Next')]"]
+      }
+    },
+    "hpx_whats_new_popup_done_btn": {
+      "locator": {
+        "xpath" :["//button[@id='clientos-ui-toolkit-button' and contains(., 'Done')]"]
+      }
+    },
+    "hpx_whats_new_popup_back_btn": {
+        "locator": {
+          "xpath" :["//button[@id='clientos-ui-toolkit-button' and contains(., 'Back')]"]
+      }
+    },
+  "hpx_lets_get_started_title": {
+    "locator": {
+      "xpath": [
+        "//h1[text()='Let’s get started!']"
+      ],
+      "str_id": "lets_get_started"
+    }
+  },
+  "hpx_lets_get_started_sub_title": {
+    "locator": {
+      "xpath": [
+        "//p[text()='Add your first device to manage settings and get support.']"
+      ]
+    }
+  },
+  "hpx_add_device_btn": {
+    "locator": {
+      "xpath": [
+        "//button[@id='clientos-ui-toolkit-button']//span[text()='Add device']"
+      ]
+    }
+  },
+  "hpx_add_device_plus_btn": {
+    "locator": {
+      "xpath": [
+        "//button[@id='clientos-ui-toolkit-button']//span[text()='Add device']"
+      ]
+    }
+  },
+  "hpx_avatar_btn": {
+    "locator": {
+      "xpath": [
+        "//button[@id='clientos-ui-toolkit-button']//span[text()='Profile and Settings']"
+      ]
+    }
+  },
+  "hpx_sign_in_btn": {
+    "locator": {"id": "sign_in"}
+  }
+}

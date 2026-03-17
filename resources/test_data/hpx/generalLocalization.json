@@ -1,0 +1,530 @@
+{
+    "en": {
+      "translation": {
+        "installedapps": {
+          "applications": "Applications",
+          "searchApplication": "Search Application",
+          "browse": "Browse",
+          "cancel": "Cancel",
+          "add": "Add",
+          "close": "Close"
+        }
+      }
+    },
+    "ar": {
+      "translation": {
+        "installedapps": {
+          "applications": "التطبيقات",
+          "searchApplication": "البحث عن التطبيق",
+          "browse": "تصفح",
+          "cancel": "إلغاء الأمر",
+          "add": "إضافة",
+          "close": "إغلاق"
+        }
+      }
+    },
+    "bg": {
+      "translation": {
+        "installedapps": {
+          "applications": "Приложения",
+          "searchApplication": "Търсене на приложение",
+          "browse": "Прегледайте",
+          "cancel": "Отказ",
+          "add": "Добави",
+          "close": "Затваряне"
+        }
+      }
+    },
+    "ca-ES": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplicacions",
+          "searchApplication": "Cerca Aplicació",
+          "browse": "Navega",
+          "cancel": "Cancel·la",
+          "add": "Afegeix",
+          "close": "Tanca"
+        }
+      }
+    },
+    "cs": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikace",
+          "searchApplication": "Vyhledat aplikaci",
+          "browse": "Procházet",
+          "cancel": "Zrušit",
+          "add": "Přidat",
+          "close": "Zavřít"
+        }
+      }
+    },
+    "da": {
+      "translation": {
+        "installedapps": {
+          "applications": "Programmer",
+          "searchApplication": "Søg program",
+          "browse": "Søg",
+          "cancel": "Annuller",
+          "add": "Tilføj",
+          "close": "Luk"
+        }
+      }
+    },
+    "de": {
+      "translation": {
+        "installedapps": {
+          "applications": "Anwendungen",
+          "searchApplication": "Anwendung suchen",
+          "browse": "Durchsuchen",
+          "cancel": "Abbrechen",
+          "add": "Hinzufügen",
+          "close": "Schließen"
+        }
+      }
+    },
+    "el": {
+      "translation": {
+        "installedapps": {
+          "applications": "Εφαρμογές",
+          "searchApplication": "Αναζήτηση εφαρμογής",
+          "browse": "Περιήγηση",
+          "cancel": "Άκυρο",
+          "add": "Προσθήκη",
+          "close": "Κλείσιμο"
+        }
+      }
+    },
+    "en-GB": {
+      "translation": {
+        "installedapps": {
+          "applications": "Applications",
+          "searchApplication": "Search Application",
+          "browse": "Browse",
+          "cancel": "Cancel",
+          "add": "Add",
+          "close": "Close"
+        }
+      }
+    },
+    "es": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplicaciones",
+          "searchApplication": "Aplicación de búsqueda",
+          "browse": "Buscar",
+          "cancel": "Cancelar",
+          "add": "Agregar",
+          "close": "Cerrar"
+        }
+      }
+    },
+    "es-ES": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplicaciones",
+          "searchApplication": "Buscar aplicación",
+          "browse": "Navegar",
+          "cancel": "Cancelar",
+          "add": "Añadir",
+          "close": "Cerrar"
+        }
+      }
+    },
+    "et": {
+      "translation": {
+        "installedapps": {
+          "applications": "Rakendused",
+          "searchApplication": "Otsi rakendust",
+          "browse": "Sirvi",
+          "cancel": "Tühista",
+          "add": "Lisa",
+          "close": "Sulge"
+        }
+      }
+    },
+    "eu-ES": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikazioak",
+          "searchApplication": "Bilaketarako aplikazioa",
+          "browse": "Nabigatu",
+          "cancel": "Utzi",
+          "add": "Gehitu",
+          "close": "Itxi"
+        }
+      }
+    },
+    "fi": {
+      "translation": {
+        "installedapps": {
+          "applications": "Sovellukset",
+          "searchApplication": "Etsi sovellus",
+          "browse": "Selaa",
+          "cancel": "Peruuta",
+          "add": "Lisää",
+          "close": "Sulje"
+        }
+      }
+    },
+    "fr-CA": {
+      "translation": {
+        "installedapps": {
+          "applications": "Applications",
+          "searchApplication": "Application de recherche",
+          "browse": "Naviguer",
+          "cancel": "Annuler",
+          "add": "Ajouter",
+          "close": "Fermer"
+        }
+      }
+    },
+    "fr": {
+      "translation": {
+        "installedapps": {
+          "applications": "Applications",
+          "searchApplication": "Rechercher une application",
+          "browse": "Parcourir",
+          "cancel": "Annuler",
+          "add": "Ajouter",
+          "close": "Fermer"
+        }
+      }
+    },
+    "gl-ES": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplicacións",
+          "searchApplication": "Buscar aplicación",
+          "browse": "Navegar",
+          "cancel": "Cancelar",
+          "add": "Engadir",
+          "close": "Pechar"
+        }
+      }
+    },
+    "he": {
+      "translation": {
+        "installedapps": {
+          "applications": "אפליקציות",
+          "searchApplication": "חפש אפליקציה",
+          "browse": "לדפדף",
+          "cancel": "ביטול",
+          "add": "הוסף",
+          "close": "סגור"
+        }
+      }
+    },
+    "hr": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikacije",
+          "searchApplication": "Pretraživanje aplikacije",
+          "browse": "Pregledaj",
+          "cancel": "Odustani",
+          "add": "Dodaj",
+          "close": "Zatvori"
+        }
+      }
+    },
+    "hu": {
+      "translation": {
+        "installedapps": {
+          "applications": "Alkalmazások",
+          "searchApplication": "Alkalmazás keresése",
+          "browse": "Tallózás",
+          "cancel": "Mégse",
+          "add": "Hozzáadás",
+          "close": "Bezárás"
+        }
+      }
+    },
+    "id": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikasi",
+          "searchApplication": "Cari Aplikasi",
+          "browse": "Telusuri",
+          "cancel": "Batal",
+          "add": "Tambah",
+          "close": "Tutup"
+        }
+      }
+    },
+    "it": {
+      "translation": {
+        "installedapps": {
+          "applications": "Applicazioni",
+          "searchApplication": "Cerca appplicazione",
+          "browse": "Sfoglia",
+          "cancel": "Annulla",
+          "add": "Aggiungi",
+          "close": "Chiudi"
+        }
+      }
+    },
+    "ja": {
+      "translation": {
+        "installedapps": {
+          "applications": "アプリケーション",
+          "searchApplication": "アプリケーションを検索",
+          "browse": "参照",
+          "cancel": "キャンセル",
+          "add": "追加",
+          "close": "閉じる"
+        }
+      }
+    },
+    "ko": {
+      "translation": {
+        "installedapps": {
+          "applications": "애플리케이션",
+          "searchApplication": "애플리케이션 검색",
+          "browse": "탐색",
+          "cancel": "취소",
+          "add": "추가",
+          "close": "닫기"
+        }
+      }
+    },
+    "lt": {
+      "translation": {
+        "installedapps": {
+          "applications": "Programos",
+          "searchApplication": "Ieškos programa",
+          "browse": "Naršyti",
+          "cancel": "Atšaukti",
+          "add": "Įtraukti",
+          "close": "Uždaryti"
+        }
+      }
+    },
+    "lv": {
+      "translation": {
+        "installedapps": {
+          "applications": "Lietotnes",
+          "searchApplication": "Meklēt lietotni",
+          "browse": "Pārlūkot",
+          "cancel": "Atcelt",
+          "add": "Pievienot",
+          "close": "Aizvērt"
+        }
+      }
+    },
+    "nb-NO": {
+      "translation": {
+        "installedapps": {
+          "applications": "Programmer",
+          "searchApplication": "Søk program",
+          "browse": "Bla gjennom",
+          "cancel": "Avbryt",
+          "add": "Legg til",
+          "close": "Lukk"
+        }
+      }
+    },
+    "nl": {
+      "translation": {
+        "installedapps": {
+          "applications": "Applicaties",
+          "searchApplication": "Applicatie zoeken",
+          "browse": "Bladeren",
+          "cancel": "Annuleren",
+          "add": "Toevoegen",
+          "close": "Sluiten"
+        }
+      }
+    },
+    "pl": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikacje",
+          "searchApplication": "Wyszukaj aplikację",
+          "browse": "Przeglądaj",
+          "cancel": "Anuluj",
+          "add": "Dodaj",
+          "close": "Zamknij"
+        }
+      }
+    },
+    "pt-BR": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplicativos",
+          "searchApplication": "Pesquisar aplicativo",
+          "browse": "Navegar",
+          "cancel": "Cancelar",
+          "add": "Adicionar",
+          "close": "Fechar"
+        }
+      }
+    },
+    "pt-PT": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplicações",
+          "searchApplication": "Procurar aplicação",
+          "browse": "Procurar",
+          "cancel": "Cancelar",
+          "add": "Adicionar",
+          "close": "Fechar"
+        }
+      }
+    },
+    "ro": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplicaţii",
+          "searchApplication": "Căutare aplicaţie",
+          "browse": "Răsfoire",
+          "cancel": "Anulare",
+          "add": "Adăugare",
+          "close": "Închidere"
+        }
+      }
+    },
+    "ru": {
+      "translation": {
+        "installedapps": {
+          "applications": "Приложения",
+          "searchApplication": "Поиск приложения",
+          "browse": "Обзор",
+          "cancel": "Отмена",
+          "add": "Добавить",
+          "close": "Закрыть"
+        }
+      }
+    },
+    "sk": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikácie",
+          "searchApplication": "Hľadať aplikáciu",
+          "browse": "Prehľadávať",
+          "cancel": "Zrušiť",
+          "add": "Pridať",
+          "close": "Zavrieť"
+        }
+      }
+    },
+    "sl": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikacije",
+          "searchApplication": "Iskanje aplikacije",
+          "browse": "Prebrskaj",
+          "cancel": "Prekliči",
+          "add": "Dodaj",
+          "close": "Zapri"
+        }
+      }
+    },
+    "sr-Latn-RS": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikacije",
+          "searchApplication": "Aplikacija za pretragu",
+          "browse": "Pregledaj",
+          "cancel": "Otkaži",
+          "add": "Dodaj",
+          "close": "Zatvori"
+        }
+      }
+    },
+    "sr-BA": {
+      "translation": {
+        "installedapps": {
+          "applications": "Aplikacije",
+          "searchApplication": "Aplikacija za pretragu",
+          "browse": "Pregledaj",
+          "cancel": "Otkaži",
+          "add": "Dodaj",
+          "close": "Zatvori"
+        }
+      }
+    },
+    "sv": {
+      "translation": {
+        "installedapps": {
+          "applications": "Applikationer",
+          "searchApplication": "Sök efter applikation",
+          "browse": "Bläddra",
+          "cancel": "Avbryt",
+          "add": "Lägg till",
+          "close": "Stäng"
+        }
+      }
+    },
+    "th": {
+      "translation": {
+        "installedapps": {
+          "applications": "แอปพลิเคชัน",
+          "searchApplication": "ค้นหาแอปพลิเคชัน",
+          "browse": "เรียกดู",
+          "cancel": "ยกเลิก",
+          "add": "เพิ่ม",
+          "close": "ปิด"
+        }
+      }
+    },
+    "tr": {
+      "translation": {
+        "installedapps": {
+          "applications": "Uygulamalar",
+          "searchApplication": "Uygulama Ara",
+          "browse": "Tara",
+          "cancel": "İptal",
+          "add": "Ekle",
+          "close": "Kapat"
+        }
+      }
+    },
+    "uk": {
+      "translation": {
+        "installedapps": {
+          "applications": "Програми",
+          "searchApplication": "Знайти програму",
+          "browse": "Переглянути",
+          "cancel": "Скасувати",
+          "add": "Додати",
+          "close": "Закрити"
+        }
+      }
+    },
+    "zh-Hans": {
+      "translation": {
+        "installedapps": {
+          "applications": "应用程序",
+          "searchApplication": "搜索应用程序",
+          "browse": "浏览",
+          "cancel": "取消",
+          "add": "添加",
+          "close": "关闭"
+        }
+      }
+    },
+    "zh-Hant-HK": {
+      "translation": {
+        "installedapps": {
+          "applications": "應用程式",
+          "searchApplication": "搜尋應用程式",
+          "browse": "瀏覽",
+          "cancel": "取消",
+          "add": "新增",
+          "close": "關閉"
+        }
+      }
+    },
+    "zh-Hant": {
+      "translation": {
+        "installedapps": {
+          "applications": "應用程式",
+          "searchApplication": "搜尋應用程式",
+          "browse": "瀏覽",
+          "cancel": "取消",
+          "add": "新增",
+          "close": "關閉"
+        }
+      }
+    }
+  }

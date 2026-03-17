@@ -1,0 +1,12 @@
+{
+  "console_text": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView[contains(@value, 'html')]"
+    }
+  },
+  "toggle_expand_console": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@name, 'go ')]"
+    }
+  }
+}

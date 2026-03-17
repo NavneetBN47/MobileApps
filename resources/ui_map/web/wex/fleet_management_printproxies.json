@@ -1,0 +1,768 @@
+{
+    "fleet_management_devices_proxies_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_print-proxies']"
+        }
+    },
+    "fleet_management_print_proxies_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        },
+        "localization": {
+            "en": "Printers"
+        }
+    },
+    "print_proxies_table":{
+        "locator": {
+            "css selector": "div[data-testid='proxies-list']"
+        }
+    },
+    "print_proxies_download_button":{
+        "locator": {
+            "css selector": "button[data-testid='download-tray-app-button']"
+        }
+    },
+    "print_proxies_search_txtbox":{
+        "locator": {
+            "css selector": "input#search"
+        }
+    },
+    "print_proxies_filter_btn":{
+        "locator": {
+            "css selector": "button[data-testid='proxies-table-filter-button']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "print_proxies_add_btn":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-button']"
+        },
+        "localization": {
+            "en": "Add proxy"
+        }
+    },
+    "print_proxies_column_option_gear_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "print_proxies_proxies_table":{
+        "locator": {
+            "css selector": "table[data-testid='proxys-data-table']"
+       }
+    },
+    "filter_side_bar_title":{
+        "locator": {
+            "css selector": "[data-testid='filter-sidebar-primary-title']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "filter_side_bar_description":{
+        "locator": {
+            "css selector": "[data-testid='filter-sidebar-description']"
+        },
+        "localization": {
+            "en": "Select filters to view in the list."
+        }
+    },
+    "filter_side_bar_search_box":{
+        "locator": {
+            "css selector": "[data-testid='search-filters-box']"
+        }
+    },
+    "filter_side_bar_connectivity_label":{
+        "locator": {
+            "css selector": "[id*='connectivity-legend'] p"
+        },
+        "localization": {
+            "en": "Connectivity"
+        }
+    },
+    "filter_side_bar_close_btn":{
+        "locator": {
+            "css selector": "div[id='filter-sidebar-container'] button[aria-label*='Close']"
+        }
+    },
+    "built_in_filter_options":{
+        "locator": {
+            "css selector": "#connectivityList li label"
+        }
+    },
+    "filter_side_bar_items_selected_text":{
+        "locator": {
+            "css selector": "p[data-testid='filtersidebar-selecteditems-text']"
+        }
+    },
+    "filter_side_bar_items_clear_all_btn":{
+        "locator": {
+            "css selector": "button[data-testid='filtersidebar-clearall-button']"
+        }
+    },
+    "filter_side_bar_connectivity_status_tags":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Connectivity : {}')]"
+        }
+    },
+    "filter_side_bar_connectivity_online_tag":{
+        "locator": {
+            "xpath": "//*[@id='proxies-filter-tags']/span[contains(text(),'Connectivity : Online')]"
+        }
+    },
+    "filter_side_bar_connectivity_offline_tag":{
+        "locator": {
+            "xpath": "//*[@id='proxies-filter-tags']/span[contains(text(),'Connectivity : Offline')]"
+        }
+    },
+    "filter_side_bar_connectivity_offline_status_tag":{
+        "locator": {
+            "xpath": "//*[@id='proxies-filter-tags']/span[contains(text(),'Connectivity : Online')]"
+        }
+    },
+    "filter_side_bar_connectivity_status_tag_close_tag":{
+        "locator": {
+            "css selector": "#proxies-filter-tags svg"
+        }
+    },
+    "filter_side_bar_connectivity_status_clear_all_tag":{
+        "locator": {
+            "css selector": "button[data-testid='clear-all-tags']"
+        },
+        "localization": {
+            "en": "Clear All"
+        }
+    },
+    "print_proxies_table_no_item_found_lbl":{
+        "locator": {
+            "css selector": "[data-testid='error-empty-proxies-list']>div:nth-child(1)"
+        }
+    },
+    "print_proxies_table_data":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child({})"
+       }
+    },
+    "print_proxies_table_proxy_name":{
+        "locator": {
+            "css selector": "tbody td:nth-child(2)"
+        }
+    },
+    "print_proxies_clear_search_button":{
+        "locator": {
+            "css selector": "button[aria-label='Clear']"
+        }
+    },
+    "print_proxies_table_checkbox":{
+        "locator": {
+            "css selector": "table tbody td .vn-checkbox__span"
+        }
+    },
+    "print_proxies_contextual_footer":{
+        "locator": {
+            "css selector": "[data-testid='proxy-footer-contextual-menu']"
+        }
+    },
+    "print_proxies_contextual_footer_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "print_proxies_contextual_footer_selected_item_lbl":{
+        "locator": {
+            "css selector": "label[data-testid='proxy-contextual-footer-items-label']"
+        },
+        "localization": {
+            "en": "1 Item selected"
+        }
+    },
+    "print_proxies_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='select-footer-batch-operation']"
+        }
+    },
+    "print_proxies_contextual_footer_continue_button":{
+        "locator": {
+            "css selector": "button[data-testid='confirm-batch-button']"
+        },
+        "localization": {
+            "en": "Continue"
+        }
+    },
+    "print_proxies_contextual_footer_select_action_dropdown_options":{
+        "locator": {
+            "css selector": ["div[data-testid='proxy-trailing-area'] ul li", "ul[role='listbox'] li"]
+        }
+    },
+    "print_proxies_select_action_dropdown_selected_option":{
+        "locator": {
+            "css selector": "#select-footer-batch-operation span"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column Options"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": ["ul[aria-labelledby='column-options-label'] label", "ul#column-options label"]
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "locator": {
+            "css selector": "#column-options+div button:nth-child(2)"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "locator": {
+            "css selector": "#column-options+div button:nth-child(1)"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "print_proxies_table_connectivity_column":{
+        "locator": {
+            "css selector": "table[data-testid='proxys-data-table'] th#proxyStatus"
+        }
+    },
+    "print_proxies_table_last_updated_column":{
+        "locator": {
+            "css selector": "table[data-testid='proxys-data-table'] th#lastUpdated"
+        }
+    },
+    "print_proxies_table_date_added_column":{
+        "locator": {
+            "css selector": "table[data-testid='proxys-data-table'] th#dateAdded"
+        }
+    },
+    "verify_proxy_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-modal-title']"
+        },
+        "localization": {
+            "en": "Verify a Proxy"
+        }
+    },
+    "verify_proxy_popup_description":{
+        "locator": {
+            "css selector": "div[data-testid='verify-proxy-desc']"
+        },
+        "localization": {
+            "en": "In order to connect your proxy devices to the Workforce Experience Platform, you need to verify a code. Enter the verification code displayed on the Print Fleet Proxy installed PC."
+        }
+    },
+    "verify_proxy_popup_code_label":{
+        "locator": {
+            "css selector": "[data-testid='verify-proxy-label']"
+        },
+        "localization": {
+            "en": "Code"
+        }
+    },
+    "verify_proxy_popup_code_txt":{
+        "locator": {
+            "css selector": "input[data-testid='enter-proxy-code']"
+        }
+    },
+    "verify_proxy_invalid_code_error_msg":{
+        "locator": {
+            "css selector": "[data-testid='verify-proxy-code-block'] p span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Invalid code. Check the code on the HP Fleet Proxy and then try again."
+        }
+    },
+    "verify_proxy_popup_proxy_note":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-modal-note']"
+        },
+        "localization": {
+            "en": "Note: If you need a verification code, install Print Fleet Proxyon the Web Jetadmin PC and generate the code."
+        }
+    },
+    "verify_proxy_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-cancel-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "verify_proxy_popup_verify_btn":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-btn']"
+        },
+        "localization": {
+            "en": "Verify"
+        }
+    },
+    "verify_proxy_popup_code_required_tooltip_msg":{
+        "locator": {
+            "css selector": "[data-testid='verify-proxy-code-block'] p[class*='text'] span:nth-child(2)"
+        }
+    },
+    "proxy_verified_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-modal-title']"
+        },
+        "localization": {
+            "en": "Proxy Verified"
+        }
+    },
+    "proxy_verified_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-cancel-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "proxy_verified_popup_allow_btn":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-btn']"
+        },
+        "localization": {
+            "en": "Allow"
+        }
+    },
+    "proxy_connected_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-modal-title']"
+        },
+        "localization": {
+            "en": "Proxy Connected"
+        }
+    },
+    "proxy_connected_popup_description":{
+        "locator": {
+            "css selector": "#add-proxy-modal-desc>div:nth-child(2) div:nth-child(2)"
+        },
+        "localization": {
+            "en": "Your proxy Host Name is now connected. You can modify the proxy name and the description."
+        }
+    },
+    "proxy_connected_popup_success_icon":{
+        "locator": {
+            "css selector": "svg[data-test-id='success-icon']"
+        }
+    },
+    "proxy_connected_popup_proxy_name_label":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-block'] label"
+        },
+        "localization": {
+            "en": "Proxy Name*"
+        }
+    },
+    "proxy_connected_popup_proxy_name_txt":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-name']"
+        }
+    },
+    "proxy_connected_popup_proxy_desc_txt":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-description']"
+        }
+    },
+    "proxy_connected_popup_done_btn":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-btn']"
+        },
+        "localization": {
+            "en": "Done"
+        }
+    },
+    "reconnect_proxy_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='add-proxy-modal-title']"
+        },
+        "localization": {
+            "en": "Reconnect this proxy?"
+        }
+    },
+    "reconnect_proxy_popup_description_text_1":{
+        "locator": {
+            "css selector": "div[data-testid='registered-proxy-desc']"
+        }
+    },
+    "reconnect_proxy_popup_description_hostname":{
+        "locator": {
+            "css selector": "span[data-testid='reconnect-proxy-hostname']"
+        }
+    },
+    "reconnect_proxy_popup_description_text_2":{
+        "locator": {
+            "css selector": "span[data-testid='proxy-connection-info']"
+        },
+        "localization": {
+            "en": "was previously connected to Workforce Experience with the following information:"
+        }
+    },
+    "reconnect_proxy_popup_proxy_name_label":{
+        "locator": {
+            "css selector": "div[data-testid='reconnect-proxy-name']"
+        }
+    },
+    "reconnect_proxy_popup_proxy_name_txt":{
+        "locator": {
+            "css selector": "div[data-testid='reconnect-proxy-name'] span"
+        }
+    },
+    "reconnect_proxy_popup_proxy_description_label":{
+        "locator": {
+            "css selector": "div[data-testid='reconnect-proxy-desc']"
+        }
+    },
+    "reconnect_proxy_popup_proxy_description_txt":{
+        "locator": {
+            "css selector": "div[data-testid='reconnect-proxy-desc'] span"
+        }
+    },
+    "reconnect_proxy_popup_reconnect_button":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-btn']"
+        },
+        "localization": {
+            "en": "Reconnect"
+        }
+    },
+    "reconnect_proxy_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='add-proxy-cancel-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "reconnect_proxy_popup_reconnect_note_message":{
+        "locator": {
+            "css selector": "div[data-testid='proxy-after-reconnect']"
+        },
+        "localization": {
+            "en": "You can Change the proxy name and description after you reconnect."
+        }
+    },
+    "edit_proxy_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='update-proxy-modal-title']"
+        },
+        "localization": {
+            "en": "Edit a Proxy"
+        }
+    },
+    "edit_proxy_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='update-proxy-desc']"
+        },
+        "localization": {
+            "en": "You can modify the proxy name and the description."
+        }
+    },
+    "edit_proxy_popup_proxy_name_txt":{
+        "locator": {
+            "css selector": "input[data-testid='update-proxy-name']"
+        }
+    },
+    "edit_proxy_popup_desc_txt":{
+        "locator": {
+            "css selector": "input[data-testid='update-proxy-description']"
+        }
+    },
+    "edit_proxy_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='update-proxy-cancel-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "edit_proxy_popup_save_btn":{
+        "locator": {
+            "css selector": "button[data-testid='update-proxy-btn']"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "edit_proxy_popup_proxy_name_tooltip_msg":{
+        "locator": {
+            "css selector": "[data-testid='update-proxy-block'] p[class*='text']"
+        }
+    },
+    "remove_proxy_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='remove-modal-title']"
+        },
+        "localization": {
+            "en": "Remove Proxy"
+        }
+    },
+    "remove_proxy_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='remove-modal-content']"
+        },
+        "localization": {
+            "en": "Are you sure you want to remove the selected proxies? All devices connected to these proxies will be removed from Workforce Experience Platform."
+        }
+    },
+    "remove_proxy_popup_desc_end_part":{
+        "locator": {
+            "css selector": "[data-testid='remove-modal-content']+div+div"
+        },
+        "localization": {
+            "en": "This action cannot be undone."
+        }
+    },
+    "remove_proxy_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='remove-proxy-cancel-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "remove_proxy_popup_remove_btn":{
+        "locator": {
+            "css selector": "button[data-testid='remove-proxy-btn']"
+        },
+        "localization": {
+            "en": "Remove"
+        }
+    },
+    "print_proxies_table_no_item_found_msg":{
+        "locator": {
+            "css selector": "div[data-testid='error-empty-proxies-list'] div[class*='label']"
+        },
+        "localization": {
+            "en": "No Results Found in Proxies List"
+        }
+    },
+    "print_proxies_table_add_proxy_msg":{
+        "locator": {
+            "css selector": "div[data-testid='error-empty-proxies-list'] div[class*='ClickToAddProxy']"
+        },
+        "localization": {
+            "en": "You can select other filters or adjust your search keywords."
+        }
+    },
+    "proxies_table_headers":{
+        "locator": {
+            "css selector": "table thead th[id]"
+        }
+    },
+    "proxy_name_table_header":{
+        "locator": {
+            "css selector": "th#name"
+        }
+    },
+    "proxy_devices_count_table_header":{
+        "locator": {
+            "css selector": "th#pDevices"
+        }
+    },
+    "last_updated_table_header":{
+        "locator": {
+            "css selector": "th#pLastUpdated"
+       }
+    },
+    "host_name_table_header":{
+        "locator": {
+            "css selector": "th#pHostName"
+        }
+    },
+    "proxy_description_table_header":{
+        "locator": {
+            "css selector": "th#pDescription"
+        }
+    },
+    "proxy_date_added_table_header":{
+        "locator": {
+            "css selector": "th#pDateAdded"
+        }
+    },
+    "print_proxies_table_connectivity_name":{
+        "locator": {
+            "css selector": "tbody td:nth-child(3)"
+        }
+    },
+    "print_proxies_table_number_of_devices":{
+        "locator": {
+            "css selector": "tbody td:nth-child(6)"
+        }
+    },
+    "print_proxies_table_description":{
+        "locator": {
+            "css selector": "tbody td:nth-child(8)"
+        }
+    },
+    "print_proxies_table_host_name":{
+        "locator": {
+            "css selector": "tbody td:nth-child(7)"
+        }
+    },
+    "add_printers_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='fleet-proxy-title']"
+        },
+        "localization": {
+            "en": "Add Printers"
+        }
+    },
+    "add_printers_popup_sub_title":{
+        "locator": {
+            "css selector": "h4#modal-id-label div:nth-child(2)"
+        },
+        "localization": {
+            "en": "Device enrollment"
+        }
+    },
+    "add_printers_popup_desc":{
+        "locator": {
+            "css selector": "div[data-testid='fleet-proxy-description']"
+        },
+        "localization": {
+            "en": "Install Print Fleet Proxy and use the tray app to generate a proxy verification code."
+        }
+    },    
+    "add_printers_popup_view_system_requirements_link":{
+        "locator": {
+            "css selector": "div[class='wex-software-hyperlink '] a"
+        },
+        "localization": {
+            "en": "View System Requirements"
+        }
+    },
+    "add_printers_popup_view_instructions_link":{
+        "locator": {
+            "css selector": "[data-testid='fleet-proxy-instructions-link']"
+        },
+        "localization": {
+            "en": "View Instructions"
+        }
+    },
+    "add_printers_popup_done_btn":{
+        "locator": {
+            "css selector": "button[data-testid='fleet-proxy-done-button']"
+        },
+        "localization": {
+            "en": "Done"
+        }
+    },
+    "add_printers_popup_android_application_option":{
+        "locator": {
+            "css selector": "div#list-item-label-andriod"
+        },
+        "localization": {
+            "en": "HP Insights Android Application"
+        }
+    },
+    "add_printers_popup_macOS_application_option":{
+        "locator": {
+            "css selector": "div#list-item-label-mac"
+        },
+        "localization": {
+            "en": "HP Insights macOS Application"
+        }
+    },
+    "add_printers_popup_linux_analytics_application_option":{
+        "locator": {
+            "css selector": "div#list-item-label-linuxAnalyticsCore"
+        },
+        "localization": {
+            "en": "HP Insights linux OS Application"
+        }
+    },
+    "add_printers_popup_linux_core_application_option":{
+        "locator": {
+            "css selector": "div#list-item-label-linuxTPMCore"
+        },
+        "localization": {
+            "en": "HP Insights Linux Core Application"
+        }
+    },
+    "add_printers_popup_windows_application_option":{
+        "locator": {
+            "css selector": "div#list-item-label-windows"
+        },
+        "localization": {
+            "en": "HP Insights Windows Application"
+        }
+    },
+    "add_printers_popup_network_readiness_tool_option":{
+        "locator": {
+            "css selector": "div#list-item-label-assessment_tools"
+        },
+        "localization": {
+            "en": "HP Insights Network Readiness Tool"
+        }
+    },
+    "add_printers_popup_hp_protect_and_trace_with_wolf_connect_option":{
+        "locator": {
+            "css selector": "div#list-item-label-admincentral"
+        },
+        "localization": {
+            "en": "HP Protect & Trace with Wolf Connect"
+        }
+    },
+    "add_printers_popup_print_fleet_proxy_option":{
+        "locator": {
+            "css selector": "div#list-item-label-fleetproxy"
+        },
+        "localization": {
+            "en": "HP Print Fleet Proxy"
+        }
+    },
+    "add_printers_popup_incident_integration_option":{
+        "locator": {
+            "css selector": "div#list-item-label-snow"
+        },
+        "localization": {
+            "en": "HP Insights Incident Integration"
+        }
+    },
+    "add_printers_popup_hp_print_fleet_proxy_download_button":{
+        "locator": {
+            "css selector": "[data-testid='fleet-proxy-tile']"
+        }
+    },
+    "add_printers_popup_hp_print_fleet_proxy_download_button_title":{
+        "locator": {
+            "css selector": "[data-testid='fleet-proxy-tile-title']"
+        },
+        "localization": {
+            "en": "HP Print Fleet Proxy"
+        }
+    },
+    "add_printers_popup_hp_print_fleet_proxy_download_button_version":{
+        "locator": {
+            "css selector": "[data-testid='fleet-proxy-tile-description']"
+        }
+    },
+    "add_printers_popup_hp_print_fleet_proxy_download_button_icon":{
+        "locator": {
+            "css selector": "button[data-testid='proxy-download-button']"
+        }
+    }
+}

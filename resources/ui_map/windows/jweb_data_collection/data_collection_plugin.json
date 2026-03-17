@@ -1,0 +1,468 @@
+{
+  "data_collection_header": {
+    "locator": {
+      "xpath": "//Text[@Name='Data Collection']"
+    }
+  },
+  "expand_data_collection_method": {
+    "locator": {
+      "xpath":"//Button[contains(@Name,'{}')]"
+    }
+  },
+  "server_stack_btn": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='stackSelect']"
+    }
+  },
+  "stack_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "invalidate_cache_btn": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='const invalidateCache']//Button"
+    }
+  },
+  "invalidate_cache_test_result": {
+    "locator":{
+      "xpath": "//Group[@AutomationId='const invalidateCache']//Text[@Name='Result']/following::Text"
+    }
+  },
+  "asset_unit_menu_selector":{
+    "locator":{
+      "xpath": "//ComboBox[@AutomationId='assetUnitSelect']"
+    }
+  },
+  "asset_unit_option":{
+    "locator":{
+      "name":"{}"
+    }
+  },
+  "asset_type_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='assetType-field']"
+    }
+  },
+  "app_instance_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='appInstanceId-field']"
+    }
+  },
+  "account_login_id_textbox":{
+    "locator":{
+      "xpath": "//Edit[@AutomationId='accountLoginId-field']"
+    }
+  },
+  "stratus_user_id_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='stratusUserId-field']"
+    }
+  },
+  "device_id_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='deviceId-field']"
+    }
+  },
+  "tenant_id_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='tenantId-field']"
+    }
+  },
+  "edge_type_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='edgeType-field']"
+    }
+  },
+  "simplified_cdm_tree_result_checkbox_toggle":{
+    "locator":{
+      "xpath": "//Button[@AutomationId='treeGun-toggle']"
+    }
+  },
+  "filter_cdm_tree_test_result":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='treeGun-toggle']/following::Text"
+    }
+  },
+  "filter_cdm_tree_test_btn":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='filterCDMTreesButton']"
+    }
+  },
+  "senduieventitem_toggle":{
+    "locator":{
+      "xpath":"//Group[@AutomationId='sendUiEventItem']//Button[@AutomationId='toggle']"
+    }
+  },
+  "valvecontrollermetadata_toggle":{
+    "locator":{
+      "xpath":"//Text[contains(@Name,'Include valveControllerMetadata in EventData?')]/following::Button"
+    }
+  },
+  "send_ui_event_test_btn":{
+    "locator":{
+      "xpath": "//Button[@AutomationId='sendUiEventButton']"
+    }
+  },
+  "send_ui_event_test_result":{
+    "locator":{
+      "xpath":"//Text[@Name='Include trackingIdentifier?']/following::Text[5]"
+    }
+  },
+  "use_custommetadatavalues_toggle":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='useCustomMetadataValues']"
+    }
+  },
+  "cdm_tree_file_selector": {
+    "locator":{
+      "xpath":"//Button[@AutomationId='tree_multiple-file-picker']"
+    }
+  },
+  "cdm_tree_gun_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='treeGun-field']"
+    }
+  },
+  "ledm_tree_file_selector": {
+    "locator":{
+      "xpath":"//Button[@AutomationId='ledmtree_multiple-file-picker']"
+    }
+  },
+  "resource_uri_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='resourceUri-field']"
+    }
+  },
+  "simplified_ledm_tree_result_checkbox_toggle":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='resourceUri-toggle']"
+    }
+  },
+  "filter_ledm_tree_test_btn":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='filterLEDMTreesButton']"
+    }
+  },
+  "filter_ledm_tree_test_result":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='resourceUri-toggle']/following::Text"
+    }
+  },
+  "send_prebuiltnotification_toggle":{
+    "locator":{
+      "xpath":"//Text[contains(@Name,'SendPrebuiltNotification:')]/following::Button"
+    }
+  },
+  "mock_notification_toggle":{
+    "locator":{
+      "xpath":"//Text[contains(@Name,'mock notification')]/following::Button"
+    }
+  },
+  "include_trackingidentifier_toggle":{
+    "locator":{
+      "xpath":"//Text[contains(@Name,'Include trackingIdentifier?')]/following::Button"
+    }
+  },
+  "expand_build_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'buildNotification')]"
+    }
+  },
+  "build_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'buildNotification')]/following::Text"
+    }
+  },
+  "expand_filter_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'filterNotification')]"
+    }
+  },
+  "filter_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'filterNotification')]/following::Text"
+    }
+  },
+  "expand_publish_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'publishNotification')]"
+    }
+  },
+  "publish_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'publishNotification')]/following::Text"
+    }
+  },
+  "expand_finish_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'finish')]"
+    }
+  },
+  "finish_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'finish')]/following::Text"
+    }
+  },
+  "notification_result_event_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'Notification')]/following::Text"
+    }
+  },
+  "upload_notification_file":{
+    "locator":{
+      "xpath":"//input[@id='multipleNotificationPicker']//parent::div//parent::div//parent::div",
+      "name": "Upload"
+    }
+  },
+  "screen_name_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='screenNameField']"
+    }
+  },
+  "expand_second_build_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'buildNotification')][2]"
+    }
+  },
+  "second_build_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'buildNotification')][2]/following::Text"
+    }
+  },
+  "expand_second_filter_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'filterNotification')][2]"
+    }
+  },
+  "second_filter_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'filterNotification')][2]/following::Text"
+    }
+  },
+  "expand_second_publish_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'publishNotification')][2]"
+    }
+  },
+  "second_publish_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'publishNotification')][2]/following::Text"
+    }
+  },
+  "expand_second_finish_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'finish')][2]"
+    }
+  },
+  "second_finish_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'finish')][2]/following::Text"
+    }
+  },
+  "expand_third_build_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'buildNotification')][3]"
+    }
+  },
+  "third_build_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'buildNotification')][3]/following::Text"
+    }
+  },
+  "expand_third_filter_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'filterNotification')][3]"
+    }
+  },
+  "third_filter_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'filterNotification')][3]/following::Text"
+    }
+  },
+  "expand_third_publish_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'publishNotification')][3]"
+    }
+  },
+  "third_publish_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'publishNotification')][3]/following::Text"
+    }
+  },
+  "expand_third_finish_notification_event":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'finish')][3]"
+    }
+  },
+  "third_finish_notification_result_text":{
+    "locator":{
+      "xpath":"//Button[contains(@Name,'finish')][3]/following::Text"
+    }
+  },
+  "count_value_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='countValue']"
+    }
+  },
+  "send_sys_info_event_btn":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='sendSystemInfoEvent']"
+    }
+  },
+  "event_result_pop_up_text":{
+    "locator":{
+      "xpath":"//Text[contains(@Name,'Information')]/following::Text"
+    }
+  },
+  "pop_up_close_btn":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='CloseButton']"
+    }
+  },
+  "screen_name_value_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='screenNameValue']"
+    }
+  },
+  "accumulator_list": {
+    "locator": {
+      "xpath": "//List[@AutomationId='accumulatorItemsList']//ListItem[{}]"
+    }
+  },
+  "accumulator_delete_btn": {
+    "locator": {
+      "name": "Delete"
+    }
+  },
+  "send_ui_event_btn":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='sendUiEvent']"
+    }
+  },
+  "enable_ui_event_checkbox":{
+    "locator":{
+      "xpath":"//CheckBox[@AutomationId='uiEventEnabled']"
+    }
+  },
+  "enable_notification_checkbox":{
+    "locator":{
+      "xpath":"//CheckBox[@AutomationId='notificationsEnabled']"
+    }
+  },
+  "cdm_object_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='textBoxCustomTree']"
+    }
+  },
+  "add_notification_btn":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='buttonAddNotification']"
+    }
+  },
+  "combo_tree_list": {
+    "locator": {
+      "xpath":"//ComboBox[@AutomationId='comboFilter']"
+    }
+  },
+  "combo_list_cdm_btn": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "combo_list_ledm_btn": {
+    "locator": {
+      "name": "LEDM"
+    }
+  },
+  "valid_tree_btn": {
+    "locator": {
+      "name": "Valid Tree"
+    }
+  },
+  "invalid_tree_btn": {
+    "locator": {
+      "name": "Invalid Tree"
+    }
+  },
+  "custom_tree_btn": {
+    "locator": {
+      "name": "Custom Tree"
+    }
+  },
+  "custom_tree_text_box": {
+    "locator": {
+      "xpath":"//Edit[@AutomationId='textBoxCustomTree']"
+    }
+  },
+  "custom_tree_tree_gun_text_box": {
+    "locator": {
+      "xpath":"//Edit[@AutomationId='textBoxCustomTreeIdentifier']"
+    }
+  },
+  "custom_send_tree_btn": {
+    "locator": {
+      "name": "Send Tree"
+    }
+  },
+  "apply_filter_btn": {
+    "locator": {
+      "name": "Apply Filter"
+    }
+  },
+  "filtered_values_result": {
+    "locator": {
+     "xpath":"//List[@AutomationId='ltFilteredValues']/ListItem"
+    }
+  },
+  "filtered_pop_up_close_btn": {
+    "locator": {
+     "xpath":"//Button[@AutomationId='CloseButton']"
+    }
+  },
+  "filters_pop_up_text":{
+    "locator":{
+      "xpath":"//Text[contains(@Name,'Error')]/following::Text"
+    }
+  },
+  "second_filtered_values_result": {
+    "locator": {
+     "xpath":"//List[@AutomationId='ltFilteredValues']/ListItem[2]"
+    }
+  },
+  "http_proxy_tree_textbox": {
+    "locator": {
+     "xpath":"//Edit[@AutomationId='treeTextBox']"
+    }
+  },
+  "http_proxy_href_textbox": {
+    "locator": {
+     "xpath":"//Edit[@AutomationId='hrefTextBox']"
+    }
+  },
+  "http_proxy_filter_tree_btn": {
+    "locator": {
+     "name":"FilterPrinterTree()"
+    }
+  },
+  "count_text_box": {
+    "locator": {
+     "xpath":"//Edit[@AutomationId='countValue']"
+    }
+  },
+  "queue_list_item": {
+    "locator": {
+     "name":"HP.Jarvis.DataCollection.Reference.UWP.QueueItemView"
+    }
+  },
+  "action_value_textbox":{
+    "locator":{
+      "xpath":"//Edit[@AutomationId='actionValue']"
+    }
+  },
+  "tree_remove_btn":{
+    "locator":{
+      "xpath":"//ListItem[@Name='HP.Jarvis.DataCollection.Reference.UWP.TreeViewData']/Pane[@ClassName='ScrollViewer']/Button[@ClassName='Button']"
+    }
+  }
+}

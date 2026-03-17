@@ -1,0 +1,175 @@
+{
+    "advanced_settings_page_title": {
+        "_comment": "Advanced Settings page title after selecting Advanced Settings item",
+        "locator": {"id": "HpTitle"}
+    },
+    "ews_hidden_url_text": {
+        "_comment": "Use Ctrl + Shift + right click combo below the title of the EWS screen to trigger hidden url",
+        "locator": {"xpath": "//Edit[@AutomationId='UserUrl']/preceding-sibling::Text[1]"}
+    },
+    "ews_hidden_url_edit_box": {
+        "_comment": "Use Ctrl + Shift + right click combo below the title of the EWS screen to trigger hidden url",
+        "locator": {"id": "UserUrl"}
+    },
+    "ews_hidden_url_forward_arrow": {
+        "_comment": "Use Ctrl + Shift + right click combo below the title of the EWS screen to trigger hidden url",
+        "locator": {"xpath": "//Edit[@AutomationId='UserUrl']/following-sibling::Button[1]"}
+    },
+    "person_icon": {
+        "locator": {"id": ["moreActionLauncher", "admin"]}
+    },
+    "sign_in_link": {
+        "locator": {"xpath": "//HyperLink[@Name='Sign In']",
+                    "id": "signIn"}
+    },
+    "sign_out_link": {
+        "locator": {"xpath": "//HyperLink[@Name='Sign Out']"}
+    },
+    "sign_out_successfuly_text": {
+        "locator": {"xpath": "//Text[@Name='Sign-Out Successful']"}
+    },
+    "ok_btn": {
+        "locator": {"xpath": "//Button[@Name='OK']"}
+    },
+    "printer_name_text": {
+        "locator": {"xpath": "//Window[2]/Pane[1]"}
+    },
+    "home_menu": {
+        "locator": {"id": ["top-cat-Home","menu-index.html"]}
+    },
+    "jobs_menu": {
+        "locator": {"id": "menu-jobs"}
+    },
+    "copy_menu": {
+        "locator": {"id": "menu-copy"}
+    },
+    "scan_menu": {
+        "locator": {"id": ["top-cat-Scan", "menu-scan"]}
+    },
+    "print_menu": {
+        "locator": {"id": "menu-print"}
+    },
+    "fax_menu": {
+        "locator": {"id": "menu-fax"}
+    },
+    "contacts_menu": {
+        "locator": {"id": "menu-contacts"}
+    },
+    "supplies_menu": {
+        "locator": {"id": "menu-supplies"}
+    },
+    "paper_menu": {
+        "locator": {"id": "menu-paper"}
+    },
+    "print_quality_menu": {
+        "locator": {"id": "menu-printQuality"}
+    },
+    "general_menu": {
+        "locator": {"id": "menu-general"}
+    },
+    "network_menu": {
+        "locator": {"id": ["top-cat-Network", "menu-network"]}
+    },
+    "security_menu": {
+        "locator": {"id": "menu-security"}
+    },
+    "support_tools_menu": {
+        "locator": {"id": "menu-supportTools"}
+    },
+    "accessibility_menu": {
+        "locator": {"id": "menu-accessibility"}
+    },
+    "web_services_menu": {
+        "locator": {"id": "top-cat-WebServices"}
+    },
+    "tools_menu": {
+        "locator": {"id": "top-cat-Tools"}
+    },
+    "settings_menu": {
+        "locator": {"id": "top-cat-Settings"}
+    },
+    "printer_ip_address": {
+        "locator": {"xpath": "//Group[@AutomationId='content-home-tile-pgNetworkSummary']/Text[3]"}
+    },
+    "printer_connected_router": {
+        "locator": {"xpath": "//Group[@AutomationId='content-home-tile-pgNetworkSummary']/Text[5]"}
+    },
+    "settings_page": {
+        "locator": {"xpath": "//Text[@Name='SETTINGS']"}
+    },
+    "security_sub_item": {
+        "locator": {"xpath": "//*[@Name='Security']"}
+    },
+    "password_settings": {
+        "locator": {"id": ["nav-pgSecurity", "menu-security-passwordSettings"]}
+    },
+    "current_password": {
+        "locator": {"id": "currentPassword"}
+    },
+    "new_password": {
+        "locator": {"xpath": "//Edit[@Name='Password']"}
+    },
+    "confirm_password": {
+        "locator": {"xpath": "//Edit[@Name='Confirm Password']"}
+    },
+    "cancel_button": {
+        "locator": {"id": "footer-adminPassword-button-cancel",
+                    "xpath": "//Button[@Name='Cancel']"}
+    },
+    "apply_button": {
+        "locator": {"id": "footer-adminPassword-button-apply",
+                    "xpath": "//Button[@Name='Apply']"}
+    },
+    "password_changed_successfully_text": {
+        "locator": {"xpath": "//Text[@Name='The changes have been updated successfully.']"}
+    },
+    "cant_open_ews_dialog_title": {
+        "locator": {"id": "EwsOfflineTitle"}
+    },
+    "cant_open_ews_dialog_body": {
+        "locator": {"id": "EwsOfflineDescription"}
+    },
+    "cant_open_ews_dialog_ok_btn": {
+        "locator": {"id": "EwsOfflineOk"}
+    },
+    "continuing_to_your_printer_settings_dialog": {
+        "locator": {"id": "YNDialogBox"}
+    },
+    "do_not_show_check_box": {
+        "locator": {"xpath": "//Group[@AutomationId='YNDialogBox']/CheckBox[1]"}
+    },
+    "continuing_to_your_printer_settings_dialog_ok_btn": {
+        "locator": {"xpath": "//Group[@AutomationId='YNDialogBox']/following-sibling::Button[1]"}
+    },
+    "log_in_with_pin_dialog_edit_box": {
+        "locator": {"id": ["tmpId2", "tmpId3", "tmpId4", "tmpId8", "pin"],
+                    "xpath": "//Group[@AutomationId='CustLogin']/Edit[1]"}
+    },
+    "log_in_with_pin_dialog_submit_btn": {
+        "locator": {"xpath": "//Group[@AutomationId='CustLogin']/following-sibling::Button[1]",
+                    "id": "footer-login-button-apply"}
+    },
+    "log_in_with_pin_dialog_cancel_btn": {
+        "locator": {"xpath": "//Group[@AutomationId='CustLogin']/following-sibling::Button[2]",
+                    "id": "footer-login-button-cancel"}
+    },
+    "unautorized_dialog": {
+        "locator": {"id": "notAuthorized"}
+    },
+    "sign_in_to_access_this_site_dialog_username_edit_box": {
+        "locator": {"xpath": "//Edit[@Name='Username']"}
+    },
+    "sign_in_to_access_this_site_dialog_password_edit_box": {
+        "locator": {"xpath": "//Edit[@Name='Password']"}
+    },
+    "sign_in_to_access_this_site_dialog_sign_in_btn": {
+        "locator": {"xpath": "//Button[@Name='Sign in']"}
+    },
+    "sign_in_to_access_this_site_dialog_cancel_btn": {
+        "locator": {"xpath": "//Button[@Name='Cancel']"}
+    },
+    "incorrect_user_name_and_password_text": {
+        "locator": {"xpath": "//Text[@Name='Incorrect User Name and Password']"}
+    }
+
+}

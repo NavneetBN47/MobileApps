@@ -1,0 +1,17 @@
+{
+  "info_button": {
+    "locator": {
+      "name": "info"
+    }
+  },
+  "open_settings_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@name,'Open Settings')]"
+    }
+  },
+  "screen_name_textbox": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[contains(@name,'numeric suffix')]//following::XCUIElementTypeTextField"
+    }
+  }
+}

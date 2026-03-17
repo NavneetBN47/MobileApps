@@ -1,0 +1,67 @@
+{
+    "screen_time_title": {
+        "locator": {
+            "id": "AUID_PCScreenTime_ScreenTime_FeatureTitle"
+        }
+    },
+    "screen_time_subtitle": {
+        "locator": {
+            "id": "AUID_PCScreenTime_ScreenTimeCard_FeatureDescription"
+        }
+    },
+    "screen_time_tooltips": {
+        "locator": {
+            "id": "AUID_PCScreenTime_ScreenTime_ToolTip"
+        }
+    },
+    "screen_time_button": {
+        "locator": {
+            "id": "AUID_PCScreenTime_ScreenTime_FeatureOnOffSwitch"
+        }
+    },
+    "active_screen_title": {
+        "locator": {
+            "id": "AUID_PCScreenTime_ScreenTimeBarChart_ActivateHintText"
+        }
+    },
+    "send_reminder_title": {
+        "locator": {
+            "id": "AUID_PCScreenTime_SendAReminder_FeatureTitle"
+        }
+    },
+    "send_reminder_tooltips": {
+        "locator": {
+            "id": "AUID_PCScreenTime_SendAReminder_ToolTip"
+        }
+    },
+    "send_reminder_subtitle": {
+        "locator": {
+            "id": "AUID_PCScreenTime_STNotificationCard_FeatureDescription"
+        }
+    },
+    "send_reminder_button": {
+        "locator": {
+            "id": "AUID_PCScreenTime_SendAReminder_FeatureOnOffSwitch"
+        }
+    },
+    "reminder_interval_title": {
+        "locator": {
+            "name": "Reminder Interval"
+        }
+    },
+    "reminder_interval_combobox": {
+        "locator": {
+            "id": "AUID_PCScreenTime_STNotificationCard_NotifyTimeSelector"
+        }
+    },
+    "time_list": {
+        "locator": {
+            "xpath": "//*[@id='AUID_PCScreenTime_STNotificationCard_NotifyTimeSelector']/*"
+        }
+    },
+    "4_hours": {
+        "locator": {
+            "id": "AUID_PCScreenTime_STNotificationCard_NotifyTimeSelect_4"
+        }
+    }
+}

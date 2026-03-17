@@ -1,0 +1,247 @@
+{
+    "privacy_alert_title": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_TITLE"
+        }
+    },
+    "privacy_alert_subtitle": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_TITLE_DESC"
+        }
+    },
+    "snooze_duration_title": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DURATION_TEXT"
+        }
+    },
+    "privacy_alert_restoreBtn": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_RESTORE_DEFAULT_SETTINGS_BUTTON"
+        }
+    },
+    "auto_screen_title": {
+        "locator": {
+            "name": "Auto Screen Dimming"
+        }
+    },
+    "auto_screen_subtitle": {
+        "locator": {
+            "name": "Save power by dimming the built-in display when you are not looking at the screen. This feature requires access to your camera."
+        }
+    },
+    "external_monitor_text": {
+        "locator": {
+            "name": "Disable when connected to an external monitor"
+        }
+    },
+    "auto_screen_restoreBtn": {
+        "locator": {
+            "name": "Restore Default Settings"
+        }
+    },
+    "not_show_checkbox": {
+        "locator": {
+            "name": "Do not show again"
+        }
+    },
+    "cancel_button": {
+        "locator": {
+            "name": "Cancel"
+        }
+    },
+    "continue_button": {
+        "locator": {
+            "name": "Continue"
+        }
+    },
+    "privacy_alert_toggle": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SWITCH"
+        }
+    },
+    "privacy_alert_item_tab": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_privacyalert-core"
+        }
+    },
+    "auto_screen_item_tab": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_autoscreendimming-core"
+        }
+    },
+    "privacy_popup_title": {
+        "locator": {
+            "name": "Privacy Alert"
+        }
+    },
+    "privacy_popup_subtitle": {
+        "locator": {
+            "name": "This feature requires access to your camera in order to function. Do you wish to continue?"
+        }
+    },
+    "hp_statement_link": {
+        "locator": {
+            "name": "HP's Privacy Statement"
+        }
+    },
+    "not_show_message": {
+        "locator": {
+            "name": "Do not show again"
+        }
+    },
+    "snooze_dropdown_list": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN"
+        }
+    },
+    "end_of_day": {
+        "locator": {
+            "xpath": "//ComboBox[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN']/ListItem[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN'][5]"
+        }
+    },
+    "ten_minutes": {
+        "locator": {
+            "xpath": "//ComboBox[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN']/ListItem[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN'][2]"
+        }
+    },
+    "five_minutes": {
+        "locator": {
+            "xpath": "//ComboBox[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN']/ListItem[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN'][1]"
+        }
+    },
+    "thirty_minutes": {
+        "locator": {
+            "xpath": "//ComboBox[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN']/ListItem[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN'][3]"
+        }
+    },
+    "one_hour": {
+        "locator": {
+            "xpath": "//ComboBox[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN']/ListItem[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_SNOOZE_DROPDOWN'][4]"
+        }
+    },
+    "privacy_alert_nav": {
+        "locator": {
+            "id": "AUID_smartexperiences-core_NavBreadcrumb_Privacyalert-core"
+        }
+    },
+    "please_text": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Custom[position()=6]/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='ReactControl'][1]"
+        }
+    },
+    "privacy_alert_title_on_popup": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_LAUNCH_MODAL_TITLE"
+        }
+    },
+    "privacy_alert_description_on_popup": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_LAUNCH_MODAL_TITLE_DESC"
+        }
+    },
+    "do_not_show_msg": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_LAUNCH_MODAL_CHECKBOX_MSG"
+        }
+    },
+    "cancel_btn_on_popup": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_MODALDLG_CANCEL_BTN"
+        }
+    },
+    "continue_btn_on_popup": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_MODALDLG_CONTINUE_BTN"
+        }
+    },
+    "hp_privacy_statement_text": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='AUID_SMARTEXPERIENCE_PRIVACY_ALERT_MODALDLG_PRIVACYLINK_BTN']/Text[@ClassName='TextBlock']"
+        }
+    },
+    "auto_screen_dimming_nav_title": {
+        "locator": {
+            "id": "AUID_smartexperiences-core_NavBreadcrumb_Autoscreendimming-core"
+        }
+    },
+    "auto_screen_dimming_text": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_TITLE"
+        }
+    },
+    "auto_screen_dimming_tooltip": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_TOOLTIP"
+        }
+    },
+    "auto_screen_dimming_des_text": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_DESCRIPTION"
+        }
+    },
+    "disable_checkbox_text": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_CHECKBOX_TEXT"
+        }
+    },
+    "auto_screen_dimming_restore_btn": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_RESTORE_DEFAULT_SETTINGS_BUTTON"
+        }
+    },
+    "hp_privacy_link_btn_on_popup": {
+        "locator": {
+            "xpath": "//Text[@AutomationId='AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_MODALDLG_PRIVACYLINK_BTN']/Text[@ClassName='TextBlock']"
+        }
+    },
+    "cancel_btn_auto_screen_dimming_popup": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_MODALDLG_CANCEL_BTN"
+        }
+    },
+    "continue_btn_auto_screen_dimming_popup": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_MODALDLG_CONTINUE_BTN"
+        }
+    },
+    "toggle_switch_auto_dimming_popup": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_SWITCH"
+        }
+    },
+    "privacy_alert_tool_tip": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_TOOLTIP"
+        }
+    },
+    "do_not_show_privacy_chkbox": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_PRIVACY_ALERT_MODALDLG_CHECKBOX"
+        }
+    },
+    "do_not_show_dimming_chkbox": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_MODALDLG_CHECKBOX"
+        }
+    },
+    "cancel_privacy_alert_btn": {
+        "locator": {
+            "name": "Cancel"
+        }
+    },
+    "privacy_hp_statement_link": {
+        "locator": {
+            "name": " HP's Privacy Statement "
+        }
+    },
+    "autoscreen_checkbox": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_AUTO_SCREEN_DIM_EXTERNAL_DISPLAY_CHECKBOX"
+        }
+    },
+    "smart_experience_to_pcdevice_nav": {
+        "locator": {
+            "id": "AUID_smartexperiences-core_NavBreadcrumb_Pcdevice-core"
+        }
+    }
+}

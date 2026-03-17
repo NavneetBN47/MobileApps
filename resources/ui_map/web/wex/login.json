@@ -1,0 +1,46 @@
+{
+    "hpid_account_btn":{
+        "locator": {
+            "css selector": "#sign-in--hpid"
+        }
+    },
+    "signin_btn":{
+        "locator": {
+            "css selector": "a#btn-idplogin-signin"
+        },
+        "localization": {
+            "en": "Sign In"
+        }
+    },
+    "email_txt_box":{
+        "locator": {
+            "css selector": "#email"
+        }
+    },
+    "continue_btn":{
+        "locator": {
+            "css selector": "button[type='submit']"
+        },
+        "localization": {
+            "en": "continue"
+        }
+    },
+    "password_txt_box":{
+        "locator": {
+            "css selector": "#password"
+        }
+    },
+    "login_btn":{
+        "locator": {
+            "css selector": "#sign-in"
+        },
+        "localization": {
+            "en": "Sign In"
+        }
+    },
+    "use_password_button":{
+        "locator": {
+            "css selector": "button[id='use-password-button']"
+        }
+    }
+}

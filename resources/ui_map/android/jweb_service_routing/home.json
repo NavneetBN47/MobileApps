@@ -1,0 +1,12 @@
+{
+  "native_service_routing_tab_btn": {
+    "locator": {
+      "xpath":"//android.widget.TextView[@text='Service Routing']"
+    }
+  },
+  "weblet_tab_btn": {
+    "locator": {
+      "xpath":"//android.widget.TextView[@text='Webview']"
+    }
+  }
+} 

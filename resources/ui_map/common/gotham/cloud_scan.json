@@ -1,0 +1,83 @@
+{
+    "my_hp_cloud_scans_title": {
+        "locator": {
+            "xpath": "//Text[@Name='My HP Cloud Scans']"},
+            "analytics":[
+                {
+                    "event": "-ScreenDisplayed,HpCloudScan,/,1.5.0, accepted.",
+                    "trigger":"wait_v",
+                    "platform": "windows"
+                },
+                {
+                    "event": "-ControlTileClicked,Home,/,HpCloudScans-v01,1.5.0, accepted.",
+                    "trigger":"click",
+                    "platform": "windows"
+                }
+            ]
+    },
+    "back_arrow": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='root']/Group[1]/Button[1]"}
+    },
+    "refresh_icon": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='root']/Group[2]/Button[1]"}
+    },
+    "hamburger_icon": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='root']/Group[2]/Button[2]"}
+    },
+    "close_list_icon": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='sidebar-default']/Button[1]"}
+    },
+    "cloud_scan_printers_list": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='sidebar-default']"}
+    },
+    "sync_is_turned_off_text": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='sidebar-default']/Group[{}]/preceding-sibling::Text[1]"}
+    },
+    "update_sync_schedule_text": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='sidebar-default']/Group[{}]/preceding-sibling::Button[1]"}
+    },
+    "sync_toggle": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='sidebar-default']/Group[{}]/Button[1]"}
+    },
+    "paper_image": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='root']/Image[1]"}
+    },
+    "you_do_not_have_text": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='root']/Text[last()-1]"}
+    },
+    "to_start_text": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='root']/Text[last()]"}
+    },
+    "sync_schedule_dialog": {
+        "locator": {
+            "xpath": "//Document[@AutomationId='RootWebArea']/descendant::Window[1]"}
+    },
+    "sync_dialog_close_btn": {
+        "locator": {
+            "xpath": "//Document[@AutomationId='RootWebArea']/descendant::Window[1]/Button[1]"}
+    },
+    "sync_schedule_option": {
+        "locator": {
+            "xpath": "//Document[@AutomationId='RootWebArea']/descendant::Window[1]/Group[1]/Group[{}]"}
+    },
+    "sync_dialog_save_btn": {
+        "locator": {
+            "xpath": "//Document[@AutomationId='RootWebArea']/descendant::Window[1]/Button[last()]"}
+    },
+    "sync_successfull_text": {
+        "locator": {
+            "xpath": "//Document[@AutomationId='RootWebArea']/descendant::Window[1]/Text[last()-1]"}
+    }
+
+}

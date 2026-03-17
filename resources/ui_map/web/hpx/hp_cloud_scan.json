@@ -1,0 +1,113 @@
+{
+    "sign_in_screen_exit_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Exit']"
+        }
+    },
+    "sign_in_screen_header": {
+        "locator": {
+            "xpath": "//Text[@Name='Sign in to use HP Cloud Scan']"
+        }
+    },
+    "sign_in_screen_body": {
+        "locator": {
+            "xpath": "//Text[@Name='Easily access, edit, and save your HP Cloud Scan files from the HP app.']"
+        }
+    },
+    "sign_in_screen_create_account_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Create account']"
+        }
+    },
+    "sign_in_screen_sign_in_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Sign in']"
+        }
+    },
+    "printer_not_added_screen_icon": {
+        "locator": {
+            "xpath": "//Image[@Name='paper-icon']"
+        }
+    },
+    "printer_not_added_screen_header": {
+        "locator": {
+            "xpath": "//Text[@Name=\"An HP Cloud Scans supported printer hasn't been added yet\"]"
+        }
+    },
+    "printer_not_added_screen_body": {
+        "locator": {
+            "xpath": "//Text[@Name=\"To use HP Cloud Scans, add a printer that supports this feature\"]"
+        }
+    },
+    "printer_not_added_screen_link": {
+        "locator": {
+            "xpath": "//Button[@Name='Check if my printer supports HP Cloud Scans']"
+        }
+    },
+    "top_back_btn": {
+        "locator": {
+            "xpath": ["//Button[@Name='Go back']", "//*[@Name='Back']"]
+        }
+    },
+    "cloud_connected_screen_title": {
+        "locator": {
+            "xpath": "//Text[@Name='My cloud connected printers']"
+        }
+    },
+    "cloud_connected_screen_body": {
+        "locator": {
+            "xpath": "//Text[@Name='Manage your cloud connected printers and settings']"
+        }
+    },
+    "settings_menu":
+    {
+        "locator": {
+            "xpath": "//*[@Name='Back']/following-sibling::Button[2]"
+        }
+    },
+    "check_printer_supports_dialog_header": {
+        "locator": {
+            "xpath": "//Text[@Name='Check if your printer supports HP Cloud Scans']"
+        }
+    },
+    "check_printer_supports_dialog_body": {
+        "locator": {
+            "xpath": "//Text[@Name='Visit the HP Cloud Scan support page to see if your printer is supported.']"
+        }
+    },
+    "check_printer_supports_dialog_body_1": {
+        "locator": {
+            "xpath": "//Listitem[@Name='Go to the home screen on the printer control panel.']"
+        }
+    },
+    "icon_printer_image": {
+        "locator": {
+            "xpath": "//*[@Name='paper-icon']"
+        }
+    },
+    "no_files_body_text": {
+        "locator": {
+            "xpath": "//*[@Name='No files available on HP Cloud']"
+        }
+    },
+    "check_printer_supports_dialog_body_2": {
+        "locator": {
+            "xpath": "//Listitem[@Name='Select Scan. Then, select Scan to Cloud.']"
+        }
+    },
+    "check_printer_supports_dialog_body_3": {
+        "locator": {
+            "xpath": "//Listitem[@Name='If you see an HP Cloud option, the printer supports HP Cloud Scans.']"
+        }
+    },
+    "check_printer_supports_dialog_body_4": {
+        "locator": {
+            "xpath": "//Listitem[@Name='Add the supported printer in the HP app to start using HP Cloud Scans.']"
+        }
+    },
+    "close_btn_on_dialog": {
+        "locator": {
+            "xpath": "//Button[@Name='Close']"
+        }
+    }
+}

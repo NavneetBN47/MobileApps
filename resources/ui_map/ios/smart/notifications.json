@@ -1,0 +1,241 @@
+{
+  "notifications_title": {
+    "locator": {
+      "name": "Notifications"
+    }
+  },
+  "notifications_tv": {
+    "locator": {
+      "name": "Notifications List Table View"
+    }
+  },
+  "notifications_cell": {
+    "locator": {
+      "class_name": "XCUIElementTypeCell"
+    }
+  },
+  "out_of_paper": {
+    "locator": {
+      "name": "Out of Paper"
+    }
+  },
+  "email_tf": {
+    "locator": {
+      "name": "Phone,email or username"
+    }
+  },
+  "password_tf": {
+    "locator": {
+      "name": "Password"
+    }
+  },
+  "login_and_tweet_btn": {
+    "locator": {
+      "name": "Log in and Tweet"
+    }
+  },
+  "close_btn": {
+    "locator": {
+      "name": "Close"
+    }
+  },
+  "settings_opt": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeNavigationBar[@identifier='Notifications']/XCUIElementTypeButton[@identifier='Application Settings']",
+        "//XCUIElementTypeButton[@name='SettingsTab-inactive']"
+      ],
+      "name": [
+        "Settings",
+        "SettingsTab-inactive",
+        "Application Settings"
+      ],
+      "label": "Settings"
+    }
+  },
+  "print_btn": {
+    "locator": {
+      "name": "Print"
+    }
+  },
+  "mobile_fax_btn": {
+    "locator": {
+      "name": "Mobile Fax"
+    }
+  },
+  "account_btn": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeStaticText[@label='Account']",
+        "//XCUIElementTypeStaticText[@name='Account']"
+      ],
+      "name": "Account"
+    }
+  },
+  "supplies_btn": {
+    "locator": {
+      "name": "Supplies"
+    }
+  },
+  "shortcuts_btn": {
+    "locator": {
+      "name": "Shortcuts",
+      "str_id": "cSmartTasks"
+    }
+  },
+  "no_printer_activity_title": {
+    "locator": {
+      "name": "No print activity available.",
+      "str_id": "cNoPrintActivityAvailable"
+    }
+  },
+  "send_file_to_your_printer_message": {
+    "locator": {
+      "id": "Send a file to your printer and check back to see its status.",
+      "str_id": "cSendFileToYourPrinterToSeeItsStatus"
+    }
+  },
+  "no_printer_selected": {
+    "locator": {
+      "id": "No Printer Selected",
+      "str_id": "cNoPrinterSelected"
+    }
+  },
+  "add_printer_message": {
+    "locator": {
+      "id": "Add the printer to get current information on print jobs.",
+      "str_id": "cAddThePrinterToGetCurrentInfo_Message"
+    }
+  },
+  "job_printed_status": {
+    "locator": {
+      "name": "Job Printed"
+    }
+  },
+  "print_job_completed_checkmark": {
+    "locator": {
+      "name": "completed-job"
+    }
+  },
+  "print_job_by_number": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeTable[@identifier='Notifications List Table View']/XCUIElementTypeCell[{}]",
+        "//XCUIElementTypeTable[@name='Notifications List Table View']/XCUIElementTypeCell[{}]"
+      ]
+    }
+  },
+  "job_printed_screen_title": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeNavigationBar[@identifier='Job Printed']/XCUIElementTypeStaticText[@label='Job Printed']",
+        "//XCUIElementTypeNavigationBar[@name='Job Printed']/XCUIElementTypeStaticText[@name='Job Printed']"
+      ]
+    }
+  },
+  "job_date_and_name_on_job_printed_screen": {
+    "locator": {
+      "xpath": "//XCUIElementTypeScrollView//XCUIElementTypeOther/XCUIElementTypeStaticText"
+    }
+  },
+  "clear_notification_button": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeButton[@label='Clear Notification']",
+        "//XCUIElementTypeButton[@name='Clear Notification']"
+      ]
+    }
+  },
+  "printed_job_name": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeTable[@identifier='Notifications List Table View']/XCUIElementTypeCell/XCUIElementTypeStaticText[1]",
+        "//XCUIElementTypeTable[@name='Notifications List Table View']/XCUIElementTypeCell/XCUIElementTypeStaticText[1]"
+      ]
+    }
+  },
+  "hpx_notification_title": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Notifications']",
+      "name": "Notifications"
+    }
+  },
+  "hpx_print": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Print']",
+      "name": "Print"
+    }
+  },
+  "hpx_mobile_fax": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Mobile Fax']",
+      "name": "Mobile Fax"
+    }
+  },
+  "hpx_shortcuts": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Shortcuts']",
+      "name": "Shortcuts"
+    }
+  },
+  "hpx_supplies": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Supplies']",
+      "name": "Supplies"
+    }
+  },  
+  "hpx_account": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Account']",
+      "name": "Account"
+    }
+  },
+  "hpx_draft_notification": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Drafts']",
+      "name": "Drafts"
+    }
+  },
+  "hpx_sent_notification": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Sent']",
+      "name": "Sent"
+    }
+  },
+  "hpx_fax_history_notification_title": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Fax history']",
+      "name": "Fax history"
+    }
+  },
+  "hpx_on_supplies_page": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Review your account notifications and take any needed action.']",
+      "name": "Review your account notifications and take any needed action."
+    }
+  },
+  "hpx_on_supplies_page_close_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Close']",
+      "name": "Close"
+    }
+  },
+  "hpx_on_printer_page": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='No printer selected']",
+      "name": "No printer selected"
+    }
+  },
+  "hpx_on_printer_page_no_printer_selected": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Add the printer to get current information on print jobs.']",
+      "name": "Add the printer to get current information on print jobs."
+    }
+  },
+  "hpx_product_information_card": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Product information']",
+      "name": "Product information"
+    }
+  }
+}

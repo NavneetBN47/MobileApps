@@ -1,0 +1,18 @@
+{
+    "resume_session_modal":{
+        "locator":{"css selector":".vn-modal--content.css-19wj038"}
+    },
+    "header":{
+        "locator":{"css selector":".vn-modal--title.css-hy5x4r"}
+    },
+    "body":{
+        "locator":{"css selector":".vn-modal--body.css-otjoe0"}
+    },
+    "resume_btn":{
+        "locator":{"css selector":"button.css-1orgjsi"}
+    },
+    "start_new_session_btn":{
+        "locator":{"css selector":"button.css-18sa71g"}
+    }
+
+}

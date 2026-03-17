@@ -1,0 +1,383 @@
+{
+    "alignment_pattern_choices_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:13']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:771']"]
+        }
+    },
+
+    "alignment_pattern_choices_contents":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:41']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:487']"]
+        }
+    },
+    
+    "a_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:245']"
+        }
+    },
+
+    "b_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:254']"
+        }
+    },
+
+    "c_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:263']"
+        }
+    },
+
+    "d_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:272']"
+        }
+    },
+
+    "e_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:538']"
+        }
+    },
+
+    "f_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:281']"
+        }
+    },
+
+    "g_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:290']"
+        }
+    },
+
+    "h_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:453']"
+        }
+    },
+
+    "i_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:462']"
+        }
+    },
+
+    "j_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:471']"
+        }
+    },
+
+    "k_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:480']"
+        }
+    },
+
+    "l_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:489']"
+        }
+    },
+
+    "m_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:498']"
+        }
+    },
+
+    "n_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:507']"
+        }
+    },
+
+    "a_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:103']"
+        }
+    },
+
+    "b_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:140']"
+        }
+    },
+
+    "c_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:165']"
+        }
+    },
+
+    "d_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:187']"
+        }
+    },
+
+    "e_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:209']"
+        }
+    },
+
+    "f_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:231']"
+        }
+    },
+
+    "g_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:516']"
+        }
+    },
+
+    "h_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:299']"
+        }
+    },
+
+    "i_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:321']"
+        }
+    },
+
+    "j_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:343']"
+        }
+    },
+
+    "k_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:365']"
+        }
+    },
+
+    "l_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:387']"
+        }
+    },
+
+    "m_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:409']"
+        }
+    },
+
+    "n_value":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:431']"
+        }
+    },
+
+    "a_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:106']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:109']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:152']/AXButton[0]"]
+        }
+    },
+
+    "a_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:106']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:116']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:109']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:119']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:152']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:258']/AXTextField"]
+        }
+    },
+
+    "b_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:143']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:146']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:131']/AXButton[0]"]
+        }
+    },
+
+    "b_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:143']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:158']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:146']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:161']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:131']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:209']/AXTextField"]
+        }
+    },
+
+    "c_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:168']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:171']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:519']/AXButton[0]"]
+        }
+    },
+
+    "c_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:168']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:180']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:171']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:183']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:519']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:615']/AXTextField"]
+        }
+    },
+
+    "d_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:190']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:193']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:140']/AXButton[0]"]
+        }
+    },
+
+    "d_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:190']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:202']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:193']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:205']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:140']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:502']/AXTextField"]
+        }
+    },
+
+    "e_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:212']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:215']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:148']/AXButton[0]"]
+        }
+    },
+
+    "e_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:212']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:224']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:215']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:227']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:148']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:86']/AXTextField"]
+        }
+    },
+
+    "f_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:234']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:237']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:822']/AXButton[0]"]
+        }
+    },
+
+    "f_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:234']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:239']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:237']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:242']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:822']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:757']/AXTextField"]
+        }
+    },
+
+    "g_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:522']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:239']/AXButton[0]"]
+        }
+    },
+
+    "g_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:519']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:531']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:522']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:534']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:239']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:168']/AXTextField"]
+        }
+    },
+
+    "h_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:302']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:305']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:220']/AXButton[0]"]
+        }
+    },
+
+    "h_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:302']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:314']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:305']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:317']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:220']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:203']/AXTextField"]
+        }
+    },
+
+    "i_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:324']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:327']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:777']/AXButton[0]"]
+        }
+    },
+
+    "i_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:324']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:336']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:327']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:339']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:777']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:334']/AXTextField"]
+        }
+    },
+
+    "j_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:346']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:349']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:748']/AXButton[0]"]
+        }
+    },
+
+    "j_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:346']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:358']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:349']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:361']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:748']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:358']/AXTextField"]
+        }
+    },
+
+    "k_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:368']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:371']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:348']/AXButton[0]"]
+        }
+    },
+
+    "k_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:368']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:380']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:371']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:383']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:348']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:50']/AXTextField"]
+        }
+    },
+
+    "l_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:390']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:393']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:710']/AXButton[0]"]
+        }
+    },
+
+    "l_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:390']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:402']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:393']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:405']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:710']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:831']/AXTextField"]
+        }
+    },
+
+    "m_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:412']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:415']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:787']/AXButton[0]"]
+        }
+    },
+
+    "m_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:412']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:424']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:415']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:427']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:787']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:326']/AXTextField"]
+        }
+    },
+
+    "n_dropdown_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:434']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:437']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:340']/AXButton[0]"]
+        }
+    },
+
+    "n_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:434']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:446']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:437']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:449']/AXTextField",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXComboBox[@AXIdentifier='_NS:340']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:672']/AXTextField"]
+        }
+    },
+
+    "done_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:49']",
+                               "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:543']"]
+        }
+    },
+
+    "exit_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:94']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:96']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:115']"]
+        }
+    },
+
+    "dialog_with_text_content_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:74']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:76']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:73']"]
+        }
+    },
+
+    "contents_1":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:95']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:97']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:88']"]
+        }
+    },
+
+    "close_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:49']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:50']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Untitled' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:120']"]
+        }
+    }
+
+}

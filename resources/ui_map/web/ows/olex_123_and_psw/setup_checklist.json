@@ -1,0 +1,61 @@
+{
+    "setup_checklist_page":{
+        "comment":{"jira ticket":"https://hp-jira.external.hp.com/browse/ONBP-2039"},
+        "locator":{"css selector":".DBhydpS1wf_fbW_vg4qFg"}
+    },
+    "sub_header":{
+        "comment":{"jira ticket":"https://hp-jira.external.hp.com/browse/ONBP-2039"},
+        "locator":{"css selector":"._2O4QD3hHvXCnnh6RXoTk--"},
+        "localization":{"en":"Later during setup, you will connect this printer to a Wireless or Ethernet network. To prepare for connecting, review and complete our tips."}
+    },
+    "personal_use_icon":{
+        "locator":{"css selector":"[data-testid='personal-icon']"}
+    },
+    "setup_checklist_header":{
+        "locator":{"css selector":".header"}
+    },
+    "account_type_header":{
+        "locator":{"css selector":".indicator"}
+    },
+    "header":{
+        "locator":{"xpath":"//div[@class='header']"},
+        "localization":{"en":"Before continuing, check these items:"}
+    },
+    "ethernet_header":{
+        "locator":{"css selector":"#ethernet"},
+        "localization":{"en":"Ethernet"}
+    },
+    "ethernet_content":{
+        "locator":{"css selector":"#item-0"},
+        "localization":{"en":"Disconnect this computer from any VPN connections.\nConnect the printer to the same network as this computer."}
+    },
+    "wireless_header":{
+        "locator":{"css selector":"#wireless"},
+        "localization":{"en":"Wireless"}
+    },
+    "wireless_content_personal":{
+        "locator":{"css selector":"#item-1"},
+        "localization":{
+            "en":"Turn on Bluetooth and Wi-Fi on this computer.\nDisconnect this computer from any VPN connections.\nConnect the printer to the same network as this computer.\nComplete printer setup in a space with a strong network connection.\nThe printer is powered on and in Wi-Fi setup mode. Check for setup mode\nMake sure you have access to the Wi-Fi password, if needed.\nStay nearby the printer during setup."}
+    },
+    "business_use_icon":{
+        "locator":{"css selector":"[data-testid='business-icon']"}
+    },
+    "wireless_content_business":{
+        "locator":{"css selector":"#item-1"},
+        "localization":{
+            "en":"Disconnect this computer from any VPN connections.\nConnect the printer to the same network as this computer.\nComplete printer setup in a space with a strong network connection.\nThe printer is powered on.\nMake sure you have access to the Wi-Fi password, if needed.\nStay nearby the printer during setup."}
+    },
+    "use_usb_instead":{
+        "locator":{"css selector":"[data-testid='setup-offline']"}
+    },
+    "connect_printer_to_internet_overlay_modal":{
+        "locator":{"css selector":".vn-modal--content"}
+    },
+    "connect_printer_to_internet_overlay_close_btn":{
+        "locator":{"css selector":"[data-testid='secondary-button-blta631a580608b679e']"}
+    },
+    "connect_printer_to_internet_continue_with_usb_btn":{
+        "locator":{"css selector":"[data-testid='primary-button-blta631a580608b679e']"}
+    }
+}

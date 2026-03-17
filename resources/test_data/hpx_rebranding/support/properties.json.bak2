@@ -1,0 +1,6 @@
+{
+    "@env/JARVIS_AUTH_CLOUD_STACK": "stage",
+    "@hp-af/feature-switch/overrides": {
+        "devices-x-devicelist-landdetailspage": true
+    }
+}

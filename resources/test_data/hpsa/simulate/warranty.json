@@ -1,0 +1,393 @@
+{
+    "C31915938": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP Pavilion x360 - 15t-dq100 CTO",
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN", 
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "isSubscriptionDevice":"True"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729"
+        }
+    },
+    "C32316801": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP Pavilion x360 - 15t-dq100 CTO",
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN", 
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "isSubscriptionDevice":"True"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729"
+        }
+    },
+    "C32450357": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP Pavilion x360 - 15t-dq100 CTO",
+                "productLineCode":"KV",
+                "productLine":"103C_5336AN", 
+                "serialNumber":"8CG0366P21",
+                "productNumber":"8GE39AV#B1L",
+                "isSubscriptionDevice":"True"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729"
+        }
+    },
+    "C31915943": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP EliteBook 840 G8 Notebook PC (26D60AV)",
+                "serialNumber":"5CG203385D",
+                "productNumber":"3X9P5UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP EliteBook 840 G8 Notebook PC (26D60AV)",
+                "serialNumber":"5CG203385D",
+                "productNumber":"3X9P5UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C32288315": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP 15s-eq1000 Laptop PC (1E871AV)",
+                "serialNumber":"5CG937137V",
+                "productNumber":"7UA73UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP 15s-eq1000 Laptop PC (1E871AV)",
+                "serialNumber":"5CD03636PK",
+                "productNumber":"1F4Z1AS"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C32288359": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"OMEN by HP Desktop PC",
+                "serialNumber":"BCG9510798",
+                "productNumber":"3810DB01A004"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"OMEN by HP Desktop PC",
+                "serialNumber":"BCG9510798",
+                "productNumber":"3810DB01A004"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C31915966": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP 15s-eq1000 Laptop PC (1E871AV)",
+                "serialNumber":"5CG937137V",
+                "productNumber":"7UA73UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP ProBook 440 G8 Notebook PC IDS Base Model",
+                "serialNumber":"5CD03636PK",
+                "productNumber":"1F4Z1AS"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C31915968": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP 15s-eq1000 Laptop PC (1E871AV)",
+                "serialNumber":"5CG937137V",
+                "productNumber":"7UA73UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP ProBook 440 G8 Notebook PC IDS Base Model",
+                "serialNumber":"5CD03636PK",
+                "productNumber":"1F4Z1AS"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C32449909": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP ProBook 440 G8 Notebook PC IDS Base Model",
+                "serialNumber":"5CD137B2BV",
+                "productNumber":"2Q528AV"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP EliteBook 840 G8 Notebook PC (26D60AV)",
+                "serialNumber":"5CG203385D",
+                "productNumber":"3X9P5UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C33402476": {
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CD149C1VC",
+                "productNumber":"383K8UA#ABA",
+                "productNumberNoRegion":"383K8UA",
+                "productName":"HP Laptop PC 15-dy2000 (2D115AV)",
+                "productLineCode":"KV",
+                "productLine":"103C_5336KV",
+                "isSubscriptionDevice":false,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":""
+            },
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C33402477": {
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CD01043YN",
+                "productNumber":"5NL15AV#ABA",
+                "productNumberNoRegion":"5NL15AV",
+                "productName":"HP Pavilion 15t-cs200 CTO",
+                "productLineCode":"KV",
+                "productLine":"103C_5336KV",
+                "isSubscriptionDevice":false,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            },
+            "@hp-af/localization/current-locale":"en-US",
+            "@hp-support/region":"US"
+        }
+    },
+    "C34117251": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "serialNumber":"5CG0033B43",
+                "productNumber":"889T1AA",
+                "productNumberNoRegion":"5NL15AV",
+                "productName":"HP Notebook - 14-dk0053od",
+                "productLineCode":"KV",
+                "productLine":"103C_5336KV",
+                "isSubscriptionDevice":true,
+                "UUID":"D837D105-580B-48EC-9045-C64040999B84",
+                "imageLink":"https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c07647621.png",
+                "productType":"2",
+                "supportCode":[],
+                "featureByte":"3X476J6S6b7B7M7Q7U7W7m7s8uaBaEapaqauawcAdUdpdqeMfAfPhkk8mEmVmwn7nPnVngpD",
+                "osVersion":"10", 
+                "releaseID":"22H2",
+                "osSku":"4",
+                "architecture":"X64",
+                "BOD":"06/12/2023"
+            }
+        }
+    },    
+    "C12345678": {
+        "itg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP 15s-eq1000 Laptop PC (1E871AV)",
+                "serialNumber":"5CG937137V",
+                "productNumber":"7UA73UC"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729"
+        },
+        "stg":{
+            "@hp-support/deviceInfo": {
+                "productName":"HP ProBook 440 G8 Notebook PC IDS Base Model",
+                "serialNumber":"5CD03636PK",
+                "productNumber":"1F4Z1AS"
+            },
+            "@env/CLIENT_ID":"fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "@env/CLIENT_SECRET":"67U32cO36015ZJ79b8B1tN0154GA86QqaTpP882f14328b33CZxV7991D7lwB90c",
+            "@env/CONFIG_ID":"9c12613f-5536-4f81-acde-e385ba59b729",
+            "@settings-local/@hp-af/feature-switch/features":{
+                "analyticsdatacollection-core":true,
+                "app-upgrade":true,
+                "appbar-account":true,
+                "appbar-backnavigation":true,
+                "appbar-bellnotifications":true,
+                "appbar-core":true,
+                "appbar-profile":true,
+                "appbar-profile-displaymyaccount":true,
+                "appstartup-authentication":true,
+                "appstartup-core":true,
+                "appstartup-dropbox":false,
+                "appstartup-mcafee":false,
+                "appstartup-privacy":true,
+                "appstartup-registration":true,
+                "audioswitch-core":true,
+                "bellmessage-linkcontainer":true,
+                "hpackeyboard-core":true,
+                "hpaftester-core":false,
+                "hppresencevideo-core":false,
+                "nps-toastnotification":true,
+                "pc-network-booster":false,
+                "pcaudio-adveq":true,
+                "pcaudio-audioinput":true,
+                "pcaudio-audiooutput":true,
+                "pcaudio-basiceq":true,
+                "pcaudio-core":true,
+                "pcaudio-dynamicaudio":true,
+                "pcaudio-eqpresets":true,
+                "pcaudio-immersiveaudio":true,
+                "pcaudio-micmode":true,
+                "pcaudio-noisecancellation":true,
+                "pcaudio-restoredefaults":true,
+                "pcaudio-soundcalibration":false,
+                "pcaudio-speakerconfig":false,
+                "pcaudio-speakerswap":true,
+                "pcconnect-5g":true,
+                "pcconnect-5g-map":true,
+                "pcconnect-core":true,
+                "pcdevice-actionsection":true,
+                "pcdevice-cellularnetwork":false,
+                "pcdevice-core":true,
+                "pcdevice-headersection":true,
+                "pcdevice-modelname":true,
+                "pcdevice-pcimage":true,
+                "pcdevice-productnumber":true,
+                "pcdevice-serialnumber":true,
+                "pcdevice-statussection":true,
+                "pcdevice-support":false,
+                "pcdevice-warranty":true,
+                "pcdisplay-core":true,
+                "pchardware-core":true,
+                "pcmouse-core":false,
+                "pcsystemcontrol-core":false,
+                "pencontrol-appuninstallbehaviour":true,
+                "pencontrol-barrelbutton":true,
+                "pencontrol-barrelbutton-hoverclick":false,
+                "pencontrol-bluetoothpairing":true,
+                "pencontrol-core":true,
+                "pencontrol-imageanimation":false,
+                "pencontrol-mpp":false,
+                "pencontrol-penheader":true,
+                "pencontrol-runapplication":false,
+                "pencontrol-supportlink":false,
+                "pencontrol-tiltsensitivity":false,
+                "pencontrol-tipsensitivity":false,
+                "pencontrol-topbutton":true,
+                "powermanager-core":false,
+                "printcore-addprinter":false,
+                "printcore-core":false,
+                "printcore-myprinter":false,
+                "printcore-scan":false,
+                "progkey-core":false,
+                "progkey-notification":false,
+                "rgbkeyboard-core":true,
+                "rgbkeyboard-multicolor":false,
+                "rgbkeyboard-updatedkbdpreview":false,
+                "settings-abouttab":false,
+                "settings-core":true,
+                "settings-notificationstab":false,
+                "settings-privacytab":false,
+                "smartcam-autoframe":false,
+                "smartcam-backgroundsall":false,
+                "smartcam-combinedversion":true,
+                "smartcam-core":true,
+                "smartcam-dmft":true,
+                "smartcam-gpuenabled":false,
+                "smartcam-ignorepresencefeaturebyte":false,
+                "smartcam-livestreaming":false,
+                "smartcam-nonhpcameras":false,
+                "smartcam-systemtray":false,
+                "smartcam-videorecording":false,
+                "smartexperiences-core":false,
+                "subscription-pcaas":false,
+                "support-core":true,
+                "support-devicelist":false,
+                "systemcontrol-core":false,
+                "systemcontrol-networkbooster":false,
+                "systemcontrol-smartexperience":false,
+                "systemcontrol-thermalprofile":false,
+                "jarvisauth-externalbrowser":true,
+                "welcome-core":true
+            }
+        }
+    }
+}

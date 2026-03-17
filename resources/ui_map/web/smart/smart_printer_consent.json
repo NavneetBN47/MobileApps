@@ -1,0 +1,30 @@
+{
+    "title":{
+        "locator": {"css selector": "#title-text",
+                    "id": "title-text"}
+    },
+    "accept_all_btn":{
+        "locator": {"css selector": ["#consent-button","#consent-accept-all-button"],
+                    "id": "consent-accept-all-button"}
+    },
+    "manage_option_btn":{
+        "locator": {"css selector": "#consent-continue-button",
+            "id": "consent-manage=options-button"}
+    },
+    "full_page_consent_continue_btn":{
+        "locator": {"css selector": "#full-screen-consent-form-footer-button-continue"}
+    },
+    "full_page_consent_title":{
+        "locator": {"css selector": "#full-screen-consent-form-header-text"}
+    },
+    "exit_setup_btn": {
+        "locator": {"xpath": "//Button[@Name='Exit Setup']"} 
+    },
+    "learn_more_link": {
+        "locator": {"xpath": "//Hyperlink[@Name='Learn more about this data']"} 
+    },
+    "hp_privacy_statement_link": {
+        "locator": {"xpath": "//Hyperlink[@Name='HP Privacy Statement']"} 
+    }
+
+}

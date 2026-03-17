@@ -1,0 +1,636 @@
+{
+    "users_page_title":{
+        "locator": {
+            "css selector": "h4[data-testid='manage-users-header']"
+        }
+    },
+    "search_user_inputbox":{
+        "locator": {
+            "css selector": "input[data-testid='search-box']"
+        }
+    },
+    "invite_select_role_drop_down": {
+        "locator": {
+            "css selector": "div#select-usage"
+        }
+    },
+    "invite_user_role_label":{
+        "locator": {
+            "css selector": "label#select-usage-label"
+        },
+        "localization": {
+            "en": "Role*"
+        }
+    },
+    "invite_user_email_address_label":{
+        "locator": {
+            "css selector": "label#text-area-uncontrolled-label"
+        },
+        "localization": {
+            "en": "Email Address*"
+        }
+    },
+    "invite_select_role_drop_down_option":{
+        "locator": {
+            "css selector": "li#select-usage-option-{}"
+        }
+    },
+    "invite_email_address_text_box":{
+        "locator": {
+            "css selector": "textarea#text-area-uncontrolled"
+        }
+    },
+    "invite_send_invitations_btn":{
+        "locator": {
+            "css selector": "button[data-testid='invite-button']"
+        }
+    },
+    "table_entry_row_user_section": {
+        "locator": {
+            "css selector": "table[data-testid='users-data-table'] tr"
+        }
+    },
+    "table_entry_column_user_section":{
+        "locator": {
+            "css selector": "td"
+        }
+    },
+    "table_entry_username": {
+        "locator": {
+            "css selector": "label[data-testid='user-name-label']"
+        }
+    },
+    "table_entry_email": {
+        "locator": {
+            "css selector": "tbody td:nth-child(3)"
+        }
+    },
+    "table_entry_contextual-menu":{
+        "locator":{
+            "css selector":"div[data-testid='contextual-menu-activate']"
+        }
+    },
+    "table_entry_noitemsfound_warning_message": {
+        "locator":{
+            "css selector":"[data-testid='no-results-label']"
+        }
+    },
+    "reload_btn":{
+        "locator":{
+            "css selector":"button[data-testid='reload-button']"
+        }
+    },
+    "table_reload_date_and_time_text":{
+        "locator":{
+            "css selector":"span[data-testid='reload-button-caption']"
+        }
+    },
+    "search_clear_btn":{
+        "locator":{
+            "css selector":"button[aria-label='Clear']"
+        }
+    },
+    "remove_user_btn":{
+        "locator":{
+            "css selector":"li[data-value='Remove User']"
+        }
+    },
+    "success_alert":{
+        "locator":{
+            "css selector":"div[role='alert'] div>div"
+        },
+        "localization": {
+            "en": "Email invitation(s) was sent successfully."
+        }
+    },
+    "users_title":{
+        "locator":{
+            "css selector":"[data-testid='users-section-title']"
+        },
+        "localization": {
+            "en": "Users"
+        }
+    },
+    "users_section_desc":{
+        "locator":{
+            "css selector":"[data-testid='page-description']"
+        },
+        "localization": {
+            "en": "Invite users and manage customer solutions."
+        }
+    },
+    "removeuser_popup_title":{
+        "locator":{
+            "css selector":"[data-testid='remove-modal-title']"
+        },
+        "localization": {
+            "en": "Remove User"
+        }
+    },
+    "removeuser_popup_desc":{
+        "locator":{
+            "css selector":"div[data-testid='remove-modal-content']"
+        },
+        "localization": {
+            "en": "Are you sure you want to remove the selected user? This will remove their ability to access HP Command Center."
+        }
+    },
+    "removeuser_popup_cancel_btn":{
+        "locator":{
+            "css selector":"button[data-testid='remove-modal-cancel-btn']"
+        }
+    },
+    "removeuser_popup_remove_btn":{
+        "locator":{
+            "css selector":"button[data-testid='remove-button']"
+        }
+    },
+    "invite_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid='invite-user-button']"
+        }
+    },
+    "invite_all_users_breadcrumb":{
+        "locator": {
+            "css selector": "a[href='/users']"
+        }
+    },
+    "table_entry_user_status": {
+        "locator":{
+            "css selector":"label[data-testid='user-status']"
+        }
+    },
+    "invite_user_add_btn":{
+        "locator":{
+            "css selector":"button[data-testid='add-button']"
+        }
+    },
+    "contextual_footer":{
+        "locator":{
+            "css selector":"div[data-testid='contextual-footer']"
+        }
+    },
+    "contextual_footer_cancel_btn":{
+        "locator":{
+            "css selector":"#cancelBtn"
+        }
+    },
+    "contextual_footer_delete_btn":{
+        "locator":{
+            "css selector":"#continue-btn"
+        }
+    },
+    "contextual_footer_remove_user_dropdown":{
+        "locator":{
+            "css selector":"#select-footer-batch-operation"
+        }
+    },
+    "table_entry_checkbox":{
+        "locator":{
+            "css selector":"table[data-testid='users-data-table'] tbody .vn-checkbox__span"
+        }
+    },
+    "invite_user_tab":{
+        "locator":{
+            "css selector":"nav[data-testid='invite-users-breadcrumb']"
+        }
+    },
+    "invite_user_intro_txt":{
+        "locator":{
+            "css selector":"[data-testid='page-invite-description']"
+        },
+        "localization": {
+            "en": "Add new users to the selected group (All) and invite any specific users with Admin role by sending them an email invite."
+        }
+    },
+    "invite_user_idp_message":{
+        "locator":{
+            "css selector":".import-user-section svg+span"
+        },
+        "localization": {
+            "en": "3rd Party IDP users are auto-onboarded, when they log-in"
+        }
+    },
+    "invite_user_total_recipient_label":{
+        "locator":{
+            "css selector":"div[data-testid='total-recipients-label']"
+        }
+    },
+    "invite_user_table":{
+        "locator":{
+            "css selector":"table[data-testid='invite-user-table']"
+        }
+    },
+    "invite_user_table_heading_email":{
+        "locator":{
+            "css selector":"#emailwithtooltip"
+        }
+    },
+    "invite_user_table_heading_role":{
+        "locator":{
+            "css selector":"table[data-testid='invite-user-table'] th#roleLabel"
+        }
+    },
+    "invite_user_table_no_item":{
+        "locator":{
+            "css selector":"[data-testid='no-invite-item']"
+        },
+        "localization": {
+            "en": "Download the template and Import the file filled with data."
+        }
+	},
+	"invite_negative_toast_notification_retry_btn":{
+		"locator": {
+			"css selector": "div[role='alert'] div:nth-child(3)"
+		}
+	},
+	"invite_user_table_email_address":{
+		"locator": {
+			"css selector": "table[data-testid='invite-user-table'] tbody tr td:nth-child(1)"
+		}
+	},
+	"invite_negative_toast_notification_close_btn":{
+		"locator": {
+			"css selector": "div[role='alert'] button"
+		}
+	},
+    "email_table_header":{
+	"locator":{
+	    "css selector": "th[id='email']"
+	}
+    },
+    "role_table_header":{
+	"locator":{
+	    "css selector": "th[id='role']"
+	}
+    },
+    "status_table_header":{
+        "locator":{
+            "css selector":"th[id='status']"
+        }
+    },
+    "invite_recipients_edit_button":{
+        "locator": {
+            "css selector": "button[data-testid='edit-button']"
+        }
+    },
+    "invite_recipients_delete_button":{
+        "locator": {
+            "css selector": "button[data-testid='delete-button']>span"
+        }
+    },
+    "invite_remove_recipients_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='remove-modal-title']"
+        }
+    },
+    "invite_remove_recipients_popup_desc":{
+        "locator": {
+            "css selector": "div[data-testid='remove-modal-content']"
+        },
+        "localization": {
+            "en": "Are you sure you want to remove this recipient? The invitation will not be sent to this email address."
+        }
+    },
+    "invite_remove_recipients_popup_desc_end_part":{
+        "locator": {
+            "css selector": "div[data-testid='remove-modal-content']+div"
+        },
+        "localization": {
+            "en": "This action cannot be undone."
+        }
+    },
+    "invite_remove_recipients_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='remove-modal-cancel-btn']"
+        }
+    },
+    "invite_remove_recipients_popup_remove_button":{
+        "locator": {
+            "css selector": "button[data-testid='remove-button']"
+        }
+    },
+    "invite_total_recipients_label":{
+        "locator": {
+            "css selector": "div[data-testid='total-recipients-label']"
+        }
+    },
+    "unsaved_changes_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-title']"
+        },
+        "localization": {
+            "en": "Setting Not Saved"
+        }
+    },
+    "unsaved_changes_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-description']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? All unsaved changes will be lost."
+        }
+    },
+    "unsaved_changes_popup_leave_button":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-modal-yes-button']"
+        },
+        "localization": {
+            "en": "Leave"
+        }
+    },
+    "unsaved_changes_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-modal-no-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "invite_edit_recipient_popup":{
+        "locator": {
+            "css selector": "#edit-user-modal-desc"
+        }
+    },
+    "invite_edit_recipient_popup_email_address":{
+        "locator": {
+            "css selector": "input[data-testid='edit-user-text-box']"
+        }
+    },
+    "invite_edit_recipient_popup_role_dropdown":{
+        "locator": {
+            "css selector": "div#vn-select-1"
+        }
+    },
+    "invite_edit_recipient_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='close-button']"
+        }
+    },
+    "invite_edit_recipient_popup_save_button":{
+        "locator": {
+            "css selector": "button[data-testid='save-changes-button']"
+        }
+    },
+    "invite_edit_recipient_email_error_msg":{
+        "locator": {
+            "css selector": "p#edit-text-box-helper-text"
+        }
+    },
+    "user_table_entries":{
+        "locator":{
+            "css selector":"tbody td:nth-child(3)"
+        }
+    },
+    "invite_user_email_address_error_msg":{
+        "locator": {
+            "css selector": "p#text-area-uncontrolled-helper-text"
+        }
+    },
+    "contextual_footer_dropdown_remove_user_option":{ 
+        "locator":{
+            "css selector":"li#select-footer-batch-operation-option-2 div"
+        }
+    },
+    "users_total_users_count":{ 
+        "locator":{
+            "css selector":"[data-testid='total-items']"
+        }
+    },
+    "invite_user_import_btn":{ 
+        "locator":{
+            "css selector":"button#import-button"
+        },
+        "localization": {
+            "en": "Import"
+        }
+    },
+    "import_user_popup_title":{ 
+        "locator":{
+            "css selector":"#import-users-modal-desc .title-small"
+        },
+        "localization": {
+            "en": "Import Users"
+        }
+    },
+    "import_user_popup_description":{ 
+        "locator":{
+            "css selector":"[data-testid='import-users-modal-content'] [class='body import-users-modal-desc']"
+        },
+        "localization": {
+            "en": "Upload a csv file with a list of users"
+        }
+    },
+    "import_user_popup_browse_label":{ 
+        "locator":{
+            "css selector":"[data-testid='import-users-modal-content'] [class='label import-users-modal-label-fp']"
+        },
+        "localization": {
+            "en": "Browse"
+        }
+    },
+    "import_user_popup_sample_file_download_link":{ 
+        "locator":{
+            "css selector":"a.import-users-link"
+        },
+        "localization": {
+            "en": "Click here to download the sample file"
+        }
+    },
+    "import_user_popup_cancel_button":{ 
+        "locator":{
+            "css selector":"button[data-testid='import-users-modal-cancel-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "import_user_popup_import_button":{ 
+        "locator":{
+            "css selector":"button[data-testid='import-users-modal-import-button']"
+        },
+        "localization": {
+            "en": "Import"
+        }
+    },
+    "my_organization_filter_button":{
+        "locator": {
+            "css selector": "button[data-testid='table-filter-button']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "filter_side_bar_title":{
+        "locator": {
+            "css selector": "[data-testid='filter-sidebar-title']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "filter_side_bar_close_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Close']"
+        }
+    },
+    "built_in_filter_options":{
+        "locator": {
+            "css selector": "#filter-block-2 li label"
+        }
+    },
+    "users_table_no_users_lbl":{
+        "locator": {
+            "css selector": "tbody [role='img'] + p"
+        }
+    },
+    "users_table_data":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child({})"
+        }
+    },
+    "users_column_option_gear_button":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column options"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//div[@aria-labelledby='column-options-label']//span[contains(text(),'Cancel')]/parent::button"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "(//span[contains(text(),'Save')]/parent::button)[1]"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "resend_invitation_option":{
+        "locator":{
+            "css selector":"li[data-value='resendInvitation']"
+        }
+    },
+    "resend_invitation_popup_title":{ 
+        "locator":{
+            "css selector":"[data-testid = 'resend-invitation-modal-title']"
+        },
+        "localization": {
+            "en": "Resend Invitation"
+        }
+    },
+    "resend_invitation_popup_desc":{ 
+        "locator":{
+            "css selector":"#resend-invitation-modal-desc div:nth-child(2) p"
+        },
+        "localization": {
+            "en": "This users will receive a new email invitation to use the printers paired with this account."
+        }
+    },
+    "resend_invitation_popup_cancel_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid='resend-invitation-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "resend_invitation_popup_send_invitation_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid='resend-invitation-confirm-button']"
+        },
+        "localization": {
+            "en": "Send Invitation"
+        }
+    },
+    "assign_role_option":{
+        "locator":{
+            "css selector":"li[data-value='assignRole']"
+        }
+    },
+    "assign_role_popup_title":{ 
+        "locator":{
+            "css selector":"[data-testid='assign-role-modal-title']"
+        },
+        "localization": {
+            "en": "Assign User Role"
+        }
+    },
+    "assign_role_popup_desc":{ 
+        "locator":{
+            "css selector":"[data-testid='edit-role-modal-description']"
+        },
+        "localization": {
+            "en": "Select your preferred role for this user."
+        }
+    },
+    "assign_role_popup_select_role_dropdown":{ 
+        "locator":{
+            "css selector":"#select-role"
+        }
+    },
+    "assign_role_popup_select_role_dropdown_end_user_option":{ 
+        "locator":{
+            "css selector":"#select-role-option-0"
+        }
+    },
+    "assign_role_popup_select_role_dropdown_it_admin_option":{ 
+        "locator":{
+            "css selector":"#select-role-option-1"
+        }
+    },
+    "assign_role_popup_cancel_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid = 'assign-role-cancel-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "assign_role_popup_confirm_btn":{ 
+        "locator":{
+            "css selector":"button[data-testid = 'assign-role-confirm-btn']"
+        },
+        "localization": {
+            "en": "Assign"
+        }
+    },
+    "table_entry_role": {
+        "locator": {
+            "css selector": "tbody td:nth-child(4)"
+        }
+    },
+    "table_entry_checkbox_disabled":{
+        "locator":{
+            "css selector":"table[data-testid='users-data-table'] tbody input"
+        }
+    }
+}

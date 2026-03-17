@@ -1,0 +1,127 @@
+{
+  "create_subscriber_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='subscriberIdField']"
+    }
+  },
+  "create_publisher_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='publisherIdField']"
+    }
+  },
+  "event_service_header_title": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='header']/Text[@Name='Event Service']"
+    }
+  },
+  "create_subscriber_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='createSubscriberButton']"
+    }
+  },
+  "first_generated_subscriber": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='subscribersGeneratedItem']/List/ListItem/Button"
+    }
+  },
+  "subscribe_event_name_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='subscribeEventName']"
+    }
+  },
+  "subscribe_publisher_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='subscribePublisherId']"
+    }
+  },
+  "subscribe_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='subscribeButton']"
+    }
+  },
+  "unsubscribe_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='unsubscribeButton']"
+    }
+  },
+  "create_publisher_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='createPublisherButton']"
+    }
+  },
+  "first_generated_publisher": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='publisherGeneratedItem']/List/ListItem/Button"
+    }
+  },
+  "publisher_event_name_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='publisherEventName']"
+    }
+  },
+  "publisher_event_data_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='eventData']"
+    }
+  },
+  "publish_btn": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='publisher-modal-desc']/Button"
+    }
+  },
+  "toast_notification": {
+    "locator": {
+      "xpath": "//Button[@Name='close']/preceding-sibling::Text"
+    }
+  },
+  "subscription_generated_event": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='subscriber-modal-desc']/List/ListItem"
+    }
+  }, 
+  "unsubscribe_event_name_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='unsubscribeEventName']"
+    }
+  }, 
+  "delete_first_subscriber_btn": {
+    "locator":{
+      "xpath":"//Group[@AutomationId='subscribersGeneratedItem']/List/ListItem/Button[2]"
+  }
+},
+  "delete_first_publisher_btn": {
+    "locator":{
+      "xpath":"//Group[@AutomationId='publisherGeneratedItem']/List/ListItem/Button[2]"
+  }
+},
+  "persistent_dropdown":{
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='isPersistentSelect']" 
+  }
+},
+  "persistent_true":{
+    "locator": {
+      "id": "isPersistentSelect-option-0"
+    }
+  },
+  "persistent_false":{
+    "locator": {
+      "id": "isPersistentSelect-option-1" 
+    }
+  },
+  "pause_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='pauseEventsButton']"
+    }
+  },
+  "resume_btn": {
+    "locator": {
+     "xpath": "//Button[@AutomationId='resumeEventsButton']"
+    }
+  },
+  "unsubscribe_publisher_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='unsubscribePublisherId']"
+    }
+  }
+}

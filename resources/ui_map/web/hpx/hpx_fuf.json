@@ -1,0 +1,43 @@
+{
+    "accept_all_button":{
+        "locator": {
+            "id": "FuFConsents.FuFConsents.AcceptAllButton"
+        }
+    },
+    "continue_as_guest_button":{
+        "locator": {
+            "xpath": ["//*[@AutomationId='ContinueAsGuestButton']","//Button[@Name='Continue as guest']"],
+            "id": "WelcomeScreen.WelcomeScreenView.ContinueAsGuestButton"
+        }
+    },
+    "yes_button_in_let_access_dialog": {
+        "locator": {
+            "id": "Button1"
+        }
+    },
+    "what_is_new_skip_button": {
+        "locator": {
+            "id": "FeatureDiscovery.TourScreen1__tertiary-button"
+        }
+    },
+    "privacy_page_heading": {
+        "locator": {
+            "xpath": "//*[starts-with(@ClassName,'globalstyles__H3-hpx-core-experiences-react-consents-mfe__sc-uri')]"
+        }
+    }, 
+    "accept_cookies_button": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'onetrust-accept-btn-handler']"
+        }
+    },
+    "continue_update_button": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'MandatoryAppUpdate.MandatoryUpdateModal.ContinueUpdateButton']"
+        }
+    }, 
+    "cancel_update_button":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'MandatoryAppUpdate.MandatoryUpdateModal.CancelUpdateButton']"
+        }
+    }
+}

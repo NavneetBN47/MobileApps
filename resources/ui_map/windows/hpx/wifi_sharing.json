@@ -1,0 +1,39 @@
+{
+    "wifi_sharing_title": {
+        "locator": {
+            "name": "You are not connected to a Wi-Fi network."
+        }
+    },"wifi_sharing_subtitle": {
+        "locator": {
+            "name": "Connect to a Wi-Fi network to enable Wi-Fi sharing and share your connected network."
+        }
+    },"first_one_title": {
+        "locator": {
+            "name": "1. Make sure your Wi-Fi setting is on and Airplane mode is Off."
+        }
+    },"first_one_image": {
+        "locator": {
+            "xpath": "//*[@Name='1. Make sure your Wi-Fi setting is on and Airplane mode is Off.']/*"
+        }
+    },"second_one_title": {
+        "locator": {
+            "name": "2. Select a network."
+        }
+    },"second_one_image": {
+        "locator": {
+            "xpath": "(//*[@Name='2. Select a network.']/*)[1]/following-sibling::*"
+        }
+    },"third_one_title": {
+        "locator": {
+            "name": "3. Share your network via scanning the generated QR code."
+        }
+    },"third_one_image": {
+        "locator": {
+            "xpath": "(//*[@Name='3. Share your network via scanning the generated QR code.']/*)[1]/following-sibling::*"
+        }
+    },"windows_network_settings": {
+        "locator": {
+            "xpath": "(//*[@Name='3. Share your network via scanning the generated QR code.']/*)[2]/following-sibling::*"
+        }
+    }
+}

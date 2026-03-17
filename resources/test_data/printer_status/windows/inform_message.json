@@ -1,0 +1,214 @@
+{
+    "info": {
+        "single_cartridge_mode_65553": {
+            "single_cartridge_mode_65553_header": "Single Cartridge Mode",
+            "info_icon": "Info",
+            "body": "The indicated cartridge appears to be missing. Select \"OK\" to print with only the other cartridge. \r\n\r\nPrinting in this mode may be slower and printed colors may look different than intended.\r\n\r\nIf both cartridges are present, check that the plastic tape has been removed.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "hp_cartridges_installed_65554": {
+            "hp_cartridges_installed_65554_header": "HP Cartridges Installed",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are Original HP cartridges that were previously installed.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "cartridges_low_65557": {
+            "cartridges_low_65557_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are low. These cartridges do not have to be replaced now.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "new_hp_cartridges_installed_65561": {
+            "new_hp_cartridges_installed_65561_header": "New HP Cartridges Installed",
+            "info_icon": "Info",
+            "body": "Original HP cartridges have been successfully installed.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "hp_cartridges_installed_65680": {
+            "hp_cartridges_installed_65680_header": "HP Cartridges Installed",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are Original HP cartridges that were previously installed.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "hp_instant_ink_cartridges_65766": {
+            "hp_instant_ink_cartridges_65766_header": "HP Instant Ink Cartridges",
+            "info_icon": "Info",
+            "body": "Thank you for installing your HP Instant Ink Cartridges. \r\nDon't forget to recycle your used cartridges. You can find info on how to recycle at HP Instant Ink.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "single_cartridge_mode_65771": {
+            "single_cartridge_mode_65771_header": "Single Cartridge Mode",
+            "info_icon": "Info",
+            "body": "The indicated cartridge appears to be missing. Select \"OK\" to print with only the other cartridge. \r\n\r\nPrinting in this mode may be slower and printed colors may look different than intended. \r\n\r\nIf both cartridges are present, check that the plastic tape has been removed. \r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "non_instant_ink_cartridges_installed_65796": {
+            "non_instant_ink_cartridges_installed_65796_header": "Non-Instant Ink Cartridges Installed",
+            "info_icon": "Info",
+            "body": "The cartridges you have inserted are not monitored by your HP Instant Ink service, therefore you will not be shipped replacement cartridges. If monthly billing has begun for your HP Instant Ink service, it will continue. \r\n\r\nPlease replace these cartridges with the HP Instant Ink cartridges that you should have on hand.\r\n\r\nIf you don't think you received an ink shipment, check around your workspace--it might have arrived some time before you needed it. If you still have trouble locating your ink, sign-in to your account at InstantInk.com for information on your ink shipments.",
+            "button_info": "<Secondary>\r\n\"OK\""
+        },
+        "single_cartridge_mode_66263": {
+            "single_cartridge_mode_66263_header": "Single Cartridge Mode",
+            "info_icon": "Info",
+            "body": " The indicated cartridge appears to be missing. Select \"OK\" to print with the other cartridge. If both cartridges are present, check that the plastic tape has been removed.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, and you don't have a replacement cartridge, contact HP Instant Ink support.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridges_low_66242": {
+            "cartridges_low_66242_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are low. These cartridges do not have to be replaced now.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "hp_cartridges_installed_66264": {
+            "hp_cartridges_installed_66264_header": "HP Cartridges Installed",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are original HP cartridges that were previously installed.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, and you don't have a replacement cartridge, contact HP Instant Ink support.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "used_supply_flow_66264": {
+            "used_supply_flow_66264_header": "Used Supply Flow",
+            "info_icon": "Info",
+            "body": "The printer has detected that used supplies are being used. This may affect print quality and reliability.\r\n\r\nIf you have just installed the indicated supplies and you believe they are new, Original HP supplies, click Yes. Otherwise, click No.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "used_hp_cartridge_66264": {
+            "used_hp_cartridge_66264_header": "Used HP Cartridge",
+            "info_icon": "Info",
+            "body": "The indicated cartridge is a used HP cartridge. This may affect print quality and reliability.\r\n\r\nIf you have just installed the indicated cartridge and you believe it is a new, Original HP cartridge, click Yes. Otherwise, click No.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "new_hp_cartridges_installed_66265": {
+            "new_hp_cartridges_installed_66265_header": "New HP Cartridges Installed",
+            "info_icon": "Info",
+            "body": "Original HP cartridges have been successfully installed.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "hp_instant_ink_enrollment_enabled_65767": {
+            "hp_instant_ink_enrollment_enabled_65767_header": "HP Instant Ink Enrollment Enabled",
+            "info_icon": "Info",
+            "body": "Congratulations, your printer is now successfully enrolled in HP Instant Ink. Your billing cycle will not start until you install your first HP Instant Ink cartridge into your printer.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "supplies_low_65681": {
+            "supplies_low_65681_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are low. These cartridges do not have to be replaced now. Since this printer is enrolled in HP Instant Ink, you should already have replacement cartridges or they will arrive soon.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "ready_65638": {
+            "ready_65638_header": "Ready",
+            "info_icon": "Info",
+            "body": "",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "cartridges_low_66711": {
+            "cartridges_low_66711_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are low. These cartridges do not have to be replaced now.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridges_low_66713": {
+            "cartridges_low_66713_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are low. These cartridges do not have to be replaced now.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "tanks_low_66017": {
+            "tanks_low_66017_header": "Tanks Low",
+            "info_icon": "Info",
+            "body": "The indicated tanks are low. You may fill the tanks now or wait until prompted.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "new_hp_printheads_installed_66222": {
+            "new_hp_printheads_installed_66222_header": "New HP Printheads Installed",
+            "info_icon": "Info",
+            "body": "Thank you for installing new, Original HP printheads!",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "tanks_filled_66020": {
+            "tanks_filled_66020_header": "Tanks Filled",
+            "info_icon": "Info",
+            "body": "The indicated tanks have been filled.\r\n",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "hp_printheads_installed_66216": {
+            "hp_printheads_installed_66216_header": "HP Printheads Installed",
+            "info_icon": "Info",
+            "body": "The indicated printheads are Original HP printheads that were previously installed.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "genuine_hp_inklevelzero_65684": {
+            "genuine_hp_inklevelzero_65684_header": "Thank you for installing new HP cartridges!",
+            "info_icon": "Info",
+            "body": "Thank you for installing Original HP cartridges.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "altered_or_cloned_cartridges_installed_65559": {
+            "altered_or_cloned_cartridges_installed_65559_header": "Altered or Cloned Cartridges Installed",
+            "info_icon": "Info",
+            "body": "The printer has detected that a non-HP chip or electronic circuitry are attached to the indicated cartridges.\r\n\r\nNOTICES: \r\n* HP cannot guarantee the quality or reliability of cartridges with non-HP chips or electronic circuitry.\r\n* The printer will record that cartridges with non-HP chips or electronic circuitry are being used.\r\n* Printer service or repairs required as a result of using non-HP cartridges, including those with non-HP chips or electronic circuitry, will not be covered under warranty.\r\n\r\nIf you believe you purchased Original HP cartridges, visit the HP Anti-Counterfeit website (www.hp.com/go/anticounterfeit) for more information or to report fraud.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get Supplies\""
+        },
+        "cartridges_low_65669": {
+            "cartridges_low_65669_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are low. \r\n\r\nThese cartridges do not have to be replaced now.\r\n\r\nYou might want to have replacements available to install when cartridges are depleted and will need to be replaced.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridges_low_65681": {
+            "cartridges_low_65681_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridges are low. These cartridges do not have to be replaced now. Since this printer is enrolled in HP Instant Ink, you should already have replacement cartridges or they will arrive soon.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "new_hp_cartridges_installed_65862": {
+            "new_hp_cartridges_installed_65862_header": "New HP Cartridges Installed",
+            "info_icon": "Info",
+            "body": "Thank you for installing Original HP cartridges.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "altered_or_cloned_cartridges_installed_66092": {
+            "altered_or_cloned_cartridges_installed_66092_header": "Altered or Cloned Cartridges Installed",
+            "info_icon": "Info",
+            "body": "The printer has detected that a non-HP chip is attached to the indicated cartridges.\r\n\r\nNOTICES: \r\n* HP cannot guarantee the quality or reliability of cartridges with non-HP chips.\r\n* The printer will record that cartridges with non-HP chips are being used.\r\n* Printer service or repairs required as a result of using non-HP cartridges, including those with non-HP chips, will not be covered under warranty.\r\n\r\nIf you believe you purchased Original HP cartridges, visit the HP Anti-Counterfeit website (www.hp.com/go/anticounterfeit) for more information or to report fraud.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get Supplies\""
+        },
+        "hp_instant_ink_65851": {
+            "hp_instant_ink_65851_header": "HP Instant Ink",
+            "info_icon": "Info",
+            "body": "Thank you for installing HP Instant Ink Ready cartridges. Visit www.hpinstantink.com to learn more and enroll in HP Instant Ink.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "hp_cartridges_installed_66101": {
+            "hp_cartridges_installed_66101_header": "HP Cartridges Installed",
+            "info_icon": "Info",
+            "body": "Thank you for installing Original HP cartridges.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "cartridges_low_66086": {
+            "cartridges_low_66086_header": "Cartridges Low",
+            "info_icon": "Info",
+            "body": "The indicated cartridge is low. Actual cartridge life remaining may vary. Consider having a replacement available to install when print quality is no longer acceptable. The cartridge does not need to be replaced now.\r\n\r\nWhen you are ready to remove your cartridge, you can find information on how to recycle it at www.hp.com/recycle.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "ids_delayed_backto_hp_66516": {
+            "ids_delayed_backto_hp_66516_header": "Safe Mode Recovery in Progress",
+            "info_icon": "Info",
+            "body": "Original HP cartridges successfully installed.\r\n\r\nThe printer is recovering from Safe Mode. It will continue to operate in Safe Mode until the previous ink has been flushed out.",
+            "button_info": "None"
+        },
+        "tank_full_66437": {
+            "tank_full_66437_header": "Tanks Full",
+            "info_icon": "Info",
+            "body": "The indicated tanks are full.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "ph_replacement_flow_66640": {
+            "ph_replacement_flow_66640_header": "Printer Busy",
+            "info_icon": "Info",
+             "body": "Printheads are being replaced.",
+             "button_info": "None"
+         }
+    }
+}

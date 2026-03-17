@@ -1,0 +1,19 @@
+{
+    "connect_printer_with_usb_card":{
+        "locator":{"css selector":"[data-testid='card-SELECT_USB_DISPLAY']"}
+    
+    },
+    "connect_printer_with_usb_images":{
+        "locator":{"css selector":"[data-testid='image']"}
+    },
+    "card_body":{
+        "locator":{"css selector":"[data-testid='body']"}
+    },
+    "select_usb_connect_later_on_printer":{
+        "comment":{"jira ticket":"https://hp-jira.external.hp.com/browse/OLEX-521"},
+        "locator":{"css selector":"._1HEAsdh5Gz-6mS_pKdIX5l"}
+    },
+    "continue_usb_setup_printer_display_modal":{
+        "locator":{"css selector":"[data-testid='card-content-CONNECT_USB']"}
+    }
+}

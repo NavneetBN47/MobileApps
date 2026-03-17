@@ -1,0 +1,29 @@
+{
+    "_shared_hpx_title_text":{
+        "_comment": "myHP app title",
+        "locator": {
+            "id": "TitleBar"
+        }
+    },
+    "_shared_app_version_text":{
+        "_comment": "App version text on myHP app title",
+        "locator": {
+            "id": "appVerText"
+        }
+    },
+    "main_webview_pane": {
+        "locator": {
+            "xpath": "//Pane[@ClassName='Chrome_WidgetWin_1']"
+        }
+    },
+    "feature_unavailable_text": {
+        "locator": {
+            "xpath": "//Text[@Name='This feature is currently unavailable']"
+        }
+    },
+    "dialog_ok_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='OK']"
+        }
+    }
+}

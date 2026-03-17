@@ -1,0 +1,347 @@
+{
+    "groups_page_breadcrumb":{
+        "locator": {
+            "css selector": "#wepGroups span[aria-current='page']"
+        },
+        "localization": {
+            "en": "Groups"
+        }
+    },
+    "groups_printers_tab_title":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_Printer']"
+        },
+        "localization": {
+            "en": "Printers"
+        }
+    },
+    "groups_printers_page_loaded":{ 
+        "locator": {
+            "css selector": "section[id*='wx-printer-groups'] table[data-testid='table']"
+        }
+    },
+    "groups_printers_add_group_button":{
+        "locator": {
+            "css selector": "button[data-testid='group-table-header']"
+        },
+        "localization": {
+            "en": "Add"
+        }
+    },
+    "groups_printers_table_column_option_gear_button":{
+        "locator": {
+            "css selector": "button[aria-label='Column options']"
+        }
+    },
+    "groups_printers_table_no_item_found_msg":{
+        "locator": {
+            "css selector": "div[data-testid='no-items-found']"
+        },
+        "localization": {
+            "en": "No items found"
+        }
+    },
+    "groups_printers_table_headers":{
+        "locator": {
+            "css selector": "table thead th"
+        }
+    },
+    "column_option_popup_title": {
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column options"
+        }
+    },
+    "column_options_popup_reset_to_default_btn": {
+        "locator": {
+            "css selector": "button[class*='reset-to-default-button']"
+        },
+        "localization": {
+            "en": "Reset to default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Cancel')]/parent::button"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Save')]/parent::button"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] div"
+        }
+    },
+    "column_option_popup_options_label":{
+        "locator": {
+            "xpath": "//label[.//span[text()='{}']]//span[2]"
+        }
+    },
+    "groups_printers_automated_rules_table_header":{
+        "locator": {
+            "css selector": "th#automatedRules"
+        }
+    },
+    "addgroup_create_printer_group_page_title":{
+        "locator": {
+            "css selector": "[id*='Create printer group-label']"
+        },
+        "localization": {
+            "en": "Create printer group"
+        }
+    },
+    "add_group_name_field":{
+        "locator": {
+            "css selector": "input[placeholder='Enter group name']"
+        }
+    },
+    "add_group_description_field":{
+        "locator": {
+            "css selector": "[placeholder='Enter optional description']"
+        }
+    },
+    "add_group_rules_checkbox":{
+        "locator": {
+            "css selector": "input[type='checkbox']+span[class*='checkbox__span']"
+        }
+    },
+    "add_groups_next_button":{
+        "locator": {
+            "css selector": "button[data-testid='footer-switch-button']"
+        }
+    },
+    "add_groups_toast_message":{
+        "locator": {
+            "css selector": "div[role='alert'] div:nth-child(1)"
+        }
+    },
+    "printers_groups_group_name":{
+        "locator": {
+            "xpath": "//div[@data-testid='table-ellipsis-tooltip']//div[contains(text(), '{}')]"
+        }
+    },
+    "group_list_group_name":{
+        "locator": {
+            "xpath": "//div[contains(text(),'{}')]"
+        }
+    },
+    "group_details_delete_group_button":{
+        "locator": {
+            "css selector": "button[label='Delete group']"
+        }
+    },
+    "delete_group_popup":{
+        "locator": {
+            "css selector": "div[class*='DeleteGroupTemplate']"
+        }
+    },
+    "delete_group_popup_security_code_text":{
+        "locator": {
+            "css selector": "div[class*='SecurityCode-']"
+        }
+    },
+    "delete_group_popup_security_code_text_box":{
+        "locator": {
+            "css selector": "input[placeholder='Enter security code']"
+        }
+    },
+    "delete_group_popup_delete_button":{
+        "locator": {
+            "css selector": "div[class*='DeleteGroupTemplate__Footer'] button:nth-child(1) span"
+        }
+    },
+    "delete_groups_toast_message":{
+        "locator": {
+            "css selector": "div[role='alert'] div:nth-child(1)"
+        }
+    },
+    "create_printer_group_rule_page_title":{
+        "locator": {
+            "css selector": "div[class*='Stepper__Title'] h4"
+        },
+        "localization": {
+            "en": "Create printer group"
+        }
+    },
+    "create_printer_group_rule_page_property_dropdown":{
+        "locator": {
+            "css selector": "input[aria-label='Property']"
+        }
+    },
+    "create_printer_group_rule_page_property_option":{  
+        "locator": {
+            "css selector": "li[data-value*='{}']"
+        }
+    },
+    "create_printer_group_rule_page_operator_dropdown":{
+        "locator": {
+            "css selector": "input[aria-label='Operator']"
+        }
+    },
+    "create_printer_group_rule_page_operator_option":{
+        "locator": {
+            "css selector": "li[data-value*='{}']"
+        }
+    },
+    "create_printer_group_rule_page_value_dropdown":{
+        "locator": {
+            "css selector": ["input[placeholder='Enter values']", "input[placeholder='Select options']"]
+        }
+    },
+    "create_printer_group_rule_page_value_input_box":{
+        "locator": {
+            "css selector": ["input[placeholder='Enter values']", "input[placeholder='Search Items']"]
+        }
+    },
+    "create_printer_group_rule_page_value_option":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "create_printer_group_rule_page_next_button":{
+        "locator": {
+            "css selector": "button[data-testid='footer-switch-button']"
+        }
+    }, 
+    "create_printer_group_review_page_title":{
+        "locator": {
+            "css selector": "div[class*='Stepper__Subtitle']"
+        },
+        "localization": {
+            "en": "Review"
+        }
+    },
+    "create_printer_group_review_page_create_button":{
+        "locator": {
+            "css selector": "button[data-testid='footer-switch-button']"
+        }
+    },
+    "printers_groups_details_page_title":{
+        "locator": {
+            "css selector": "h3[class*='SummaryCardTitle'] >div div:nth-child(1)"
+        }
+    },
+    "printer_groups_details_page_group_title":{
+        "locator": {
+            "xpath": "//h3[contains(@class,'styles__SummaryCardTitle')]//div[contains(text(),'{}')][1]"
+        }
+    },
+    "printer_groups_details_page_overview_tab":{
+        "locator": {
+            "css selector": "div#group-detail-overview"
+        },
+        "localization": {
+            "en": "Overview"
+        }
+    },
+    "printer_groups_details_page_group_name":{
+        "comment": "bad locator, waiting for DEV to fix",
+        "locator": {
+            "xpath": "//label[normalize-space()='Group Name']/ancestor::div[contains(@class,'StyledWexLabelFieldContainer')]//div[@data-testid='text-content']"
+        }
+    },
+    "printer_groups_details_page_group_rules_count":{
+        "comment": "bad locator, waiting for DEV to fix",
+        "locator": {
+            "xpath": "//label[normalize-space()='Group rules']/ancestor::div[contains(@class,'StyledWexLabelFieldContainer')]//div[@data-testid='text-content']"
+        }
+    },
+    "printer_groups_details_page_assigned_printers_count":{
+        "comment": "bad locator, waiting for DEV to fix",
+        "locator": {
+            "xpath": "//label[normalize-space()='Printers assigned']/ancestor::div[contains(@class,'StyledWexLabelFieldContainer')]//div[@data-testid='text-content']"
+        }
+    },
+    "printer_groups_details_page_group_description":{
+        "comment": "bad locator, waiting for DEV to fix",
+        "locator": {
+            "css selector": "div[class*='Description'] div[class*='ShowMore__InitialValue']"
+        }
+    },
+    "printer_groups_details_page_rules_and_printers_tab":{
+        "locator": {
+            "css selector": "div#group-detail-rule-and-printer"
+        },
+        "localization": {
+            "en": "Rules and Printers"
+        }
+    },
+    "printers_groups_details_group_rules_table_no_item_found_msg":{
+        "locator": {
+            "css selector": "div[class*='AutomatedRulesTable'] h3[class='state-title']"
+        },
+        "localization": {
+            "en": "No group rules added yet"
+        }
+    },
+    "group_rules_table_data":{
+        "locator": {
+            "css selector": "div#wex-details-section-0 tbody tr td:nth-child({})"
+       }
+    },
+    "printers_date_added_table_header":{
+	"locator":{
+            "css selector": ["thead th#addedDate"]
+	    }
+    },
+    "property_name_table_header":{
+        "locator": {
+            "css selector": "thead th#property"
+        }
+    },
+    "operator_name_table_header":{
+        "locator": {
+            "css selector": "thead th#operator"
+        }
+    },
+    "value_name_table_header":{
+        "locator": {
+            "css selector": "thead th#value"
+        }
+    },
+    "printer_groups_details_page_refresh_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Refresh')]/parent::button"
+        }
+    },
+    "printers_groups_details_assigned_printers_table_no_item_found_msg":{
+        "locator": {
+            "css selector": "div[class*='DeviceListTable'] h3[class='state-title']"
+        },
+        "localization": {
+            "en": "No printers added yet"
+        }
+    },
+    "assigned_printers_table_entries":{
+        "locator": {
+            "css selector": "div[data-testid='text-content']"
+
+        }
+    },
+    "group_rules_table_entries":{
+        "locator": {
+            "xpath": "//tbody/tr/td[contains(text(),'1')]"
+        }
+    },
+    "assigned_printer_table_entry_all_cols":{
+        "locator": {
+            "css selector": "div#wex-details-section-1 tbody td"
+        }
+    },
+    "assigned_printers_table_entries_column":{
+        "locator": {
+            "css selector": "div#wex-details-section-1 tbody tr"
+        }
+    }
+}

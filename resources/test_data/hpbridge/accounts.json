@@ -1,0 +1,37 @@
+{
+  "default_user": "",
+  "users": [
+    {
+      "nickname": "Ben testing",
+      "wechat_id": "Ben_Cao2019",
+      "hpid": {
+        "dev": "17e2165c9a013478f32460887643690ced2b2eecfd88347ef793d30eb9f08e19",
+        "stage": "d59f2c11d342bf767e890e705a320b13c191b26510a98de9f5db846f527412df"
+      }
+    },
+    {
+      "nickname": "HP Bridge Auto",
+      "wechat_id": "HP_Bridge_01",
+      "hpid": {
+        "dev": "f8675af75fe6811a2ec03b8413293d8c3d27a94b168f5ea07a44b0611a04b654",
+        "stage": "01b148d9bcf2fa1e3ce21383516e506b370e0aea5201f210a6e734ad7f4011d4"
+      }
+    },
+    {
+      "nickname": "HP Bridge",
+      "wechat_id": "HP_Bridge",
+      "hpid": {
+        "dev": "5bcdd7b08a2f8733f506616dcdc2e640949080707123f27a5fd0e04719680445",
+        "stage": "d24cb6c170f3dac2234cbfaf91861f93c20a2215b260e5c18451157074052934"
+      }
+    },
+    {
+      "nickname": "pingping",
+      "wechat_id": "HP_Bridge",
+      "hpid": {
+        "dev": "5bcdd7b08a2f8733f506616dcdc2e640949080707123f27a5fd0e04719680445",
+        "stage": "c835566a3dbbe5f966bb321560a47cdad5eccab566c6f74566dd29f68b6c4f9b"
+      }
+    }
+  ]
+}

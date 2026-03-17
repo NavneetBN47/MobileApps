@@ -1,0 +1,267 @@
+{
+  "auth_plugin_header_title": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='section']/Text[@Name='Auth Plugin']"
+    }
+  },
+  "auth_set_subscriber_btn": {
+    "locator": {
+      "name": "Set Subscriber"
+    }
+  },
+  "auth_unsubscribe_btn": {
+    "locator": {
+      "name": "Unsubscribe"
+    }
+  },
+  "auth_logged_in_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='isLoggedInButton']"
+    }
+  },
+  "auth_is_logged_in_result_txt": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='isLoggedInButton']/preceding-sibling::Text[1]"
+    }
+  },
+  "auth_get_token_result_txt": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='getTokenButton']/preceding-sibling::Text[1]"
+    }
+  },
+  "auth_token_option_checkbox": {
+    "locator": {
+      "xpath": "//CheckBox[@AutomationId='{}Checkbox']"
+    }
+  },
+  "auth_token_list_options": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='{}Select']"
+    }
+  },
+  "auth_token_list_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "auth_user_interaction_entry_point_selector": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='userInteractionEntryPointSelect']"
+    }
+  },
+  "auth_user_interaction_entry_point_selector_expanded": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='userInteractionEntryPointSelect' and @ExpandCollapseState='Expanded']"
+    }
+  },
+  "auth_user_interaction_entry_point_selector_name": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='userInteractionEntryPointSelect' and @Name='{}']"
+    }
+  },
+  "auth_sign_in_page_item": {
+    "locator": {
+      "name": "signIn"
+    }
+  },
+  "auth_create_account_page_item": {
+    "locator": {
+      "name": "createAccount"
+    }
+  },
+  "auth_get_token_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='getTokenButton']"
+    }
+  },
+  "auth_logout_description_text": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Logs out of an account')]"
+    }
+  },
+  "auth_logout_test_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='logoutButton']"
+    }
+  },
+  "auth_logout_result_txt": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='logoutButton']/preceding-sibling::Text[1]"
+    }
+  },
+  "notification_toast_text": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='alert']/child::Text"
+    }
+  },
+  "close_webview_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Close']"
+    }
+  },
+  "auth_set_event_subscriber_toggle_btn": {
+    "locator": {
+      "name": "Set Event Subsciber()"
+    }
+  },
+  "auth_is_logged_in_toggle_btn": {
+    "locator": {
+      "name": "Auth.isLoggedIn()"
+    }
+  },
+  "auth_get_token_toggle_btn": {
+    "locator": {
+      "name": "Auth.getToken()"
+    }
+  },
+  "auth_logout_toggle_btn": {
+    "locator": {
+      "name": "Auth.logout()"
+    }
+  },
+   "auth_settings_btn": {
+    "locator": {
+      "name": "Settings"
+    }
+  },
+  "auth_provider_btn": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='AuthProviderTypeValue']"
+    }
+  },
+  "auth_stratus_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "auth_home_btn": {
+    "locator": {
+      "name": "Home"
+    }
+  },
+  "pop_up_close_btn": {
+    "locator": {
+      "name": "Close"
+    }
+  },
+  "choose_auth_stack": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='AuthStackValue']"
+    }
+  },
+  "auth_stack_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "auth_stack_option_dropdown": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='AuthStackValue' and @ExpandCollapseState='Expanded']"
+    }
+  },
+  "pop_up_ok_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='Button0']"
+    }
+  },
+  "require_fresh_token": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='requireFreshTokenToggle']"
+    }
+  },
+  "auth_tenant_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='tenant-field']"
+    }
+  },
+   "tenant_id_checkbox": {
+    "locator": {
+      "xpath": "//CheckBox[@AutomationId='tenantIDCheckbox']"
+    }
+  },
+   "send_token_disable_result": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'userInteractionNotAllowed')]"
+    }
+  },
+   "error_code_result": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'NotAllowed')]"
+    }
+  },
+  "cancel_btn":{
+    "locator": {
+      "name": "Cancel"
+    }
+  },
+   "event_subscriber_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='addEventSubsciber']//Text[@Name='Result']/following::Text[1]"
+    }
+  },
+  "logout_successful_message":{
+    "locator": {
+      "xpath": "//Group[@AutomationId='logout']//Text[@Name='Result']/following::Text[1]"
+    }
+  },
+  "auth_logout_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='logoutButton']"
+    }
+  },
+  "set_subscriber_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='addSubscriberButton']"
+    }
+  },
+   "token_scopes_checkbox":{
+    "locator": {
+      "xpath": "//CheckBox[@AutomationId='scopesCheckbox']"
+    }
+  },
+    "auth_scope_field_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='scope-field']"
+    }
+  },
+  "additional_authorization_parameters_checkbox": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Additional Authorization Parameters? (JSON)')]/following::Group//CheckBox"
+    }
+  },
+  "additional_authorization_parameters_textbox": {
+    "locator": {
+      "xpath": "//Text[contains(@Name, 'Additional Authorization Parameters? (JSON)')]/following::Edit[@AutomationId='additionalParam']"
+    }
+  },
+   "un_subscriber_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='unsubscribeButton']"
+    }
+  },
+  "add_token_lifetime_option_btn": {
+    "locator": {
+      "xpath": "//Button[@AutomationId='addTokenOptionButton']"
+    }
+  },
+   "type_token_combobox": {
+    "locator": {
+      "xpath": "//ComboBox[@AutomationId='typeTokenLife_0']"
+    }
+  },
+  "token_lifetime_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+   "time_interval_textbox": {
+    "locator": {
+      "xpath": "//Spinner[@AutomationId='timeInterval_0']"
+    }
+  },
+   "logout_toast_text": {
+    "locator": {
+      "xpath": "//Group[@LocalizedControlType='alert']//Text[@Name='Logout Successful']"
+    }
+  }
+}

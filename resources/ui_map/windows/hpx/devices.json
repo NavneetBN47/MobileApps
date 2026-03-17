@@ -1,0 +1,727 @@
+{
+    "pc_devices_module": {
+        "locator": {
+            "id": "pcdevice_core_NavigationViewItem_ID"
+        }
+    },
+    "pc_devices_back_button": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_NavBreadcrumb_Pcdevice"
+        }
+    },
+    "devices_module": {
+        "locator": {
+            "id": "pchardware_core_NavigationViewItem_ID"
+        }
+    },
+    "modal_name_on_device_page_header": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceName_ModelName"
+        }
+    },
+    "battery_icon_on_device_page_header": {
+        "locator": {
+            "id": "AUID_PCDevicePage_Status_battery_v4"
+        }
+    },
+    "battery_tooltips_on_device_page_header": {
+        "locator": {
+            "id": "AUID_PCDevicePage_Status_battery_v4"
+        }
+    },
+    "infor_icon_show_on_device_page_header": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCDevicePage_InfoPopOver_v4']"
+        }
+    },
+    "infor_ProductNumber_name_show_on_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_Status_Key_ProductNumber"
+        }
+    },
+    "infor_ProductNumber_show_on_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_ProductNumber_InfoValueCopied_ToolTip"
+        }
+    },
+    "infor_ProductNumber_copy_icon_show_on_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_ProductNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "infor_SerialNumber_name_show_on_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_Status_Key_SerialNumber"
+        }
+    },
+    "serial_number_under_infor_icon": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_SerialNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "infor_SerialNumber_show_on_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_SerialNumber_InfoValueCopied_ToolTip"
+        }
+    },
+    "infor_SerialNumber_copy_icon_show_on_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_SerialNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "pc_device_image_on_device_page": {
+        "locator": {
+            "id": "AUID_PCDevicePage_PCImage_DeviceImage"
+        }
+    },
+    "pen_control_module": {
+        "locator": {
+            "id": "pencontrol_core_NavigationViewItem_ID"
+        }
+    },
+    "keyboard_module": {
+        "locator": {
+            "id": "pckeyboard_NavigationViewItem_TestID"
+        }
+    },
+    "mouse_module": {
+        "locator": {
+            "id": "pckeyboard_NavigationViewItem_TestID"
+        }
+    },
+    "actions_header": {
+        "locator": {
+            "id": "AUID_PCDevicePage_Section_SectionTitle"
+        }
+    },
+    "Audio_Control_Display": {
+        "locator": {
+            "name": "Audio control"
+        }
+    },
+    "audio_Control_card_on_device_page": {
+        "locator": {
+            "name": "Audio Control Action Item"
+        }
+    },
+    "video_Control_card_on_device_page": {
+        "locator": {
+            "name": "Video Control Action Item"
+        }
+    },
+    "Video_Control_Display": {
+        "locator": {
+            "name": "Video control"
+        }
+    },
+    "RGB_keyboard": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_rgbkeyboard-core"
+        }
+    },
+    "Programmable_Key": {
+        "locator": {
+            "name": "Programmable Key Action Item"
+        }
+    },
+    "Support": {
+        "locator": {
+            "id": "support_core_NavigationViewItem_ID"
+        }
+    },
+    "Back_Arrow": {
+        "locator": {
+            "name": "Back"
+        }
+    },
+    "Display_control": {
+        "locator": {
+            "name": "Display Control Action Item"
+        }
+    },
+    "Minimize": {
+        "locator": {
+            "id": "Minimize"
+        }
+    },
+    "Maximize_myHP": {
+        "locator": {
+            "id": "Maximize"
+        }
+    },
+    "Close_myHP": {
+        "locator": {
+            "name": "Close myHP"
+        }
+    },
+    "Restore_myHP": {
+        "locator": {
+            "name": "Restore myHP"
+        }
+    },
+    "Product_number": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfo_productNumber"
+        }
+    },
+    "Serial_number": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfo_serialNumber"
+        }
+    },
+    "Warranty": {
+        "locator": {
+            "id": "AUID_PCDevicePage_StatusIndicator_Status_1_Key"
+        }
+    },
+    "Unknown": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfoValue_Status_Value_Warranty"
+        }
+    },
+    "RGB_keyboard_title": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_rgbkeyboard-core-text"
+        }
+    },
+    "select_keyboard_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_rgbkeyboard-core-description"
+        }
+    },
+    "support_title_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_support-core-text"
+        }
+    },
+    "option_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_support-core-description"
+        }
+    },
+    "audio_control_text_on_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcaudio-core"
+        }
+    },
+    "audio_descrip_text_on_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcaudio-core-description"
+        }
+    },
+    "audio_card_on_pcdevice": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcaudio-core"
+        }
+    },
+    "pc_device_title": {
+        "locator": {
+            "id": "AUID_rgbkeyboard-core_NavBreadcrumb_Pcdevice"
+        }
+    },
+    "support_btn": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_support-core"
+        }
+    },
+    "pc_devices_back_button_from_audio_title_bar": {
+        "locator": {
+            "id": "AUID_PCAudio_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "display_control_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcdisplay-core"
+        }
+    },
+    "support_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_support-core"
+        }
+    },
+    "display_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcdisplay-core"
+        }
+    },
+    "display_control_txt": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcdisplay-core-text"
+        }
+    },
+    "display_control_des_txt": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcdisplay-core-description"
+        }
+    },
+    "prog_key_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_progkey-core"
+        }
+    },
+    "prog_key_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_progkey-core-text"
+        }
+    },
+    "prog_key_des_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_progkey-core-description"
+        }
+    },
+    "5g_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcconnect-core"
+        }
+    },
+    "5g_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcconnect-core-text"
+        }
+    },
+    "5g_des_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcconnect-core-description"
+        }
+    },
+    "video_control_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_smartcam-core"
+        }
+    },
+    "video_control_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_smartcam-core-text"
+        }
+    },
+    "video_control_des_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_smartcam-core-description"
+        }
+    },
+    "info_icon": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfoList_InfoPopOver"
+        }
+    },
+    "get_details": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfoValue__HyperLink_Warranty"
+        }
+    },
+    "custom_devicename_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceName_customName"
+        }
+    },
+    "devicename_on_pcdevice": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceName_customName"
+        }
+    },
+    "system_devicename_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceName_DeviceName"
+        }
+    },
+    "display_info_icon_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfoList_InfoPopOver"
+        }
+    },
+    "displayOf_battery_icon_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_Status_battery"
+        }
+    },
+    "displayOf_action_items_on_pcdevice": {
+        "locator": {
+            "id": "AUID_PCDevicePage_Section_SectionTitle"
+        }
+    },
+    "displayOf_image_on_pcdevice": {
+        "locator": {
+            "id": "AUID_PCDevicePage_PcDeviceDetail_DeviceImage"
+        }
+    },
+    "privacy_alert_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_privacyalert-core"
+        }
+    },
+    "privacy_alert_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_privacyalert-core-text"
+        }
+    },
+    "privacy_alert_description_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_privacyalert-core-description"
+        }
+    },
+    "auto_screen_dimming_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_autoscreendimming-core"
+        }
+    },
+    "auto_screen_dimming_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_autoscreendimming-core-text"
+        }
+    },
+    "auto_screen_dimming_description_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_autoscreendimming-core-description"
+        }
+    },
+    "yes_btn_personalized_support": {
+        "locator": {
+            "xpath": "//Button[@AutomationId='AUID_privacy_ui_AllowSupportModal_BTN_Yes']/Text[@ClassName='TextBlock'][1]"
+        }
+    },
+    "no_btn_personalized_support": {
+        "locator": {
+            "xpath": "//Button[@AutomationId='AUID_privacy_ui_AllowSupportModal_BTN_No']/Text[@ClassName='TextBlock'][1]"
+        }
+    },
+    "allow_personalized_support_get_details": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Text[@ClassName='TextBlock'][2]"
+        }
+    },
+    "detail_text_on_personalized_support": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][1]"
+        }
+    },
+    "view_data_collected_link": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Button[@ClassName='DynamicAutomationPeer']/Text[@ClassName='TextBlock']"
+        }
+    },
+    "pc_devices_back_button_from_video_title_bar": {
+        "locator": {
+            "id": "AUID_smartCamModule_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "pc_devices_back_button_from_programmable_key_title_bar": {
+        "locator": {
+            "id": "AUID_progkey-core_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "pc_devices_back_button_from_display_title_bar": {
+        "locator": {
+            "id": "AUID_PCDISPLAY_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "pc_devices_back_button_from_rgb_keyboard_title_bar": {
+        "locator": {
+            "id": "AUID_rgbkeyboard-core_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "warranty_status_title_text_in_view_data": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Text[@ClassName='TextBlock'][3]"
+        }
+    },
+    "para1_in_view_data_window": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][1]"
+        }
+    },
+    "para2_in_view_data_window": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][3]"
+        }
+    },
+    "para3_in_view_data_window": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][5]"
+        }
+    },
+    "para4_in_view_data_window": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][6]"
+        }
+    },
+    "why_should_text": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][7]"
+        }
+    },
+    "authorized_para_text": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][5]"
+        }
+    },
+    "selection_this_option_text": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][8]"
+        }
+    },
+    "selection_involve_text": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][9]"
+        }
+    },
+    "yes_text_under_involve": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][10]"
+        }
+    },
+    "change_text": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][11]"
+        }
+    },
+    "preference_text": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/Pane[@ClassName='ScrollViewer']/Pane[@ClassName='ScrollViewer']/Text[@ClassName='TextBlock'][12]"
+        }
+    },
+    "close_btn_warranty": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Button[@ClassName='DynamicAutomationPeer']"
+        }
+    },
+    "cellular": {
+        "locator": {
+            "id": "AUID_pcdevice-core_Status_cellular_ToolTip"
+        }
+    },
+    "warranty_under_info_icon": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_Status_Key_Warranty"
+        }
+    },
+    "disconnected_text": {
+        "locator": {
+            "id": "AUID_pcdevice-core_Status_cellular_ToolTip"
+        }
+    },
+    "unknown_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_DeviceInfoValue_Status_Value_Warranty"
+        }
+    },
+    "system_control_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcsystemcontrol-core"
+        }
+    },
+    "system_control_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureItem_pcsystemcontrol-core-text"
+        }
+    },
+    "system_control_subtext": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcsystemcontrol-core-description"
+        }
+    },
+    "productnumber_value_tooltip": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_ProductNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "serialnumber_value_tooltip": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_SerialNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "copyserialnumber_btn": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_SerialNumber_InfoValueCopied_CopyIcon"
+        }
+    },
+    "device_rename_icon_on_pcdevice": {
+        "locator": {
+            "name": "Edit Device Name Icon"
+        }
+    },
+    "displayOf_product_number_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfo_Status_Key_ProductNumber"
+        }
+    },
+    "displayOf_serial_number_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfo_Status_Key_SerialNumber"
+        }
+    },
+    "displayOf_info_icon_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfoList_InfoPopOver"
+        }
+    },
+    "displayOf_copybtn_productnumber_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_ProductNumber_InfoValueCopied_CopyIcon"
+        }
+    },
+    "displayOf_copybtn_serialnumber_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_SerialNumber_InfoValueCopied_CopyIcon"
+        }
+    },
+    "displayOf_warranty_info_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_DeviceInfo_Status_Key_Warranty"
+        }
+    },
+    "displayOf_serialnumber_value_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_Status_Value_SerialNumber"
+        }
+    },
+    "displayOf_productnumber_value_on_pcdevice": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_Status_Value_ProductNumber"
+        }
+    },
+    "copyserialnumber_btn_tooltip": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_SerialNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "copyproductnumber_btn": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_ProductNumber_InfoValueCopied_CopyIcon"
+        }
+    },
+    "copyproductnumber_btn_tooltip": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_ProductNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "battery_tool_tip": {
+        "locator": {
+            "id": "AUID_PCDevicePage_Status_battery_ToolTip"
+        }
+    },
+    "auto_screen_dimming": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_autoscreendimming-core"
+        }
+    },
+    "copy_productnumber": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_ProductNumber_InfoValueCopied"
+        }
+    },
+    "serial_productnumber": {
+        "locator": {
+            "id": "AUID_pcdevice-core_CopyableInfoValue_SerialNumber_InfoValueCopied"
+        }
+    },
+    "system_control_card_icon": {
+        "locator": {
+            "name": "System Control Icon"
+        }
+    },
+    "touchpad_device_page_header": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core"
+        }
+    },
+    "touchpad_device_page_header_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core-text"
+        }
+    },
+    "touchpad_device_page_header_description": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core-description"
+        }
+    },
+    "view_all_controls_link": {
+        "locator": {
+            "id": "AUID_Welcome_Section_ViewAllControls_Link"
+        }
+    },
+    "pc_devices_back_button_from_smartexp_title_bar": {
+        "locator": {
+            "id": "AUID_smartexperiences-core_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "product_number_under_infor_icon": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_ProductNumber_InfoValueCopied_CopyIcon_ToolTip"
+        }
+    },
+    "product_number_copied_under_infor_icon": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_CopyableInfoValue_ProductNumber_InfoValueCopied_ToolTip"
+        }
+    },
+    "devicename_tooltips_on_pcdevice": {
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceName_customName_ToolTip"
+        }
+    },
+    "devicename_for_back_PC_device_page": {
+        "locator": {
+            "id": "AUID_pcsystemcontrol-core_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "privacy_alert_card_on_pcdevice": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureItem_privacyalert-core-text"
+        }
+    },
+    "auto_screen_dimming_card_on_pcdevice": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureItem_autoscreendimming-core-text"
+        }
+    },
+    "battery_manager_action_item": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcbatterymanager-core"
+        }
+    },
+    "wi-fi_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcwificonxn-core"
+        }
+    },
+    "MyScan_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureItem_MyScan-core"
+        }
+    },
+    "get_details_text":{
+        "locator": {
+            "id": "AUID_PCDevicePage_DeviceInfo_DeviceInfoValue__HyperLink_Warranty_text"
+        }
+    },
+    "gesture_card":{
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcgesture-core"
+        }
+    },
+    "wifi_card_on_pc_device_page": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcwificonxn-core"
+        }
+    },
+    "screen_distance_card":{
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_userdetection-screendistance"
+        }
+    },
+    "presence_detection_card":{
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_presencedetection-core"
+        }
+    },
+    "presence_detection_text":{
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureItem_presencedetection-core-text"  
+        }
+    },
+    "energy_consumption_card":{
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcecometer-core"
+        }
+    }
+}

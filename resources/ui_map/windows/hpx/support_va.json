@@ -1,0 +1,137 @@
+{
+    "computer_is_slow":{
+        "locator":{
+            "id": "AUID_Support_VAModal_list_issueItem_dz_pcslowissue"
+        }
+    },
+    "reset_your_operating_system":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_recovery"
+        }
+    }, 
+    "computer_will_not_start":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_noPowerBoot"
+        }
+    },
+    "operating_system_issues":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_operatingSystem"
+        }
+    },
+    "sound_issues":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_soundIssue"
+        }
+    }, 
+    "unable_to_login_to_windows":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_winloginissues"
+        }
+    },
+    "display_or_touchscreen_issues":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_displayIssue"
+        }
+    },
+    "keyboard_or_mouse_issues":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_keyboardtouchpad"
+        }
+    },
+    "computer_locks_up_or_freezes":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_pclockissue"
+        }
+    },
+    "wireless_printer_issues":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_pts_wifi"
+        }
+    },
+    "storage_issue_troubleshooting":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_storageIssue"
+        }
+    },
+    "wireless_wired_bluetooth_networking_issue":{
+        "locator": {
+            "id": "AUID_Support_VAModal_list_issueItem_dz_pcwireless"
+        }
+    },
+    "start_virtual_agent":{
+        "locator": {
+            "id": "AUID_Support_VAModal_startVirtualAssistantButton"
+        }
+    },
+    "feedback_button":{
+        "locator": {
+            "id": "botaction_feedback"
+        }
+    }, 
+    "startover_button": {
+        "locator": {
+            "id": "botaction_startover"
+        }
+    },
+    "privacy_link": {
+        "locator": {
+            "id": "botaction_privacypolicy"
+        }
+    },
+    "hp_virtual_assistant_title": {
+        "locator": {
+            "Name": "HP Virtual Assistant"
+        }
+    },
+    "minimize_button":{
+        "locator": {
+            "id": "AUID_Support_modal_minimizeButton"
+        }
+    }, 
+    "maximize_button":{
+        "locator": {
+            "id": "AUID_Support_modal_maximizeButton"
+        }
+    },
+    "close_button":{
+        "locator": {
+            "id": "AUID_Support_modal_closeButton"
+        }
+    },
+    "confirm_button":{
+        "locator": {
+            "id": "AUID_Support_dialog_confirmButton"
+        }
+    },
+    "cancel_button":{
+        "locator": {
+            "id": "AUID_Support_dialog_cancelButton"
+        }
+    }, 
+    "va_page_title": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_modal_header_title']//*[1]"
+        }
+    }, 
+    "va_page_subtitle": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_model_sub_title']//Text"
+        }
+    }, 
+    "va_link": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'vn-modal--content css-8boa6x']//*"
+        }
+    }, 
+    "va_desc_window": {
+        "locator": {
+            "id": "undefined_va-desc"
+        }
+    },
+    "webchat_info": {
+        "locator": {
+            "xpath": "//*[@ClassName='webchat__basic-transcript__activity-active-descendant']"
+        }
+    }
+}

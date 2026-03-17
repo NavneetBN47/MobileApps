@@ -1,0 +1,1132 @@
+{
+  "shortcuts_title": {
+    "locator": {
+      "xpath": [
+        "//android.widget.TextView[@text='Shortcuts']",
+        "//XCUIElementTypeWebView[@label='Shortcuts']"],
+      "css selector": "#title",
+      "id": "title"
+    }
+  },
+  "add_shortcuts_btn": {
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@text='Plus Add new Shortcut Arrow Right']",
+        "//XCUIElementTypeGroup/XCUIElementTypeButton[@label='Add Shortcut']"
+      ],
+      "css selector": "#add-shortcut-btn",
+      "id": "add-shortcut-btn"
+    }
+  },
+  "save_time_with_shrotcuts_icon": {
+    "locator": {
+      "xpath": "//img[@src='/shortcuts/static/media/smart-tasks.7de38892.svg']",
+      "id": "no-shortcuts-title"
+    }
+  },
+  "shortcuts_help_btn": {
+    "locator": {
+      "css selector": "#help-btn",
+      "id": "help-btn"
+    }
+  },
+  "shortcuts_back_btn": {
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@text='Back']",
+        "//android.view.View[@resource-id='left-container-header']/android.widget.Button[contains(@text, 'HP')]",
+        "//span[text()='Back']"],
+      "css selector": [
+        "#back-btn",
+        "div#left-container-header"
+      ],
+      "id": "back-btn"
+    }
+  },
+  "shortcuts_list": {
+    "locator": {
+      "css selector": "#shortcuts-container-list-shortcuts"
+    }
+  },
+  "shortcuts_help_message": {
+    "locator": {
+      "css selector": "#accordion_shortcuts",
+      "xpath": "//XCUIElementTypeWebView"
+    }
+  },
+  "shortcuts_expand_help_message": {
+    "locator": {
+      "css selector": "#shortcuts_arrow",
+      "xpath": [
+        "//XCUIElementTypeOther/XCUIElementTypeStaticText[@name='Shortcuts']",
+        "//android.view.View[@content-desc = 'Shortcuts']"
+      ]
+    }
+  },
+  "connecting_to_your_printer": {
+    "locator": {
+      "css selector": "#connecting-to-your-printer_arrow",
+      "xpath": "//android.view.View[@content-desc = 'Connecting to Your Printer']"
+    }
+  },
+  "add_shortcuts_title": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeOther[@label='Add Shortcut']",
+        "//h4[@id = 'title' and contains(text(), 'Add Shortcut')]"
+      ],
+      "id": "title"
+    }
+  },
+  "create_your_own_shortcut_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeLink/XCUIElementTypeLink/XCUIElementTypeLink[@value='Create your own Shortcut']",
+      "css selector": "div#shortcut-card-create-your-own-shortcut",
+      "id": "styled-link-destinations"
+    }
+  },
+  "save_to_google_drive_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeLink/XCUIElementTypeLink/XCUIElementTypeLink[@value='Save to Google Drive']",
+      "css selector": "div#shortcut-card-save-to-google-drive",
+      "id": "styled-link-popular"
+    }
+  },
+  "print_email_and_save_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeLink/XCUIElementTypeLink/XCUIElementTypeLink[@value='Print, Email, and Save']",
+      "css selector": "div#shortcut-card-print-email-and-save",
+      "id": "styled-link-print"
+    }
+  },
+  "print_item": {
+    "locator": {
+      "css selector": "button[aria-label='Print']",
+      "xpath": [
+        "//XCUIElementTypeButton[@label='Print Print to the selected HP Printer. toggle-print Chevron Down']",
+        "//Button[contains(@Name,'Print Print to the selected HP Printer.')]"
+      ]
+    }
+  },
+  "email_item": {
+    "locator": {
+      "css selector": "button[aria-label='Email']",
+      "xpath": [
+        "//XCUIElementTypeButton[@label='Email Send your files by email. toggle-email Chevron Down']",
+        "//Button[contains(@Name,'Email Send your files by email.')]"
+      ]
+    }
+  },
+  "save_item": {
+    "locator": {
+      "css selector": "button[aria-label='Save']",
+      "xpath": [
+        "//XCUIElementTypeButton[@label='Save Save your files to your cloud storage. toggle-cloud Chevron Down']",
+        "//Button[contains(@Name,'Save Save your files to your cloud storage.')]"
+      ]
+    }
+  },
+  "add_print_title": {
+    "locator": {
+      "xpath": "//h4[@id = 'title' and contains(text(), 'Add Print')]"
+    }
+  },
+  "cancel_btn": {
+    "locator": {
+      "css selector": "button#cancel-btn",
+      "id": "cancel-btn"
+    }
+  },
+  "copies_label": {
+    "locator": {
+      "css selector": "div#select-copies-setting",
+      "id": "select-copies-setting"
+    }
+  },
+  "single_copies_label": {
+    "locator": {
+      "css selector": "li#select-copies-setting-option-0",
+      "id": "select-copies-setting-option-0"
+    }
+  },
+  "color_label": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypePopUpButton[@label='Color Grayscale']",
+        "//XCUIElementTypePopUpButton[@label='Color Color']"
+      ],
+      "css selector": "div#select-color-setting",
+      "id": "select-color-setting"
+    }
+  },
+  "color_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeGroup[@label='Color']/XCUIElementTypeStaticText[@label='Color']",
+      "css selector": "li#select-color-setting-option-0",
+      "id": "select-color-setting-option-0"
+    }
+  },
+  "grayscale_option": {
+    "locator": {
+      "xpath": "//XCUIElementTypeGroup[@label='Color']/XCUIElementTypeStaticText[@label='Color']",
+      "css selector": "li#select-color-setting-option-1",
+      "id": "select-color-setting-option-1"
+    }
+  },
+  "two-sided_label": {
+    "locator": {
+      "css selector": "div#select-twosided-setting",
+      "id": "select-twosided-setting"
+    }
+  },
+  "mul_copies_label": {
+    "locator": {
+      "css selector": "li#select-copies-setting-option-1",
+      "id": "select-copies-setting-option-1"
+    }
+  },
+  "off_option": {
+    "locator": {
+      "css selector": "li#select-twosided-setting-option-0",
+      "id": "select-twosided-setting-option-0"
+    }
+  },
+  "short_edge_option": {
+    "locator": {
+      "css selector": "li#select-twosided-setting-option-1",
+      "id": "select-twosided-setting-option-1"
+    }
+  },
+  "long_edge_option": {
+    "locator": {
+      "css selector": "li#select-twosided-setting-option-2",
+      "id": "select-twosided-setting-option-2"
+    }
+  },
+  "add_to_shortcut_btn": {
+    "_comment": "Add to Shortcut button has different id on Add Print / Add Saving / Add Email screen",
+    "locator": {
+      "css selector": [
+        "#add-print-destination-btn",
+        "#add-email-destination-btn",
+        "#add-save-destination-btn"
+      ]
+    }
+  },
+  "add_email_title": {
+    "locator": {
+      "xpath": "//h4[@id = 'title' and contains(text(), 'Add Email')]"
+    }
+  },
+  "email_receive_box": {
+    "locator": {
+      "xpath": "//XCUIElementTypeGroup[@label='To']/following-sibling::XCUIElementTypeTextField",
+      "css selector": "input#email-receiver-box",
+      "id": "email-receiver-box"
+    }
+  },
+  "email_subject_box": {
+    "locator": {
+      "xpath": "//XCUIElementTypeGroup/XCUIElementTypeStaticText[@value='Subject']",
+      "css selector": "input#email-subject-box",
+      "id": "email-subject-box"
+    }
+  },
+  "email_body_box": {
+    "locator": {
+      "css selector": "textarea#email-body-box",
+      "id": "email-body-box"
+    }
+  },
+  "invalid_email_message": {
+    "locator": {
+      "css selector": "p#email-receiver-box-helper-text"
+    }
+  },
+  "continue_btn": {
+    "locator": {
+      "css selector": "#continue-btn",
+      "name": "Continue"
+    }
+  },
+  "settings_title": {
+    "locator": {
+      "xpath": ["//h4[@id = 'title' and contains(text(), 'Settings')]","//h4[@id='title' and text()='Shortcuts Settings']","//android.widget.TextView[@text='Shortcuts']"]
+    }
+  },
+  "file_type_item": {
+    "locator": {
+      "css selector": "button#file-type-item-btn"
+    }
+  },
+  "file_type_title": {
+    "locator": {
+      "xpath": "//h4[@id = 'title' and contains(text(), 'File Type')]",
+      "name": "File Type",
+      "id": "filetype-title"
+    }
+  },
+  "image_jpg_item": {
+    "locator": {
+      "css selector": "h6#subsection-title-jpeg",
+      "id": "subsection-title-jpeg"
+    }
+  },
+  "pdf_item": {
+    "locator": {
+      "css selector": "h6#subsection-title-pdf",
+      "id": "subsection-title-pdf"
+    }
+  },
+  "back_btn": {
+    "locator": {
+      "css selector": "button#back-btn",
+      "id": "back-btn"
+    }
+  },
+  "shortcut_name_item": {
+    "locator": {
+      "xpath": "//XCUIElementTypeGroup[@label='Shortcut Name']/following-sibling::XCUIElementTypeTextField",
+      "css selector": "input#shortcut-name-box",
+      "id": "shortcut-name-box"
+    }
+  },
+  "save_shortcut_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeGroup/XCUIElementTypeButton[@label='Save Shortcut']",
+      "css selector": [
+        "#save-creation-shortcut-btn",
+        "#save-edition-shortcut-btn"
+      ],
+      "id": [
+        "save-creation-shortcut-btn",
+        "save-edition-shortcut-btn"
+      ]
+    }
+  },
+  "shortcut_saved_title": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeOther[@label='Shortcut Saved']",
+        "//h4[@id = 'title' and contains(text(), 'Shortcut Saved')]"
+      ],
+      "id": "shortcut-saved-title"
+    }
+  },
+  "start_shortcut_btn": {
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@text='Start Shortcut']",
+        "//XCUIElementTypeButton[@label='Start Shortcut']"
+      ],
+      "css selector": "button#start-shortcut-btn",
+      "name": "Start Smart Task",
+      "id": "start-shortcut-btn"
+    }
+  },
+  "my_shortcuts_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='My Shortcuts']",
+      "css selector": "button#my-shortcuts-btn",
+      "id": "my-shortcuts-btn"
+    }
+  },
+  "home_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Home']",
+      "css selector": "#back-btn-saved-shortcut",
+      "id": "back-btn-desktop-saved-shortcut"
+    }
+  },
+  "add_save_title": {
+    "locator": {
+      "xpath": "//h4[@id = 'title' and contains(text(), 'Add Save')]"
+    }
+  },
+  "dropbox_item": {
+    "locator": {
+      "xpath": "//img[contains(@src, '/shortcuts/static/media/dropbox')]"
+    }
+  },
+  "google_drive_item": {
+    "locator": {
+      "xpath": "//img[contains(@src, '/shortcuts/static/media/googleDrive')]"
+    }
+  },
+  "save_checkbox": {
+    "locator": {
+      "css selector": "input[id*='checkbox']"
+    }
+  },
+  "google_drive_checkbox": {
+    "locator": {
+      "css selector": [
+        "#checkbox-googledrive-0",
+        "#checkbox-googledrive-1"
+      ],
+      "xpath": [
+        "//*[@id='checkbox-googledrive-0']",
+        "//*[@id='checkbox-googledrive-1']"
+      ]
+    }
+  },
+  "dropbox_checkbox": {
+    "locator": {
+      "css selector": [
+        "#checkbox-dropbox-1",
+        "#checkbox-dropbox-0"
+      ],
+      "xpath": [
+        "//*[@id='checkbox-dropbox-1']",
+        "//*[@id='checkbox-dropbox-0']",
+        "//Group[@AutomationId='saveItem']/List[1]/ListItem[1]/Group[1]"
+      ]
+    }
+  },
+  "first_accounts_checkbox": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='saveItem']/List[1]/ListItem[1]/Group[1]"
+    }
+  },
+  "one_drive_checkbox": {
+    "locator": {
+      "id": "checkbox-onedrive-0"
+    }
+  },
+  "one_drive_sign_in_btn": {
+    "locator": {
+      "id": "sign-in-btn-onedrive-0"
+    }
+  },
+  "google_drive": {
+    "locator": {
+      "str_id": "google_drive"
+    }
+  },
+  "dropbox": {
+    "locator": {
+      "str_id": "dropbox"
+    }
+  },
+  "are_you_sure_popup": {
+    "locator": {
+      "css selector": "#confirmation-modal-label",
+      "id": "confirmation-modal-label"
+    }
+  },
+  "yes_cancel_shortcut_btn": {
+    "_comment": "no id selector, https://hp-jira.external.hp.com/browse/SRTC-1009.",
+    "locator": {
+      "css selector": "[aria-labelledby='confirmation-modal-label'] button:nth-of-type(1) span",
+      "xpath": [
+        "//XCUIElementTypeButton[@name='Yes, Cancel Shortcut']",
+        "//android.widget.Button[@text = 'Yes, Cancel Shortcut']",
+        "//Button[@Name='Yes, Cancel Shortcut']"
+      ]
+    }
+  },
+  "no_continue_shortcut_btn": {
+    "_comment": "no id selector, https://hp-jira.external.hp.com/browse/SRTC-1009.",
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeButton[@name='No, Continue Shortcut']",
+        "//android.widget.Button[@text= 'No, Continue Shortcut']",
+        "//Button[@Name='No, Continue Shortcut']"
+      ],
+      "css selector": "[aria-labelledby='confirmation-modal-label'] button:nth-of-type(2) span"
+    }
+  },
+  "camera_option": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/start_shortcut_camera_flow']",
+        "//XCUIElementTypeButton[@name='Camera']"
+      ]
+    }
+  },
+  "scanner_option": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/start_shortcut_scanner_flow']",
+        "//XCUIElementTypeButton[@name='Printer Scan']"
+      ]
+    }
+  },
+  "files_photo_option": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/start_shortcut_files_flow']",
+        "//XCUIElementTypeButton[contains(@name, 'Files')]"
+      ]
+    }
+  },
+  "source_select_message": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/start_shortcut_description']",
+        "//XCUIElementTypeStaticText[@name='Select a Source']"
+      ]
+    }
+  },
+  "close_btn": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.ImageButton[@resource-id = 'com.hp.printercontrol.debug:id/close_button']",
+        "//XCUIElementTypeButton[@name='icon close round']",
+        "//XCUIElementTypeButton[@name='Close']",
+        "//Button[@Name='Close']"
+      ]
+    }
+  },
+  "start_shortcuts": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/shortcut_text']",
+        "//XCUIElementTypeOther[contains(@name, 'Start')]",
+        "//XCUIElementTypeButton[contains(@name, 'Start')]"
+      ]
+    }
+  },
+  "info_btn": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.ImageButton[@resource-id = 'com.hp.printercontrol.debug:id/info_button']",
+        "//XCUIElementTypeButton[@name='info']",
+        "//XCUIElementTypeButton[@name='Open coachmark']"
+      ]
+    }
+  },
+  "x_btn": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": "//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/shortcut_text']"
+    }
+  },
+  "file_name": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.EditText[@resource-id = 'com.hp.printercontrol.debug:id/shortcuts_file']",
+        "//XCUIElementTypeTextField[contains(@name, 'Smart Task File Name')]"
+      ]
+    }
+  },
+  "shortcuts_in_process_message": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.ImageView[@resource-id = 'com.hp.printercontrol.debug:id/upload_done_icon']",
+        "//XCUIElementTypeStaticText[@name='Your file is processing']"
+      ],
+      "str_id": "cYourFileIsProcessing"
+    }
+  },
+  "shortcuts_your_file_is_being_uploaded_message": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Your file is being uploaded for processing']",
+      "str_id": "cYourFileUploaded"
+    }
+  },
+  "shortcuts_home_btn": {
+    "_comment": "For webview, cannot see this element. So have to use native app locator",
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/upload_button_home']",
+        "//XCUIElementTypeButton[@name='Home']"
+      ]
+    }
+  },
+  "shortcuts_activity_center_btn": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/upload_button_activity']",
+        "//XCUIElementTypeButton[@name='Activity']"
+      ]
+    }
+  },
+  "shortcuts_more_options_btn": {
+    "_comment": "According to developer's reply, currently this element is from native app",
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/upload_button_more_options']",
+        "//XCUIElementTypeButton[@name='Continue']"
+      ]
+    }
+  },
+  "shortcut_coachmark": {
+    "locator": {
+      "xpath": [
+        "//android.widget.Button[@resource-id = 'com.hp.printercontrol.debug:id/upload_button_more_options']",
+        "//XCUIElementTypeStaticText[contains(@name,'Save')]"
+      ]
+    }
+  },
+  "shortcut_options_icon": {
+    "locator": {
+      "css selector": "#shortcut-card-{} button[aria-label='ContextualMenuButton']"
+    }
+  },
+  "shortcut_card": {
+    "locator": {
+      "css selector": "#shortcut-card-{}",
+      "xpath": "//Group[@AutomationId='shortcut-card-{}']"
+    }
+  },
+  "close_coachmark_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Close coachmark']",
+      "css selector": "[aria-label='Close coachmark']"
+    }
+  },
+  "delete_btn": {
+    "locator": {
+      "css selector": "button[aria-expanded='true'] ~ div[role='menu'] li[data-value='Delete']",
+      "xpath": "//ListItem[@Name='Delete']"
+    }
+  },
+  "start_btn": {
+    "locator": {
+      "css selector": "button[aria-expanded='true'] ~ div[role='menu'] li[data-value='Start']",
+      "xpath": "//ListItem[@Name='Start']"
+    }
+  },
+  "edit_btn": {
+    "locator": {
+      "css selector": "button[aria-expanded='true'] ~ div[role='menu'] li[data-value='Edit']",
+      "xpath": "//ListItem[@Name='Edit']"
+    }
+  },
+  "delete_shortcut_popup_delete": {
+    "_comment": "no id selector, https://hp-jira.external.hp.com/browse/SRTC-1009.",
+    "locator": {
+      "css selector": "[aria-describedby='modal-delete-desc'] button:nth-of-type(1)",
+      "xpath": "//Button[@Name='Yes, Delete']"
+    }
+  },
+  "delete_shortcut_popup_cancel": {
+    "_comment": "no id selector, https://hp-jira.external.hp.com/browse/SRTC-1009.",
+    "locator": {
+      "css selector": "[aria-describedby='modal-delete-desc'] button:nth-of-type(2)",
+      "xpath": "//Button[@Name='No, Cancel']"
+    }
+  },
+  "edit_shortcut_title": {
+    "locator": {
+      "css selector": "#main-container-header"
+    }
+  },
+  "edit_shortcut_destinations": {
+    "locator": {
+      "css selector": "#intro-container-destinations-mobile"
+    }
+  },
+  "edit_delete_btn": {
+    "locator": {
+      "css selector": "#delete-shortcut-btn",
+      "id": "delete-shortcut-btn"
+    }
+  },
+  "delete_popup_title": {
+    "locator": {
+      "css selector": "#modal-delete-desc",
+      "id": "modal-delete-label"
+    }
+  },
+  "yes_cancel_edits_btn": {
+    "locator": {
+      "css selector": "[aria-describedby = 'confirmation-modal-desc'] button:nth-of-type(1)",
+      "xpath": "//Button[@Name='Yes, Cancel Edits']"
+    }
+  },
+  "no_continue_edits_btn": {
+    "locator": {
+      "css selector": "[aria-describedby = 'confirmation-modal-desc'] button:nth-of-type(2)",
+      "xpath": "//Button[@Name='No, Continue Edits']"
+    }
+  },
+  "shortcut_group_item": {
+    "locator": {
+      "css selector": "First shortcut card",
+      "xpath": "//Pane[last()]/Group[{}]"
+    }
+  },
+  "shortcut_group_option_btn": {
+    "locator": {
+      "css selector": "First shortcut card",
+      "xpath": "//Pane[last()]/Group[{}]/Button[1]"
+    }
+  },
+  "edit_more_option_btn": {
+    "locator": {
+      "css selector": "#contextual-menu-btn-destinations",
+      "xpath": "//Group[2]/Button[1]"
+    }
+  },
+  "dynamic_shortcuts_item": {
+    "locator": {
+      "xpath": "//Text[@Name='{}']"
+    }
+  },
+  "dynamic_three_dot": {
+    "locator": {
+      "xpath": "//Text[@Name='{}']/following-sibling::Button[1]"
+    }
+  },
+  "edit_more_option_another_btn": {
+    "locator": {
+      "xpath": "//Group[3]/Button[1]"
+    }
+  },
+  "remove_btn": {
+    "locator": {
+      "id": "remove-print-destination-btn",
+      "css selector": [
+        "[data-value='Remove']",
+        "#remove-btn",
+        "#remove-email-destination-btn"
+      ]
+    }
+  },
+  "remove_popup_title": {
+    "locator": {
+      "css selector": "#remove-modal-text"
+    }
+  },
+  "remove_shortcut_popup_remove": {
+    "locator": {
+      "css selector": "[aria-describedby='modal-remove-desc'] button:nth-of-type(1)"
+    }
+  },
+  "remove_shortcut_popup_cancel": {
+    "locator": {
+      "css selector": "[aria-describedby='modal-remove-desc'] button:nth-of-type(2)"
+    }
+  },
+  "edit_print_title": {
+    "locator": {
+      "css selector": "#intro-text-add-print"
+    }
+  },
+  "edit_save_title": {
+    "locator": {
+      "css selector": "#intro-text-save-options"
+    }
+  },
+  "edit_email_title": {
+    "locator": {
+      "xpath": "//h4[@id = 'title' and contains(text(), 'Edit Email')]"
+    }
+  },
+  "save_btn": {
+    "locator": {
+      "css selector": [
+        "#save-edition-shortcut-btn",
+        "#save-btn",
+        "#save-print-destination-btn",
+        "#save-email-destination-btn",
+        "#save-save-destination-btn"
+      ]
+    }
+  },
+  "shortcut_name_invalid_txt": {
+    "locator": {
+      "css selector": "p#shortcut-name-box-helper-text",
+      "xpath": "//Text[@Name='Shortcut name is invalid']"
+    }
+  },
+  "shortcuts_access_off": {
+    "locator": {
+      "css selector": "#inline-notification-container"
+    }
+  },
+  "close_button": {
+    "locator": {
+      "css selector": "button[aria-label='close']"
+    }
+  },
+  "enable_button": {
+    "locator": {
+      "css selector": "button.vn-notification__action"
+    }
+  },
+  "access_shortcuts_title": {
+    "locator": {
+      "css selector": "#main-container-header"
+    }
+  },
+  "access_shortcuts_body": {
+    "locator": {
+      "css selector": "#container-access-shortcut"
+    }
+  },
+  "access_off_option": {
+    "locator": {
+      "css selector": "input#access-time-radio-button-off.vn-radio-button__input"
+    }
+  },
+  "1_year_most_convenient_option": {
+    "locator": {
+      "css selector": "input#access-time-radio-button-year.vn-radio-button__input"
+    }
+  },
+  "more_options_button": {
+    "locator": {
+      "css selector": "#more-options"
+    }
+  },
+  "1_day_most_secure_option": {
+    "locator": {
+      "css selector": "input#access-time-radio-button-day.vn-radio-button__input"
+    }
+  },
+  "custom_option": {
+    "locator": {
+      "css selector": "input#access-time-radio-button-custom.vn-radio-button__input"
+    }
+  },
+  "date_picker_calendar_button": {
+    "locator": {
+      "css selector": "svg[aria-label='Calendar']"
+    }
+  },
+  "next_month_btn": {
+    "locator": {
+      "css selector": "svg[aria-label='next month']"
+    }
+  },
+  "first_day_of_second_month_btn": {
+    "locator": {
+      "xpath": "(//tbody//tr//td[contains(@aria-label,' 1, ')])[2]"
+    }
+  },
+  "fewer_options_button": {
+    "locator": {
+      "css selector": "#fewer-options"
+    }
+  },
+  "shortcuts_access_enabled_title": {
+    "locator": {
+      "css selector": "#status-title-access-enabled"
+    }
+  },
+  "shortcuts_access_enabled_message": {
+    "locator": {
+      "css selector": "#status-message-enabled"
+    }
+  },
+  "shortcuts_access_enabled_ok_button": {
+    "locator": {
+      "css selector": "#ok-btn",
+      "xpath": "//Button[@Name='OK']"
+    }
+  },
+  "settings_button": {
+    "locator": {
+      "xpath": "//android.widget.Button[@resource-id='settings-btn']",
+      "css selector": "#settings-btn"
+    }
+  },
+  "printer_access_item": {
+    "locator": {
+      "css selector": "#printer-access"
+    }
+  },
+  "access_expires_in_message": {
+    "locator": {
+      "css selector": "#manage-status-access"
+    }
+  },
+  "365_days_message": {
+    "locator": {
+      "css selector": "#days-remaining"
+    }
+  },
+  "access_expires_arrow_button": {
+    "locator": {
+      "css selector": "#content-access-printer"
+    }
+  },
+  "shortcuts_access_disabled_title": {
+    "locator": {
+      "css selector": "#status-title-access-off"
+    }
+  },
+  "shortcuts_access_disabled_message": {
+    "locator": {
+      "css selector": "#status-message-off"
+    }
+  },
+  "access_off_status": {
+    "locator": {
+      "css selector": "#radio-off"
+    }
+  },
+  "shortcuts_get_started_image": {
+    "_comment": "mobile fax get started screen without printer selected",
+    "locator": {
+      "xpath": "//Pane[@AutomationId='OwsWebView']//Image[1]"
+    }
+  },
+  "shortcuts_get_started_create_account_btn": {
+    "_comment": "mobile fax get started screen without printer selected",
+    "locator": {
+      "xpath": "//Pane[@AutomationId='OwsWebView']//Button[1]"
+    }
+  },
+  "shortcuts_get_started_sign_in_btn": {
+    "_comment": "mobile fax get started screen without printer selected",
+    "locator": {
+      "xpath": "//Pane[@AutomationId='OwsWebView']//Button[2]"
+    }
+  },
+  "shortcuts_get_started_close_btn": {
+    "_comment": "mobile fax get started screen without printer selected",
+    "locator": {
+      "xpath": "//Pane[@AutomationId='OwsWebView']//Text[last()]"
+    }
+  },
+  "shortcuts_get_started_page": {
+    "_comment": "mobile fax get started screen with printer selected",
+    "locator": {
+      "id": "SoftFaxWebView"
+    }
+  },
+  "you_just_created_title": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[@label='You just created a Shortcut!']",
+      "id": "first-shortcut-created-title"
+    }
+  },
+  "edit_cancel_btn": {
+    "locator": {
+      "id": "cancel-edition-shortcut-btn"
+    }
+  },
+  "already_exists_rename_btn": {
+    "_comment": "already exists screen",
+    "locator": {
+      "xpath": "//Text[@AutomationId='modal-duplicate-name-label']/following-sibling::Button[1]"
+    }
+  },
+  "already_exists_no_btn": {
+    "_comment": "already exists screen",
+    "locator": {
+      "xpath": "//Text[@AutomationId='modal-duplicate-name-label']/following-sibling::Button[2]"
+    }
+  },
+  "print_detail": {
+    "locator": {
+      "id": "printItem"
+    }
+  },
+  "email_detail": {
+    "locator": {
+      "id": "emailItem"
+    }
+  },
+  "save_detail": {
+    "locator": {
+      "id": "saveItem"
+    }
+  },
+  "quick_run_checkbox": {
+    "locator": {
+      "id": [
+        "checkbox-unchecked",
+        "toggle-quick-run"
+      ]
+    }
+  },
+  "tile_color_item": {
+    "locator": {
+      "xpath": "//List[@Name='colors-list']/ListItem[{}]"
+    }
+  },
+  "shortcut_list_tile_color": {
+    "locator": {"xpath": "//li[contains(@id, 'shortcut-colors-item')]"}
+  },
+  "limited_email_message": {
+    "locator": {
+      "xpath": "//Text[@Name='Shortcuts are limited to 20 email addresses per shortcut']"
+    }
+  },
+  "email_icon_image": {
+    "locator": {
+      "xpath": "//Image[@Name='Envelope']"
+    }
+  },
+  "printer_icon_image": {
+    "locator": {
+      "xpath": "//Image[@Name='Printer']"
+    }
+  },
+  "connecting_to_service_title": {
+    "locator": {
+      "id": ["i0116","TitleBar"]
+    }
+  },
+  "dynamic_listitem": {
+    "locator": {
+      "xpath": "//ListItem[contains(@Name, '{}')]"
+    }
+  },
+  "onedrive_menu_btn": {
+    "locator": {
+      "id": "contextual-menu-onedrive-0"
+    }
+  },
+  "remove_hp_smart_access_title": {
+    "locator": {
+      "id": "modal-remove-label"
+    }
+  },
+  "copies_option": {
+    "locator": {
+      "id": "select-copies-setting-option-{}"
+    }
+  },
+  "remove_listitem": {
+    "locator": {
+      "xpath": "//List[last()]/ListItem[2]"
+    }
+  },
+  "dialog_close_btn": {
+    "locator": {
+      "xpath": "//Window[@AutomationId='Popup Window']/TitleBar[@AutomationId='TitleBar']/Button[@Name='Close']"
+    }
+  },
+  "shortcut_name_required_txt": {
+    "locator": {
+      "xpath": "//Text[@Name='Shortcut name is required']"
+    }
+  },
+  "already_exists_title": {
+    "locator": {
+      "id": "modal-duplicate-name-label"
+    }
+  },
+  "invalid_emails_txt": {
+    "locator": {
+      "xpath": "//Image[@Name='Minus']"
+    }
+  },
+  "coach_mark_dialog": {
+    "locator": {
+      "id": "coachmark-pagination"
+    }
+  },
+  "right_arrow_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Next']"
+    }
+  },
+  "left_arrow_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Previous']"
+    }
+  },
+  "tick_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Close coachmark']"
+    }
+  },
+  "printer_problem_dialog_title": {
+    "locator": {
+      "xpath": "//Text[@Name='Printer problem']"
+    }
+  },
+  "printer_problem_dialog_text_1": {
+    "locator": {
+      "xpath": "//Text[@Name='The printer you selected for this Shortcut is not installed on this computer. Please return to the home screen for instructions on installing your printer.']"
+    }
+  },
+  "printer_problem_dialog_text_2": {
+    "locator": {
+      "xpath": "//Text[@Name='The printer you selected for this Shortcut is not installed on this computer. Please return to the home screen for instructions on installing your printer. You can continue with the other actions in this Shortcut by selecting Skip Printing below.']"
+    }
+  },
+  "printer_problem_dialog_text_3": {
+    "locator": {
+      "xpath": "//Text[@Name='In order to complete your Shortcut actions, you must select a printer.']"
+    }
+  },
+  "printer_problem_dialog_text_4": {
+    "locator": {
+      "xpath": "//Text[@Name='In order to complete your Shortcut actions, you must select a printer. You can continue with the other actions in this Shortcut by selecting Skip Printing below.']"
+    }
+  },
+  "dialog_return_to_home_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Return to Home']"
+    }
+  },
+  "dialog_cancel_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Cancel']"
+    }
+  },
+  "skip_printing_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Skip Printing']"
+    }
+  },
+  "Printer_offline_dialog_title": {
+    "locator": {
+      "xpath": "//Text[@Name='Printer is offline']"
+    }
+  },
+  "printer_offline_dialog_text_1": {
+    "locator": {
+      "xpath": "//Text[@Name='In order to complete your Shortcut actions, your selected printer must be online and using the same network as your computer. ']"
+    }
+  },
+  "printer_offline_dialog_text_2": {
+    "locator": {
+      "xpath": "//Text[@Name='In order to complete your Shortcut actions, your selected printer must be online and using the same network as your computer. You can continue with the other actions in this Shortcut by selecting Skip Printing below.']"
+    }
+  },
+  "info_screen_done_button": {
+    "locator": {
+      "name": "Done"
+    }
+  },
+  "accept_btn": {
+    "locator": {
+      "str_id": "accept"
+    }
+  },
+  "print_toggle_btn": {
+    "locator": {
+      "id": "toggle-print"
+    }
+  },
+  "email_toggle_btn": {
+    "locator": {
+      "id": "toggle-email"
+    }
+  },
+  "save_toggle_btn": {
+    "locator": {
+      "id": "toggle-cloud"
+    }
+  },
+  "create_account_title": {
+            "locator": {
+                "xpath": "//android.widget.TextView[@text='Create account']"
+
+            }
+  },
+    "sign_in_title": {
+        "locator": {
+            "xpath": "//android.widget.TextView[@text='Sign in']"
+        }
+  }
+}

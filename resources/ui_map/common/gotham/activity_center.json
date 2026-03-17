@@ -1,0 +1,136 @@
+{
+    "back_btn": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Pane[@AutomationId='JobStatusWebView']/descendant::Button[1]",
+                    "id": "TitleBackButton"}
+    },
+    "shortcuts_dialog": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Window[@Name='Shortcuts - HP Smart']"}
+    },
+    "close_btn": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Window[@AutomationId='TitleBar']/Button[last()]"}
+    },
+    "shortcuts_title": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Text[@Name='Shortcuts']"}
+    },
+    "no_shortcut_text": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Text[@Name='No Shortcut activity available']"}
+    },
+    "dynamic_shortcut_completed_item": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": ["//Text[@Name='Shortcuts']/following-sibling::Text[{}]", "//Group[last()]/Text[{}]"]}       
+    },
+    "shortcut_completed_today_item": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//DataItem[@Name='Today']"}     
+    },
+    "shortcut_running_item": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//DataItem[@Name='Shortcut Running']"}     
+    },
+    "shortcut_completed_title": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Text[@Name='Shortcut Completed']"}
+    },
+    "delete_button": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Button[@Name='Delete']"}
+    },
+    "object_name": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Text[@Name='{}']"}
+    },
+    "print_item": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Image[@Name='checkmark circle']"}
+    },
+    "print_sent_title": {
+        "_comment": "Activity Center-> Shortcuts",
+        "locator": {"xpath": "//Text[@Name='Print Sent']"}  
+    },
+    "my_account_title": {
+        "_comment": "My Account screen",
+        "locator": {"id": ["title", "HpTitle"]}  
+    },
+    "view_notifications_text": {
+        "_comment": "My Account screen",
+        "locator": {"xpath": "//Text[@Name='Notifications']"} 
+    },
+    "notifications_title": {
+        "_comment": "My Account screen",
+        "locator": {"id": "title"}
+    },
+    "date_title": {
+        "_comment": "My Account screen",
+        "locator": {"id": "date"}
+    },
+    "message_title": {
+        "_comment": "My Account screen",
+        "locator": {"id": "message"}
+    },
+    "print_activity_center_flyout_title": {
+        "_comment": "Print tile on Print Activity Center flyout",
+        "locator": {"xpath": "//Text[@AutomationId='WindowTitleTextBlock' and @Name='Print']","str_id@Text": "HP.Framework.Extensions.ActivityCenter/Resources/PrintId"}
+    },
+    "print_image": {
+        "_comment": "Print image on Print Activity Center flyout while no print job on it",
+        "locator": {"id": "DeviceImageElement"}
+    },
+    "status_list_view": {
+        "_comment": "Status list view on Print Activity Center flyout",
+        "locator": {"id": "MasterListView"}
+    },
+    "dynamic_print_job_status_item": {
+        "_comment": "Status list view on Print Activity Center flyout",
+        "locator": {"xpath": "//List[@AutomationId='MasterListView']/ListItem[{}]"}
+    },
+    "dynamic_job_status_day_text": {
+        "_comment": "Status list view on Print Activity Center flyout",
+        "locator": {"xpath": "//List[@AutomationId='MasterListView']/ListItem[{}]/Text[last()-1]"}
+    },
+    "dynamic_job_status_day_text_2": {
+        "_comment": "Status list view on Print Activity Center flyout",
+        "locator": {"xpath": "//List[@AutomationId='MasterListView']/ListItem[{}]/Text[last()-2]"}
+    },
+    "job_detail_back_button": {
+        "_comment": "back arrow",
+        "locator": {"xpath": "//Text[@AutomationId='WindowTitleTextBlock' and @Name='Print']/preceding-sibling::Button[1]"}
+    },
+    "print_job_processing_status_text": {
+        "_comment": "Print Job Processing status text",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.ActivityCenter/Resources/PrintJobProcessing"}
+    },
+    "no_print_activity_available_text": {
+        "_comment": "Print Job Processing status text",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.ActivityCenter/Resources/NoPrintActivityAvailable/Text"}
+    },
+    "send_a_file_text": {
+        "_comment": "Print Job Processing status text",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.ActivityCenter/Resources/SendFileToPrinter/Text"}
+    },
+    "print_job_detail_image": {
+        "_comment": "Clear Notification",
+        "locator": {"id": "StateImageImage"}
+    },
+    "print_job_detail_text": {
+        "_comment": "Clear Notification",
+        "locator": {"xpath": "//Image[@AutomationId='StateImageImage']/following-sibling::Text[1]"}
+    },
+    "print_job_detail_text_2": {
+        "_comment": "Clear Notification",
+        "locator": {"xpath": "//Image[@AutomationId='StateImageImage']/following-sibling::Text[2]"}
+    },
+    "clear_notification": {
+        "_comment": "Clear Notification",
+        "locator": {"str_id@Text": "HP.Framework.Extensions.ActivityCenter/Resources/ClearNotification/Content"}
+    },
+    "first_print_item": {
+        "_comment": "Clear Notification",
+        "locator": {"xpath": "//List[@AutomationId='MasterListView']/ListItem[1]"}
+    }
+
+}

@@ -1,0 +1,827 @@
+{
+    "reports_title":{
+        "locator": {
+            "css selector": "p[data-testid='reports-title']"
+        },
+        "localization": {
+            "en": "Reports"
+        }
+    },
+    "reports_accordian_btn":{
+        "locator":{
+            "css selector": "div[data-testid='reports-accordian'] div[aria-controls='accordionItem1']"
+        }
+    },
+    "check_all_checkbox":{
+        "locator": {
+            "css selector": "input[data-testid='reports-checkbox']"
+        }
+    },
+    "all_accordian_checkboxs":{
+        "locator": {
+            "css selector": "div#accordionItem1 input[data-testid*='reports']"
+        }
+    },
+
+    "executive_summary_checkbox":{
+        "locator": {
+            "css selector": "input[data-testid='reports-checkBox-1']"
+        }
+    },
+    "remediation_summary_checkbox":{
+        "locator": {
+            "css selector": "input[data-testid='reports-checkBox-2']"
+        }
+    },
+    "devices_assessed_summary_checkbox":{
+        "locator": {
+            "css selector": "input[data-testid='reports-checkBox-2']"
+        }
+    },
+    "reports_footer_banner":{
+        "locator": {
+            "css selector": "div[data-testid='generate-reports-list']"
+        }
+    },
+    "reports_footer_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports-cancel-button']"
+        }
+    },
+    "download_all_checkboxs":{
+        "locator": {
+            "css selector": "input[type='checkbox']"
+        }
+    },
+    "download_tab":{
+        "locator": {
+            "css selector": "div[aria-controls='extended-1']"
+        }
+    },
+    "generate_report_tab":{
+        "locator": {
+            "css selector": "div[aria-controls='extended-0']"
+        }
+    },
+    "generate_report_footer_selected_number_lbl":{
+        "locator": {
+            "css selector": "div[data-testid='reports-generate-numberOfSelectedItem']"
+        }
+    },
+    "reports_table_no_reports_label":{
+        "locator": {
+            "css selector": "#no-results-err"
+        },
+        "localization": {
+            "en": "No Reports Found"
+        }
+    },
+    "download_header_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='reports-table'] thead span>input"
+        }
+    },
+    "download_all_body_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='reports-table'] tbody input[type='checkbox']"
+        }
+    },
+    "download_footer_banner":{
+        "locator": {
+            "css selector": "div[data-testid='reports-download-listItem']"
+        }
+    },
+    "footer_continue_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports-continue-button']"
+        }
+    },
+    "download_footer_selected_number_lbl":{
+        "locator": {
+            "css selector": "div[data-testid='reports-download-numberOfSelectedItem']"
+        }
+    },
+    "download_select_next_step_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='reports-selection-contextual-menu'] div[aria-haspopup='listbox']"
+        }
+    },
+    "download_select_next_step_dropdown_download_option":{
+        "locator": {
+            "css selector": "[id*='-option-0']"
+        }
+    },
+    "download_select_next_step_dropdown_delete_option":{
+        "locator": {
+            "css selector": "[id*='-option-1']"
+        }
+    },
+    "reports_delete_popup_delete_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports-delete-button']"
+        }
+    },
+    "reports_delete_popup_cancel_btn":{
+        "locator": {
+            "xpath": "(//button[@data-testid='reports-cancel-button'])[3]"
+        }
+    },
+    "reports_serach_txt":{
+        "locator": {
+            "css selector": "input[data-testid='reports-search-box']"
+        }
+    },
+    "reports_table_no_item_found_lbl":{
+        "locator": {
+            "css selector": "[data-testid='no-results-err']"
+        }
+    },
+    "reports_table_report_name_lbl":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child(2)"
+        }
+    },
+    "reports_clear_search_button":{
+        "locator": {
+            "css selector": "button[aria-label='Clear']"
+        }
+    },
+    "reports_filter_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports-filter-button']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "reports_generate_btn":{
+        "locator": {
+            "css selector": "[data-testid='report-header-right-List']"
+        },
+        "localization": {
+            "en": "Generate"
+        }
+    },
+    "reports_column_option_gear":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "reports_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "reports_contextual_footer_cancel_btn":{
+        "locator": {
+            "css selector": "button#reports-contextual-footer-cancel-button"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "reports_contextual_footer_selected_item_label":{
+        "locator": {
+            "css selector": "[data-testid='reports-contextual-footer-selected-label']"
+        },
+        "localization": {
+            "en": "1 item selected"
+        }
+    },
+    "reports_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='reports-contextual-footer-select']"
+        }
+    },
+    "reports_contextual_footer_select_action_dropdown_options":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li"
+        }
+    },
+    "reports_contextual_footer_continue_btn":{
+        "locator": {
+            "css selector": "button#reports-contextual-footer-continue-button"
+        },
+        "localization": {
+            "en": "Continue"
+        }
+    },
+    "edit_report_title":{
+        "locator": {
+            "css selector": "p[data-testid='reports_Edit_Title']"
+        },
+        "localization": {
+            "en": "Edit Report"
+        }
+    },
+    "edit_report_desc":{
+        "locator": {
+            "css selector": "p[data-testid='reports-generate-subtitle']"
+        },
+        "localization": {
+            "en": "Edit a report"
+        }
+    },
+    "edit_report_report_name_txt":{
+        "locator": {
+            "css selector": "input[data-testid='report_name_input']"
+        }
+    },
+    "edit_report_contextual_cancel_btn":{
+        "locator": {
+            "css selector": "button[class*='EditReportContextualCancelButton']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "edit_report_contextual_save_btn":{
+        "locator": {
+            "css selector": "button[class*='EditReportContextualEditButton']"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column options"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[id='column-options'] label"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//div[@aria-labelledby='column-options-label']//span[contains(text(),'Cancel')]/parent::button"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Save')]/parent::button"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "reports_table_report_name_column":{
+        "locator": {
+            "css selector": "th#reportName"
+        }
+    },
+    "reports_table_catagory_column":{
+        "locator": {
+            "css selector": "th#category"
+        }
+    },
+    "reports_table_report_type_column":{
+        "locator": {
+            "css selector": "th#reportType"
+        }
+    },
+    "reports_table_date_generated_column":{
+        "locator": {
+            "css selector": "th#generatedTime"
+        }
+    },
+    "reports_table_status_column":{
+        "locator": {
+            "css selector": "th#status"
+        }
+    },
+    "generate_report_title":{
+        "locator": {
+            "css selector": "[data-testid='reports-generate-title']"
+        },
+        "localization": {
+            "en": "Generate Report"
+        }
+    },
+    "select_device_group_btn":{
+        "locator": {
+            "css selector": "[data-testid='reports_Generate_DeviceGroup_Sublabel'] button"
+        },
+        "localization": {
+            "en": "Select Device Group"
+        }
+    },
+    "select_device_group_group_name":{
+        "locator": {
+            "xpath": "//ul[@data-testid='report_Device_Group_TreeView']//span[contains(text(),'{}')]"
+        }
+    },
+    "select_device_group_select_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports_Generate_Select_Button']"
+        }
+    },
+    "generate_report_generate_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports_Generate_Contextual_Generate_Button']"
+        }
+    },
+    "delete_report_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='reports_DeleteModal_Header']"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "delete_report_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='reports_DeleteModal_Subtext']"
+        },
+        "localization": {
+            "en": "Are you sure you want to delete the selected reports?"
+        }
+    },
+    "delete_report_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports_DeleteModal_Cancel_Buttons']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "delete_report_popup_delete_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports_DeleteModal_Delete_Buttons']"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "report_details_report_name":{
+        "locator": {
+            "css selector": "[data-testid*='device_Details_title']"
+        }
+    },
+    "report_details_report_type":{
+        "locator": {
+            "css selector": "[data-testid='device_Details_Top_List_Item_Report Type_Value']"
+        }
+    },
+    "report_details_report_generated":{
+        "locator": {
+            "css selector": "[data-testid='device_Details_Top_List_Item_Generated_Value']"
+        }
+    },
+    "reports_delete_popup_modal":{
+        "locator": {
+            "css selector": "div[data-testid='reports-modal']"
+        }
+    },
+    "generate_report_category_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='reports_Generate_ReportCategory_Select']"
+        }
+    },
+    "generate_report_select_category_dropdown_option":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "generate_report_type_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='reports_Generate_ReportType_Select']"
+        }
+    },
+    "generate_report_select_type_dropdown_option":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "generate_report_category_title":{
+        "locator": {
+            "css selector": "label#reports_Generate_ReportCategory_Select-label"
+        },
+        "localization": {
+            "en": "Report Category *"
+        }
+    },
+    "generate_report_type_title":{
+        "locator": {
+            "css selector": "label#reports_Generate_ReportType_Select-label"
+        },
+        "localization": {
+            "en": "Report Type *"
+        }
+    },
+    "generate_report_name_title":{
+        "locator": {
+            "css selector": "p[data-testid='reports_Generate_ReportName_Label']"
+        },
+        "localization": {
+            "en": "Report Name *"
+        }
+    },
+    "generate_report_name_field_txtbox":{
+        "locator": {
+            "css selector": "input[data-testid='report_name_input']"
+        }
+    },
+    "generate_report_device_group_title":{
+        "locator": {
+            "css selector": "p[data-testid='reports_Generate_DeviceGroup_Label']"
+        },
+        "localization": {
+            "en": "Device Group *"
+        }
+    },
+    "generate_report_device_group_decription":{
+        "locator": {
+            "css selector": "[data-testid='group_info_text']"
+        },
+        "localization": {
+            "en": "Select device groups to generate a report."
+        }
+    },
+    "generate_report_schedule_time_option_title":{
+        "locator": {
+            "css selector": "p[data-testid='reports_ScheduleOption_Title']"
+        },
+        "localization": {
+            "en": "Schedule option*"
+        }
+    },
+    "generate_report_schedule_email_option_title":{
+        "locator": {
+            "css selector": "p[data-testid='repors_EmailOption_Header']"
+        },
+        "localization": {
+            "en": "Email option"
+        }
+    },
+    "generate_report_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports_Generate_Contextual_Cancel_Button']"
+        }
+    },
+    "generate_report_select_category_dropdown_options":{
+        "locator": {
+            "css selector": "ul[role=listbox] li"
+        }
+    },
+    "report_category_dropdown_deployment_option":{
+        "locator": {
+            "css selector": "li[data-value='deployment']"
+        }
+    },
+    "report_category_dropdown_business_option":{
+        "locator": {
+            "css selector": "li[data-value='roam']"
+        }
+    },
+    "report_category_dropdown_security_option":{
+        "locator": {
+            "css selector": "li[data-value='security']"
+        }
+    },
+    "generate_report_select_type_dropdown_options":{
+        "locator": {
+            "css selector": "ul#reports_Generate_ReportType_Select-listbox li"
+        }
+    },
+    "generate_report_view_sample_button":{
+        "locator": {
+            "css selector": "button[data-testid='reports_Button_ViewSample']"
+        }
+    },
+    "sample_report_page":{
+        "locator": {
+            "css selector": "div#reports_SampleModal-desc"
+        }
+    },
+    "sample_report_page_cancel_button":{
+        "locator": {
+            "css selector": "[data-testid='reports_SampleModal'] button[class*='close']"
+        }
+    },
+    "sample_report_page_title":{
+        "locator": {
+            "xpath": "//*[@id='reports_SampleModal-desc']/p[1]"
+        }
+    },
+    "select_device_group_popup_title":{
+        "locator": {
+            "xpath": "//div/*[contains(text(),'Select Device Group')]"
+        },
+        "localization": {
+            "en": "Select Device Group"
+        }
+    },
+    "select_device_group_popup_decription":{
+        "locator": {
+            "css selector": "div#modal-id-desc p"
+        },
+        "localization": {
+            "en": "Select device groups to generate a report."
+        }
+    },
+    "select_device_group_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='reports_Generate_Cancel_Button']"
+        }
+    },
+    "generate_report_category_warning_message":{
+        "locator": {
+            "css selector": "p#reports_Generate_ReportCategory_Select-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Select a report category"
+        }
+    },
+    "generate_report_type_warning_message":{
+        "locator": {
+            "css selector": "p#report_name_input-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Select a report type"
+        }
+    },
+    "generate_report_device_group_warning_message":{
+        "locator": {
+            "css selector": "div[data-testid='reports_Generate_DeviceGroup_Sublabel']  div:nth-child(3) span"
+        },
+        "localization": {
+            "en": "Select device groups"
+        }
+    },
+    "generate_report_name_field_empty_warning_message":{
+        "locator": {
+            "css selector": "p#report_name_input-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Enter a report name"
+        }
+    },
+    "generate_report_name_field_error_warning_message":{
+        "locator": {
+            "css selector": "p#report_name_input-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Report Name requires minimum 3 characters"
+        }
+    },
+    "edit_report_category_title":{
+        "locator": {
+            "css selector": "[data-testid='reports_Edit_ReportCategory_Label']"
+        },
+        "localization": {
+            "en": "Report Category"
+        }
+    },
+    "edit_report_type_title":{
+        "locator": {
+            "css selector": "[data-testid='reports_Edit_ReportType_Label']"
+        },
+        "localization": {
+            "en": "Report Type"
+        }
+    },
+    "edit_report_name_title":{
+        "locator": {
+            "css selector": "p[data-testid='reports_Generate_ReportName']"
+        },
+        "localization": {
+            "en": "Report Name *"
+        }
+    },
+    "edit_report_category_type_value":{
+        "locator": {
+            "css selector": "[data-testid='reports_Edit_ReportCategory']"
+        }
+    },
+    "edit_report_type_value":{
+        "locator": {
+            "css selector": "[data-testid='reports_Edit_ReportType']"
+        }
+    },
+    "edit_report_device_group_title":{
+        "locator": {
+            "css selector": "[data-testid='reports_Edit_DeviceGroup_Label']"
+        },
+        "localization": {
+            "en": "Device Group *"
+        }
+    },
+    "edit_report_contextual_footer":{
+        "locator": {
+            "css selector": "div[class*='ReportsGenerateContextualFooterMenu']"
+        }
+    },
+    "edit_report_name_field_empty_warning_message":{
+        "locator": {
+            "css selector": "#report_name_input-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Enter a report name"
+        }
+    },
+    "edit_report_name_field_error_warning_message":{
+        "locator": {
+            "css selector": "#report_name_input-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Report Name requires minimum 3 characters"
+        }
+    },
+    "report_details_report_title":{
+        "locator": {
+            "css selector": ["div[data-testid*='Top_Card_Component'] [data-testid*='device_Details_title']",
+                            "[data-testid*='device_Details_title']"]
+        }        
+    },
+    "report_details_report_type_value":{
+        "locator": {
+            "css selector": ["[data-testid='device_Details_Top_List_Item_Report Type_Value']",
+                            "[data-testid='device_Details_Top_List_Item_Report Type_Value']>div"]
+        }
+    },
+    "report_details_page_generated_date_value":{
+        "locator": {
+            "css selector": "[data-testid='device_Details_Top_List_Item_Generated_Value']"
+        }
+    },
+    "report_details_page_customer_name":{
+        "locator": {
+            "css selector": "[data-testid='device_Details_Top_List_Item_Customer_Value']"
+        }
+    },
+    "report_details_page_pdf_button":{
+        "locator": {
+            "css selector": "[data-testid='reports_Button_SaveasPDF']"
+        },
+        "localization": {
+            "en": "Save as PDF"
+        }
+    },
+    "report_details_page_xlsx_button":{
+        "locator": {
+            "css selector": "[data-testid='reports_Button_SaveasXLSX']"
+        },
+        "localization": {
+            "en": "Save as XLSX"
+        }
+    },
+    "report_details_page_summary_card":{
+        "locator": {
+            "css selector": "[data-testid*='Top_Card_Component'] div[role='button']"
+        }
+    },
+    "report_details_page_device_assessment_summary_card":{
+        "locator": {
+            "css selector": "[data-testid*='Device_Assessment_SummaryCard_Component'] div[role='button']"
+        }
+    },
+    "report_details_policy_items_assessed_card":{
+        "locator": {
+            "css selector": "[data-testid*='Policy_Items_AssessedCard_Component'] div[role='button']"
+        }
+    },
+    "report_details_page_risk_summary_card":{
+        "locator": {
+            "css selector": "[data-testid*='Risk_SummaryCard_Component'] div[role='button']"
+        }
+    },
+    "report_details_page_solutions_entitled_card":{
+        "locator": {
+            "css selector": "[data-testid*='License_SummaryCard_Component'] div[role='button']"
+        }
+    },
+   "assessment_summary_card_title":{
+        "locator": {
+            "css selector": "div[data-testid*='Device_Assessment_SummaryCard_Component'] h6"
+        },
+        "localization": {
+            "en": "Device Assessment Summary"
+        }
+   },
+   "assessed_device_status_title":{
+        "locator": {
+            "css selector": "[data-testid*='AssessedDonut_title']"
+        },
+        "localization": {
+            "en": "Assessed Status by Devices"
+        }
+   },
+    "not_assessed_device_status_title":{
+        "locator": {
+            "css selector": "[data-testid*='NotAssessedDonut_title']"
+        },
+        "localization": {
+            "en": "Not Assessed Status by Devices"
+        }
+    },
+    "policy_items_assessed_card_title":{
+        "locator": {
+            "css selector": "[data-testid*='Policy_Items_AssessedCard_Component'] h6"
+        },
+        "localization": {
+            "en": "Policy Items Assessed Summary"
+        }
+    },
+    "assessed_status_by_policy_items_title":{
+        "locator": {
+            "css selector": "p[data-testid='ExecutiveSummary_policyItemsStatus']"
+        },
+        "localization": {
+            "en": "Assessed Status by Policy Items"
+        }
+    },
+    "assessed_status_by_feature_category_title":{
+        "locator": {
+            "css selector": "[data-testid='ExecutiveSummary_featureItemsStatus']"
+        },
+        "localization": {
+            "en": "Assessed Status by Feature Category"
+        }
+    },
+    "risk_summary_card_title":{
+        "locator": {
+            "css selector": "[data-testid*='Risk_SummaryCard_Component'] h6"
+        },
+        "localization": {
+            "en": "Risk Summary by Policy Items"
+        }
+    },
+    "solutions_entitled_card_title":{
+        "locator": {
+            "css selector": "[data-testid*='License_SummaryCard_Component'] h6"
+        },
+        "localization": {
+            "en": "Solutions Entitled Summary"
+        }
+    },
+    "report_list_report_type_value":{
+        "locator": {
+            "css selector": "tr td:nth-child(4)"
+        }
+    },
+    "report_list_generated_date_value":{
+        "locator": {
+            "css selector": "tr td:nth-child(5)"
+        }
+    },
+    "reports_details_assessment_status_list_table":{
+        "locator": {
+            "css selector": "table[data-testid*='Table_List_Component']"
+        }
+    },
+    "reports_details_search_field":{
+        "locator": {
+            "css selector": "[data-testid='reports-search-form']"
+        }
+    },
+    "reports_details_filter_button":{
+        "locator": {
+            "css selector": "button[data-testid='reports-filter-button']"
+        }
+    },
+    "reports_details_column_option_button":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "policy_items_count_title":{
+        "locator": {
+            "css selector": "div[data-testid*='reports_Accordian_Header_Component'] h6"
+        },
+        "localization": {
+            "en": "Policy Items Assessed Count"
+        }
+    },
+   "job_summary_card_title":{
+        "locator": {
+            "css selector": "div[data-testid='jobHistory_jobSummary'] div[role='button']"
+        },
+        "localization": {
+            "en": "Jobs Summary"
+        }
+    },
+   "report_details_policy_items_count_card":{
+    "locator": {
+        "css selector": "div[data-testid*='reports_Accordian_Component']>div>div[role='button']"
+        }
+    }
+}

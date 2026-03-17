@@ -1,0 +1,67 @@
+{
+  "output_file_name_text_box": {
+    "locator": {
+      "css selector": "#output-file-name"
+    }
+  },
+  "logger_checkbox": {
+    "locator": {
+      "css selector": "input[type='checkbox']"
+    }
+  },
+  "open_log_level_trace_list_btn": {
+    "locator": {
+      "css selector": "#vn-select-1"
+    }
+  },
+  "log_level_trace_option": {
+    "locator": {
+      "css selector": "li[data-value='trace']"
+    }
+  },
+  "log_level_debug_option": {
+    "locator": {
+      "css selector": "li[data-value='debug']"
+    }
+  },
+  "log_level_info_option": {
+    "locator": {
+      "css selector": "li[data-value='info']"
+    }
+  },
+  "log_level_warning_option": {
+    "locator": {
+      "css selector": "li[data-value='warning']"
+    }
+  },
+  "log_level_error_option": {
+    "locator": {
+      "css selector": "li[data-value='error']"
+    }
+  },
+  "create_logger_btn": {
+    "locator": {
+      "css selector": "#createLogger button[type='button']"
+    }
+  },
+  "open_log_drop_down_btn": {
+    "locator": {
+      "css selector": "#loggerContent div[aria-haspopup='listbox']"
+    }
+  },
+  "logger_instance_first_option": {
+    "locator": {
+      "css selector": "li[data-option-index='0']"
+    }
+  },
+  "log_message_textbox": {
+    "locator": {
+      "css selector": "#text-box-uncontrolled"
+    }
+  },
+  "log_message_btn": {
+    "locator": {
+      "css selector": "#logMessageButton"
+    }
+  }
+}

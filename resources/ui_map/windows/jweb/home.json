@@ -1,0 +1,63 @@
+{
+  "webview_one_btn": {
+    "locator": {
+      "xpath": "//Button[contains(@Name, 'WebView1')]"
+    }
+  },
+  "webview_two_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='WebView2']"
+    }
+  },
+  "jweb_reference_btn": {
+    "locator": {
+      "name": "JWeb Ref"
+    }
+  },
+  "url_go_btn": {
+      "locator": {
+        "name": "Go"
+      }
+    },
+  "menu_btn": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='jwebSideMenu']"
+    }
+  },
+  "expand_plugins_menu_btn": {
+    "locator": {
+      "name": "Plugins",
+      "xpath": "//ListItem[@AutomationId='pluginsSideMenuItem']"
+    }
+  },
+  "plugin_item": {
+    "locator": {
+      "xpath": "//ListItem[@Name='{}']"
+    }
+  },
+  "change_stack_btn": {
+    "locator": {
+      "id": "serviceRoutingStack"
+    }
+  },
+  "stack_option": {
+    "locator": {
+      "name": "{}"
+    }
+  },
+  "enforce_whitelist_toggle": {
+    "locator": {
+      "id": "enforceNavigationWhitelist"
+    }
+  },
+  "expand_custom_plugins_menu_btn": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='customPluginsSideMenuItem']"
+    }
+  },
+  "settings_menu_btn": {
+    "locator": {
+      "xpath": "//ListItem[@AutomationId='settingsSideMenuItem']"
+    }
+  }
+}

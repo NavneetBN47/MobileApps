@@ -1,0 +1,47 @@
+{
+  "printer_plugin_header_title": {
+    "locator": {
+      "css selector": ".header-title"
+    }
+  },
+  "event_url_text_field": {
+    "locator": {
+      "css selector": "#eventUrlField"
+    }
+  },
+  "orientation_drop_down_menu": {
+    "locator": {
+      "css selector": ".vn-select__open-button"
+    }
+  },
+  "landscape_menu_option": {
+    "locator": {
+      "css selector": "[data-value='landscape']"
+    }
+  },
+  "portrait_menu_option": {
+    "locator": {
+      "css selector": "[data-value='portrait']"
+    }
+  },
+  "no_option_menu_option": {
+    "locator": {
+      "css selector": "[data-value='No Option (Test)']"
+    }
+  },
+  "print_test_btn": {
+    "locator": {
+      "css selector": "#printTestButton"
+    }
+  },
+  "determine_printability_btn": {
+    "locator": {
+      "css selector": "#determineUrlPrintabilityTestButton"
+    }
+  },
+  "print_result_text": {
+    "locator": {
+      "css selector": "#printResult"
+    }
+  }
+}

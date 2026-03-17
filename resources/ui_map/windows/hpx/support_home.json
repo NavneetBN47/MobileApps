@@ -1,0 +1,102 @@
+{
+    "support_title_device_card":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'AUID_Support_device_card_{}']"
+        }
+    }, 
+    "device_cards":{
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'AUID_Support_device_card_')]"
+        }
+    },
+    "support_product_details_text":{
+        "locator": {
+            "id": "AUID_Support_device-product-details"
+        }
+    },
+    "product_number_text":{
+        "locator": {
+            "id": "AUID_Support_device-product-number-value"
+        }
+    },
+    "serial_number_text":{
+        "locator": {
+            "id": "AUID_Support_device-serial-number-value"
+        }
+    },
+    "visit_on_line_link":{
+        "locator": {
+            "id": "AUID_Support_visit_online_dashboard-hyperlink"
+        }
+    },
+    "account_card":{
+        "locator": {
+            "id": "AUID_Support_account-card"
+        }
+    },
+    "onedrive_card":{
+        "locator": {
+            "id": "AUID_Support_onedrive-card"
+        }
+    },
+    "fiveg_card": {
+        "locator": {
+            "id": "AUID_Support_fiveg-card"
+        }
+    },
+    "refresh_btn": {
+        "locator": {
+            "id": "AUID_Support_refresh-devices"
+        }
+    }, 
+    "back_btn":{
+        "locator": {
+            "xpath": "//*[@ClassName = 'DynamicAutomationPeer']"
+        }
+    }, 
+    "support_home_title": {
+        "locator": {
+            "id": "AUID_Support_title-device-support"
+        }
+    }, 
+    "support_dashboard_desc": {
+        "locator": {
+            "id": "AUID_Support_dashboard-title-desc"
+        }
+    },
+    "pn_label": {
+        "locator": {
+            "id": "AUID_Support_pn_value_{}"
+        }
+    },
+    "sn_label": {
+        "locator": {
+            "id": "AUID_Support_sn_value_{}"
+        }
+    },
+    "get_details_link":{
+        "locator": {
+            "id": "AUID_Support_warranty_getdetails_{}"
+        }
+    },
+    "pname_label": {
+        "locator": {
+            "id": "AUID_Support_productname_{}"
+        }
+    },
+    "copy_menu_item" : {
+        "locator": {
+            "xpath": "//*[@ClassName = 'UIContextMenuButton']"
+        }
+    },
+    "support_banner":{
+        "locator": {
+            "id": "AUID_Support_SupportText"
+        }
+    }, 
+    "guide_trlbl": {
+        "locator": {
+            "id": "AUID_Support_title-guided-trbl"
+        }
+    }
+}

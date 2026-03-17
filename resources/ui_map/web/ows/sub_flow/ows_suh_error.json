@@ -1,0 +1,15 @@
+{
+
+    "something_unexpected_screen_header": {
+        "locator": {"css selector": "div.fullscreen-error-header"}
+    },
+    "something_unexpected_screen_body": {
+        "locator":{"css selector": "div.fullscreen-error-body"}
+    },
+    "cannot_resolve_error":{
+        "locator":{"css selector":"div.fullscreen-error-wrapper.ng-scope"}
+    },
+    "retry_btn":{
+        "locator":{"css selector":".continue"}
+    }
+}

@@ -1,0 +1,67 @@
+{
+  "vs_app_instance_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsAppInstanceIdTextBox']"
+    }
+  },
+  "vs_stratus_user_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsStratusUserIdTextBox']"
+    }
+  },
+  "vs_account_login_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsAccountLoginIdTextBox']"
+    }
+  },
+  "vs_device_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsDeviceIdTextBox']"
+    }
+  },
+  "vs_model_number_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsModelNumberTextBox']"
+    }
+  },
+  "vs_tenant_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsTenantIdTextBox']"
+    }
+  },
+  "vs_system_serial_number_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsSystemSerialNumberTextBox']"
+    }
+  },
+  "vs_pc_device_uuid_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsPcDeviceUuidTextBox']"
+    }
+  },
+  "vs_ucde_correlation_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsUcdeCorrelationIdTextBox']"
+    }
+  },
+  "vs_consent_basis_id_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='vsConsentBasisIdTextBox']"
+    }
+  },
+  "vs_remove_keys_textbox": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='setKeyForRemoveKeyEntry']"
+    }
+  },
+  "remove_valuestore_btn": {
+    "locator": {
+      "name": "Remove ValueStore"
+    }
+  },
+  "set_valuestore_btn": {
+    "locator": {
+      "name": "Set ValueStore"
+    }
+  }
+}

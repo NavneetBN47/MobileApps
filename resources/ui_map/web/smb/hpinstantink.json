@@ -1,0 +1,93 @@
+{
+    "hpinstantink_title":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//h1[contains(text(),'Never')]"
+        },
+        "localization": {
+            "en": "Never run out and save up to 50% on ink or toner with HP Instant Ink"
+        }
+    },
+    "hpinstantink_description":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//h2[contains(text(),'You')]"
+        },
+        "localization": {
+            "en": "You’re in control —change plans or cancel anytime."
+        }
+    },
+    "hpinstantink_never_run_out_title":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//span[contains(text(),'Never Run')]"
+        },
+        "localization": {
+            "en": "Never Run out:"
+        }
+    },
+    "hpinstantink_never_run_out_description":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//span[contains(text(),'Based on plan usage')]"
+        },
+        "localization": {
+            "en": "Based on plan usage, Internet connection to eligible HP printer, valid payment method, email address, and delivery service in your geographic area."
+        }
+    },
+    "hpinstantink_savings_claim_ink_title":{
+        "locator": {
+            "css selector": "[data-testid='disclaimer-content-ink'] span:nth-child(1)"
+        },
+        "localization": {
+            "en": "Savings Claim (Ink):"
+        }
+    },
+    "hpinstantink_savings_claim_ink_description":{
+        "locator": {
+            "css selector": "[data-testid='disclaimer-content-ink'] span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Based on monthly subscription cost of HP Instant Ink 700-page plan without purchase of additional sets of pages compared to cost per page to print ISO/IEC 24711 pages on most in-class, traditional A4 color inkjet cartridge printers and MFPs priced <$385 AUD, <$420 CAD, <$333 NZD, and <$350 USD using original standard-capacity cartridges. Average CPP per country used to determine percent savings versus CPP for HP Instant Ink. Sale prices not considered for this study. HP Ink Advantage printers and printers which only use XL cartridges excluded due to non-standard hardware & supplies model. Keypoint Intelligence September 2021 study commissioned by HP, based on publicly available information as of August 18, 2021. Printers selected by market share in IDC Quarterly Hardcopy Peripherals Tracker - Final Historical 2021Q2. For details: www.keypointintelligence.com/HPInstantInk"
+        }
+    },
+    "hpinstantink_savings_claim_ink_key_point_hyperlink":{
+        "locator": {
+            "css selector": "[data-testid='savings-ink-keypoint-link-footnote']"
+        }
+    },
+    "hpinstantink_savings_claim_toner_title":{
+        "locator": {
+            "css selector": "[data-testid='disclaimer-content-toner'] span:nth-child(1)"
+        },
+        "localization": {
+            "en": "Savings Claim (Toner):"
+        }
+    },
+    "hpinstantink_savings_claim_toner_description":{
+        "locator": {
+            "css selector": "[data-testid='disclaimer-content-toner'] span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Based on monthly subscription cost of HP Instant Ink monochrome toner service 1500-page plan without purchase of additional sets of pages compared to cost per page to print ISO/IEC 24711 pages on most in-class, traditional A4 monochrome toner cartridge printers <$493 USD and <€494 and MFPs priced <$649 USD and <€672 using original standard-capacity integrated cartridges (toner and drum in one cartridge). Average CPP per country used to determine percent savings versus CPP for HP Instant Ink. Sale prices not considered for this study. Printers which only use XL cartridges excluded due to non-standard hardware & supplies model. Keypoint Intelligence September 2021 study commissioned by HP, based on publicly available information as of August 18, 2021. Printers selected by market share in IDC Quarterly Hardcopy Peripherals Tracker - Final Historical 2021Q2. For details: www.keypointintelligence.com/HPInstantInk."
+        }
+    },
+    "hpinstantink_savings_claim_toner_key_point_hyperlink":{
+        "locator": {
+            "css selector": "[data-testid='savings-toner-keypoint-link-footnote']"
+        }
+    },
+    "signup_now_button":{
+        "locator": {
+            "css selector": "a[data-testid='get-started-button']"
+        }
+    },
+    "enrolling_printer_title":{
+        "locator": {
+            "css selector": "[data-testid='printer-selection-step'] h4"
+        },
+        "localization": {
+            "en": "Confirm a printer for HP Instant Ink"
+        }
+    }
+}

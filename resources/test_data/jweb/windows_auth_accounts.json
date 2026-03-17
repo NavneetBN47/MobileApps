@@ -1,0 +1,25 @@
+{
+    "pie": {
+        "username": "hptestcreate01@gmail.com",
+        "password": "123Testing",
+        "tenant_id": "56cd18c2-2d82-45a0-9f6f-fd02f47f6ebe",
+        "scope": "IPPPrint.v1",
+        "resource": "urn:uuid:47a5f948-78ac-415a-9d99-18661113c2f5"
+    },
+    "stage": {
+        "account_01": {
+             "username": "qahpsmart@gmail.com",
+             "password": "Pass@1234",
+             "tenant_id": "8b524804-059f-4f99-a7e4-e003de93b1eb",
+             "scope": "IPPPrint.v1",
+             "resource": "urn:uuid:a6782658-d79c-5413-84c5-a30f7d193e9f"
+        },
+        "account_02": {
+             "username": "stage.admin1@yopmail.com",
+             "password": "123Testing",
+             "tenant_id": "8b524804-059f-4f99-a7e4-e003de93b1eb",
+             "scope": "IPPPrint.v1",
+             "resource": "urn:uuid:a6782658-d79c-5413-84c5-a30f7d193e9f"
+        }
+    }
+}

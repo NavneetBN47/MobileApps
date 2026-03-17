@@ -1,0 +1,891 @@
+{
+    "auto_enhancement_title": {
+        "_comment": "Auto-Enhancements dialog",
+        "locator": {"id": "ScanAutoEnhancementsTitle"}
+    },
+    "auto_enhancement_get_started_btn": {
+        "_comment": "Auto-Enhancements dialog",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[last()]"}
+    },
+    "start_scan_text": {
+        "locator": {"id": "StartScan"}
+    },
+    "preview_btn": {
+        "locator": {"id": "PreviewButton"}
+    },
+    "scanner_preview_image": {
+        "locator": {"id": "ImageRectTop"}
+    },
+    "scan_btn": {
+        "locator": {"xpath": ["//Window[2]/Button[3]", "//Button[@Name='Scan']"]}
+    },
+    "doc_scan_btn": {
+        "locator": {"xpath": "//Window[2]/Button[last()]"}
+    },
+    "start_btn": {
+        "locator": {"id": "SmartTasksExecuteBtnWebApp"}
+    },
+    "multi_scan_btn": {
+        "locator": {"xpath": "//Window[2]/Button[4]"}
+    },
+    "cancel_btn": {
+        "locator": {"id": ["CancelButtonScanning","cancel"]}
+    },
+    "learn_more_link": {
+        "_comment": "Learn More",
+        "locator": {"id": "ContentPresenter",
+                    "xpath": "//Hyperlink[@Name='Learn More']"}
+    },
+    "auto_enhancement_cancel_btn": {
+        "_comment": "X button",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[1]"}
+    },
+    "import_btn": {
+        "_comment": "Import button",
+        "locator": {"xpath": "//List[@AutomationId='ChooseSourceList']/ListItem[2]"}
+    },
+    "source_dropdown": {
+        "locator": {"id": "SourceSelection"}
+    },
+    "presets_dropdown": {
+        "locator": {"id": "PresetSelection"}   
+    },
+    "scan_area_dropdown": {
+        "locator": {"id": "ScanAreaSelection"}
+    },
+    "output_dropdown": {
+        "locator": {"id": "OutputSelection"}
+    },
+    "resolution_dropdown": {
+        "locator": {"id": "ResolutionSelection"}
+    },
+    "dynamic_listitem": {
+        "locator": {"xpath": "//ListItem[contains(@Name, '{}')]"}
+    },
+    "auto_enhancement_icon": {
+        "_comment": "auto enhancement icon",
+        "locator": {"xpath": "//List[@AutomationId='settingsList']/ListItem[2]"}
+    },
+    "gear_icon": {
+        "_comment": "gear icon",
+        "locator": {"xpath": "//List[@AutomationId='settingsList']/ListItem[1]"}
+    },
+    "auto_enhancements_text": {
+        "_comment": "Auto-EnHancements",
+        "locator": {"id": "AutoEnhancements"}
+    },
+    "auto_enhancements_toggle": {
+        "locator": {"xpath": "//Window[@AutomationId='PaneRoot']/Pane[last()]/Button[1]"}
+    },
+    "auto_heal_toggle": {
+        "locator": {"xpath": "//Window[@AutomationId='PaneRoot']/Pane[last()]/Button[2]"}
+    },
+    "auto_heal_text": {
+        "_comment": "Auto-Heal",
+        "locator": {"id": "AutoHeal"}
+    },
+    "auto_orientation_text": {
+        "_comment": "Auto-Orientation",
+        "locator": {"id": "AutoOrientation"}
+    },
+    "auto_orientation_toggle": {
+        "locator": {"xpath": "//Window[@AutomationId='PaneRoot']/Pane[last()]/Button[last()]"}
+    },
+    "import_dialog_title": {
+        "_comment": "Import, edit, and share",
+        "locator": {"id": "ImportFirstLaunchTitle"}   
+    },
+    "import_dialog_text": {
+        "locator": {"id": "ImportFirstLaunch"}  
+
+    },
+    "import_dialog_get_started_btn": {
+        "_comment": "Get Started",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[last()]"}
+    },
+    "add_pages_btn": {
+        "_comment": "+ Add button on Scan Preview screen",
+        "locator": {"id": "SingleImageAddPagesBtn"}
+    },
+    "menu_btn": {
+        "_comment": "...",
+        "locator": {"id": "SingleImageMenuButton"}
+    },
+    "id_card_menu_btn": {
+        "_comment": "...",
+        "locator": {"id": "editMenu"}
+    },
+    "print_btn": {
+        "_comment": "Print button on Scan Preview screen",
+        "locator": {"id": "PrintBtn"},
+        "analytics":[
+            {
+                "event": "-ControlButtonClicked,Preview,/,Print,SingleFile,Scan-v01,1.5.0, accepted.",
+                "trigger":"click",
+                "platform": "windows"
+            }
+        ]
+    },
+    "save_btn": {
+        "_comment": "Save button on Scan Preview screen",
+        "locator": {"id": "SaveBtn"}
+    },
+    "share_btn": {
+        "_comment": "Share button on Scan Preview screen",
+        "locator": {"id": "ShareBtn"}
+    },
+    "shortcuts_btn": {
+        "_comment": "Shortcuts button on Scan Preview screen",
+        "locator": {"id": "SmartTasksBtn"}
+    },
+    "fax_btn": {
+        "_comment": "Fax button on Scan Preview screen",
+        "locator": {"id": "SoftFaxBtn"}
+    },
+    "text_extract_btn": {
+        "_comment": "Text Extract button on Scan Preview screen",
+        "locator": {"id": "TextExtractBtn"}     
+    },
+    "edit_btn": {
+        "_comment": "Edit",
+        "locator": {"id": "SingleImageEditBtn"}
+    },
+    "crop_setting_value_item": {
+        "_comment": "Crop setting value",
+        "locator": {"xpath": "//MenuBar[contains(@Name, '{}')]"}
+    },
+    "no_content_gird_error_message_image": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridOfflineIcon"}
+    },
+    "no_content_gird_error_message_header": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridErrorMsgHeader"}
+    },
+    "couldnt_connect_to_scanner_header": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/NoScanMessageTitle/Text"}
+    },
+    "scanning_is_currently_unavailable_header": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/NoScan/Text"}
+    },
+    "no_content_gird_error_message_header_body": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridErrorMsgHeaderBody"}
+    },
+    "couldnt_connect_to_scanner_header_body": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/ScannerOfflineMessage/Text"}
+    },
+    "return_home_btn": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": ["NoContentGridReturnHomeBtn","ReturnHomeBtn"],
+                    "str_id": "HP.Framework.Extensions.ScanCapture/Resources/ReturnHomeButton/Text"}
+    },
+    "get_more_help_btn": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": ["NoContentGridGetMoreHelpBtn","GetMoreHelpBtn"],
+                    "str_id": "HP.Framework.Extensions.ScanCapture/Resources/GetMoreHelpButton/Text"}
+    },
+    "no_content_gird_error_message_footer_body": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridErrorMsgFooterBody"}
+    },
+    "couldnt_connect_to_scanner_footer_body": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/UseImportAndCamera/Text"}
+    },
+    "scan_canceled_title": {
+        "locator": {"id": "ErrorMsgHeader"}
+    },
+    "scan_canceled_x_btn": {
+        "locator": {"id": "IconBtn"}
+    },
+    "processing_scan_cancel_btn": {
+        "locator": {"id": "CancelButton"}
+    },
+    "print_dialog_cancel_btn": {
+        "locator": {"id": "CloseButton"}
+    },
+    "print_dialog_print_btn": {
+        "locator": {"id": "PrintButton"}
+    },
+    "shortcuts_title": {
+        "locator": {"id": "shortcuts-message-title"}
+    },
+    "save_title": {
+        "locator": {"id": "SaveTitle"}
+    },
+    "filename_edit": {
+        "locator": {"id": "FileName"}
+    },
+    "dialog_close_btn": {
+        "locator": {"xpath": "//Window[@AutomationId='saveFilePopUp']/Button[1]"}
+    },
+    "detect_edges_flatten_text": {
+        "locator": {"id": "Flatten"}
+    },
+    "import_apply_btn": {
+        "locator": {"id": "ApplyButton"}
+    },
+    "exit_without_saving_text": {
+        "locator": {"id": "ExitBody"}
+    },
+    "exit_without_saving_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/ExitTitle/Text"}
+    },
+    "edit_screen_exit_without_saving_text": {
+        "locator": {"xpath": "//Text[@Name='You have unsaved changes. Are you sure you want to exit?']"}
+    },
+    "yes_btn": {
+        "locator": {"xpath": ["//Button[@Name='Yes']", "//Text[@Name='Yes']"]} 
+    },
+    
+    "scribble_yes_btn": {
+        "locator": {"xpath": "//Window[2]/Button[12]"}
+    },
+    "no_btn": {
+        "locator": {"xpath": ["//Button[@Name='No']", "//Window[2]/Button[last()]"]}
+    },
+    "error_title": {
+        "locator": {"id": "ErrorTitle"}    
+    },
+    "multi_add_pages_btn": {
+        "_comment": "+ Add",
+        "locator": {"id": "MultiImageAddPagesBtn"}
+    },
+    "multi_menu_btn": {
+        "_comment": "...",
+        "locator": {"id": "MultieditMenu"}
+    },
+    "multi_delete_btn": {
+        "_comment": "Delete",
+        "locator": {"id": "MultiImageDelete"}
+    },
+    "delete_title": {
+        "locator": {"id": "ConfirmDelete"}
+    },
+    "delete_title_delete_btn": {
+        "locator": {"id": "BtnDelete"}
+    },
+    "delete_title_cancel_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/Cancel/Text"}
+    },
+    "thumbnail_view_icon": {
+        "locator": {"id": "MultiImageGoToThumbnailViewBtn"}
+    },
+    "rotate_btn": {
+        "locator": {"id": "ThumbnailViewSelectBtn"}
+    },
+    "thumbnail_add_btn": {
+        "locator": {"id": "ThumbnailViewAddPagesBtn"}
+    },
+    "select_all_btn": {
+        "locator": {"id": "ThumbnailViewSelectDeselectBtn"}
+    },
+    "delete_btn": {
+        "locator": {"id": "DeleteImageBtn"}
+    },
+    "rotate_right_btn": {
+        "locator": {"id": "RotateRightBtn"}
+    },
+    "rotate_left_btn": {
+        "locator": {"id": "RotateLeftBtn"}
+    },
+
+    "file_has_been_saved_text": {
+        "_comment": "Your file has been saved",
+        "locator": {"id": "ConfirmSave"}
+    },
+    "file_saved_link": {
+        "_comment": "file saved link",
+        "locator": {"id": "FileLink"}
+    },
+    "save_dialog_save_btn": {
+        "_comment": "preview screen ->save",
+        "locator": {"xpath": "//Button[@AutomationId='FlyoutSaveBtn']"}
+    },
+    "save_as_dialog_save_btn": {
+        "_comment": "preview screen ->save ->save",
+        "locator": {"xpath": "//Button[@AutomationId='1']"}
+    },
+    "save_as_dialog_cancel_btn": {
+        "_comment": "preview screen ->save ->save",
+        "locator": {"xpath": "//Button[@AutomationId='2']"}
+    },
+    "are_you_enjoy_text": {
+        "_comment": "Are you enjoying the HP Smart app?",
+        "locator": {"id": "UserExperiencePrompt"}
+    },
+    "are_you_enjoy_yes_btn": {
+        "_comment": "Are you enjoying the HP Smart app?",
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/YesBtn/Content",
+                    "xpath": "//Text[@AutomationId='UserExperiencePrompt']/following-sibling::Button[2]"}
+    },
+    "are_you_enjoy_no_btn": {
+        "_comment": "Are you enjoying the HP Smart app?",
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/NoBtn/Content",
+                    "xpath": "//Text[@AutomationId='UserExperiencePrompt']/following-sibling::Button[1]"}
+    },
+    "sorry_to_hear_no_now_btn": {
+        "_comment": "Sorry to hear that!",
+        "locator": {"xpath": "//Text[@AutomationId='GiveUsFeedback']/following-sibling::Button[1]"} 
+    },
+    "sorry_to_hear_yes_btn": {
+        "_comment": "Sorry to hear that!",
+        "locator": {"xpath": "//Text[@AutomationId='GiveUsFeedback']/following-sibling::Button[2]"} 
+    },
+    "review_dialog": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": "PurchaseDialog"}
+    },
+    "rate_star": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["Rating"]}
+    },
+    "rate_first_star": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["startbutton1"]}
+    },
+    "rate_five_star": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["startbutton5"]}
+    },
+    "review_a_title": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["Review", "editDialogRnR-vbtm"]}
+    },
+    "share_your_experience": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["ActualTextBox", "reviewTitle"]}
+    },
+    "review_submit_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"xpath": "//Button[@Name='Submit']"} 
+    },
+    "review_thank_you_close_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": "thankYouDialogRnR-close"} 
+    },
+    "review_close_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"xpath": "//MenuBar[@AutomationId='SystemMenuBar']/following-sibling::Button[@AutomationId='Close']"} 
+    },
+    "review_done_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": "thankYouDialogRnR-close",
+                    "xpath":"//Text[@Name='Done']"}
+    },
+    "id_card_title_text": {
+        "locator": {"id": "IDCardFrontHelperTitleText"}
+    },
+    "id_card_text": {
+        "locator": {"id": "IDCardFrontHelperBodyText"}
+    },
+    "id_card_front_image": {
+        "locator": {"id": "IdCardFrontImg"} 
+    },
+    "id_card_back_image": {
+        "locator": {"id": "IdCardBack"} 
+    },
+    "skip_btn": {
+        "locator": {"id": "SkipBtn"} 
+    },
+    "title_text": {
+        "locator": {"id": "HpTitle"} 
+    },
+    "scribble_btn": {
+        "locator": {"id": ["SingleImgScribbleText", "MultiImageScribbleBtn"]} 
+    },
+    "book_title_text": {
+        "locator": {"id": "BookHelperTitleText"}
+    },
+    "book_text": {
+        "locator": {"id": "BookHelperBodyText"}
+    },
+    "book_image": {
+        "locator": {"id": "BookImg"} 
+    },
+    "multi_title_text": {
+        "locator": {"id": "MultiItemHelperTitleText"}
+    },
+    "multi_text": {
+        "locator": {"id": "MultiItemHelperBodyText"}
+    },
+    "multi_image": {
+        "locator": {"id": "MultiItemImg"} 
+    },
+    "file_type_dropdown": {
+        "locator": {"id": "FileTypeSelection"} 
+    },
+    "compression_dropdown": {
+        "locator": {"xpath": "//Window[@AutomationId='saveFilePopUp']/Pane[1]/ComboBox[2]"} 
+    },
+    "file_type_Searchable_pdf": {
+        "_comment": "File Type: Searchable PDF",
+        "locator": {"xpath": "//ComboBox[@AutomationId='FileTypeSelection']/ListItem[3]"} 
+    },
+    "install_language_btn": {
+        "_comment": "Install new language",
+        "locator": {"id": ["InstallnewLanguage_Link","InstallnewLanguageLink","InstallnewLanguageText"]} 
+    },
+    "text_title": {
+        "locator": {"id": "TextTitle"} 
+    },
+    "install_btn": {
+        "locator": {"id": "InstallButton"} 
+    },
+    "back_arrow": {
+        "_comment": "<-",
+        "locator": {"id": "ArrowGlyph"} 
+    },
+    "file_name_combo_box_edit": {
+        "_comment": "ile Name Combo box Edit on Save As dialog",
+        "locator": {"xpath": "//Edit[@AutomationId='1001']"} 
+    },
+    "smart_file_name_toggle": {
+        "locator": {"id": "SmartFileNametoggle"} 
+    },
+    "select_language_title": {
+        "locator": {"id": "SelectLanguageTitle"} 
+    },
+    "continue_btn": {
+        "locator": {"id": "ContinueBtn"} 
+    },
+    "extracting_text_title": {
+        "locator": {"id": "ExtractingTextTitle"} 
+    },
+    "extract_cancel_btn": {
+        "locator": {"id": "ExtractCancelBtn"} 
+    },
+    "not_detected_text_title": {
+        "locator": {"id": ["TextNotDetected","ErrorHeader"]}  
+    },
+    "save_not_detected_title": {
+        "_comment": "pro account: Text was not detected ",
+        "locator": {"id": "ErrorHeader"} 
+    },
+    "save_not_detected_body": {
+        "_comment": "pro account: Text was not detected ",
+        "locator": {"id": "ErrorBody"} 
+    },
+    "save_not_detected_OK_btn": {
+        "_comment": "pro account: Text was not detected ",
+        "locator": {"xpath": "//Window[@AutomationId='saveFilePopUp']/Button[1]"} 
+    },
+    "extract_ok_btn": {
+        "locator": {"id": "ExtractOkBtn",
+                    "xpath": ["//Text[@Name='Done']","//Text[@Name='OK']"]} 
+    },
+    "text_extract_edit": {
+        "locator": {"xpath": "//Group[@AutomationId='copy-to-clipboard-button']/preceding-sibling::Edit[1]"} 
+    },
+    "extract_start_new_scan_btn": {
+        "locator": {"id": "no-text-modal-newscan-button"} 
+    },
+    "extract_restore_text_btn": {
+        "locator": {"id": "no-text-modal-restore-button"} 
+    },
+    "copy_all_btn": {
+        "locator": {"id": "copy-to-clipboard-button"} 
+    },
+    "done_btn": {
+        "locator": {"xpath": ["//Window[2]/Pane[last()]/Group[last()]", "//Group[@Name='Done']", "//Text[@Name='Done']"],
+                    "id": ["done","done-button"]}
+    },
+    "copie_text": {
+        "locator": {"xpath": "//Text[@Name='Text Copied to Clipboard']"} 
+    },
+    "multi_scribble_btn": {
+        "locator": {"id": "MultiImageScribbleBtn"} 
+    },
+    "place_your_mark_text": {
+        "locator": {"xpath": "//Text[@Name='Place Your Mark']"} 
+    },
+    "add_a_new_mark_text": {
+        "locator": {"xpath": "//Text[@Name='Add a New Mark']"} 
+    },
+    "new_mark_cancel_btn": {
+        "locator": {"xpath": "//Group[@Name='Cancel']"} 
+    },
+    "new_mark_done_btn": {
+        "locator": {"xpath": "//Group[@Name='Done']"} 
+    },
+    "create_btn": {
+        "locator": {"xpath": "//Button[@Name='Create']"} 
+    },
+    "manage_btn": {
+        "locator": {"xpath": "//Button[@Name='Manage']"} 
+    },
+    "mark_text_box": {
+        "locator": {"xpath": "//Pane[@AutomationId='attached-2']/Group[1]/Group[1]"} 
+    },
+    "mark_delete_btn": {
+        "locator": {"xpath": "//Button[@Name='Delete']"} 
+    },
+    "back_btn": {
+        "locator": {"xpath": ["//Window[2]/Pane[2]/Group/Image[1]", "//Image[@Name='Arrow Left']"]} 
+    },
+    "mark_text_opt": {
+        "locator": {"xpath": "//Button[@Name='Text']"} 
+    },
+    "mark_text_edit": {
+        "locator": {"xpath": "//Edit[@AutomationId='signature-pad-input']"} 
+    },
+    "mark_text": {
+        "locator": {"xpath": "//Pane[@AutomationId='attached-1']/Group[1]/Group[1]"} 
+    },
+    "edit_done_btn": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"id": "done"} 
+    },
+    "crop_item": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[2]/ListItem[1]"} 
+    },
+    "adjust_item": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[2]/ListItem[2]"} 
+    },
+    "filters_item": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[2]/ListItem[3]"} 
+    },
+    "text_item": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[2]/ListItem[4]"} 
+    },
+    "markup_item": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/ListItem[5]"} 
+    },
+    "crop_size_w": {
+        "_comment": "Preview screen: three blue dots -> Edit  -> crop",
+        "locator": {"xpath": "//Edit[@AutomationId='photoeditorsdk-transformScaleWidth']"} 
+    },
+    "crop_size_h": {
+        "_comment": "Preview screen: three blue dots -> Edit  -> crop",
+        "locator": {"xpath": "//Edit[@AutomationId='photoeditorsdk-transformScaleHeight']"} 
+    },
+    "crop_letter_btn": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Button[2]"} 
+    },
+    "adjust_contrast_edit": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[3]"} 
+    },
+    "adjust_brigthtness_edit": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[1]"} 
+    },
+    "adjust_saturation_edit": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[2]"} 
+    },
+    "adjust_clarity_edit": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[4]"} 
+    },
+    "adjust_exposure_edit": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[5]"} 
+    },
+    "adjust_shadows_edit": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[6]"} 
+    },
+    "adjust_highlights_edit": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[7]"} 
+    },
+    "adjust_whites_edit": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Edit[8]"} 
+    },
+    "filters_document_text": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Document']"} 
+    },
+    "filters_photo_text": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Photo']"} 
+    },
+    "filters_letter_btn": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Button[2]"} 
+    }, 
+    "filters_bw_btn": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Button[1]"} 
+    },
+    "filters_summer_btn": {
+        "locator": {"xpath": "//Pane/descendant::MenuBar[1]/Button[5]"} 
+    },  
+    "text_line_spacing": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Edit[contains(@AutomationId, 'photoeditorsdk-slider-')]"}
+    },
+    "markup_size": {
+        "_comment": "Preview screen: three blue dots -> Edit ",
+        "locator": {"xpath": "//Edit[contains(@AutomationId, 'photoeditorsdk-slider-')]"}
+    },
+    "reset_crop_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Crop']"} 
+    },
+    "replace_btn": {
+        "locator": {"id": "SingleImageReplace"} 
+    },
+    "single_delete_btn": {
+        "locator": {"id": "SingleImageDelete"} 
+    },
+    "replace_text": {
+        "locator": {"id": "ReplaceAlternateText"}
+    },
+    "replace_cancel_btn": {
+        "locator": {"id": "ReplaceCancelButton"} 
+    },
+    "replace_scan_btn": {
+        "locator": {"id": "ReplaceScanButton"} 
+    },
+    "start_icon": {
+        "locator": {"id": "SmartTasksExecuteBtnWebApp"}
+    },
+    "hp_printing_print_btn": {
+        "locator": {"id": "PrintingToDialog.ui_ContentFrame.PrintButton"}
+    },
+    "more_option_btn": {
+        "locator": {"xpath": ["//Button[@Name='More Options']","//Text[@Name='More Options']"]} 
+    },
+    "activity_btn": {
+        "locator": {"xpath": ["//Button[@Name='Activity']","//Text[@Name='Activity']"]}
+    },
+    "home_btn": {
+        "locator": {"xpath": ["//Button[@Name='Home']","//Text[@Name='Home']"]}
+    },
+    "left_arrow_btn": {
+        "locator": {"id": "MultiImagePrevImageBtn"}
+    },
+    "righ_arrow_btn": {
+        "locator": {"id": "MultiImageNextImageBtn"}
+    },
+    "pages_num": {
+        "locator": {"id": "MultiImagePageNumText"}
+    },
+    "pic_item": {
+        "locator": {"xpath": "//List[@AutomationId='MultiImageThumbnailList']/ListItem[{}]"}
+    },
+    "delete_image_btn": {
+        "locator": {"id": "ImageDeleteFlyout"}
+    },
+    "reset_settings_btn": {
+        "locator": {"id": "ResetSettings"}
+    },
+    "resolution_tooltip": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/ResolutionSelection/PlaceholderText"}
+    },
+    "id_card_front_replace_image": {
+        "locator": {"id": "IdCardFront1"}
+    },
+    "id_card_back_replace_image": {
+        "locator": {"id": "IdCardBack1"}
+    },
+    "continue_to_fax_btn": {
+        "locator": {"id": "SoftFaxExecuteBtn"}
+    },
+    "resolution_info": {
+        "locator": {"id": "OcrInfoText"}
+    },
+    "number_icon": {
+        "locator": {"id": "CurrentScanResults"}
+    },
+    "detect_edges_box": {
+        "locator": {"id": "DoEdgeDetect"}
+    },
+    "dialog_cancel_btn": {
+        "locator": {"xpath": "//Button[@Name='Cancel']"}
+    },
+    "dialog_skip_printing_btn": {
+        "locator": {"xpath": "//Button[@Name='Skip Printing']"}
+    },
+    "problem_shortcut_dialog_title": {
+        "locator": {"xpath": "//Text[@Name='There was a problem running your Shortcut']"}
+    },
+    "problem_shortcut_dialog_text_1": {
+        "locator": {"xpath": "//Text[@Name='Your print job was canceled.']"}
+    },
+    "problem_shortcut_dialog_text_2": {
+        "locator": {"xpath": "//Text[@Name='Your print job was canceled. You can continue with the other actions in this Shortcut by selecting Skip Printing below.']"}
+    },
+    "password_protection_title": {
+        "_comment": "Add Password Protection",
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordProtectionTitle/Text"}
+    },
+    "password_protection_toggle": {
+        "locator": {"xpath": "//Window[@AutomationId='saveFilePopUp']/Pane[last()]/Button[last()]"}
+    },
+    "password_textbox": {
+        "locator": {"id": "PasswordTextBox"}
+    },
+    "password_space_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordContainsSpaceError/Text"}
+    },
+    "password_tooshort_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooShortError/Text"}
+    },
+    "password_toolong_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooLongError/Text"}
+    },
+    "password_tooshortwithspace_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooShortWithSpaceError/Text"}
+    },
+    "password_toolongwithspace_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooLongWithSpaceError/Text"}
+    },
+    "save_as_yes_btn": {
+        "locator": {"id": "CommandButton_6"}
+    },
+    "language_item": {
+        "locator": {"xpath": "//ListItem[@Name='HP.ExtensionsVm.ScanCapture.ViewModels.CheckBoxitem']/CheckBox[{}]"}
+    },
+    "doc_language_text": {
+        "locator": {"id": "DocumentLanguageText"}
+    },
+    "language_dropdown_listitem": {
+        "locator": {"id": "DocumentLanguageSelection"}
+    },
+    "redact_btn": {
+        "locator": {"id": "SingleImageRedactBtn"}
+    },
+    "multi_redact_btn": {
+        "locator": {"id": "MultiImageRedactBtn"}
+    },
+    "smart_file_name": {
+        "locator": {"id": "SmartFileNameText"}
+    },
+    "thumbnail_redact_btn": {
+        "locator": {"id": "ThumbnailViewRedactBtn"}
+    },
+    "redaction_text": {
+        "locator": {"xpath": "//Text[@Name='Redaction']"}
+    },
+    "processing_pages_title": {
+        "locator": {"id": "ProcessingPagesTitle"}
+    },
+    "processing_pages_cancel_btn": {
+        "locator": {"id": "ProcessingPagesCancelBtn"}
+    },
+    "reset_adjust_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Adjust']"}
+    },
+    "undo_btn": {
+        "locator": {"xpath": "//Pane/descendant::Group[1]"}
+    },
+    "reset_filters_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Filters']"}
+    },
+    "filter_intensity_edit": {
+        "locator": {"xpath": "//Edit[contains(@AutomationId, 'photoeditorsdk-slider-')]"} 
+    },
+    "filter_intensity_text": {
+        "locator": {"xpath": "//Text[@Name='Filter Intensity']"}
+    },
+    "font_family_text": {
+        "locator": {"xpath": "//Text[@Name='Font Family']"}
+    },
+    "font_size_text": {
+        "locator": {"xpath": "//Text[@Name='Font Size']"}
+    },
+    "alignment_text": {
+        "locator": {"xpath": "//Text[@Name='Alignment']"}
+    },
+    "font_color_text": {
+        "locator": {"xpath": "//Text[@Name='Font Color']"}
+    },
+    "background_color_text": {
+        "locator": {"xpath": "//Text[@Name='Background Color']"}
+    },
+    "line_spacing_text": {
+        "locator": {"xpath": "//Text[@Name='Line Spacing']"}
+    },
+    "font_size_edit": {
+        "locator": {"xpath": "//Pane/descendant::Edit[1]"} 
+    },
+    "highlight_btn": {
+        "locator": {"xpath": "//Button[@Name='Highlight']"} 
+    },
+    "white_out_btn": {
+        "locator": {"xpath": "//Button[@Name='White Out']"} 
+    },
+    "black_pen_btn": {
+        "locator": {"xpath": "//Button[@Name='Black Pen']"} 
+    },
+    "blue_pen_btn": {
+        "locator": {"xpath": "//Button[@Name='Blue Pen']"} 
+    },
+    "red_pen_btn": {
+        "locator": {"xpath": "//Button[@Name='Red Pen']"} 
+    },
+    "reset_markup_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Markup']"} 
+    },
+    "contrast_text": {
+        "locator": {"xpath": "//Text[@Name='Contrast']"}
+    },
+    "rotate_icon": {
+        "locator": {"id": "RotateSingleImageRightBtn"}
+    },
+    "thumbnail_view_images": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/GoToThumbnailViewTip/Text"}
+    },
+    "pic_item_thumbnail_view": {
+        "locator": {"xpath": "//List[@AutomationId='ThumbnailViewThumbnailGridNormalView']/ListItem[{}]"}
+    },
+    "shortcuts_item": {
+        "locator": {"id": "flyout-title-container"}
+    },
+    "i_icon": {
+        "locator": {"xpath": "//Button[@Name='Open coachmark']"}
+    },
+    "auto_text": {
+        "locator": {"xpath": "//Text[@Name='Auto']"}
+    },
+    "full_text": {
+        "locator": {"xpath": "//Text[@Name='Full']"}
+    },
+    "2_sided_box": {
+        "locator": {"id": "DoDuplex"}
+    },
+    "keep_resolution_box": {
+        "locator": {"id": "photoeditorsdk-Keep-Resolution"}
+    },
+    "resolution_checkbox": {
+        "locator": {"xpath": "//CheckBox[@AutomationId='photoeditorsdk-Keep-Resolution']/preceding-sibling::Group[1]"}
+    },
+    "shortcuts_order_1": {
+        "locator": {"xpath": "//Text[@AutomationId='shortcuts-message-title']/following-sibling::Group[1]/Text[1]"}
+    },
+    "shortcuts_order_2": {
+        "locator": {"xpath": "//Text[@AutomationId='shortcuts-message-title']/following-sibling::Group[2]/Text[1]"}
+    },
+    "camera_text": {
+        "locator": {"xpath": "//Text[@Name='Camera']"}
+    },
+    "ipp_we_are_having_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.IppPrint/Resources/IppPrint_PrintTimeout"}
+    },
+    "ipp_try_again_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.IppPrint/Resources/IppPrint_TryAgain/Content"}
+    },
+    "ipp_cancel_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.IppPrint/Resources/Ipp_Cancel/Content"}
+    },
+    "shortcuts_order_for_email": {
+        "locator": {"xpath": "//Text[@AutomationId='flyout-title']"}
+    },
+    "language_dropdown_first_pot": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='DocumentLanguageSelection']/ListItem[1]"}
+    },
+    "downloading_language_dialog_title": {
+        "_comment": "Downloading Language Pack",
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/DownloadingLangPackHeader/Text"}
+    },
+    "hp_smart_printing_dialog": {
+        "_comment": "HP Smart Printing",
+        "locator": {"id": "ui_TitleBar"}
+    },
+    "hp_smart_printing_dialog_close_btn": {
+        "_comment": "HP Smart Printing close button",
+        "locator": {"id": "PrintingToDialog.ui_ContentFrame.TitleBar.WindowCloseButton"}
+    }
+}
+

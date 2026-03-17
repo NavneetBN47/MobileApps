@@ -1,0 +1,1534 @@
+{
+    "total_num": {
+        "locator": {"xpath": "//Group[@AutomationId='ScanResult.ScannedImage.LeftButton']/following-sibling::Text[3]"}
+    },
+    "myhp_window":{
+        "locator": {"xpath": "//Window[contains(@Name, 'HP')]"}
+    },
+    "dynamic_item_btn": {
+        "_comment": "+multiple pages on Scan Result screen",
+        "locator": {"xpath": "//Button[@Name='{}']"}
+    },
+    "detecting_edges_text": {
+        "locator": {
+            "xpath": "//Text[@Name='Detecting edges...']"}
+    },
+    "import_done_btn": {
+        "locator": {
+            "id": "ScanDetectEdge.OptionsPanelContent.DoneButton",
+            "xpath": "//Button[@Name='Done']"}
+    },
+    "body_area": {
+        "locator": {"xpath": "//Document[@AutomationId='RootWebArea']"}
+    },
+    "image_edit_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.EditButton-ListViewEdit"}
+    },
+    "image_rotate_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.RotateButton-ListViewRotate"}
+    },
+    "image_replace_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.ReplaceButton-ListViewReplace"}
+    },
+    "image_delete_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.DeleteButton-ListViewDelete"}
+    },
+    "delete_title_delete_btn": {
+        "locator": {"xpath": "//Button[@Name='Delete']"}
+    },
+    "gallery_image": {
+        "locator": {"id": "ScanResult.ScannedImage.ListViewButton-ListViewGallery",
+        "xpath": "//Group[@Name='Gallery']"}
+    },
+    "thumbnail_image": {
+        "locator": {"id": "ScanResult.ScannedImage.GridViewButton-Thumbnail View",
+        "xpath": "//Group[@Name='Thumbnail View']"}
+    },
+    "thumbnail_edit_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.GridEditButton-GridViewEdit"}
+    },
+    "thumbnail_redact_btn": {
+        "locator": {"xpath": "//Text[@Name='Redact']/preceding-sibling::Button[1]"}
+    },
+    "thumbnail_scribble_btn": {
+        "locator": {"xpath": "//Text[@Name='Scribble']/preceding-sibling::Button[1]"}
+    },
+    "checkmark_btn": {
+        "locator": {"xpath": "//Button[@Name='Checkmark 2']/Group[1]"}
+    },
+    "thumbnail_text_extract_btn": {
+        "locator": {"xpath": "//Text[@Name='Text Extract']/preceding-sibling::Button[1]"}
+    },
+    "thumbnail_rotate_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.GridRotateButton-GridViewRotate"}
+    },
+    "thumbnail_delete_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.GridDeleteButton-GridViewDelete"}
+    },
+    "thumbnail_select_all_btn": {
+        "locator": {"xpath": "//Button[@Name='Select All']"}
+    },
+    "thumbnail_deselect_all_btn": {
+        "locator": {"xpath": "//Button[@Name='Deselect All']"}
+    },
+    "file_saved_link": {
+        "_comment": "Preview screen -> save -> file saved",
+        "locator": {"xpath": "//*[@Name='File saved']/following-sibling::HyperLink[1]"}
+    },
+    "open_file_btn": {
+        "_comment": "Preview screen -> save -> file saved",
+        "locator": {"xpath": "//Button[@Name='Open file']"}
+    },
+    "dialog_save_btn": {
+        "_comment": "Save button on Save dialog",
+        "locator": {"xpath": "//Button[@Name='Save']"}
+    },
+    "save_btn_on_save_as_dialog": {
+        "_comment": "Save button on Save As dialog",
+        "locator": {"xpath": "//Button[@AutomationId='1']"}
+    },
+    "folder_edit": {
+        "_comment": "Preview screen -> save ",
+        "locator": {"id": "1152"}
+    },
+    "share_btn": {
+        "_comment": "Preview screen -> share ",
+        "locator": {"xpath": ["//RadioButton[@Name='Share']","//*[@Name='Share Circle Share']"]}
+    },
+    "tool_navigation_menu": {
+        "locator": {"xpath": "//MenuBar[@Name='Tool Navigation']"}
+    },
+    "dynamic_crop_item": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//MenuBar[@Name='Tool Navigation']/descendant::Text[@Name='{}']"}
+    },
+    "reset_crop_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Crop']"}
+    },
+    "canvas_image": {
+        "locator": {"xpath": "//Image[@Name='Canvas']"} 
+    },                                      
+    "text_1_scanner": {
+        "_comment": "Add content to the scanner and select ",
+        "locator": {"xpath": "//Text[@Name='Add content to the scanner and select ']"}
+    },
+    "text_2_scanner": {
+        "_comment": "Scan",
+        "locator": {"xpath": "//Text[@Name='Scan']"}
+    },
+    "text_3_scanner": {
+        "_comment": " or ",
+        "locator": {"xpath": "//Text[@Name=' or ']"}
+    },
+    "text_4_scanner": {
+        "_comment": "Import",
+        "locator": {"xpath": "//Text[@Name='import a file']"}
+    },
+    "text_5_scanner": {
+        "_comment": "Remove the original document once scanned. Leaving an original document on the scanner may allow access to anyone on your network.",
+        "locator": {"xpath": "//Text[@Name='Remove the original document once scanned. Leaving an original document on the scanner may allow access to anyone on your network.']"}
+    },
+    "text_1_replace": {
+        "_comment": "To replace this scan, add content to the scanner and select ",
+        "locator": {"xpath": "//Text[@Name='To replace this scan, add content to the scanner and select ']"}
+    },
+    "text_3_replace": {
+        "_comment": ", or ",
+        "locator": {"xpath": "//Text[@Name=', or ']"}
+    },
+    "scan_and_replace_button": {
+        "_comment": "Scan and Replace button on Replace screen",
+        "locator": {"xpath": "//Button[@Name='Scan and replace']"}
+    },
+    "scanned_number_on_scanner": {
+        "_comment": "Scannd image number on Scanner screen",
+        "locator": {"xpath": "//Group[@AutomationId='ScanHome.Import.ScannedImageButton-ScannedImageButton']/Text"}
+    },
+    "gear_icon": {
+        "_comment": "gear icon",
+        "locator": {"id": "ScanHome.Import.SettingButton-SettingButton"}
+    },
+    "auto_enhancement_icon": {
+        "_comment": "Auto-enhancements and Auto-orientation icon",
+        "locator": {"id": "ScanHome.Import.AdvanceSettingButton-AdvanceSettingButton"}
+    },
+    "source_item": {
+        "_comment": "Source item on Scanner screen",
+        "locator": {"xpath": "//Text[@Name='Source']"}
+    },
+    "source_dropdown": {
+        "_comment": "Source Combo box on Scanner screen",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Source')]"}
+    },
+	"source_list": {
+        "_comment": "Source List on Scanner screen after clicking Source combo box",
+        "locator": {"xpath": "//List[@Name='Source']"}
+    },
+    "source_scanner_glass": {
+        "_comment": "Scanner Glass Source on Scanner screen",
+        "locator": {"xpath": "//*[@Name='Scanner Glass']"}
+    },
+    "source_document_feeder": {
+        "_comment": "Document Feeder Source on Scanner screen",
+        "locator": {"xpath": "//*[@Name='Document Feeder']"}
+    },
+    "detect_edges_checkbox": {
+        "_comment": "Detect edges checkbox on Scanner screen",
+        "locator": {"xpath": "//CheckBox[contains(@AutomationId, '__checkbox') and contains(@Name, 'Detect edges')]"}
+    },
+    "detect_edges_item": {
+        "_comment": "Detect edges item on Scanner screen while Glass source selected",
+        "locator": {"xpath": "//Text[@Name='Detect edges']"}
+    },
+    "2_sided_checkbox": {
+        "_comment": "2 Sided checkbox on Scanner screen",
+        "locator": {"xpath": "//CheckBox[contains(@Name, '2-Sided')]"}
+    },
+    "2_sided_item": {
+        "_comment": "2 Sided item on Scanner screen while ADF source selected",
+        "locator": {"xpath": "//Text[@Name='2-Sided']"}
+    },
+    "presets_item": {
+        "_comment": "Presets item on Scanner screen",
+        "locator": {"xpath": "//Text[@Name='Presets']"}
+    },
+    "presets_dropdown": {
+        "_comment": "Presets Combo box on Scanner screen",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Presets')]"}
+    },
+    "presets_list": {
+        "_comment": "Presets List on Scanner screen after clicking Presets combo box",
+        "locator": {"xpath": "//List[@Name='Presets']"}
+    },
+    "advanced_presets_list": {
+        "_comment": "Advanced Presets List on Scanner screen after clicking Advanced Presets combo box",
+        "locator": {"xpath": "//List[@Name='Advanced presets']"}
+    },
+    "scan_area_item": {
+        "_comment": "Scan Area item on Scanner screen while Glass source selected",
+        "locator": {"xpath": "//Text[@Name='Scan area']"}
+    },
+    "scan_area_dropdown": {
+        "_comment": "Scan Area Combo box on Scanner screen while Glass source selected",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Scan area')]"}
+    },
+    "scan_area_list": {
+        "_comment": "Scan Area List on Scanner screen after clicking Scan Area combo box",
+        "locator": {"xpath": "//List[@Name='Scan area']"}
+    },
+    "page_size_item": {
+        "_comment": "Page Size item on Scanner screen while ADF source selected",
+        "locator": {"xpath": "//Text[@Name='Page Size']"}
+    },
+    "page_size_dropdown": {
+        "_comment": "Page Size Combo box on Scanner screen while ADF source selected",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Page Size')]"}
+    },
+    "page_size_list": {
+        "_comment": "Page Size List on Scanner screen after clicking Page Size combo box",
+        "locator": {"xpath": "//List[@Name='Page Size']"}
+    },
+    "id_card_image": {
+        "_comment": "ID Card image on Scanner screen with ID card advanced presets",
+        "locator": {"xpath": "//Text[@Name, 'Place the front of the ID card']/preceding-sibling::Image[1]"}
+    },
+    "card_body_text1": {
+        "_comment": "Text body content on Scanner screen with ID card advanced presets",
+        "locator": {"xpath": "//Text[@Name='Place the front of the ID card in the center of the scanner glass. Select ']"}
+    },
+    "card_body_text2": {
+        "_comment": "Text body content on Scanner screen with ID card advanced presets",
+        "locator": {"xpath": "//Text[@Name='to combine the front and back of your ID on a single page.]"}
+    },
+    "card_body_text3":{
+        "_comment": "Text body content on Scanner screen with ID card advanced presets",
+        "locator": {"xpath": "//Text[@Name='Remove the original document once scanned. Leaving an original document on the scanner may allow access to anyone on your network.']"}
+    },
+    "id_card_back_": {
+        "_comment": "Back of ID Card image on Place the back of your ID card screen",
+        "locator": {"xpath": "//Text[@Name, 'Place the back of your ID card']/preceding-sibling::Image[1]"}
+    },
+    "id_card_replace_image": {
+        "_comment": "ID Card replace image on ID card replace screen",
+        "locator": {"xpath": "//Text[@Name, 'Make sure the front of the ID card is placed on the scanner glass']/preceding-sibling::Image[1]"}
+    },
+    "edit_btn": {
+        "_comment": "Edit button on Scanner screen with ID card advanced presets",
+        "locator": {"xpath": "//Group[@Name='Edit']"}
+    },
+    "replace_btn": {
+        "_comment": "Replace button on Scanner screen with ID card advanced presets",
+        "locator": {"xpath": "//Group[@Name='Replace']"}
+    },
+    "id_card_replace_text_1": {
+        "_comment": "ID card replace screen",
+        "locator": {"xpath": "//Text[@Name='Make sure the front of the ID card is placed on the scanner glass and select']"}
+    },
+    "id_card_replace_text_2": {
+        "_comment": "ID card replace screen",
+        "locator": {"xpath": "//Text[@Name='to retry. You can also']"}
+    },
+    "output_item": {
+        "_comment": "Output item on Scanner screen",
+        "locator": {"xpath": "//Text[@Name='Output']"}
+    },
+    "output_dropdown": {
+        "_comment": "Output Combo box on Scanner screen",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Output')]"}
+    },
+    "output_list": {
+        "_comment": "Output List on Scanner screen after clicking Output combo box",
+        "locator": {"xpath": "//List[@Name='Output']"}
+    },
+    "compression_item": {
+        "_comment": "Compression item on Scanner screen",
+        "locator": {"xpath": "//Text[@Name='Compression']"}
+    },
+    "compression_list": {
+        "_comment": "Compression List on Scanner screen after clicking compression combo box",
+        "locator": {"xpath": "//List[@Name='Compression']"}
+    },
+    "advanced_presets_dropdown": {
+        "_comment": "Advanced Presets Combo box on Scanner screen",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Advanced presets')]"}
+    },
+    "compression_dropdown": {
+        "_comment": "Compression Combo box on Scanner screen",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Compression')]"}
+    },
+    "resolution_item": {
+        "_comment": "Resolution item on Scanner screen",
+        "locator": {"xpath": "//Text[@Name='Resolution']"}
+    },
+    "resolution_dropdown": {
+        "_comment": "Resolution Combo box on Scanner screen",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Resolution')]"}
+    },
+    "dynamic_resolution_value": {
+        "_comment": "Resolution Combo box on Scanner screen",
+        "locator": {"xpath": "//List[@Name='Resolution']/ListItem[@Name='{}']"}
+    },
+    "resolution_list": {
+        "_comment": "Resolution List on Scanner screen after clicking Resolution combo box",
+        "locator": {"xpath": "//List[@Name='Resolution']"}
+    },
+    "resolution_list_item_75dpi": {
+        "_comment": "Resolution List Item 75 DPI on Scanner screen after clicking Resolution combo box",
+        "locator": {"xpath": "//ListItem[@Name='75 dpi']"}
+    },
+    "resolution_list_item_150dpi": {
+        "_comment": "Resolution List Item 150 DPI on Scanner screen after clicking Resolution combo box",
+        "locator": {"xpath": "//ListItem[@Name='150 dpi']"}
+    },
+    "resolution_list_item_300dpi": {
+        "_comment": "Resolution List Item 300 DPI on Scanner screen after clicking Resolution combo box",
+        "locator": {"xpath": "//ListItem[@Name='300 dpi']"}
+    },
+    "resolution_list_item_600dpi": {
+        "_comment": "Resolution List Item 600 DPI on Scanner screen after clicking Resolution combo box",
+        "locator": {"xpath": "//ListItem[@Name='600 dpi']"}
+    },
+    "resolution_list_item_1200dpi": {
+        "_comment": "Resolution List Item 1200 DPI on Scanner screen after clicking Resolution combo box",
+        "locator": {"xpath": "//ListItem[@Name='1200 dpi']"}
+    },
+	"reset_settings_btn": {
+        "_comment": "Reset Settings button on Scanner screen",
+        "locator": {"id": "ScanHome.Import.ResetButton-reset-button",
+            "xpath": "//Button[@Name='Reset settings']"}
+    },
+    "preview_btn": {
+        "_comment": "Preview button on Scanner screen",
+        "locator": {"id": "ScanHome.ScanInProgress.PreviewButton-PreviewButton",
+            "xpath": "//Button[@Name='Preview']"}
+    },
+    "scan_btn": {
+        "_comment": "Scan button on Scanner screen",
+        "locator": {"id": "ScanHome.ScanInProgress.ScanButton-ScanButton"}
+    },
+    "previewing_text": {
+        "_comment": "Previewing text on Previewing... screen",
+        "locator": {"xpath": "//Text[@Name='Previewing...']"}
+    },
+    "scanning_text": {
+        "_comment": "Scanning text on Scanning... screen",
+        "locator": {"xpath": "//Text[@Name='Scanning...']"}
+    },
+    "cancel_btn": {
+        "_comment": "Cancel button on Previewing.../Scanning... screen",
+        "locator": {"id": "ScanHome.ScanInProgress.CancelButton-CancelButton",
+            "xpath": "//Button[@Name='Cancel']"}
+    },
+    "add_pages_btn": {
+        "_comment": "+ Add button on Scan Result screen",
+        "locator": {"xpath": "//Button[@Name='Add']"}
+    },
+    "new_scan_btn": {
+        "_comment": "New Scan button on Scan Result screen",
+        "locator": {"xpath": "//Button[@Name='New Scan']"}
+    },
+    "print_btn": {
+        "_comment": "Print button on Scan Result screen",
+        "locator": {"xpath": ["//RadioButton[@Name='Print']","//*[@Name='Printer Print']"]}
+    },
+    "save_btn": {
+        "_comment": "Save button on Scan Result screen",
+        "locator": {"xpath": ["//RadioButton[@Name='Save']","//*[@Name='Download Save']","//Image[@Name='Download']"]}
+    },
+    "file_picker_dialog": {
+        "_comment": "File Picker dialog after clicking Print Documents/Print Photos tile",
+        "locator": {"id": "SearchEditBox"}
+    },
+    "file_picker_dialog_file_name_combo_box_edit": {
+        "_comment": "File Name Combo box Edit on File Picker dialog",
+        "locator": {"xpath": "//Edit[@AutomationId='1148']"}
+    },
+    "file_picker_dialog_print_btn": {
+        "_comment": "Select Photos to Print/Print button on File Picker dialog",
+        "locator": {"xpath": "//Button[@AutomationId='1']"}
+    },
+    "file_picker_dialog_cancel_btn": {
+        "_comment": "Cancel button on File Picker dialog",
+        "locator": {"xpath": "//Button[@AutomationId='2']"}
+    },
+    "import_screen_options_text": {
+        "locator": {"xpath": "//Text[@Name='Options']"}
+    },
+    "import_screen_auto_text": {
+        "locator": {"xpath": "//Text[@Name='Auto']"}
+    },
+    "import_screen_full_text": {
+        "locator": {"xpath": "//Text[@Name='Full']"}
+    },
+    "import_screen_auto_group": {
+        "locator": {"id": "ScanDetectEdge.DetectEdge.AutoButton"}
+    },
+    "import_screen_full_group": {
+        "locator": {"id": "ScanDetectEdge.DetectEdge.FullButton"}
+    },
+    "import_screen_preview_image": {
+        "locator": {"xpath": "//Image[@ClassName='lower-canvas']"}
+    },
+    "done_btn": {
+        "locator": {"xpath": "//*[@Name='Done']",
+                    "id": ["done","done-button"]}
+    },
+    "auto_enhancement_title": {
+        "_comment": "Auto-Enhancements dialog",
+        "locator": {"id": "ScanAutoEnhancementsTitle"}
+    },
+    "auto_enhancement_get_started_btn": {
+        "_comment": "Auto-Enhancements dialog",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[last()]"}
+    },
+    "edge_detection_btn": {
+        "locator": {"xpath": "//Button[@Name='Edge Detection']"}
+    },
+    "start_scan_text": {
+        "locator": {"id": "StartScan"}
+    },
+    "scanner_preview_image": {
+        "locator": {"id": "ImageRectTop",
+                    "xpath": "//Group[@AutomationId='header-root']/following-sibling::Group[1]/Group[2]/Group[1]/Group[1]/Group[1]/Group[1]"}
+    },
+    "doc_scan_btn": {
+        "locator": {"xpath": "//Window[2]/Button[last()]"}
+    },
+    "start_btn": {
+        "locator": {"id": "SmartTasksExecuteBtnWebApp"}
+    },
+    "multi_scan_btn": {
+        "locator": {"xpath": "//Window[2]/Button[4]"}
+    },
+    "learn_more_link": {
+        "_comment": "Learn More",
+        "locator": {"id": "ContentPresenter",
+                    "xpath": "//Hyperlink[@Name='Learn More']"}
+    },
+    "auto_enhancement_cancel_btn": {
+        "_comment": "X button",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[1]"}
+    },
+    "dynamic_listitem": {
+        "locator": {"xpath": "//ListItem[@Name='{}']"}
+    },
+    "auto_enhancements_text": {
+        "_comment": "Auto-EnHancements",
+        "locator": {"xpath": "//Text[@Name='Auto-enhancements']"}
+    },
+    "auto_enhancements_sub_text": {
+        "_comment": "Auto-EnHancements sub text",
+        "locator": {"xpath": "//Text[@Name='Brighten colors and sharpen contrast.']"}
+    },
+    "auto_enhancements_toggle": {
+        "locator": {"id": "auto-enhance__toggle"}
+    },
+    "auto_heal_toggle": {
+        "locator": {"xpath": "//Window[@AutomationId='PaneRoot']/Pane[last()]/Button[2]"}
+    },
+    "auto_heal_text": {
+        "_comment": "Auto-Heal",
+        "locator": {"id": "AutoHeal"}
+    },
+    "auto_orientation_text": {
+        "_comment": "Auto-Orientation",
+        "locator": {"xpath": "//Text[@Name='Auto-orientation']"}
+    },
+    "auto_orientation_sub_text": {
+        "_comment": "Auto-Orientation",
+        "locator": {"xpath": "//Text[@Name='Rotate images to be right-side up.']"}
+    },
+    "auto_orientation_toggle": {
+        "locator": {"id": "auto-orientation__toggle"}
+    },
+    "import_dialog_title": {
+        "_comment": "Import, edit, and share",
+        "locator": {"id": "ImportFirstLaunchTitle"}   
+    },
+    "import_dialog_text": {
+        "locator": {"id": "ImportFirstLaunch"}  
+
+    },
+    "import_dialog_get_started_btn": {
+        "_comment": "Get Started",
+        "locator": {"xpath": "//Window[2]/Pane[last()]/Button[last()]"}
+    },
+    "menu_btn": {
+        "_comment": "...",
+        "locator": {"id": "SingleImageMenuButton"}
+    },
+    "id_card_menu_btn": {
+        "_comment": "...",
+        "locator": {"id": "editMenu"}
+    },
+    "shortcuts_btn": {
+        "_comment": "Shortcuts button on Scan Preview screen",
+        "locator": {"xpath": "//*[@Name='Smart Tasks Shortcuts']"}
+    },
+    "fax_btn": {
+        "_comment": "Fax button on Scan Preview screen",
+        "locator": {"xpath": "//*[@Name='Fax Fax']"}
+    },
+    "text_extract_btn": {
+        "_comment": "Text Extract button on Scan Preview screen",
+        "locator": {"id": "TextExtractBtn",
+                    "xpath": "//*[@Name='Capture text Text extract']"}     
+    },
+    "select_language_title": {
+        "_comment": "Select Language dialog",
+        "locator": {"xpath": "//Text[@Name='Select language']"}
+    },  
+    "select_language_combobox": {
+        "_comment": "Select Language dialog",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Select Language')]"}
+    },
+    "expand_language_btn": {
+        "_comment": "Expand button on Scan Preview screen",
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'Select Language')]/following-sibling::button[1]"}
+    },
+    "install_new_language_link": {
+        "_comment": "Install new language link on Select Language dialog",
+        "locator": {"xpath": "//Text[@Name='Install new language']"}
+    },
+    "click_new_language_option": {
+        "_comment": "Newly installed language option on Select Language dialog",
+        "locator": {"xpath": "//Text[@Name='Português Brasileiro']/preceding-sibling::Group[1]"}
+    },
+    "add_password_protection_toggle": {
+        "_comment": "Add password protection toggle on save dialog",
+        "locator": {"xpath": "//Text[@Name='Add Password Protection']"}
+    },
+    "toggle_switch": {
+        "_comment": "Toggle switch on save dialog",
+        "locator": {"id": "passWordProtection__toggle"}
+    },
+    "input_password_box": {
+        "_comment": "Input password box on Password Protection dialog",
+        "locator": {"xpath": "//Edit[@Name='Enter password']"}
+    },
+    "password_pdf_input_box": {
+        "_comment": "Input password box on Password Protection dialog",
+        "locator": {"id": "password"}
+    }, 
+    "open_password_file_btn": {
+        "_comment": "Open File button on Enter password dialog",
+        "locator": {"id": "submit"}
+    },
+    "editable_text_area": {
+        "_comment": "Editable text area after clicking continue btn on Select Language dialog",
+        "locator": {"xpath": "//Group[@Name='Editable text area']"}
+    },
+    "edit_input_area": {
+        "_comment": "Input area on Edit screen after clicking continue btn on Select Language dialog",
+        "locator": {"xpath": "//Group[@Name='Editable text area']/Edit[1]" }
+    },
+    "edit_screen_text_area": {
+        "_comment": "Text area on Edit screen after clicking continue btn on Select Language dialog",
+        "locator": {"xpath": "//Group[@Name='Text area']"}
+    },
+    "options_heading": {
+        "_comment": "Options heading on Edit screen after clicking continue btn on Select Language dialog",
+        "locator": {"xpath": "//Text[@Name='Options']"}
+    },
+    "are_you_sure_dialog_title": {
+        "_comment": "Are you sure? dialog after clicking done btn when change text",
+        "locator": {"xpath": "//Text[@Name='Are you sure?']"}
+    },
+    "restore_text_btn": {
+        "_comment": "Restore Text button on Are you sure? dialog",
+        "locator": {"xpath": "//Button[@Name='Restore text']"}
+    },
+
+    "crop_setting_value_item": {
+        "_comment": "Crop setting value",
+        "locator": {"xpath": "//MenuBar[contains(@Name, '{}')]"}
+    },
+    "no_content_gird_error_message_image": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridOfflineIcon"}
+    },
+    "no_content_gird_error_message_header": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridErrorMsgHeader"}
+    },
+    "couldnt_connect_to_scanner_header": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/NoScanMessageTitle/Text"}
+    },
+    "scanning_is_currently_unavailable_header": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/NoScan/Text"}
+    },
+    "no_content_gird_error_message_header_body": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridErrorMsgHeaderBody"}
+    },
+    "couldnt_connect_to_scanner_header_body": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/ScannerOfflineMessage/Text"}
+    },
+    "return_home_btn": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": ["NoContentGridReturnHomeBtn","ReturnHomeBtn"]}
+    },
+    "get_more_help_btn": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": ["NoContentGridGetMoreHelpBtn","GetMoreHelpBtn"],
+                    "xpath": "//*[@Name='Get more help']"}
+    },
+    "no_content_gird_error_message_footer_body": {
+        "_comment": "Scanning Currently Unavailable Error screen/ Couldn't Connect to Scanner Error screen",
+        "locator": {"id": "NoContentGridErrorMsgFooterBody"}
+    },
+    "couldnt_connect_to_scanner_footer_body": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/UseImportAndCamera/Text"}
+    },
+    "scan_canceled_title": {
+        "locator": {"id": "ErrorMsgHeader",
+                    "xpath": "//Text[@Name='Scan Canceled']"}
+    },
+    "scanner_not_found_title": {
+        "locator": {
+                    "xpath": "//Text[@Name='Scanner Not Found']"}
+    },
+    "dialog_title": {
+        "locator": {"xpath": "//Window[last()]/Text[1]"}
+    },
+    "scan_canceled_x_btn": {
+        "locator": {"id": "IconBtn"}
+    },
+    "processing_scan_title": {
+        "locator": {"xpath": "//Text[@Name='Processing Scan']"}
+    },
+    "print_dialog_cancel_btn": {
+        "locator": {"id": "CloseButton"}
+    },
+    "print_dialog_print_btn": {
+        "locator": {"id": "PrintButton"}
+    },
+    "shortcuts_title": {
+        "locator": {"id": "shortcuts-message-title"}
+    },
+    "popup_dialog": {
+        "locator": {"xpath": "//Button[@Name='Cancel']/parent::*"}
+    },
+    "save_title": {
+        "locator": {"xpath": "//Text[@Name='Save']"}
+    },
+    "share_title": {
+        "locator": {"xpath": "//Text[@Name='Share']"}
+    },
+    "filename_edit": {
+        "locator": {"xpath": "//Edit[@ClassName='css-1247jht']"}
+    },
+    "filename_text": {
+        "locator": {"xpath": "//Text[@Name='File Name']"}
+    },
+    "filename_group": {
+        "locator": {"xpath": "//Document[@AutomationId='RootWebArea']/Group[1]/Group[1]/dialog[1]/Group[1]"}
+    },
+    "filetype_text": {
+        "locator": {"xpath": "//Text[@Name='File Type']"}
+    },
+    "filetype_list": {
+        "locator": {"xpath": "//List[@Name='File Type']"}
+    },
+    "filetype_list_item": {
+        "locator": {"xpath": "//List[@Name='File Type']/ListItem[@Name='{}']"}
+    },
+    "filetype_combobox": {
+        "locator": {"xpath": "//ComboBox[@ClassName='label css-12cto11']"}
+    },
+    "close_btn": {
+        "locator": {"xpath": ["//Text[@Name='File saved']/following-sibling::Button[2]", "//Button[@Name='Close']"]}
+    },
+    "scan_canceled_close_btn": {
+        "locator": {"xpath": "//Text[@Name='Scanning was canceled from the scanner.']/following-sibling::Button[1]"}
+    },
+    "detect_edges_flatten_text": {
+        "locator": {"id": "Flatten"}
+    },
+    "exit_without_saving_text": {
+        "locator": {"id": "ExitBody"}
+    },
+    "exit_without_saving_title": {
+        "locator": {"xpath": "//Text[@Name='Exit without saving?']"}
+    },
+    "edit_screen_exit_without_saving_text": {
+        "locator": {"xpath": "//Text[@Name='You have unsaved changes. Are you sure you want to exit?']"}
+    },
+    "exit_btn": {
+        "locator": {"xpath": "//Button[@Name='Exit']"}
+    },
+    "start_a_new_scan_title": {
+        "locator": {"xpath": "//Text[@Name='Start a new scan without saving?']"} 
+    },
+    "start_a_new_scan_body": {
+        "locator": {"xpath": "//Text[@Name='Your unsaved scan will be lost if you start a new session. Do you want to start a new scan?']"} 
+    },
+    "yes_btn": {
+        "locator": {"xpath": ["//Button[@Name='Yes']", "//Text[@Name='Yes']"]} 
+    },
+     "start_new_scan_btn": {
+        "locator": {"xpath": "//Button[@Name='Start new scan']"} 
+    },
+    "scribble_yes_btn": {
+        "locator": {"xpath": "//Window[2]/Button[12]"}
+    },
+    "no_btn": {
+        "locator": {"xpath": ["//Button[@Name='No']", "//Window[2]/Button[last()]"]}
+    },
+    "file_format_error_title": {
+        "locator": {"xpath": "//Text[@Name='File Format Error']"}    
+    },
+    "file_format_error_body": {
+        "locator": {"xpath": "//Text[@Name='The file could not be opened because it is either corrupt or has an incorrect format.']"}    
+    },
+    "file_format_error_close_btn": {
+        "locator": {"xpath": "//Text[@Name='File Format Error']/following-sibling::Button[@Name='Close']"}    
+    },
+    "multi_menu_btn": {
+        "_comment": "...",
+        "locator": {"id": "MultieditMenu"}
+    },
+    "delete_btn": {
+        "locator": {"id": "DeleteImageBtn"}
+    },
+    "are_you_enjoy_text": {
+        "_comment": "Are you enjoying the HP Smart app?",
+        "locator": {"id": "UserExperiencePrompt"}
+    },
+    "are_you_enjoy_yes_btn": {
+        "_comment": "Are you enjoying the HP Smart app?",
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/YesBtn/Content",
+                    "xpath": "//Text[@AutomationId='UserExperiencePrompt']/following-sibling::Button[2]"}
+    },
+    "are_you_enjoy_no_btn": {
+        "_comment": "Are you enjoying the HP Smart app?",
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/NoBtn/Content",
+                    "xpath": "//Text[@AutomationId='UserExperiencePrompt']/following-sibling::Button[1]"}
+    },
+    "sorry_to_hear_no_now_btn": {
+        "_comment": "Sorry to hear that!",
+        "locator": {"xpath": "//Text[@AutomationId='GiveUsFeedback']/following-sibling::Button[1]"} 
+    },
+    "sorry_to_hear_yes_btn": {
+        "_comment": "Sorry to hear that!",
+        "locator": {"xpath": "//Text[@AutomationId='GiveUsFeedback']/following-sibling::Button[2]"} 
+    },
+    "review_dialog": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": "PurchaseDialog"}
+    },
+    "rate_star": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["Rating"]}
+    },
+    "rate_first_star": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["startbutton1"]}
+    },
+    "rate_five_star": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["startbutton5"]}
+    },
+    "review_a_title": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["Review", "editDialogRnR-vbtm"]}
+    },
+    "share_your_experience": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": ["ActualTextBox", "reviewTitle"]}
+    },
+    "review_submit_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"xpath": "//Button[@Name='Submit']"} 
+    },
+    "review_thank_you_close_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": "thankYouDialogRnR-close"} 
+    },
+    "review_close_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"xpath": "//MenuBar[@AutomationId='SystemMenuBar']/following-sibling::Button[@AutomationId='Close']"} 
+    },
+    "review_done_btn": {
+        "_comment": "review for HP Smart",
+        "locator": {"id": "thankYouDialogRnR-close",
+                    "xpath":"//*[@Name='Done']"}
+    },
+    "id_card_title_text": {
+        "locator": {"id": "IDCardFrontHelperTitleText"}
+    },
+    "id_card_text": {
+        "locator": {"id": "IDCardFrontHelperBodyText"}
+    },
+    "id_card_front_image": {
+        "locator": {"id": "IdCardFrontImg"} 
+    },
+    "id_card_back_image": {
+        "locator": {"id": "IdCardBack"} 
+    },
+    "skip_btn": {
+        "locator": {"id": "SkipBtn",
+                    "xpath": "//Button[@Name='Skip']"}
+    },
+    "id_card_next_btn": {
+        "locator": {"xpath": "//Button[@Name='Next']"}
+    },
+    "title_text": {
+        "locator": {"id": "HpTitle"} 
+    },
+    "scribble_btn": {
+        "locator": {"id": ["SingleImgScribbleText", "MultiImageScribbleBtn", "ScanResult.ScannedImage.ScribbleButton-Scribble"]} 
+    },
+    "mark_line_image": {
+        "locator": {"xpath": "//Image[@Name='Pencil']/preceding-sibling::Image[1]"}
+    },
+    "thin_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Thin']"
+        } 
+    },
+    "medium_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Medium']"
+        } 
+    },
+    "thick_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Thick']"
+        } 
+    },
+    "text_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Text']"
+        } 
+    },
+    "save_your_mark": {
+        "locator": {
+            "xpath": "//Text[@Name='Save your mark']"
+        } 
+    },
+    "top_preview_arrow": {
+        "locator": {"xpath": "//Image[@Name='Arrow Left']"}
+    },
+    "top_preview_text": {
+        "locator": {"xpath": "//Text[@Name='Preview']"}
+    },
+    "save_your_mark_text": {
+        "locator": {"xpath": "//Text[@Name='Save your mark']"}
+    },
+    "draw_your_mark_text": {
+        "locator": {"xpath": "//Text[@Name='Draw your mark or signature on the line above']"}
+    },
+    "signature_input": {
+        "locator": {"id": "signature-pad-input"} 
+    },
+    "book_title_text": {
+        "locator": {"id": "BookHelperTitleText"}
+    },
+    "book_text": {
+        "locator": {"id": "BookHelperBodyText"}
+    },
+    "book_image": {
+        "locator": {"id": "BookImg"} 
+    },
+    "multi_title_text": {
+        "locator": {"id": "MultiItemHelperTitleText"}
+    },
+    "multi_text": {
+        "locator": {"id": "MultiItemHelperBodyText"}
+    },
+    "multi_image": {
+        "locator": {"id": "MultiItemImg"} 
+    },
+    "file_type_dropdown": {
+        "locator": {"xpath": "//ComboBox[contains(@Name, 'File Type')]/Text[1]"} 
+    },
+    "search_btn": {
+        "_comment": "Search button on searchable pdf document",
+        "locator": {"id": "find"} 
+    },
+    "search_textbox": {
+        "_comment": "Search textbox on searchable pdf document",
+        "locator": {"xpath": "//Edit[@Name='Find on page']"} 
+    },
+    "no_result_text": {
+        "_comment": "No results found text on searchable pdf document",
+        "locator": {"xpath": "//StatusBar[@Name='No results']"} 
+    },
+    "file_type_list": {
+        "_comment": "File Type List on Save As dialog after clicking File Type combo box",
+        "locator": {"xpath": "//List[@Name='File Type']"} 
+    },
+    "file_type_basic_pdf": {
+        "_comment": "File Type: Basic PDF",
+        "locator": {"xpath": ["//ListItem[@Name='Basic PDF']", "//ComboBox[@AutomationId='FileTypeSelection']/ListItem[2]", "//List[@Name='File Type']/ListItem[2]"]} 
+    },
+    "file_type_searchable_pdf": {
+        "_comment": "File Type: Searchable PDF",
+        "locator": {"xpath": ["//ListItem[@Name='Searchable PDF']", "//ComboBox[@AutomationId='FileTypeSelection']/ListItem[3]", "//List[@Name='File Type']/ListItem[3]"]} 
+    },
+    "file_type_image": {
+        "_comment": "File Type: Image",
+        "locator": {"xpath": ["//ListItem[@Name='Image(*.jpg)']", "//ComboBox[@AutomationId='FileTypeSelection']/ListItem[2]", "//List[@Name='File Type']/ListItem[2]"]} 
+    },
+    "file_type_plain_text": {
+        "_comment": "File Type: Plain Text",
+        "locator": {"xpath": ["//ListItem[contains(@Name,'Plain')]", "//ComboBox[@AutomationId='FileTypeSelection']/ListItem[4]", "//List[@Name='File Type']/ListItem[4]"]} 
+    },
+    "file_type_word_document": {
+        "_comment": "File Type: Word Document",
+        "locator": {"xpath": ["//ListItem[contains(@Name, 'Word')]", "//ComboBox[@AutomationId='FileTypeSelection']/ListItem[5]", "//List[@Name='File Type']/ListItem[5]"]} 
+    },
+    "install_language_btn": {
+        "_comment": "Install new language",
+        "locator": {"id": ["InstallnewLanguage_Link","InstallnewLanguageLink","InstallnewLanguageText"]} 
+    },
+    "text_title": {
+        "locator": {"id": "TextTitle"} 
+    },
+    "install_btn": {
+        "locator": {"id": "InstallButton",
+                    "xpath": "//Button[@Name='Install']"
+                } 
+    },
+    "back_arrow": {
+        "_comment": "<-",
+        "locator": {"id": "NavBar.NavBarView.BackButton"}
+    },
+    "file_name_combo_box_edit": {
+        "_comment": "File Name Combo box Edit on Save As dialog",
+        "locator": {"xpath": "//Edit[@AutomationId='1001']"} 
+    },
+    "file_type": {
+        "_comment": "File Type on Save As dialog",
+        "locator": {"xpath": "//ComboBox[@AutomationId='FileTypeControlHost']"} 
+    },
+    "smart_file_name_toggle": {
+        "locator": {"id": ["SmartFileNametoggle","smartFileName__toggle"],
+                    "xpath": "//Text[@Name='Smart File Name']/preceding-sibling::Button[1]"
+                } 
+    },
+    "continue_btn": {
+        "locator": {"id": "ContinueBtn",
+                    "xpath": "//Button[@Name='Continue']"
+                } 
+    },
+    "extracting_text_title": {
+        "locator": {"id": "ExtractingTextTitle",
+                    "xpath": "//Button[@Name='Cancel']/preceding-sibling::Text[2]"} 
+    },
+    "extract_cancel_btn": {
+        "locator": {"id": "ExtractCancelBtn"} 
+    },
+    "not_detected_dialog_title": {
+        "_comment": "pro account: Text was not detected ",
+        "locator": {"id": ["TextNotDetected","ErrorHeader"],
+                    "xpath": "//Text[@Name='Text was not detected']"
+                   }
+    },
+    "not_detected_dialog_body": {
+        "_comment": "pro account: Text was not detected ",
+        "locator": {"xpath": "//Text[@Name= 'Please make sure text is in your document and try again.']"} 
+    },
+    "not_detected_dialog_ok_btn": {
+        "_comment": "pro account: Text was not detected",
+        "locator": {"xpath": "//Text[@Name='OK']"} 
+    },
+    "select_app_open_file_title": {
+        "_comment": "Select an app to open your file dialog",
+        "locator": {"id": "HeaderTextBlock",
+                   "xpath": "//Text[@Name='Select an app to open this .pdf file']"} 
+    },
+    "just_once":{
+        "_comment": "Select an app to open your file dialog",
+        "locator": {"xpath": "//Button[@Name='Just once']"} 
+    },
+    "select_edge":{
+        "_comment": "Select an app to open your file dialog",
+        "locator": {"xpath": "//Text[@Name='Microsoft Edge']"} 
+    },
+    "pdf_text_content":
+    {
+        "_comment": "Content of the searchable PDF file",
+        "locator": {"xpath": "//Group[contains(@Name,'Page')]/Text[1]"} 
+    },
+    "extract_ok_btn": {
+        "locator": {"id": "ExtractOkBtn",
+                    "xpath": ["//Text[@Name='Done']","//Text[@Name='OK']"]} 
+    },
+    "text_extract_edit": {
+        "locator": {"xpath": "//Group[@AutomationId='copy-to-clipboard-button']/preceding-sibling::Edit[1]"} 
+    },
+    "extract_start_new_scan_btn": {
+        "locator": {"id": "no-text-modal-newscan-button"} 
+    },
+    "extract_restore_text_btn": {
+        "locator": {"id": "no-text-modal-restore-button"} 
+    },
+    "copy_all_btn": {
+        "locator": {"id": "copy-to-clipboard-button",
+                    "xpath": "//Group[@Name='Copy all']"} 
+    },
+    "copie_text": {
+        "locator": {"xpath": "//Text[@Name='Text Copied to Clipboard']"} 
+    },
+    "multi_scribble_btn": {
+        "locator": {"id": "MultiImageScribbleBtn"} 
+    },
+    "place_your_mark_text": {
+        "locator": {"xpath": "//Text[@Name='Place Your Mark']"} 
+    },
+    "add_a_new_mark_text": {
+        "locator": {"xpath": "//Text[@Name='Add a New Mark']"} 
+    },
+    "new_mark_cancel_btn": {
+        "locator": {"xpath": "//Group[@Name='Cancel']"} 
+    },
+    "new_mark_done_btn": {
+        "locator": {"xpath": "//Group[@Name='Done']"} 
+    },
+    "scribble_done_btn": {
+        "locator": {"xpath": "//Group[@Name='Done']"} 
+    },
+    "create_btn": {
+        "locator": {"xpath": "//Button[@Name='Create']"} 
+    },
+    "manage_btn": {
+        "locator": {"xpath": "//Button[@Name='Manage']"} 
+    },
+    "mark_text_box": {
+        "locator": {"xpath": "//Pane[@AutomationId='attached-2']/Group[1]/Group[1]"} 
+    },
+    "mark_delete_btn": {
+        "locator": {"xpath": "//Button[@Name='Delete']"} 
+    },
+    "back_btn": {
+        "locator": {
+            "id": "NavBar.NavBarView.BackButton",
+            "xpath": ["//Group[@AutomationId='header-root']/Group[1]/Group[1]/Button[1]", "//Window[2]/Pane[2]/Group/Image[1]", "//Image[@Name='Arrow Left']"]
+                   } 
+    },
+    "mark_text_opt": {
+        "locator": {"xpath": "//Button[@Name='Text']"} 
+    },
+    "mark_text_edit": {
+        "locator": {"xpath": "//Edit[@AutomationId='signature-pad-input']"} 
+    },
+    "mark_text": {
+        "locator": {"xpath": "//Pane[@AutomationId='attached-1']/Group[1]/Group[1]"} 
+    },
+    "edit_done_btn": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"id": "done",
+                    "xpath": "//Button[@Name='Done']"} 
+    },
+    "edit_cancel_btn": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"id": "cancel",
+                    "xpath": "//Button[@Name='Cancel']"} 
+    },
+    "crop_item": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Crop']"} 
+    },
+    "adjust_item": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Adjust']"} 
+    },
+    "filters_item": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Filters']"} 
+    },
+    "noir_opt": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Noir']"} 
+    },
+    "seafarer_opt": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Seafarer']"} 
+    },
+    "text_item": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Text']"} 
+    },
+    "markup_item": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Markup']"} 
+    },
+    "crop_size_w": {
+        "_comment": "Preview screen -> Edit  -> crop",
+        "locator": {"xpath": "//Edit[@AutomationId='photoeditorsdk-transformScaleWidth']"} 
+    },
+    "crop_size_h": {
+        "_comment": "Preview screen -> Edit  -> crop",
+        "locator": {"xpath": "//Edit[@AutomationId='photoeditorsdk-transformScaleHeight']"} 
+    },
+    "adjust_contrast_edit": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//MenuBar[1]/Edit[3]"} 
+    },
+    "adjust_brigthtness_edit": {
+        "locator": {"xpath": "//MenuBar[1]/Edit[1]"} 
+    },
+    "adjust_saturation_edit": {
+        "locator": {"xpath": "//MenuBar[1]/Edit[2]"} 
+    },
+    "adjust_clarity_edit": {
+        "locator": {"xpath": "//MenuBar[1]/Edit[4]"} 
+    },
+    "adjust_exposure_edit": {
+        "locator": {"xpath": "//MenuBar[1]/Edit[5]"} 
+    },
+    "adjust_shadows_edit": {
+        "locator": {"xpath": "//MenuBar[1]/Edit[6]"} 
+    },
+    "adjust_highlights_edit": {
+        "locator": {"xpath": "//MenuBar[1]/Edit[7]"} 
+    },
+    "adjust_whites_edit": {
+        "locator": {"xpath": "//MenuBar[1]/Edit[8]"} 
+    },
+    "filters_document_text": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Document']"} 
+    },
+    "filters_photo_text": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Text[@Name='Photo Filters']"} 
+    },
+    "text_line_spacing": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Edit[contains(@AutomationId, 'photoeditorsdk-slider-')]"}
+    },
+    "markup_size": {
+        "_comment": "Preview screen -> Edit ",
+        "locator": {"xpath": "//Edit[contains(@AutomationId, 'photoeditorsdk-slider-')]"}
+    },
+    "replace_text": {
+        "locator": {"id": "ReplaceAlternateText"}
+    },
+    "replace_cancel_btn": {
+        "locator": {"id": "ReplaceCancelButton"} 
+    },
+    "replace_scan_btn": {
+        "locator": {"id": "ReplaceScanButton"} 
+    },
+    "start_icon": {
+        "locator": {"id": "SmartTasksExecuteBtnWebApp"}
+    },
+    "hp_printing_print_btn": {
+        "locator": {"id": "PrintingToDialog.ui_ContentFrame.PrintButton"}
+    },
+    "more_option_btn": {
+        "locator": {"xpath": ["//Button[@Name='More Options']","//Text[@Name='More Options']"]} 
+    },
+    "activity_btn": {
+        "locator": {"xpath": ["//Button[@Name='Activity']","//Text[@Name='Activity']"]}
+    },
+    "home_btn": {
+        "locator": {"xpath": ["//Button[@Name='Home']","//Text[@Name='Home']"]}
+    },
+    "left_arrow_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.LeftButton"}
+    },
+    "righ_arrow_btn": {
+        "locator": {"id": "ScanResult.ScannedImage.RightButton"}
+    },
+    "pages_num": {
+        "locator": {"id": "MultiImagePageNumText"}
+    },
+    "pic_item": {
+        "locator": {"xpath": "//List[@AutomationId='MultiImageThumbnailList']/ListItem[{}]"}
+    },
+    "delete_image_btn": {
+        "locator": {"id": "ImageDeleteFlyout"}
+    },
+    "resolution_tooltip": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/ResolutionSelection/PlaceholderText"}
+    },
+    "id_card_front_replace_image": {
+        "locator": {"id": "IdCardFront1"}
+    },
+    "id_card_back_replace_image": {
+        "locator": {"id": "IdCardBack1"}
+    },
+    "continue_to_fax_btn": {
+        "locator": {"id": "SoftFaxExecuteBtn"}
+    },
+    "resolution_info": {
+        "locator": {"id": "OcrInfoText"}
+    },
+    "number_icon": {
+        "locator": {"id": "CurrentScanResults"}
+    },
+    "detect_edges_box": {
+        "locator": {"id": "DoEdgeDetect"}
+    },
+    "dialog_cancel_btn": {
+        "locator": {"xpath": ["//Text[@Name='Exit without saving?']/following-sibling::Button[@Name='Cancel']", "//Button[@Name='Cancel']"]}
+    },
+    "dialog_share_btn": {
+        "locator": {"xpath": "//Button[@Name='Share']"}
+    },
+    "dialog_skip_printing_btn": {
+        "locator": {"xpath": "//Button[@Name='Skip Printing']"}
+    },
+    "problem_shortcut_dialog_title": {
+        "locator": {"xpath": "//Text[@Name='There was a problem running your Shortcut']"}
+    },
+    "problem_shortcut_dialog_text_1": {
+        "locator": {"xpath": "//Text[@Name='Your print job was canceled.']"}
+    },
+    "problem_shortcut_dialog_text_2": {
+        "locator": {"xpath": "//Text[@Name='Your print job was canceled. You can continue with the other actions in this Shortcut by selecting Skip Printing below.']"}
+    },
+    "password_protection_title": {
+        "_comment": "Add Password Protection",
+        "locator": {"xpath": "//Text[@Name='Add Password Protection']"}
+    },
+    "password_protection_toggle": {
+        "locator": {"xpath": "//Window[@AutomationId='saveFilePopUp']/Pane[last()]/Button[last()]"}
+    },
+    "password_textbox": {
+        "locator": {"id": "PasswordTextBox"}
+    },
+    "password_space_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordContainsSpaceError/Text"}
+    },
+    "password_tooshort_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooShortError/Text"}
+    },
+    "password_toolong_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooLongError/Text"}
+    },
+    "password_tooshortwithspace_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooShortWithSpaceError/Text"}
+    },
+    "password_toolongwithspace_error": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/PasswordTooLongWithSpaceError/Text"}
+    },
+    "save_as_yes_btn": {
+        "locator": {"id": "CommandButton_6"}
+    },
+    "language_item": {
+        "locator": {"xpath": "//ListItem[@Name='HP.ExtensionsVm.ScanCapture.ViewModels.CheckBoxitem']/CheckBox[{}]"}
+    },
+    "doc_language_text": {
+        "locator": {"id": "DocumentLanguageText"}
+    },
+    "language_dropdown_listitem": {
+        "locator": {"id": "DocumentLanguageSelection"}
+    },
+    "redact_btn": {
+        "locator": {"id": ["ScanResult.ScannedImage.RedactButton-Redact","SingleImageRedactBtn"]}
+    },
+    "multi_redact_btn": {
+        "locator": {"id": "MultiImageRedactBtn"}
+    },
+    "smart_file_name": {
+        "locator": {"id": "SmartFileNameText"}
+    },
+    "redaction_text": {
+        "locator": {"xpath": "//Text[@Name='Redaction']"}
+    },
+    "processing_pages_title": {
+        "locator": {"id": "ProcessingPagesTitle"}
+    },
+    "processing_pages_cancel_btn": {
+        "locator": {"id": "ProcessingPagesCancelBtn"}
+    },
+    "reset_adjust_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Adjust']"}
+    },
+    "undo_btn": {
+        "locator": {"xpath": ["//Image[@Name='Canvas']/preceding::Button[2]"]}
+    },
+    "redo_btn": {
+        "locator": {"xpath": ["//Image[@Name='Canvas']/preceding::Button[1]"]}
+    },
+    "dynamic_text_item": {
+        "locator": {"xpath": "//Text[@Name='{}']"}
+    },
+    "reset_filters_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Filters']"}
+    },
+    "tool_group": {
+        "locator": {"xpath": "//Group[contains(@Name, 'Undo Plus Add Text Font')]/Group[4]"} 
+    },
+    "filter_intensity_edit": {
+        "locator": {"xpath": "//Edit[contains(@AutomationId, 'photoeditorsdk-slider-')]"} 
+    },
+    "filter_intensity_slider": {
+        "locator": {"xpath": "//Slider[contains(@AutomationId, 'photoeditorsdk-slider-')]"} 
+    },
+    "filter_intensity_text": {
+        "locator": {"xpath": "//Text[@Name='Filter Intensity']"}
+    },
+    "pencil_image": {
+        "locator": {"xpath": "//Image[@Name='Pencil']"}
+    },
+    "doc_copy_alt_image": {
+        "locator": {"xpath": "//Image[@Name='Document Copy Alt']"}
+    },
+    "trash_image": {
+        "locator": {"xpath": "//Image[@Name='Trash']"}
+    },
+    "input_text_title": {
+        "locator": {"xpath": "//Text[@Name='Input text']"}
+    },
+    "input_text_edit": {
+        "locator": {"id": "photoeditorsdk-TextInput"}
+    },
+    "text_done_btn": {
+        "locator": {"xpath": "//Button[contains(@ClassName, 'customDialog__DoneButton')]"}
+    },
+    "text_cancel_btn": {
+        "locator": {"xpath": "//Button[contains(@ClassName, 'customDialog__CancelButton')]"}
+    },
+    "add_text_btn": {
+        "locator": {"xpath": "//Button[@Name='Add Text']"}
+    },
+    "font_family_text": {
+        "locator": {"xpath": "//Text[@Name='Font Family']"}
+    },
+    "font_family_combo": {
+        "locator": {"xpath": "//ComboBox[@Name='Font Family']"}
+    },
+    "font_size_text": {
+        "locator": {"xpath": "//Text[@Name='Font Size']"}
+    },
+    "alignment_text": {
+        "locator": {"xpath": "//Text[@Name='Alignment']"}
+    },
+    "font_color_text": {
+        "locator": {"xpath": "//Text[@Name='Font Color']"}
+    },
+    "background_color_text": {
+        "locator": {"xpath": "//Text[@Name='Background Color']"}
+    },
+    "line_spacing_text": {
+        "locator": {"xpath": "//Text[@Name='Line Spacing']"}
+    },
+    "line_spacing_slider": {
+        "locator": {"xpath": "//Slider[@Name='Line Spacing']"}
+    },
+    "line_spacing_edit": {
+        "locator": {"xpath": "//Slider[@Name='Line Spacing']/following-sibling::Edit[1]"}
+    },
+    "front_color_group": {
+        "locator": {"xpath": "//Group[@Name='Font Color']"}
+    },
+    "dynamic_front_color": {
+        "_comment": "+multiple pages on Scan Result screen",
+        "locator": {"xpath": "//Group[@Name='Font Color']/Button[@Name='{}']"}
+    },
+    "background_color_group": {
+        "locator": {"xpath": "//Group[@Name='Background Color']"}
+    },
+    "dynamic_background_color": {
+        "_comment": "+multiple pages on Scan Result screen",
+        "locator": {"xpath": "//Group[@Name='Background Color']/Button[@Name='{}']"}
+    },
+    "font_size_edit": {
+        "locator": {"id": "photoeditorsdk-text-font-size-input"}
+    },
+    "pen_group": {
+        "locator": {"xpath": "//Button[@Name='Highlight']/parent::Group"} 
+    },
+    "highlight_btn": {
+        "locator": {"xpath": "//Button[@Name='Highlight']"} 
+    },
+    "white_out_btn": {
+        "locator": {"xpath": "//Button[@Name='White Out']"} 
+    },
+    "black_pen_btn": {
+        "locator": {"xpath": "//Button[@Name='Black Pen']"} 
+    },
+    "blue_pen_btn": {
+        "locator": {"xpath": "//Button[@Name='Blue Pen']"} 
+    },
+    "red_pen_btn": {
+        "locator": {"xpath": "//Button[@Name='Red Pen']"} 
+    },
+    "reset_markup_btn": {
+        "locator": {"xpath": "//Button[@Name='Reset Markup']"} 
+    },
+    "contrast_text": {
+        "locator": {"xpath": "//Text[@Name='Contrast']"}
+    },
+    "rotate_icon": {
+        "locator": {"id": "RotateSingleImageRightBtn"}
+    },
+    "thumbnail_view_images": {
+        "locator": {"str_id": "HP.Framework.Extensions.ScanCapture/Resources/GoToThumbnailViewTip/Text"}
+    },
+    "pic_item_thumbnail_view": {
+        "locator": {"xpath": "//List[@AutomationId='ThumbnailViewThumbnailGridNormalView']/ListItem[{}]"}
+    },
+    "shortcuts_item": {
+        "locator": {"id": "flyout-title-container"}
+    },
+    "i_icon": {
+        "locator": {"xpath": "//Button[@Name='Open coachmark']"}
+    },
+    "keep_resolution_box": {
+        "locator": {"id": "photoeditorsdk-Keep-Resolution"}
+    },
+    "resolution_checkbox": {
+        "locator": {"xpath": "//CheckBox[@AutomationId='photoeditorsdk-Keep-Resolution']/preceding-sibling::Group[1]"}
+    },
+    "shortcuts_order_1": {
+        "locator": {"xpath": "//Text[@AutomationId='shortcuts-message-title']/following-sibling::Group[1]/Text[1]"}
+    },
+    "shortcuts_order_2": {
+        "locator": {"xpath": "//Text[@AutomationId='shortcuts-message-title']/following-sibling::Group[2]/Text[1]"}
+    },
+    "camera_text": {
+        "locator": {"xpath": "//Text[@Name='Camera']"}
+    },
+    "ipp_we_are_having_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.IppPrint/Resources/IppPrint_PrintTimeout"}
+    },
+    "ipp_try_again_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.IppPrint/Resources/IppPrint_TryAgain/Content"}
+    },
+    "ipp_cancel_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.IppPrint/Resources/Ipp_Cancel/Content"}
+    },
+    "shortcuts_order_for_email": {
+        "locator": {"xpath": "//Text[@AutomationId='flyout-title']"}
+    },
+    "language_dropdown_first_pot": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='DocumentLanguageSelection']/ListItem[1]"}
+    },
+    "downloading_language_dialog_title": {
+        "_comment": "Downloading Language Pack",
+        "locator": {"xpath": "//Text[@Name='Downloading language pack']"}
+    },
+    "failed_to_download_title":{
+        "locator": {"xpath": "//Text[@Name='Language failed to download']"}
+    },
+    "retry_btn":{
+        "locator": {"xpath": "//Button[@Name='Retry']"}
+    },
+    "hp_smart_printing_dialog": {
+        "_comment": "HP Smart Printing",
+        "locator": {"id": "ui_TitleBar"}
+    },
+    "hp_smart_printing_dialog_close_btn": {
+        "_comment": "HP Smart Printing close button",
+        "locator": {"id": "PrintingToDialog.ui_ContentFrame.TitleBar.WindowCloseButton"}
+    },
+    "share_picker_popup": {
+        "locator": {"id": ["SharePickerControl", "SharePickerHeaderText"]}
+    },
+    "share_email_dialog_close_btn": {
+        "locator": {"id": "SharePickerCloseButtonTabStop"}
+    },
+    "printer_not_available_title": {
+        "locator": {"xpath": "//Text[@Name='Printer not available']"}
+    },
+    "import_your_file_btn": {
+        "locator": {"xpath": "//Button[@Name='Import your file']"}
+    },
+    "add_mark_btn": {
+        "locator": {"xpath": "//Button[@Name='Plus Add mark']"}
+    },
+    "features_and_file_types_title": {
+        "_comment": "Features and File Types",
+        "locator": {"xpath": "//Text[@Name='Features and File Types']"}
+    },
+    "smart_file_name_title": {
+        "_comment": "Smart File Name",
+        "locator": {"xpath": "//Text[@Name='Smart File Name']"}
+    },
+    "smart_file_name_toggle_btn": {
+        "_comment": "Smart File Name Toggle",
+        "locator": {"id": "smartFileName__toggle"}
+    },
+    "password_protection_textbox": {
+        "locator": {"xpath": "//Edit[@Name='Enter password']"}
+    },
+     "password_textbox_note": {
+        "locator": {"xpath": "//Text[@Name='Your password must be between 6 and 32 characters. Use letters, numbers, and/or symbols.']"}
+    },
+     "password_textbox_note_space": {
+        "locator": {"xpath": "//Text[@Name='Enter a valid password. Note: spaces are not allowed.']"}
+    },
+    "password_textbox_note_too_short": {
+        "locator": {"xpath": "//Text[@Name='Enter a valid password. Note: passwords must be at least 6 characters long and can use letters, numbers, and/or symbols.']"}
+    },
+    "password_textbox_note_too_short_space": {
+        "locator": {"xpath": "//Text[@Name='Enter a valid password. Note: passwords must be at least 6 characters long and spaces are not allowed.']"}
+    },
+    "password_textbox_note_too_long": {
+        "locator": {"xpath": "//Text[@Name='Enter a valid password. Note: passwords must be no more than 32 characters long and can use letters, numbers, and/or symbols.']"}
+    },
+    "password_textbox_note_too_long_space": {
+        "locator": {"xpath": "//Text[@Name='Enter a valid password. Note: passwords must be no more than 32 characters long and spaces are not allowed.']"}
+    },
+
+    "password_pdf_error_message": {
+        "_comment": "open file->pdf password input->error msg",
+        "locator": {"id": "error-message"}
+    },
+    "shortcuts_screen_dialog_email": {
+        "locator": {"name": "Envelope Start Gmail Info",
+                    "id": "shortcut-items-dektop",
+                    "class name": "clientos-ui-toolkit-list-container__item hoverable"}
+    },
+    "view_status_btn": {
+        "locator": {"name": "View status" }
+    },
+    "shortcuts_button": {
+        "locator": {"name": "Shortcuts" }
+    },
+    "done_button": {
+        "locator": {"name": "Done" }
+    },
+    "start_button": {
+        "locator": {
+            "xpath": "//*[contains(@Name,'start')]"
+        }
+    }
+}

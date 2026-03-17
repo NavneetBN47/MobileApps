@@ -1,0 +1,144 @@
+{
+  "_comment": "Most of the elements in this flow have different locators for pie and stage",
+  "shortcuts_title": {
+    "_comment": "pie and stage has different locator for this element",
+    "locator": {
+      "name": "Shortcuts",
+      "xpath": "//ion-title//p[contains(text(), 'Shortcuts')]",
+      "css selector": [
+        "div.toolbar-title.toolbar-title-md > p.title",
+        "#title"
+      ]
+    }
+  },
+  "shortcuts_list": {
+    "_comment": "pie and stage has different locator for this element",
+    "locator": {
+      "name": "main",
+      "css selector": "div.scroll-content > div > div > ion-list",
+      "xpath": "//*[contains(@id, 'jobStatusHeading')]"
+    }
+  },
+  "no_shortcut_activity_available_msg": {
+    "_comment": "pie and stage has different locator for this element",
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@value='No Shortcut activity available']",
+      "css selector": [
+        "div.align-center > p.sub-heading",
+        "#runShortcutHeading"
+      ]
+    }
+  },
+  "navigate_back_btn": {
+    "_comment": "This button can be found in multiple screens",
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeWebView[@label='Ionic App']//XCUIElementTypeButton[1]",
+        "//app-details//button[@id='chevronBackButtoniPhone']",
+        "//app-summary//button[@id='chevronBackButtoniPhone']",
+        "//ion-icon[@name='arrow-back']/../..",
+        "//page-details//ion-icon[@name='arrow-back']/..",
+        "//page-summary//ion-icon[@name='arrow-back']/.."
+      ],
+      "id": "chevronBackButtoniPhone"
+    }
+  },
+  "job_name_by_number": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeGroup[@label='main']/XCUIElementTypeGroup[{}]/XCUIElementTypeStaticText",
+        "//td/div[contains(@class, 'description')][{}]",
+        "//ion-item//div[@id='jobName{}']"
+      ]
+    }
+  },
+  "job_status_by_number": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeGroup[@label='main']/XCUIElementTypeGroup[{}]/XCUIElementTypeStaticText",
+        "//td/div[contains(@class, 'heading')][{}]",
+        "//ion-item//div[@id='jobStatusHeading{}']"
+      ]
+    }
+  },
+  "job_date_by_number": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeGroup[@label='main']/XCUIElementTypeGroup[{}]/XCUIElementTypeStaticText",
+        "//td/div[contains(@class, 'date')][{}]",
+        "//ion-item//div[@id='jobCreatedDate{}']"
+      ]
+    }
+  },
+  "shortcut_completed_screen_title": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeStaticText[@value='Shortcut Completed']",
+        "//div[@id='title'][contains(text(), 'Shortcut Completed')]",
+        "//ion-title/div/div[contains(text(), 'Shortcut Completed')]"
+      ]
+    }
+  },
+  "shortcut_completed_screen_delete_btn": {
+    "locator": {
+      "id": "deleteButtonText",
+      "xpath": [
+        "//XCUIElementTypeButton[@label='Delete']",
+        "//ion-buttons//span[@class='deleteText'][contains(text(), 'Delete')]"
+      ]
+    }
+  },
+  "shortcut_completed_screen_email_item": {
+    "locator": {
+      "id": "emailJobDescription",
+      "xpath": [
+        "//XCUIElementTypeStaticText[@value='Email']",
+        "//ion-item//p[@class='subHeading']"
+      ]
+    }
+  },
+  "email_sent_screen_title": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeStaticText[@value='Email Sent']",
+        "//div[@id='title'][contains(text(), 'Email Sent')]",
+        "//ion-title//p[contains(text(), 'Email Sent')]"
+      ]
+    }
+  },
+  "email_sent_screen_success_message": {
+    "locator": {
+      "id": "jobStatus",
+      "xpath": [
+        "//XCUIElementTypeStaticText[@value='Email successfully sent.']",
+        "//ion-content//p[@class='description-normal'][contains(text(), 'Email successfully sent.')]"
+      ]
+    }
+  },
+  "shortcut_completed_screen_print_item": {
+    "locator": {
+      "xpath": [
+        "//div[contains(@id, 'printJobHeading')]"
+      ]
+    }
+  },
+  "print_sent_screen_title": {
+    "locator": {
+      "xpath": [
+        "//div[@id='title' and text()='Print Sent']"
+      ]
+    }
+  },
+  "job_name_on_print_sent_screen": {
+    "locator": {
+      "id": "jobName"
+    }
+  },
+  "job_date_on_print_sent_screen": {
+    "locator": {
+      "xpath": [
+        "//app-summary//div[@id='jobStateChangedDate']"
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+    "5G_module_from_pc_device_page": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcconnect-core"
+        }
+    },
+    "5G_header": {
+        "locator": {
+            "id": "AUID_pcconnect-core_NavBreadcrumb_Pcconnect-core"
+        }
+    },
+    "pcdevice_back_header_from_pc_connect": {
+        "locator": {
+            "id": "AUID_pcconnect-core_NavBreadcrumb_Pcdevice-core"
+        }
+    },
+    "5G_connectivity_text": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_5g_connectivivity_title"
+        }
+    },
+    "5G_connectivity_toggle": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_switch_wificonnectivity"
+        }
+    },
+    "esim_text": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_esim_title"
+        }
+    },
+    "t_mobile_text": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_T-Mobile"
+        }
+    },
+    "sim_number_text": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_sim_number_title"
+        }
+    },
+    "sim_number": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_sim_number_details"
+        }
+    },
+    "usage_data_text": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_usage_data_subtitle"
+        }
+    },
+    "usage_data_description": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_in_last_30days_subtitle"
+        }
+    },
+    "usage_data_tooltip": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_usage_data_tooltip"
+        }
+    },
+    "coverage_map_text": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_coverage_map"
+        }
+    },
+    "coverage_map_tooltip": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_coverage_map_tooltip"
+        }
+    },
+    "network_and_internet_settings": {
+        "locator": {
+            "id": "AUID_PCConnect_FiveGConnectivity_network_and_internet_button_text"
+        }
+    },
+    "5G_network_connection_popup": {
+        "locator": {
+            "id": "NormalToastView"
+        }
+    },
+    "5G_network_disconnect_popup": {
+        "locator": {
+            "id": "NormalToastView"
+        }
+    },
+    "system_network_and_internet": {
+        "locator": {
+            "name": "Network & internet"
+        }
+    },
+    "close_system_network_and_internet_page": {
+        "locator": {
+            "id": "Close"
+        }
+    },
+    "system_tray_icon": {
+        "locator": {
+            "id": "SystemTrayIcon"
+        }
+    },
+    "cellular_icon_arrow": {
+        "locator": {
+            "id": "SplitL2Button"
+        }
+    },
+    "cellular_network_bar": {
+        "locator": {
+            "id": "ControlCenterRegion"
+        }
+    },
+    "cellular_network_toggle": {
+        "locator": {
+            "id": "Microsoft.QuickAction.WiFi"
+        }
+    },
+    "cellular_network_toggle_off_msg": {
+        "locator": {
+            "name": "Cellular data is off"
+        }
+    },
+    "system_cellular_network_toggle": {
+        "locator": {
+            "id": "SystemSettings_Network_MB_QuickAction_ToggleSwitch"
+        }
+    },
+    "cellular_text": {
+        "locator": {
+            "name": "Cellular"
+        }
+    },
+    "network_settings_system_cellular_status_text": {
+        "locator": {
+            "id": "NetworkHeroControlDescription"
+        }
+    }
+}

@@ -1,0 +1,256 @@
+{
+    "notifications_title": {
+        "locator": {
+            "id": "BellNotifications.BellNotifications.Header",
+            "xpath": "//Text[@Name='Notifications']"
+        }
+    },
+    "notifications_panel_sign_in_btn": {
+        "locator": {
+            "id": ["Account.BellNotificationsView.SignInButton", "BellNotifications.BellNotificationsView.SignInButton"],
+            "xpath": "//Button[@Name='Sign in / Create account']"
+        }
+    },
+    "notifications_panel_close_btn": {
+        "locator": {
+            "id": "BellNotifications.BellNotifications.CloseDrawerButton",
+            "xpath": "//Button[@Name='Close']"
+        }
+    },
+    "notifications_side_panel": {
+        "locator": {
+            "id": [
+                "BellNotifications.BellNotifications.Drawer",
+                "BellNotifications.BellNotifications.Drawer__content"
+            ]
+        }
+    },
+    "notification_account": {
+        "locator": {
+            "id": "BellNotifications.BellNotifications.Account"
+        }
+    },
+    "read_text": {
+        "locator": {
+            "xpath": "//Text[@Name='Read']"
+        }
+    },
+    "unread_text": {
+        "locator": {
+            "xpath": "//Text[@Name='Unread']"
+        }
+    },
+    "urgent_unread_notification": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card urgent  css-1j9mwei']",
+                      "//Button[@ClassName='clientos-ui-toolkit-notification-card urgent  css-1dge9p4'][@Name='urgent notification']",
+                      "//Button[contains(@ClassName, 'clientos-ui-toolkit-notification-card informative')]"]
+        }
+    },
+    "urgent_unread_notification_ellipsis": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card urgent  css-1j9mwei']/Group/Button[@Name='Ellipsis']",
+                      "//Button[contains(@ClassName, 'notification-card urgent') and not(contains(@ClassName, 'read'))]/Group/Button[@Name='Ellipsis']"]
+        }
+    },
+    "informative_notifications": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card informative read status-read css-1j9mwei']",
+                      "//Button[contains(@ClassName, 'notification-card informative') and contains(@ClassName, 'read')]"]
+        }
+    },
+    "informative_read_notifs": {
+        "locator": {
+            "xpath": [
+                "//Button[@ClassName='clientos-ui-toolkit-notification-card informative read status-read css-1j9mwei']/Group/Text",
+                "//Text[@Name='Read']/Button[@ClassName='clientos-ui-toolkit-notification-card informative read status-read css-1j9mwei']/Group/Text",
+                "//Button[contains(@ClassName, 'notification-card informative') and contains(@ClassName, 'read')]/Group/Text",
+                "//Text[@Name='Read']/Button[contains(@ClassName, 'notification-card informative') and contains(@ClassName, 'read')]/Group/Text"
+            ]
+        }
+    },
+    "urgent_read_notifs": {
+        "locator": {
+            "xpath": [
+                "//Button[@ClassName='clientos-ui-toolkit-notification-card urgent read status-read css-1j9mwei']/Group/Text",
+                "//Text[@Name='Read']/Button[@ClassName='clientos-ui-toolkit-notification-card urgent read status-read css-1j9mwei']/Group/Text",
+                "//Button[contains(@ClassName, 'notification-card urgent') and contains(@ClassName, 'read')]/Group/Text",
+                "//Text[@Name='Read']/Button[contains(@ClassName, 'notification-card urgent') and contains(@ClassName, 'read')]/Group/Text"
+            ]
+        }
+    },
+    "warning_read_notifs": {
+        "locator": {
+            "xpath": [
+                "//Button[@ClassName='clientos-ui-toolkit-notification-card warning read status-read css-1j9mwei']/Group/Text",
+                "//Text[@Name='Read']/Button[@ClassName='clientos-ui-toolkit-notification-card warning read status-read css-1j9mwei']/Group/Text",
+                "//Button[contains(@ClassName, 'notification-card warning') and contains(@ClassName, 'read')]/Group/Text",
+                "//Text[@Name='Read']/Button[contains(@ClassName, 'notification-card warning') and contains(@ClassName, 'read')]/Group/Text"
+            ]
+        }
+    },
+    "warning_notifications": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card warning read status-read css-1j9mwei']",
+                     "//Button[contains(@ClassName, 'notification-card warning') and contains(@ClassName, 'read')]"]
+        }
+    },
+    "urgent_notifications": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card urgent read status-read css-1j9mwei']",
+                     "//Button[contains(@ClassName, 'notification-card urgent') and contains(@ClassName, 'read')]"]
+        }
+    },
+    "delete_disabled_urgent_unread_notifs": {
+        "locator": {
+            "xpath": "//Button[@ClassName='clientos-ui-toolkit-notification-card__action-button disabled']"
+        }
+    },
+    "warning_unread_notifs": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card warning  css-1j9mwei']",
+                      "//Button[contains(@ClassName, 'notification-card warning') and not(contains(@ClassName, 'read'))]"]
+        }
+    },
+    "warning_unread_notifs_ellipsis": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card warning  css-1j9mwei']/Group/Button[@Name='Ellipsis']",
+                      "//Button[contains(@ClassName, 'notification-card warning') and not(contains(@ClassName, 'read'))]/Group/Button[@Name='Ellipsis']"]
+        }
+    },
+    "delete_warning_unread_notifs": {
+        "locator": {
+            "xpath": "//Button[@Name='Delete']"
+        }
+    },
+    "urgent_unread_notifs_name": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card urgent  css-1j9mwei']/Group/Text",
+                     "//Button[contains(@ClassName, 'notification-card urgent') and not(contains(@ClassName, 'read'))]/Group/Text"]
+        }
+    },
+    "notifications_back_btn": {
+        "locator": {
+            "id": "BellNotifications.BellNotifications.CloseDrawerButton"
+        }
+    },
+    "informative_unread_notifs": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card informative  css-1j9mwei']",
+                      "//Button[contains(@ClassName, 'notification-card informative') and not(contains(@ClassName, 'read'))]"]
+        }
+    },
+    "informative_unread_notifs_ellipsis": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card informative  css-1j9mwei']/Group/Button[@Name='Ellipsis']",
+                      "//Button[contains(@ClassName, 'notification-card informative') and not(contains(@ClassName, 'read'))]/Group/Button[@Name='Ellipsis']"]
+        }
+    },
+    "delete_informative_unread_notifs": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card informative  css-1j9mwei']/Group/Button[3][@Name='Delete']",
+                     "//Button[contains(@ClassName, 'notification-card informative') and not(contains(@ClassName, 'read'))]/Group/Button[@Name='Delete']"]
+        }
+    },
+    "notification_tile_ellipsis": {
+        "locator": {
+            "xpath": ["//Button[@Name='Ellipsis']","//Button[@Name='Ellipsis' and @IsOffscreen='False']"]
+        }
+    },
+    "notification_dropdown_menu": {
+        "locator": {
+            "xpath": "//Button[@Name='Chevron down']"
+        }
+    },
+    "notification_dropdown_mark_read_option": {
+        "locator": {
+            "xpath": "//Button[@Name='Mark as Read']"
+        }
+    },
+    "notification_dropdown_delete_option": {
+        "locator": {
+            "xpath": "//Button[@Name='Delete']"
+        }
+    },
+    "informative_unread_notification_ellipsis": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card informative  css-1j9mwei']/Group/Button[@Name='Ellipsis']",
+                     "//Button[contains(@ClassName, 'notification-card informative') and not(contains(@ClassName, 'read'))]/Group/Button[@Name='Ellipsis']"]
+        }
+    },
+    "warning_unread_notification_ellipsis": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card warning  css-1j9mwei']/Group/Button[@Name='Ellipsis']",
+                     "//Button[contains(@ClassName, 'notification-card warning') and not(contains(@ClassName, 'read'))]/Group/Button[@Name='Ellipsis']"]
+        }
+    },
+    "notification_timestamp": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='BellNotifications.BellNotifications.Drawer__content']/Group[2]/Group/Text[7]"
+        }
+    },
+    "urgent_icon": {
+        "locator": {
+            "xpath": "//Image[@ClassName='icon-urgent css-e6kgum']"
+        }
+    },
+    "warning_icon": {
+        "locator": {
+            "xpath": "//Image[@ClassName='icon-warning css-e6kgum']"
+        }
+    },
+    "info_icon": {
+        "locator": {
+            "xpath": "//Image[@ClassName='icon-informative css-e6kgum']"
+        }
+    },
+    "sign_in_to_view_msgs": {
+        "locator": {
+            "xpath": "//Text[@Name='Please sign in to your account or create an account to view all of your messages.']"
+        }
+    },
+    "account_title": {
+        "locator": {
+            "xpath": ["//Group[@AutomationId='BellNotifications.BellNotifications.Drawer__content']/Group/Group/Text[1][@Name='Account']",
+                      "//Group[@AutomationId='BellNotifications.BellNotifications.Account__header']"]
+        }
+    },
+    "notif_description": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='BellNotifications.BellNotifications.Drawer__content']/Group[2]/Group/Text[2]"
+        }
+    },
+    "informative_unread_notifs_name": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card informative  css-1j9mwei']/Group/Text",
+                      "//Button[contains(@ClassName, 'notification-card informative') and not(contains(@ClassName, 'read'))]/Group/Text"]
+        }
+    },
+    "warning_unread_notifs_name": {
+        "locator": {
+            "xpath": ["//Button[@ClassName='clientos-ui-toolkit-notification-card warning  css-1j9mwei']/Group/Text",
+                      "//Button[contains(@ClassName, 'notification-card warning') and not(contains(@ClassName, 'read'))]/Group/Text"]
+        }
+    },
+    "detailed_notification_back_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Account']"
+        }
+    },
+    "detailed_notification_title": {
+        "locator": {
+            "xpath": "//Group[@AutomationId='BellNotifications.BellNotifications.Drawer__content']/Group[2]/Group/Text[1]"
+        }
+    },
+    "background_blur": {
+        "locator": {
+            "xpath": ["//Group[@AutomationId='' and @ClassName='clientos-ui-toolkit-drawer-body--open']",
+                     "//Group[@AutomationId='BellNotifications.BellNotifications.Drawer']"]
+        }
+    },
+    "shortcuts_title": {
+        "locator": {
+            "xpath": ["//Group[@AutomationId='BellNotifications.BellNotifications.Drawer__content']/Group/Group/Text[1][@Name='Shortcuts']","//Button[@Name='Shortcuts']"]
+        }
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "user_profile_button":{
+        "locator": {
+            "css selector": "[aria-label='User Profile']"
+        }
+    },
+    "user_profile_link":{
+        "locator": {
+            "css selector": "#user-profile"
+        }
+    },
+    "user_profile_page_breadcrumb":{
+        "locator": {
+            "css selector": "#userDetails span[aria-current='page']"
+        },
+        "localization": {
+            "en": "User Profile"
+        }
+    },
+    "user_profile_page_overview_tab":{
+        "locator": {
+            "css selector": "#overview"
+        }
+    },
+    "user_profile_page_communication_preference_tab":{
+        "locator": {
+            "css selector": "#communication-preferences"
+        }
+    },
+    "user_profile_overview_tab_name_label":{
+        "locator": {
+            "css selector": "#namePanel>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Name"
+        }
+    },
+    "user_profile_overview_tab_mobile_phone_number_label":{
+        "locator": {
+            "css selector": "#mobilePanel>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Mobile Phone Number"
+        }
+    },
+    "user_profile_overview_tab_office_phone_number_label":{
+        "locator": {
+            "css selector": "#officePanel>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Office Phone Number"
+        }
+    },
+    "user_profile_overview_tab_preferred_language_label":{
+        "locator": {
+            "css selector": "#languagePanel>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Preferred Language"
+        }
+    },
+    "user_profile_overview_tab_time_zone_label":{
+        "locator": {
+            "css selector": "#TimezonePanel>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Time zone"
+        }
+    },
+    "user_profile_overview_tab_title_label":{
+        "locator": {
+            "css selector": "#jobTitlePanel>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Title"
+        }
+    },
+    "user_profile_overview_tab_title_edit_button":{
+        "locator": {
+            "css selector": "#edit-jobTitlePanel"
+        }
+    },
+    "user_profile_overview_tab_name_edit_button":{
+        "locator": {
+            "css selector": "#edit-namePanel"
+        }
+    },
+    "user_profile_overview_tab_mobile_phone_number_edit_button":{
+        "locator": {
+            "css selector": "#edit-mobilePanel"
+        }
+    },
+    "user_profile_overview_tab_office_phone_number_edit_button":{
+        "locator": {
+            "css selector": "#edit-officePanel"
+        }
+    },
+    "user_profile_overview_tab_preferred_language_edit_button":{
+        "locator": {
+            "css selector": "#edit-languagePanel"
+        }
+    },
+    "user_profile_overview_tab_time_zone_edit_button":{
+        "locator": {
+            "css selector": "#edit-TimezonePanel"
+        }
+    },
+    "user_profile_communication_tab_whats_new_popup_title":{
+        "locator": {
+            "css selector": ["#whatsNewAlert h2" , "#whatsNewAlert div[class*='wex-panel-header-title']"]
+        }
+    },
+    "user_profile_communication_tab_whats_new_popup_toggle_button":{
+        "locator": {
+            "css selector": "div#whatsNewAlert label"
+        }
+    },
+    "user_profile_communication_tab_whats_new_popup_toggle_button_status":{
+        "locator": {
+            "css selector": "div#whatsNewAlert label [value='1']"
+        }
+    },
+    "user_profile_communication_tab_alert_notifications_title": {
+        "locator": {
+            "css selector": ["#alert-notifications-header h2", "#alert-notifications-header [class*='wex-panel-header-title']"]
+        }
+    },
+    "user_profile_communication_tab_alert_notifications_toggle_button": {
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "#alertNotification div.wex-panel-content > div > div> div > div:nth-child(1) label"
+        }
+    },
+    "user_profile_communication_tab_alert_notifications_toggle_button_status": {
+        "locator": {
+            "css selector": "#alertNotification div.wex-panel-content > div > div> div > div:nth-child(1)  label [value='1']"
+        }
+    },
+    "user_profile_communication_tab_general_system_notifications_title": {
+        "locator": {
+            "css selector": ["#general-system-notifications-header h2", "#general-system-notifications-header [class*='wex-panel-header-title']"]
+        }
+    },
+    "user_profile_communication_tab_general_system_notifications_toggle_button": {
+        "locator": {
+            "css selector": "#generalSystemNotification label"
+        }
+    },
+    "user_profile_communication_tab_general_system_notifications_toggle_button_status": {
+        "locator": {
+            "css selector": "#generalSystemNotification label [value='1']"
+        }
+    }
+}

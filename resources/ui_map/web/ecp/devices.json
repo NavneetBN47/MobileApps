@@ -1,0 +1,2454 @@
+{
+    "devices_title":{
+        "locator": {
+            "css selector": "[data-testid='device-title']"
+        },
+        "localization": {
+            "en": "Devices"
+        }
+    },
+    "device_page_content":{
+        "locator": {
+            "id": "@jarvis/react-ecp-devices-homepage"
+        }
+    },
+    "devcies_tab_breadcrumb":{
+        "locator": {
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__breadcrumb_items'] a[href='/devices']"
+        },
+        "localization": {
+            "en": "Devices"
+        }
+    },
+    "all_devices_tab": {
+        "locator":{
+            "css selector": "div#al-devices"
+        }
+    },
+    "group_side_bar_collapse_btn":{
+        "locator": {
+            "css selector": "div[data-testid='main-group-side-bar-wrapper'] button[aria-label='Collapse']"
+        }
+    },
+    "group_side_bar_expand_btn":{
+        "locator": {
+            "css selector": "div[data-testid='main-group-side-bar-wrapper'] button[aria-label='Expand']"
+        }
+    },
+    "device_connectivity_table_header":{
+        "locator": {
+            "css selector": "#connectionState"
+        }
+    },
+    "checkbox_column_table_header":{
+        "locator": {
+            "css selector": "thead th:nth-child(1)"
+        }
+    },
+    "_shared_table_checkbox_col_by_index":{
+        "locator": {
+            "css selector": "tr > td:nth-of-type({})"
+        }
+    },
+    "_shared_table_all_col_by_index":{
+        "locator": {
+            "css selector": ["tr > td:nth-of-type({})  label+ span",
+                            "tr > td:nth-of-type({})"]
+        }
+    },
+    "search_device_name_txt": {
+        "locator": {
+            "css selector": "input#controlled-search"
+        }
+    },
+    "discovery_date_table_header":{
+        "locator": {
+            "css selector": "th#lastUpdatedAt"
+        }
+    },
+    "devices_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "devices_contextual_footer_cancel_btn":{
+        "locator": {
+            "css selector": "button#contextual-footer-cancel-button"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "devices_contextual_footer_selected_item_label":{
+        "locator": {
+            "css selector": "[data-testid='contextual-footer-selected-label']"
+        },
+        "localization": {
+            "en": "1 item selected"
+        }
+    },
+    "devices_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": "#contextual-footer-select"
+        }
+    },
+    "devices_contextual_footer_select_action_dropdown_options":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li"
+        }
+    },
+    "select_action_dropdown_remove_from_group_option":{
+        "locator": {
+            "css selector": "li[data-value='removeFromGroup']"
+        }
+    },
+    "devices_contextual_footer_continue_btn":{
+        "locator": {
+            "css selector": "button#contextual-footer-continue-button"
+        },
+        "localization": {
+            "en": "Continue"
+        }
+    },
+    "devices_remove_from_group_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='remove-from-group-modal-title']"
+        },
+        "localization": {
+            "en": "Remove from group"
+        }
+    },
+    "devices_remove_from_group_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='remove-from-group-modal-desc']"
+        },
+        "localization": {
+            "en": "Are you sure you want to remove the selected devices from the group?"
+        }
+    },
+    "devices_remove_from_group_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='remove-from-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "devices_remove_from_group_popup_remove_btn":{
+        "locator": {
+            "css selector": "button[data-testid='remove-from-group-modal-action-button']"
+        },
+        "localization": {
+            "en": "Remove"
+        }
+    },
+    "devices_move_to_group_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='move-to-group-modal-title']"
+        },
+        "localization": {
+            "en": "Move to group"
+        }
+    },
+    "devices_move_to_group_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='move-to-group-modal-desc']"
+        },
+        "localization": {
+            "en": "Move selected devices to another group."
+        }
+    },
+    "devices_move_to_group_popup_groups_to_move":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "css selector": "ul[data-testid='moveto-group-tree']"
+        }
+    },
+    "devices_move_to_group_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='move-to-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "devices_move_to_group_popup_move_btn":{
+        "locator": {
+            "css selector": "button[data-testid='move-to-group-modal-action-button']"
+        },
+        "localization": {
+            "en": "Move"
+        }
+    },
+    "solutions_table_header":{
+        "locator": {
+            "css selector": "th#solutions"
+        }
+    },
+    "groups_table_header":{
+        "locator": {
+            "css selector": "th#groups"
+        }
+    },
+    "export_all_btn":{
+        "locator": {
+            "css selector": "button[data-testid='export-device-button']"
+        }
+    },
+    "export_popup_div":{
+        "locator": {
+            "css selector": "div[data-testid='export-modal']"
+        }
+    },
+    "export_popup_submit":{
+        "locator": {
+            "css selector": "button[data-testid='export-button']"
+        },
+        "localization": {
+            "en": "Export"
+        }
+    },
+    "export_devices_popup_title":{
+        "locator": {
+            "css selector": "#form-modal-label"
+        },
+        "localization": {
+            "en": "Export Devices"
+        }
+    },
+    "export_devices_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='description']"
+        }
+    },
+    "export_devices_popup_cancel_btn":{
+        "locator": {
+            "css selector": "[data-testid='export-modal']  button[data-testid='cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "export_devices_popup_select_file_dropdown":{
+        "locator": {
+            "css selector": "#export-type"
+        },
+        "localization": {
+            "en": "CSV"
+        }
+    },
+    "devices_column_option_settings_gear_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column Options"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486 & locator mismatch between PIE & Stage - ",
+        "locator": {
+            "xpath": ["(//span[contains(text(),'Cancel')]/parent::button)[4]",
+                    "(//span[contains(text(),'Cancel')]/parent::button)[3]"]
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "//span[contains(text(),'Save')]/parent::button"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "export_devices_popup_select_file_dropdown_options":{
+        "locator": {
+            "css selector": "#export-type-listbox li"
+        }
+    },
+    "create_group_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='create-new-group-modal-title']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "create_group_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-description']"
+        },
+        "localization": {
+            "en": "Create a new group."
+        }
+    },
+    "create_group_popup_group_name_txt":{
+        "locator": {
+            "css selector": "#text-box"
+        }
+    },
+    "create_group_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='create-new-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "create_group_popup_create_btn":{
+        "locator": {
+            "css selector": "button[data-testid='create-new-group-modal-action-button']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "devices_groups_group_name":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "//span[contains(text(),'{}')]"
+        }
+    },
+    "devices_side_group_all_option":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "(//span[contains(text(),'{}')])"
+        }
+    },
+    "devices_groups_group_count":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "//span[contains(text(),'{}')]/following-sibling::span"
+        }
+    },
+    "devices_create_group_btn":{
+        "locator": {
+            "css selector": "button[data-testid='create-group-button']"
+        }
+    },
+    "devices_edit_group_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-button']"
+        }
+    },
+    "edit_group_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-title']"
+        },
+        "localization": {
+            "en": "Manage Groups"
+        }
+    },
+    "edit_group_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-desc']"
+        },
+        "localization": {
+            "en": "Create, rename and delete device groups."
+        }
+    },
+    "edit_group_popup_delete_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-tree-delete-button']"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "edit_group_popup_create_tab":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-create-tab-header']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "edit_group_popup_rename_tab":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-rename-tab-header']"
+        },
+        "localization": {
+            "en": "Rename"
+        }
+    },
+    "edit_group_popup_close_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Close"
+        }
+    },
+    "group_list_group_name":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "(//span[contains(text(),'{}')])[2]"
+        }
+    },
+    "edit_group_popup_group_name":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "(//span[contains(text(),'{}')])[2]"
+        }
+    },
+    "delete_group_popup_title":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "//label[contains(text(),'Delete')]"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "delete_group_popup_desc":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "//div[contains(text(),'Are you sure you want to delete')]"
+        },
+        "localization": {
+            "en": "Are you sure you want to delete the selected groups?"
+        }
+    },
+    "delete_group_popup_description":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Devices in')]"
+        },
+        "localization": {
+            "en": "Devices in this group will be moved to Ungrouped."
+        }
+    },
+    "delete_group_popup_delete_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "(//span[contains(text(),'Delete')]/parent::button)[2]"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "delete_group_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486 & locator mismatch between PIE & Stage - ",
+        "locator": {
+            "xpath": ["(//span[contains(text(),'Cancel')]/parent::button)[4]",
+                        "(//span[contains(text(),'Cancel')]/parent::button)[3]"]
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "create_tab_desc":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-description']"
+        },
+        "localization": {
+            "en": "Create a new group. Make sure to use a new group name."
+        }
+    },
+    "create_tab_group_name_lbl":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-name-label']"
+        },
+        "localization": {
+            "en": "Group name"
+        }
+    },
+    "create_tab_group_name_txt":{
+        "locator": {
+            "css selector": "input#text-box"
+        }
+    },
+    "create_tab_parent_group_lbl":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-create-tab-parent-group-label']"
+        },
+        "localization": {
+            "en": "Parent group"
+        }
+    },
+    "create_tab_parent_group_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-create-tab-select-group']>div"
+        }
+    },
+    "create_tab_create_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-modal-create-tab-action-button']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "rename_tab_desc":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-description']"
+        },
+        "localization": {
+            "en": "Rename the selected group"
+        }
+    },
+    "rename_tab_select_group_warning_message":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486",
+        "locator": {
+            "xpath": "//div[contains(text(),'Please select a group')]"
+        },
+        "localization": {
+            "en": "Please select a group."
+        }
+    },
+    "rename_tab_group_name_lbl":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-name-label']"
+        },
+        "localization": {
+            "en": "Group name"
+        }
+    },
+    "rename_tab_group_name_txt":{
+        "locator": {
+            "css selector": "input#text-box"
+        }
+    },
+    "rename_tab_rename_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-modal-rename-tab-action-button']"
+        },
+        "localization": {
+            "en": "Rename"
+        }
+    },
+    "bottom_toast_message":{
+        "locator": {
+            "css selector": ["div[role='alert'] div>span",
+                            "div[role='alert'] div>div"]
+        }
+    },
+    "bottom_toast_msg":{
+        "locator":{
+            "css selector": ["div[role='alert'] div>div", "div[role='status'] div"]
+        }
+    },
+    "bottom_toast_close_btn": {
+        "locator": {
+            "css selector": "div[class*='ToastNotification'] button"
+        }
+    },
+    "bottom_toast_policy_create_success_msg":{
+        "locator": {
+            "css selector": "[role='alert'] div div"
+        }
+    },
+    "devices_details_name": {
+        "locator": {
+            "css selector": "[aria-controls='device-details-info-section']"
+        }
+    },
+    "devices_details_connectivity_status":{
+        "locator": {
+            "css selector": "[data-testid='connectivity-text']+div"
+        }
+    },
+    "devices_details_status":{
+        "locator": {
+            "css selector": "#evice-info__location>div"
+        }
+    },
+    "solution_devices_details_status":{
+        "locator": {
+            "css selector": "[data-testid='device-connectivity-text']"
+        }
+    },
+    "devices_details_connectivity":{
+        "locator": {
+            "css selector": "[data-testid='connectivity-text']"
+        }
+    },
+    "devices_details_serial_number": {
+        "locator": {
+            "css selector": "[data-testid='serial-number-value']"
+        }
+    },
+    "devices_details_overview_asset_number": {
+        "locator": {
+            "css selector": "[data-testid='asset-number-value']"
+        }
+    },
+    "solution_devices_details_serial_number": {
+        "locator": {
+            "css selector": "div[class*='endpointsecurity-devicespage']:nth-child(10)"
+        }
+    },
+    "solution_hp_secure_fleet_manager_breadcrumd":{
+        "locator": {
+            "css selector": "[data-testid='jarvis-react-shell-common-layout__breadcrumb_items'] ol li:nth-child(4) a"
+        }
+    },
+    "device_details_view_link": {
+        "locator": {
+            "css selector": "div[data-testid='link-list-handle-navigate'] div"
+        }
+    },
+    "devices_details_security": {
+        "locator": {
+            "css selector": "[data-testid='assessment-text']+div"
+        }
+    },
+    "device_details_properties_tab": {
+        "locator": {
+            "css selector": "[aria-controls='extended-2']"
+        }
+    },
+    "device_details_properties_tab_device_card":{
+        "locator": {
+            "css selector": "div[aria-controls='device-body']"
+        },
+        "localization": {
+            "en": "Device"
+        }
+    },
+    "device_details_properties_tab_ews_card":{
+        "locator": {
+            "css selector": "div[aria-controls='ews-body']"
+        },
+        "localization": {
+            "en": "Embedded Web Server"
+        }
+    },
+    "device_details_properties_tab_network_card":{
+        "locator": {
+            "css selector": "div[aria-controls='network-body']"
+        },
+        "localization": {
+            "en": "Network"
+        }
+    },
+    "device_details_properties_tab_supplies_card":{
+        "locator": {
+            "css selector": "div[aria-controls='supplies-body']"
+        },
+        "localization": {
+            "en": "Supplies"
+        }
+    },
+    "device_details_properties_tab_securiry_card":{
+        "locator": {
+            "css selector": "div[aria-controls='security-body']"
+        },
+        "localization": {
+            "en": "Security"
+        }
+    },
+    "device_details_properties_tab_show_editable":{
+        "locator": {
+            "css selector": "text[class*='EditableToggleText']"
+        },
+        "localization": {
+            "en": "Show Editable Items Only"
+        }
+    },
+    "show_editable_items_only_radio_btn":{
+        "locator": {
+            "css selector": "input[data-testid='id-batch-view-show-selected-items-toggle']+span"
+        }
+    },
+    "device_details_device_property_card":{
+        "locator": {
+            "css selector": "div#fe-{}"
+        }
+    },
+    "device_details_device_property_value":{
+        "locator": {
+            "css selector": "#{}-value"
+        }
+    },
+    "device_details_device_property_edit_button":{
+        "locator": {
+            "css selector": "#fe-{} [data-testid='edit-ews-action-button']"
+        }
+    },
+    "device_details_policies_tab_compliance_status_widget":{
+        "locator": {
+            "css selector": "div#status-accordion"
+        }
+    },
+    "device_details_compliance_status_widget_expand_button":{
+        "locator": {
+            "css selector": "button[aria-controls='complianceInfo']"
+        }
+    },
+    "policy_device_specific_policy_compliance_accordian":{
+        "locator": {
+            "css selector": "#compliance-accordion-settings"
+        }
+    },
+    "device_details_policy_tab": {
+        "locator": {
+            "css selector": "[aria-controls='extended-4']"
+        },
+        "localization": {
+            "en": "Policies"
+        }
+    },
+    "device_details_policy_card": {
+        "locator": {
+            "css selector": "div#policy-accordion"
+        }
+    },
+    "device_details_policy_card_title": {
+        "locator": {
+            "css selector": "#id-device-specific div div:nth-child(1) div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Priority 1. Device-specific policy"
+        }
+    },
+    "device_details_specific_policy_no_policy_warning": {
+        "locator": {
+            "css selector": "#device-policy-preview-accordion-item svg[aria-label='Warning Alt']"
+        }
+    },
+    "device_details_policy_widget_expand_button":{
+        "locator": {
+            "css selector": "button[aria-controls='id-device-specific']"
+        }
+    },
+    "device_details_specific_policy_no_policy_warning_message": {
+        "locator": {
+            "css selector": "#id-device-specific p:nth-of-type(1)"
+        },
+        "localization": {
+            "en": "No Device-Specific Policy Found"
+        }
+    },
+    "device_details_specific_policy_no_policy_warning_message_end_part": {
+        "locator": {
+            "css selector": "#id-device-specific p:nth-of-type(2)"
+        },
+        "localization": {
+            "en": "You can edit policy settings that apply to this device only."
+        }
+    },
+    "device_details_specific_policy_edit_btn": {
+        "locator": {
+            "css selector": "button#device-policy-preview-accordion-button"
+        },
+        "localization": {
+            "en": "Edit"
+        }
+    },
+    "edit_specific_policy_table_checkbox": {
+        "locator": {
+            "css selector": "thead .vn-checkbox__span"
+        }
+    },
+    "edit_specific_policy_next_btn": {
+        "locator": {
+            "css selector": "#nextBtn"
+        }
+    },
+    "edit_specific_policy_remove_btn": {
+        "locator": {
+            "css selector": "#createBtn"
+        }
+    },
+    "device_specific_policy_settings_card":{
+        "locator":{
+            "css selector": "div#accordion-settings div[aria-controls='{}']"
+        }
+    },
+    "ignore_unsupported_item_toggle":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Ignore Unsupported Item')]"
+        }
+    },
+    "ignore_unsupported_item_toggle_work_around":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'Ignore Unsupported Item')])[1]"
+        }
+    },
+    "device_specific_policy_device_property_value_txt": {
+        "locator": {
+            "css selector": "input[id='{}.value']"
+        }
+    },
+    "policy_settigs_search_txt": {
+        "locator": {
+            "css selector": "input[id='id-select-policy-attribute-search']"
+        }
+    },
+    "device_specific_name_policy": {
+        "locator": {
+            "css selector": "button[aria-controls*='{}']"
+        }
+    },
+    "solution_devices_details_security": {
+        "locator": {
+            "css selector":"[data-testid='device-security-text']"
+        }
+    },
+    "endpoint_security_devices_detail_name":{
+        "locator": {
+            "css selector": "#accordion-one-item [aria-controls='accordionItem1']"
+        }
+    },
+    "devices_desc":{
+        "locator": {
+            "css selector": "[data-testid='device-subtitle']"
+        },
+        "localization": {
+            "en": "Select devices to view and monitor in the organization."
+        }
+    },
+    "devices_tab":{
+        "locator": {
+            "xpath": "//*[@id='1']"
+        }
+    },
+    "assigned-tab":{
+        "locator": {
+            "xpath": "//*[@id='0']"
+        }
+    },
+    "device_name_table_header":{
+	"locator":{
+            "css selector": ["thead #modelName", "thead #deviceName"]
+	}
+    },
+    "device_status_table_header":{
+        "locator":{
+            "css selector": "thead #connectionState"
+	}
+    },
+    "column_option_popup_options_label":{
+        "locator": {
+            "xpath": ".//span[contains(@class, 'checkbox__span--text') and text()='{}']"
+        }
+    },
+    "device_serial_table_header":{
+        "locator":{
+            "css selector": "thead #serialNumber"
+    	}
+    },
+    "change_not_recommended_popup_confirm_button":{
+        "locator":{
+            "css selector":"#idConfirm"
+        }
+    },
+    "proxy_device_settings_checkbox":{
+        "locator":{
+            "xpath": "//input[@id='{}']/parent::span/following-sibling::span"
+        }
+    },
+    "set_options_settings_checkbox":{
+        "locator":{
+            "xpath": "//input[@id='{}.check']/following-sibling::span/following-sibling::span"
+        } 
+    },
+    "ews_language_dropdown":{
+        "locator":{
+            "css selector": "div[id='ews-language.code']"
+        }
+    },
+    "control_panel_language_dropdown":{
+        "locator":{
+            "css selector": "div[id='ews-language.code']"
+        }
+    },
+    "control_panel_language_option":{
+        "locator":{
+            "css selector": "ul li[data-value='language-code.{}']"
+        }
+    },
+    "browser_language_settings_checkbox":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'View Pages in Browser Language')])"
+        }
+    },
+    "printer_language_settings_checkbox":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'View Pages in Printer Language')])"
+        }
+    },
+    "configure_ip_label":{
+        "locator":{
+            "xpath":"//div[contains(text(),'Configuration Server IP Address (v4/v6)')]"
+        }
+    },
+    "device_announcement_agent_server_ip":{
+        "locator":{
+            "css selector":"[id='device-announcement.ip-address']"
+        }
+    },
+    "device_announcement_agent_auth_certificate_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Require Mutual Authentication via Certificates')]"
+        }
+    },
+    "remediation_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Remediation')]"
+            }
+    },
+    "user_requested_tray_first_radio_button":{
+        "locator":{
+            "css selector": "[id='use-requested-tray.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "user_requested_tray_exclusively_radio_button":{
+        "locator":{
+            "css selector": "[id='use-requested-tray.mode'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "manual_feed_first_radio_button":{
+        "locator":{
+            "css selector": "[id='manual-feed.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "manual_feed_cassette_radio_button":{
+        "locator":{
+            "css selector": "[id='manual-feed.mode'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "manual_feed_prompt_unless_loaded":{
+        "locator":{
+            "css selector": "[id='manual-feed-prompt.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "manual_feed_prompt_always":{
+        "locator":{
+            "css selector": "[id='manual-feed-prompt.mode'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "proxy_device_date_month_year_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'DD/MM/YYYY')]"
+        } 
+    },
+    "proxy_device_year_month_date_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'YYYY/MM/DD')]"
+        } 
+    },
+    "proxy_device_month_date_year_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'MM/DD/YYYY')]"
+        } 
+    },
+    "proxy_device_24_hour_format":{
+        "locator":{
+            "xpath": "//span[contains(text(),'24 Hours (24:00:00)')]"
+        }
+    },
+    "proxy_device_12_hour_format":{
+        "locator":{
+            "xpath": "//span[contains(text(),'12 Hours (12:00:00 PM)')]"
+        }
+    },
+    "edit_device_policy_settings_title":{
+        "locator":{
+            "css selector": "h5.createPolicyTitle"
+        },
+        "localization": {
+            "en": "Edit Device-Specific Policy"
+        }
+    },
+    "service_access_code_textbox_disabled":{
+        "locator":{
+            "css selector": "input[id='svc-access-code.value']"
+        }
+    },
+    "file_erase_non_secure_radio_button":{
+        "locator":{
+            "css selector": "[id='file-erase.mode'] label:nth-child(1) span:nth-child(1)"
+        }
+    },
+    "file_erase_secure_fast_erase_radio_button":{
+        "locator":{
+            "css selector": "[id='file-erase.mode'] label:nth-child(2) span:nth-child(1)"
+        }
+    },
+    "copy_tray_paper_options_dropdown":{
+        "locator":{
+            "css selector": "[id='copy-tray.tray']"
+        }
+    },
+    "copy_tray_paper_select_action_dropdown_option":{
+        "locator": {
+            "css selector": "ul[id='copy-tray.tray-listbox'] li"
+        }
+    },
+    "copy_darkness_option_dropdown":{
+        "locator":{
+            "css selector": "[id='copy-darkness.mode']"
+        }
+    },
+    "copy_darkness_select_action_dropdown_option":{
+        "locator": {
+            "css selector": "ul[id='copy-darkness.mode-listbox'] li"
+        }
+    },
+    "copy_sharpness_option_dropdown":{
+        "locator":{
+            "css selector": "[id='copy-sharpness.mode']"
+        }
+    },
+    "copy_sharpness_select_action_dropdown_option":{
+        "locator": {
+            "css selector": "ul[id='copy-sharpness.mode-listbox'] li"
+        }
+    },
+    "copy_optimize_printed_picture_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(1) span:nth-child(3)"
+        }
+    },
+    "copy_optimize_photograph_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "copy_optimize_text_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(3) span:nth-child(3)"
+        }
+    },
+    "copy_optimize_mixed_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(4) span:nth-child(3)"
+        }
+    },
+    "copy_background_cleanup_policy_contextual_footer_select_action_dropdown":{
+        "locator": {    
+            "css selector": "[id='copy-bg-cleanup.mode']"    
+        }    
+    },    
+    "copy_background_cleanup_policy_contextual_footer_select_action_dropdown_options":{   
+        "locator": {    
+            "css selector": "ul[id='copy-bg-cleanup.mode-listbox'] li"   
+        }
+    },
+    "copy_contrast_policy_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": "[id='copy-contrast.mode']"
+        }
+    },
+    "copy_contrast_policy_contextual_footer_select_action_dropdown_options":{
+        "locator": {
+            "css selector": "ul[id='copy-contrast.mode-listbox'] li"
+        }
+    },
+    "time_services_server_address_ip":{
+        "locator":{
+            "css selector":"[id='time-services.server-address']"
+        }
+    },
+    "time_services_port_value":{
+        "locator":{
+            "css selector":"[id='time-services.port']"
+        }
+    },
+    "time_services_hours_value":{
+        "locator":{
+            "css selector":"[id='time-services.sync-hours']"
+        }
+    },
+    "time_services_do_not_sync_network_time_server":{
+        "locator":{
+            "css selector": "[id='time-services.drift-correction'] label:nth-child(1) span:nth-child(3)" 
+        }
+    },
+    "time_services_automatic_sync_custom_network_time_server":{
+        "locator":{
+            "css selector": "[id='time-services.drift-correction'] label:nth-child(3) span:nth-child(3)" 
+        }
+    },
+    "ps_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Allow PS Access')]"
+        }
+    },
+    "pjl_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Allow PJL Access')]"
+        }
+    },
+    "proxy_server_address_txt":{
+        "locator":{
+            "css selector": "[id='proxy-server.address']"
+        }
+    },
+    "proxy_server_port_txt":{
+        "locator":{
+            "css selector": "[id='proxy-server.port']"
+        }
+    },
+    "fax_header_phone_number_text_box":{
+        "locator":{
+            "css selector" : "input[id='fax-header.phone-number']"
+        }
+    },
+    "fax_header_company_name_text_box":{
+        "locator":{
+            "css selector": "input[id='fax-header.company-name']"
+        }
+    },
+    "fax_header_location_dropdown":{
+        "locator":{
+            "css selector": "div[id='fax-header.location']"
+        }
+    },
+    "fax_header_location_option":{
+        "locator":{
+            "css selector": "ul li[data-value='country-code.{}']"
+        }
+    },
+    "device_detail_connectivity_type_widget_header":{
+        "locator": {
+            "css selector": "div[id='item-connectivity-type']"
+        },
+        "localization": {
+            "en": "Connectivity Type"
+        }
+    },
+    "connectivity_type_widget_device_type":{
+        "locator":{
+            "css selector" : "div[class*='ProxyName']"
+        }
+    },
+    "connectivity_type_widget_proxy_status":{
+        "locator":{
+            "css selector": "#item-connectivity-type-body svg+div"
+        }
+    },
+    "connectivity_type_widget_view_details_link":{
+        "locator":{
+            "css selector": "#item-connectivity-type-body svg[aria-label='Chevron Right']"
+        }
+    },
+    "fax_send_and_receive_set_common_job_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[normalize-space()='Set Common Job']/parent::button"
+        }
+    },
+    "fax_send_background_cleanup_dropdown":{
+        "locator":{
+            "css selector":"div[id='common-bg-cleanup']"
+        }
+    },
+    "fax_send_less_specks_option":{
+        "locator":{
+            "css selector":"li[id='common-bg-cleanup-option-8']"
+        }
+    },
+    "fax_send_more_specks_option":{
+        "locator":{
+            "css selector":"li[id='common-bg-cleanup-option-0']"
+        }
+    },
+    "fax_send_normal_option":{
+        "locator":{
+            "css selector":"li[id='common-bg-cleanup-option-2']"
+        }
+    },
+    "fax_send_darkness_dropdown":{
+        "locator":{
+            "css selector":"div[id='common-darkness']"
+        }
+    },
+    "fax_send_darker_option":{
+        "locator":{
+            "css selector":"li[id='common-darkness-option-8']"
+        }
+    },
+    "fax_send_lighter_option":{
+        "locator":{
+            "css selector":"li[id='common-darkness-option-0']"
+        }
+    },
+    "fax_send_darkness_normal_option":{
+        "locator":{
+            "css selector":"li[id='common-darkness-option-4']"
+        }
+    },
+    "fax_send_contrast_dropdown":{
+        "locator":{
+            "css selector":"div[id='common-contrast']"
+        }
+    },
+    "fax_send_contrast_more_option":{
+        "locator":{
+            "css selector":"li[id='common-contrast-option-8']"
+        }
+    },
+    "fax_send_contrast_less_option":{
+        "locator":{
+            "css selector":"li[id='common-contrast-option-0']"
+        }
+    },
+    "fax_send_contrast_normal_option":{
+        "locator":{
+            "css selector":"li[id='common-contrast-option-4']"
+        }
+    },
+    "fax_send_sharpness_dropdown":{
+        "locator":{
+            "css selector":"div[id='common-sharpness']"
+        }
+    },
+    "fax_send_sharper_edges_option":{
+        "locator":{
+            "css selector":"li[id='common-sharpness-option-4']"
+        }
+    },
+    "fax_send_softer_edges_option":{
+        "locator":{
+            "css selector":"li[id='common-sharpness-option-0']"
+        }
+    },
+    "fax_send_sharpness_normal_option":{
+        "locator":{
+            "css selector":"li[id='common-sharpness-option-2']"
+        }
+    },
+    "fax_send_conditions_to_notify_dropdown":{
+        "locator":{
+            "css selector":"div[id='common-notification-condition']"
+        }
+    },
+    "fax_send_notify_if_job_fails_option":{
+        "locator":{
+            "css selector":"ul[id='common-notification-condition-listbox'] li[id='common-notification-condition-option-1']"
+        }
+    },
+    "fax_send_used_to_deliver_notification_dropdown":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-send-common-modal'] div[id='common-notification-method']"
+        }
+    },
+    "fax_send_and_receive_set_common_job_print_option":{
+        "locator":{
+            "css selector":"ul[id='common-notification-method-listbox'] li[id='common-notification-method-option-0']"
+        }
+    },
+    "fax_send_email_address_textfield":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-send-common-modal'] input[id='common-notification-address']"
+        }
+    },
+    "fax_send_set_common_job_save_button":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-send-common-modal'] button:nth-child(2)"
+        }
+    },
+    "fax_send_internet_fax_service_radio_button":{
+        "locator":{
+            "css selector":"div[id='id-fax-send-method'] label:nth-child(2) span:nth-child(2)"
+        },
+       "localization": {
+            "en": "Internet Fax Service"
+        } 
+    },
+    "fax_send_set_internet_fax_service_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[normalize-space()='Set Internet Fax Service']/parent::button"
+        }
+    },
+    "fax_send_set_internet_fax_service_domain_textfield":{
+        "locator":{
+            "css selector":"input[id='internet-domain']"
+        }
+    },
+    "fax_send_set_internet_fax_service_email_address_textfield":{
+        "locator":{
+            "css selector":"input[id='internet-email']"
+        }
+    },
+    "fax_send_set_internt_fax_service_save_button":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-send-internet-modal'] button:nth-child(2)"
+        }
+    },
+    "fax_send_ip_fax_method_option":{
+        "locator":{
+            "xpath": "//input[@value='fax-method.ip-fax']/parent::span/following-sibling::span"
+        }
+    },
+    "fax_send_internal_modem_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[normalize-space()='Internal Modem']"
+        }
+    },
+    "fax_send_and_receive_set_internal_modem_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[normalize-space()='Set Internal Modem']/parent::button"
+        }
+    },
+    "fax_send_error_correction":{
+        "locator":{
+            "xpath": "//input[@id='modem-ecm']/parent::span/following-sibling::span"
+        }
+    },
+    "fax_send_jbig_compression":{
+        "locator":{
+            "xpath": "//input[@id='modem-jbig-compression']/parent::span/following-sibling::span"
+        }
+    },
+    "fax_send_set_internal_modem_option":{
+        "locator":{
+            "xpath": "//span[normalize-space()='Set Internal Modem']/parent::button"
+        }
+    },
+    "fax_send_set_internal_modem_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-fax-send-modem-modal'] button:nth-child(2)"
+        }
+    },
+    "ip_fax_settings_company_name_text_box":{
+        "locator":{
+            "css selector" : "input[id='ip-fax.company-name']"
+        }
+    },
+    "ip_fax_settings_fax_id_text_box":{
+        "locator":{
+            "css selector" : "input[id='ip-fax.fax-id']"
+        }
+    },
+    "retain_print_stored_jobs_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Retain Print Jobs')]"
+        }
+    },
+    "temporary_stored_job_dropdown":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary']"
+        }
+    },
+    "temporary_stored_job_30_minutes_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary-option-0']"
+        }
+    },
+    "temporary_stored_job_1_hour_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary-option-1']"
+        }
+    },
+    "temporary_stored_job_never_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary-option-6']"
+        }
+    },
+    "standard_job_retention_dropdown":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard']"
+        }
+    },
+    "standard_job_retention_30_minutes_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard-option-0']"
+        }
+    },
+    "standard_job_retention_1_hour_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard-option-1']"
+        }
+    },
+    "standard_job_retention_never_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard-option-6']"
+        }
+    },
+    "fax_receive_setting_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Fax Receive')]"
+        }
+    },
+    "fax_receive_paper_selection_dropdown":{
+        "locator":{
+            "css selector":"div[id='common-tray']"
+        }
+    },
+    "fax_receive_paper_selection_tray1":{
+        "locator":{
+            "css selector":"li[id='common-tray-option-1']"
+        }
+    },
+    "fax_receive_paper_selection_tray2":{
+        "locator":{
+            "css selector":"li[id='common-tray-option-2']"
+        }
+    },
+    "fax_receive_paper_selection_auto":{
+        "locator":{
+            "css selector":"li[id='common-tray-option-0']"
+        }
+    },
+    "fax_receive_do_not_notify_dropdown":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-receive-common-modal'] div[id='common-notification-condition']"
+        }
+    },
+    "fax_receive_job_failed_option":{
+        "locator":{
+            "css selector":"li[id='common-notification-condition-option-1']"
+        }
+    },
+    "fax_receive_deliver_notification_dropdown":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-receive-common-modal'] div[id='common-notification-method']"
+        }
+    },
+    "fax_receive_set_common_job_email_textfield":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-receive-common-modal'] input[id='common-notification-address']"
+        }
+    },
+    "fax_receive_set_common_job_save_button":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-receive-common-modal'] button:nth-child(2)"
+        }
+    },
+    "fax_receive_ip_fax_method_option":{
+        "locator":{
+            "css selector": "div[id='id-fax-receive-method'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "fax_receive_set_internal_modem_button":{
+        "locator":{
+            "xpath": "//span[normalize-space()='Set Internal Modem']/parent::button"
+        }
+    },
+    "fax_receive_internal_modem_ringer_volume_dropdown":{
+        "locator":{
+            "css selector": "div[id='modem-ringer-volume']"
+        }
+    },
+    "internal_modem_ringer_volume_high_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-1']"
+        }
+    },
+    "internal_modem_ringer_volume_low_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-2']"
+        }
+    },
+    "internal_modem_ringer_volume_off_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-0']"
+        }
+    },
+    "internal_modem_rings_to_answer_textbox":{
+        "locator":{
+            "css selector": "input[id='modem-rings-to-answer']"
+        }
+    },
+    "set_internal_modem_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-fax-internal-modem-modal'] button:nth-child(2)"
+        }
+    },
+    "address_field_from_address_book_radio_btn":{
+        "locator":{
+            "css selector": "div[id='email-message.restrictions'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "set_email_address_message_button":{
+        "locator":{
+            "css selector": "button[id='setEmailMesssage']" 
+        }
+    },
+    "email_default_from_dropdown":{
+        "locator":{
+            "css selector": "div[id='from']"
+        }
+    },
+    "email_default_from_user_address_option":{
+        "locator":{
+            "css selector": "li[id='from-option-1']"
+        }
+    },
+    "default_from_email_address_text_box":{
+        "locator":{
+            "css selector": "input[id='def-from']"
+        }
+    },
+    "default_from_display_name_text_box":{
+        "locator":{
+            "css selector": "input[id='def-name']"
+        }
+    },
+    "email_address_from_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(2) div:nth-child(2) label>span:nth-child(2)"
+        }
+    },
+    "to_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "div[id='to']"
+        }
+    },
+    "cc_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "div[id='cc']"
+        }
+    },
+    "bcc_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "div[id='bcc']"
+        }
+    },
+    "to_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id='to-option-1']"
+        }
+    },
+    "email_address_to_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(4) label>span:nth-child(2)"
+        }
+    },
+    "cc_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id='cc-option-1']"
+        }
+    },
+    "email_address_cc_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(5) label>span:nth-child(2)"
+        }
+    },
+    "bcc_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id='bcc-option-1']"
+        }
+    },
+    "email_address_bcc_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(6) label>span:nth-child(2)"
+        }
+    },
+    "email_address_subject_text_box":{
+        "locator":{
+            "css selector": "input[id='subject']"
+        }
+    },
+    "email_address_subject_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(7) label>span:nth-child(2)"
+        }
+    },
+    "email_address_message_text_box":{
+        "locator":{
+            "css selector": "[id='message']"
+        }
+    },
+    "email_address_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(8) label>span:nth-child(2)"
+        }
+    },
+    "email_address_message_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-set-email-address-modal'] button:nth-child(2)"
+        }
+    },
+    "allow_invalid_email_address_checkbox":{
+        "locator":{
+            "css selector": "#email-message div:nth-child(3) div:nth-child(3) label>span:nth-child(2)"
+        }
+    },
+    "digitally_email_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[id='email-message'] div:nth-child(5) label>span:nth-child(2)"
+        }
+    },
+    "encrypt_email_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[id='email-message'] div:nth-child(7) label>span:nth-child(2)"
+        }
+    },
+    "energy_settings_inactivity_dropdown":{
+        "locator":{
+            "css selector":"div[id='energy-settings.off-inactivity']"
+        }
+    },
+    "energy_settings_off_inactivity_one_minute_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.off-inactivity-option-0']"
+        }
+    },
+    "energy_settings_off_inactivity_five_minutes_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.off-inactivity-option-1']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_dropdown":{
+        "locator":{
+            "css selector":"div[id='energy-settings.shut-down-inactivity']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_two_hour_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.shut-down-inactivity-option-0']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_four_hour_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.shut-down-inactivity-option-1']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_eight_hour_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.shut-down-inactivity-option-2']"
+        }
+    },
+    "email_scan_settings_printed_picture_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture'] label:nth-child(1) span:nth-child(1)"
+        }
+    },
+    "email_scan_settings_photograph_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture']  label:nth-child(2) span:nth-child(1)"
+        }
+    },
+    "email_scan_settings_text_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture']  label:nth-child(3) span:nth-child(1)"
+        }
+    },
+    "email_scan_settings_mixed_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture']  label:nth-child(4) span:nth-child(1)"
+        }
+    },
+    "auto_send_checkbox":{
+        "locator":{
+            "css selector":"input[id='auto-send.check']"
+        }
+    },
+    "auto_send_every_days_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Days (1-28)')]"
+        }
+    },
+    "auto_send_every_days_and_month_textbox":{
+        "locator":{
+            "css selector":"input[id='value']"
+        }
+    },
+    "auto_send_every_weeks_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Weeks (1-4)')]"
+        }
+    },
+    "auto_send_every_months_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Months (1-6)')]"
+        }
+    },
+    "auto_send_every_pages_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Pages (50-30000)')]"
+        }
+    },
+    "auto_send_to_hp_using_https_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Send to HP Using HTTPS')]"
+        }
+    },
+    "auto_send_to_url_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Send to URL')]"
+        }
+    },
+    "auto_send_to_url_add_button":{
+        "locator":{
+            "css selector":"div[id='auto-send'] div:nth-child(6) button[id='add']"
+        }
+    },
+    "auto_send_to_url_web_address_textbox":{
+        "locator":{
+            "css selector":"div[data-testid='id-simple-table-modal'] div:nth-child(3) input[id='address']"
+        }
+    },
+    "auto_send_add_popup_add_button":{
+        "locator":{
+            "css selector":"div[data-testid='id-simple-table-modal'] button:nth-child(2)"
+        }
+    },
+    "auto_send_to_email_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Send to Email')]"
+        }
+    },
+    "auto_send_to_email_add_button":{
+        "locator":{
+            "css selector":"div[id='auto-send'] div:nth-child(8) button[id='add']"
+        }
+    },
+    "auto_send_to_email_email_address_textbox":{
+        "locator":{
+            "css selector":"div[data-testid='id-simple-table-modal'] div:nth-child(3) input[id='address']"
+        }
+    },
+    "enable_set_color_access_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//span[contains(text(),'Set Custom Color Access')]"
+        }
+    },
+    "restrict_by_application_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//span[contains(text(),'Restrict By Application')]"
+        }
+    },
+    "default_permission_remove_color_radio_button":{
+        "locator":{
+            "css selector": "[id='restrict-color.def-app-perm'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "restrict_color_add_button":{
+        "locator":{
+            "css selector": "button[id='addResistColorPermission']"
+        }
+    },
+    "restirct_color_add_popup_application_name_textbox":{
+        "locator":{
+            "css selector": "input[id='restrict-color-application_name']"
+        }
+    },
+    "restrict_color_add_popup_remove_color_radio_button":{
+        "locator":{
+            "css selector": "[id='restrict-color-radiobutton_permission'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "restrict_color_add_popup_add_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-restrict-color-modal'] button:nth-child(1)"
+        }
+    },
+    "cartridge_threshold_black_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-black.value']"
+        }
+    },
+    "cartridge_threshold_cyan_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-cyan.value']"
+        }
+    },
+    "cartridge_threshold_magenta_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-magenta.value']"
+        }
+    },
+    "cartridge_threshold_yellow_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-yellow.value']"
+        }
+    },
+    "email_notification_settings_do_not_distrub_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Do Not Notify')]"
+        }
+    },
+    "email_notification_settings_notify_job_fails_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify Only If Job Fails')]"
+        }
+    },
+    "email_notification_settings_notify_job_completes_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify When Job Completes')]"
+        }
+    },
+    "email_notification_settings_deliver_notification_print_radio_button":{
+        "locator":{
+            "css selector":"[id='email-notification.method'] label:nth-child(1) span:nth-child(3)"
+        }
+    },
+    "email_notification_settings_deliver_notification_email_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Email')]"
+        }
+    },
+    "email_notification_settings_deliver_notification_email_textbox":{
+        "locator":{
+            "css selector":"input[id='email-notification.address']"
+        }
+    },
+    "network_folder_notification_settings_do_not_disturb_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Do Not Notify')]"
+        }
+    },
+    "network_folder_notification_settings_notify_job_fails_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify Only If Job Fails')]"
+        }
+    },
+    "network_folder_notification_settings_notify_job_completes_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify Only If Job Fails')]"
+        }
+    },
+    "network_folder_notification_settings_deliver_notification_print_radio_button":{
+        "locator":{
+            "css selector":"[id='network-folder-notification.method'] label:nth-child(1) span:nth-child(3)"
+        }
+    },
+    "network_folder_notification_settings_deliver_notification_email_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Email')]"
+        }
+    },
+    "network_folder_notification_settings_deliver_notification_email_textbox":{
+        "locator":{
+            "css selector":"input[id='network-folder-notification.address']"
+        }
+    },
+    "cartridge_very_low_action_black_stop_radio_button":{
+        "locator":{
+            "css selector":"div[id='very-low-action-black.action'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "cartridge_very_low_action_black_prompt_to_continue_radio_button":{
+        "locator":{
+            "css selector":"div[id='very-low-action-black.action'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "cartridge_very_low_action_black_continue_radio_button":{
+        "locator":{
+            "css selector":"div[id='very-low-action-black.action'] label:nth-child(3) span:nth-child(2)"
+        }
+    },
+    "cartridge_very_low_action_color_stop_radio_button":{
+        "locator":{
+            "css selector":"div[id='very-low-action-color.action'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "cartridge_very_low_action_color_prompt_to_continue_radio_button":{
+        "locator":{
+            "css selector":"div[id='very-low-action-color.action'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "cartridge_very_low_action_color_continue_radio_button":{
+        "locator":{
+            "css selector":"div[id='very-low-action-color.action'] label:nth-child(3) span:nth-child(2)"
+        }
+    },
+    "sleep_settings_checkbox":{
+        "locator":{
+            "css selector":"input[id='sleep-settings.check']"
+        }
+    },
+    "sleep_settings_sleep_mode_textbox":{
+        "locator":{
+            "css selector":"input[id='sleep-settings.value']"
+        }
+    },
+    "sleep_settings_wake_all_events_radio_button":{
+        "locator":{
+            "css selector":"div[id='sleep-settings.on-events'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "sleep_settings_wake_network_port_radio_button":{
+        "locator":{
+            "css selector":"div[id='sleep-settings.on-events'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "sleep_settings_wake_power_button_only_radio_button":{
+        "locator":{
+            "css selector":"div[id='sleep-settings.on-events'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "sleep_settings_auto_off_textbox":{
+        "locator":{
+            "css selector":"input[id='sleep-settings.off-value']"
+        }
+    },
+    "email_file_setting_set_file_name_button":{
+        "locator":{
+            "css selector": "button[id='email-file.name.addFileName']"
+        }
+    },
+    "email_file_file_name_prefix_dropdown":{
+        "locator":{
+            "css selector": "div[id='prefix']"
+        }
+    },
+    "email_file_name_prefix_date_option":{
+        "locator":{
+            "css selector": "li[id='prefix-option-1']"
+        }
+    },
+    "email_file_name_prefix_time_option":{
+        "locator":{
+            "css selector": "li[id='prefix-option-5']"
+        }
+    },
+    "email_file_name_prefix_username_option":{
+        "locator":{
+            "css selector": "li[id='prefix-option-6']"
+        }
+    },
+    "email_file_name_prefix_hostname_option":{
+        "locator":{
+            "css selector": "li[id='prefix-option-7']"
+        }
+    },
+    "email_defult_file_name_text_box":{
+        "locator":{
+            "css selector": "input[id='textBox']"
+        }
+    },
+    "email_file_name_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[data-testid='id-file-name-modal'] label span:nth-child(2)"
+        }
+    },
+    "email_file_file_name_suffix_dropdown":{
+        "locator":{
+            "css selector": "div[id='suffix']"
+        }
+    },
+    "email_file_name_suffix_date_option":{
+        "locator":{
+            "css selector": "li[id='suffix-option-1']"
+        }
+    },
+    "email_file_name_suffix_time_option":{
+        "locator":{
+            "css selector": "li[id='suffix-option-5']"
+        }
+    },
+    "email_file_name_suffix_username_option":{
+        "locator":{
+            "css selector": "li[id='suffix-option-6']"
+        }
+    },
+    "email_file_name_suffix_hostname_option":{
+        "locator":{
+            "css selector": "li[id='suffix-option-7']"
+        }
+    },
+    "email_file_name_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-file-name-modal'] button:nth-child(2)"
+        }
+    },
+    "email_file_original_size_dropdown":{
+        "locator":{
+            "css selector": "div[id='email-file.media-size']"
+        }
+    },
+    "email_file_original_size_a4_option":{
+        "locator":{
+            "css selector": "li[id='email-file.media-size-option-6']"
+        }
+    },
+    "email_file_default_output_quality_dropdown":{
+        "locator":{
+            "css selector": "div[id='email-file.quality']"
+        }
+    },
+    "email_file_default_output_quality_high_option":{
+        "locator":{
+            "css selector": "li[id='email-file.quality-option-0']"
+        }
+    },
+    "email_file_default_output_quality_low_option":{
+        "locator":{
+            "css selector": "li[id='email-file.quality-option-1']"
+        }
+    },
+    "email_file_default_output_quality_medium_option":{
+        "locator":{
+            "css selector": "li[id='email-file.quality-option-2']"
+        }
+    },
+    "email_file_default_file_type_dropdown":{
+        "locator":{
+            "css selector": "div[id='email-file.type']"
+        }
+    },
+    "email_file_file_type_jpeg_option":{
+        "locator":{
+            "css selector": "li[id='email-file.type-option-2']"
+        }
+    },
+    "email_file_file_type_pdf_option":{
+        "locator":{
+            "css selector": "li[id='email-file.type-option-4']"
+        }
+    },
+    "email_file_file_type_pdfa_option":{
+        "locator":{
+            "css selector": "li[id='email-file.type-option-5']"
+        }
+    },
+    "email_file_file_type_tiff_option":{
+        "locator":{
+            "css selector": "li[id='email-file.type-option-11']"
+        }
+    },
+    "email_file_default_resolution_dropdown":{
+        "locator":{
+            "css selector": "div[id='email-file.resolution']"
+        }
+    },
+    "email_file_default_resolution_75_dpi_option":{
+        "locator":{
+            "css selector": "li[id='email-file.resolution-option-0']"
+        }
+    },
+    "email_file_default_resolution_150_dpi_option":{
+        "locator":{
+            "css selector": "li[id='email-file.resolution-option-2']"
+        }
+    },
+    "email_file_default_resolution_300_dpi_option":{
+        "locator":{
+            "css selector": "li[id='email-file.resolution-option-5']"
+        }
+    },
+    "email_file_default_resolution_600_dpi_option":{
+        "locator":{
+            "css selector": "li[id='email-file.resolution-option-7']"
+        }
+    },
+    "email_file_compression_dropdown":{
+        "locator":{
+            "css selector": "div[id='email-file.compression']"
+        }
+    },
+    "email_file_copression_normal_option":{
+        "locator":{
+            "css selector": "li[id='email-file.compression-option-1']"
+        }
+    },
+    "email_file_pdf_encryption_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'PDF Encryption')]"
+        }
+    },
+    "email_file_blank_page_suppression_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Blank Page Suppression')]"
+        }
+    },
+    "network_folder_file_setting_file_name_button":{
+        "locator":{
+            "css selector":"button[id='network-folder-file.name.addFileName']"
+        }
+    },
+    "network_folder_file_name_prefix_dropdown":{
+        "locator":{
+            "css selector":"div[id='prefix']"
+        }
+    },
+    "network_folder_file_name_prefix_date_month_year_option":{
+        "locator":{
+            "css selector":"li[id='prefix-option-0']"
+        }
+    },
+    "network_folder_file_name_prefix_time_hours_min_sec_option":{
+        "locator":{
+            "css selector":"li[id='prefix-option-4'"
+        }
+    },
+    "network_folder_file_name_prefix_user_name_option":{
+        "locator":{
+            "css selector":"li[id='prefix-option-5'"
+        }
+    },
+    "network_folder_file_name_prefix_host_name_option":{
+        "locator":{
+            "css selector":"li[id='prefix-option-6'"
+        }
+    },
+    "network_folder_default_file_name_text_field":{
+        "locator":{
+            "css selector":"input[id='textBox']"
+        }
+    },
+    "network_folder_user_editable_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'User Editable')]"
+        }
+    },
+    "network_folder_file_name_suffix_dropdown":{
+        "locator":{
+            "css selector":"div[id='suffix']"
+        }
+    },
+    "network_folder_file_name_suffix_date_month_year_option":{
+        "locator":{
+            "css selector":"li[id='suffix-option-0']"
+        }
+    },
+    "network_folder_file_name_suffix_time_hours_min_sec_option":{
+        "locator":{
+            "css selector":"li[id='suffix-option-4']"
+        }
+    },
+    "network_folder_file_name_suffix_user_name_option":{
+        "locator":{
+            "css selector":"li[id='suffix-option-5']"
+        }
+    },
+    "network_folder_file_name_suffix_host_name_option":{
+        "locator":{
+            "css selector":"li[id='suffix-option-6']"
+        }
+    },
+    "network_folder_file_setting_save_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Save')]/parent::button"
+        }
+    },
+    "network_folder_original_file_dropdown":{
+        "locator":{
+            "css selector":"div[id='network-folder-file.media-size']"
+        }
+    },
+    "network_folder_original_file_a4_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.media-size-option-6']"
+        }
+    },
+    "network_folder_output_quality_dropdown":{
+        "locator":{
+            "css selector":"div[id='network-folder-file.quality']"
+        }
+    },
+    "network_folder_output_quality_low_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.quality-option-1']"
+        }
+    },
+    "network_folder_output_quality_medium_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.quality-option-2']"
+        }
+    },
+    "network_folder_output_quality_high_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.quality-option-0']"
+        }
+    },
+    "network_folder_file_type_dropdown":{
+        "locator":{
+            "css selector":"div[id='network-folder-file.type']"
+        }
+    },
+    "network_folder_file_type_pdf_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.type-option-4']"
+        }
+    },
+    "network_folder_file_type_pdfa_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.type-option-5']"
+        }
+    },
+    "network_folder_file_type_jpeg_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.type-option-2']"
+        }
+    },
+    "network_folder_file_type_tiff_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.type-option-11']"
+        }
+    },
+    "network_folder_resolution_dropdown":{
+        "locator":{
+            "css selector":"div[id='network-folder-file.resolution']"
+        }
+    },
+    "network_folder_resolution_300dpi_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.resolution-option-5']"
+        }
+    },
+    "network_folder_resolution_75dpi_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.resolution-option-0']"
+        }
+    },
+    "network_folder_resolution_150dpi_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.resolution-option-2']"
+        }
+    },
+    "network_folder_resolution_200dpi_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.resolution-option-3']"
+        }
+    },
+    "network_folder_compression_dropdown":{
+        "locator":{
+            "css selector":"div[id='network-folder-file.compression']"
+        }
+    },
+    "network_folder_compression_normal_option":{
+        "locator":{
+            "css selector":"li[id='network-folder-file.compression-option-1']"
+        }
+    },
+    "network_folder_pdf_compression_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'PDF Encryption')]"
+        }
+    },
+    "network_folder_blank_page_supression_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Blank Page Suppression')]"
+        }
+    },
+    "host_plug_and_play_retrieve_from_usb_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Retrieve from USB')]"
+        }
+    },
+    "host_plug_and_play_save_to_usb_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Save to USB')]"
+        }
+    },
+    "digital_sending_allow_use_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Allow Use of Digital Send Service')]"
+        }
+    },
+    "digital_sending_allow_transfer_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Allow Transfer to New Digital Send Service')]"
+        }
+    },
+    "time_zone_select_an_option_dropdown":{
+        "locator":{
+            "css selector":"[id='time-zone.zone']"
+        }
+    },
+    "time_zone_africa_casablanca_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-40']"
+        }
+    },
+    "time_zone_africa_harare_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-47']"
+        }
+    },
+    "time_zone_africa_nairobi_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-60']"
+        }
+    },
+    "time_zone_africa_tripoli_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-52']"
+        }
+    },
+    "time_zone_asia_bangkok_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-79']"
+        }
+    },
+    "time_zone_asia_beirut_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-44']"
+        }
+    },
+    "time_zone_west_center_africa_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-42']"
+        }
+    },
+    "time_zone_dst_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Automatically adjust clock for daylight saving time (DST)')]"
+        }
+    },
+    "ip_address_textbox":{
+        "locator":{
+            "css selector":"[id='ipv4-info.ip-address']"
+        }
+    },
+    "subnet_mask_textbox":{
+        "locator":{
+            "css selector":"[id='ipv4-info.subnet-mask']"
+        }
+    },
+    "default_gateway_textbox":{
+        "locator":{
+            "css selector":"[id='ipv4-info.gateway']"
+        }
+    },
+    "hp_web_services_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'HP Web Services')]"
+        }
+    },
+    "hp_eprint_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'HP ePrint')]"
+        }
+    },
+    "print_apps_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Print Apps')]"
+        }
+    },
+    "device_details_hp_secure_fleet_manager_tab":{
+        "locator": {
+            "css selector": "[id='5']"
+        },
+        "localization": {
+            "en": "HP Secure Fleet Manager Report"
+        }
+    },
+    "bootloader_current_password_textbox":{
+        "locator":{
+            "css selector":"input[id='bootloader-password.current']"
+        }
+    },
+    "bootloader_new_password_textbox":{
+        "locator":{
+            "css selector":"input[id='bootloader-password.new']"
+        }
+    },
+    "bootloader_confirm_password_textbox":{
+        "locator":{
+            "css selector":"div[class*='password css-xr7ni4'] input[id='bootloader-password.new']"
+        }
+    },
+    "edit_setting_popup_save_button":{
+        "locator":{
+            "css selector":"button[data-testid='id-single-mode-edit-view-save']"
+        }
+    },
+    "security_pjl_password_properties_tab_setting_title":{
+        "locator": {
+            "css selector": "div[id='fe-pjl-password'] div[data-testid='id-single-mode-feature-accordian-title']"
+        },
+        "localization": {
+            "en": "Printer Job Language (PJL) Password"
+        }
+    },
+    "properties_tab_pjl_password_textbox":{
+        "locator": {
+            "css selector": "div[id='edit-fe-pjl-password-body'] div:nth-child(1) div:nth-child(1) input"
+        }
+    },
+    "properties_tab_pjl_confirm_password_textbox":{
+        "locator": {
+            "css selector": "div[id='edit-fe-pjl-password-body'] div:nth-child(2) div:nth-child(2) input"
+        }
+    },
+    "security_snmp_v1v2_properties_tab_setting_title":{
+        "locator": {
+            "css selector": "div[id='fe-snmp-v1-v2'] div[data-testid='id-single-mode-feature-accordian-title']"
+        },
+        "localization": {
+            "en": "SNMPv1/v2"
+        }
+    },
+    "snmp_v1v2_read_community_name_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp-v1-v2.read-password']"
+        }
+    },
+    "snmp_v1v2_read_community_name_confirm_password_textbox":{
+        "locator": {
+            "css selector": "div#edit-fe-snmp-v1-v2-body div:nth-child(2) div:nth-child(2) div:nth-child(2) input"
+        }
+    },
+    "snmp_v1v2_read_write_community_name_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp-v1-v2.read-write-password']"
+        }
+    },
+    "snmp_v1v2_read_write_community_name_confirm_password_textbox":{
+        "locator": {
+            "css selector": "div#edit-fe-snmp-v1-v2-body div:nth-child(3) div:nth-child(2) div:nth-child(2) input"
+        }
+    },
+    "security_snmp_v3_properties_tab_setting_title":{
+        "locator": {
+            "css selector": "div[id='fe-snmp-v3'] div[data-testid='id-single-mode-feature-accordian-title']"
+        },
+        "localization": {
+            "en": "SNMPv3"
+        }
+    },
+    "snmp_v3_user_name_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp-v3.user-name']"
+        }
+    },
+    "snmp_v3_authentication_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp-v3.auth-passphrase']"
+        }
+    },
+    "snmp_v3_authentication_confirm_password_textbox":{
+        "locator": {
+            "css selector": "div#edit-fe-snmp-v3-body div:nth-child(3) div:nth-child(2) div:nth-child(2) input"
+        }
+    },
+    "snmp_v3_privacy_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp-v3.privacy-passphrase']"
+        }
+    },
+    "snmp_v3_privacy_confirm_password_textbox":{
+        "locator": {
+            "css selector": "div#edit-fe-snmp-v3-body div:nth-child(4) div:nth-child(2) div:nth-child(2) input"
+        }
+    }
+}

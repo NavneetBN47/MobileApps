@@ -1,0 +1,12 @@
+{
+  "console_text": {
+    "locator": {
+      "xpath": "//android.widget.TextView[contains(@text, 'html')]"
+    }
+  },
+  "toggle_console_btn": {
+    "locator": {
+      "id": "minimize_button"
+    }
+  }
+}

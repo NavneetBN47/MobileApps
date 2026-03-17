@@ -1,0 +1,147 @@
+{
+    "portal_oobe":{
+        "value_prop_page":{
+            "E2E_activate": "web_localized_strings/portal_oobe/ONBP-1982/bg-BG/new_value_prop_landing_page-blt09aec56ed83fee81.json",
+            "Flex_connect": "web_localized_strings/portal_oobe/ONBP-3147/bg-BG/new_value_prop_landing_page-bltf3654e824acaa689.json",
+            "Flex_startscan": "web_localized_strings/portal_oobe/ONBP-3498/bg-BG/temp_new_value_prop_landing_page-blt9e5515ccf54d1d19.json",
+            "Flex_pn": "web_localized_strings/portal_oobe/ONBP-3624/bg-BG/new_value_prop_landing_page-blt015aaafed26ab4d6.json"},
+        "account_type_page":{
+            "SFP":"web_localized_strings/portal_oobe/ONBP-2386/bg-BG/account_type_page-blt5f47cb855808719f.json",
+            "MFP":"web_localized_strings/portal_oobe/ONBP-2386/bg-BG/account_type_page-blte496edfcafaecb1f.json"},
+        "assign_organization_page":{
+            "E2E_activate": "web_localized_strings/portal_oobe/ONBP-2472_update/ONBP-2472/bg-BG/assign_organization-blt419d1760629465c0.json"},
+        "pairing_code_page":{
+            "Flex_connect": "web_localized_strings/portal_oobe/ONBP-2048/bg-BG/pairing_code-blt76527d9b7aa48d3e.json",
+            "E2E_activate": "web_localized_strings/portal_oobe/ONBP-2048/bg-BG/pairing_code-bltd32c76d723904a82.json"},
+        "iris_firmware_update":{
+            "Flex_connect":"web_localized_strings/portal_oobe/ONBP-2048/bg-BG/iris_firmware_update-blt818cccfa51d70c5e.json",
+            "Flex_startscan":"web_localized_strings/portal_oobe/ONBP-3498/bg-BG/temp_iris_firmware_update-bltfbaa3658dbe6f3fc.json"},
+        "hp+_smart_requirments_page":{
+            "E2E_activate":"web_localized_strings/portal_oobe/ONBP-1982/bg-BG/activation-blted0ae4a47dcdb8e8.json"},
+        "pairing_code_page_expired_code":{
+            "Flex_connect":"web_localized_strings/portal_oobe/ONBP-2710/ONBP-2710/bg-BG/error_modal-blt02c361abc40b178e.json",
+            "E2E_activate":"web_localized_strings/portal_oobe/ONBP-2710/ONBP-2710/bg-BG/error_modal-blt88d2563643010c33.json"},
+        "pairing_code_page_biz_model_mismatch":{
+            "Flex_connect":"web_localized_strings/portal_oobe/ONBP-2386/bg-BG/error_modal-blt545de9116344ca4f.json",
+            "E2E_activate":"web_localized_strings/portal_oobe/ONBP-2386/bg-BG/error_modal-bltbc063a59eca47f4f.json"},
+        "printer_name_and_location_page":{
+            "Flex_startscan":"web_localized_strings/portal_oobe/ONBP-3498/bg-BG/temp_printer_name_location-blte53ea2d241752f36.json"},
+        "finish_setup_page_ecp":{
+            "Flex_pn":"web_localized_strings/portal_oobe/ONBP-2048/bg-BG/finish_setup_ecp-bltfbb73f6c21ea7b28.json"}
+        },
+        "psw": {
+                "animation_json": {
+                    "MarconiBase": [
+                        "olex_animations/Marconi/Marconi Base/Ink_Install/Step1_InstallInk_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Ink_Install/Step2_InstallInk_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Ink_Install/Step3_InstallInk_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Ink_Install/Step4_InstallInk_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Load_Paper/Step1_LoadPaper_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Load_Paper/Step2_LoadPaper_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Load_Paper/Step3_LoadPaper_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Load_Paper/Step4_LoadPaper_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Load_Paper/Step5_LoadPaper_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Semi_Alignment/Step1_PrintPage_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Semi_Alignment/Step2_ScanAlignmentPage_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Semi_Alignment/Step3_ScanAlignmentPage_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Semi_Alignment/Step4_ScanAlignmentPage_MarconiBase.json",
+                        "olex_animations/Marconi/Marconi Base/Semi_Alignment/Step5_ScanAlignmentPage_MarconiBase.json"
+                    ],
+                    "MarconiHi": [
+                        "olex_animations/Marconi/Marconi Hi/Auto_Alignment/Alignment_PressContinue_MarconiHI.json",
+                        "olex_animations/Marconi/Marconi Hi/Ink_Install/Step1_InstallInk_MarconiHI.json",
+                        "olex_animations/Marconi/Marconi Hi/Ink_Install/Step2_InstallInk_MarconiHI.json",
+                        "olex_animations/Marconi/Marconi Hi/Ink_Install/Step3_InstallInk_MarconiHI.json",
+                        "olex_animations/Marconi/Marconi Hi/Ink_Install/Step4_InstallInk_MarconiHI.json",
+                        "olex_animations/Marconi/Marconi Hi/Load_Paper/Step1_LoadPaper_MarconiHi.json",
+                        "olex_animations/Marconi/Marconi Hi/Load_Paper/Step2_LoadPaper_MarconiHi.json",
+                        "olex_animations/Marconi/Marconi Hi/Load_Paper/Step3_LoadPaper_MarconiHI.json",
+                        "olex_animations/Marconi/Marconi Hi/Load_Paper/Step4_LoadPaper_MarconiHI.json",
+                        "olex_animations/Marconi/Marconi Hi/Load_Paper/Step5_LoadPaper_MarconiHI.json"
+                    ],
+                    "MoretoBase": [
+                        "olex_animations/Moreto/Moreto_Base/Install Ink/Step1_InstallInk_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Install Ink/Step2_InstallInk_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Install Ink/Step3_InstallInk_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Install Ink/Step4_InstallInk_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Install Ink/Step5_InstallInk_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Load Paper/Step1_LoadPaper_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Load Paper/Step2_LoadPaper_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Load Paper/Step3_LoadPaper_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Load Paper/Step4_LoadPaper_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Load Paper/Step5_LoadPaper_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Semi Alignment/Step1_PrintPage_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Semi Alignment/Step2_ScanAlignmentPage_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Semi Alignment/Step3_ScanAlignmentPage_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Semi Alignment/Step4_ScanAlignmentPage_MoretoBase.json",
+                        "olex_animations/Moreto/Moreto_Base/Semi Alignment/Step5_ScanAlignmentPage_MoretoBase.json"
+                    ],
+                    "VictoriaBase": [
+                        "olex_animations/Victoria/Victoria_Base/Install Ink/Step1_InstallInk_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Install Ink/Step2_InstallInk_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Install Ink/Step3_InstallInk_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Install Ink/Step4_InstallInk_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Load Paper/Step1_LoadPaper_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Load Paper/Step2_LoadPaper_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Load Paper/Step3_LoadPaper_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Load Paper/Step4_LoadPaper_VictoriaBase_Updated.json",
+                        "olex_animations/Victoria/Victoria_Base/Semi Alignment/Step1_PrintSemiAlignment_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Semi Alignment/Step2_ScanAlignmentPage_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Semi Alignment/Step3_ScanAlignmentPage_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Semi Alignment/Step4_ScanAlignmentPage_VictoriaBase.json",
+                        "olex_animations/Victoria/Victoria_Base/Semi Alignment/Step5_ScanAlignmentPage_VictoriaBase.json"
+                    ],
+                    "VictoriaPlus": [
+                        "olex_animations/Victoria/Victoria_Plus/Install Ink/Step1_InstallInk_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Install Ink/Step2_InstallInk_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Install Ink/Step3_Installink_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Install Ink/Step4_InstallInk_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Install Ink/Step5_InstallInk_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Load Paper/Step1_LoadPaper_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Load Paper/Step2_LoadPaper_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Load Paper/Step3_LoadPaper_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/Load Paper/Step4_LoadPaper_VictoriaPlus_Updated.json",
+                        "olex_animations/Victoria/Victoria_Plus/SemiAlignment/Step1_SemiAlignment_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/SemiAlignment/Step2_ScanAlignmentPage_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/SemiAlignment/Step3_ScanAlignmentPage_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/SemiAlignment/Step4_ScanAlignmentPage_VictoriaPlus.json",
+                        "olex_animations/Victoria/Victoria_Plus/SemiAlignment/Step5_ScanAlignmentPage_VictoriaPlus.json"
+                    ],
+                    "Eddington": [
+                        "olex_animations/Kebin/Eddington/Auto_Alignment/Alignment_PressContinue_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Install_Ink/Step1_InstallInk_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Install_Ink/Step2_InstallInk_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Install_Ink/Step3_InstallInk_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Install_Ink/Step4_InstallInk_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Load_Paper/Step1_LoadPaper_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Load_Paper/Step2_LoadPaper_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Load_Paper/Step3_LoadPaper_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Load_Paper/Step4_LoadPaper_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Load_Paper/Step5_LoadPaper_Eddington.json",
+                        "olex_animations/Kebin/Eddington/Load_Paper/Step6_LoadPaper_Eddington.json"
+                    ],
+                    "Elion": [
+                        "olex_animations/Kebin/Elion/Auto_Alignment/Alignment_PressContinue_Elion.json",
+                        "olex_animations/Kebin/Elion/Install_Ink/Step1_InstallInk_Elion.json",
+                        "olex_animations/Kebin/Elion/Install_Ink/Step2_InstallInk_Elion.json",
+                        "olex_animations/Kebin/Elion/Install_Ink/Step3_Install Ink_Elion.json",
+                        "olex_animations/Kebin/Elion/Install_Ink/Step3_InstallInk_Elion.json",
+                        "olex_animations/Kebin/Elion/Install_Ink/Step4_Install Ink_Elion.json",
+                        "olex_animations/Kebin/Elion/Install_Ink/Step4_InstallInk_Elion.json",
+                        "olex_animations/Kebin/Elion/Load_Paper/Step1_LoadPaper_Elion.json",
+                        "olex_animations/Kebin/Elion/Load_Paper/Step2_LoadPaper_Elion.json",
+                        "olex_animations/Kebin/Elion/Load_Paper/Step3_LoadPaper_Elion.json",
+                        "olex_animations/Kebin/Elion/Load_Paper/Step4_LoadPaper_Elion.json",
+                        "olex_animations/Kebin/Elion/Load_Paper/Step5_LoadPaper_Elion.json",
+                        "olex_animations/Kebin/Elion/Load_Paper/Step6_LoadPaper_Elion.json"
+                    ]
+                },
+        "beacon_reset": {
+            "elion":["C2WH2B", "C2XG1B", "C2XF9B", "C2XF9A"],
+            "eddington":["C2WH0A", "C2WH0B"]
+        }
+    },
+    "copydeck_us_en":{
+        "learn_more_modal":"web_localized_strings/portal_oobe/single_sku_learn_more_modal.json"
+    }
+}

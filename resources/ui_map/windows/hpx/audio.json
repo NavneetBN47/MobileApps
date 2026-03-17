@@ -1,0 +1,1627 @@
+{
+    "audio_header": {
+        "locator": {
+            "name": "PC Audio"
+        }
+    },
+    "output_slider": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioOutput_outputSlider_Master_Volume"
+        }
+    },
+    "navigate_audio": {
+        "locator": {
+            "id": "PCAudio_NavigationViewItem_TestID"
+        }
+    },
+    "input_slider": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioInput_inputSlider_Master_Volume"
+        }
+    },
+    "output_mute": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioOutput_Button_mute"
+        }
+    },
+    "output_title": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioOutput_Header_Output"
+        }
+    },
+    "input_title": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioInput_Header_Input"
+        }
+    },
+    "input_mute": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioInput_Button_mute"
+        }
+    },
+    "mic_mode_personal": {
+        "locator": {
+            "name": "Personal"
+        }
+    },
+    "mic_mode_conference": {
+        "locator": {
+            "name": "Conference"
+        }
+    },
+    "preset_movie": {
+        "locator": {
+            "xpath": "//RadioButton[@AutomationId='AUID_PCAudio_Presets_Movie_RadioButton']/Text[@AutomationId='AUID_PCAudio_Presets_Movie_RadioButton']"
+        }
+    },
+    "preset_music": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Music_RadioButton"
+        }
+    },
+    "preset_voice": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Voice_RadioButton"
+        }
+    },
+    "preset_auto": {
+        "locator": {
+            "xpath": "//RadioButton[@AutomationId='AUID_PCAudio_Presets_Auto_RadioButton']/Text[@AutomationId='AUID_PCAudio_Presets_Auto_RadioButton']"
+        }
+    },
+    "immersive_audio_toggle": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_switch_immersiveAudio"
+        }
+    },
+    "immersive_audio_label": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_immersiveAudio"
+        }
+    },
+    "speaker_swap_toggle": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_switch_speakerSwap"
+        }
+    },
+    "speaker_swap_label": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_speakerSwap"
+        }
+    },
+    "speaker_swap_tooltip": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_immersiveAudioTooltip"
+        }
+    },
+    "speaker_swap_tooltip_text": {
+        "locator": {
+            "name": "The internal speakers will be adjusted to the orientation of the screen."
+        }
+    },
+    "dynamic_audio_toggle": {
+        "locator": {
+            "id": "AUID_PCAudio_undefined_switch_hpDynamicAudio"
+        }
+    },
+    "dynamic_audio_label": {
+        "locator": {
+            "id": "AUID_PCAudio_undefined_hpDynamicAudio"
+        }
+    },
+    "sound_tooltip": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_eqTooltip"
+        }
+    },
+    "sound_tooltip_text": {
+        "locator": {
+            "name": "Use the sliders to change the audio"
+        }
+    },
+    "bass_slider": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_bassSlider"
+        }
+    },
+    "treble_slider": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_trebleSlider"
+        }
+    },
+    "width_slider": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_widthSlider"
+        }
+    },
+    "restore_defaults_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_pcAudio_restoreDefaultsButton"
+        }
+    },
+    "config_stereo_btn": {
+        "locator": {
+            "name": "Stereo"
+        }
+    },
+    "config_quad_btn": {
+        "locator": {
+            "name": "Quad"
+        }
+    },
+    "config_51_btn": {
+        "locator": {
+            "name": "5.1"
+        }
+    },
+    "preset_toggle": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_switch_presets"
+        }
+    },
+    "speakerconfig_stereo_btn": {
+        "locator": {
+            "name": "Stereo"
+        }
+    },
+    "speakerconfig_quad_btn": {
+        "locator": {
+            "name": "Quad"
+        }
+    },
+    "speakerconfig_51_btn": {
+        "locator": {
+            "name": "5.1"
+        }
+    },
+    "speakerconfig_expandcaret": {
+        "locator": {
+            "name": "hide caret"
+        }
+    },
+    "noise_reduction_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseReductionComponent_switchNoiseReduction"
+        }
+    },
+    "noise_reduction_btn_off": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseReductionComponent_switchNoiseReduction_Off"
+        }
+    },
+    "noise_removal_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseCancellationComponent_switchNoiseCancellation"
+        }
+    },
+    "noise_removal_btn_on": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseRemovalComponent_switchNoiseRemoval_On"
+        }
+    },
+    "noise_removal_btn_off": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseRemovalComponent_switchNoiseRemoval_Off"
+        }
+    },
+    "eq_sound_tootip": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_eqTooltip"
+        }
+    },
+    "eq_sound_tooltip_message": {
+        "locator": {
+            "name": "Use the sliders to change the audio"
+        }
+    },
+    "noise_removal_text": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseRemovalComponent_noiseRemovalText"
+        }
+    },
+    "noise_eduction_text": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseReductionComponent_noiseReductionText"
+        }
+    },
+    "output_speaker": {
+        "locator": {
+            "name": "Speaker"
+        }
+    },
+    "input_microphone_array": {
+        "locator": {
+            "name": "Microphone Array"
+        }
+    },
+    "mic_mode_text": {
+        "locator": {
+            "id": "AUID_PCAudio_MicModeComponent_micModeText"
+        }
+    },
+    "conference_text": {
+        "locator": {
+            "name": "Conference"
+        }
+    },
+    "personal_text": {
+        "locator": {
+            "name": "Personal"
+        }
+    },
+    "presets_text": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Header"
+        }
+    },
+    "movie_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Movie_RadioButton"
+        }
+    },
+    "sound_text": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_eqAudioHeaderText"
+        }
+    },
+    "sound_tooltips_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_toolTip"
+        }
+    },
+    "bass_text": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_bassText"
+        }
+    },
+    "treble_text": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_trebleText"
+        }
+    },
+    "width_text": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_widthText"
+        }
+    },
+    "equalizer_text": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEQTitle_equalizerHeaderText"
+        }
+    },
+    "equalizer_tooltip": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEQ_toolTip"
+        }
+    },
+    "equalizer_tooltip_txt": {
+        "locator": {
+            "name": "Use the sliders to change the equalizer."
+        }
+    },
+    "equalizer_slider_32volume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_32Slider"
+        }
+    },
+    "equalizer_slider_500volume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_500Slider"
+        }
+    },
+    "equalizer_slider_8kvolume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_8kSlider"
+        }
+    },
+    "conference_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_MicModeComponent_Conference_RadioButton"
+        }
+    },
+    "personal_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_MicModeComponent_Personal_RadioButton"
+        }
+    },
+    "home_audio": {
+        "locator": {
+            "id": "AUID_FeatureCard_FeatureCard_pcaudio-core-text"
+        }
+    },
+    "audio_settings_button": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_settingsButton"
+        }
+    },
+    "settings_audio": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_settingsButton"
+        }
+    },
+    "speak_swap_title": {
+        "locator": {
+            "name": "Speaker Swap"
+        }
+    },
+    "speak_swap_button_on": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_switch_speakerSwap_On"
+        }
+    },
+    "speak_swap_button_off": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_switch_speakerSwap_Off"
+        }
+    },
+    "audio_settings_close": {
+        "locator": {
+            "id": "AUID_PCAudio_SideModal_sideModalCloseIcon"
+        }
+    },
+    "preset_strategy": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Strategy_RadioButton"
+        }
+    },
+    "preset_rpg": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_RPG_RadioButton"
+        }
+    },
+    "audio_shooter": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Shooter_RadioButton"
+        }
+    },
+    "immersive_on_settings": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_immersiveAudio_Text"
+        }
+    },
+    "immersive_toggle_on": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_switch_immersiveAudio_On"
+        }
+    },
+    "close_button_on_settings": {
+        "locator": {
+            "id": "AUID_PCAudio_SideModal_sideModalCloseButton"
+        }
+    },
+    "noice_removal_text": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseRemovalComponent_noiseRemovalText"
+        }
+    },
+    "noice_reduction_text": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseReductionComponent_noiseReductionText"
+        }
+    },
+    "sound_calibration": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_soundCalibrationText"
+        }
+    },
+    "my_Profile_text": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_myProfileText"
+        }
+    },
+    "notify_text": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_checkboxText"
+        }
+    },
+    "intensity_text": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_intensitySliderHeaderText"
+        }
+    },
+    "sound_test_text": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_soundTestText"
+        }
+    },
+    "output_text": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_outputText"
+        }
+    },
+    "balance_text": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_balanceSliderHeaderText"
+        }
+    },
+    "min_text": {
+        "locator": {
+            "id": "AUID_PCAudio_soundCalibrationSlider_SliderMinimumText"
+        }
+    },
+    "max_text": {
+        "locator": {
+            "id": "AUID_PCAudio_soundCalibrationSlider_SliderMaximumText"
+        }
+    },
+    "left_text": {
+        "locator": {
+            "id": "AUID_PCAudio_soundCalibrationSlider_SliderRightText"
+        }
+    },
+    "right_text": {
+        "locator": {
+            "id": "AUID_PCAudio_soundCalibrationSlider_SliderLeftText"
+        }
+    },
+    "reset_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_resetButton"
+        }
+    },
+    "customize_manually_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_customizeButton"
+        }
+    },
+    "start_test_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_ListeningProfile_startTestButton"
+        }
+    },
+    "external_speaker_settings": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerSettingsTitle_Text"
+        }
+    },
+    "speaker_configuration": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_subtitleText"
+        }
+    },
+    "stereo_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_stereoButton"
+        }
+    },
+    "quad_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_quadButton"
+        }
+    },
+    "5.1_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_fiftyOneButton"
+        }
+    },
+    "setup_test_sound": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerSettings_setupTestSoundText"
+        }
+    },
+    "Sound_hide_text": {
+        "locator": {
+            "name": "Setup & Test Soundhide caret"
+        }
+    },
+    "Sound_hide_caret": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerSettings_hideCaretButton"
+        }
+    },
+    "Multi-Streaming_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_multiStreamingText"
+        }
+    },
+    "switchSetMultiStreamOff": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_switchSetMultiStreamOff"
+        }
+    },
+    "Play_Test_btn": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_playTestButton"
+        }
+    },
+    "Front_Left_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerCheckbox_frontLeft"
+        }
+    },
+    "Front_Left_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_frontLeftText"
+        }
+    },
+    "Front_Right_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerCheckbox_frontRight"
+        }
+    },
+    "Front_Right_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_frontRightText"
+        }
+    },
+    "switchSetMultiStreamOn": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_switchSetMultiStreamOn"
+        }
+    },
+    "Front_left_ft_combobox": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_leftSelectdropdown"
+        }
+    },
+    "Front_left_db_combobox": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_leftNextSelectdropdown"
+        }
+    },
+    "Front_left_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerCheckbox_frontLeft"
+        }
+    },
+    "Front_right_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerCheckbox_frontRight"
+        }
+    },
+    "Back_left_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerCheckbox_backLeft"
+        }
+    },
+    "Back_right_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerCheckbox_backRight"
+        }
+    },
+    "Front_left_ft_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_leftSelectdropdown"
+        }
+    },
+    "Front_left_db_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_leftNextSelectdropdown"
+        }
+    },
+    "Front_left_db_30": {
+        "locator": {
+            "name": "30 ft"
+        }
+    },
+    "Front_left_db_1": {
+        "locator": {
+            "name": "+1 dB"
+        }
+    },
+    "noiseremoval_tooltip": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseCancellationComponent_toolTip"
+        }
+    },
+    "noisereduction_tooltip": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseReductionComponent_toolTip"
+        }
+    },
+    "audio_setting_text": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Text[@ClassName=\"TextBlock\"][2]"
+        }
+    },
+    "general_features_text": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Text[@ClassName=\"TextBlock\"][3]"
+        }
+    },
+    "immersive_audio_text": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Text[@ClassName=\"TextBlock\"][4]"
+        }
+    },
+    "speaker_swap_text": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Text[@ClassName=\"TextBlock\"][4]"
+        }
+    },
+    "auto_preset_text": {
+        "locator": {
+            "xpath": "//RadioButton[@AutomationId='AUID_PCAudio_Presets_Auto_RadioButton']/Text[@AutomationId='AUID_PCAudio_Presets_Auto_RadioButton']"
+        }
+    },
+    "back_left_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_backLeftText"
+        }
+    },
+    "back_right_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_backRightText"
+        }
+    },
+    "subwoofer_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_subwooferText"
+        }
+    },
+    "center_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_centerText"
+        }
+    },
+    "multi_streaming_text": {
+        "locator": {
+            "id": "AUID_PCAudio_externalSpeakerSettings_multiStreamingText"
+        }
+    },
+    "setup_and_test_soundhide_caret": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerSettings_hideCaretButton"
+        }
+    },
+    "to_expand_caret": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerSettings_bottomCaret"
+        }
+    },
+    "to_collapse_caret": {
+        "locator": {
+            "id": "AUID_PCAudio_ExternalSpeakerSettings_topCaret"
+        }
+    },
+    "audio_setting_text_id": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_settingsTitle_Text"
+        }
+    },
+    "general_features_text_id": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_generalFeatures_Text"
+        }
+    },
+    "immersive_audio_text_id": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_immersiveAudio_Text"
+        }
+    },
+    "speaker_swap_text_id": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_speakerSwap_Text"
+        }
+    },
+    "preset_movie_text": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Movie_RadioButton"
+        }
+    },
+    "preset_music_text": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Music_RadioButton"
+        }
+    },
+    "preset_voice_text": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_Voice_RadioButton"
+        }
+    },
+    "preset_auto_text": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_$Auto_Preset_RadioButton"
+        }
+    },
+    "band_eq_tooltip_text": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEQ_toolTip"
+        }
+    },
+    "basic_eq_tooltip_text": {
+        "locator": {
+            "id": "AUID_PCAudio_BasicEQ_toolTip"
+        }
+    },
+    "preset_tooltip_text": {
+        "locator": {
+            "id": "AUID_PCAudio_Presets_toolTip"
+        }
+    },
+    "noise_reduction_tooltip_text": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseReductionComponent_toolTip"
+        }
+    },
+    "noise_removal_tool_tip_text": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseRemovalComponent_toolTip"
+        }
+    },
+    "standalone_app_header": {
+        "locator": {
+            "name": "Personalize your Audio with new and improved experience"
+        }
+    },
+    "standalone_app_contents_one": {
+        "locator": {
+            "name": "Our new audio experience is myHP is much faster, simpler and effective with what you hear and even how you sound."
+        }
+    },
+    "standalone_app_contents_two_title": {
+        "locator": {
+            "name": "Key highlights:"
+        }
+    },
+    "standalone_app_contents_two_text1": {
+        "locator": {
+            "name": "Intelligent Noise Reduction"
+        }
+    },
+    "standalone_app_contents_two_text2": {
+        "locator": {
+            "name": "Fuller resolution audio while watching web streamed video/audio"
+        }
+    },
+    "standalone_app_contents_two_text3": {
+        "locator": {
+            "name": "Modes to capture your voice or multiple voices during conference calls and many more"
+        }
+    },
+    "open_myHP_button": {
+        "locator": {
+            "id": "PrimaryButton"
+        }
+    },
+    "not_now_button": {
+        "locator": {
+            "id": "SecondaryButton"
+        }
+    },
+    "standalone_app_close_button": {
+        "locator": {
+            "id": "Close"
+        }
+    },
+    "search_bar_on_windows": {
+        "locator": {
+            "id": "SearchButton"
+        }
+    },
+    "privacy_settings_open_button": {
+        "locator": {
+            "id": "pp_S_Open"
+        }
+    },
+    "windows_speaker_icon": {
+        "locator": {
+            "xpath": "//Button[@ClassName='SystemTray.OmniButtonRight']"
+        }
+    },
+    "windows_speaker_volume_tray": {
+        "locator": {
+            "name": "Sound output"
+        }
+    },
+    "navigate_pc_audio_module_from_pc_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcaudio-core"
+        }
+    },
+    "windows_system_sound_tab": {
+        "locator": {
+            "id": "Sound"
+        }
+    },
+    "windows_system_sound_input_volume_tab": {
+        "locator": {
+            "id": "SystemSettings_Audio_Input_VolumeValue_Slider"
+        }
+    },
+    "windows_system_sound_more_sound_settings_tab": {
+        "locator": {
+            "id": "SystemSettings_XLinks_CPL_Sound_Link_ButtonEntityItem"
+        }
+    },
+    "system_sound_playback_tab": {
+        "locator": {
+            "name": "Playback"
+        }
+    },
+    "system_sound_recording_tab": {
+        "locator": {
+            "name": "Recording"
+        }
+    },
+    "sound_microphone_array_tab": {
+        "locator": {
+            "name": "Microphone Array"
+        }
+    },
+    "sound_microphone_array_properties_tab": {
+        "locator": {
+            "name": "Properties"
+        }
+    },
+    "sound_microphone_array_properties_levels_tab": {
+        "locator": {
+            "name": "Levels"
+        }
+    },
+    "sound_microphone_array_properties_levels_arrow_tab": {
+        "locator": {
+            "name": "Position"
+        }
+    },
+    "ok_button_on_microphone_array_properties_level": {
+        "locator": {
+            "name": "OK"
+        }
+    },
+    "mute_button_on_input_slider_app": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioInput_Button_mute"
+        }
+    },
+    "system_mute_button_on_input_slider": {
+        "locator": {
+            "name": "Mute microphone"
+        }
+    },
+    "system_unmute_button_on_input_slider": {
+        "locator": {
+            "name": "Unmute microphone"
+        }
+    },
+    "system_microphone_slider_level_value": {
+        "locator": {
+            "id": "1516"
+        }
+    },
+    "scroll_system_sound_window": {
+        "locator": {
+            "id": "ItemsControlScrollViewer"
+        }
+    },
+    "maximize_system_settings": {
+        "locator": {
+            "id": "Maximize"
+        }
+    },
+    "close_microphone_array_properties_window": {
+        "locator": {
+            "xpath": "//Window[@Name='Sound']/Window[@Name='Microphone Array Properties']/TitleBar[@AutomationId='TitleBar']/Button[@Name='Close']"
+        }
+    },
+    "close_sound_window": {
+        "locator": {
+            "xpath": "//Window[@Name='Sound']/TitleBar[@AutomationId='TitleBar']/Button[@Name='Close']"
+        }
+    },
+    "close_settings_window": {
+        "locator": {
+            "id": "Close"
+        }
+    },
+    "settings_sound_input_text": {
+        "locator": {
+            "name": "Input"
+        }
+    },
+    "speaker_device": {
+        "locator": {
+            "xpath": "//Button[starts-with(@Name,'Speaker')]"
+        }
+    },
+    "3.5mm_headphone_input_device": {
+        "locator": {
+            "name": "Headset Microphone (Realtek(R) Audio)"
+        }
+    },
+    "usb_headphone_output_device": {
+        "locator": {
+            "id": "AUID_PCAudio_cardTestID_2"
+        }
+    },
+    "subwoofer_db_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_subwooferDBdropdown"
+        }
+    },
+    "subwoofer_db_dropdown_item": {
+        "locator": {
+            "name": "+1 dB"
+        }
+    },
+    "center_db_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_centerDBdropdown"
+        }
+    },
+    "center_db_dropdown_item": {
+        "locator": {
+            "name": "+1 dB"
+        }
+    },
+    "leftNextSelect_db_dropdown_item": {
+        "locator": {
+            "name": "+1 dB"
+        }
+    },
+    "rightNextSelect_db_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_rightNextSelectdropdown"
+        }
+    },
+    "rightNextSelect_db_dropdown_item": {
+        "locator": {
+            "name": "+1 dB"
+        }
+    },
+    "leftBottomNextSelect_db_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_leftBottomNextSelectdropdown"
+        }
+    },
+    "leftBottomNextSelect_db_dropdown_item": {
+        "locator": {
+            "name": "+1 dB"
+        }
+    },
+    "rightBottomNextSelect_db_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_rightBottomNextSelectdropdown"
+        }
+    },
+    "rightBottomNextSelect_db_dropdown_item": {
+        "locator": {
+            "name": "+1 dB"
+        }
+    },
+    "center_ft_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_centerFTdropdown"
+        }
+    },
+    "center_ft_dropdown_item": {
+        "locator": {
+            "xpath": "//*[@Name='15.1 ft']"
+        }
+    },
+    "leftSelect_ft_dropdown_item": {
+        "locator": {
+            "xpath": "//*[@Name='15.1 ft']"
+        }
+    },
+    "rightSelect_ft_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_rightSelectdropdown"
+        }
+    },
+    "rightSelect_ft_dropdown_item": {
+        "locator": {
+            "xpath": "//*[@Name='15.5 ft']"
+        }
+    },
+    "leftBottomSelect_ft_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_leftBottomSelectdropdown"
+        }
+    },
+    "leftBottomSelect_ft_dropdown_item": {
+        "locator": {
+            "xpath": "//*[@Name='15.1 ft']"
+        }
+    },
+    "rightBottomSelect_ft_dropdown": {
+        "locator": {
+            "id": "AUID_PCAudio_SetupTestSoundComponent_rightBottomSelectdropdown"
+        }
+    },
+    "rightBottomSelect_ft_dropdown_item": {
+        "locator": {
+            "xpath": "//*[@Name='15.1 ft']"
+        }
+    },
+    "adaptive_audio_text": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_adaptiveAudioText"
+        }
+    },
+    "adaptive_audio_toggle_switch_on": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_switch_adaptiveAudio_On"
+        }
+    },
+    "adaptive_audio_toggle_switch_off": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_switch_adaptiveAudio_Off"
+        }
+    },
+    "adaptive_audio_auto_radio_button": {
+        "locator": {
+            "id": "AUID_PCAudio_adaptiveAudio_Auto_RadioButton"
+        }
+    },
+    "adaptive_audio_auto_tooltip": {
+        "locator": {
+            "id": "AUID_PCAudio_adaptiveAudio_toolTip"
+        }
+    },
+    "adaptive_audio_far_from_display": {
+        "locator": {
+            "id": "AUID_PCAudio_adaptiveAudio_Far from display_RadioButton"
+        }
+    },
+    "adaptive_audio_near_to_display": {
+        "locator": {
+            "id": "AUID_PCAudio_adaptiveAudio_Near to display_RadioButton"
+        }
+    },
+    "system__manage_camera_tab": {
+        "locator": {
+            "id": "EntityItemButton"
+        }
+    },
+    "system__manage_camera_disable_tab": {
+        "locator": {
+            "id": "SystemSettings_Camera_DeviceDisable_Button"
+        }
+    },
+    "system_manage_camera_enable_tab": {
+        "locator": {
+            "id": "SystemSettings_Camera_EnableDevice_Button"
+        }
+    },
+    "system_camera_settings_button": {
+        "locator": {
+            "id": "settingsButton"
+        }
+    },
+    "camera_settings_dropdown": {
+        "locator": {
+            "name": "Camera settings"
+        }
+    },
+    "open_camera_system_settings": {
+        "locator": {
+            "name": "Open camera system settings"
+        }
+    },
+    "yes_button_to_open_camera_system_settings": {
+        "locator": {
+            "id": "Button1"
+        }
+    },
+    "manage_camera_settings_window": {
+        "locator": {
+            "id": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel"
+        }
+    },
+    "my_hp_window": {
+        "locator": {
+            "id": "AD2F1837.myHP_v10z8vjag6ke6!App"
+        }
+    },
+    "audio_control_page_from_pc_device": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureItem_pcaudio-core-text"
+        }
+    },
+    "pc_device_page_and_audio_control": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pcaudio-core"
+        }
+    },
+    "home_page_and_audio_control": {
+        "locator": {
+            "id": "AUID_PCAudio_NavBreadcrumb_Welcome-core"
+        }
+    },
+    "audio_control_header_on_home_page": {
+        "locator": {
+            "id": "AUID_PCAudio_NavBreadcrumb_Pcaudio-core"
+        }
+    },
+    "headset_device": {
+        "locator": {
+            "xpath": "//Button[starts-with(@Name,'Headset Earphone')]"
+        }
+    },
+    "audio_control_output_master_volume_slider": {
+        "locator": {
+            "name": "Output master volume"
+        }
+    },
+    "audio_control_speaker_volume_slider": {
+        "locator": {
+            "name": "Speaker volume"
+        }
+    },
+    "audio_control_speaker_default_output_radio_button": {
+        "locator": {
+            "name": "Set Speaker to default"
+        }
+    },
+    "audio_control_headset_earphone_volume_slider": {
+        "locator": {
+            "name": "Headset Earphone volume"
+        }
+    },
+    "audio_control_headset_earphone_default_radio_button": {
+        "locator": {
+            "name": "Set Headset Earphone to default"
+        }
+    },
+    "audio_control_input_microphone_array_volume_slider": {
+        "locator": {
+            "name": "Microphone Array volume"
+        }
+    },
+    "audio_control_restore_button": {
+        "locator": {
+            "id": "ButtonRestore"
+        }
+    },
+    "equalizer_slider_64volume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_64Slider"
+        }
+    },
+    "equalizer_slider_125volume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_125Slider"
+        }
+    },
+    "equalizer_slider_250volume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_250Slider"
+        }
+    },
+    "equalizer_slider_1kvolume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_1kSlider"
+        }
+    },
+    "equalizer_slider_2kvolume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_2kSlider"
+        }
+    },
+    "equalizer_slider_4kvolume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_4kSlider"
+        }
+    },
+    "equalizer_slider_16kvolume": {
+        "locator": {
+            "id": "AUID_PCAudio_BandEqComponent_16kSlider"
+        }
+    },
+    "microphone_usb_audio_external_input_device": {
+        "locator": {
+            "xpath": "//Button[starts-with(@Name,'Microphone Array (Intel® Smart Sound Technology for Digital Micr')][starts-with(@AutomationId,'AUID_PCAudio_AudioInput_')]/Text[@ClassName='TextBlock'][starts-with(@Name,'Microphone Array (Intel® Smart Sound Technology for Digital Micr')]"
+        }
+    },
+    "internal_microphone_input_device": {
+        "locator": {
+            "name": "Stereo Mix (Realtek(R) Audio)"
+        }
+    },
+    "noise_removal_toggle_off": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseRemovalComponent_switchNoiseRemoval_Off"
+        }
+    },
+    "noise_reduction_toggle_on": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseReductionComponent_switchNoiseReduction_On"
+        }
+    },
+    "noise_removal_tool_tip": {
+        "locator": {
+            "name": "This feature will remove background noise coming from your speaker"
+        }
+    },
+    "noise_reduction_tool_tip": {
+        "locator": {
+            "name": "This feature will remove background noise coming from your microphone"
+        }
+    },
+    "noise_removal_toggle_on": {
+        "locator": {
+            "id": "AUID_PCAudio_NoiseRemovalComponent_switchNoiseRemoval_On"
+        }
+    },
+    "usb_headset_input_device": {
+        "locator": {
+            "id": "AUID_PCAudio_cardTestID_0"
+        }
+    },
+    "studio_recording_text": {
+        "locator": {
+            "id": "AUID_PCAudio_MicModeComponent_Studio Recording_RadioButton_Text"
+        }
+    },
+    "studio_recording_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_MicModeComponent_Studio Recording_RadioButton"
+        }
+    },
+    "add_Application_button": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Add_Application_Button"
+        }
+    },
+    "all_Application_icon": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Select_AllApplications_Button"
+        }
+    },
+    "Application_page_header": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_Applications"
+        }
+    },
+    "search_frame_on_application_page": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_SearchApplication"
+        }
+    },
+    "application_items_on_application_page": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_AppItem"
+        }
+    },
+    "access_app_under_application_items": {
+        "locator": {
+            "name": "Access"
+        }
+    },
+    "cancel_button_on_application_page": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_CancelButton"
+        }
+    },
+    "add_button_on_application_page_disabled": {
+        "locator": {
+            "name": "Add"
+        }
+    },
+    "add_button_on_application_page": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsDialog_AddButton"
+        }
+    },
+    "added_app_on_application_list": {
+        "locator": {
+            "name": "Access"
+        }
+    },
+    "delete_button_on_apps": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_Access"
+        }
+    },
+    "delete_dialog_header": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_DeleteModal_TitleTextView"
+        }
+    },
+    "delete_dialog_description": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_DeleteModal_DescriptionTextView"
+        }
+    },
+    "cancel_button_on_delete_dialog": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Cancel_Button"
+        }
+    },
+    "continue_button_on_delete_dialog": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Continue_Button"
+        }
+    },
+    "calculator_under_application_items": {
+        "locator": {
+            "name": "Calculator"
+        }
+    },
+    "calculator_on_application_list": {
+        "locator": {
+            "name": "Calculator"
+        }
+    },
+    "hp_privacy_settings_app_under_application_items": {
+        "locator": {
+            "name": "HP Privacy Settings"
+        }
+    },
+    "hp_privacy_settings_app_on_application_list": {
+        "locator": {
+            "name": "HP Privacy Settings"
+        }
+    },
+    "camera_under_application_items": {
+        "locator": {
+            "name": "Camera"
+        }
+    },
+    "clock_under_application_items": {
+        "locator": {
+            "name": "Clock"
+        }
+    },
+    "myhp_under_application_items": {
+        "locator": {
+            "name": "myHP"
+        }
+    },
+    "hpSmart_under_application_items": {
+        "locator": {
+            "name": "HP Smart"
+        }
+    },
+    "left_arrow_on_application_list": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Scroll_Left_Button"
+        }
+    },
+    "right_arrow_on_application_list": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Scroll_Right_Button"
+        }
+    },
+    "calendar_under_application_items": {
+        "locator": {
+            "name": "Calendar"
+        }
+    },
+    "disney+_on_application_list": {
+        "locator": {
+            "name": "Disney+"
+        }
+    },
+    "aiqiyi_on_application_list": {
+        "locator": {
+            "name": "爱奇艺"
+        }
+    },
+    "tencent_on_application_list": {
+        "locator": {
+            "name": "腾讯视频"
+        }
+    },
+    "myhp_on_task_bar": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'AD2F1837.myHP_v10z8vjag6ke6!App') or contains(@AutomationId, 'Appid: AD2F1837.myHP_v10z8vjag6ke6!App')]"
+        }
+    },
+    "tencent_on_task_bar": {
+        "locator": {
+            "id": "Appid: 903DB504.56054E940A214_a99ra4d2cbcxa!QQLive"
+        }
+    },
+    "aiqiyi_on_task_bar": {
+        "locator": {
+            "id": "Appid: 0C72C7CD.BETA_atj5cpqqdhzyp!IQIYI"
+        }
+    },
+    "internal_speaker_on_thompson": {
+        "locator": {
+            "name": "Microphone Array (Intel® Smart Sound Technology for Digital Microphones)"
+        }
+    },
+    "internal_speaker_on_arti-a": {
+        "locator": {
+            "name": "Speakers (Realtek(R) Audio)"
+        }
+    },
+    "output_mic_icon": {
+        "locator": {
+            "id": "AUID_PCAudio_AudioOutput_Button_mute"
+        }
+    },
+    "headphone_plugin_pc": {
+        "locator": {
+            "name": "Headphone (Realtek(R) Audio)"
+        }
+    },
+    "immersive_toggle_off": {
+        "locator": {
+            "id": "AUID_PCAudio_SidePanel_switch_immersiveAudio_Off"
+        }
+    },
+    "close_btn_warranty": {
+        "locator": {
+            "xpath": "//Window[@ClassName='Windows.UI.Core.CoreWindow']/Button[@ClassName='DynamicAutomationPeer']"
+        }
+    },
+    "app_in_app_list": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Select_Application_Button"
+        }
+    },
+    "delete_on_hp_smart_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_HP Smart"
+        }
+    },
+    "delete_on_clock_app": {
+        "locator": {
+            "id": "AUID_ContextAware_AppSettingsBar_Delete_Application_Button_Clock"
+        }
+    },
+    "close_calculator_app_button": {
+        "locator": {
+            "name": "Close Calculator"
+        }
+    },
+    "continue_button": {
+        "locator": {
+            "id": "AUID_PCAudio_RestoreWarningModal_Continue"
+        }
+    },
+    "restore_default_continue_button": {
+        "locator": {
+            "id": "AUID_PCAudio_RestoreWarningModal_Continue"
+        }
+    },
+    "restore_default_dialog_header": {
+        "locator": {
+            "id": "AUID_PCAudio_RestoreWarningModal_restoreToGlobalSettings_Header"
+        }
+    },
+    "restore_default_dialog_content_1": {
+        "locator": {
+            "id": "AUID_PCAudio_RestoreWarningModal_restoreToGlobalSettingsMessage"
+        }
+    },
+    "restore_default_dialog_content_2": {
+        "locator": {
+            "id": "AUID_PCAudio_RestoreWarningModal_DO_NOT_SHOW_AGAIN_CHECKBOX_TEXT"
+        }
+    },
+    "restore_default_dialog_content_2_checkbox": {
+        "locator": {
+            "id": "AUID_PCAudio_RestoreWarningModal_DO_NOT_SHOW_AGAIN_CHECKBOX"
+        }
+    },
+    "restore_default_dialog_cancel_button": {
+        "locator": {
+            "id": "AUID_PCAudio_RestoreWarningModal_Cancel_Button"
+        }
+    },
+    "restore_default_dialog_x_button": {
+        "locator": {
+            "name": "pcAudio.close"
+        }
+    },
+    "headset_output_for_mm": {
+        "locator": {
+            "name": "Headset Microphone (Realtek(R) Audio)"
+        }
+    },
+    "headset_usb": {
+        "locator": {
+            "name": "Headset Earphone (Plantronics Blackwire 3220 Series)"
+        }
+    },
+    "headset_usb_output": {
+        "locator": {
+            "name": "Headset Microphone (Plantronics Blackwire 3220 Series)"
+        }
+    },
+    "headset_usb_input": {
+        "locator": {
+            "name": "Headset Microphone (Plantronics C320-M)"
+        }
+    },            
+    "speaker_on_bopeep": {
+        "locator": {
+            "name": "Speakers (Realtek(R) Audio)"
+        }
+    },
+    "headphones_plugin_pc_arti": {
+        "locator": {
+            "name": "Headphones (Realtek(R) Audio)"
+        }
+    },
+    "click_on_speaker": {
+        "locator": {
+            "xpath": "//Button[starts-with(@Name,'Speaker')]"
+        }
+    },
+    "usb_headphone_input_device": {
+        "locator": {
+            "name": "Headset Microphone (Plantronics C320-M)"
+        }
+    },
+    "microphone_array_amd_input_device": {
+        "locator": {
+            "name": "Microphone Array (AMD Audio Device)"
+        }
+    },
+    "usb_headphone_output_device_grogu": {
+        "locator": {
+            "name": "Mindframe Headset (OMEN Mindframe)"
+        }
+    },
+    "internal_speaker_output_device_grogu": {
+        "locator": {
+            "xpath": "//*[contains(@Name, 'Speaker')]"
+        }
+    },
+    "voice_preset":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCAudio_Presets_Voice_RadioButton']/*[@AutomationId='AUID_PCAudio_Presets_Voice_RadioButton']"
+        }
+    },
+    "windows_system_sound_output_volume_tab": {
+        "locator": {
+            "id": "SystemSettings_Audio_Output_VolumeValue_Slider"
+        }
+    },
+    "internal_speaker_output_device_thompson": {
+        "locator": {
+            "name": "Speaker (Realtek(R) Audio)"
+        }
+    },
+    "mic_mode_tooltip": {
+        "locator": {
+            "id": "AUID_PCAudio_MicModeComponent_toolTip"
+        }
+    },
+    "usb_speaker_output_device": {
+        "locator": {
+            "name": "Headset Earphone (Plantronics C320-M)"
+        }
+    },
+    "bluetooth_speaker_output_device": {
+        "locator": {
+            "name": "Headset Earphone (Poly BT700)"
+        }
+    },
+    "microphone_array": {
+        "locator": {
+            "xpath": "//Button[starts-with(@Name,'Microphone Array')]"
+        }
+    },
+    "headset_usb_mic": {
+        "locator": {
+            "xpath": "//Button[starts-with(@Name,'Headset Microphone (Plantronics Blackwire')]"
+        }
+    },
+    "headset_usb_starts": {
+        "locator": {
+            "xpath": "//Button[starts-with(@Name,'Headset Microphone')]"
+        }
+    },
+    "bang_and_olufsen_logo": {
+        "locator": {
+            "id": "AUID_AUDIOCONTROL_Audio_Controls_View_SVG_BangOlufsen_Logo"
+        }
+    },
+    "dts_logo_less_than_24c1": {
+        "locator": {
+            "id": "AUID_AUDIOCONTROL_Audio_Controls_View_SVG_DTSLegacy_Logo"
+        }
+    },
+    "hyperx_logo": {
+        "locator": {
+            "name": "HyperX"
+        }
+    },
+    "dtsx_logo_24c1_and_above": {
+        "locator": {
+            "id": "AUID_AUDIOCONTROL_Audio_Controls_View_SVG_DTSX_Logo"
+        }
+    },
+    "bo_logo": {
+        "locator": {
+            "id": "AUID_AUDIOCONTROL_Audio_Controls_View_SVG_BO_Logo"
+        }
+    }
+}

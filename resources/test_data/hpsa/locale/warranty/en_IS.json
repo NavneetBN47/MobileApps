@@ -1,0 +1,24 @@
+{
+  "toast": {
+    "error": {
+      "default": "Something went wrong, please try again."
+    }
+  },
+  "stage": {
+    "no-service": "There is no service to load.",
+    "form": {
+      "result": "Result",
+      "biz-model": "Biz Model",
+      "cloud-id": "Cloud Id",
+      "button": {
+        "confirm": "End Service"
+      }
+    }
+  },
+  "your-react-component-here": {
+    "header": "This is your super awesome React Component",
+    "checkbox": {
+      "label": "You did it!"
+    }
+  }
+}

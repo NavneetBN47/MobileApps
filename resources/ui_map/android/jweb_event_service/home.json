@@ -1,0 +1,22 @@
+{
+  "publishers_tab_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Publishers']"
+    }
+  },
+  "subscribers_tab_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Subscribers']"
+    }
+  },
+"events_tab_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Events']"
+    }
+  },
+  "weblet_tab_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Weblet']"
+    }
+  }
+}

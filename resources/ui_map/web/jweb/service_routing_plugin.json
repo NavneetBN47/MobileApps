@@ -1,0 +1,159 @@
+{
+  "get_services_test_button": {
+    "locator": {
+      "css selector": "#getServicesTestButton"}
+  },
+  "get_services_result_txt": {
+    "locator": {
+      "css selector": "#getServicesResult"
+    }
+  },
+  "refresh_available_services_from_repo": {
+    "locator": {
+      "css selector": "#refreshServiceAvailabilityToggle"
+    }
+  },
+  "service_availability_service_id": {
+    "locator": {
+      "css selector": "#serviceId",
+      "xpath": "//XCUIElementTypeButton[contains(@name,'getServiceAvailability()')]/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "get_service_availability_test_button": {
+    "locator": {
+      "css selector": "div#getServiceAvailabilityItem button#getServiceAvailabilityTestButton"
+    }
+  },
+  "get_service_availability_result_txt": {
+    "locator": {
+      "css selector": "#getServiceAvailabilityResult"
+    }
+  },
+  "launch_service_svc_id": {
+    "locator": {
+      "css selector": "#launchServiceOptionsServiceId",
+      "xpath": "//XCUIElementTypeButton[contains(@name,'launchService()')]/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "launch_service_test_btn": {
+      "locator": {
+        "css selector": "div#launchServiceItem button#getServiceAvailabilityTestButton"
+      }
+    },
+  "set_container_toggle_switch": {
+    "locator": {
+      "css selector": "#belowNavBarToggle"
+    }
+  },
+  "set_container_close_behaviour_options": {
+    "locator": {
+      "css selector": "#launchServiceOptionsContainerCloseBehaviourOptionSelect"
+    }
+  },
+  "return_to_caller_option": {
+    "locator": {
+      "css selector": "#launchServiceOptionsContainerCloseBehaviourOptionSelect-option-0"
+    }
+  },
+  "invalid_option": {
+    "locator": {
+      "css selector": "#launchServiceOptionsContainerCloseBehaviourOptionSelect-option-1"
+    }
+  },
+  "service_launch_data": {
+    "locator": {
+      "css selector": "#serviceLaunchDataField",
+      "xpath": "//XCUIElementTypeOther[@name='Service Launch Data (JSON String)']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "service_launch_result_txt": {
+    "locator": {
+      "css selector": "#launchServiceResult"
+    }
+  },
+  "get_service_instance_svc_id": {
+    "locator": {
+      "css selector": "#getLaunchServiceOptionsServiceId"
+    }
+  },
+  "get_service_instance_test_btn": {
+    "locator": {
+      "css selector": "div#serviceInstanceItem button#getServiceAvailabilityTestButton"
+    }
+  },
+  "get_service_instance_result_txt": {
+    "locator": {
+      "css selector": "#getServiceInstanceResult"
+    }
+  },
+  "service_routing_add_listener": {
+    "locator": {
+      "css selector": "#addListenerButton"
+    }
+  },
+  "service_routing_add_listener_result_txt": {
+    "locator": {
+      "css selector": "#addListenerResult"
+    }
+  },
+  "service_routing_add_listener_event_txt": {
+    "locator": {
+      "css selector": "#addListenerEvents"
+    }
+  },
+  "add_listener_event_close_btn": {
+    "locator": {
+      "css selector": "button[aria-label='close']"
+    }
+  },
+  "notification_toast_text": {
+    "locator": {
+      "css selector": "div[role='alert']"
+    }
+  },
+  "transition_type_drop_down_menu": {
+    "locator": {
+      "css selector": "#launchServiceOptionsTransitionTypeOptionSelect"
+    }
+  },
+  "transition_type_none": {
+    "locator": {
+      "css selector": "#launchServiceOptionsTransitionTypeOptionSelect-option-0"
+    }
+  },
+  "transition_type_forward": {
+    "locator": {
+      "css selector": "#launchServiceOptionsTransitionTypeOptionSelect-option-1"
+    }
+  },
+  "transition_type_backward": {
+    "locator": {
+      "css selector": "#launchServiceOptionsTransitionTypeOptionSelect-option-2"
+    }
+  },
+  "launch_service_options_availability_test_btn": {
+    "locator": {
+      "css selector": "#getLaunchServiceOptionsAvailabilityTestButton"
+    }
+  },
+  "plugin_header_title": {
+    "locator": {
+      "css selector": ".header-title"
+    }
+  },
+  "close_service_instance_test_button": {
+    "locator": {
+      "css selector": "div#closeServiceInstanceItem button#closeServiceInstanceTestButton"
+    }
+  },
+  "display_under_navbar_switch": {
+    "locator": {
+      "css selector": "#displayUnderNavBarToggle"
+    }
+  },
+  "service_options_availability_result_text": {
+    "locator": {
+      "css selector": "#getLaunchServiceInstanceOptionsResult"
+    }
+  }
+}

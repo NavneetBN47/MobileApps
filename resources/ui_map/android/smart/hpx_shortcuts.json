@@ -1,0 +1,449 @@
+{
+    "shortcuts_screen_title":{
+        "locator": {
+            "xpath":"//*[@text='Shortcuts']"
+        }
+    },
+    "shortcuts_edit_btn":{
+        "locator": {
+            "xpath":"//*[@text='Edit']"
+        }
+    },
+    "edit_shortcuts_screen_title":{
+        "locator": {
+            "xpath":"//*[@text='Edit Shortcut']"
+        }
+    },
+    "edit_shortcut_print_toggle_btn":{
+        "locator": {
+            "xpath":"//*[@resource-id='print-destination-item-toggle']"
+        }
+    },
+    "edit_shortcut_email_toggle_btn":{
+        "locator": {
+            "xpath":"//*[@resource-id='email-destination-item-toggle']"
+        }
+    },
+    "edit_shortcut_save_toggle_btn":{
+        "locator": {
+            "xpath":"//*[@resource-id='save-destination-item-toggle']"
+        }
+    },
+    "continue_btn":{
+        "locator": {
+            "xpath":"//*[@text='Continue']"
+        }
+    },
+    "cancel_shortcut_go_back_btn":{
+        "locator": {
+            "xpath":["//*[@text='Go back']","//android.widget.Button[@text='Cancel']"]
+        }
+    },
+    "cancel_shortcut_yes_cancel_btn":{
+        "locator": {
+            "xpath":"//*[@text='Yes, cancel']"
+        }
+    },
+    "toggle_disabling_confirmation_msg_title":{
+        "locator": {
+            "xpath":"//*[@text='Remove this destination?']"
+        }
+    },
+    "toggle_disabling_remove_btn":{
+        "locator": {
+            "xpath":"//*[@text='Remove']"
+        }
+    },
+    "toggle_disabling_cancel_btn":{
+        "locator": {
+            "xpath":"//*[@text='Cancel']"
+        }
+    },
+    "edit_print_screen_title":{
+        "locator": {
+            "xpath":"//*[@text='Edit Print']"
+        }
+    },
+    "edit_print_copies_dropdown_btn":{
+        "locator": {
+            "xpath":"//android.view.View[@text='Copies']/following-sibling::android.view.View//android.widget.Button[@content-desc='Open']"
+        }
+    },
+    "select_copies_one_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-1']"
+        }
+    },
+    "select_copies_two_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-2']"
+        }
+    },
+    "select_copies_three_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-3']"
+        }
+    },
+    "select_copies_four_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-4']"
+        }
+    },
+    "select_copies_five_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-5']"
+        }
+    },
+    "select_copies_six_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-6']"
+        }
+    },
+    "select_copies_seven_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-7']"
+        }
+    },
+    "select_copies_eight_dropdown_item":{
+        "locator": {
+            "xpath":"//*[@resource-id='select-copies-setting-option-8']"
+        }
+    },
+    "select_color_dropdown_btn":{
+        "locator": {
+            "xpath": "//android.view.View[@text='Color']/following-sibling::android.view.View//android.widget.Button[@content-desc='Open']"
+        }
+    },
+    "two_sided_dropdown_btn":{
+        "locator": {
+            "xpath":"//android.view.View[@text='Two-sided']/following-sibling::android.view.View//android.widget.Button[@content-desc='Open']"
+        }
+    },
+    "select_color_dropdown_item_color":{
+        "locator": {
+            "xpath":"//*[@text='Color' and @resource-id='select-color-setting-option-0']"
+        }
+    },
+    "select_color_dropdown_item_grayscale":{
+        "locator": {
+            "xpath":"//*[@text='Grayscale' and @resource-id='select-color-setting-option-1']"
+        }
+    },
+    "select_two_sided_dropdown_item_off":{
+        "locator": {
+            "xpath":"//*[@text='Off' and @resource-id='select-twosided-setting-option-0']"
+        }
+    },
+    "select_two_sided_dropdown_item_short_edge":{
+        "locator": {
+            "xpath":"//*[@text='Short Edge' and @resource-id='select-twosided-setting-option-1']"
+        }
+    },
+    "select_two_sided_dropdown_item_long_edge":{
+        "locator": {
+            "xpath":"//*[@text='Long Edge' and @resource-id='select-twosided-setting-option-2']"
+        }
+    },
+    "edit_shortcut_email_screen_title":{
+        "locator": {
+            "xpath":"//*[@text='Edit Email' or @text='Add Email']"
+        }
+    },
+    "edit_shortcut_email_receiver_email_id_field":{
+        "locator": {
+            "xpath":"//*[@resource-id='email-receiver-box']"
+        }
+    },
+    "edit_shortcut_invalid_email_id_error_msg":{
+        "locator": {
+            "xpath":"//*[contains(@text, 'Invalid emails:')]"
+        }
+    },
+    "shortcut_settings_screen_title":{
+        "locator": {
+            "xpath":["//*[@text='Shortcut setting']","//android.widget.TextView[@text='Shortcuts']"]
+        }
+    },
+    "save_shortcut_settings_btn":{
+        "locator": {
+            "xpath":"//*[@text='Save Shortcut']"
+        }
+    },
+    "shortcut_settings_cancel_btn":{
+        "locator": {
+            "xpath":"//*[@text='Cancel']"
+        }
+    },
+    "edit_shortcut_email_subject_label":{
+        "locator": {
+            "xpath":"//*[@text='Subject:' and @resource-id='email-subject-box-label']"
+        }
+    },
+    "edit_shortcut_email_subject_field":{
+        "locator": {
+            "xpath":"//*[@resource-id='email-subject-box']"
+        }
+    },
+    "edit_shortcut_email_body_label":{
+        "locator": {
+            "xpath":"//*[@text='Body' and @resource-id='email-body-box-label']"
+        }
+    },
+    "edit_shortcut_email_body_field":{
+        "locator": {
+            "xpath":"//*[@resource-id='email-body-box']"
+        }
+    },
+    "shortcut_edit_save_title":{
+        "locator": {
+            "xpath":"//*[@text='Edit save']"
+        }
+    },
+    "add_new_shortcut_screen_title": {
+        "locator": {
+            "xpath": "//android.widget.TextView[@text='Add new Shortcuts']"
+        }
+    },
+    "create_your_own_shortcut": {
+        "locator": {
+            "xpath": "//android.widget.Button[contains(@text, 'Create your own Shortcut')]"
+        }
+    },
+    "settings_icon": {
+        "locator": {
+            "css selector": "#settings-btn",
+            "xpath": "//android.widget.Button[@resource-id='settings-btn']"
+        }
+    },
+    "shortcuts_back_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Back']"
+        }
+    },
+    "shortcuts_email_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[contains(@text, 'Email')]"
+        } 
+    },
+    "add_new_shortcut_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Plus Add new Shortcut Arrow Right']"
+        }
+    },
+    "google_drive_signin_link":{
+        "locator": {
+            "xpath":["//*[@text='Google Drive Sign In']","//android.widget.Button[@text='Google Drive Sign In' and @package='com.hp.printercontrol.debug']"]
+        }
+    },
+    "one_drive_signin_link":{
+        "locator": {
+            "xpath":"//*[@text='OneDrive Sign In']"
+        }
+    },
+    "dropbox_signin_link":{
+        "locator": {
+            "xpath":"//*[@text='Dropbox Sign In']"
+        }
+    },
+    "google_drive_redirection":{
+        "locator": {
+            "xpath":"//*[@resource-id='headingText']"
+        }
+    },
+    "delete_shortcut_confirmation_msg_title":{
+        "locator": {
+            "xpath":"//*[@text='Delete this Shortcut?']"
+        }
+    },
+    "delete_shortcut_yes_delete_btn":{
+        "locator": {
+            "xpath":"//*[@text='Delete']"
+        }
+    },
+    "delete_shortcut_no_cancel_btn":{
+        "locator": {
+            "xpath":"//*[@text='Cancel']"
+        }
+    },
+    "cancel_this_shortcut_title":{
+        "locator": {
+            "xpath":"//*[@text='Cancel this Shortcut?']"
+        }
+    },
+    "add_new_shortcut_title":{
+        "locator": {
+            "xpath":"//*[@text='Add Shortcut']"
+        }
+    },
+    "shortcuts_add_print_screen_title":{
+        "locator": {
+            "xpath":"//*[@text='Add Print']"
+        }
+    },
+    "edit_shortcut_email_to_field": {
+        "locator": {
+            "xpath": "//*[@resource-id='add-email-destination-btn']"
+        }
+    },
+    "add_save_shortcut_title": {
+        "locator": {
+            "xpath": "//*[@text='Add save']"
+        }
+    },
+    "print_destination_txt": {
+        "locator": {
+            "xpath": "//android.widget.TextView[@text='Print']"
+        }
+    },
+    "email_destination_txt": {
+        "locator": {
+            "xpath": "//android.widget.TextView[@text='Email']"       
+        } 
+    },
+    "save_destination_txt": {
+        "locator": {
+            "xpath": "//android.widget.TextView[@text='Save']"
+        }
+    },
+    "file_type_label": {
+        "locator": {
+            "xpath": "//android.widget.TextView[contains(@text, 'File type')]"
+        }
+    },
+    "shortcut_name_box":{
+        "locator": {
+            "xpath": "//android.widget.EditText[@resource-id='shortcut-name-box']"
+        }
+    },
+    "save_shortcut_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Save Shortcut']"
+        }
+    },
+    "quick_run_toggle_btn": {
+        "locator": {
+            "xpath": 
+                "//android.widget.Button[@text='Quick Run Send immediately after image capture. Skip adjustments, editing, and previe']"
+        }
+    },
+    "img_file_type": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Image (*.jpg)']"
+        } 
+    },
+    "pdf_file_type": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Basic PDF']"
+        }
+    },
+    "add_button": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Add']"
+        }
+    },
+    "color_card_1": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[1]"
+        }
+    },
+    "color_card_2": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[2]"
+        }
+    },
+    "color_card_3": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[3]"
+        }
+    },
+    "color_card_4": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[4]"
+        }
+    },
+    "color_card_5": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[5]"
+        }
+    },
+    "color_card_6": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[6]"
+        }
+    },
+    "color_card_7": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[7]"
+        }
+    },
+    "color_card_8": {
+        "locator": {
+            "xpath": "(//android.widget.Button[@resource-id='color-list-card'])[8]"
+        }
+    },
+    "done_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Done']"
+        }
+    },
+    "shortcut_by_name": {
+        "locator": {
+            "xpath": "//android.widget.Button[contains(@text, '{}') and contains(@text, 'Arrow Right')]"
+        }
+    },
+    "run_this_shortcut_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[@text='Run this Shortcut']"
+        }
+    },
+    "delete_this_shortcut_title": {
+        "locator": {
+            "xpath": "//*[@text='Delete this Shortcut?']"
+        }
+    },
+    "delete_shortcut_btn_delete_btn": {
+        "locator": {
+            "xpath": "//*[@text='Delete']"
+        }
+    },
+    "delete_shortcut_btn_cancel_btn": {
+        "locator": {
+            "xpath": "//*[@text='Cancel']"
+        }
+    },
+    "edit_print_shortcut_created":{
+        "locator": {
+            "xpath": "//*[@text=contains(@text, 'Printer ']"
+        }
+    },
+    "account_selection":{
+        "locator":{
+            "xpath": "//android.view.View[contains(@content-desc, '@gmail.com') and @clickable='true']"
+        }
+    },
+    "your_shortcut_is_running_title": {
+        "locator": {
+            "xpath": "//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/upload_title' and @text='Your Shortcut is running']"
+        }
+    },
+    "view_status_btn": {
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='com.hp.printercontrol.debug:id/upload_button_activity' and @text='View status']"
+        }
+    },
+    "shortcuts_btn_in_your_shortcut_is_running_screen": {
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='com.hp.printercontrol.debug:id/upload_button_more_options' and @text='Shortcuts']"
+        }
+    },
+    "three_dot_in_account": {
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='com.hp.printercontrol.debug:id/upload_button_more_options' and @text='More options']"
+        }
+    },
+    "remove_hp_access_confirmation_msg": {
+        "locator": {
+            "xpath": "//android.widget.TextView[@text='Remove HP access']"
+        }
+    }
+}

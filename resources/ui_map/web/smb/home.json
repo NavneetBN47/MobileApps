@@ -1,0 +1,937 @@
+{
+    "shell_title_bar": {
+        "locator": {
+            "css selector": "div[data-testid*='side-menu'] li:nth-child(1) a span"
+        }
+    },
+    "smb_home_page_header_banner":{
+        "locator": {
+            "css selector":"div[data-testid='welcome']"
+        }
+    },
+    "side_menu_toggle_btn":{
+        "locator":{
+            "css selector":".vn-side-menu__toggle"
+        }
+    },
+    "tutorial_overlay_modal":{
+        "locator":{
+            "css selector":"#finish-setup-tutorial-modals"
+        }
+    },
+    "close_overlay":{
+        "comment": "https://hp-jira.external.hp.com/browse/SMBP-1606",
+        "locator":{
+            "css selector":[".vn-modal__close.css-1jbrth6", ".vn-modal__close", "[aria-label='Close modal']"]
+        }
+    },
+    "tutorial_overlay_modal_step_1_next_btn":{
+        "locator":{
+            "css selector": "[data-testid='step-1-next-btn']"
+        }
+    },
+    "tutorial_overlay_modal_step_2_next_btn":{
+        "locator":{
+            "css selector": "[data-testid='step-2-next-btn']"
+        }
+    },
+    "tutorial_overlay_modal_get_started_btn":{
+        "locator":{
+            "css selector": "[data-testid='step-3-next-btn']"
+        }
+    },
+    "new_printer_added_modal":{
+        "locator":{
+            "css selector": "[aria-describedby='finish-setup-printer-added-modal-label']"
+        }
+    },
+    "new_printer_added_modal_dashboard_home_btn":{
+        "locator":{
+            "css selector": ["[data-testid='go-to-dashboard-btn']", "[data-testid='go-to-printer']"]
+        }
+    },
+    "printer_email_alerts_overlay":{
+        "locator":{
+            "css selector": "[data-testid='email-notification-modal']"
+        }
+    },
+    "printer_email_alerts_overlay_not_now_btn":{
+        "locator":{
+            "css selector": "[data-testid='deny-button']"
+        }
+    },
+    "home_menu_btn":{
+        "locator": {
+            "css selector": ["[data-testid='clientos-react-common-layout-mfe__side-menu-item-Home']", "[data-testid='clientos-react-common-layout-mfe__side-menu-item-link']"]
+        }
+    },
+    "printers_menu_btn":{
+        "locator": {
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__side-menu-item-Printers']"
+        }
+    },
+    "users_menu_btn":{
+        "locator": {
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__side-menu-item-Users']"
+        }
+    },
+    "solutions_menu_btn":{
+        "locator": {
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__side-menu-item-Solutions']"
+        }
+    },
+    "sustainability_menu_btn":{
+        "locator": {
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__side-menu-item-Forest First']"
+        }
+    },
+    "account_menu_btn":{
+        "locator": {
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__side-menu-item-Settings']"
+        }
+    },
+    "hpinstantink_menu_btn":{
+        "locator": {
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__side-menu-item-HP Instant Ink']"
+        }
+    },
+    "status_header_title":{
+        "locator": {
+            "css selector": "div[data-testid='jarvis-react-ecp-status-widget__widget-card-title']"
+        }
+    },
+    "status_mfe_div":{
+        "locator": {
+            "css selector": "div[data-testid='jarvis-react-ecp-status-widget__status-list']"
+        }
+    },
+    "status_mfe_total_printer_btn":{
+        "locator":{
+            "css selector": "div[class*='stratus-list-content-devices']>div[data-testid*='button']"
+        }
+    },
+    "status_mfe_total_users_btn":{
+        "locator":{
+            "css selector": "div[class*='stratus-list-content-users']>div[data-testid*='button']"
+        }
+    },
+    "status_header_devices_totalPrinters":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-devices']>div[data-testid*='button']>div:nth-child(1) p"
+        }
+    },
+    "printer_usage_widget_single_sided_label":{
+        "locator":{
+            "css selector": "div[data-testid='print-sides-legend-simplex-text']"
+        }
+    },
+    "printer_usage_widget_double_sided_label":{
+        "locator":{
+            "css selector": "div[data-testid='print-sides-legend-duplex-text']"
+        }
+    },
+    "status_header_users_total":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[data-testid*='button']>div:nth-child(1) p"
+        }
+    },
+    "status_widget_total_count":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-devices']>div[data-testid*='button']>div:nth-child(2) p"
+        }
+    },
+    "status_widget_total_user_count":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[data-testid*='button']>div:nth-child(2) p"
+        }
+    },
+    "status_header_devices_connected":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-devices']>div[class*='ContentList']>div:nth-child(1) p[data-testid*='-label']"
+        }
+    },
+    "status_header_devices_notConnected":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-devices']>div[class*='ContentList']>div:nth-child(2) p[data-testid*='-label']"
+        }
+    },
+    "status_printer_connected_count":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-devices']>div[class*='ContentList']>div:nth-child(1) p[data-testid*='-count']"
+        }
+    },
+    "status_printer_notconnected_count":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-devices']>div[class*='ContentList']>div:nth-child(2) p[data-testid*='-count']"
+        }
+    },
+    "status_header_users_active":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[class*='ContentList']>div:nth-child(1) p[data-testid*='-label']"
+        }
+    },
+    "status_header_users_pending":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[class*='ContentList']>div:nth-child(2) p[data-testid*='-label']"
+        }
+    },
+    "status_header_users_expired":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[class*='ContentList']>div:nth-child(3) p[data-testid*='-label']"
+        }
+    },
+    "status_users_active_count":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[class*='ContentList']>div:nth-child(1) p[data-testid*='-count']"
+        }
+    },
+    "status_users_pending_count":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[class*='ContentList']>div:nth-child(2) p[data-testid*='-count']"
+        }
+    },
+    "status_users_expired_count":{
+        "locator":{
+            "css selector":"div[class*='stratus-list-content-users']>div[class*='ContentList']>div:nth-child(3) p[data-testid*='-count']"
+        }
+    },
+    "notification_bell_btn":{
+        "locator": {
+            "css selector": "button[data-testid='notification-button']"
+        }
+    },
+    "noti_mfe_card_tite":{
+        "locator": {
+            "css selector": "div[data-testid='notification-center'] span"
+        }
+    },
+    "user_icon_top_right":{
+        "locator":{
+            "css selector": "button[data-testid*='__avatar_menu']"
+        }
+    },
+    "organization_selector":{
+        "locator":{
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__organization_1']"
+        }
+    },
+    "profile_menu_conatiner":{
+        "locator":{
+            "css selector": "[data-testid='clientos-react-common-layout-mfe__menu_modal']"
+        }
+    },
+    "user_icon_top_right_txt":{
+        "locator":{
+            "css selector": "button[data-testid*='__avatar_menu'] >div>span"
+        }
+    },
+    "user_icon_top_right_email":{
+        "locator":{
+            "css selector": "p[data-testid*='mfe__user-email']"
+        }
+    },
+    "user_icon_menu_log_out_item":{
+        "locator":{
+            "css selector": "button[data-testid*='__logout_button']"
+        }
+    },
+    "printer_widget_section":{
+        "locator":{
+            "css selector": "section[id='@jarvis/react-smb-printers']"
+        }
+    },
+    "printer_widget_printer_list":{
+        "locator":{
+            "css selector": "section[id*='react-smb-printers'] li:nth-child(1)"
+        }
+    },
+    "printer_widget_printer_title":{
+        "locator":{
+            "css selector": "div[data-testid='printer-widget-header']"
+        }
+    },
+    "printer_widget_printer_name":{
+        "locator":{
+            "css selector": "[data-testid='secondary-id']"
+        }
+    },
+    "printer_widget_printer_location":{
+        "locator":{
+            "css selector": "[data-testid='printer-widget-item-location']"
+        }
+    },
+    "printer_widget_printer_status":{
+        "locator":{
+            "css selector": "[data-testid='printer-widget-list-item']:nth-child(1) span"
+        }
+    },
+    "printer_widget_no_printers":{
+        "locator":{
+            "css selector": "div[data-testid='no-printers-available-description']"
+        }
+    },
+    "printer_widget_printers_list":{
+        "locator":{
+            "css selector": "ul >li[data-testid*='list-item']"
+        }
+    },
+    "printer_device_status_icon":{
+        "locator":{
+            "css selector":"[data-testid='device-status-icon']"
+        }
+    },
+    "printer_widget_printer_link":{
+        "locator":{
+            "css selector": "li:nth-child(1) [data-testid='device-status']"
+        }
+    },
+    "dashboard_cardAnalytics_headerNew2":{
+        "locator":{
+            "css selector": "div[data-testid='usage-data-header']"
+        }
+    },
+    "printer_usage_widget_telementry_days_label":{
+        "locator":{
+            "css selector": "div[data-testid='usage-data-number-days']"
+        },
+        "localization": {
+            "en": "(Last 30 Days)"
+        }
+    },
+    "printer_usage_widget_dropdown_print_label":{
+        "locator":{
+            "css selector": "[id='usage-select']>span"
+        },
+        "localization": {
+            "en": "Print"
+        }
+    },
+    "dashboard_cardAnalytics_disclaimerText":{
+        "locator":{
+            "css selector": "p[data-testid='disclaimer-text']"
+        }
+    },
+    "printer_usage_widget_dropdown_print":{
+        "locator":{
+            "css selector": "[id='usage-select']>span"
+        }
+    },
+    "printer_usage_widget_printed_pages_text":{
+        "locator":{
+            "css selector": "div[data-testid='hp-usage-print-colors-chart-container'] span"
+        },
+        "localization": {
+            "en": "Printed Pages"
+        }
+    },
+    "printer_usage_print_sides_button":{
+        "locator":{
+            "css selector":"div[data-testid='toggle-option-right']"
+        }
+    },
+    "printer_usage_widget_total_printed_pages_count":{
+        "locator":{
+            "css selector": "div[data-testid='hp-usage-print-colors-chart-container'] tspan"
+        }
+    },
+    "usage_select_dropdown_scan":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "printer_usage_option_dropdown":{
+        "locator":{
+            "css selector":"div[data-testid='usage-select']"
+        }
+    },
+    "printer_usage_fax_pages_received_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "div[data-testid='hp-usage-data-fax-chart'] text:nth-child(2)"
+        },
+        "localization": {
+            "en": "Faxpagesreceived"
+        }
+    },
+    "printer_usage_fax_pages_sent_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "[class*='highcharts-axis-labels highcharts-xaxis-labels'] text:nth-child(1)"
+        },
+        "localization": {
+            "en": "Faxpagessent"
+        }
+    },
+    "printer_usage_fax_pages_archived_only_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "[class*='color-undefined highcharts-series-1'] span"
+        },
+        "localization": {
+            "en": "Fax pages archived only"
+        }
+    },
+    "printer_usage_fax_pages_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "[class*='highcharts-axis highcharts-yaxis'] text"
+        },
+        "localization": {
+            "en": "Fax pages (Last 30 Days)"
+        }
+    },
+    "printer_usage_scanned_pages_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "[class*='highcharts-axis highcharts-yaxis'] text"
+        },
+        "localization": {
+            "en": "Scanned pages (Last 30 Days)"
+        }
+    },
+    "printer_usage_pages_scanned_text":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "[class*='highcharts-axis-labels highcharts-xaxis-labels'] text"
+        },
+        "localization": {
+            "en": "Pagesscanned"
+        }
+    },
+    "all_notifications_text":{
+        "locator":{
+            "css selector": "div[data-testid ='notification-title']"
+        }
+    },
+    "notification_bellNotification_noNewNotification":{
+        "locator":{
+            "css selector": "[data-testid ='notification-center'] div:nth-child(2)"
+        }
+    },
+    "all_notifications_count":{
+        "locator":{
+            "css selector": "[data-testid ='notification-title']"
+        }
+    },
+    "notification_popup_ellipsis_button":{
+        "locator": {
+            "css selector": "button[data-testid='notification-item-bell-icon']"
+        }
+    },
+    "notification_popup":{
+        "locator": {
+            "css selector": "div[data-testid='notification-center']"
+        }
+    },
+    "notification_popup_ellipsis_dropdown_options":{
+        "locator": {
+            "css selector": "div[data-testid='notification-center']>div:nth-child(1) [data-testid='notification-item-action'] li"
+        }
+    },
+    "all_notifications_counts":{
+        "locator": {
+            "css selector": "[data-testid='notification-center'] [class*='shared__Img']"
+        }
+    },
+    "printer_usage_widget_sides_total_print_count":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "div[data-testid='hp-usage-data-widget-chart'] tspan"
+        }
+    },
+    "printer_usage_widget_printed_pages_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "span.highcharts-subtitle >div"
+        }
+    },
+    "printer_usage_widget_printed_color_label":{
+        "locator":{
+            "css selector": "div[data-testid='print-color-legend-color-text']"
+        }
+    },
+    "printer_usage_widget_printed_black_white_label":{
+        "locator":{
+            "css selector": "div[data-testid='print-color-legend-mono-text']"
+        }
+    },
+    "printer_usage_widget_toogle_color_button":{
+        "locator":{
+            "css selector": "div[data-testid='toggle-option-left']"
+        }
+    },
+    "printer_usage_widget_toogle_sides_button":{
+        "locator":{
+            "css selector": "div[data-testid='toggle-option-right']"
+        }
+    },
+    "printer_widget_printer_total_count":{
+        "locator":{
+            "css selector": "[data-testid='list-item']"
+        }
+    },
+    "printer_widget_view_all_link_button":{
+        "locator":{
+            "css selector": "button[data-testid='view-all-button']"
+        }
+    },
+    "dashboard_hpPlus_hpSmartPro_header":{
+        "locator":{
+            "css selector": "div[data-testid='hp-smart-pro-header']"
+        }
+    },
+    "smart_pro_widget_title_icon":{
+        "locator":{
+            "css selector": "div[data-testid='hp-smart-pro-image']"
+        }
+    },
+    "smart_pro_widget_desc":{
+        "locator":{
+            "css selector": "div[data-testid='hp-smart-pro-content'] div[class='caption']"
+        }
+    },
+    "dashboard_hpPlus_hpSmartPro_action":{
+        "locator":{
+            "css selector": "div[data-testid='hp-smart-pro-content'] a[data-testid='hyperlink-text']"
+        }
+    },
+    "hp_smart_pro_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "section[id='@monetization/hp-smart-pro-react']>div:nth-child(2)>div>div:nth-child(2)"
+        }
+    },
+    "hp_smart_pro_status":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "div[class*='Status']:nth-child(2) span"
+        }
+    },
+    "smart_notification_widget_total_count":{
+        "locator":{
+            "css selector": "li[data-testid='notification-item']"
+        }
+    },
+    "hp_smart_pro_status_description":{
+        "locator":{
+            "css selector": "div[data-test='subscription-description']"
+        }
+    },
+    "smart_notification_widget_title":{
+        "locator":{
+            "css selector": "div[data-testid='smart-notification-title'] div"
+        }
+    },
+    "smart_notification_widget_title_count":{
+        "locator":{
+            "css selector": "span[data-testid='smart-notification-counter']"
+        }
+    },
+    "notification_smartNotification_noDataAvailable":{
+        "locator":{
+            "css selector": "div[data-testid='smart-notification-no-item-text']"
+        }
+    },
+    "hp_plus_printer_widget_smart_security_printer_total_count":{
+        "locator":{
+            "css selector": "div[data-testid='hp-plus-smart-security-chart'] tspan"
+        }
+    },
+    "hp_plus_printer_widget_print_anywhere_printer_total_count":{
+        "locator":{
+            "css selector": "div[data-testid='hp-plus-print-anywhere-chart'] tspan"
+        }
+    },
+    "dashboard_hpPlus_smartSecurity_status_secured":{
+       "locator": {
+            "css selector": "div[data-testid='hp-plus-smart-security-chart-secured-legend-text']"
+        }
+    },
+    "dashboard_hpPlus_smartSecurity_status_needsAttention":{
+       "locator": {
+            "css selector": "div[data-testid='hp-plus-smart-security-chart-needs-attention-legend-text']"
+        }
+    },
+    "dashboard_hpPlus_smartSecurity_status_unmonitored":{
+       "locator": {
+            "css selector": "div[data-testid='hp-plus-smart-security-chart-unmonitored-legend-text']"
+        }
+    },
+    "dashboard_hpPlus_smartSecurity_status_noDataAvailable":{
+       "locator": {
+            "css selector": "div[data-testid='hp-plus-smart-security-chart-no-data-available-legend-text']"
+        }
+    },  
+    "dashboard_hpPlus_printAnywhere_status_enable":{
+       "locator": {
+            "css selector": "div[data-testid='hp-plus-print-anywhere-chart-status-enable-legend-text']"
+        }
+    },    
+    "dashboard_hpPlus_printAnywhere_status_disabled":{
+        "locator": {
+            "css selector": "div[data-testid='hp-plus-print-anywhere-chart-status-disabled-legend-text']"
+        }
+    },
+    "dashboard_hpPlus_smartSecurity_header":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-widget-smart-security-card-container-header']"
+        }
+    },
+    "dashboard_hpPlus_printAnywhere_header":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-widget-print-anywhere-card-container-header']"
+        }
+    },
+    "dashboard_hpPlus_forestFirst_header":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-widget-forest-first-card-container-header']"
+        }
+    },
+    "hp_plus_forest_first_description":{
+        "locator": {
+            "css selector": "div[data-testid='hp-plus-widget-forest-first-container-text']"
+        }
+    },
+    "dashboard_hpPlus_forestFirst_link":{
+        "locator": {
+            "css selector": "div[data-testid='hp-plus-widget-forest-first-container-text'] a"
+        }
+    },
+    "hp_plus_forest_first_learn_more_hyperlink":{
+        "locator": {
+            "css selector": "[data-testid='react-smb-forest-first-header-title']"
+        },
+        "localization": {
+            "en": "Take pride in printing sustainably with HP+"
+        }
+    },
+    "hp_plus_forest_first_learn_more_link":{
+        "locator": {
+            "css selector": "div[data-testid='hp-plus-widget-forest-first-container-text']>a"
+        }
+    },
+    "dashboard_hpPlus_header":{
+        "locator": {
+            "css selector": "div[data-testid='hp-plus-widget-header']"
+        }
+    },
+    "hp_plus_widget_printer_total_count":{
+        "locator": {
+            "css selector": "div[data-testid='hp-plus-widget-counter']"
+        } 
+    },
+    "account_profile_button":{
+        "locator": {
+            "css selector": "div[data-testid='setting-account-profile']"
+        }
+    },
+    "welcome_message":{
+        "locator":{
+            "css selector": "[data-testid='welcome']"
+        }
+    },
+    "personal_tab_first_name":{
+        "locator":{
+            "css selector": "[data-testid='profile-givenName']"
+        } 
+    },
+    "organization_tab":{
+        "locator":{
+            "css selector": "div[id='organization']"
+        }
+    },
+    "organization_name":{
+        "locator":{
+            "css selector": "[data-testid='organization-accountName']"
+        }
+    },
+    "avatar_button":{
+        "locator":{
+            "css selector": "[data-testid*='__avatar_menu']"
+        }
+    },
+    "organization_id":{
+        "locator":{
+            "css selector": "div[data-testid*='organization_list'] button:nth-child(1) div:nth-child(2)"
+        }
+    },
+    "uid":{
+        "locator":{
+            "css selector": "[data-testid ='organization-uid']"
+        }
+    },
+    "notification_bell_icon":{
+        "locator":{
+            "css selector": "[data-testid='notification-button']"
+        }
+    },
+    "all_notification_text":{
+        "locator": {
+            "css selector": "div[data-testid='notification-title']"
+        }
+    },
+    "help_center_menu":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Help Center']"
+        }
+    },
+    "bell_notification_message_icon":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[data-testid='notification-center']>ul>li:nth-child(2)>div:nth-child(1)>span"
+        }
+    },
+    "new_notification_printer_detail_and_location":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[data-testid='notification-center'] ul li:nth-child(2) div:nth-child(2)>span:nth-child(2)"
+        }
+    },
+    "new_notification_arrived_date_and_time":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[data-testid='notification-center'] ul li:nth-child(2) div:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "avatar_menu_org_selector":{
+        "locator":{
+            "css selector":"svg[aria-label='Briefcase']"
+        }
+    },
+    "avatar_menu_org_names":{
+        "locator":{
+            "css selector": "button[data-testid*='clientos-react-common-layout-mfe__organization'] div:nth-child(2)"
+        }
+    },
+    "organization_name_selection":{
+        "locator":{
+            "css selector":"button[data-testid*='clientos-react-common-layout-mfe__organization_{}']"
+        }
+    },
+    "smart_notification_printer_detail_and_location":{
+        "locator": {
+            "css selector": "li:nth-child(1) [data-testid='notification-item-body']"
+        }
+    },
+    "smart_notification_generated_date_and_time":{
+        "locator": {
+            "css selector": "li:nth-child(1) [data-testid='notification-item-date-time']"
+        }
+    },
+    "smart_notification_action_btn":{
+        "locator": {
+            "css selector": "li:nth-child(1) button[data-testid='action-menu-item-button']"
+        }
+    },
+    "notification_smartNotification_dismiss":{
+        "locator": {
+            "css selector": "li:nth-child(1) div#action-menu-item-smart-notification"
+        }
+    },
+    "solutions_print_anywhere_button":{
+        "locator": {
+            "css selector": "div[data-testid='card-print-anywhere']"
+        }
+    },
+    "notification_markAsReadAll":{
+        "locator": {
+            "css selector": "ul[data-testid='notification-item-action'] li:nth-child(1)"
+        }
+    },
+    "notification_removeAll":{
+        "locator": {
+            "css selector": "ul[data-testid='notification-item-action'] li:nth-child(2)"
+        }
+    },
+    "bell_notification_red_dot":{
+        "locator": {
+            "css selector": "ul[data-testid='notification-item-action'] li:nth-child(1)"
+        }
+    },
+    "bell_notification_action_btn":{
+        "locator": {
+            "css selector": "li button[data-testid='notification-item-bell-icon']"
+        }
+    },
+    "notification_markAsRead":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Mark as read')]"
+        }
+    },
+    "notification_remove":{
+        "locator": {
+            "xpath": "//span[text()='Remove']"
+        }
+    },
+    "bell_notification_message":{
+        "locator": {
+            "css selector": "div[data-testid='notification-center']>ul>li:nth-child(2)"
+        }
+    },
+    "home_menu_btn_text":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Home'] span"
+        }
+    },
+    "printers_menu_btn_text":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Printers'] span"
+        }
+    },
+    "users_menu_btn_text":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Users'] span"
+        }
+    },
+    "solutions_menu_btn_text":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Solutions'] span"
+        }
+    },
+    "sustainability_menu_btn_text":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Forest First'] span"
+        }
+    },
+    "account_menu_btn_text":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Settings'] span"
+        }
+    },
+    "hpinstantink_menu_btn_text":{
+        "locator": {
+            "css selector": "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-HP Instant Ink'] span"
+        }
+    },
+    "footer_copyright_information":{
+       "locator": {
+            "css selector": "section[id*='react-smb-finish-setup'] p"
+        },
+    "localization": {
+        "en": "© Copyright 2025 HP Development Company, L.P."
+        }
+    },
+    "footer_component_hp_com":{
+       "locator": {
+            "css selector": "a[href='https://www.hp.com/us-en/home.html']"
+        },
+    "localization": {
+        "en": "HP.com"
+        }
+    },
+    "footer_hpSupport":{
+       "locator": {
+            "css selector": "a[href='https://support.hp.com/us-en']"
+        }
+    },
+    "footer_hpTermsOfUse":{
+       "locator": {
+            "css selector": "a[href='https://hpsmart.com/us/en/admin-tou']"
+        }
+    },
+    "footer_hpPrivacy":{
+       "locator": {
+            "css selector": "a[href='https://hp.com/go/privacy']"
+        }
+    },
+    "footer_personalDataRightsNotice":{
+       "locator": {
+            "css selector": "a[href='https://www.hp.com/us-en/personal-data-rights.html']"
+        }
+    },
+    "printer_usage_widget_help_icon":{
+        "locator": {
+             "css selector": "[data-testid='usage-data-help-icon']"
+         }
+    },
+    "printer_usage_widget_view_details_button":{
+        "locator": {
+             "css selector": "button[data-testid='detailed-usage-button']"
+         }
+    },
+    "dashboard_cardAnalytics_subtitleText_printPageNew":{
+       "locator": {
+            "css selector": "div[data-testid='addons-hp-data-usage-widget'] div[class*='SubHeaderTitle'] p"
+        }
+    },
+    "usage_widget_total_pages_printed_count":{
+       "locator": {
+            "css selector": "div[data-testid='total-usage']"
+        }
+    },
+    "usage_data_select_previous_year_button":{
+       "locator": {
+            "css selector": "button[data-testid='usage-data-select-year-previous']"
+        }
+    },
+    "usage_data_select_next_year_button":{
+       "locator": {
+            "css selector": "button[data-testid='usage-data-select-year-next']"
+        }
+    },
+    "usage_data_select_year_value":{
+       "locator": {
+            "css selector": "span[data-testid='usage-data-select-value']"
+        }
+    },
+    "dashboard_cardAnalytics_select_print":{
+       "locator": {
+            "css selector": "div#print-page"
+        }
+    },
+    "dashboard_cardAnalytics_printedPages":{
+       "locator": {
+            "css selector": "g[class='highcharts-axis highcharts-yaxis'] text"
+        }
+    },
+    "dashboard_cardAnalytics_color_blackWhite":{
+       "locator": {
+            "css selector": "g[class*='highcharts-series-2'] text"
+        }
+    },
+    "dashboard_cardAnalytics_color_color":{
+       "locator": {
+            "css selector": "g[class*='highcharts-series-1'] text"
+        }
+    },
+    "dashboard_cardAnalytics_average_usage":{
+       "locator": {
+            "css selector": "g[class*='highcharts-series-0'] text"
+        }
+    },
+    "printed_usage_data_highcharts_xaxis_labels_options":{
+        "locator": {
+             "css selector": "g[class*='highcharts-axis-labels highcharts-xaxis-labels'] text"
+         }
+    },
+    "usage_widget_toggle_scan_button":{
+        "locator": {
+             "css selector": "div#scan"
+         }
+    },    
+    "dashboard_cardAnalytics_subtitleText_scanNew":{
+       "locator": {
+            "css selector": "div[data-testid='addons-hp-data-usage-widget'] div[class*='SubHeaderTitle'] p"
+        }
+    },
+   "usage_widget_total_pages_scanned_count":{
+       "locator": {
+            "css selector": "div[data-testid='total-usage']"
+        }
+    },
+   "dashboard_cardAnalytics_scan_pagesScanned":{
+       "locator": {
+            "css selector": "g[class='highcharts-axis highcharts-yaxis'] text"
+        }
+    },
+    "dashboard_cardAnalytics_select_scans":{
+       "locator": {
+            "css selector": "g[class*='highcharts-series-1'] text"
+        }
+    },
+    "scanned_usage_data_highcharts_xaxis_labels_options":{
+        "locator": {
+             "css selector": "g[class*='highcharts-axis-labels highcharts-xaxis-labels'] text"
+         }
+    }
+}

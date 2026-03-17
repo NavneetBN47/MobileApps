@@ -1,0 +1,102 @@
+{
+  "doc_provider_method": {
+    "locator": {
+      "css selector": "div[aria-controls='{}']"
+    }
+  },
+  "doc_set_id_textbox": {
+    "locator": {
+      "css selector": "#docSetIdForGetDocSet-field"
+    }
+  },
+  "get_doc_set_test_btn": {
+    "locator": {
+      "css selector": "#getDocSetButton"
+    }
+  },
+  "get_doc_set_result": {
+    "locator": {
+      "css selector": "#getDocSetResult p"
+    }
+  },
+  "get_result_doc_set_test_btn": {
+    "locator": {
+      "css selector": "#getResultDocSetButton"
+    }
+  },
+  "get_result_doc_set_result": {
+    "locator": {
+      "css selector": "#getResultDocSetResult"
+    }
+  },
+  "file_name_doc_result_textbox": {
+    "locator": {
+      "css selector": "#docIdForAddDocToResultDocSet-field"
+    }
+  },
+  "media_type_doc_result_textbox": {
+    "locator": {
+      "css selector": "#mediaTypeForAddDocToResultDocSet-field"
+    }
+  },
+  "base_encoded_doc_result_textbox": {
+    "locator": {
+      "css selector": "#dataForAddDocToResultDocSet-field"
+    }
+  },
+  "add_doc_to_result_test_btn": {
+    "locator": {
+      "css selector": "#addDocToResultDocSetButton"
+    }
+  },
+  "get_result_add_doc_to_result_doc_set": {
+    "locator": {
+      "css selector": "#addDocToResultDocSetResult"
+    }
+  },
+  "add_docs_path_result_textbox": {
+    "locator": {
+      "css selector": "#newDocsPathsForAddDocsToResultDocSet-field"
+    }
+  },
+  "add_docs_to_result_test_btn": {
+    "locator": {
+      "css selector": "#addDocsToResultDocSetButton"
+    }
+  },
+  "remove_docs_from_result_textbox": {
+    "locator": {
+      "css selector": "#docIdForRemoveDocSetFromDocSet-field"
+    }
+  },
+  "remove_docs_from_result_test_btn": {
+    "locator": {
+      "css selector": "#removeDocsFromResultDocSetButton"
+    }
+  },
+  "get_remove_docs_from_doc_set_result_text": {
+    "locator": {
+      "css selector": "#removeDocsFromResultDocSetResult"
+    }
+  },
+  "get_doc_data_doc_id_textbox": {
+    "locator": {
+      "css selector": "#docId-field"
+    }
+  },
+  "get_set_id_data_doc_id_textbox": {
+    "locator": {
+      "css selector": "#docSetId-field"
+    }
+  },
+  "get_doc_data_test_btn": {
+    "locator": {
+      "css selector": "#getDocDataButton"
+    }
+  },
+  "get_doc_data_result_text": {
+    "locator": {
+      "css selector": "#getDocData"
+    }
+  }
+}

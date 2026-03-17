@@ -1,0 +1,13 @@
+{
+    "executor_url": "localhost",
+    "executor_port": "4444", 
+    "printer_power_config": {"type": "sas", "sas_url": "fwqesas.sdg.rd.hpicorp.net"},
+    "printer_power_config": {"type": "pdu", "pdu_url": "15.1.163.122"},
+    "printer_power_config": {"type": "manual", "pcs_url": "15.6.1.2"},
+
+    "web_executor_url": "",
+    "web_executor_port": "",
+    "default_wifi": {"ssid": "rd", "passwd": "1213141567890"}, 
+    "latest_rcb_database_info": {"url": "http://15.32.151.151:5984/", "user":"adminusr", "password":"admin"}
+
+}

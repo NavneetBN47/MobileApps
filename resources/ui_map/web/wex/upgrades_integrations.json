@@ -1,0 +1,113 @@
+{
+    "integrations_page_breadcrumb":{
+        "locator": {
+            "css selector": "#Integrations span[aria-current='page']"
+        },
+        "localization": {
+            "en": "Integrations"
+        }
+    },
+    "integrations_page_service_now_widget":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//h2[contains(text(),'ServiceNow')]"
+        }
+    },
+    "integrations_page_tableau_widget":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//h2[contains(text(),'Tableau')]"
+        }
+    },
+    "integrations_page_entra_id_accounts_widget":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//h2[contains(text(),'Entra ID Accounts')]"
+        }
+    },
+    "integrations_page_power_automate_widget":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//h2[contains(text(),'Power Automate')]"
+        }
+    },
+    "integrations_page_entra_id_groups_widget":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//*[contains(text(),'Groups')]/parent::div"
+        }
+    },
+    "integrations_page_power_bi_widget":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//h2[contains(text(),'Power BI')]"
+        }
+    },
+    "integrations_page_service_now_widget_connect_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//button[text()='Connect'])[1]"
+        }
+    },
+    "integrations_page_power_bi_widget_configure_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//button[text()='Configure'])[3]"
+        }
+    },
+    "integrations_page_power_automate_widget_connect_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//button[text()='Connect'])[2]"
+        }
+    },
+    "integrations_page_tableau_widget_configure_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//button[text()='Configure'])[1]"
+        }
+    },
+    "integrations_page_entra_id_group_widget_connect_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//button[text()='Connect'])[3]"
+        }
+    },
+    "integrations_page_entra_id_account_widget_connect_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//button[text()='Connect'])[4]"
+        }
+    },
+    "integrations_page_entra_id_accounts_widget_upgrade_button":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//button[text()='Upgrade'])"
+        }
+    },
+    "integrations_page_info_message":{
+        "locator":{
+            "css selector": "#integrations-role-required p"
+        }
+    },
+    "integrations_page_view_all_button":{
+        "locator": {
+            "css selector": "button[data-testid='connector-filter-all-button']"
+        }
+    },
+    "integrations_page_active_button":{
+        "locator": {
+            "css selector": "button[data-testid='connector-filter-active-button']"
+        }
+    },
+    "integrations_page_inactive_button":{
+        "locator": {
+            "css selector": "button[data-testid='connector-filter-inactive-button']"
+        }
+    },
+    "integrations_page_widgets_frame":{
+        "locator": {
+            "css selector": "#iframe-fastn-widget"
+        }
+    }
+}

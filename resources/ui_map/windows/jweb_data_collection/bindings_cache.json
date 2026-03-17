@@ -1,0 +1,22 @@
+{
+  "metadata_json": {
+    "locator": {
+      "xpath": "//Button[@Name='Invalidate Cache']/following::Edit[2]"
+    }
+  },
+  "bindings_time_to_expire": {
+    "locator": {
+      "xpath": "//Edit[@AutomationId='CountDown']"
+    }
+  },
+  "bindings_cache_response": {
+    "locator": {
+      "xpath": "//Button[@Name='Invalidate Cache']/following::Edit[6]"
+    }
+  },
+  "bindings_invalidate_cache_btn": {
+    "locator": {
+      "xpath": "//Button[@Name='Invalidate Cache']"
+    }
+  }
+}

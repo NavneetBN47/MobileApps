@@ -1,0 +1,24 @@
+{
+    "camera_scan_tile": {
+        "locator": {
+            "xpath": "//android.widget.Button[@resource-id='PRINTER_Camera scan']",
+            "id": "PRINTER_Camera scan"
+        }
+    },
+    "homepage_bottom_devices_btn": {
+        "locator": {
+            "xpath": [
+                "//android.widget.Button[@resource-id = 'NavBar.NavBarView.DevicesIcon']",
+                "//android.widget.Button[@content-desc = 'Devices']"
+            ]
+        }
+    },
+    "homepage_bottom_shop_btn": {
+        "locator": {
+            "xpath": [
+                "//android.widget.Button[@resource-id = 'NavBar.NavBarView.ForYouIcon']",
+                "//android.widget.Button[@content-desc = 'Shop']"
+            ]
+        }
+    }
+}

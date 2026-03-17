@@ -1,0 +1,39 @@
+{
+    "default_stack": "pie",
+    "stacks":[
+      {
+        "stack": "pie",
+        "host": {
+            "protal": "https://hpx.hpsmart.com",
+            "methome": "https://api3-itg-methone.hpcloud.hp.com/stg-v4",
+            "ccls": "https://ccls-itg.external.hp.com",
+            "coptor": "https://oauth-auth-coptor.stg.oc.hp.com/oauth2/v1",
+            "login": "https://oauth-auth-coptor.stg.oc.hp.com/oauth2/v1/auth?client_id=6caa342b-d286-458e-b53e-ce4a2066c555&response_type=code&scope=openid&state=2-d5ed-479b-a82d&redirect_uri=https://content-itg.methone.hpcloud.hp.net/profile/IndexX.html&config_id=59f93866-d28f-4aee-b150-947045966bdc",
+            "redirect": "https://content-itg.methone.hpcloud.hp.net/profile/IndexX.html", 
+            "oauth_host": "https://oauth-auth.stg.oc.hp.com",
+            "client_id": "fd724626-e9e1-42bd-8fee-248f06dc291f",
+            "redirect_uri": "http://localhost:8080/test",
+            "config_id": "59f93866-d28f-4aee-b150-947045966bdc",
+            "hpid_env": ".stg.cd.id.hp.com",
+            "region_endpoint_url": "https://ui-backend.us-east-1.stg.cd.id.hp.com/bff/v1"
+        },
+        "user": "6caa342b-d286-458e-b53e-ce4a2066c555",
+        "pwd": "uPS811h13PC5z58423Yl1dv7uA2ZENWrtf66yO2dUOt93SzX1g5s2DU7vBgsPvik",
+        "x-api-key": "kWjojYXHn89xPv1hC3kA13XTPviUATZs9Nr8Xp4K"
+      },
+      {
+        "stack": "production",
+        "host": {
+            "protal": "https://hpx.hpsmart.com",
+            "methome": "https://api3-methone.hpcloud.hp.com/v4",
+            "ccls": "https://ccls.external.hp.com",
+            "coptor": "https://oauth-auth-coptor.oc.hp.com/oauth2/v1",
+            "login": "https://oauth-auth-coptor.oc.hp.com/oauth2/v1/auth?client_id=d7b0efe2-d5ed-479b-a82d-d92a112ab5bd&response_type=code&scope=openid&state=2-d5ed-479b-a82d&redirect_uri=https://content-itg.methone.hpcloud.hp.net/profile/IndexX.html&config_id=6a71081b-875b-4823-8fa5-b267c7e8f45e",
+            "redirect": "https://content-itg.methone.hpcloud.hp.net/profile/IndexX.html"
+        },
+        "user": "d7b0efe2-d5ed-479b-a82d-d92a112ab5bd", 
+        "pwd": "K8kIO695fdI44q01i62h0sdEqR2Fd5iRXc6v0Ntxp55ELh29b5iEdDP5RGAXUeqx", 
+        "x-api-key": "kWjojYXHn89xPv1hC3kA13XTPviUATZs9Nr8Xp4K"   
+      }
+    ]
+  }

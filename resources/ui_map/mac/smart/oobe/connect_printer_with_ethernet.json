@@ -1,0 +1,31 @@
+{
+    "connect_printer_with_ethernet_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:84']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:56']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:275' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:43']"]}
+    },
+    
+    "connect_printer_with_ethernet_contents":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:77']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:6']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:275' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:55']"]}
+    },
+    
+    "connect_printer_with_ethernet_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:43']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:102']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:275' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:38']"]}
+    },
+    
+    "connect_printer_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:144']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:198']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:275' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:51']"]}
+    },
+    
+    "back_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:176']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:154']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:275' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:117']"]}
+    }
+}

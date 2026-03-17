@@ -1,0 +1,33 @@
+{
+    "_section": "MAC",
+    "hp_privacy_statement_browser_title": {
+        "_comment": "Title of the HP Privacy Statement page in the browser",
+        "locator": {
+            "xpath": "//h4[@class='h4']/p/b[contains(text(), 'HP Privacy Statement')]"
+        }
+    },
+    "hp_eula_browser_title": {
+        "_comment": "Title of the HP EULA page in the browser",
+        "locator": {
+            "xpath": "//h1[contains(text(), 'End-User License Agreement')]"
+        }
+    },
+    "hp_privacy_office_title": {
+        "_comment": "Title of the HP Privacy Office page in the browser",
+        "locator": {
+            "xpath": "//div/h1[contains(text(),'Contact HP Privacy Office')]"
+        }
+    },
+    "hp_ink_page_privacy_popup": {
+        "_comment": "Your Privacy popup on hp ink page in the browser",
+        "locator": {
+            "xpath": "//h2[@id='onetrust-policy-title'][contains(text(), 'Your Privacy')]"
+        }
+    },
+    "hp_ink_title": {
+        "_comment": "Title of the HP Ink page in the browser",
+        "locator": {
+            "xpath": "//span[contains(text(), 'Printer Supplies')]"
+        }
+    }
+}

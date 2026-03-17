@@ -1,0 +1,26 @@
+{
+    "locals_show_unsupported_modal" : 
+            ["en-LY", "en-MA", "en-ME", "en-MK", "en-MM","en-MS", "en-MU", "en-MV", "en-MY", "en-NA", "en-NG", "en-NP", "en-OM", 
+            "en-PH", "en-PK", "en-PR", "en-QA", "en-RS", "en-RW", "en-SA", "en-SX", "en-TC", "en-TH", "en-TL", "en-TN", "en-TT", 
+            "en-TW", "en-TZ", "en-UG", "en-VC", "en-VG", "en-VI", "en-VN", "es-AR", "es-BO", "es-CL", "es-CO", "es-CU", "es-DO", 
+            "es-EC", "es-GT", "es-HN", "es-NI", "es-PA", "es-PE", "es-PY", "es-SV", "es-UY", "es-VE", "fr-BJ", "fr-BL", "fr-CI", 
+            "fr-GF", "fr-GP", "fr-HT", "fr-LC", "fr-MF", "fr-MQ", "fr-PF", "fr-RE", "fr-YT", "nl-BQ", "nl-CW"],
+
+    "locale_redirect_to_dashboard_after_login":
+            ["en-MN", "es-BZ"],
+
+    "locales_do_not_show_modal_have_fallback_region": 
+            ["en-AG", "en-AZ", "en-BA", "en-BB", "en-BD", "en-BH", "en-BN", "en-BS", "en-BT", 
+            "en-BW", "en-CM", "en-CR", "en-DZ", "en-EG", "en-ET", "en-GD", "en-GE", "en-GH", "en-HK", "en-ID", "en-JM", "en-JO", 
+            "en-JP", "en-KE", "en-KH", "en-KN", "en-KW", "en-KY", "en-LA", "en-LB", "en-LC", "en-LK", "fr-MG", "fr-NC", "fr-SN"],
+
+    "spec_language_from_figma" : {
+        "bg/bg": "български", "cz/cs": "Čeština", "dk/da": "Dansk", "at/de": "Deutsch", 
+        "gr/el": "ελληνικά", "us/en": "English", "es/es": "Español", "ee/et": "Estonian", 
+        "fi/fi": "Suomi", "ca/fr": "Français (Canada)", "fr/fr": "Français (France)", 
+        "hr/hr": "Hrvatski", "hu/hu": "Magyar", "it/it": "Italiano", "jp/ja": "日本語", 
+        "kr/ko": "한국어", "lt/lt": "Lithuanian", "lv/lv": "Latvian", "nl/nl": "Nederlands", 
+        "no/nb": "Bokmål", "pl/pl": "Polski", "pt/pt": "Português", "ro/ro": "Română", 
+        "ru/ru": "Pусский", "sk/sk": "Slovenčina", "si/sl": "Slovenščina", "se/sv": "Svenska", 
+        "tr/tr": "Türkçe", "zh-CN": "简体中文", "zh-TW": "繁體中文 (臺灣)", "zh-HK": "繁體中文 (香港)"}
+}

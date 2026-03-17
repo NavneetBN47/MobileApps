@@ -1,0 +1,77 @@
+{
+    "change_billing_information_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_ChangeBillInfo"
+        }
+    },
+    "credit_denial_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_DeniedCredit"
+        }
+    },
+    "understanding_my_bill_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_ViewBillinfo"
+        }
+    },
+    "change_email_address_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_ChangeEmail"
+        }
+    },
+    "change_shipping_address_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_ChangeShipAddress"
+        }
+    },
+    "cancel_my_account_link":{
+        "locator": {
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_CancelAccount"
+        }
+    },
+    "account_error_message_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_AccountError"
+        }
+    },
+    "login_issues_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HPOne_LoginIssues"
+        }
+    },
+    "visit_my_account_section_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_Visit_My_Account_Section"
+        }
+    },
+    "subscription_information_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_HP_One_Subscription_Information"
+        }
+    },
+    "contact_hp_support_link":{
+        "locator":{
+            "id":"AUID_Support_VAModal_list_issueItem_Contact_HP_Support"
+        }
+    },
+    "start_va_btn":{
+        "locator":{
+            "id":"AUID_Support_VAModal_startVirtualAssistantButton"
+        }
+    },
+    "close_button":{
+        "locator": {
+            "id": "AUID_Support_modal_closeButton"
+        }
+    },
+    "support_account_lbl":{
+        "locator": {
+            "id": "AUID_Support_model_sub_title"
+        }
+    },
+    "support_account_title":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_model_sub_title']//Text"
+        }
+    }
+}

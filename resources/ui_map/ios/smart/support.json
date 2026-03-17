@@ -1,0 +1,90 @@
+{
+    "hpx_product_information_card": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Product information']",
+            "name": "Product information"
+        }
+    },
+    "hpx_get_help_card": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Get help']",
+            "name": "Get help"
+        }
+    },
+    "start_virtual_assistant": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Start Virtual Assistant']",
+            "name": "Start Virtual Assistant"
+        }
+    },
+    "hpx_contact_us_arrow": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Support Contact us Arrow Right']",
+            "name": "Support Contact us Arrow Right"
+        }
+    },
+    "hpx_support_change_region": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeOther[contains(@value,'United States')]"
+            ]
+        }
+    },
+    "hpx_change_region_text_feild": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTextField[contains(@value,'Region')]"
+        }
+    },
+    "hpx_support_call_agent": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Call an agent']",
+            "name": "Call an agent"
+        }
+    },
+    "product_number": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name,'Product number')]",
+            "name": "Product number"
+        }
+    },
+    "serial_number": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name,'Serial number')]",
+            "name": "Serial number"
+        }
+    },
+    "warranty": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name,'Warranty')]",
+            "name": "Warranty"
+        }
+    },
+    "more_information": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name,'More information')]",
+            "name": "More information"
+        }
+    },
+    "warranty_status": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name,'Warranty')]"
+        }
+    },
+    "end_session_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name,'End session')]",
+            "name": "End session"
+        }
+    },
+    "support_card_printers": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[starts-with(@name, 'My Printer') and @index=0]"
+        }
+    },
+    "go_to_support_hp": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Go to support.hp.com']",
+            "name": "Go to support.hp.com"
+        }
+    }
+}

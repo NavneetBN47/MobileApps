@@ -1,0 +1,65 @@
+{
+    "features_btn":{
+        "locator": {"css selector": "li[data-testid='services-menu'] a"}
+    },
+    "solutions_button_ios":{
+        "locator": {
+            "name": "Solutions",
+            "xpath": "//span[contains(text(),'Solutions')]"}
+    },
+    "print_anywhere_btn":{
+        "locator": {
+            "xpath":"//span[contains(text(),'Print Anywhere')]",
+            "css selector": "[data-testid='print-on-the-go-submenu'] a"
+        }
+    },
+    "other_features_btn":{
+        "locator": {
+            "css selector": "[data-testid='services-summary-submenu'] a"
+        }
+    },
+    "smart_security_btn":{
+        "locator": {
+            "css selector": "[data-testid='smart-security-submenu'] a"
+        }
+    },
+    "hp_smart_advance_btn":{
+        "locator": {
+            "css selector": "[data-testid='hp-smart-advance-submenu'] a"
+        }
+    },
+    "hp_smart_advance_title":{
+        "locator": {"css selector": "div[data-testid='hp-smart-advance']"}
+    },
+     "hp_smart_advance_container":{
+        "locator": {"css selector": ["#HpSmartAdvance", "div[data-testid='hp-smart-advance-container']"]}
+    },
+    "print_anywhere_title":{
+        "locator": {
+            "xpath":"//b[contains(text(),'Print Anywhere')]",
+            "css selector": "div[data-testid='print-anywhere']"}
+    },
+    "other_features_title":{
+        "locator": {"css selector": "div[data-testid='other-solutions']"}
+    },
+    "smart_security_title":{
+        "locator": {"css selector": "div[data-testid='smart-security']"}
+    },
+    "print_anywhere_container":{
+        "locator": {
+            "xpath":"//h5[contains(text(),'Allow printing from anywhere')]",
+            "css selector": ["[data-testid='potg-printers-print-anywhere-wrapper']","[data-testid='print-anywhere-container']"]}
+    },
+     "other_features_container":{
+         "locator": {"css selector": "[data-testid='benefits-list']"}
+    },
+     "smart_security_container":{
+        "locator": {"css selector": "[data-testid='smart-security-container']"}
+     },
+
+    "close_potg_screen":{
+        "locator": {
+            "css selector": "[data-testid='home-close-button']"
+            }
+    }
+}

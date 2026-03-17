@@ -1,0 +1,182 @@
+{
+  "data_collection_settings_btn": {
+    "locator": {
+      "id": "app_menu_settings_item"
+    }
+  },
+  "request_logs_btn": {
+    "locator": {
+      "id": "button_request_logs"
+    }
+  },
+  "request_log_url": {
+    "locator": {
+      "id": "txtStatusCode"
+    }
+  },
+  "data_ingress_btn":{
+    "locator": {      
+      "id": "com.hp.jarvis.datacollectionexample:id/rdgDataIngress"
+    }
+  },
+  "data_value_btn":{
+    "locator": {      
+      "id": "com.hp.jarvis.datacollectionexample:id/rdgDataValve"
+    }
+  },
+  "data_ingress_second_attempt_status_code": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Status Code: 400']"
+    }
+  },
+  "data_ingress_first_attempt_status_code": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Status Code: 206']"
+    }
+  },
+  "verbose_logs_btn": {
+    "locator": {
+      "id": "button_verbose_logs"
+    }
+  },
+  "verbose_logs_text": {
+    "locator":{
+      "xpath": "//androidx.recyclerview.widget.RecyclerView/android.widget.TextView"
+    }
+  },
+  "list_queue_item": {
+    "locator": {
+      "id": "button_queue_list"
+    }
+  },
+  "rv_queue_list": {
+    "locator": {
+      "id": "rv_queue_list"
+    }
+  },
+  "data_valve_status_code": {
+    "locator":{
+      "id": "com.hp.jarvis.datacollectionexample:id/txtStatusCode"
+    }
+  },
+  "send_sys_info_event_btn": {
+    "locator": {
+      "css selector": "#button_send_sys_info"
+    }
+  },
+  "bindings_delete_btn": {
+    "locator": {
+      "css selector": "#app_menu_refresh_item"
+    }
+  },
+  "binding_content": {
+    "locator": {
+      "css selector": "#bottom_navigation_view"
+    }
+  },
+  "add_valid_btn": {
+    "locator": {
+      "css selector": "#btn_add_cdm_filter_valid"
+    }
+  },
+  "apply_filters_btn": {
+    "locator": {
+      "css selector": "#btn_cdm_apply_filters"
+    }
+  },
+  "add_btn": {
+    "locator": {
+      "css selector": "#btn_add_filter_popup"
+    }
+  },
+  "filter_json": {
+    "locator": {
+      "css selector": "#label"
+    }
+  },
+  "filter_text": {
+    "locator": {
+      "css selector": "#filter_input_tree_value_popup"
+    }
+  },
+  "add_invalid_btn": {
+    "locator": {
+      "css selector": "#btn_add_cdm_filter_invalid"
+    }
+  },
+  "simple_ui_event": {
+    "locator": {
+      "css selector": "#select_send_event_spinner"
+    }
+  },
+  "simple_ui_event_dropdown": {
+    "locator": {
+      "xpath": "//android.widget.ListView/descendant::android.widget.TextView[@text='{}' and @resource-id='android:id/text1']"
+    }
+  },
+  "accumulator_btn": {
+    "locator": {
+      "css selector": "#button_accumulator"
+    }
+  },
+  "flush_btn": {
+    "locator": {
+      "css selector": "#button_flush"
+    }
+  },
+  "back_btn": {
+    "locator": {
+      "xpath": "//android.view.ViewGroup[@resource-id='com.hp.jarvis.datacollectionexample:id/action_bar']/descendant::android.widget.ImageButton[@content-desc='Navigate up']"
+    }
+  },
+  "bindings_filter_btn": {
+    "locator": {
+      "css selector": "#fixed_text"
+    }
+  },
+  "next_btn": {
+    "locator": {
+      "css selector": "#button_send_event"
+    }
+  },
+  "send_btn": {
+    "locator": {
+      "css selector": "#app_menu_send_item"
+    }
+  },
+  "telemetry_content": {
+    "locator":{
+      "css selector": "#binding_text"
+    }
+  },
+  "tree_gun_box": {
+    "locator": {
+      "css selector": "#filter_input_tree_gun_value_popup"
+    }
+  },
+  "number_of_calls": {
+    "locator": {
+      "css selector": "#send_ui_event_numberOfCalls_edit"
+    }
+  },
+  "count_title": {
+    "locator": {
+      "css selector": "#txtTitle"
+    }
+  },
+  "verbose_logs_content":{
+    "locator": {
+      "css selector": "#label"
+    }
+  },
+  "list_queue_content": {
+    "locator": {
+      "css selector": "#android:id/content"
+    }
+  },
+  "time": {
+    "locator": {
+      "css selector": "#cache_time"
+    }
+  }
+}

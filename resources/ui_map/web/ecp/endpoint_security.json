@@ -1,0 +1,2569 @@
+{
+    "endpoint_security_title":{
+        "locator": {
+            "css selector": "h2[data-testid='endpoint-security-title']"
+        }
+    },
+    "solutions_secure_fleet_manager":{
+        "locator": {
+            "css selector": "[data-testid='secure-fleet-manager-link'] svg"
+        }
+    },
+    "overview_section":{
+        "locator": {
+            "css selector": "div#extended-0"
+        }
+    },
+    "devices_section":{
+        "locator": {
+            "css selector": "div#extended-1"
+        }
+    },
+    "policies_section":{
+        "locator": {
+            "css selector": "div#extended-2"
+        }
+    },
+    "tasks_section":{
+        "locator": {
+            "css selector": "div#extended-3"
+        }
+    },
+    "status_content":{
+        "locator": {
+            "css selector": "ul[data-testid='overview-assessment-list']"
+        }
+    
+    },
+    "entitled_devices":{
+        "locator": {
+            "css selector": "li[data-testid='overview-status-listItem-0']>div"
+        }
+    
+    },
+    "assignments_tab":{
+        "locator":{
+            "css selector": "div[aria-controls='extended-1']"
+	}
+    },
+    "devices_tab":{
+        "locator": {
+            "css selector": "[aria-controls='extended-1']"
+        }
+    
+    },
+    "policies_tab": {
+        "locator": {
+            "css selector": "[aria-controls='extended-0']"
+        }
+    },
+    "tasks_tab":{
+        "locator": {
+            "xpath": "//*[@id='3']"
+        }
+    },
+    "graph_devices":{
+        "locator": {
+            "css selector": "text[class='highcharts-title']"
+        }
+    
+    },
+    "total_graph_devices":{
+        "locator": {
+            "css selector": "text[class='highcharts-subtitle']"
+        }
+    
+    },
+    "overview_security_trends_assessment_rate":{
+        "locator": {
+            "css selector": "[data-testid='overview-assessment-list']"
+        }
+    },
+    "overview_security_trends_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='select-menu-dropdown']"
+        }
+    },
+    "device_details_detail_report_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='device-report-duration']"
+        }
+    },
+    "overview_security_trends_dropdown_options":{
+        "locator": {
+            "css selector": "[id*='list'] li"
+        }
+    },
+    "total_online_devices":{
+        "locator": {
+            "css selector": "li[data-testid='overview-status-listItem-1'] > div:nth-child(3)"
+        }
+    
+    },
+    "status_table_header":{
+        "locator": {
+            "css selector": "th#active"
+        }
+    
+    },
+    "total_offline_devices":{
+        "locator": {
+            "css selector": "li[data-testid='overview-status-listItem-2'] > div:nth-child(3)"
+        }
+    
+    },
+    "export_all_button":{
+        "locator":{
+            "css selector":"button[data-testid='export-device-button']"
+        }
+    },
+    "cancel_button":{
+        "locator":{
+            "css selector":"[aria-describedby='form-modal-desc'] button[data-testid='cancel-button']"
+        }
+    },
+    "submit_button":{
+        "locator":{
+            "css selector":"button[data-testid='export-button']"
+        }
+    },
+    "export_popup_window":{
+        "locator":{
+            "css selector":"#form-modal-desc"
+        }
+    },
+    "bottom_toast_message":{
+        "locator": {
+            "css selector": "[role='alert'] div div"
+        }
+    },
+    "bottom_toast_dismiss_button":{
+        "locator": {
+            "css selector": "[role='alert'] button"
+        }
+    },
+    "bottom_toast_msg":{
+        "locator": {
+            "css selector": ["div[role='alert'] div>span",
+                            "div[role='alert'] div>div"]
+        }
+    },
+    "sync_time_label":{
+        "locator": {
+            "css selector":".last-update-container div"
+        }
+    },
+    "device_name":{
+        "locator":{
+            "css selector":"[data-testid = 'listitem-devices-link-0']"
+        }
+    },
+    "details_device_title":{
+        "locator": {
+            "css selector": "#accordion-one-item div p"
+        }
+    },
+    "details_device_assessment_status":{
+        "locator": {
+            "css selector": "[data-testid='device-security-text']"
+        }
+    },
+    "details_device_status":{
+        "locator":{
+            "css selector":"[data-testid='device-connectivity-text']"
+        }
+    },
+    "details_device_serial":{
+        "locator":{
+            "css selector":"#accordionItem1 div div:nth-child(10)"
+        }
+    },
+    "details_device_security": {
+        "locator": {
+            "css selector": "[data-testid='device-security-text']"
+        }
+    },
+    "details_device_policy": {
+        "locator": {
+            "css selector": "[data-testid='device-policy-text']"
+        }
+    },
+    "polities_pencil_btn":{
+        "locator": {
+            "css selector": "a.pencilebtn"
+        }
+    },
+    "policies_detail_title":{
+        "locator": {
+            "css selector": "div.policyName > div"
+        }
+    },
+    "policies_rename_popup":{
+        "locator": {
+            "css selector": "h2#form-modal-label"
+        }
+    },
+    "policies_rename_txt":{
+        "locator": {
+            "css selector": "input#policy-text"
+        }
+    },
+    "policies_rename_popup_rename_btn":{
+        "locator": {
+            "css selector": "button#idRename"
+        }
+    },
+    "policies_rename_cancel_btn":{
+        "locator": {
+            "css selector": "button#idCancel"
+        }
+    },
+    "reports_dropdown_area":{
+        "locator":{
+            "css selector":"[data-testid='warningLabel']"
+        }
+    },
+    "reports_dropdown":{
+        "locator":{
+            "css selector":"[data-testid='device-report-select']"
+        }
+    },
+    "reports_dropdown_options":{
+        "locator":{
+            "css selector":"ul[role='listbox']"
+        }
+    },
+    "device_assessment_report_type":{
+        "locator": {
+            "css selector": "[data-testid='device-report-type']"
+        },
+        "localization": {
+            "en": "Device Assessment Details"
+        }
+    },
+    "device_remediation_report_type":{
+        "locator": {
+            "css selector": "[data-testid='device-report-type']"
+        },
+        "localization": {
+            "en": "Device Remediation Details"
+        }
+    },
+    "device_report_desc":{
+        "locator": {
+            "css selector": "[data-testid='device-report-header'] p[data-testid='device-report-text']"
+        },
+        "localization": {
+            "en": "View the most recent reports of security policies. See additional reports in the Reports menu."
+        }
+    },
+    "three_dot_menu":{
+        "locator":{
+            "css selector":"tbody tr>td:nth-child(6)"
+        }
+    },
+    "floating_button":{
+        "locator":{
+            "css selector":"div[id='contextmenu-start-task']> div >div > ul"
+        }
+    },
+    "task_name_button":{
+        "locator":{
+            "css selector":"a[id='task-name-button']"
+        }
+    },
+    "task_history_button":{
+        "locator":{
+            "css selector":"button[id='task-history-button']"
+        }
+    },
+    "history_popup_label":{
+        "locator":{
+            "css selector":"[id='task-History-modal-label']"
+        }
+    },
+    "select_device_assessment_option":{
+        "locator":{
+            "css selector":["li[data-value='assessment']", "li[id*='option-0']"]
+        }
+    },
+    "select_device_remediation_option":{
+        "locator":{
+            "css selector":["li[data-value='remediation']", "li[id*='option-1']"]
+        }
+    },
+    "device_report_export_btn":{
+        "locator":{
+            "css selector":"button[data-testid='device-report-export']"
+        }
+    },
+    "export_popup_title":{
+        "locator":{
+            "css selector":"div#confirmation-details-modal-desc p:nth-child(1)"
+        }
+    },
+    "export_popup_subtitle":{
+        "locator":{
+            "css selector":"div#confirmation-details-modal-desc p:nth-child(2)"
+        }
+    },
+    "export_popup_format_dropdown":{
+        "locator":{
+            "css selector":"div#select-label"
+        }
+    },
+    "report_content":{
+        "locator":{
+            "css selector":"div[aria-controls='device-report-policyname-0']"
+        }
+    },
+    "report_date":{
+        "locator":{
+            "css selector":"span[data-testid*='device-report-policydaterun']"
+        }
+    },
+    "policy_settings_snmpv3_accordion":{
+        "locator":{
+            "css selector":"div#accordion-settings [aria-controls='snmp-v3']"
+        }
+    },
+    "policy_account_lockout_toggle":{
+        "locator":{ 
+            "css selector":"span[id='snmp-v3.lockout']"
+        }
+    },
+    "policy_max_attempts_txt":{
+        "locator":{
+            "css selector":"input[id='snmp-v3.max-attempts']"
+        }
+    },
+    "policy_max_attempts_error_icon":{
+        "locator":{
+            "css selector":"svg[aria-label='Minus Circle']"
+        }
+    },
+    "policies_max_attempts_error_label":{
+        "locator":{
+            "css selector":"div[id='snmp-v3.max-attempts.warning']"
+        }
+    },
+    "policy_settings_save_button":{
+        "locator":{
+            "css selector":"button#saveButton"
+        }
+    },
+    "apply_task_dropdown_default_value":{
+        "locator":{
+            "css selector":"#task-device-select-id>span"
+        }
+    },
+    "apply_task_dropdown":{
+        "locator":{
+            "css selector":"#vn-select-1"
+        }
+    },
+    "apply_task_dropdown_option":{
+        "locator":{
+            "css selector":"li#vn-select-1-option-0"
+        }
+    },
+    "task_type_assess_only":{ 
+        "locator":{
+            "css selector":"#task-type-assess"
+        }
+    },
+    "task_type_assess_and_remediate":{
+        "locator":{
+            "css selector":"#task-type-assess-remediate"
+        }
+    },
+    "task_change_save_button":{
+        "locator":{
+            "css selector":"#task-change-save-button"
+        }
+    },
+    "task_change_cancel_button":{
+        "locator":{
+            "css selector":"#task-change-cancel-button"
+        }
+    },
+    "task_table_task_type":{
+        "locator":{
+            "css selector":"span[class='task-type']"
+        }
+    },
+    "policy_settings_reset_button":{
+        "locator":{
+            "css selector":"button#idReset"
+        }
+    },
+    "policy_reset_settings_popup_review_changes_button":{
+        "locator":{
+            "css selector":"button#idReview"
+        }
+    },
+    "policy_settings_snmp_v1v2_name_in_preview":{
+        "locator":{
+            "css selector":"p[id='snmp-v1-v2.preview']"
+        }
+    },
+    "policy_review_changes_close_button":{
+        "locator":{
+            "css selector":".preview-modal button"
+        }
+    },
+    "policy_reset_settings_popup_title":{
+        "locator":{
+            "css selector":".reset-modal h2"
+        }
+    },
+    "policy_reset_settings_popup_desc":{
+        "locator":{
+            "css selector":".reset-modal h5"
+        }
+    },
+    "policy_reset_settings_popup_cancel_button":{
+        "locator":{
+            "css selector":"button#idCancelReset"
+        }
+    },
+    "policy_reset_settings_popup_reset_button":{
+        "locator":{
+            "css selector":"button#idDoReset"
+        }
+    },
+    "policy_settings_snmpv1_v2_accordion":{
+        "locator":{
+            "css selector":"div#accordion-settings [aria-controls='snmp-v1-v2']"
+        }
+    },
+    "policy_settings_severity_option":{
+        "locator":{
+            "css selector":"[id='snmp-v1-v2.severity-option-{}']"
+        }
+    },
+    "policy_settings_severity_dropdown":{
+        "locator":{
+            "css selector":"[id='snmp-v1-v2.severity']"
+        }
+    },
+    "policy_settings_cancel_button":{
+        "locator":{
+            "css selector":"button[id='cancelButton']"
+        }
+    },
+    "policy_settings_snmpv3_toggle":{
+        "locator":{
+            "css selector":"span[id='snmp-v3.check']"
+        }
+    },
+    "policy_settings_accordion":{
+        "locator":{
+            "css selector":"div#accordion-settings [aria-controls='{}']"
+        }
+    },
+    "policy_settings_unsupported_ignore_radio_button":{
+        "locator":{
+            "css selector":"input[id='{}.unsupported.ignore']"
+        }
+    },
+    "policy_settings_unsupported_fail_radio_button":{
+        "locator":{
+            "css selector":"input[id='{}.unsupported.fail']"
+        }
+    },
+    "policy_settings_shared_severity_dropdown":{
+        "locator":{
+            "css selector":"div[id='{}.severity']"
+        }
+    },
+    "policy_settings_shared_severity_dropdown_option":{
+        "locator":{
+            "css selector":"li[id='{}.severity-option-{}']"
+        }
+    },
+    "policy_settings_remediation_enable_radio_button":{
+        "locator":{
+            "css selector":"input[id='{}.remediation.enable']"
+        }
+    },
+    "policy_settings_remediation_disable_radio_button":{
+        "locator":{
+            "css selector":"input[id='{}.remediation.disable']"
+        }
+    },
+    "policy_settings_snmp_v1v2_permission_dropdown":{
+        "locator":{
+            "css selector":"div[id='snmp-v1-v2.permission']"
+        }
+    },
+    "policy_settings_snmp_v1v2_permission_dropdown_option":{
+        "locator":{
+            "css selector":"li[id='snmp-v1-v2.permission-option-{}']"
+        }
+    },
+    "policies_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+	"policies_contextual_footer":{
+        "locator": {
+            "css selector": "#policy-footer"
+        }
+    },
+    "policies_contextual_footer_cancel_button":{
+        "locator": {
+            "css selector": "button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "policies_selected_label":{
+        "locator": {
+            "css selector": "#cancelButton+div"
+        }
+    },
+	"policies_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": "div[class*='select-action'] div[aria-haspopup='listbox']"
+        }
+    },
+	"policies_contextual_footer_select_action_dropdown_options":{
+        "locator": {
+            "css selector": "ul[id*='listbox'] li"
+        }
+    },
+	"policies_select_action_dropdown_option":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+	"policies_contextual_footer_continue_button":{
+        "locator": {
+            "css selector": "button#continueButton"
+        },
+        "localization": {
+            "en": "Continue"
+        }
+    },
+    "policies_all_policy_breadcrumb":{
+        "locator": {
+            "css selector": "nav[aria-label='Breadcrumb'] li:nth-child(3)"
+        }
+    },
+    "policies_details_settings_names":{
+        "locator": {
+            "css selector": "#policySettingHeader"
+        }
+    },
+    "edit_policy_policy_name_txt":{
+        "locator": {
+            "css selector": "#textboxLabel"
+        }
+    },
+    "edit_policy_save_button":{
+        "locator": {
+            "css selector": ["button#idSave",
+                "button#saveButton"]
+        }
+    },
+    "confirm_policy_save_button":{
+        "locator": {
+            "css selector": "button#idSave"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "confirm_popup_policy_save_button":{
+        "locator": {
+            "css selector": "button#idConfirm"
+        },
+        "localization": {
+            "en": "Confirm"
+        }
+    },
+    "remove_policy_popup_remove_button":{
+        "locator": {
+            "css selector": "button#idDoRemove"
+        }
+    },
+    "policies_create_btn":{
+        "locator": {
+            "css selector": "button#createPolicy"
+        }
+    },
+    "create_policy_policy_name_txt":{
+        "locator": {
+            "css selector": "input#textboxLabel"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown":{
+        "locator": {
+            "css selector": "#dropdownLabel"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown_options":{
+        "locator": {
+            "css selector": "ul#dropdownLabel-listbox li"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown_essential_option":{
+        "locator": {
+            "css selector": "li#dropdownLabel-option-0"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown_base_option":{
+        "locator": {
+            "css selector": "li#dropdownLabel-option-1"
+        }
+    },
+    "create_policy_policy_setting_type_dropdown_skip_option":{
+        "locator": {
+            "css selector": "li#dropdownLabel-option-2"
+        }
+    },
+    "create_policy_next_btn":{
+        "locator": {
+            "css selector": "button#nextBtn"
+        }
+    },
+    "create_policy_search_txt":{
+        "locator": {
+            "css selector": ["input[id='id-select-policy-attribute-search']",
+                            "input[id='id-policy-attribute-search']"]
+        }
+    },
+    "create_policy_settings_checkbox":{
+        "comment": "locator bad waiting for dev to fix: ticket - FLTMGMT-2500",
+        "locator": {
+            "xpath": "(//thead)[2]//td/span"
+        }
+    },
+    "create_policy_create_button":{
+        "locator": {
+            "css selector": "button#createBtn"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "create_policy_done_button":{
+        "locator": {
+            "css selector": "button#idDone"
+        },
+        "localization": {
+            "en": "Done"
+        }
+    },
+    "policy_settings_check_latest_firmware_file_source_dropdown":{
+        "locator":{
+            "css selector":"div[id='check-latest.file-source']"
+        }
+    },
+    "policy_search_field":{
+        "locator":{
+            "css selector": "#policy-search"
+	}
+    },
+    "policy_name_table_header":{
+        "locator":{
+            "css selector": ["thead #name",
+		             "thead #policy",
+			     "thead #policyName"]
+	}
+    },
+    "policy_status_table_header":{
+        "locator":{
+            "css selector": "thead #active"
+	}
+    },
+    "devices_tab_policies_table_header":{
+        "locator":{
+            "css selector": "th#policies"
+        }
+    },
+    "devices_tab_policy_compliance_table_header":{
+        "locator":{
+            "css selector": "th#policyCompliance"
+        }
+    },
+    "devices_tab_last_run_table_header":{
+        "locator":{
+            "css selector": "th#policyLastRun"
+        }
+    },
+    "policies_status":{
+        "locator": {
+            "css selector": "tr td:nth-child(3)"
+        }
+    },
+    "policies_compliance_status_widget_compliance_status_reason":{
+        "locator": {
+            "css selector": "tr td:nth-child(4)"
+        }
+    },
+    "policies_assigned_group_name":{
+        "locator": {
+            "css selector": "tr td:nth-child(4)"
+        } 
+    },
+    "assignments_group_name":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//span[contains(text(),'{}')]"
+        }
+    },
+    "assignments_add_policy_btn":{
+        "locator": {
+            "css selector": "button#addPolicy-btn"
+        }
+    },
+    "assignments_delete_policy_btn":{
+        "locator": {
+            "css selector": "button#task-trash-button"
+        }
+    },
+    "assignments_add_policy_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "assignments_add_policy_add_btn":{
+        "locator": {
+            "css selector": "button#addButton"
+        },
+        "localization": {
+            "en": "Add"
+        }
+    },
+    "assignments_dropdown_options":{
+        "locator": {
+            "css selector": "ul[id*='listbox'] li"
+        }
+    },
+    "assignments_action_btn":{
+        "locator": {
+            "css selector": "button#actionButton"
+        }
+    },
+    "add_policies_table_policy_name":{
+        "locator": {
+            "css selector": "div#add-policy-modal tbody td:nth-child(2)"
+        }
+    },
+    "assignments_dropdown":{
+        "locator": {
+            "css selector": "div[id*='vn-select-floating-ui']"
+        }
+    },
+    "solutions_services_link":{
+        "locator": {
+            "css selector": "div[data-testid='hard-coded-solution-card-section']>div:nth-child(3)"
+        }
+    },
+    "solutions_assigned_policy":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//*[contains(text(),'{}')]"
+        }
+    },
+    "policy_search_txt":{
+        "locator": {
+            "css selector": "input#policy-search"
+        }
+    },
+    "policies_table_no_item_found":{
+        "locator": {
+            "css selector": "#policies svg[aria-label='Warning Alt']"
+        }
+    },
+    "policy_details_card":{
+        "locator": {
+            "css selector": "button[aria-controls='policyDetailsCard']"
+        }
+    },
+    "policy_details_card_policy_name":{
+        "locator": {
+            "css selector": "div[id='accordion-details'] [class*='name']"
+        }
+    },
+    "policy_details_card_edit_btn":{
+        "locator": {
+            "css selector": "div#accordion-details button#editButton"
+        },
+        "localization": {
+            "en": "Edit"
+        }
+    },
+    "policy_details_card_more_btn":{
+        "locator": {
+            "css selector": "button#editButton+div button"
+        }
+    },
+    "policy_details_card_remove_option":{
+        "locator": {
+            "css selector": "button[role='menuitem']"
+        }
+    },
+    "policy_details_search_txt":{
+        "locator": {
+            "css selector": "input[id='id-policy-attribute-search']"
+        }
+    },
+    "solutions_device_details_latest_report_result":{
+        "locator": {
+            "css selector": "div#device-report-policyname-0 [data-testid='device-report-assessment-container'] div:nth-child(3)"
+        }
+    },
+    "policy_settings_llmnr_toggle":{
+        "locator":{
+            "xpath":"//span[contains(text(),'LLMNR')]"
+        }
+    },
+    "policy_settings_llmnr_accordion":{
+        "locator":{
+            "css selector":"div#accordion-settings [aria-controls='llmnr']"
+        }
+    },
+    "policy_details_view_link":{
+        "locator":{
+            "css selector":"#device-policies button"
+        }
+    },
+    "policy_settings_card":{
+        "locator": {
+            "css selector": "div#accordion-settings h3>button"
+        }
+    },
+    "assignments_table_policy_name":{
+        "locator":{
+            "css selector":"#assignments td:nth-child(1) a"
+        }
+    },
+    "assignments_policy_preview_title":{
+        "locator":{
+            "css selector":"#preview-policy-modal-label"
+        }
+    },
+    "assignments_policy_preview_settings_title":{
+        "locator":{
+            "css selector":"#preview-policy-modal p"
+        },
+        "localization": {
+            "en": "Policy Settings"
+        }
+    },
+    "assignments_policy_preview_close_btn":{
+        "locator":{
+            "css selector":"div.preview-policy-modal [class*='close']"
+        }
+    },
+    "assignment_contextual_footer":{
+        "locator": {
+            "css selector": "#extended-1 div.task-fixed"
+        }
+    },
+    "assignment_contextual_footer_cancel_button":{
+        "locator": {
+            "css selector": "button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "change_policy_priority_button":{
+        "locator":{
+            "css selector":"button#modifyPolicy-btn"
+        },
+        "localization": {
+            "en": "Change Policy Priority"
+        }
+    },
+    "change_policy_priority_popup_title":{
+        "locator": {
+            "css selector": "#change-policy-priority-modal-label"
+        },
+        "localization": {
+            "en": "Change Policy Priority"
+        }
+    },
+    "change_policy_priority_popup_desc":{
+        "locator": {
+            "css selector": "#change-policy-priority-modal p"
+        },
+        "localization": {
+            "en": "The item on the top is the priority."
+        }
+    },
+    "change_policy_priority_popup_close_btn":{
+        "locator": {
+            "css selector": "[aria-labelledby='change-policy-priority-modal-label'] button[class*='close']"
+        }
+    },
+    "change_policy_priority_popup_cancel_btn":{
+        "locator": {
+            "css selector": "[aria-labelledby='change-policy-priority-modal-label'] button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "change_policy_priority_popup_save_btn":{
+        "locator": {
+            "css selector": "[aria-labelledby='change-policy-priority-modal-label'] button#saveButton"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "change_policy_priority_popup_reset_btn":{
+        "locator": {
+            "css selector": "button#resetButton"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "assignment_tab_polices_names":{
+        "locator": {
+            "css selector": "#assignments table td a"
+        }
+    },
+    "change_policy_priority_checkbox":{
+        "locator": {
+            "css selector": ["#changePolicy span.vn-checkbox__span", 
+                            "tbody[tabindex='-1'] span.vn-checkbox__span"]
+        }
+    },
+    "change_policy_priority_down_arrow":{
+        "locator": {
+            "css selector": "div[id='change-policy-priority-modal'] button:nth-child(2)"
+        }
+    },
+    "add_policies_popup_policy_name":{
+        "locator": {
+            "css selector": "#add-policy-modal tbody td:nth-child(2)"
+        }
+    },
+    "add_policies_popup_title":{
+        "locator": {
+            "css selector": "#add-policy-modal-label"
+        },
+        "localization": {
+            "en": "Add Policy"
+        }
+    },
+    "add_policies_popup_desc":{
+        "locator": {
+            "css selector": "#add-policy-modal p"
+        },
+        "localization": {
+            "en": "Select policy to assign to a group and unselect to remove from the group."
+        }
+    },
+    "add_policies_popup_cancel_button":{
+        "locator": {
+            "css selector": "[aria-labelledby='add-policy-modal-label'] button#cancelButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "add_policies_popup_close_button":{
+        "locator": {
+            "css selector": "[aria-labelledby='add-policy-modal-label'] button[class*='close']"
+        }
+    },
+    "edit_policy_title":{
+        "locator": {
+            "css selector": "[data-testid='policy-title']"
+        },
+        "localization": {
+            "en": "Edit Policy"
+        }
+    },
+    "edit_policy_desc":{
+        "locator": {
+            "css selector": "[data-testid='policy-title-description']"
+        },
+        "localization": {
+            "en": "Change and save option values. If this policy is already assigned, the assignment status will be impacted."
+        }
+    },
+    "edit_policy_note_txt":{
+        "locator": {
+            "css selector": "#textAreaLabel"
+        }
+    },
+    "edit_policy_add_button":{
+        "locator": {
+            "css selector": "button#addPolicyButton"
+        },
+        "localization": {
+            "en": "Change"
+        }
+    },
+    "policy_save_confirm_popup":{
+        "locator": {
+            "css selector": "[data-testid='id-save-modal-title']"
+        },
+        "localization": {
+            "en": "Are you sure to save this policy?"
+        }
+    },
+    "policy_save_confirm_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='id-save-modal-text-2']"
+        },
+        "localization": {
+            "en": "If this policy is already assigned, the assignment status will be impacted."
+        }
+    },
+    "policy_save_confirm_popup_policy_name":{
+        "locator": {
+            "css selector": "[data-testid='id-save-modal-name']"
+        },
+        "localization": {
+            "en": "Policy Name"
+        }
+    },
+    "policy_save_confirm_popup_cancel_button":{
+        "locator": {
+            "css selector": "button#idCancelSaveWarning"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_not_saved_title":{
+        "locator": {
+            "css selector": "[data-testid='id-warning-save-modal-title']"
+        },
+        "localization": {
+            "en": "Settings Not Saved"
+        }
+    },
+    "settings_not_saved_desc_one":{
+        "locator": {
+            "css selector": "[data-testid='id-warning-save-modal-text-1']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page?"
+        }
+    },
+    "settings_not_saved_desc_two":{
+        "locator": {
+            "css selector": "[data-testid='id-warning-save-modal-text-2']"
+        },
+        "localization": {
+            "en": "All unsaved changes will be lost."
+        }
+    },
+    "settings_not_saved_cancel_btn":{
+        "locator": {
+            "css selector": "button#unsaved-changes-cancel-button"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_not_saved_leave_btn":{
+        "locator": {
+            "css selector": "button#unsaved-changes-confirm-button"
+        },
+        "localization": {
+            "en": "Leave"
+        }
+    },
+    "policy_page_title":{
+        "locator": {
+            "css selector": "[data-testid='policy-title']"
+        },
+        "localization": {
+            "en": "Policies"
+        }
+    },
+    "add_policy_popup_search_txt":{
+        "locator": {
+            "css selector": "input[id='id-select-policy-attribute-search']"
+        }
+    },
+    "add_policy_popup_policy_checkbox":{
+        "locator": {
+            "css selector": "tbody span.vn-checkbox__span"
+        }
+    },
+    "add_policy_popup_add_button":{
+        "locator": {
+            "css selector": "button#addPolicyModalButton"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "add_policy_popup_cancel_button":{
+        "locator": {
+            "css selector": "button#cancelPolicyModalButton"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "edit_policy_settings_trash_button":{
+        "locator": {
+            "css selector": "button#policySettingRemoval"
+        }
+    },
+    "add_policy_pop_up_title":{
+        "locator":{
+            "css selector": "[class*='addPolicyModal'] h4"
+        },
+        "localization": {
+            "en": "Change Policy Settings"
+        }
+    },
+    "add_policy_related_item":{
+        "locator":{
+            "css selector": "div.cardTitle"
+        }
+    },
+    "add_policy_search_policy_setting_names":{
+        "locator":{
+            "css selector": "[data-testid='id-policy-attribute-table'] tbody td:nth-child(2)"
+        }
+    },
+    "create_policy_title":{
+        "locator": {
+            "css selector": "h5.createPolicyTitle"
+        },
+        "localization": {
+            "en": "Create Policy"
+        }
+    },
+    "create_policy_basic_info_step_title":{
+        "locator": {
+            "css selector": "h5.step-heading"
+        },
+        "localization": {
+            "en": "Step 1: Basic Information"
+        }
+    },
+    "create_policy_basic_info_step_description":{
+        "locator": {
+            "css selector": "p.contentPadding"
+        },
+        "localization": {
+            "en": "Enter policy name and add a note."
+        }
+    },
+    "create_policy_basic_info_policy_name":{
+        "locator": {
+            "css selector": "label.requiredField"
+        },
+        "localization": {
+            "en": "Policy Name"
+        }
+    },
+    "create_policy_basic_info_policy_error_msg":{
+        "locator": {
+            "css selector": "#textboxLabel-helper-text span.caption.text"
+        },
+        "localization": {
+            "en": "Policy name is required."
+        }
+    },
+    "create_policy_basic_info_policy_settings_type_error_msg":{
+        "locator": {
+            "css selector": "#dropdownLabel-helper-text span.caption.text"
+        },
+        "localization": {
+            "en": "Policy setting type is required."
+        }
+    },
+    "create_policy_basic_info_note_field":{
+        "locator": {
+            "css selector": "#textAreaLabel"
+        }
+    },
+    "create_policy_cancel_btn":{
+        "comment": "locator mismatch between PIE & Stage - ",
+        "locator": {
+            "xpath": "(//span[contains(text(),'Cancel')]/parent::button)[1]"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "create_policy_step2_title":{
+        "locator":{
+            "css selector": "h5.step-heading"
+        },
+        "localization": {
+            "en": "Step 2: Select Policy Settings"
+        }
+    },
+    "create_policy_step2_desc":{
+        "locator":{
+            "css selector": "p.contentPadding"
+        },
+        "localization": {
+            "en": "Explore category and search to select policy settings."
+        }
+    },
+    "change_policy_priority_up_arrow":{
+        "locator": {
+            "css selector": "div[id='change-policy-priority-modal'] button:nth-child(1)"
+        }
+    },
+    "create_policy_back_button":{
+        "locator":{
+            "css selector": "button#backBtn"
+        },
+        "localization": {
+            "en": "Back"
+        }
+    },
+    "create_policy_step3_title":{
+        "locator":{
+            "css selector": "h5.step-heading"
+        },
+        "localization": {
+            "en": "Step 3: Set Options"
+        }
+    },
+    "create_policy_step3_desc":{
+        "locator":{
+            "css selector": "p.contentPadding"
+        },
+        "localization": {
+            "en": "Set selected policy setting options and go back to the previous step to add policy setting."
+        }
+    },
+    "policy_created_successfully_popup_title":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-title']"
+        },
+        "localization": {
+            "en": "Policy Created Successfully!"
+        }
+    },
+    "policy_created_successfully_popup_desc":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-text-2']"
+        },
+        "localization": {
+            "en": "Assign this policy to device groups by selecting the Assignments tab and adding the policy to device groups."
+        }
+    },
+    "policy_created_successfully_popup_policy_name_label":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-text-1'] span"
+        },
+        "localization": {
+            "en": "Policy Name"
+        }
+    },
+    "create_policy_set_option_policy_card":{
+        "locator":{
+            "css selector": "button[aria-controls='{}']"
+        }
+    },
+    "ignore_unsupported_item_toggle":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Ignore Unsupported Item')]"
+        }
+    },
+    "control_panel_language_dropdown":{
+        "locator":{
+            "css selector": "div[id='ctrl-panel-language.code']"
+        }
+    },
+    "control_panel_language_option":{
+        "locator":{
+            "css selector": "ul li[data-value='language-code.{}']"
+        }
+    },
+    "company_name_txt":{
+        "locator":{
+            "css selector": "input[id='company-name.value']"
+        }
+    },
+    "device_name_txt":{
+        "locator":{
+            "css selector": "input[id='device-name.value']"
+        }
+    },
+    "policy_created_successfully_popup_policy_name":{
+        "locator":{
+            "css selector": "[data-testid='id-create-policy-success-modal-name']"
+        }
+    },
+    "policies_column_option_gear_button":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "reset_to_default_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        }
+    },
+    "policies_column_option_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Policies')]"
+        }
+    },
+    "policies_compliance_option_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Policy Compliance')]"
+        }
+    },
+    "policies_last_run_option_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Policy Date Run')]"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column options"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "locator": {
+            "css selector": "#column-options+div button:nth-child(2)"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "locator": {
+            "css selector": "#column-options+div button:nth-child(1)"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "policies_table_catagory_column":{
+        "locator": {
+            "css selector": "th#category"
+        }
+    },
+    "policies_table_modifiedby_column":{
+        "locator": {
+            "css selector": "th#modifiedBy"
+        }
+    },
+    "solutions_device_table_assessmnet_column":{
+        "locator": {
+            "css selector": "th#assessment"
+        }
+    },
+    "solutions_device_table_connectivity_column":{
+        "locator": {
+            "css selector": "th#connectionState"
+        }
+    },
+    "solutions_device_table_policies_column":{
+        "locator": {
+            "css selector": "th#policies"
+        }
+    },
+    "solutions_title":{
+        "locator": {
+            "css selector": "[data-testid='main-title'] [class*='MainTitle__Title-']"
+        },
+        "localization": {
+            "en": "Solutions"
+        }
+    },
+    "policies_table_last_modified_column":{
+        "locator": {
+            "css selector": "th#modifiedAt"
+        }
+    },
+    "policies_devices_search_device_name_field": {
+        "locator": {
+            "css selector": "input#policy-device-search"
+        }
+    },
+    "policies_devices_gear_button": {
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "policies_devices_group_title":{
+        "locator": {
+            "css selector": "div.policy-devices-group-title"
+        },
+        "localization": {
+            "en": "Groups"
+        }
+    },
+    "policies_devices_column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - PSPECP-486 & locator mismatch between PIE & Stage - ",
+        "locator": {
+            "xpath": ["(//span[contains(text(),'Cancel')]/parent::button)[4]",
+                    "(//span[contains(text(),'Cancel')]/parent::button)[2]"]
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "policy_device_details_title":{
+        "locator": {
+            "css selector": "[data-testid*='details-accordion__model-name']"
+        }
+    },
+    "device_details_policy_tab":{
+        "locator": {
+            "css selector": "[aria-controls='extended-4']"
+        }
+    },
+    "policy_device_details_compliance_status":{
+        "locator": {
+            "css selector": "div[data-testid='compliance-info-status-name']"
+        }
+    },
+    "policy_device_details_policy":{
+        "locator": {
+            "css selector": "div[data-testid='compliance-info-policy-name']"
+        }
+    },
+    "policy_device_details_basic_info_card":{
+        "locator":{
+            "css selector":"div[aria-controls='device-details-info-section']"
+        }
+    },
+    "policy_device_details_compliance_status_card":{
+        "locator":{
+            "css selector":"div#status-accordion"
+        }
+    },
+    "policy_device_details_compliance_status_title":{
+        "locator": {
+            "css selector": "div[data-testid='compliance-info-title']"
+        },
+        "localization": {
+            "en": "Compliance Status"
+        }
+    },
+    "policies_devices_tab":{
+        "locator": {
+            "css selector": "[aria-controls='extended-2']"
+        }
+    },
+    "device_details_policy_run_now_button":{
+        "locator": {
+            "css selector": "[data-testid='compliance-info-run-button']"
+        }
+    },
+    "device_details_policy_widget_card":{
+        "locator": {
+            "css selector": "div#policy-accordion"
+        }
+    },
+    "device_details_policy_widget_edit_button":{
+        "locator": {
+            "css selector": "[id='device-policy-preview-accordion-button']"
+        }
+    },
+    "device_details_policies_tab_policy_widget_expand_button":{
+        "locator": {
+            "css selector": "button[aria-controls='id-device-specific']"
+        }
+    },
+    "policy_device_details_total_policy_count":{
+        "locator": {
+            "css selector": "[data-testid='compliance-info-total-counts']"
+        }
+    },
+    "assignmentss_table_no_item_found":{
+        "locator": {
+            "css selector": "#assignments svg"
+        }
+    },
+    "device_entry_list_policy_status":{
+        "locator": {
+            "css selector": "tr td:nth-child(4)"
+        }
+    },
+    "device_page_policy_status":{
+        "locator": {
+            "css selector": "tr td:nth-child(8)"
+        }
+    },
+    "device_entry_list_compliance_status":{
+        "locator": {
+            "css selector": "tr td:nth-child(2)"
+        }
+    },
+    "device_page_policy_compliance_status":{
+        "locator": {
+            "css selector": "tr td:nth-child(9)"
+        }
+    },
+    "device_detail_policy_tab_policy_text":{
+        "locator":{
+            "css selector":"[data-testid='compliance-info-policy-name']"
+        }
+    },
+    "device_detail_policy_tab_compliance_status":{
+        "locator":{
+            "css selector":"[data-testid='compliance-info-status-name']"
+        }
+    },
+    "policy_device_details_priority_policy_name_1":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(1) div.centralAreaAccordion"
+        }
+    },
+    "policy_device_details_priority_policy_name_2":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2) div.centralAreaAccordion"
+        }
+    },
+    "policy_device_details_priority_1_policy_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(1)>div[role='button']"
+        }
+    },
+    "policy_device_details_priority_2_policy_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2)>div[role='button']"
+        }
+    },
+    "policy_device_details_priority_compliance_status":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2) p"
+        }
+    },
+    "compliance_status_no_item_found":{
+        "locator": {
+            "css selector": "#complianceInfo tbody tr td svg"
+        }
+    },
+    "policy_device_details_low_priority_policy_name":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "xpath": "//div[@id='policy-accordion']//div[contains(text(),'{}')]"
+        }
+    },
+    "policy_device_details_low_priority_policy_status":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "xpath": "//p[contains(text(),'{}')]"
+        }
+    },
+    "policy_device_details_low_priority_policy_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2)>div[role='button']"
+        }
+    },
+    "policy_device_details_low_priority_policy_warning_icon":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div[role='alert'] svg"
+        }
+    },
+    "policy_device_details_low_priority_policy_warning_message":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div[role='alert'] div:nth-child(2) div"
+        }
+    },
+    "policy_device_details_low_priority_policy_settings_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2) div[aria-controls*='https']"
+        }
+    },
+    "policy_device_details_high_priority_policy_warning_icon":{
+        "locator": {
+            "css selector": "div[aria-controls*='{}'] div:nth-child(2) div svg"
+        }
+    },
+    "policy_device_details_high_priority_policy_checkmark_icon":{
+        "locator": {
+            "css selector": "div[aria-controls*='{}'] div:nth-child(2) div svg"
+        }
+    },
+    "policy_device_details_high_priority_policy_warning_message":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "xpath": "//span[contains(text(),'Noncompliant policy setting')]"
+        }
+    },
+    "policy_device_details_high_priority_policy_settings_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": ["div#policy-accordion>div:nth-child(1) div[aria-controls*='https']",
+            "div#policy-accordion>div:nth-child(2) div[aria-controls*='https']"]
+        }
+    },
+    "policy_device_details_high_priority2_policy_settings_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2) div[aria-controls*='https']"
+        }
+    },
+    "policy_device_details_policy_settings_name":{
+        "locator": {
+            "css selector": "div#compliance-accordion-settings div[aria-controls*='{}']"
+        }
+    },
+    "ignore_unentitled_item_toggle":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Ignore Unentitled Item')]"
+        }
+    },
+    "web_service_discovery_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Web Services Discovery (WS-Discovery)')]"
+        }
+    },
+    "bonjour_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Bonjour')]"
+        }
+    },
+    "slp_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Service Location Protocol (SLP)')]"
+        }
+    },
+    "airprint_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'AirPrint')]"
+        }
+    },
+    "ipp_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Internet Print Protocol (IPP)')]"
+        }
+    },
+    "ipps_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Secure Internet Print Protocol (IPPS)')]"
+        }
+    },
+    "lpd_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Line Printer Daemon / Line Printer Remote (LPD/LPR)')]"
+        }
+    },
+    "remediation_item_toggle":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Remediation')]"
+        }
+    },
+    "tcp_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Standard TCP/IP Printing (P9100)')]"
+        }
+    },
+    "ws_print_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Web Services Print (WS-Print)')]"
+        }
+    },
+    "wins_port_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'WINS Port')]"
+        }
+    },
+    "wins_registration_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'WINS Registration')]"
+        }
+    },
+    "llmnr_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Link-Local Multicast Name Resolution Protocol (LLMNR)')]"
+        }
+    },
+    "airprint_fax_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'AirPrint Fax')]"
+        }
+    },
+    "airprint_scan_and_secure_scan_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'AirPrint Scan/AirPrint Secure Scan')]"
+        }
+    },
+    "dhcp_v4_compliance_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'DHCPv4 FQDN compliance with RFC 4702')]"
+        }
+    },
+    "ipv4_multicast_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'IPv4 Multicast')]"
+        }
+    },
+    "postscript_security_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'PS Privileged Operators')]"
+        }
+    },
+    "csrf_prevention_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Cross-Site Request Forgery (CSRF) Prevention')]"
+        }
+    },
+    "verify_certificate_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Verify Certificate for IPP/IPPS Pull Printing')]"
+        }
+    },
+    "pjl_access_commands_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'PJL Access Commands')]"
+        }
+    },
+    "service_access_code_textbox_disabled":{
+        "locator":{
+            "css selector": "input[id='svc-access-code.value']"
+        }
+    },
+    "secure_boot_presence_checkbox":{
+        "locator":{
+            "css selector": "input[id='secure-boot-presence.check']"
+        }
+    },
+    "intrusion_detection_presence_checkbox":{
+        "locator":{
+            "css selector": "input[id='intrusion-detect-presence.check']"
+        }
+    },
+    "whitelisting_presence_checkbox":{
+        "locator":{
+            "css selector": "input[id='whitelist-presence.check']"
+        }
+    },
+    "remote_fw_update_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Printer Firmware Update (send as Printjob)')]"
+        }
+    },
+    "change_not_recommended_popup_confirm_button":{
+        "locator":{
+            "css selector":"#idConfirm"
+        }
+    },
+    "auto_firmware_update_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Auto Firmware Update')]"
+        }
+    },
+    "direct_connect_ports_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Direct Connect Ports')]"
+        }
+    },
+    "require_https_redirect_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Require HTTPS Redirect')]"
+        }
+    },
+    "embedded_web_server_access_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Embedded Web Server Access')]"
+        }
+    },
+    "enter_control_panel_timeout":{
+        "locator":{
+            "css selector": "[id='ctrl-panel-timeout.value']"
+        }
+    },
+    "disk_encryption_inactive_status":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Inactive')]"
+        }
+    },
+    "snmp_v1v2_disable_radio_btn":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Disable')]"
+        }
+    },
+    "snmp_v1v2_read_only_radio_btn":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Read Only Enabled')]"
+        }
+    },
+    "snmp_v1v2_read_write_radio_btn":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Read and Write Enabled')]"
+        }
+    },
+    "snmp_v3_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'SNMPv3')]"
+        }
+    },
+    "host_usb_plug_and_play_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Host USB Plug and Play')]"
+        }
+    },
+    "proxy_device_settings_checkbox":{
+        "locator":{
+            "xpath": "//input[@id='{}']/parent::span/following-sibling::span"
+        }
+    },
+    "ps_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Allow PS Access')]"
+        }
+    },
+    "pjl_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Allow PJL Access')]"
+        }
+    },
+    "require_admin_password_for_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Require Admin Password for Access')]"
+        }
+    },
+    "display_print_page_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Display Print Page')]"
+        }
+    },
+    "display_job_log_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Display Job Log')]"
+        }
+    },
+    "create_set_options_tab_delete_button":{
+        "locator":{
+            "css selector": "#policySettingRemoval"
+        }
+    },
+    "save_to_network_folder_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Save To Network Folder')]"
+        }
+    },
+    "save_to_sharepoint_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Save to SharePoint')]"
+        }
+    },
+    "send_to_email_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Send To Email')]"
+        }
+    },
+    "time_services_server_address_ip":{
+        "locator":{
+            "css selector":"[id='time-services.server-address']"
+        }
+    },
+    "time_services_port_value":{
+        "locator":{
+            "css selector":"[id='time-services.port']"
+        }
+    },
+    "time_services_hours_value":{
+        "locator":{
+            "css selector":"[id='time-services.sync-hours']"
+        }
+    },
+    "time_services_do_not_sync_network_time_server":{
+        "locator":{
+            "css selector": "[id='time-services.drift-correction'] label:nth-child(1) span:nth-child(3)" 
+        }
+    },
+    "time_services_automatic_sync_custom_network_time_server":{
+        "locator":{
+            "css selector": "[id='time-services.drift-correction'] label:nth-child(3) span:nth-child(3)" 
+        }
+    },
+    "web_encryption_min_tls_1.0_version":{
+        "locator":{
+            "css selector": "[id='web-encryption.tls-min'] label:nth-child(1)"
+        }
+    },
+    "web_encryption_min_tls_1.1_version":{
+        "locator":{
+            "css selector": "[id='web-encryption.tls-min'] label:nth-child(2)"
+        }
+    },
+    "web_encryption_min_tls_1.2_version":{
+        "locator":{
+            "css selector": "[id='web-encryption.tls-min'] label:nth-child(3)"
+        }
+    },
+    "web_encryption_max_tls_1.0_version":{
+        "locator":{
+            "css selector": "[id='web-encryption.tls-max'] label:nth-child(1)"
+        }
+    },
+    "web_encryption_max_tls_1.1_version":{
+        "locator":{
+            "css selector": "[id='web-encryption.tls-max'] label:nth-child(2)"
+        }
+    },
+    "web_encryption_max_tls_1.2_version":{
+        "locator":{
+            "css selector": "[id='web-encryption.tls-max'] label:nth-child(3)"
+        }
+    },
+    "web_encryption_max_tls_1.3_version":{
+        "locator":{
+            "css selector": "[id='web-encryption.tls-max'] label:nth-child(4)"
+        }
+    },
+    "file_erase_non_secure_radio_button":{
+        "locator":{
+            "css selector": "[id='file-erase.mode'] label:nth-child(1) span:nth-child(1)"
+        }
+    },
+    "retain_print_stored_jobs_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Retain Print Jobs')]"
+        }
+    },
+    "temporary_stored_job_dropdown":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary']"
+        }
+    },
+    "temporary_stored_job_30_minutes_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary-option-0']"
+        }
+    },
+    "temporary_stored_job_1_hour_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary-option-1']"
+        }
+    },
+    "temporary_stored_job_never_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary-option-6']"
+        }
+    },
+    "standard_job_retention_dropdown":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard']"
+        }
+    },
+    "standard_job_retention_30_minutes_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard-option-0']"
+        }
+    },
+    "standard_job_retention_1_hour_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard-option-1']"
+        }
+    },
+    "standard_job_retention_never_option":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard-option-6']"
+        }
+    },
+    "fax_receive_setting_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Fax Receive')]"
+        }
+    },
+    "fax_receive_ip_fax_method_option":{
+        "locator":{
+            "css selector": "div[id='id-fax-receive-method'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "fax_receive_set_internal_modem_button":{
+        "locator":{
+            "xpath": "//span[normalize-space()='Set Internal Modem']/parent::button"
+        }
+    },
+    "fax_receive_internal_modem_ringer_volume_dropdown":{
+        "locator":{
+            "css selector": "div[id='modem-ringer-volume']"
+        }
+    },
+    "internal_modem_ringer_volume_off_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-0']"
+        }
+    },
+    "internal_modem_ringer_volume_high_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-1']"
+        }
+    },
+    "internal_modem_ringer_volume_low_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-2']"
+        }
+    },
+    "internal_modem_rings_to_answer_textbox":{
+        "locator":{
+            "css selector": "input[id='modem-rings-to-answer']"
+        }
+    },
+    "set_internal_modem_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-fax-internal-modem-modal'] button:nth-child(2)"
+        }
+    },
+    "address_field_from_address_book_radio_btn":{
+        "locator":{
+            "css selector": "fieldset[id='email-message.restrictions'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "set_email_address_message_button":{
+        "locator":{
+            "css selector": "button[id='setEmailMesssage']" 
+        }
+    },
+    "email_default_from_dropdown":{
+        "locator":{
+            "css selector": "div[id='from']"
+        }
+    },
+    "email_default_from_user_address_option":{
+        "locator":{
+            "css selector": "li[id='from-option-1']"
+        }
+    },
+    "default_from_email_address_text_box":{
+        "locator":{
+            "css selector": "input[id='def-from']"
+        }
+    },
+    "default_from_display_name_text_box":{
+        "locator":{
+            "css selector": "input[id='def-name']"
+        }
+    },
+    "email_address_from_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(2) div:nth-child(2) label>span:nth-child(2)"
+        }
+    },
+    "to_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "div[id='to']"
+        }
+    },
+    "to_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id='to-option-1']"
+        }
+    },
+    "email_address_to_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(4) label>span:nth-child(2)"
+        }
+    },
+    "cc_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "div[id='cc']"
+        }
+    },
+    "cc_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id='cc-option-1']"
+        }
+    },
+    "email_address_cc_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(5) label>span:nth-child(2)"
+        }
+    },
+    "bcc_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "div[id='bcc']"
+        }
+    },
+    "bcc_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id='bcc-option-1']"
+        }
+    },
+    "email_address_bcc_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(6) label>span:nth-child(2)"
+        }
+    },
+    "email_address_subject_text_box":{
+        "locator":{
+            "css selector": "input[id='subject']"
+        }
+    },
+    "email_address_subject_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(7) label>span:nth-child(2)"
+        }
+    },
+    "email_address_message_text_box":{
+        "locator":{
+            "css selector": "[id='message']"
+        }
+    },
+    "email_address_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(8) label>span:nth-child(2)"
+        }
+    },
+    "email_address_message_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-set-email-address-modal'] button:nth-child(1)"
+        }
+    },
+    "allow_invalid_email_address_checkbox":{
+        "locator":{
+            "css selector": "#email-message div:nth-child(3) div:nth-child(3) label>span:nth-child(2)"
+        }
+    },
+    "digitally_email_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[id='email-message'] div:nth-child(5) label>span:nth-child(2)"
+        }
+    },
+    "encrypt_email_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[id='email-message'] div:nth-child(7) label>span:nth-child(2)"
+        }
+    },
+    "policy_tab_compliants_tab_reason":{
+        "locator":{
+            "css selector": "div[id='complianceInfo'] tr:nth-child(1) td:nth-child(4)"
+        }
+    },
+    "telnet_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Telnet')]"
+        }
+    },
+    "tftp_configuration_file_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'TFTP Configuration File')]"
+        }
+    },
+    "hp_jetdirect_xml_service_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'HP Jetdirect XML Services')]"
+        }
+    },
+    "policy_assignments_side_groups":{
+        "locator": {
+            "css selector": "button[aria-label*='Collapse']"
+        }
+    },
+    "policy_assignments_side_groups_expand_btn":{
+        "locator": {
+            "css selector": "button[aria-label*='Expand']"
+        }
+    },
+    "app_deployment_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Workpath Enablement')]"
+        }
+    },
+    "app_depolyment_warning_label":{
+        "locator":{
+            "xpath":"//div[contains(text(),'Some options not available here')]"
+        }
+    },
+    "app_deployment_do_not_uninstall_unlisted_app":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Do Not Uninstall Unlisted App')]"
+        }
+    },
+    "app_deployment_uninstall_unlisted_app":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Uninstall Unlisted App')]"
+        }
+    },
+    "app_deployment_select_app_btn":{
+        "locator":{
+            "css selector":"button#addAppDeployment"
+        }
+    },
+    "app_deployment_app_name_table_checkbox":{
+        "locator":{
+            "css selector": "table[data-testid='id-app-deployment-table'] tr td[scope='col']"
+        }
+    },
+    "app_deployment_select_app_printer_on_agent_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'PrinterOn Agent')]]//td[1]"
+        }
+    },
+    "app_deployment_select_app_printer_on_agent_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'PrinterOn Agent')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_common_version_option_btn":{
+        "locator":{
+            "css selector":"ul[role='listbox'] li:nth-child(1)"
+        }
+    },
+    "app_deployment_select_app_save_btn":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Save')]"
+        }
+    },
+    "app_deployment_select_app_regus_plugin_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'Regus plugin')]]//td[1]"
+        }
+    },
+    "app_deployment_select_app_regus_plugin_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'Regus plugin')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_for_box_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for Box')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_box_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for Box')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_for_clio_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for Clio')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_clio_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for Clio')]]//td[4]"
+        }
+    },
+    "app_deployment_setting_accordion":{
+        "locator":{
+            "css selector":"#accordion-settings"
+        }
+    },
+    "app_deployment_select_app_hp_for_sharepoint_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for SharePoint Online')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_sharepoint_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for SharePoint Online')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_for_dropbox_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for Dropbox')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_dropbox_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for Dropbox')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_for_google_drive_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for Google Drive')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_google_drive_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for Google Drive')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_for_onedrive_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for OneDrive')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_onedrive_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for OneDrive')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_for_onedrive_business_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for OneDrive Business')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_onedrive_business_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for OneDrive Business')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_for_universal_print_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP for Universal Print')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_for_universal_print_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP for Universal Print')]]//td[4]"
+        }
+    },
+    "app_deployment_select_app_hp_mail_flow_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'HP Mail Flow')]]//td[1]"
+        }
+    },
+    "app_deployment_select_hp_mail_flow_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'HP Mail Flow')]]//td[4]"
+        }
+    },
+    "app_deployment_select_lite_survey_app_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'Lite Survey')]]//td[1]"
+        }
+    },
+    "app_deployment_select_lite_survey_app_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'Lite Survey')]]//td[4]"
+        }
+    },
+    "app_deployment_select_lrs_authenticator_checkbox":{
+        "locator":{
+             "xpath": "//tr[.//span[contains(text(), 'LRS Authenticator')]]//td[1]"
+        }
+    },
+    "app_deployment_select_lrs_authenticator_dropdown":{
+        "locator":{
+            "xpath": "//tr[.//span[contains(text(), 'LRS Authenticator')]]//td[4]"
+        }
+    },
+    "app_deployment_remove_btn":{
+        "locator":{
+            "css selector":"[id='removeAppDeployment']"
+        }
+    },
+    "app_depolyment_zero_items_selected_label":{
+        "locator":{
+            "css selector":"[id='app-deployment'] div:nth-child(3) div:nth-child(3) div:nth-child(2) div:nth-child(2)"
+        }
+    },
+    "app_depolyment_no_items_found_label":{
+        "locator":{
+            "xpath":"//span[contains(text(),'No Items Found')]"
+        }
+    },
+    "legacy_fw_update_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Printer Firmware SHA1 Code Signing')]"
+        } 
+    },
+    "smart_cloud_print_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Smart Cloud Print')]"
+        } 
+    },
+    "ftp_print_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'FTP Print')]"
+        } 
+    },
+    "sleep_settings_sleep_mode_textbox":{
+        "locator":{
+            "css selector":"input[id='sleep-settings.value']"
+        }
+    },
+    "sleep_settings_wake_all_events_radio_button":{
+        "locator":{
+            "css selector":"fieldset[id='sleep-settings.on-events'] label:nth-child(1) span"
+        }
+    },
+    "sleep_settings_wake_network_port_radio_button":{
+        "locator":{
+            "css selector":"fieldset[id='sleep-settings.on-events'] label:nth-child(2) span"
+        }
+    },
+    "sleep_settings_auto_off_textbox":{
+        "locator":{
+            "css selector":"input[id='sleep-settings.off-value']"
+        }
+    },
+    "cross_origin_resource_sharing_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Cross-Origin Resource Sharing (CORS)')]"
+        } 
+    },
+    "cross_setting_add_button":{
+        "locator":{
+            "css selector":"button#add"
+        }
+    },
+    "cross_setting_remove_button":{
+        "locator":{
+            "css selector":"button#remove"
+        }
+    },
+    "cross_origin_resource_sharing_textbox":{
+        "locator":{
+            "css selector":"input#address"
+        }
+    },
+    "cross_origin_add_site_name_popup_add_button":{
+        "locator":{
+            "css selector":"div[data-testid='id-simple-table-modal'] button:nth-child(1)"
+        }
+    },
+    "cross_table_checkbox":{
+        "locator":{
+            "css selector":"table[data-testid='id-simple-table'] tbody tr td span"
+        }
+    },
+    "set_options_settings_checkbox":{
+        "locator":{
+            "xpath": "//input[@id='{}.check']/following-sibling::span/following-sibling::span"
+        } 
+    },
+    "printer_firmware_sha1_code_signing_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Printer Firmware Update (send as Printjob)')]"
+        } 
+    },
+    "configuration_precedence_manual_button":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Manual')]/parent::div"
+        }
+    },
+    "configuration_precedence_tftp_button":{
+        "locator": {
+            "xpath": "//div[contains(text(),'TFTP')]/parent::div"
+        }
+    },
+    "configuration_precedence_dhcpv6_button":{
+        "locator": {
+            "xpath": "//div[contains(text(),'DHCPv6')]/parent::div"
+        }
+    },
+    "configuration_precedence_dhcpv4_button":{
+        "locator": {
+            "xpath": "//div[contains(text(),'DHCP/BOOTP')]/parent::div"
+        }
+    },
+    "configuration_precedence_priority_high_button":{
+        "locator": {
+            "css selector": "div[class*='change-list-priority-elements']+div[class*='styles__FlexColumn'] button:nth-child(1)"
+        }
+    },
+    "configuration_precedence_priority_low_button":{
+        "locator": {
+            "css selector": "div[class*='change-list-priority-elements']+div[class*='styles__FlexColumn'] button:nth-child(2)"
+        }
+    },
+    "restrict_color_settings_grayscale_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='restrict-color.mode'] label:nth-child(2) span"
+        }
+    },
+    "restrict_color_settings_customize_color_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='restrict-color.mode'] label:nth-child(3) span"
+        }
+    },
+    "restrict_by_user_permissions_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Restrict By User Permissions')]"
+        }
+    },
+    "restrict_by_application_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Restrict By Application')]"
+        }
+    },
+    "default_permissions_grayscale_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='restrict-color.def-app-perm'] label:nth-child(2) span"
+        }
+    },
+    "non_default_applications_add_button":{
+        "locator": {
+            "css selector": "button#addResistColorPermission"
+        }
+    },
+    "add_popup_application_name_textbox":{
+        "locator": {
+            "css selector": "input#restrict-color-application_name"
+        }
+    },
+    "add_popup_add_button":{
+        "locator": {
+            "css selector": "div[data-testid='id-restrict-color-modal'] button:nth-child(1)"
+        }
+    }
+}

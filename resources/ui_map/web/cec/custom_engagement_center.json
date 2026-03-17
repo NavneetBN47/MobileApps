@@ -1,0 +1,142 @@
+{
+  "see_all_btn": {
+    "locator": {"css selector": "#cec_showall_button",
+      "xpath": "//*[@id='cec_showall_button']",
+      "id": "cec_showall_button"}
+  },
+  "back_btn": {
+    "locator": {
+      "css selector": ["svg[data-testid='desktop_back']", "svg[data-testid='mobile_back']"],
+      "xpath": "//Group[@AutomationId='shortcuts-1-interstitial-1_header']/Group[1]"
+    }
+  },
+  "see_all_header": {
+    "locator": {"css selector": "#seeAll_header",
+                "id": "seeAll_header"}
+  },
+  "back_btn_do_more_with_hp_smart_screen": {
+    "locator": {"xpath": "//Group[@AutomationId='seeAll_header']/Button[1]"}
+  },
+  "never_run_out_save_item": {
+    "locator": {"xpath": "//*[@id='instantinkfiftynurture_title']",
+                "css selector": "#instantinkfiftynurture_title",
+                "id": ["instantinkfiftynurture_title", "instantinkfiftyinfluence_title"]}
+  },
+  "never_run_out_save_close_btn": {
+    "locator": {"xpath": "//*[@id='instantinkfiftynurture_close_button']",
+                 "css selector": "#instantinkfiftynurture_close_button",
+                "id": ["instantinkfiftynurture_close_button", "instantinkfiftyinfluence_close_button"]}
+  },
+  "view_plans_btn": {
+    "locator": {"xpath": "//*[@id='1_link']",
+                "id": ["instantinkfiftynurture_link", "instantinkfiftyinfluence_link"]}
+  },
+  "unlock_cloud_features_item": {
+    "locator": {"xpath": ["//Text[@Name='Unlock cloud features']", "//*[@id='hps-acct-1_title']"],
+                "css selector": "#hps-acct-1_title"
+    }
+  },
+  "unlock_cloud_features_close_btn": {
+    "locator": {"xpath": "//*[@id='hps-acct-1close_button']"}
+  },
+  "create_account_sign_in_btn": {
+    "locator": {"xpath": ["//*[@AutomationId='hps-acct-1_link']", "//*[@id='hps-acct-1_link']"]}
+  },
+  "create_account_btn": {
+    "locator": {"css selector": "#hps-acct-1-interstitial-1_button_0",
+                "id": ["hps-acct-1-interstitial-1_button_0", "account-creation-interstitial-1_button_0", "account-creation-pie-interstitial_button_0"]
+    }
+  },
+  "sign_in_btn": {
+    "locator": {"css selector": "#hps-acct-1-interstitial-1_button_1",
+                "id": ["hps-acct-1-interstitial-1_button_1", "account-creation-interstitial-1_button_1", "account-creation-pie-interstitial_button_1"]
+    }
+  },
+  "create_account_sign_in_title": {
+    "locator": {"css selector": "#hps-acct-1-interstitial-1_header",
+                "id": ["hps-acct-1-interstitial-1_header", "account-creation-interstitial-1_header", "account-creation-pie-interstitial_header"]
+    }
+  },
+  "create_account_sign_in_back_btn": {
+    "locator": {"xpath": ["//Group[@AutomationId='hps-acct-1-interstitial-1_header']/Group[1]",
+              "//Group[@AutomationId='account-creation-interstitial-1_header']/Group[1]",
+              "//Group[@AutomationId='account-creation-pie-interstitial_header']/Group[1]"]}
+  },
+  "shortcuts_save_time_item": {
+    "locator": {"xpath": ["//*[@id='shortcuts-1_title']", "//*[@id='shortcuts-2_title']", "//Group[@AutomationId='shortcuts-1_title']"],
+    "css selector": ["#shortcuts-1_title", "#shortcuts-2_title"]}
+  },
+  "shortcuts_save_time_close_btn": {
+    "locator": {"xpath": ["//*[@id='shortcuts-1_close_button']", "//*[@id='shortcuts-2_close_button']"]}
+  },
+  "shortcuts_save_time_learn_more_btn": {
+    "locator": {"xpath": ["//*[@id='shortcuts-1_link']", "//*[@id='shortcuts-2_link']", "//Group[@AutomationId='shortcuts-1_link']"]}
+  },
+  "shortcuts_save_time_title": {
+    "locator": {"css selector": ["#shortcuts-1-interstitial-1_title", "#shortcuts-2-interstitial-2_title"],
+                "id": "shortcuts-1-interstitial-1_header"}
+  },
+  "shortcuts_save_time_message": {
+    "locator": {"css selector": ["#shortcuts-1-interstitial-1_body", "#shortcuts-2-interstitial-2_body"],
+                "xpath": "//Text[@Name='Work smarter with Shortcuts']"}
+  },
+  "got_it_btn": {
+    "locator": {"css selector": ["#shortcuts-1-interstitial-1_button_0", "#shortcuts-2-interstitial-2_button_0"],
+                "id": "shortcuts-1-interstitial-1_button_0"}
+  },
+  "try_camera_scan_item": {
+    "locator": {"xpath": "//*[@id='scan-basic-1_title']",
+      "css selector": "#scan-basic-1_title"}
+  },
+  "try_camera_scan_close_btn": {
+    "locator": {"xpath": "//*[@id='scan-basic-1_close_button']"}
+  },
+  "try_camera_scan_learn_more_btn": {
+    "locator": {"xpath": "//*[@id='scan-basic-1_link']"}
+  },
+  "try_camera_scan_title": {
+    "locator": {"css selector": "#scan-basic-1-interstitial-1_title"}
+  },
+  "try_camera_scan_message": {
+    "locator": {"css selector": "#scan-basic-1-interstitial-1_body"}
+  },
+  "try_camera_scan_got_it_btn": {
+    "locator": {"css selector": "#scan-basic-1-interstitial-1_button_0"}
+  },
+  "use_hp_smart_advance_item": {
+    "locator": {"xpath": "//*[@id='2_title']"}
+  },
+  "use_hp_smart_advance_close_btn": {
+    "locator": {"css selector": "button[data-testid='2_close_button']"}
+  },
+  "view_all_feature_btn": {
+    "locator": {"xpath": "//*[@id='2_link']"}
+  },
+  "view_all_feature_message": {
+    "locator": {"css selector": "div[data-testid='hp-smart-advance']"}
+  },
+  "multi_item_recognition_title": {
+    "locator": {"css selector": "#multi-item-recog-1-int_title"}
+  },
+  "multi_item_recognition_message": {
+   "locator": {"css selector": "#multi-item-recog-1-int_body"}
+  },
+  "explore_your_features_btn": {
+   "locator": {"css selector": "#multi-item-recog-1-int_button_0"}
+  },
+  "auto_heal_scanning_title": {
+    "locator": {"css selector": "#hps-adv-scan-1-int_title"}
+  },
+  "auto_heal_scanning_message": {
+    "locator": {"css selector": "#hps-adv-scan-1-int_body"}
+  },
+  "auto_heal_scanning_btn": {
+    "locator": {"css selector": "#hps-adv-scan-1-int_button_0"}
+  },
+  "add_a_printer_text": {
+    "locator": {"css selector": "h1[class='text-block header-text install-latest-software-text']"}
+  },
+  "printer_information_img": {
+    "locator": {"css selector": "div.estimated-ink-levels-block"}
+  }
+}

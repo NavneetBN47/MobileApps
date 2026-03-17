@@ -1,0 +1,51 @@
+{
+    "groups_page_breadcrumb":{
+        "locator": {
+            "css selector": "#wepGroups span[aria-current='page']"
+        },
+        "localization": {
+            "en": "Groups"
+        }
+    },
+    "groups_add_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Add')]/parent::button"
+        }
+    },
+    "groups_delete_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Delete')]/parent::button"
+        }
+    },
+    "groups_export_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Export')]/parent::button"
+        }
+    },
+    "groups_edit_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Edit')]/parent::button"
+        }
+    },
+    "add_groups_page_title":{
+        "locator": {
+            "css selector": "p.title-regular"
+        },
+        "localization": {
+            "en": "Add PC Group"
+        }
+    },
+    "add_groups_page_cancel_button":{
+        "locator": {
+            "css selector": "div[class*='group-body'] div[class*='col-2'] button"
+        }
+    },
+    "edit_groups_page_title":{
+        "locator": {
+            "css selector": "div[class='wex-lib-sidebar-title']"
+        },
+        "localization": {
+            "en": "Edit Profile"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "solve_issue_btn": {
+        "locator": {
+            "xpath": "//*[text()='Solve an issue']"
+        }
+    },
+    "pc_btn": {
+        "locator": {
+            "xpath": "//button[text()='PC']"
+        }
+    },
+    "solve_issue_lbl": {
+        "locator": {
+            "xpath": "//span[text()='Solve an issue']"
+        }
+    }, 
+    "input_edit": {
+        "locator": {
+            "xpath": "//*[@id=\"bot\"]/div/div/div[3]/div/input"
+        }
+    },
+    "send_btn": {
+        "locator": {
+            "id": "send-button"
+        }
+    }
+}

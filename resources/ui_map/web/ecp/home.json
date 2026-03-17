@@ -1,0 +1,659 @@
+{
+    "shell_title_bar": {
+        "locator": {
+            "css selector": "header[data-testid='jarvis-shell-nav__header']"
+        }
+    },
+    "home_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='jarvis-react-shell-common-layout__side-menu-item-Home']",
+                            "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Home']"]
+        }
+    },
+    "devices_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='jarvis-react-shell-common-layout__side-menu-item-Devices']",
+		                    "li[data-testid='customer-selector-side-menu-item-devices']",
+                            "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Devices']"]
+        }
+    },
+    "users_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='customer-selector-side-menu-item-users']",
+		                    "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Users']",
+                            "li[data-testid='jarvis-react-shell-common-layout__side-menu-item_Users']"]
+        }
+    },
+    "solutions_menu_expand_btn":{
+        "locator": {
+            "css selector": "li[data-testid='jarvis-shell-nav__side-menu-item-menu-solutions']"
+        }
+    },
+    "reports_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='jarvis-react-shell-common-layout__side-menu-item-Reports']",
+		                    "li[data-testid='customer-selector-side-menu-item-reports']",
+                            "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Reports']"]
+        }
+    },
+    "account_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='jarvis-react-shell-common-layout__side-menu-item-Account']",
+		                    "li[data-testid='jarvis-react-shell-common-layout__side-menu-item_Account']",
+                            "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Account']"]
+        }
+    },
+    "support_menu_btn":{
+        "locator": {
+            "css selector": "li[data-testid='jarvis-shell-nav__side-menu-item-menu-support']"
+        }
+    },
+    "customers_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Customers']",
+                            "li[data-testid='jarvis-react-shell-common-layout__side-menu-item-Customers']"]
+        }
+    },
+    "policies_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Policies']",
+		                    "li[data-testid='customer-selector-side-menu-item-policies']",
+                            "li[data-testid='jarvis-react-shell-common-layout__side-menu-item_Policies']"]
+        }
+    },
+    "solutions_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Solutions']",
+		                    "li[data-testid='customer-selector-side-menu-item-solutions']",
+                            "li[data-testid='jarvis-react-shell-common-layout__side-menu-item_Solutions']"]
+        }
+    },
+    "my_organization_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='jarvis-react-shell-common-layout__side-menu-item-My Organization']",
+                            "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-My Organization']"]
+        }
+    },
+    "proxies_menu_btn":{
+        "locator": {
+            "css selector":["li[data-testid='customer-selector-side-menu-item-proxies']",
+                            "li[data-testid='jarvis-react-shell-common-layout__side-menu-item-Proxies']",
+                            "li[data-testid='clientos-react-common-layout-mfe__side-menu-item-Proxies']"]
+        }
+    },
+    "unassigned_devices_menu_btn":{
+        "locator": {
+            "css selector": "li[data-testid='jarvis-react-shell-common-layout__side-menu-item_Unassigned Devices']"
+        }
+    },
+    "security_sub_menu_btn":{
+        "locator": {
+            "css selector": ["li[data-testid='jarvis-shell-nav__side-menu-item-submenu-solutions-security'",
+		    	     "li[data-testid='jarvis-shell-nav__side-menu-item-undefined']"]
+        }
+    },
+    "notification_settings_sub_menu_btn":{
+        "locator": {
+            "css selector": "li[data-testid='jarvis-shell-nav__side-menu-item-menu-account-notification-settings']"
+        }
+    },
+    "privacy_settings_sub_menu_btn":{
+        "locator": {
+            "css selector": "li[data-testid='jarvis-shell-nav__side-menu-item-menu-account-privacy-settings']"
+        }
+    },
+    "noti_mfe_card":{
+        "locator": {
+            "css selector": "div[data-testid='jarvis-react-ecp-notification-widget__widget-card']"
+        }
+    },
+    "noti_filter_by_dropdown":{
+        "locator": {
+            "css selector": "div#select-usage"
+        }
+    },
+    "noti_filter_by_dropdown_option":{
+        "locator":{
+            "css selector": "li#select-usage-option-{}"
+        }
+    },
+    "user_icon_top_right":{
+        "locator":{
+            "css selector": "div[data-testid='clientos-react-common-layout-mfe__avatar_name']"
+        }
+    },
+    "user_icon_top_right_txt":{
+        "locator":{
+            "css selector": "div[data-testid='clientos-react-common-layout-mfe__avatar_name'] span"
+        }
+    },
+    "user_icon_menu_account_profile_item":{
+        "locator":{
+            "xpath": "//p[contains(text(),'Account Profile')]"
+        }
+    },
+    "user_icon_menu_log_out_item":{
+        "locator":{
+            "css selector": "li[data-value='Log Out']",
+	    "xpath": "//button[./span[text()='Sign Out']]"
+        }
+    },
+    "devices_widget":{
+        "locator": {
+            "css selector": "div[data-testid='jarvis-react-ecp-status-widget__ecp-card']"
+        }
+    },
+    "status_mfe_total_online_devices_btn":{
+        "locator":{
+            "css selector": "[data-testid='jarvis-react-ecp-status-widget__card-listitem-count-1'] svg"
+        }
+    },
+    "status_mfe_total_users_btn":{
+        "locator":{
+            "css selector": "li[data-testid='admin-nav-button'] svg"
+        }
+    },
+    "users_widget_total_end_users_btn":{
+        "locator":{
+            "css selector": "li[data-testid='total-users-nav-button'] svg"
+        }
+    },
+    "es_mfe_view_details_btn":{
+        "locator":{
+            "css selector": "button[data-testid='jarvis-react-ecp-endpoint-security-widget__view-details-button']"
+        }
+    },
+    "devices_widget_title":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-header-title']"
+        }
+    },
+    "devices_widget_total_devices_header":{
+        "locator":{
+            "css selector": "[data-testid='jarvis-react-ecp-status-widget__ecp-card-listitem-title-1']"
+        },
+        "localization": {
+            "en": "Total Devices"
+        }
+    },
+    "users_widget":{
+        "locator":{
+            "css selector": "[data-testid='users-title']"
+        }
+    },
+    "users_widget_admin":{
+        "locator":{
+            "css selector": "[data-testid='admin-nav-button']>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Admins"
+        }
+    },
+    "status_widget_total_users_status_header":{
+        "locator":{
+            "css selector": "[data-testid='total-users-nav-button'] span:nth-child(1)"
+        },
+        "localization": {
+            "en": "End Users"
+        }
+    },
+    "device_widget_devices_total_count":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__ecp-card-listitem-count-1']"
+        }
+    },
+    "status_widget_users_total_count":{
+        "locator":{
+            "css selector":"[data-testid='admin-count']"
+        }
+    },
+    "status_widget_end_users_total_count":{
+        "locator":{
+            "css selector":"[data-testid='total-users-count-text']"
+        }
+    },
+    "devices_widget_online":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-listitem-title-1']"
+        },
+        "localization": {
+            "en": "Online"
+        }
+    },
+    "devices_widget_offline":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-listitem-title-5']"
+        },
+        "localization": {
+            "en": "Offline"
+        }
+    },
+    "devices_widget_ready":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-listitem-title-ready']"
+        },
+        "localization": {
+            "en": "Ready"
+        }
+    },
+    "devices_widget_warning":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-listitem-title-warning']"
+        },
+        "localization": {
+            "en": "Warning"
+        }
+    },
+    "devices_widget_error":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-listitem-title-error']"
+        },
+        "localization": {
+            "en": "Error"
+        }
+    },
+    "devices_online_count":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-listitem-count-1']"
+        }
+    },
+    "devices_offline_count":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-status-widget__card-listitem-count-5']"
+        }
+    },
+    "status_widget_status_content_item_active":{
+        "locator":{
+            "css selector":"[data-testid='active-user-status-title']"
+        },
+        "localization": {
+            "en": "Active"
+        }
+    },
+    "status_widget_status_content_item_pending":{
+        "locator":{
+            "css selector":"[data-testid='pending-user-status-title']"
+        },
+        "localization": {
+            "en": "Pending"
+        }
+    },
+    "status_widget_status_content_item_expired":{
+        "locator":{
+            "css selector":"[data-testid='expired-user-status-title']"
+        },
+        "localization": {
+            "en": "Expired"
+        }
+    },
+    "solution_entitled_widget":{
+        "locator":{
+            "css selector":"[data-testid='solutions-and-services-widget-card']"
+        }
+    },
+    "solution_entitled_widget_title":{
+        "locator":{
+            "css selector":"[data-testid='solutions-and-services-widget-card-header-label']"
+        },
+        "localization": {
+            "en": "Solutions Entitled"
+        }
+    },
+    "solution_entitled_view_details_btn":{
+        "locator":{
+            "css selector":"button[data-testid='solutions-and-services-widget-card-footer-button']"
+        }
+    },
+    "solution_entitled_hp_secure_fleet_manager_label":{
+        "locator":{
+            "css selector":"[data-testid='solutions-and-services-widget-listitem-1']>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "HP Secure Fleet Manager"
+        }
+    },
+    "solution_entitled_device_count":{
+        "locator":{
+            "css selector":"[data-testid='solutions-and-services-widget-listitem-count-1']"
+        }
+    },
+    "hp_secure_fleet_manager_widget_title":{
+        "locator":{
+            "css selector":"span[data-testid='widget-card']"
+        },
+        "localization": {
+            "en": "HP Secure Fleet Manager"
+        }
+    },
+    "hp_secure_fleet_manager_view_details_btn":{
+        "locator":{
+            "css selector":"button[data-testid='jarvis-react-ecp-endpoint-security-widget__view-details-button']"
+        }
+    },
+    "hp_secure_fleet_manager_device_count":{
+        "locator":{
+            "css selector":"[data-testid='jarvis-react-ecp-endpoint-security-widget__widget-right-area'] .highcharts-title tspan"
+        }
+    },
+    "status_users_active_count":{
+        "locator":{
+            "css selector":"[data-testid='active-user-status-count']"
+        }
+    },
+    "status_users_pending_count":{
+        "locator":{
+            "css selector":"[data-testid='pending-user-status-count']"
+        }
+    },
+    "status_users_expired_count":{
+        "locator":{
+            "css selector":"[data-testid='expired-user-status-count']"
+        }
+    },
+    "customer_selector_dropdown":{
+        "locator":{
+            "css selector":"#jarvis-react-shell-customer-selector__customer-selector"
+        }
+    },
+    "support_center_btn":{
+        "locator":{
+            "css selector":"button#support-center-button"
+        }
+    },
+    "support_center_options":{
+        "locator":{
+            "css selector":"#support-container li div:nth-child(2)"
+        }
+    },
+    "support_and_resources_title":{
+        "locator":{
+            "css selector":"#support-container span.subtitle-regular"
+        },
+        "localization": {
+            "en": "Support & Resources"
+        }
+    },
+    "command_center_header":{
+        "locator":{
+            "css selector":"[data-testid='clientos-react-common-layout-mfe__app_name'] p"
+        },
+        "localization": {
+            "en": "Command Center"
+        }
+    },
+    "home_breadcrumb":{
+        "locator":{
+            "css selector":"[aria-label='breadcrumbs'] a[href='/']"
+        },
+        "localization": {
+            "en": "Home"
+        }
+    },
+    "bell_notification_title":{
+        "locator":{
+            "css selector":"[data-testid='notification-title']"
+        },
+        "localization": {
+            "en": "Notifications"
+        }
+    },
+    "bell_notification_button":{
+        "locator":{
+            "css selector":"button[data-testid='notification-button']"
+        }
+    },
+    "avatar_menu_org_selector":{
+        "locator":{
+            "css selector":"svg[data-testid='clientOS-left-icon-IconBriefcase']"
+        }
+    },
+    "bell_notification_popup":{
+        "locator":{
+            "css selector":"[data-testid='notification-center']"
+        }
+    },
+    "device_offline_widget":{
+        "locator":{
+            "css selector":"[data-testid='device-offline-get-content-component']"
+        }
+    },
+    "device_offline_widget_title":{
+        "locator":{
+            "css selector":"[data-testid='device-offline-header-component']"
+        },
+        "localization": {
+            "en": "Devices offline"
+        }
+    },
+    "device_offline_widget_no_offline_devices_warnign_icon":{
+        "locator":{
+            "css selector":"[data-testid='device-offline-get-content-component'] svg[aria-label='Warning Alt']"
+        }
+    },
+    "device_offline_widget_no_offline_devices_warning_message":{
+        "locator":{
+            "css selector":"[data-testid='device-offline-get-content-component'] svg[aria-label='Warning Alt']+div"
+        },
+        "localization": {
+            "en": "No offline devices found"
+        }
+    },
+    "device_offline_widget_view_details_btn":{
+        "locator":{
+            "css selector":"button[data-testid='view-details-button']"
+        },
+        "localization": {
+            "en": "View Details"
+        }
+    },
+    "choose_customer_link":{
+        "locator":{
+            "css selector":"[data-testid='choose-customer']"
+        }
+    },
+    "choose_customer_search_txt":{
+        "locator":{
+            "css selector":"input[data-testid='search-customer']"
+        }
+    },
+    "select_customer":{
+        "locator":{
+            "css selector":"[data-testid='select-customer-button']"
+        }
+    },
+    "choose_btn":{
+        "locator":{
+            "css selector":"button[data-testid='choose-button']"
+        },
+        "localization": {
+            "en": "Choose"
+        }
+    },
+    "dashboard_menu_btn":{
+        "locator":{
+            "css selector":["li[data-testid='customer-selector-side-menu-item-customer-dashboard']", "[data-testid='jarvis-react-ecp-dashboard__dashboard']"]
+        },
+        "localization": {
+            "en": "Dashboard"
+        }
+    },
+    "tasks_menu_btn":{
+        "locator":{
+            "css selector":["li[data-testid='customer-selector-side-menu-item-tasks']",
+                            "li[data-testid='jarvis-react-shell-common-layout__side-menu-item_Tasks']"]
+        },
+        "localization": {
+            "en": "Tasks"
+        }
+    },
+    "bell_notification_menu_button":{
+        "locator":{
+            "css selector":"button[data-testid='notification-item-bell-icon']"
+        }
+    },
+    "notification_settings_option":{
+        "locator":{
+            "css selector":"li[data-testid='notificationSettings']"
+        },
+        "localization": {
+            "en": "Notifications Settings"
+        }
+    },
+    "notification_settings_all_title":{
+        "locator":{
+            "css selector":"div[data-testid='all-notifications-title']"
+        },
+        "localization": {
+            "en": "Notifications"
+        }
+    },
+    "notification_settings_desc":{
+        "locator":{
+            "css selector":"div[data-testid='notification-settings-description']"
+        },
+        "localization": {
+            "en": "Manage email notification preferences related to device and fleet."
+        }
+    },
+    "notification_settings_email_notification_checkbox_label":{
+        "locator":{
+            "css selector":"div[data-testid='notification-settings-main-content'] span:nth-child(3)"
+        },
+        "localization": {
+            "en": "Email Notification"
+        }
+    },
+    "notification_settings_email_notification_checkbox":{
+        "locator":{
+            "css selector":"div[data-testid='notification-settings-main-content'] span:nth-child(2)"
+        }
+    },
+    "notification_settings_contextual_footer":{
+        "locator":{
+            "css selector":"div[data-testid='notifications-settings-footer-content']"
+        }
+    },
+    "notification_settings_reset_to_default_button":{
+        "locator":{
+            "css selector":"button[data-testid='notifications-settings-footer-reset-button']"
+        },
+        "localization": {
+            "en": "Reset to default"
+        }
+    },
+    "notification_settings_tab_save_button":{
+        "locator":{
+            "css selector":"button[data-testid='notifications-settings-footer-save-button']"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "notification_settings_tab_cancel_button":{
+        "locator":{
+            "css selector":"button[data-testid='notifications-settings-footer-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "notification_settings_reset_to_default_popup_desc":{
+        "locator":{
+            "css selector":"div#notification-settings-modal-reset-desc div"
+        },
+        "localization": {
+            "en": "Are you sure to reset notifications settings to default?"
+        }
+    },
+    "notification_settings_reset_to_default_popup_cancel_button":{
+        "locator":{
+            "css selector":"button[data-testid='notification-settings-modal-reset-cancel']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "notification_settings_reset_to_default_popup_reset_button":{
+        "locator":{
+            "css selector":"button[data-testid='notification-settings-modal-reset']"
+        },
+        "localization": {
+            "en": "Reset"
+        }
+    },
+    "notification_settings_email_toggle_status":{
+        "locator":{
+            "css selector":"span#email-toggle-label"
+        }
+    },
+    "notification_settings_upcoming_feature_title":{
+        "locator":{
+            "css selector":"[data-testid='upcoming-update-title']"
+        },
+        "localization": {
+            "en": "Upcoming features in the next update"
+        }
+    },
+    "notification_settings_upcoming_feature_desc":{
+        "locator":{
+            "css selector":"[data-testid='update-description']"
+        },
+        "localization": {
+            "en": "IT admin will be able to set up the frequency and severity for each type of notifications you would like to receive."
+        }
+    },
+    "ecp_footer_copyright_lbl":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//p[contains(text(),'Copyright')]"
+        },
+        "localization": {
+            "en": "© Copyright 2025 HP Development Company, L.P."
+        }
+    },
+    "ecp_footer_terms_of_service_link":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//a[contains(text(),'Terms of Service')]"
+        },
+        "localization": {
+            "en": "HP Command Center Terms of Service"
+        }
+    },
+    "ecp_footer_privacy_statement_link":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//a[contains(text(),'Privacy Statement')]"
+        },
+        "localization": {
+            "en": "Privacy Statement"
+        }
+    },
+    "avatar_my_organization_link":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//p[contains(text(),'My Organization')]"
+        }
+    },
+    "device_policy_status_widget":{
+        "locator":{
+            "css selector":"[data-testid='device-policy-get-content-component']"
+        }
+    },
+    "device_policy_status_widget_title":{
+        "locator":{
+            "css selector":"[data-testid='device-policy-header-component']"
+        },
+        "localization": {
+            "en": "Device Policy Status"
+        }
+    },
+    "device_policy_status_view_details_btn":{
+        "locator":{
+            "css selector":"button[data-testid='device-policy-footer-button']"
+        },
+        "localization": {
+            "en": "View Details"
+        }
+    }
+}

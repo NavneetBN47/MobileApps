@@ -1,0 +1,22 @@
+{
+  "data_collection_tab_nav": {
+    "locator": {
+      "name": "Data Collection"
+    }
+  },
+  "retargeting_data_tab_nav": {
+    "locator": {
+      "name": "Retargeting Data"
+    }
+  },
+  "data_valve_tab_nav": {
+    "locator": {
+      "name": "Data Valve"
+    }
+  },
+  "webview_tab_nav": {
+    "locator": {
+      "name": "Weblet"
+    }
+  }
+}

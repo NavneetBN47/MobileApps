@@ -1,0 +1,27 @@
+{
+    "add_device_btn": {
+        "locator": {
+            "id": "Add_Device_Dashboard"
+        }
+    },
+    "add_device_edit": {
+        "locator":{
+            "xpath": "//*[@id=\"directionTracker\"]/app-layout/app-add-device/div[1]/app-product-finder/div/div/div/div/div[1]/div[2]/div/app-general-add-device/app-device-add-box/div/div[1]/div[1]/div/input"
+        }
+    },
+    "submit_btn": {
+        "locator":{
+            "id": "FindMyProduct"
+        }
+    },
+    "wpr_signin": {
+        "locator":{
+            "id": "wpr-signin"
+        }
+    },
+    "sign_out_btn": {
+        "locator":{
+            "id": "signoutButton-mobile"
+        }
+    }
+}

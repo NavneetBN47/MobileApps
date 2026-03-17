@@ -1,0 +1,27 @@
+{
+    "express_vpn_header":{
+        "locator": {
+            "id": "AUID_FIRSTUSE_ExpressVPNView_Lbl_registrationHeader"
+        }
+    },
+    "express_vpn_email":{
+        "locator": {
+            "id": "AUID_FIRSTUSE_ExpressVPNView_Txt_EmailInput"
+        }
+    },
+    "vpn_submit_button":{
+        "locator": {
+            "name": "Submit"
+        }
+    },
+    "vpn_skip_button":{
+        "locator": {
+            "name": "Skip this step"
+        }
+    },
+    "signup_error_message":{
+        "locator": {
+            "name": "A valid email is required."
+        }
+    }
+}

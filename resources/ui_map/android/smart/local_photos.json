@@ -1,0 +1,44 @@
+{
+  "photo_album_title":{
+    "locator": {"id": "com.google.android.apps.photos:id/title",
+                "text": "{}"}
+  },
+  "photos_lv":{
+    "locator": {"class name": "android.support.v7.widget.RecyclerView"}
+  },
+  "photo_thumbnail":{
+    "locator": {"xpath": ["//*[@resource-id='com.google.android.gms.optional_photopicker:id/picker_tab_recyclerview']/android.widget.FrameLayout", "//*[@resource-id='com.google.android.providers.media.module:id/picker_tab_recyclerview']/android.widget.FrameLayout", "//*[@resource-id='com.google.android.apps.photos:id/recycler_view']/android.view.ViewGroup[count(./*) = 0]", "//*[@resource-id='com.google.android.apps.photos:id/recycler_view']/android.widget.ImageView"]}
+  },
+  "select_photo_title":{
+    "locator": {"id": "com.google.android.apps.photos:id/toolbar"}
+  },
+  "close_btn": {
+    "locator": {"id": "com.google.android.apps.photos:id/action_mode_close_button",
+                "xpath": "//android.widget.ImageButton[@content-desc='Cancel']"}
+  },
+  "photo_picker_option":{
+    "locator": {"id": ["com.google.android.gms.optional_photopicker:id/privacy_text", "com.google.android.providers.media.module:id/privacy_text"]}
+  },
+  "photo_picker_add_btn":{
+    "locator": {"id": ["com.google.android.gms.optional_photopicker:id/button_add", "com.google.android.providers.media.module:id/button_add"]}
+  },
+  "photo_picker_view_selected_btn":{
+    "locator": {"id": ["com.google.android.gms.optional_photopicker:id/button_view_selected", "com.google.android.providers.media.module:id/button_view_selected"]}
+  },
+  "done_btn": {
+    "locator": {"id": "com.google.android.apps.photos:id/done_button",
+                "xpath": "//android.widget.Button[@content-desc='Done']"}
+  },
+  "photo_option":{
+    "locator": {"xpath": "//android.widget.LinearLayout[@content-desc='Photos']"}
+  },
+  "album_option":{
+    "locator": {"xpath": "//android.widget.LinearLayout[@content-desc='Albums']"}
+  },
+  "photos_title": {
+    "locator": {"str_id": "online_photos_title"}
+  },
+  "selected_num_txt": {
+      "locator": {"id": "com.google.android.apps.photos:id/action_bar_title"}
+    }
+}

@@ -1,0 +1,57 @@
+  {
+    "alerts_page_breadcrumb":{
+        "locator": {
+            "css selector": "#recommendedActions span[aria-current='page']"
+        }
+    },
+    "alerts_page_title":{
+        "locator": {
+            "css selector": "div#dui-container h3"
+        }
+    },
+    "active_alerts_page_breadcrumb":{
+        "locator": {
+            "css selector": "div[id='Active Alerts'] span[aria-current='page']"
+        }
+    },
+    "active_alerts_page_alerts_table":{
+        "locator": {
+            "css selector": "table#active-alerts-table"
+        }
+    },
+    "active_alerts_page_alerts_table_empty_msg":{
+        "locator": {
+            "css selector": "div[class='wex-empty-state-widget-text']"
+        }
+    },
+    "alerts_management_page_breadcrumb":{
+        "locator": {
+            "css selector": "div[id='Alerts Management'] span[aria-current='page']"
+        }
+    },
+    "alerts_management_page_alerts_table":{
+        "locator": {
+            "css selector": "table#alert-management-table"
+        }
+    },
+    "alerts_management_page_first_checkbox":{
+        "locator": {
+            "css selector": "table#alert-management-table tbody tr:first-child td label span"
+        }
+    },
+    "alerts_management_page_enable_alerts_button":{
+        "locator": {
+            "css selector": "button#alert-enable"
+        }
+    },
+    "alerts_management_page_disable_alerts_button":{
+        "locator": {
+            "css selector": "button#alert-disable"
+        }
+    },
+    "alerts_management_page_delete_alerts_button":{
+        "locator": {
+            "css selector": "button#alert-delete"
+        }
+    }
+}

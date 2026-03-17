@@ -1,0 +1,36 @@
+{
+    "title_header":{
+        "comment":{"jira ticket":"https://hp-jira.external.hp.com/browse/ONBP-2039"},
+        "locator":{"css selector":"._2SoQ4UL2kj1c90DUQ1ey6i"}
+    },
+    "animation_card_instruction_0":{
+        "locator":{"css selector":"[data-testid='instruction-0']"}
+    },
+    "animation_card_step_0":{
+        "locator":{"css selector":"[data-testid='animation-0']"}
+    },
+    "animation_card_instruction_1":{
+        "locator":{"css selector":"[data-testid='instruction-1']"}
+    },
+    "animation_card_step_1":{
+        "locator":{"css selector":"[data-testid='animation-1']"}
+    },
+    "animation_card_instruction_2":{
+        "locator":{"css selector":"[data-testid='instruction-2']"}
+    },
+    "animation_card_step_2":{
+        "locator":{"css selector":"[data-testid='animation-2']"}
+    },
+    "animation_card_instruction_3":{
+        "locator":{"css selector":"[data-testid='instruction-3']"}
+    },
+    "animation_card_step_3":{
+        "locator":{"css selector":"[data-testid='animation-3']"}
+    },
+    "animation_card_instruction_4":{
+        "locator":{"css selector":"[data-testid='instruction-4']"}
+    },
+    "animation_card_step_4":{
+        "locator":{"css selector":"[data-testid='animation-4']"}
+    }
+}

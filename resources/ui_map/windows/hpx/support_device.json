@@ -1,0 +1,492 @@
+{
+    "product_number_text":{
+        "locator": {
+            "xpath":"//*[@AutomationId = 'AUID_Support_product-number-value']//*[1]"
+        }
+    },
+    "serial_number_text":{
+        "locator": {
+            "xpath":"//*[@AutomationId = 'AUID_Support_serial-number-value']//*[1]"
+        }
+    },
+    "product_name_text":{
+        "locator": {
+            "id": "AUID_Support_product-name"
+        }
+    },
+    "subcription_id_text":{
+        "locator": {
+            "id": "AUID_Support_subscription-id-value"
+        }
+    },
+    "start_date_text":{
+        "locator": {
+            "id": "AUID_Support_subscription-startdate-value"
+        }
+    },
+    "warranty_title_text":{
+        "locator": {
+            "id": "AUID_Support_warranty-label"
+        }
+    },
+    "warranty_text":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_warranty-status-value']//*[1]"
+        }
+    },
+    "warranty_details_link":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_warranty-status-getDetail-value']"
+        }
+    },
+    "warranty_details_link_subscription":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_subscription-get-detail']"
+        }
+    },
+    "warranty_details_text":{
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_Support_warranty-status-getDetail-value']"
+        }
+    },
+    "speak_to_agent":{
+        "locator": {
+            "id": "AUID_Support_LiveAssistance_card_Call_HP"
+        }
+    }, 
+    "call_me_back_card":{
+        "locator": {
+            "id": "AUID_Support_LiveAssistance_card_Call_Me"
+        }
+    },
+    "chat_with_agent_btn":{
+        "locator": {
+            "id": "AUID_Support_LiveAssistance_card_OmniChat"
+        }
+    },
+    "support_center_card":{
+        "locator": {
+            "id": "AUID_Support_Resources_Card_ProductPage"
+        }
+    },
+    "support_forum_card":{
+        "locator": {
+            "id": "AUID_Support_Resources_Card_Forum"
+        }
+    },
+    "open_cases_desc": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'AUID_Support_open-cases-desc']//*[1]"
+        }
+    }, 
+    "user_manual_guide_card":{
+        "locator": {
+            "id": "AUID_Support_Resources_Card_ProductManual"
+        }
+    }, 
+    "virtual_repair_center":{
+        "locator": {
+            "id": "AUID_Support_Resources_Card_VirtualRepairCenter"
+        }
+    },
+    "warranty_dispute":{
+        "locator": {
+            "id": "AUID_Support_Resources_Card_WarrantyDispute"
+        }
+    },
+    "service_centor_locator":{
+        "locator": {
+            "id": "AUID_Support_Resources_Card_Metalocator"
+        }
+    },
+    "va_card":{
+        "locator":{
+            "id": "AUID_Support_diagnostics-card-va"
+        }
+    },
+    "diagnostic_card":{
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-Diagnostics"
+        }
+    },
+    "support_dialog_label":{
+        "locator": {
+            "id": "AUID_Support_dialog-label"
+        }
+    },
+    "support_content_label":{
+        "locator": {
+            "id": "AUID_Support_content-title"
+        }
+    },
+    "view_data_collected_link":{
+        "locator": {
+            "id": "AUID_Support_dialog_link"
+        }
+    },
+    "confirmButton":{
+        "locator": {
+            "id": "AUID_Support_dialog_confirmButton"
+        }
+    },
+    "cancelButton":{
+        "locator": {
+            "id": "AUID_Support_dialog_cancelButton"
+        }
+    }, 
+    "privacy_checkbox":{
+        "locator": {
+            "id": "privacy"
+        }
+    },
+    "privacy_link": {
+        "locator": {
+            "id": "AUID_Support_privacy-link"
+        }
+    }, 
+    "go_privacy_link": {
+        "locator": {
+            "xpath": "//*[@ClassName='simplebar-content-wrapper']//*[1]//*[9]"
+        }
+    },
+    "create_case_cancel_btn": {
+        "locator": {
+            "id": "AUID_Support_create-case-cancel-Call_HP"
+        }
+    }, 
+    "chat_cancel_btn":{
+        "locator": {
+            "id": "AUID_Support_create-case-cancel-OmniChat"
+        }
+    },
+    "case_type_list": {
+        "locator": {
+            "id": "type"
+        }
+    }, 
+    "problem_edit": {
+        "locator": {
+            "id": "problem"
+        }
+    },
+    "get_phone_number_btn": {
+        "locator": {
+            "id": "AUID_Support_create-case-save-Call_HP"
+        }
+    },
+    "whats_app_btn": {
+        "locator": {
+            "id": "AUID_Support_Resources_Card_WhatsApp"
+        }
+    },
+    "support_country_cbx": {
+        "locator": {
+            "id": "AUID_Support_support-resoucre-country"
+        }
+    },
+    "country_searchbox": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'WebView']//*[1]//*[3]//*[1]"
+        }
+    },
+    "country_index":{
+        "locator": {
+            "id": "AUID_Support_support-resoucre-country-option-{}"
+        }
+    },
+    "country_option":{
+        "locator": {
+            "name": "{}"
+        }
+    },
+    "country_options":{
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'AUID_Support_support-resoucre-country-option')]"
+        }
+    },
+    "country_lbx":{
+        "locator": {
+            "id": "AUID_Support_support-resoucre-country-listbox"
+        }
+    },
+    "fb_messenger_btn": {
+        "locator": {
+            "id": "AUID_Support_Resources_Card_FBMessenger"
+        }
+    },
+    "wechat_btn": {
+        "locator": {
+            "id": "AUID_Support_Resources_Card_WeChat"
+        }
+    }, 
+    "zalo_btn": {
+        "locator": {
+            "id": "AUID_Support_Resources_Card_Zalo"
+        }
+    },
+    "kakao_talk_btn": {
+        "locator": {
+            "id": "AUID_Support_Resources_Card_KakaoTalk"
+        }
+    },
+    "line_btn": {
+        "locator": {
+            "id": "AUID_Support_Resources_Card_Line"
+        }
+    },
+    "twitter_btn": {
+        "locator": {
+            "id": "AUID_Support_Resources_Card_Twitter"
+        }
+    },
+    "chat_now_btn": {
+        "locator": {
+            "id": "AUID_Support_create-case-save-OmniChat"
+        }
+    },
+    "outside_hours_popup": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'vn-modal--content css-8boa6x']"
+        }
+    },
+    "close_btn": {
+        "locator" : {
+            "id": "AUID_Support_modal_closeButton"
+        }
+    },
+    "nick_edit_btn": {
+        "locator" : {
+            "id": "AUID_Support_product-nickname-editbutton"
+        }
+    },
+    "nick_edit_txt": {
+        "locator": {
+            "id": "AUID_Support_product-nickname-edit-textbox"
+        }
+    },
+    "nick_cancel_btn": {
+        "locator": {
+            "id": "AUID_Support_product-nickname-cancel-button"
+        }
+    },
+    "nick_save_btn": {
+        "locator": {
+            "id": "AUID_Support_product-nickname-submit-button"
+        }
+    },
+    "back_btn": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'DynamicAutomationPeer']"
+        }
+    },
+    "banner_lbl": {
+        "locator": {
+            "name": "Available 24/7 expert assistance from your HP One subscription"
+        }
+    }, 
+    "nick_name_txt": {
+        "locator": {
+            "id": "AUID_Support_nick-name"
+        }
+    }, 
+    "social_messaging_channels_lbl": {
+        "locator": {
+            "id": "AUID_Support_social-messaging-channels"
+        }
+    }, 
+    "resources_lbl": {
+        "locator": {
+            "id": "AUID_Support_resources"
+        }
+    },
+    "live_assistant_lbl": {
+        "locator": {
+            "id": "AUID_Support_live-assistance"
+        }
+    }, 
+    "guide_troubleshooting_title_lbl": {
+        "locator": {
+            "id": "AUID_Support_guided-troubleshooting-title"
+        }
+    },
+    "diagnostics_title_lbl": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-title"
+        }
+    },
+    "nick_name_tip_lbl": {
+        "locator": {
+            "xpath": "//*[@AutomationId='jarvis__react-hpx-support-root_body']//*[4]"
+        }
+    },
+    "support_model_sub_title": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'AUID_Support_model_sub_title']//*[1]"
+        }
+    },
+    "network_check_btn": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-HPNetworkCheck"
+        }
+    },
+    "fix_audio_issues_btn": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-HPAudioCheck"
+        }
+    }, 
+    "check_operating_system_btn": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-HPOSCheck"
+        }
+    },
+    "product_img":{
+        "locator": {
+            "xpath": "//*[@AutomationId = 'jarvis__react-hpx-support-root_body']//*[9]"
+        }
+    },
+    "done_btn": {
+        "locator": {
+            "id": "DoneButton"
+        }
+    }, 
+    "select_category_btn": {
+        "locator": {
+            "xpath": "//*[@AutomationId = '@jarvis/react-hpx-support']//*[1]//*[6]//*[3]"
+        }
+    },
+    "select_category_cbx": {
+        "locator": {
+            "id" : "type"
+        }
+    },
+    "type_option": {
+        "locator": {
+            "accessibility id": "type-option-{}"
+        }
+    },
+    "prompt_info_chat": {
+        "locator": {
+            "xpath": "//*[@AutomationId = '@jarvis/react-hpx-support']//*[1]//*[10]"
+        }
+    },
+    "prompt_info_speak": {
+        "locator": {
+            "xpath": "//*[@AutomationId = '@jarvis/react-hpx-support']//*[1]//*[9]"
+        }
+    },
+    "minimize_button":{
+        "locator": {
+            "id": "AUID_Support_modal_minimizeButton"
+        }
+    }, 
+    "maximize_button":{
+        "locator": {
+            "id": "AUID_Support_modal_maximizeButton"
+        }
+    }, 
+    "copy_menu_item" : {
+        "locator": {
+            "xpath": "//*[@ClassName = 'SubmenuView']//*[1]"
+        }
+    },
+    "support_section": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'simplebar-content-wrapper']"
+        }
+    },
+    "phone_number_lbl": {
+        "locator": {
+            "xpath": "//*[@AutomationId = '@jarvis/react-hpx-support']//*[20]"
+        }
+    }, 
+    "support_by_region_lbl": {
+        "locator": {
+            "xpath": "//*[@ClassName='styles__DropDownTitle-dzyBzP gCWZUa caption-small']"
+        }
+    },
+    "country_selector": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'vn-select__open-button css-1bw8u38']"
+        }
+    },
+    "resources_cards": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'AUID_Support_Resources_Card_')]"
+        }
+    },
+    "liveassistant_cards": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'AUID_Support_LiveAssistance_card_')]"
+        }
+    },
+    "case_cards": {
+        "locator": {
+            "xpath": "//*[contains(@AutomationId, 'AUID_Support_case-card-')]"
+        }
+    },
+    "open_cases_cards": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'styles__Card-cYSidg doNNri cardStyle pointer css-1hgi91c']"
+        }
+    },
+    "close_cases_cards": {
+        "locator": {
+            "xpath": "//*[@ClassName = 'styles__Card-cYSidg hUUpmc cardStyle pointer css-1hgi91c']"
+        }
+    },
+    "case_card": {
+        "locator": {
+            "id": "AUID_Support_case-card-{}"
+        }
+    },
+    "case_created_time": {
+        "locator": {
+            "xpath": "//*[@AutomationId = 'AUID_Support_case-card-{}']"
+        }
+    },
+    "phone_casedone_btn": {
+        "locator": {
+            "id": "AUID_Support_button-phone-case-done"
+        }
+    }, 
+    "hpptu_btn": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-HPPerformanceTuneup"
+        }
+    }, 
+    "netcheck_btn": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-HPNetworkCheck"
+        }
+    },
+    "audiocheck_btn": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-HPAudioCheck"
+        }
+    },
+    "oscheck_btn": {
+        "locator": {
+            "id": "AUID_Support_diagnostics-card-HPOSCheck"
+        }
+    },
+    "yes_btn_personalized_support": {
+        "locator": {
+            "xpath": "//Button[@AutomationId='AUID_privacy_ui_AllowSupportModal_BTN_Yes']"
+        }
+    },
+    "allinplan_lbl":{
+        "locator": {
+            "id": "AUID_Support_hp-all-in-plan"
+        }
+    },
+    "paas_banner":{
+        "locator": {
+            "xpath": "//*[@AutomationId = '@jarvis/react-hpx-support']//*[6]"
+        }
+    },
+    "hp_smart_btn":{
+        "locator": {
+            "id": "AUID_Support_Resources_Card_HPSmart"
+        }
+    }
+}

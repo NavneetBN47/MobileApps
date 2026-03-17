@@ -1,0 +1,26 @@
+{
+    "mobile_fax_btn": {
+      "locator": { "id": ["softFaxBkgView", "softFaxText"]}
+    },
+    "shortcuts_btn":{
+      "locator": {"id": ["smartTasksBkgView", "smartTasksText"]}
+    },
+    "supplies_btn":{
+      "locator": {"id": ["suppliesMessagesBkgView", "suppliesMessagesText"]}
+    },
+    "account_btn":{
+      "locator": {"id": ["accountMessagesBkgView", "accountMessagesText"]}
+    },
+    "text_files_btn":{
+      "locator": {"xpath": "//*[@content-desc='Text Files']"}
+    },
+    "notifications_title_txt": {
+      "locator": {"str_id": "notification"}
+    },
+    "text_files_title_txt": {
+      "locator": {"str_id": "scanning_text_files"}
+    },
+    "notification_title": {
+      "locator": {"str_id": "notification"}
+    }
+}

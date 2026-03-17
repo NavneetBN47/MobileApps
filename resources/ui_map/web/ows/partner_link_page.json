@@ -1,0 +1,24 @@
+{
+    "partner_link_page": {
+        "locator": {"css selector": "[data-testid='partner-link-page']"}
+    },
+    "partner_link_page_header": {
+        "locator": {"css selector": "[data-testid='text-header']"}
+    },
+    "partner_link_page_sub_header": {
+        "locator": {"css selector": "[data-testid='text-subheader']"}
+    },
+    "partner_link_id_input_box": {
+        "locator": {"css selector": "input#partner-link"}
+    },
+    "partner_link_id_label": {
+        "locator": {"css selector": "#partner-link-label"}
+    },
+    "partner_link_page_helper_text": {
+        "locator": {"css selector": "._18mIWIH8am9HnLqocq7i06"}
+    },
+    "connect_to_hp_partner_button_section": {
+        "comment": {"jira": "https://hp-jira.external.hp.com/browse/OMFE-462"},
+        "locator": {"css selector": "button.css-nyn3zr"}
+    }
+}

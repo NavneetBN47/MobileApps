@@ -1,0 +1,12 @@
+{
+  "native_tab_nav": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Native']"
+    }
+  },
+  "weblet_tab_nav": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@label='Weblet']"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "settings_page_breadcrumb":{
+        "locator": {
+            "css selector": "#companyDetails span[aria-current='page']"
+        }
+    },
+    "settings_locations_tab":{
+        "locator": {
+            "css selector": "div#locations"
+        }
+    },
+    "settings_locations_tab_title":{
+        "locator": {
+            "css selector": "#shipping-locations"
+        }
+    },
+    "settings_preferences_tab":{
+        "locator": {
+            "css selector": "div#preferences"
+        }
+    },
+    "settings_preferences_tab_title":{
+        "locator": {
+            "css selector": ["#archived-devices", "h3#company-networks",
+                            "#company-pin"]
+        }
+    },
+    "settings_roles_and_permissions_tab":{
+        "locator": {
+            "css selector": "div#company-roles"
+        }
+    },
+    "settings_roles_and_permissions_tab_title":{
+        "locator": {
+            "css selector": "div#roles"
+        }
+    },
+    "settings_end_user_notifications_tab":{
+        "locator": {
+            "css selector": "div#notifications"
+        }
+    },
+    "settings_end_user_notifications_tab_title":{
+        "locator": {
+            "css selector": "[class='dui-dpanel-header'][id='device-notifications']"
+        }
+    },
+    "settings_logs_tab":{
+        "locator": {
+            "css selector": "div[role='tab'][id='logs']"
+        }
+    },
+    "settings_logs_tab_title":{
+        "locator": {
+            "css selector": "[class='dui-dpanel-header'][id='logs']"
+        }
+    }
+}

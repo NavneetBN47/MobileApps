@@ -1,0 +1,3080 @@
+{
+  "ar-SA": {
+    "translation": {
+      "Settings": {
+        "about": "نبذة",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "اتفاقية ترخيص المستخدم النهائي من HP",
+          "myHP": "myHP",
+          "privacy": "سياسة خصوصية HP",
+          "version": "النسخة"
+        },
+        "feedback": "الملاحظات",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "قدّم أي ملاحظات إضافية",
+          "characterLimitError": "لقد وصلت إلى الحد الأقصى البالغ 2000 حرف.",
+          "description": "يُرجى تقديم ملاحظات لإبلاغنا بجودة خدمتنا.",
+          "feedbackDisclaimer": "يتمثل الغرض من هذا الاستبيان في جمع ملاحظات العملاء حول منتجات HP وخدماتها. قد تستخدم HP المعلومات التي تم جمعها في هذا الاستبيان جنبًا إلى جنب مع المعلومات الموجودة لديها عنك لتحسين منتجاتها وخدماتها لتلبية احتياجاتك. تلتزم HP باحترام خصوصيتك وفقًا لبيان خصوصية HP.",
+          "feedbackThankYou": "شكرًا لك!",
+          "privacyLink": "بيان الخصوصية من HP",
+          "privacyText": "للحفاظ على خصوصيتك وأمانك، يُرجى عدم تضمين معلومات شخصية مثل رقم هاتفك أو عنوان بريدك الإلكتروني في قسم التعليقات. ",
+          "ratingDisclaimer": "(1 نجمة = غير راضٍ تمامًا، 5 نجوم = راضٍ جدًا)",
+          "ratingExperience": "بشكل عام، ما مدى رضاك عن تجربة myHP الخاصة بك؟",
+          "requiredFieldError": "حدد تقييمًا بالنجوم قبل التقديم.",
+          "submitFeedback": "أرسِل ملاحظات",
+          "thankYouDisclaimer": "تساعدنا ملاحظاتك القيّمة في تحسين تجربتك.",
+          "title": "شارك تعليقاتك معنا"
+        },
+        "navItem": "الإعدادات",
+        "notifications": "الإشعارات",
+        "Notifications": {
+          "description": "عدّل تفضيلات الإشعارات للتحكم في نوع الرسائل التي نرسلها إليك وكيفية تلقيها.",
+          "desktop": "إشعارات سطح المكتب",
+          "device": {
+            "description": "تحديثات ودعم التنبيهات على جهازك وحسابك",
+            "title": "الجهاز والحساب"
+          },
+          "doubleCheck": "تحقق مرة أخرى من إعدادات إشعارات Windows للتأكد من قدرتك على تلقي إشعارات HPX.",
+          "news": {
+            "description": "معلومات حول المنتجات والخدمات والعروض الجديدة",
+            "title": "الأخبار والعروض"
+          },
+          "off": "إيقاف التشغيل",
+          "on": "تشغيل",
+          "openSettings": "فتح إعدادات Windows",
+          "share": {
+            "description": "ساعدنا في تحسين تجربتك من خلال مشاركة ملاحظاتك حول المنتجات أو الخدمات",
+            "title": "مشاركة ملاحظاتك"
+          },
+          "tips": {
+            "description": "تعرف على كيفية الحصول على أفضل تجربة عند استخدام myHP وأجهزتك",
+            "title": "النصائح والدروس"
+          },
+          "title": "إدارة الإشعارات",
+          "turnOff": "تم إيقاف تشغيل إشعارات Windows",
+          "turnOn": "التشغيل لتلقي إشعارات myHP"
+        },
+        "privacy": "الخصوصية",
+        "Privacy": {
+          "clickHere": "انقر هنا.",
+          "hpInformation": "جمع بيانات نظام HP ",
+          "infoUsed": "لمعرفة المزيد حول كيفية استخدام معلوماتك، بادِر بزيارة",
+          "hpPrivacyStatement": "بيان خصوصية HP",
+          "learnMore": "لمعرفة المزيد، انتقِل إلى ",
+          "privacyContent": "صُممِّت الميزات الموجودة في myHP خصيصًا لتحسين تجربة الكمبيوتر بشكل عام وإضفاء الطابع الشخصي عليها. تجمع HP، بعد الحصول على أذنك، تحليلات حول نظامك وميزاتك لتحسين منتجات HP وخدماتها.",
+          "reviewPrivacy": "راجع خيارات الخصوصية",
+          "reviewPrivacySettings": "لمراجعة إعدادات الخصوصية الخاصة بك، "
+        }
+      }
+    }
+  },
+  "bg-BG": {
+    "translation": {
+      "Settings": {
+        "about": "Относно",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Лицензионно споразумение с крайния потребител на HP",
+          "myHP": "myHP",
+          "privacy": "Политика за поверителност на HP",
+          "version": "Версия"
+        },
+        "feedback": "Обратна връзка",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Изпратете всякакви допълнителни отзиви, каквито имате",
+          "characterLimitError": "Достигнахте максималното ограничение от 2000 знака.",
+          "description": "Моля, изпратете ни своята обратна връзка, за да споделите впечатленията си от това как се справяме.",
+          "feedbackDisclaimer": "Целта на това проучване е да събере обратна връзка от клиентите за продуктите и услугите на HP. HP може да използва събраната информация от това проучване заедно със съществуващата информация, която има за вас, за да подобри продуктите и услугите си, за да отговарят на вашите нужди. HP се ангажира да уважава вашата поверителност в съответствие с Декларацията за поверителност на HP.",
+          "feedbackThankYou": "Благодарим ви!",
+          "privacyLink": "Декларация за поверителност на HP",
+          "privacyText": "За вашата поверителност и защита не включвайте лична информация като телефонен номер или имейл адрес в раздела за коментари. ",
+          "ratingDisclaimer": "(1 звезда = много недоволен/на, 5 звезди = много доволен/на)",
+          "ratingExperience": "Като цяло доколко сте доволни от изживяването си с myHP?",
+          "requiredFieldError": "Преди да изпратите обратната си връзка, ни оценете със звезда.",
+          "submitFeedback": "Изпращане на обратна връзка",
+          "thankYouDisclaimer": "Ценната ви обратна връзка ни помага да повишим удовлетвореността ви от услугите ни.",
+          "title": "Споделете обратната си връзка с нас"
+        },
+        "navItem": "Настройки",
+        "notifications": "Известия",
+        "Notifications": {
+          "description": "Променете предпочитанията си за уведомяване, за да контролирате типа съобщения, които ви пращаме, и начина, по който ги получавате.",
+          "desktop": "Известия на работния плот",
+          "device": {
+            "description": "Предупреждения за актуализации и поддръжка на устройството и акаунта ви",
+            "title": "Устройство и акаунт"
+          },
+          "doubleCheck": "Вижте пак настройките за известия в Windows, за да сте сигурни, че може да получавате HPX известия.",
+          "news": {
+            "description": "Информация относно нови продукти, услуги и оферти",
+            "title": "Новини и оферти"
+          },
+          "off": "Изключен",
+          "on": "Включен",
+          "openSettings": "Отворете настройките за Windows",
+          "share": {
+            "description": "Помогнете ни да подобрим опита ви, като споделите обратна връзка за продукти и услуги",
+            "title": "Споделете обратна връзка"
+          },
+          "tips": {
+            "description": "Научете как да извлечете най-доброто при ползвате myHP и устройствата ви",
+            "title": "Съвети и уроци"
+          },
+          "title": "Управление на известията",
+          "turnOff": "Известията в Windows са изключени",
+          "turnOn": "Включете за получаване на myHP известия"
+        },
+        "privacy": "Поверителност",
+        "Privacy": {
+          "clickHere": "натиснете тук.",
+          "hpInformation": "Събиране на данни за системна информация на HP ",
+          "infoUsed": "За да научите повече за това как се използва вашата информация, посете",
+          "hpPrivacyStatement": "Декларацията за поверителност на HP",
+          "learnMore": "За да научите повече, отидете на ",
+          "privacyContent": "Функциите в myHP са специално проектирани да подобрят и персонализират цялостното ви изживяване с компютър. HP, с ваше разрешение, събира анализи за вашата система и функции, за да подобри продуктите и услугите на HP.",
+          "reviewPrivacy": "Преглед на опциите за поверителност",
+          "reviewPrivacySettings": "За да прегледате настройките си за поверителност, "
+        }
+      }
+    }
+  },
+  "ca-ES": {
+    "translation": {
+      "Settings": {
+        "about": "Sobre",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Acord de llicència d'usuari final d'HP",
+          "myHP": "myHP",
+          "privacy": "Política de privadesa d'HP",
+          "version": "Versió"
+        },
+        "feedback": "Comentaris",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Proporcioneu qualsevol comentari addicional",
+          "characterLimitError": "Heu assolit el límit màxim de 2.000 caràcters.",
+          "description": "Envieu comentaris per fer-nos saber com anem.",
+          "feedbackDisclaimer": "L'objectiu d'aquesta enquesta és recollir comentaris dels clients sobre productes i serveis d'HP. HP pot emprar la informació recopilada en aquesta enquesta juntament amb la informació existent que té sobre vós per millorar els productes i serveis a fi de satisfer les vostres necessitats. HP es compromet a respectar-vos la privadesa d'acord amb la Declaració de privadesa d'HP.",
+          "feedbackThankYou": "Gràcies!",
+          "privacyLink": "Declaració de privadesa d'HP",
+          "privacyText": "Per a la vostra privadesa i seguretat, no inclogueu informació personal com ara el vostre número de telèfon o la vostra adreça electrònica a la secció de comentaris. ",
+          "ratingDisclaimer": "(1 estrella = Molt insatisfet, 5 estrelles = Molt satisfet)",
+          "ratingExperience": "En general, quin és el grau de satisfacció que teniu amb la vostra experiència amb myHP?",
+          "requiredFieldError": "Seleccioneu una puntuació amb estrelles abans d'enviar-ho.",
+          "submitFeedback": "Envia Comentari",
+          "thankYouDisclaimer": "Els vostres valuosos comentaris ens ajuden a millorar-vos l’experiència.",
+          "title": "Compartiu els vostres comentaris amb nosaltres"
+        },
+        "navItem": "Configuració",
+        "notifications": "Notificacions",
+        "Notifications": {
+          "description": "Modifiqueu les preferències de notificació per controlar el tipus de missatges que us enviem i com els rebeu.",
+          "desktop": "Notificacions d'escriptori",
+          "device": {
+            "description": "Actualitzacions i alertes de suport al vostre dispositiu i compte",
+            "title": "Dispositiu i compte"
+          },
+          "doubleCheck": "Comproveu la configuració de notificacions de Windows per assegurar-vos que podeu rebre notificacions HPX.",
+          "news": {
+            "description": "Informació sobre nous productes, serveis i ofertes",
+            "title": "Notícies i ofertes"
+          },
+          "off": "Desactivat",
+          "on": "Activat",
+          "openSettings": "Obre la configuració de Windows",
+          "share": {
+            "description": "Ajudeu-nos a millorar la vostra experiència compartint els comentaris sobre productes o serveis",
+            "title": "Compartiu els comentaris"
+          },
+          "tips": {
+            "description": "Obteniu informació sobre com gaudir de la millor experiència amb l'ús de myHP i dels vostres dispositius",
+            "title": "Consells i tutorials"
+          },
+          "title": "Gestiona les notificacions",
+          "turnOff": "Les notificacions de Windows estan desactivades",
+          "turnOn": "Activa per rebre notificacions myHP"
+        },
+        "privacy": "Privadesa",
+        "Privacy": {
+          "clickHere": "feu clic aquí.",
+          "hpInformation": "Sistema de recopilació de dades d'informació d'HP ",
+          "infoUsed": "Per obtenir més informació sobre com s'utilitza la vostra informació, visiteu la",
+          "hpPrivacyStatement": "Declaració de privadesa d'HP",
+          "learnMore": "Per saber-ne més aneu a ",
+          "privacyContent": "Les funcions de myHP estan dissenyades específicament per millorar i personalitzar l'experiència general de l'ordinador. HP, amb el vostre permís, recopila analítiques sobre el vostre sistema i funcions per millorar els productes i serveis d'HP.",
+          "reviewPrivacy": "Reviseu les opcions de privadesa",
+          "reviewPrivacySettings": "Per revisar la vostra configuració de privadesa, "
+        }
+      }
+    }
+  },
+  "cs-CZ": {
+    "translation": {
+      "Settings": {
+        "about": "O produktu",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Licenční smlouva společnosti HP s koncovým uživatelem",
+          "myHP": "myHP",
+          "privacy": "Zásady ochrany soukromí společnosti HP",
+          "version": "Verze"
+        },
+        "feedback": "Zpětná vazba",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Uveďte jakoukoli další zpětnou vazbu",
+          "characterLimitError": "Dosáhli jste omezení maximálního počtu 2000 znaků.",
+          "description": "Poskytněte zpětnou vazbu a dejte nám vědět, jak si vedeme.",
+          "feedbackDisclaimer": "Účelem tohoto průzkumu je získat od zákazníků zpětnou vazbu týkající se produktů a služeb HP. Společnost HP může využít informace shromážděné v tomto průzkumu společně se stávajícími informacemi, které o vás již má, k vylepšení svých produktů a služeb, aby vyhovovaly vašim potřebám. Společnost HP se zavázala respektovat vaše soukromí v souladu s jejím prohlášením o ochraně osobních údajů.",
+          "feedbackThankYou": "Děkujeme!",
+          "privacyLink": "Prohlášení společnosti HP o ochranně soukromí",
+          "privacyText": "Z důvodu ochrany soukromí a bezpečnosti neuvádějte v části komentářů osobní údaje jako telefonní číslo nebo e-mailovou adresu. ",
+          "ratingDisclaimer": "(1 hvězdička = velmi nespokojen(-a), 5 hvězdiček = velmi spokojen(-a))",
+          "ratingExperience": "Jak jste celkově spokojeni s používáním myHP?",
+          "requiredFieldError": "Před odesláním vyberte hodnocení v počtu hvězdiček.",
+          "submitFeedback": "Odeslat zpětnou vazbu",
+          "thankYouDisclaimer": "Vaše přínosná zpětná vazba nám pomůže vylepšit vaši práci.",
+          "title": "Podělte se s námi o zpětnou vazbu"
+        },
+        "navItem": "Nastavení",
+        "notifications": "Oznámení",
+        "Notifications": {
+          "description": "Upravte si předvolby oznámení, abyste mohli ovládat typ zpráv, které vám posíláme, a způsob jejich přijímání.",
+          "desktop": "Oznámení na ploše",
+          "device": {
+            "description": "Upozornění na aktualizace a podporu ve vašem zařízení a účtu",
+            "title": "Zařízení a účet"
+          },
+          "doubleCheck": "Překontrolujte nastavení oznámení systému Windows, aby bylo jisté, že můžete přijímat oznámení HPX.",
+          "news": {
+            "description": "Informace o nových produktech, službách a nabídkách",
+            "title": "Novinky a nabídky"
+          },
+          "off": "Vypnout",
+          "on": "Zapnout",
+          "openSettings": "Otevřít nastavení Windows",
+          "share": {
+            "description": "Sdělte nám svou zpětnou vazbu k produktům a službám, pomůžete nám tím vylepšit vaši práci",
+            "title": "Podělte se o zpětnou vazbu"
+          },
+          "tips": {
+            "description": "Naučte se, jak co nejlépe využívat myHP a svá zařízení",
+            "title": "Tipy a kurzy"
+          },
+          "title": "Spravovat oznámení",
+          "turnOff": "Oznámení systému Windows jsou vypnutá",
+          "turnOn": "Zapněte je, abyste mohli přijímat oznámení myHP"
+        },
+        "privacy": "Soukromí",
+        "Privacy": {
+          "clickHere": "klikněte sem.",
+          "hpInformation": "Sběr dat pro Systémové informace HP ",
+          "infoUsed": "Chcete-li se dozvědět více o tom, jak jsou vaše informace využívány, navštivte stránky",
+          "hpPrivacyStatement": "Prohlášení HP o ochranně soukromí",
+          "learnMore": "Více informací najdete na ",
+          "privacyContent": "Funkce v myHP jsou speciálně navržené tak, aby vylepšily a přizpůsobily vaši celkovou práci s počítačem. Společnost HP s vaším svolením shromažďuje analytické údaje o vašem systému a funkcích za účelem zlepšení jejích produktů a služeb.",
+          "reviewPrivacy": "Zkontrolovat možnosti ochrany soukromí",
+          "reviewPrivacySettings": "Chcete-li zkontrolovat nastavení svého soukromí, "
+        }
+      }
+    }
+  },
+  "da-DK": {
+    "translation": {
+      "Settings": {
+        "about": "Om",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP's slutbrugerlicensaftale",
+          "myHP": "myHP",
+          "privacy": "HP's politik om beskyttelse af personlige oplysninger",
+          "version": "Version"
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Send gerne yderligere feedback",
+          "characterLimitError": "Du har nået den maksimale grænse på 2.000 tegn.",
+          "description": "Send gerne din feedback til os, så vi ved, om vi gør tingene rigtigt.",
+          "feedbackDisclaimer": "Formålet med denne undersøgelse er at indsamle feedback fra kunderne om HP's produkter og tjenester. HP kan bruge de indsamlede oplysninger fra denne undersøgelse sammen med eksisterede oplysninger, vi  har om dig, for at forbedre vores produkter og tjenester, så de opfylder dine krav. HP gør sit bedste for at respektere dit privatliv i overensstemmelse med HP's erklæring om beskyttelse af personlige oplysninger.",
+          "feedbackThankYou": "Tak!",
+          "privacyLink": "HP's erklæring om beskyttelse af personlige oplysninger",
+          "privacyText": "Af sikkerhedsmæssige og private grunde skal du undgå at bruge personlige oplysninger som f.eks. dit telefonnummer eller e-mailadresse i afsnittet Kommentarerer. ",
+          "ratingDisclaimer": "(1 stjerne = Meget utilfreds, 5 Stars = Meget tilfreds)",
+          "ratingExperience": "Hvor tilfreds er du overordnet set med din myHP-oplevelse?",
+          "requiredFieldError": "Vælg et antal stjerner, inden du sender.",
+          "submitFeedback": "Indsend feedback",
+          "thankYouDisclaimer": "Din feedback er vigtig for os, da den hjælper os med at forbedre din oplevelse.",
+          "title": "Del din feedback med os"
+        },
+        "navItem": "Indstillinger",
+        "notifications": "Meddelelser",
+        "Notifications": {
+          "description": "Rediger dine indstillinger for meddelelser for at administrere, hvilke typer meddelelser vi sender til dig, og hvordan du modtager dem.",
+          "desktop": "Skrivebordsmeddelelser",
+          "device": {
+            "description": "Advarsler om opdateringer og support på din enhed og konto",
+            "title": "Enhed og konto"
+          },
+          "doubleCheck": "Dobbelttjek dine indstillinger for Windows-meddelelser for at sikre, at du kan modtage HPX-meddelelser.",
+          "news": {
+            "description": "Oplysninger om nye produkter, tjenester og tilbud",
+            "title": "Nyheder og tilbud"
+          },
+          "off": "Deaktiver",
+          "on": "Aktiver",
+          "openSettings": "Åbn Windows-indstillinger",
+          "share": {
+            "description": "Hjælp os med at forbedre din oplevelse ved at dele din feedback om produkter og tjenester",
+            "title": "Del din feedback"
+          },
+          "tips": {
+            "description": "Få mere at vide om, hvordan du får den bedste oplevelse ved hjælp af myHP og dine enheder",
+            "title": "Tips og selvstudier"
+          },
+          "title": "Administrer meddelelser",
+          "turnOff": "Windows-meddelelser er deaktiveret",
+          "turnOn": "Aktiver for at modtage myHP-meddelelser"
+        },
+        "privacy": "Beskyttelse af personlige oplysninger",
+        "Privacy": {
+          "clickHere": "ved at klikke her.",
+          "hpInformation": "HP's indsamling af data vedrørende systemoplysninger ",
+          "infoUsed": "Få mere at vide om, hvordan dine oplysninger bliver brugt under",
+          "hpPrivacyStatement": "HP's erklæring om beskyttelse af personlig oplysninger",
+          "learnMore": "Få mere at vide på ",
+          "privacyContent": "Funktionerne i myHP er særligt udviklet til at forbedre og tilpasse din overordnede pc-oplevelse. HP indsamler med tilladelse fra dig analyser af dit system og funktioner for at forbedre HP-produkter og -tjenester.",
+          "reviewPrivacy": "Se privatlivsindstillinger",
+          "reviewPrivacySettings": "Se dine indstillinger for beskyttelse af personlige oplysninger "
+        }
+      }
+    }
+  },
+  "de-DE": {
+    "translation": {
+      "Settings": {
+        "about": "Info",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP Endbenutzer-Lizenzvereinbarung",
+          "myHP": "myHP",
+          "privacy": "HP Datenschutz",
+          "version": "Version"
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Geben Sie zusätzliches Feedback",
+          "characterLimitError": "Sie haben die maximale Anzahl von 2000 Zeichen erreicht.",
+          "description": "Bitte geben Sie uns unten Ihr Feedback, um uns mitzuteilen, ob Sie mit uns zufrieden sind.",
+          "feedbackDisclaimer": "Der Zweck dieser Umfrage ist es, Kundenfeedback zu HP Produkten und Services zu sammeln. HP kann die in dieser Umfrage gesammelten Informationen zusammen mit bereits vorhandenen Informationen über Sie verwenden, um seine Produkte und Services zu verbessern und Ihren Bedürfnissen anzupassen. HP verpflichtet sich, Ihre Privatsphäre in Übereinstimmung mit der HP Datenschutzerklärung zu respektieren.",
+          "feedbackThankYou": "Vielen Dank!",
+          "privacyLink": "HP Datenschutzerklärung",
+          "privacyText": "Aus Gründen des Datenschutzes und der Sicherheit bitten wir Sie, keine persönlichen Daten wie Ihre Telefonnummer oder E-Mail-Adresse in den Kommentaren anzugeben. ",
+          "ratingDisclaimer": "(1 Stern = Sehr unzufrieden, 5 Sterne = Sehr zufrieden)",
+          "ratingExperience": "Wie zufrieden sind Sie insgesamt mit Ihrer myHP-Erfahrung?",
+          "requiredFieldError": "Wählen Sie vor dem Senden eine Sterne-Bewertung aus.",
+          "submitFeedback": "Feedback senden",
+          "thankYouDisclaimer": "Ihr wertvolles Feedback hilft uns, Ihre Erfahrung zu verbessern.",
+          "title": "Teilen Sie Ihr Feedback mit uns"
+        },
+        "navItem": "Einstellungen",
+        "notifications": "Benachrichtigungen",
+        "Notifications": {
+          "description": "Ändern Sie Ihre Benachrichtigungseinstellungen, um festzulegen, welche Art von Nachrichten wir Ihnen senden und wie Sie diese erhalten.",
+          "desktop": "Desktop-Benachrichtigungen",
+          "device": {
+            "description": "Updates und Support-Warnungen auf Ihr Gerät und Ihr Konto",
+            "title": "Gerät und Konto"
+          },
+          "doubleCheck": "Überprüfen Sie Ihre Windows-Benachrichtigungseinstellungen, um sicherzustellen, dass Sie HPX-Benachrichtigungen erhalten können.",
+          "news": {
+            "description": "Informationen über neue Produkte, Services und Angebote",
+            "title": "Neuigkeiten und Angebote"
+          },
+          "off": "Aus",
+          "on": "An",
+          "openSettings": "Windows-Einstellungen öffnen",
+          "share": {
+            "description": "Helfen Sie uns, Ihre Erfahrung zu verbessern, indem Sie uns Ihr Feedback zu Produkten und Services mitteilen.",
+            "title": "Teilen Sie uns Ihr Feedback mit"
+          },
+          "tips": {
+            "description": "Erfahren Sie, wie Sie myHP und Ihre Geräte optimal nutzen können",
+            "title": "Tipps und Lernprogramme"
+          },
+          "title": "Benachrichtigungen verwalten",
+          "turnOff": "Windows-Benachrichtigungen sind deaktiviert",
+          "turnOn": "Aktivieren Sie sie, um myHP-Benachrichtigungen zu erhalten"
+        },
+        "privacy": "Datenschutz",
+        "Privacy": {
+          "clickHere": "klicken Sie hier.",
+          "hpInformation": "Erfassung von HP Systeminformationsdaten ",
+          "infoUsed": "Um mehr darüber zu erfahren, wie Ihre Daten verwendet werden, besuchen Sie die",
+          "hpPrivacyStatement": "HP Datenschutzerklärung",
+          "learnMore": "Weitere Informationen finden Sie unter ",
+          "privacyContent": "Die Funktionen in myHP wurden speziell entwickelt, um Ihre PC-Erfahrung zu verbessern und zu personalisieren. HP sammelt mit Ihrer Zustimmung Analysen über Ihr System und Ihre Funktionen, um HP Produkte und Services zu verbessern.",
+          "reviewPrivacy": "Datenschutzoptionen überprüfen",
+          "reviewPrivacySettings": "Um Ihr Datenschutzeinstellungen zu überprüfen, "
+        }
+      }
+    }
+  },
+  "el-GR": {
+    "translation": {
+      "Settings": {
+        "about": "Πληροφορίες",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Συμφωνία άδειας τελικού χρήστη HP",
+          "myHP": "myHP",
+          "privacy": "Πολιτική απορρήτου HP",
+          "version": "Έκδοση"
+        },
+        "feedback": "Σχόλια",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Δώστε πρόσθετα σχόλια",
+          "characterLimitError": "Έχετε φτάσει το μέγιστο όριο των 2000 χαρακτήρων.",
+          "description": "Κάντε σχόλια για να μας ενημερώσετε για την πορεία μας.",
+          "feedbackDisclaimer": "Ο σκοπός αυτής της έρευνας είναι να συγκεντρώσει σχόλια πελατών σχετικά με τα προϊόντα και τις υπηρεσίες της HP. Η HP μπορεί να χρησιμοποιήσει τις πληροφορίες που συλλέγονται σε αυτήν την έρευνα μαζί με τις υφιστάμενες πληροφορίες που έχει για εσάς για να βελτιώσει τα προϊόντα και τις υπηρεσίες της για να καλύψει τις ανάγκες σας. Η HP δεσμεύεται να σέβεται το απόρρητό σας σύμφωνα με τη Δήλωση Απορρήτου της HP.",
+          "feedbackThankYou": "Σας ευχαριστούμε!",
+          "privacyLink": "Δήλωση απορρήτου της HP",
+          "privacyText": "Για το απόρρητο και την ασφάλειά σας, μην συμπεριλαμβάνετε προσωπικές πληροφορίες όπως ο αριθμός τηλεφώνου σας ή η διεύθυνση email σας στην ενότητα σχολίων. ",
+          "ratingDisclaimer": "(1 Αστέρι = Πολύ δυσαρεστημένος, 5 Αστέρια = Πολύ ικανοποιημένος)",
+          "ratingExperience": "Συνολικά, πόσο ικανοποιημένοι είστε από την εμπειρία myHP;",
+          "requiredFieldError": "Επιλέξτε μια βαθμολογία με αστέρια προτού υποβάλετε.",
+          "submitFeedback": "Υποβολή σχολίων",
+          "thankYouDisclaimer": "Τα πολύτιμα σχόλιά σας μας βοηθούν να βελτιώσουμε την εμπειρία σας.",
+          "title": "Μοιραστείτε τα σχόλιά σας μαζί μας"
+        },
+        "navItem": "Ρυθμίσεις",
+        "notifications": "Ειδοποιήσεις",
+        "Notifications": {
+          "description": "Τροποποιήστε τις προτιμήσεις ειδοποιήσεών σας για να ελέγξετε τον τύπο των μηνυμάτων που σας στέλνουμε και τον τρόπο με τον οποίο τα λαμβάνετε.",
+          "desktop": "Ειδοποιήσεις επιφάνειας εργασίας",
+          "device": {
+            "description": "Ενημερώσεις και υποστήριξη ειδοποιήσεων στη συσκευή και τον λογαριασμό σας",
+            "title": "Συσκευή και λογαριασμός"
+          },
+          "doubleCheck": "Ελέγξτε ξανά τις ρυθμίσεις ειδοποιήσεων των Windows για να βεβαιωθείτε ότι μπορείτε να λαμβάνετε ειδοποιήσεις HPX.",
+          "news": {
+            "description": "Πληροφορίες για νέα προϊόντα, υπηρεσίες και προσφορές",
+            "title": "Νέα και προσφορές"
+          },
+          "off": "Απενεργοποιημένο",
+          "on": "Ενεργοποιημένο",
+          "openSettings": "Ανοίξτε τις ρυθμίσεις των Windows",
+          "share": {
+            "description": "Βοηθήστε μας να βελτιώσουμε την εμπειρία σας κοινοποιώντας τα σχόλιά σας σχετικά με προϊόντα ή υπηρεσίες",
+            "title": "Μοιραστείτε τα σχόλιά σας"
+          },
+          "tips": {
+            "description": "Μάθετε πώς να έχετε την καλύτερη εμπειρία όταν χρησιμοποιείτε το myHP και τις συσκευές σας",
+            "title": "Συμβουλές και εκπαιδευτικό υλικό"
+          },
+          "title": "Διαχείριση ειδοποιήσεων",
+          "turnOff": "Οι ειδοποιήσεις των Windows είναι απενεργοποιημένες",
+          "turnOn": "Ενεργοποιήστε τις για να λαμβάνετε ειδοποιήσεις myHP"
+        },
+        "privacy": "Απόρρητο",
+        "Privacy": {
+          "clickHere": "κάντε κλικ εδώ.",
+          "hpInformation": "Συλλογή δεδομένων πληροφοριών συστήματος HP ",
+          "infoUsed": "Για να μάθετε περισσότερα για τον τρόπο χρήσης των πληροφοριών σας, επισκεφτείτε τη",
+          "hpPrivacyStatement": "Δήλωση απορρήτου HP",
+          "learnMore": "Για να μάθετε περισσότερα μεταβείτε στο ",
+          "privacyContent": "Τα χαρακτηριστικά στο myHP έχουν σχεδιαστεί ειδικά ώστε να ενισχύουν και να εξατομικεύουν τη συνολική εμπειρία σας με τον υπολογιστή. Η HP, με την άδειά σας, συλλέγει αναλυτικά στοιχεία για το σύστημά και τα χαρακτηριστικά ώστε να βελτιώσει τα προϊόντα και τις υπηρεσίες HP.",
+          "reviewPrivacy": "Έλεγχος των επιλογών απορρήτου",
+          "reviewPrivacySettings": "Για να ελέγξετε τις ρυθμίσεις απορρήτου σας, "
+        }
+      }
+    }
+  },
+  "en-US": {
+    "translation": {
+      "Settings": {
+        "about": "About",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP End User License Agreement",
+          "myHP": "myHP",
+          "privacy": "HP Privacy Policy",
+          "version": "Version"
+        },
+        "navItem": "Settings",
+        "notifications": "Notifications",
+        "Notifications": {
+          "description": "Modify your notification preferences to control the type of messages we send you and how you receive them.",
+          "desktop": "Desktop Notifications",
+          "device": {
+            "description": "Updates and support alerts on your device and account",
+            "title": "Device and account"
+          },
+          "doubleCheck": "Double-check your Windows notification settings to ensure you’re able to receive HPX notifications.",
+          "news": {
+            "description": "Information about new products, services, and offers",
+            "title": "News and offers"
+          },
+          "off": "Off",
+          "on": "On",
+          "openSettings": "Open Windows settings",
+          "share": {
+            "description": "Help us improve your experience by sharing your feedback about products or services",
+            "title": "Share your feedback"
+          },
+          "tips": {
+            "description": "Learn how to get the best experience when using myHP and your devices",
+            "title": "Tips and tutorials"
+          },
+          "title": "Manage notifications",
+          "turnOff": "Windows notifications are turned off",
+          "turnOn": "Turn on to receive myHP notifications"
+        },
+        "privacy": "Privacy",
+        "Privacy": {
+          "infoUsed": "To learn more about how your information is used visit the",
+          "hpPrivacyStatement": "HP Privacy Statement",
+          "clickHere": "click here.",
+          "hpInformation": "HP System Information Data Collection ",
+          "learnMore": "To learn more go to ",
+          "privacyContent": "The features in myHP are specifically designed to enhance and personalize your overall PC experience. HP, with your permission, collects analytics about your system and features to improve HP products and services.",
+          "reviewPrivacy": "Review privacy options",
+          "reviewPrivacySettings": "To review your privacy settings, "
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "title": "Share your feedback with us",
+          "description": "Please provide feedback to let us know how we’re doing.",
+          "ratingExperience": "Overall, how satisfied are you with your myHP experience?",
+          "ratingDisclaimer": "(1 Star = Very unsatisfied, 5 Stars = Very satisfied)",
+          "privacyText": "For your privacy and security, please do not include personal information such as your phone number or email address in the comments section. ",
+          "privacyLink": "HP’s Privacy Statement",
+          "additionalFeedbackPlaceholder": "Provide any additional feedback",
+          "submitFeedback": "Submit Feedback",
+          "feedbackDisclaimer": "The purpose of this survey is to gather customer feedback about HP products and services. HP may use the information collected in this survey together with existing information it has about you to improve its products and services to meet your needs. HP is committed to respecting your privacy in accordance with HP's Privacy Statement.",
+          "requiredFieldError": "Select a star rating before you submit.",
+          "characterLimitError": "You have reached the max limit of 2000 characters.",
+          "feedbackThankYou": "Thank you!",
+          "thankYouDisclaimer": "Your valuable feedback helps us improve your experience."
+        }
+      }
+    }
+  },
+  "en-GB": {
+    "translation": {
+      "Settings": {
+        "about": "About",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP End User License Agreement",
+          "myHP": "myHP",
+          "privacy": "HP Privacy Policy",
+          "version": "Version"
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Provide any additional feedback",
+          "characterLimitError": "You have reached the max limit of 2000 characters.",
+          "description": "Please provide feedback to let us know how we’re doing.",
+          "feedbackDisclaimer": "The purpose of this survey is to gather customer feedback about HP products and services. HP may use the information collected in this survey together with existing information it has about you to improve its products and services to meet your needs. HP is committed to respecting your privacy in accordance with HP's Privacy Statement.",
+          "feedbackThankYou": "Thank you!",
+          "privacyLink": "HP’s Privacy Statement",
+          "privacyText": "For your privacy and security, please do not include personal information such as your phone number or email address in the comments section. ",
+          "ratingDisclaimer": "(1 Star = Very unsatisfied, 5 Stars = Very satisfied)",
+          "ratingExperience": "Overall, how satisfied are you with your myHP experience?",
+          "requiredFieldError": "Select a star rating before you submit.",
+          "submitFeedback": "Submit Feedback",
+          "thankYouDisclaimer": "Your valuable feedback helps us improve your experience.",
+          "title": "Share your feedback with us"
+        },
+        "navItem": "Settings",
+        "notifications": "Notifications",
+        "Notifications": {
+          "description": "Modify your notification preferences to control the type of messages we send you and how you receive them.",
+          "desktop": "Desktop Notifications",
+          "device": {
+            "description": "Updates and support alerts on your device and account",
+            "title": "Device and account"
+          },
+          "doubleCheck": "Double-check your Windows notification settings to ensure you’re able to receive HPX notifications.",
+          "news": {
+            "description": "Information about new products, services, and offers",
+            "title": "News and offers"
+          },
+          "off": "Off",
+          "on": "On",
+          "openSettings": "Open Windows settings",
+          "share": {
+            "description": "Help us improve your experience by sharing your feedback about products or services",
+            "title": "Share your feedback"
+          },
+          "tips": {
+            "description": "Learn how to get the best experience when using myHP and your devices",
+            "title": "Tips and tutorials"
+          },
+          "title": "Manage notifications",
+          "turnOff": "Windows notifications are turned off",
+          "turnOn": "Turn on to receive myHP notifications"
+        },
+        "privacy": "Privacy",
+        "Privacy": {
+          "infoUsed": "To learn more about how your information is used visit the",
+          "hpPrivacyStatement": "HP Privacy Statement",
+          "clickHere": "click here.",
+          "hpInformation": "HP System Information Data Collection ",
+          "learnMore": "To learn more go to ",
+          "privacyContent": "The features in myHP are specifically designed to enhance and personalise your overall PC experience. HP, with your permission, collects analytics about your system and features to improve HP products and services.",
+          "reviewPrivacy": "Review privacy options",
+          "reviewPrivacySettings": "To review your privacy settings, "
+        }
+      }
+    }
+  },
+  "es-ES": {
+    "translation": {
+      "Settings": {
+        "about": "Acerca de",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Acuerdo de licencia de usuario final de HP",
+          "myHP": "myHP",
+          "privacy": "Política de privacidad de HP",
+          "version": "Versión"
+        },
+        "feedback": "Comentarios",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Brindar comentarios adicionales",
+          "characterLimitError": "Alcanzaste el límite máximo de 2000 caracteres.",
+          "description": "Bríndanos tus comentarios para hacernos saber cómo estamos trabajando.",
+          "feedbackDisclaimer": "El objetivo de esta encuesta es recopilar los comentarios de los clientes sobre productos y servicios de HP. HP puede usar esta información, junto con cualquier dato que posea acerca de ti, para mejorar sus productos y servicios con el objetivo de satisfacer tus necesidades. HP es una empresa que está comprometida a respetar tu privacidad de acuerdo con la declaración de privacidad de HP.",
+          "feedbackThankYou": "¡Gracias!",
+          "privacyLink": "Declaración de privacidad de HP",
+          "privacyText": "Para tu privacidad y seguridad, no incluyas información personal como tu número de teléfono o dirección de correo electrónico en la sección de comentarios. ",
+          "ratingDisclaimer": "(1 estrella = Muy insatisfecho, 5 estrellas = Muy satisfecho)",
+          "ratingExperience": "En general, ¿cuál es tu nivel de satisfacción con tu experiencia de myHP?",
+          "requiredFieldError": "Selecciona una calificación antes de enviar.",
+          "submitFeedback": "Enviar comentarios",
+          "thankYouDisclaimer": "Tus comentarios valiosos nos ayudan a mejorar tu experiencia.",
+          "title": "Comparte tus comentarios con nosotros"
+        },
+        "navItem": "Ajustes",
+        "notifications": "Notificaciones",
+        "Notifications": {
+          "description": "Modifica tus preferencias de notificación para controlar el tipo de mensajes que te enviamos y cómo los recibes.",
+          "desktop": "Notificaciones de escritorio",
+          "device": {
+            "description": "Actualizaciones y alertas de soporte en tu dispositivo y cuenta",
+            "title": "Dispositivo y cuenta"
+          },
+          "doubleCheck": "Vuelve a verificar la configuración de notificaciones de Windows para asegurarte de que puedes recibir notificaciones de HPX.",
+          "news": {
+            "description": "Información sobre nuevos productos, servicios y ofertas",
+            "title": "Noticias y ofertas"
+          },
+          "off": "Apagado",
+          "on": "Encendido",
+          "openSettings": "Abre la configuración de Windows",
+          "share": {
+            "description": "Ayúdanos a mejorar tu experiencia compartiendo tus comentarios sobre productos o servicios",
+            "title": "Comparte tus comentarios"
+          },
+          "tips": {
+            "description": "Obtén información sobre cómo lograr la mejor experiencia al usar myHP y tus dispositivos",
+            "title": "Consejos y tutoriales"
+          },
+          "title": "Gestionar notificaciones",
+          "turnOff": "Las notificaciones de Windows están desactivadas",
+          "turnOn": "Activa para recibir notificaciones de myHP"
+        },
+        "privacy": "Privacidad",
+        "Privacy": {
+          "clickHere": "haz clic aquí.",
+          "hpInformation": "Recopilación de datos de información del sistema de HP ",
+          "infoUsed": "Para obtener más información sobre cómo se utilizan tus datos, visita",
+          "hpPrivacyStatement": "Declaración de privacidad de HP",
+          "learnMore": "Para obtener más información, dirígete a ",
+          "privacyContent": "Las funciones de myHP están específicamente diseñadas para mejorar y personalizar tu experiencia general con el ordenador. HP, con tu permiso, lleva a cabo un análisis sobre el sistema y las funciones para mejorar los productos y los servicios de HP.",
+          "reviewPrivacy": "Revisa las opciones de privacidad",
+          "reviewPrivacySettings": "Para revisar tus ajustes de privacidad, "
+        }
+      }
+    }
+  },
+  "es-MX": {
+    "translation": {
+      "Settings": {
+        "about": "Acerca de",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Acuerdo de licencia de usuario final de HP",
+          "myHP": "myHP",
+          "privacy": "Política de privacidad de HP",
+          "version": "Versión"
+        },
+        "feedback": "Comentarios",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Proporcione cualquier comentario adicional",
+          "characterLimitError": "Ha alcanzado el límite máximo de 2000 caracteres.",
+          "description": "Por favor, denos su opinión. ¿Lo estamos haciendo bien?",
+          "feedbackDisclaimer": "El objetivo de esta encuesta es recoger las opiniones de los clientes sobre los productos y servicios HP. HP puede usar la información recogida en esta encuesta junto con información existente que tiene sobre usted para mejorar sus productos y servicios para satisfacer sus necesidades. HP se compromete a respetar su privacidad de acuerdo con la Declaración de privacidad de HP.",
+          "feedbackThankYou": "¡Gracias!",
+          "privacyLink": "Declaración de privacidad de HP",
+          "privacyText": "Por su privacidad y seguridad, no incluya información personal como su número de teléfono o dirección de correo electrónico en la sección de comentarios. ",
+          "ratingDisclaimer": "(1 estrella = muy insatisfecho, 5 estrellas = muy satisfecho)",
+          "ratingExperience": "En general, ¿cuán satisfecho está con su experiencia de myHP?",
+          "requiredFieldError": "Seleccione una clasificación por estrellas antes de enviar",
+          "submitFeedback": "Enviar comentarios",
+          "thankYouDisclaimer": "Sus valiosos comentarios nos ayudan a mejorar su experiencia.",
+          "title": "Comparta su opinión con nosotros"
+        },
+        "navItem": "Configuración",
+        "notifications": "Notificaciones",
+        "Notifications": {
+          "description": "Modifique sus preferencias de notificaciones para controlar el tipo de mensajes que le enviamos y cómo desea recibirlos.",
+          "desktop": "Notificaciones de escritorio",
+          "device": {
+            "description": "Actualizaciones y alertas de soporte en su dispositivo y su cuenta",
+            "title": "Dispositivo y cuenta"
+          },
+          "doubleCheck": "Confirme su configuración de notificaciones de Windows para asegurarse de que recibirá notificaciones HPX.",
+          "news": {
+            "description": "Información sobre nuevos productos, servicios y ofertas",
+            "title": "Novedades y ofertas"
+          },
+          "off": "Desactivado",
+          "on": "Activado",
+          "openSettings": "Abrir configuración de Windows",
+          "share": {
+            "description": "Ayúdenos a mejorar su experiencia compartiendo su opinión sobre productos o servicios",
+            "title": "Comparta su opinión"
+          },
+          "tips": {
+            "description": "Aprenda a obtener la mejor experiencia al usar myHP con sus dispositivos",
+            "title": "Consejos y tutoriales"
+          },
+          "title": "Administrar notificaciones",
+          "turnOff": "Las notificaciones de Windows están desactivadas",
+          "turnOn": "Actívelas para recibir notificaciones de myHP"
+        },
+        "privacy": "Privacidad",
+        "Privacy": {
+          "clickHere": "haga clic aquí.",
+          "hpInformation": "Recopilación de datos de información del sistema HP ",
+          "infoUsed": "Para saber más sobre cómo se usa su información, visite la",
+          "hpPrivacyStatement": "Declaración de privacidad de HP",
+          "learnMore": "Para obtener más información vaya a ",
+          "privacyContent": "Las características en myHP están diseñadas específicamente para mejorar y personalizar su experiencia de PC general. HP, con su permiso, recopila análisis sobre sus sistema y características para mejorar los productos y servicios HP.",
+          "reviewPrivacy": "Revise las opciones de privacidad",
+          "reviewPrivacySettings": "Para revisar sus configuraciones de privacidad "
+        }
+      }
+    }
+  },
+  "et-EE": {
+    "translation": {
+      "Settings": {
+        "about": "Teave",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP lõppkasutaja litsentsileping",
+          "myHP": "myHP",
+          "privacy": "HP privaatsuspoliitika",
+          "version": "Versioon"
+        },
+        "feedback": "Tagasiside",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Andke täiendavat tagasisidet",
+          "characterLimitError": "Olete saavutanud maksimaalse piirangu 2000 tähemärki.",
+          "description": "Andke meile tagasisidet, kuidas meil läheb.",
+          "feedbackDisclaimer": "Selle küsitluse eesmärk on koguda klientidelt tagasisidet HP toodete ja teenuste kohta. HP võib kasutada selles küsitluses kogutud teavet koos olemasoleva teabega, mis tal teie kohta on, et täiustada oma tooteid ja teenuseid  teie vajaduste kohaselt. HP kohustub austama teie privaatsust HP privaatsusavalduse kohaselt.",
+          "feedbackThankYou": "Aitäh!",
+          "privacyLink": "HP privaatsusavaldus",
+          "privacyText": "Oma privaatsuse ja turvalisuse huvides ärge lisage kommentaaride jaotisesse isiklikke andmeid, nagu telefoninumber või e-posti aadress. ",
+          "ratingDisclaimer": "(1 tärn = väga rahulolematu, 5 tärni = väga rahul)",
+          "ratingExperience": "Kui rahul olete üldiselt oma myHP kogemusega?",
+          "requiredFieldError": "Enne esitamist valige tärni hinnang.",
+          "submitFeedback": "Esita tagasiside",
+          "thankYouDisclaimer": "Teie väärtuslik tagasiside aitab meil teie kasutuskogemust täiustada.",
+          "title": "Jagage meiega oma tagasisidet"
+        },
+        "navItem": "Seaded",
+        "notifications": "Märguanded",
+        "Notifications": {
+          "description": "Muutke oma märguannete eelistusi, et juhtida, millist tüüpi sõnumeid teile saadame ja kuidas te neid saate.",
+          "desktop": "Töölaua märguanded",
+          "device": {
+            "description": "Värskendused ja tugihoiatused teie seadmes ja kontol",
+            "title": "Seade ja konto"
+          },
+          "doubleCheck": "Kontrollige veel kord oma Windowsi teavitussätteid, et tagada HPX-i märguannete vastuvõtmine.",
+          "news": {
+            "description": "Teave uute toodete, teenuste ja pakkumiste kohta",
+            "title": "Uudised ja pakkumised"
+          },
+          "off": "Väljas",
+          "on": "Sees",
+          "openSettings": "Avage Windowsi sätted",
+          "share": {
+            "description": "Aidake meil oma kogemust täiustada, jagades toodete või teenuste kohta tagasisidet",
+            "title": "Jagage oma tagasisidet"
+          },
+          "tips": {
+            "description": "Siit saate teada, kuidas myHP ja oma seadmete kasutamisel parimat kogemust saada",
+            "title": "Näpunäiteid ja õpetusi"
+          },
+          "title": "Hallake märguandeid",
+          "turnOff": "Windowsi märguanded on välja lülitatud",
+          "turnOn": "myHP-i märguannete saamiseks lülitage see sisse"
+        },
+        "privacy": "Privaatsus",
+        "Privacy": {
+          "clickHere": "klõpsake siin.",
+          "hpInformation": "HP süsteemiteabe andmete kogumine ",
+          "infoUsed": "Lisateavet teie teabe kasutamise kohta leiate veebisaidilt",
+          "hpPrivacyStatement": "HP privaatsusavaldus",
+          "learnMore": "Lisateabe saamiseks minge aadressile ",
+          "privacyContent": "MyHP funktsioonid on spetsiaalselt loodud teie üldise arvutikogemuse täiustamiseks ja isikupärastamiseks. HP kogub teie loal teie süsteemi ja funktsioonide kohta analüüse, et täiustada HP tooteid ja teenuseid.",
+          "reviewPrivacy": "Vaadake üle privaatsusvalikud",
+          "reviewPrivacySettings": "Privaatsusseadete ülevaatamiseks "
+        }
+      }
+    }
+  },
+  "eu-ES": {
+    "translation": {
+      "Settings": {
+        "about": "Honi buruz:",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP azken erabiltzailearen erabilera-kontratua",
+          "myHP": "myHP",
+          "privacy": "HP pribatutasun-politika",
+          "version": "Bertsioa"
+        },
+        "feedback": "Iruzkinak",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Bidali edozein iruzkin gehigarri",
+          "characterLimitError": "2000 karaktereko gehienezko mugara iritsi zara.",
+          "description": "Mesedez, bidali zure iruzkinak nola egiten ari garen jakinarazteko.",
+          "feedbackDisclaimer": "Inkesta honen helburua bezeroek HP produktu eta zerbitzuei buruz dituzten iritziak biltzea da. HPk inkesta honetan jasotako informazioa eta zuri buruz duzun informazioa erabil ditzake zure produktuak eta zerbitzuak hobetzeko, zure beharrak asetzeko. HPk bere pribatutasuna errespetatzeko konpromisoa hartzen du, HPren Pribatutasun Deklarazioaren arabera.",
+          "feedbackThankYou": "Eskerrik asko!",
+          "privacyLink": "HPren pribatutasun adierazpena",
+          "privacyText": "Zure pribatutasunagatik eta segurtasunagatik, ez sartu iruzkinen atalean zure telefono-zenbakia edo helbide elektronikoa bezalako datu pertsonalak. ",
+          "ratingDisclaimer": "(1 izar = ez nago batere pozik, 5 izar = oso pozik)",
+          "ratingExperience": "Oro har, zein da zure gogobetetze-maila zure myHP esperientziarekin?",
+          "requiredFieldError": "Hautatu izarren araberako sailkapen bat bidali aurretik.",
+          "submitFeedback": "Iruzkina bidali",
+          "thankYouDisclaimer": "Zure iruzkin baliotsuek zure esperientzia hobetzen laguntzen digute.",
+          "title": "Partekatu zure iruzkinak gurekin"
+        },
+        "navItem": "Ezarpenak",
+        "notifications": "Jakinarazpenak",
+        "Notifications": {
+          "description": "Aldatu zure jakinarazpen-lehentasunak, bidaltzen dizkizugun mezu-motak eta nola jasotzen dituzun kontrolatzeko.",
+          "desktop": "Mahaigaineko jakinarazpenak",
+          "device": {
+            "description": "Eguneratzeak eta laguntza-alertak zure gailuan eta kontuan",
+            "title": "Gailua eta kontua"
+          },
+          "doubleCheck": "Begiratu Windowsen jakinarazpen-ezarpenak, HPX jakinarazpenak jaso ditzakezula ziurtatzeko.",
+          "news": {
+            "description": "Produktu, zerbitzu eta eskaintza berriei buruzko informazioa",
+            "title": "Berriak eta eskaintzak"
+          },
+          "off": "Desaktibatuta",
+          "on": "Aktibatuta",
+          "openSettings": "Ireki Windows ezarpenak",
+          "share": {
+            "description": "Lagundu zure esperientzia hobetzen eta eman produktu edo zerbitzuei buruzko iritzia",
+            "title": "Eman zure iritzia"
+          },
+          "tips": {
+            "description": "Ikasi myHP eta zure gailuak erabiltzean esperientzirik onena lortzen",
+            "title": "Aholkuak eta tutorialak"
+          },
+          "title": "Kudeatu jakinarazpenak",
+          "turnOff": "Windowsen jakinarazpenak itzalita daude",
+          "turnOn": "Piztu myHP jakinarazpenak jasotzeko"
+        },
+        "privacy": "Pribatutasuna",
+        "Privacy": {
+          "clickHere": "egin klik hemen.",
+          "hpInformation": "HP sistemaren datu-bilketa ",
+          "infoUsed": "Zure informazioa nola erabiltzen den gehiago jakiteko, bisitatu",
+          "hpPrivacyStatement": "HPren pribatutasun adierazpena",
+          "learnMore": "Gehiago ikasteko zoaz ",
+          "privacyContent": "myHP ezaugarriak ordenagailuaren esperientzia orokorra hobetzeko eta pertsonalizatzeko diseinatuta daude. HP, zure baimenarekin, zure sistemari eta ezaugarriei buruzko azterketa jasoko du, HP produktuak eta zerbitzuak hobetzeko.",
+          "reviewPrivacy": "Berrikusi pribatutasun-aukerak",
+          "reviewPrivacySettings": "Pribatutasun-konfigurazioa berrikusteko, "
+        }
+      }
+    }
+  },
+  "fi-FI": {
+    "translation": {
+      "Settings": {
+        "about": "Tietoja",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP:n käyttöoikeussopimus",
+          "myHP": "myHP",
+          "privacy": "HP:n tietosuojakäytäntö",
+          "version": "Versio"
+        },
+        "feedback": "Palaute",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Anna muuta palautetta.",
+          "characterLimitError": "Olet saavuttanut 2000 merkin enimmäisrajan.",
+          "description": "Anna palautetta, jotta tiedämme, miten onnistuimme.",
+          "feedbackDisclaimer": "Tämän kyselyn tarkoitus on kerätä asiakkailta palautetta HP-tuotteista ja -palveluista. HP saattaa parantaa tuotteitaan ja palvelujaan, jotta ne vastaavat paremmin tarpeitasi, käyttämällä kyselyllä kerättyjä tietoja yhdessä aiempien sinusta kerättyjen tietojen kanssa. HP on sitoutunut kunnioittamaan tietosuojaasi HP:n tietosuojalausunnon mukaisesti.",
+          "feedbackThankYou": "Kiitos!",
+          "privacyLink": "HP:n tietosuojalausunto",
+          "privacyText": "Varmista tietosuojasi ja tietoturvasi äläkä kirjoita kommentteihin mitään henkilötietoja, kuten puhelinnumeroa tai sähköpostiosoitetta. ",
+          "ratingDisclaimer": "(1 tähti = erittäin tyytymätön, 5 tähteä = erittäin tyytyväinen)",
+          "ratingExperience": "Miten tyytyväinen olet yleisellä tasolla myHP-käyttökokemukseesi?",
+          "requiredFieldError": "Valitse tähtiarvosana ennen lähettämistä.",
+          "submitFeedback": "Lähetä palaute",
+          "thankYouDisclaimer": "Pystymme parantamaan käyttökokemustasi arvokkaan palautteesi avulla.",
+          "title": "Anna meille palautetta"
+        },
+        "navItem": "Asetukset",
+        "notifications": "Ilmoitukset",
+        "Notifications": {
+          "description": "Muokkaamalla ilmoitusmäärityksiäsi voit hallita, millaisia viestejä lähetämme sinulle ja miten vastaanotat ne.",
+          "desktop": "Työpöytäilmoitukset",
+          "device": {
+            "description": "Laitteeseesi ja tiliisi liittyvät päivitykset ja tuki-ilmoitukset",
+            "title": "Laite ja tili"
+          },
+          "doubleCheck": "Tarkasta Windows-ilmoitusasetukset toistamiseen, jotta pystyt varmasti vastaanottamaan HPX-ilmoituksia.",
+          "news": {
+            "description": "Tietoja uusista tuotteista, palveluista ja tarjouksista",
+            "title": "Uutiset ja tarjoukset"
+          },
+          "off": "Pois",
+          "on": "Päällä",
+          "openSettings": "Avaa Windows-asetukset",
+          "share": {
+            "description": "Auta meitä parantamaan käyttökokemusta antamalla meille palautetta tuotteista tai palveluista",
+            "title": "Kerro palautteesi"
+          },
+          "tips": {
+            "description": "Tutustu tapoihin saada paras käyttökokemus, kun käytät myHP-palvelua ja laitteitasi",
+            "title": "Vinkkejä ja opastuksia"
+          },
+          "title": "Hallitse ilmoituksia",
+          "turnOff": "Windows-ilmoitukset on kytketty pois",
+          "turnOn": "Kytke päälle, jotta saat myHP-ilmoituksia"
+        },
+        "privacy": "Tietosuoja",
+        "Privacy": {
+          "clickHere": "tästä napsauttamalla.",
+          "hpInformation": "HP:n järjestelmätietojen keräys ",
+          "infoUsed": "Lisätietoja tietojesi käyttötavoista saa täältä:",
+          "hpPrivacyStatement": "HP:n tietosuojalausunto",
+          "learnMore": "Saat lisätietoja täältä: ",
+          "privacyContent": "MyHP-palvelun ominaisuudet on suunniteltu nimenomaisesti parantamaan ja räätälöimään tietokoneen kokonaiskäyttökokemustasi. HP kerää luvallasi analyysitietoja järjestelmästäsi ja sen ominaisuuksista pystyäkseen parantamaan HP-tuotteita ja palveluja.",
+          "reviewPrivacy": "Tarkasta tietosuojavaihtoehdot",
+          "reviewPrivacySettings": "Voit tarkastaa tietosuoja-asetuksesi "
+        }
+      }
+    }
+  },
+  "fr-FR": {
+    "translation": {
+      "Settings": {
+        "about": "À propos",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Contrat de licence d'utilisateur final HP",
+          "myHP": "myHP",
+          "privacy": "Politique de confidentialité HP",
+          "version": "Version"
+        },
+        "feedback": "Commentaires",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Fournir des commentaires supplémentaires",
+          "characterLimitError": "Vous avez atteint la limite maximale de 2000 caractères.",
+          "description": "N'hésitez pas à nous faire part de vos commentaires pour que nous sachions où nous en sommes.",
+          "feedbackDisclaimer": "L'objectif de cette enquête est de recueillir les commentaires des clients sur les produits et services HP. HP peut utiliser les informations recueillies dans le cadre de cette enquête ainsi que les informations dont elle dispose déjà à votre sujet pour améliorer ses produits et services afin de répondre à vos besoins. HP s'engage à respecter votre vie privée conformément à la Déclaration de confidentialité HP.",
+          "feedbackThankYou": "Merci !",
+          "privacyLink": "Déclaration de confidentialité HP",
+          "privacyText": "Pour des raisons de confidentialité et de sécurité, veuillez ne pas inclure d'informations personnelles telles que votre numéro de téléphone ou votre adresse e-mail dans la section des commentaires. ",
+          "ratingDisclaimer": "(1 étoile = très insatisfait, 5 étoiles = très satisfait)",
+          "ratingExperience": "Dans l'ensemble, quel est votre degré de satisfaction par rapport à votre expérience myHP ?",
+          "requiredFieldError": "Sélectionnez une notation sous forme d'étoiles avant de sélectionner Soumettre.",
+          "submitFeedback": "Soumettre vos commentaires",
+          "thankYouDisclaimer": "Vos commentaires précieux nous aident à améliorer votre expérience.",
+          "title": "Nous faire part de vos commentaires"
+        },
+        "navItem": "Paramètres",
+        "notifications": "Notifications",
+        "Notifications": {
+          "description": "Modifiez vos préférences en matière de notification afin de contrôler le type de messages que nous vous envoyons et la manière dont vous les recevez.",
+          "desktop": "Notifications sur le bureau",
+          "device": {
+            "description": "Mises à jour et alertes d&apos;assistance sur votre appareil et votre compte",
+            "title": "Appareil et compte"
+          },
+          "doubleCheck": "Vérifiez les paramètres de notification de Windows pour vous assurer que vous pouvez recevoir les notifications de HPX.",
+          "news": {
+            "description": "Informations sur les nouveaux produits, services et offres",
+            "title": "Actualités et offres"
+          },
+          "off": "Désactiver",
+          "on": "Activer",
+          "openSettings": "Ouvrir les paramètres Windows",
+          "share": {
+            "description": "Aidez-nous à améliorer votre expérience en partageant vos avis sur les produits ou les services.",
+            "title": "Partager votre avis"
+          },
+          "tips": {
+            "description": "Apprenez à obtenir la meilleure expérience lors de l&apos;utilisation de myHP et de vos appareils.",
+            "title": "Conseils et didacticiels"
+          },
+          "title": "Gérer les notifications",
+          "turnOff": "Les notifications Windows sont désactivées",
+          "turnOn": "Activez cette option pour recevoir les notifications de myHP."
+        },
+        "privacy": "Confidentialité",
+        "Privacy": {
+          "clickHere": "cliquez ici.",
+          "hpInformation": "Collecte des données d&apos;information sur le système par HP ",
+          "infoUsed": "Pour en savoir plus sur la manière dont vos informations sont utilisées, rendez-vous sur",
+          "hpPrivacyStatement": "Déclaration de confidentialité HP",
+          "learnMore": "Pour en savoir plus, rendez-vous sur ",
+          "privacyContent": "Les fonctions de myHP sont spécifiquement conçues pour améliorer et personnaliser votre expérience globale avec votre PC. HP, avec votre permission, recueille des données analytiques sur votre système et vos fonctionnalités afin d&apos;améliorer les produits et les services HP.",
+          "reviewPrivacy": "Vérifier les options de confidentialité",
+          "reviewPrivacySettings": "Pour vérifier vos paramètres de confidentialité, "
+        }
+      }
+    }
+  },
+  "fr-CA": {
+    "translation": {
+      "Settings": {
+        "about": "À propos de",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Contrat de licence utilisateur final HP",
+          "myHP": "myHP",
+          "privacy": "Politique de confidentialité HP",
+          "version": "Version"
+        },
+        "feedback": "Rétroaction",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Tout commentaire supplémentaire est le bienvenu.",
+          "characterLimitError": "Vous avez atteint la limite maximale de 2000 caractères.",
+          "description": "N’hésitez pas à nous donner votre avis sur ce que nous faisons.",
+          "feedbackDisclaimer": "L’objectif de cette enquête est de recueillir les rétroactions des clients sur les produits et services HP. HP peut utiliser les informations recueillies dans le cadre de cette enquête ainsi que les informations existantes sur vous afin d’améliorer ses produits et services pour répondre à vos besoins. HP s’engage à respecter votre vie privée conformément à sa Déclaration de confidentialité.",
+          "feedbackThankYou": "Merci!",
+          "privacyLink": "Déclaration de confidentialité de HP",
+          "privacyText": "Pour votre confidentialité et votre sécurité, veuillez ne pas inclure de renseignements personnels comme votre numéro de téléphone ou votre adresse courriel dans la section des commentaires. ",
+          "ratingDisclaimer": "(1 étoile = très insatisfait, 5 étoiles = très satisfait)",
+          "ratingExperience": "Dans l’ensemble, dans quelle mesure êtes-vous satisfait de votre expérience myHP?",
+          "requiredFieldError": "Sélectionnez un score en étoiles avant d’envoyer votre commentaire.",
+          "submitFeedback": "Soumettre des rétroactions",
+          "thankYouDisclaimer": "Vos précieux commentaires nous aident à améliorer votre expérience.",
+          "title": "Faites-nous part de votre rétroaction"
+        },
+        "navItem": "Paramètres",
+        "notifications": "Notifications",
+        "Notifications": {
+          "description": "Modifiez vos préférences de notification pour contrôler le type de messages que nous vous envoyons et la manière dont vous les recevez.",
+          "desktop": "Notifications du bureau",
+          "device": {
+            "description": "Mises à jour et alertes d'assistance sur votre appareil et votre compte",
+            "title": "Appareil et compte"
+          },
+          "doubleCheck": "Vérifiez vos paramètres de notification Windows pour vous assurer que vous pouvez recevoir les notifications HPX.",
+          "news": {
+            "description": "Informations sur les nouveaux produits, services et offres",
+            "title": "Nouvelles et offres"
+          },
+          "off": "Arrêt",
+          "on": "Marche",
+          "openSettings": "Ouvrir les paramètres de Windows",
+          "share": {
+            "description": "Aidez-nous à améliorer votre expérience en nous faisant part de vos commentaires sur les produits ou services.",
+            "title": "Faites-nous part de vos commentaires"
+          },
+          "tips": {
+            "description": "Apprenez à tirer le meilleur parti de myHP et de vos appareils",
+            "title": "Conseils et tutoriels"
+          },
+          "title": "Gérer les notifications",
+          "turnOff": "Les notifications Windows sont désactivées",
+          "turnOn": "Veuillez les activer pour recevoir les notifications myHP"
+        },
+        "privacy": "Confidentialité",
+        "Privacy": {
+          "clickHere": "cliquez ici.",
+          "hpInformation": "Collecte de données sur le système HP ",
+          "infoUsed": "Pour en savoir plus sur l’utilisation de vos renseignements, consultez la",
+          "hpPrivacyStatement": "Déclaration des confidentialités HP",
+          "learnMore": "Pour en savoir plus, consultez ",
+          "privacyContent": "Les fonctions de myHP sont spécialement conçues pour améliorer et personnaliser votre expérience globale du PC. HP, avec votre permission, recueille des données analytiques sur votre système et vos fonctions afin d'améliorer les produits et services HP.",
+          "reviewPrivacy": "Examiner les options de confidentialité",
+          "reviewPrivacySettings": "Pour revoir vos paramètres de confidentialité, "
+        }
+      }
+    }
+  },
+  "gl-ES": {
+    "translation": {
+      "Settings": {
+        "about": "Acerca de",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Contrato de licenza de usuario final de HP",
+          "myHP": "myHP",
+          "privacy": "Política de privacidade de HP",
+          "version": "Versión"
+        },
+        "feedback": "Comentarios",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Faga calquera comentario adicional",
+          "characterLimitError": "Alcanzou o límite máximo de 2000 caracteres.",
+          "description": "Coméntenos para facernos saber como o estamos facendo.",
+          "feedbackDisclaimer": "O obxectivo desta enquisa é recoller as opinións dos clientes sobre os produtos e servizos de HP. HP pode utilizar a información recompilada nesta enquisa xunto coa información existente que ten sobre vostede para mellorar os seus produtos e servizos co fin de satisfacer as súas necesidades. HP comprométese a respectar a súa privacidade de acordo coa declaración de privacidade de HP.",
+          "feedbackThankYou": "Moitas grazas!",
+          "privacyLink": "Declaración de privacidade de HP",
+          "privacyText": "Pola súa privacidade e seguridade, rogámoslle que non inclúa datos persoais como o seu número de teléfono ou a súa dirección de correo electrónico na sección de comentarios. ",
+          "ratingDisclaimer": "(1 Estrela = Moi insatisfeito, 5 Estrelas = Moi satisfeito)",
+          "ratingExperience": "En xeral, cal é o seu grao de satisfacción coa súa experiencia con myHP?",
+          "requiredFieldError": "Seleccione unha clasificación por estrelas antes de enviar.",
+          "submitFeedback": "Envíe os seus comentarios",
+          "thankYouDisclaimer": "Os seus valiosos comentarios axúdannos a mellorar a súa experiencia.",
+          "title": "Comparta a súa experiencia"
+        },
+        "navItem": "Configuración",
+        "notifications": "Notificacións",
+        "Notifications": {
+          "description": "Modifica as túas preferencias de notificación para controlar o tipo de mensaxes que che enviamos e a forma en que os recibes.",
+          "desktop": "Notificacións de escritorio",
+          "device": {
+            "description": "Actualizacións e alteras de asistencia no teu dispositivo e conta",
+            "title": "Dispositivo e conta"
+          },
+          "doubleCheck": "Revisa outra vez a configuración de notificacións de Windows para garantir que podes recibir notificacións de HPX.",
+          "news": {
+            "description": "Información sobre novos produtos, servizos e ofertas",
+            "title": "Novas e ofertas"
+          },
+          "off": "Apagado",
+          "on": "Aceso",
+          "openSettings": "Abrir a configuración de Windows",
+          "share": {
+            "description": "Axúdanos a mellorar a túa experiencia compartindo os teus comentarios sobre os nosos produtos ou servizos",
+            "title": "Comprobar os teus comentarios"
+          },
+          "tips": {
+            "description": "Aprende como obter a mellor experiencia ao usares myHP e os teus dispositivos",
+            "title": "Trucos e titoriais"
+          },
+          "title": "Xestionar notificacións",
+          "turnOff": "As notificacións de Windows están desactivadas",
+          "turnOn": "Activar para recibir notificacións de myHP"
+        },
+        "privacy": "Privacidade",
+        "Privacy": {
+          "clickHere": "preme aquí.",
+          "hpInformation": "Recollida de datos de información do sistema de HP ",
+          "infoUsed": "Para saber máis sobre como se utiliza a súa información visite a páxina",
+          "hpPrivacyStatement": "Declaración de privacidade de HP",
+          "learnMore": "Para máis información, vai a ",
+          "privacyContent": "As funcións de myHP están pensadas especificamente para mellorar e personalizar a túa experiencia xeral no PC. HP, co teu permiso, recolle análises sobre o teu sistema e as súas características para mellorar os produtos e os servizos de HP.",
+          "reviewPrivacy": "Revisar opcións de privacidade",
+          "reviewPrivacySettings": "Para revisar a túa configuración de privacidade, "
+        }
+      }
+    }
+  },
+  "he-IL": {
+    "translation": {
+      "Settings": {
+        "about": "אודות",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "הסכם רישיון משתמש קצה של HP",
+          "myHP": "myHP",
+          "privacy": "מדיניות הפרטיות של HP",
+          "version": "גרסה"
+        },
+        "feedback": "משוב",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "ספק כל משוב נוסף",
+          "characterLimitError": "הגעת למגבלה המקסימלית של 2000 תווים",
+          "description": "אנא ספק משוב כדי ליידע אותנו מה שלומנו.",
+          "feedbackDisclaimer": "מטרת סקר זה היא לאסוף משוב מלקוחות על מוצרים ושירותים של HP. HP עשויה להשתמש במידע שנאסף בסקר זה יחד עם המידע הקיים שיש לה אודותיך כדי לשפר את מוצריה ושירותיה כדי לענות על הצרכים שלך. HP מחויבת לכבד את פרטיותך בהתאם להצהרת הפרטיות של HP.",
+          "feedbackThankYou": "תודה לך!",
+          "privacyLink": "הצהרת הפרטיות של HP",
+          "privacyText": "למען הפרטיות והאבטחה שלך, אין לכלול מידע אישי כגון מספר הטלפון או כתובת הדוא\"ל שלך בקטע ההערות. ",
+          "ratingDisclaimer": "(כוכב אחד = מאוד לא מרוצה, 5 כוכבים = מאוד מרוצה)",
+          "ratingExperience": "באופן כללי, עד כמה אתה מרוצה מחוויית ה-myHP שלך?",
+          "requiredFieldError": "בחר דירוג כוכבים לפני הגשה.",
+          "submitFeedback": "שלח משוב",
+          "thankYouDisclaimer": "המשוב החשוב שלך עוזר לנו לשפר את החוויה שלך.",
+          "title": "שתף את המשוב שלך איתנו"
+        },
+        "navItem": "הגדרות",
+        "notifications": "התראות",
+        "Notifications": {
+          "description": "שנה את העדפות ההתראות שלך כדי לבקר בסוג ההודעות שאנו שולחים לך וכיצד אתה מקבל אותן.",
+          "desktop": "התראות שולחן עבודה",
+          "device": {
+            "description": "עדכונים והתראות תמיכה במכשיר ובחשבון שלך",
+            "title": "התקן וחשבון"
+          },
+          "doubleCheck": "בדוק שוב את הגדרות ההתראות שלך ב-Windows כדי לוודא שאתה יכול לקבל התראות HPX.",
+          "news": {
+            "description": "מידע על מוצרים, שירותים ומבצעים חדשים",
+            "title": "חדשות ומבצעים"
+          },
+          "off": "כיבוי",
+          "on": "הפעלה",
+          "openSettings": "פתח הגדרות Windows",
+          "share": {
+            "description": "עזור לנו לשפר את החוויה שלך על ידי שיתוף המשוב שלך על מוצרים או שירותים",
+            "title": "שתף את המשוב שלך"
+          },
+          "tips": {
+            "description": "למד כיצד לקבל את החוויה הטובה ביותר בעת השימוש ב-myHP ובמכשירים שלך",
+            "title": "טיפים והדרכות"
+          },
+          "title": "ניהול התראות",
+          "turnOff": "התראות Windows מושבתות",
+          "turnOn": "הפעל כדי לקבל התראות myHP"
+        },
+        "privacy": "פרטיות",
+        "Privacy": {
+          "clickHere": "לחץ כאן.",
+          "hpInformation": "איסוף נתונים של מערכת ידע של HP ",
+          "infoUsed": "לקבלת מידע נוסף על כיצד נעשה שימוש במידע שלך בקר ב",
+          "hpPrivacyStatement": "הצהרת הפרטיות של HP",
+          "learnMore": "לקבלת מידע נוסף עבור אל ",
+          "privacyContent": "התכונות ב-myHP תוכננו במיוחד כדי לשפר ולהתאים אישית את חוויית המחשב הכוללת שלך. HP, ברשותך, אוספת ניתוחים לגבי המערכת והתכונות שלה כדי לשפר את המוצרים והשירותים של HP.",
+          "reviewPrivacy": "עיין אפשרויות פרטיות",
+          "reviewPrivacySettings": "כדי לעיין בהגדרות הפרטיות שלך, "
+        }
+      }
+    }
+  },
+  "hr-HR": {
+    "translation": {
+      "Settings": {
+        "about": "Informacije",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP-ov ugovor o licenci za krajnjeg korisnika",
+          "myHP": "myHP",
+          "privacy": "HP-ov pravilnik o zaštiti privatnosti",
+          "version": "Verzija"
+        },
+        "feedback": "Povratne informacije",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Navedite dodatne povratne informacije",
+          "characterLimitError": "Dostigli ste ograničenje od maksimalno 2000 znakova.",
+          "description": "Navedite povratne informacije da biste nam dali do znanja u kojoj ste mjeri zadovoljni našim radom.",
+          "feedbackDisclaimer": "Svrha je ove ankete prikupiti povratne informacije korisnika o HP-ovim proizvodima i uslugama. HP može koristiti prikupljene informacije iz ove ankete uz postojeće koje ima o vama radi poboljšavanja proizvoda za vaše potrebe. HP daje sve u pogledu zaštite privatnosti u skladu s HP-ovom izjavom o zaštiti privatnosti.",
+          "feedbackThankYou": "Hvala vam!",
+          "privacyLink": "HP-ova izjava o zaštiti privatnosti",
+          "privacyText": "Radi zaštite privatnosti i sigurnosti u odjeljku za komentar nemojte navesti osobne podatke kao što je broj telefona ili adresa e-pošta. ",
+          "ratingDisclaimer": "(1 zvjezdica = jako nezadovoljan, 5 zvjezdica = jako zadovoljan)",
+          "ratingExperience": "Koliko ste u cjelini zadovoljni okruženjem myHP?",
+          "requiredFieldError": "Prije slanja odaberite ocjenu izraženu zvjezdicama.",
+          "submitFeedback": "Pošalji komentar",
+          "thankYouDisclaimer": "Vaše će nam dragocjene povratne informacije pomoći da poboljšamo vaše iskustvo.",
+          "title": "Pošaljite nam povratne informacije"
+        },
+        "navItem": "Postavke",
+        "notifications": "Obavijesti",
+        "Notifications": {
+          "description": "Promijenite postavke obavijesti da biste kontrolirali vrste poruka koje vam šaljemo i način na koji ih primate.",
+          "desktop": "Obavijesti na radnoj površini",
+          "device": {
+            "description": "Ažuriranja i upozorenja radi podrške na uređaju i računu",
+            "title": "Uređaj i račun"
+          },
+          "doubleCheck": "Provjerite postavke obavijesti sustava Windows da biste bili sigurni da možete primati HPX obavijesti.",
+          "news": {
+            "description": "Informacije o novim proizvodima, uslugama i ponudama",
+            "title": "Novosti i ponude"
+          },
+          "off": "Isključeno",
+          "on": "Uključeno",
+          "openSettings": "Otvorite postavke sustava Windows",
+          "share": {
+            "description": "Pošaljite povratne informacije o proizvodima ili uslugama radi naprednijeg doživljaja",
+            "title": "Pošaljite povratne informacije"
+          },
+          "tips": {
+            "description": "Saznajte kako najbolje iskoristiti myHP sa svojim uređajima",
+            "title": "Savjeti i vodiči"
+          },
+          "title": "Upravljanje obavijestima",
+          "turnOff": "Isključene su obavijesti sustava Windows",
+          "turnOn": "Uključite da biste primali myHP obavijesti"
+        },
+        "privacy": "Zaštita privatnosti",
+        "Privacy": {
+          "clickHere": "kliknite ovdje.",
+          "hpInformation": "HP-ovo prikupljanje podataka o sustavu ",
+          "infoUsed": "Više o tome kako se koriste vaši podaci saznajte ovdje:",
+          "hpPrivacyStatement": "HP-ova izjava o zaštiti privatnosti",
+          "learnMore": "Da biste saznali više, idite na ",
+          "privacyContent": "Značajke na portalu myHP posebno su osmišljene za poboljšanje i personalizaciju cjelokupnog doživljaja korištenja PC-ja. HP uz vašu dozvolu prikuplja analitičke podatke o vašem sustavu i značajkama radi poboljšanja HP-ovih proizvoda i usluga.",
+          "reviewPrivacy": "Pregled mogućnosti zaštite privatnosti",
+          "reviewPrivacySettings": "Da biste pregledali postavke zaštite privatnosti, "
+        }
+      }
+    }
+  },
+  "hu-HU": {
+    "translation": {
+      "Settings": {
+        "about": "Névjegy",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP Végfelhasználói licencszerződés",
+          "myHP": "myHP",
+          "privacy": "HP adatvédelmi nyilatkozat",
+          "version": "Verzió"
+        },
+        "feedback": "Visszajelzés",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Írja le esetleges további visszajelzéseit",
+          "characterLimitError": "Elérte a 2000 karakteres maximális korlátot.",
+          "description": "Kérjük, adjon nekünk visszajelzést, és véleményezze a teljesítményünket.",
+          "feedbackDisclaimer": "A felmérés célja, hogy ügyfél-visszajelzéseket gyűjtsünk a HP termékeiről és szolgáltatásairól. A HP a jelen felmérésben gyűjtött információkat az Ön meglévő információival együtt felhasználhatja a termékei és szolgáltatásai továbbfejlesztéséhez, hogy azok jobban megfeleljenek az Ön igényeinek. A HP elkötelezett a személyes adatok védelme iránt a HP adatvédelmi nyilatkozatában leírtaknak megfelelően.",
+          "feedbackThankYou": "Köszönjük!",
+          "privacyLink": "HP adatvédelmi nyilatkozat",
+          "privacyText": "Személyes adatainak és biztonságának védelme érdekében ne adjon meg személyes adatokat (például a telefonszámát vagy e-mail-címét) a megjegyzések szakaszában. ",
+          "ratingDisclaimer": "(1 csillag = Nagyon elégedetlen, 5 csillag = Nagyon elégedett)",
+          "ratingExperience": "Összességében mennyire elégedett a myHP felhasználói élményével?",
+          "requiredFieldError": "Mielőtt elküldené, adja meg a csillagos értékelést.",
+          "submitFeedback": "Visszajelzés elküldése",
+          "thankYouDisclaimer": "Visszajelzése értékes számunkra és segíthet a felhasználói élmény javításában.",
+          "title": "Ossza meg velünk visszajelzését"
+        },
+        "navItem": "Beállítások",
+        "notifications": "Értesítések",
+        "Notifications": {
+          "description": "Módosítsa az értesítési beállításait, hogy meghatározza, milyen típusú üzeneteket küldünk Önnek, és hogyan kapja meg őket.",
+          "desktop": "Asztali értesítések",
+          "device": {
+            "description": "Frissítések és támogatási értesítések az eszközén és fiókján",
+            "title": "Eszköz és fiók"
+          },
+          "doubleCheck": "Ellenőrizze a Windows értesítési beállításait, hogy fogadni tudja a HPX-értesítéseket.",
+          "news": {
+            "description": "Információk új termékekről, szolgáltatásokról és ajánlatokról",
+            "title": "Hírek és ajánlatok"
+          },
+          "off": "Ki",
+          "on": "Be",
+          "openSettings": "A Windows beállításainak megnyitása",
+          "share": {
+            "description": "Segítsen nekünk javítani az élményét azáltal, hogy megosztja velünk a termékekkel vagy szolgáltatásokkal kapcsolatos visszajelzéseit",
+            "title": "Visszajelzés megosztása"
+          },
+          "tips": {
+            "description": "Tudja meg, hogyan érheti el a legjobb élményt a myHP és eszközei használata során",
+            "title": "Tippek és oktatóanyagok"
+          },
+          "title": "Értesítések kezelése",
+          "turnOff": "A Windows-értesítések ki vannak kapcsolva",
+          "turnOn": "Kapcsolja be a myHP-értesítések fogadásához"
+        },
+        "privacy": "Adatvédelem",
+        "Privacy": {
+          "clickHere": "kattintson ide.",
+          "hpInformation": "HP Rendszer-információ – Adatgyűjtés ",
+          "infoUsed": "Az adatai használatának módjával kapcsolatos további információért tekintse meg a következőt:",
+          "hpPrivacyStatement": "HP Adatvédelmi Nyilatkozat",
+          "learnMore": "További információ: ",
+          "privacyContent": "A myHP funkciói kifejezetten úgy lettek kialakítva, hogy javítsák és személyre szabják a számítógépes felhasználói élményt. Amennyiben Ön beleegyezik, a HP elemzési adatokat gyűjt az Ön által használt rendszerről és funkciókról a HP-termékek és -szolgáltatások továbbfejlesztése érdekében.",
+          "reviewPrivacy": "Adatvédelmi beállítások áttekintése",
+          "reviewPrivacySettings": "Az adatvédelmi beállítások áttekintéséhez "
+        }
+      }
+    }
+  },
+  "id-ID": {
+    "translation": {
+      "Settings": {
+        "about": "Tentang",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Perjanjian Lisensi Pengguna Akhir HP",
+          "myHP": "myHP",
+          "privacy": "Kebijakan Privasi HP",
+          "version": "Versi"
+        },
+        "feedback": "Umpan balik",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Berikan umpan balik tambahan",
+          "characterLimitError": "Anda telah mencapai batas maksimal 2000 karakter.",
+          "description": "Berikan umpan balik untuk menyampaikan pendapat Anda mengenai kinerja kami.",
+          "feedbackDisclaimer": "Tujuan survei ini adalah mengumpulkan umpan balik pelanggan tentang produk dan layanan HP. HP dapat menggunakan informasi yang dikumpulkan dalam survei ini beserta informasi yang ada tentang Anda untuk meningkatkan kualitas produk dan layanannya agar dapat memenuhi kebutuhan Anda. HP berkomitmen untuk menghargai privasi Anda sesuai dengan Pernyataan Privasi HP.",
+          "feedbackThankYou": "Terima kasih!",
+          "privacyLink": "Pernyataan Privasi HP",
+          "privacyText": "Untuk privasi dan keamanan Anda, harap jangan mencantumkan informasi pribadi seperti nomor telepon atau alamat email Anda di bagian komentar. ",
+          "ratingDisclaimer": "(Bintang 1 = Sangat tidak puas, Bintang 5 = Sangat puas)",
+          "ratingExperience": "Secara keseluruhan, seberapa puaskah Anda dengan pengalaman myHP Anda?",
+          "requiredFieldError": "Pilih penilaian bintang sebelum dikirim.",
+          "submitFeedback": "Kirim Umpan Balik",
+          "thankYouDisclaimer": "Umpan balik Anda yang berharga dapat membantu kami menyempurnakan pengalaman Anda.",
+          "title": "Bagikan umpan balik Anda kepada kami"
+        },
+        "navItem": "Pengaturan",
+        "notifications": "Pemberitahuan",
+        "Notifications": {
+          "description": "Ubah preferensi pemberitahuan Anda untuk mengontrol jenis pesan yang kami kirimkan kepada Anda dan bagaimana Anda menerimanya.",
+          "desktop": "Pemberitahuan Desktop",
+          "device": {
+            "description": "Pembaruan dan peringatan dukungan di perangkat dan akun Anda",
+            "title": "Perangkat dan akun"
+          },
+          "doubleCheck": "Periksa kembali pengaturan pemberitahuan Windows Anda untuk memastikan Anda dapat menerima pemberitahuan HPX.",
+          "news": {
+            "description": "Informasi tentang produk, layanan, dan penawaran baru",
+            "title": "Berita dan penawaran"
+          },
+          "off": "Nonaktif",
+          "on": "Aktif",
+          "openSettings": "Buka Pengaturan Windows",
+          "share": {
+            "description": "Bantu kami meningkatkan pengalaman Anda dengan membagikan umpan balik Anda tentang produk atau layanan",
+            "title": "Bagikan umpan balik Anda"
+          },
+          "tips": {
+            "description": "Pelajari cara mendapatkan pengalaman terbaik saat menggunakan myHP dan perangkat Anda",
+            "title": "Kiat dan tutorial"
+          },
+          "title": "Kelola pemberitahuan",
+          "turnOff": "Pemberitahuan Windows dimatikan",
+          "turnOn": "Nyalakan untuk menerima pemberitahuan myHP"
+        },
+        "privacy": "Privasi",
+        "Privacy": {
+          "clickHere": "klik di sini.",
+          "hpInformation": "Pengumpulan Data Informasi Sistem HP ",
+          "infoUsed": "Untuk mempelajari lebih lanjut bagaimana informasi Anda digunakan, kunjungi",
+          "hpPrivacyStatement": "Pernyataan Privasi HP",
+          "learnMore": "Untuk mempelajari lebih lanjut, buka ",
+          "privacyContent": "Fitur-fitur di myHP dirancang khusus untuk menyempurnakan dan mempersonalisasi pengalaman PC Anda secara keseluruhan. Dengan izin Anda, HP mengumpulkan analisis tentang sistem dan fitur Anda untuk menyempurnakan produk dan layanan HP.",
+          "reviewPrivacy": "Tinjau opsi privasi",
+          "reviewPrivacySettings": "Untuk meninjau pengaturan privasi Anda, "
+        }
+      }
+    }
+  },
+  "it-IT": {
+    "translation": {
+      "Settings": {
+        "about": "Informazioni",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Contratto di licenza con l'utente finale HP",
+          "myHP": "myHP",
+          "privacy": "Informativa sulla privacy HP",
+          "version": "Versione"
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Condividi ulteriori feedback",
+          "characterLimitError": "Hai raggiunto il limite massimo di 2000 caratteri.",
+          "description": "Condividi il tuo feedback per farci sapere come stiamo andando.",
+          "feedbackDisclaimer": "Lo scopo di questo sondaggio è raccogliere il feedback dei clienti sui prodotti e i servizi HP. HP può utilizzare le informazioni raccolte in questo sondaggio insieme a informazioni che già possiede su di te al fine di migliorare i suoi prodotti e servizi e soddisfare le tue esigenze. HP si impegna a rispettare la tua privacy secondo quanto definito nell'Informativa sulla privacy di HP.",
+          "feedbackThankYou": "Grazie!",
+          "privacyLink": "Informativa sulla privacy di HP",
+          "privacyText": "Per ragioni di privacy e sicurezza, non includere informazioni personali come il tuo numero di telefono o il tuo indirizzo e-mail nella sezione dei commenti. ",
+          "ratingDisclaimer": "(1 stella = Molto basso, 5 stelle = Molto alto)",
+          "ratingExperience": "In generale, qual è il tuo livello di soddisfazione in merito alla tua esperienza myHP?",
+          "requiredFieldError": "Seleziona una valutazione in stelle prima di inviare.",
+          "submitFeedback": "Invia feedback",
+          "thankYouDisclaimer": "Il tuo feedback è importante e ci aiuterà a migliorare la tua esperienza.",
+          "title": "Condividi con noi il tuo feedback"
+        },
+        "navItem": "Impostazioni",
+        "notifications": "Notifiche",
+        "Notifications": {
+          "description": "Modifica le preferenze relative alle notifiche per controllare il tipo di messaggi che ti inviamo e le modalità di ricezione.",
+          "desktop": "Notifiche desktop",
+          "device": {
+            "description": "Aggiornamenti e avvisi del supporto sul tuo dispositivo e sull'account",
+            "title": "Dispositivo e account"
+          },
+          "doubleCheck": "Ricontrolla le impostazioni delle notifiche Windows per accertarti di poter ricevere le notifiche HPX.",
+          "news": {
+            "description": "Informazioni su nuovi prodotti, servizi e offerte",
+            "title": "Novità e offerte"
+          },
+          "off": "Off",
+          "on": "On",
+          "openSettings": "Apri impostazioni Windows",
+          "share": {
+            "description": "Aiutaci a migliorare la tua esperienza condividendo il feedback su prodotti o servizi",
+            "title": "Condividi il feedback"
+          },
+          "tips": {
+            "description": "Istruzioni su come ottenere un'esperienza ottimale quando si utilizzano myHP e i dispositivi personali",
+            "title": "Suggerimenti e tutorial"
+          },
+          "title": "Gestisci notifiche",
+          "turnOff": "Le notifiche di Windows sono disattivate",
+          "turnOn": "Attivale per ricevere le notifiche myHP"
+        },
+        "privacy": "Privacy",
+        "Privacy": {
+          "clickHere": "fai clic qui.",
+          "hpInformation": "Raccolta dati sulle informazioni di sistema HP ",
+          "infoUsed": "Per sapere come vengono utilizzate le tue informazioni, consulta l'",
+          "hpPrivacyStatement": "Informativa sulla privacy di HP",
+          "learnMore": "Per saperne di più, visita ",
+          "privacyContent": "Le funzioni in myHP sono studiate appositamente per ottimizzare e migliorare la tua esperienza complessiva con il PC. HP, con la tua autorizzazione, raccoglie dati analitici sul tuo sistema e sulle funzioni per migliorare i prodotti e i servizi di HP.",
+          "reviewPrivacy": "Rivedi opzioni privacy",
+          "reviewPrivacySettings": "Per rivedere le tue impostazioni di privacy, "
+        }
+      }
+    }
+  },
+  "ja-JP": {
+    "translation": {
+      "Settings": {
+        "about": "詳細情報",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP 使用許諾契約書",
+          "myHP": "myHP",
+          "privacy": "HP プライバシー ポリシー",
+          "version": "バージョン"
+        },
+        "feedback": "ご意見",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "ほかにご意見があれば聞かせてください",
+          "characterLimitError": "最大文字数の2000文字に達しました。",
+          "description": "HPの取り組みに関するご意見を聞かせてください",
+          "feedbackDisclaimer": "このアンケートの目的は、HP製品やサービスに関するお客様のご意見を収集することです。HPは、お客様のニーズに合わせて製品やサービスを改善するために、このアンケートで収集した情報と既存のお客様情報を併用することができます。HPは、HPのプライバシーに関する声明に従って、お客様のプライバシーを尊重することをお約束します。",
+          "feedbackThankYou": "ありがとうございます！",
+          "privacyLink": "HP のプライバシーに関する声明",
+          "privacyText": "プライバシーとセキュリティのため、コメント欄には電話番号やメールアドレスなどの個人情報は入力しないでください。 ",
+          "ratingDisclaimer": "（星1つ = 非常に不満、星5つ = 非常に満足）",
+          "ratingExperience": "全体として、myHPのエクスペリエンスにどの程度満足していますか？",
+          "requiredFieldError": "提出前に星の数で評価してください。",
+          "submitFeedback": "ご意見を送信",
+          "thankYouDisclaimer": "お客様の貴重なフィードバックは、製品経験を改善するのに役立ちます。",
+          "title": "ご意見を聞かせてください"
+        },
+        "navItem": "設定",
+        "notifications": "通知",
+        "Notifications": {
+          "description": "通知の設定を修正して、弊社からお客様に送付するメッセージのタイプと受信方法を管理します。",
+          "desktop": "デスクトップ通知",
+          "device": {
+            "description": "お使いのデバイスとアカウントの更新とサポート アラート",
+            "title": "デバイスとアカウント"
+          },
+          "doubleCheck": "Windows 通知の設定をダブルクリックして、HPX 通知を受け取れることを確認します。",
+          "news": {
+            "description": "新製品、サービス、オファーに関する情報",
+            "title": "ニュースとオファー"
+          },
+          "off": "オフ",
+          "on": "オン",
+          "openSettings": "Windows 設定を開く",
+          "share": {
+            "description": "製品やサービスに関するフィードバックを共有して、エクスペリエンスの改善にご協力ください。",
+            "title": "フィードバックを共有"
+          },
+          "tips": {
+            "description": "myHP とお使いのデバイスの使用時に最高のエクスペリエンスを得る方法について知る",
+            "title": "ヒントとチュートリアル"
+          },
+          "title": "通知を管理",
+          "turnOff": "Windows 通知はオフにされています",
+          "turnOn": "オンにして myHP 通知を受け取る"
+        },
+        "privacy": "プライバシー",
+        "Privacy": {
+          "clickHere": "ここをクリックしてください。",
+          "hpInformation": "HPシステム情報データの収集 ",
+          "infoUsed": "お客様の情報がどのように使用されるかについてはHPのプライバシーに関する声明を",
+          "hpPrivacyStatement": "ご覧ください",
+          "learnMore": "詳細については、次にアクセスしてください ",
+          "privacyContent": "myHPの機能は、PCエクスペリエンス全体を向上させ、カスタマイズするように特別に設計されています。HPは、お客様の許可を得て、お客様のシステムと機能に関する分析データを収集し、HPの製品とサービスを改善します。",
+          "reviewPrivacy": "プライバシーオプションを確認",
+          "reviewPrivacySettings": "プライバシー設定を確認するには、 "
+        }
+      }
+    }
+  },
+  "ko-KR": {
+    "translation": {
+      "Settings": {
+        "about": "소개",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP 최종 사용자 라이선스 계약",
+          "myHP": "myHP",
+          "privacy": "HP 개인정보 보호정책",
+          "version": "버전"
+        },
+        "feedback": "피드백",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "추가 피드백을 제공하십시오",
+          "characterLimitError": "최대 2000자 제한에 도달했습니다.",
+          "description": "HP의 서비스에 대해 피드백을 제공해 주세요.",
+          "feedbackDisclaimer": "본 설문조사의 목적은 HP 제품 및 서비스에 대한 고객 피드백을 수집하는 것입니다. HP에서는 본 설문조사에서 수집한 정보와 기존 고객 정보를 사용해 고객 만족을 위한 제품 및 서비스 개선에 사용할 수 있습니다. HP는 HP 개인정보 사용정책에 따라 고객의 개인정보를 존중하기 위해 노력합니다.",
+          "feedbackThankYou": "감사합니다!",
+          "privacyLink": "HP 개인정보 사용정책",
+          "privacyText": "개인정보 및 보안을 위해 의견란에는 전화번호나 이메일 주소 같은 개인 정보를 포함하지 마십시오. ",
+          "ratingDisclaimer": "(별 1개 = 매우 만족하지 않음, 별 5개 = 매우 만족)",
+          "ratingExperience": "전반적으로 myHP 사용 경험에 얼마나 만족하십니까?",
+          "requiredFieldError": "제출 전 별점을 선택하십시오.",
+          "submitFeedback": "피드백 제출",
+          "thankYouDisclaimer": "소중한 피드백은 고객 경험 개선에 도움이 됩니다.",
+          "title": "피드백을 공유해 주십시오"
+        },
+        "navItem": "설정",
+        "notifications": "알림",
+        "Notifications": {
+          "description": "알림 설정을 수정하여 전송되는 메시지 유형 및 수신 방식을 제어합니다.",
+          "desktop": "데스크탑 알림",
+          "device": {
+            "description": "기기 및 계정 업데이트 및 지원 알림",
+            "title": "기기 및 계정"
+          },
+          "doubleCheck": "Windows 알림 설정을 다시 확인하여 HPX 알림 수신이 가능한지 확인하십시오.",
+          "news": {
+            "description": "새로운 제품, 서비스, 할인 정보",
+            "title": "새로운 소식 및 할인"
+          },
+          "off": "꺼짐",
+          "on": "켜짐",
+          "openSettings": "Windows 설정 열기",
+          "share": {
+            "description": "제품 또는 서비스 관련 피드백을 공유하여 경험을 개선하는 데 도움을 주십시오",
+            "title": "피드백 공유"
+          },
+          "tips": {
+            "description": "myHP 및 기기 사용 시 최고의 경험 방법 배우기",
+            "title": "팁 및 튜토리얼"
+          },
+          "title": "알림 관리",
+          "turnOff": "Windows 알림 끔",
+          "turnOn": "myHP 알림 수신 켬"
+        },
+        "privacy": "프라이버시",
+        "Privacy": {
+          "clickHere": "여기를 클릭하십시오.",
+          "hpInformation": "HP 시스템 정보 데이터 수집 ",
+          "infoUsed": "사용자의 정보가 어떻게 사용되는지 자세히 알아보려면",
+          "hpPrivacyStatement": "HP 개인정보 사용정책을 방문하십시오.",
+          "learnMore": "자세히 알려면 이동하기 ",
+          "privacyContent": "myHP의 기능은 전반적인 PC 환경을 개선하고 개인화하도록 특별히 설계되었습니다. HP는 사용자의 동의를 받아 시스템 및 기능에 대한 분석을 수집하여 HP 제품 및 서비스를 개선합니다.",
+          "reviewPrivacy": "개인 정보 옵션 검토",
+          "reviewPrivacySettings": "사용자의 개인 정보 설정을 검토하려면, "
+        }
+      }
+    }
+  },
+  "lt-LT": {
+    "translation": {
+      "Settings": {
+        "about": "Apie",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP galutinio naudotojo licencijos sutartis",
+          "myHP": "„myHP“",
+          "privacy": "HP privatumo politika",
+          "version": "Versija"
+        },
+        "feedback": "Atsiliepimai",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Pateikti papildomų atsiliepimų",
+          "characterLimitError": "Pasiekite maksimalų 2 000 simbolių apribojimą.",
+          "description": "Pateikite atsiliepimą, kad sužinotume, kaip mums sekasi.",
+          "feedbackDisclaimer": "Šios apklausos tikslas – surinkti klientų atsiliepimus apie HP produktus ir paslaugas. HP gali naudoti šioje apklausoje surinktą informaciją kartu su turima informacija apie jus, kad patobulintų savo produktus ir paslaugas ir patenkintų jūsų poreikius. HP įsipareigoja gerbti jūsų privatumą pagal HP privatumo pareiškimą.",
+          "feedbackThankYou": "Dėkojame!",
+          "privacyLink": "HP privatumo pareiškimas",
+          "privacyText": "Kad užtikrintumėte savo privatumą ir saugumą, komentarų skiltyje nepateikite asmeninės informacijos, pvz., telefono numerio ar el. pašto adreso. ",
+          "ratingDisclaimer": "(1 žvaigždutė = labai nepatenkinti, 5 žvaigždutės = labai patenkinti)",
+          "ratingExperience": "Ar apskritai esate patenkinti savo patirtimi naudojantis „myHP“?",
+          "requiredFieldError": "Prieš pateikdami pasirinkite žvaigždutės vertinimą.",
+          "submitFeedback": "Pateikti atsiliepimus",
+          "thankYouDisclaimer": "Jūsų vertingas atsiliepimas padeda tobulinti jūsų patirtį.",
+          "title": "Pasidalykite su mumis savo atsiliepimais"
+        },
+        "navItem": "Nustatymai",
+        "notifications": "Pranešimai",
+        "Notifications": {
+          "description": "Pakeiskite pranešimų nuostatas, kad galėtumėte valdyti, kokius pranešimus jums siunčiame ir kaip juos gaunate.",
+          "desktop": "Darbalaukio pranešimai",
+          "device": {
+            "description": "Atnaujinimai ir palaikymo įspėjimai jūsų įrenginyje ir paskyroje",
+            "title": "Įrenginys ir paskyra"
+          },
+          "doubleCheck": "Dar kartą patikrinkite „Windows“ pranešimų nuostatas, kad įsitikintumėte, jog galite gauti HPX pranešimus.",
+          "news": {
+            "description": "Informacija apie naujas prekes, paslaugas ir pasiūlymus",
+            "title": "Naujienos ir pasiūlymai"
+          },
+          "off": "Išjungti",
+          "on": "Įjungti",
+          "openSettings": "Atidaryti „Windows“ nuostatas",
+          "share": {
+            "description": "Padėkite mums pagerinti jūsų patirtį, pasidalydami atsiliepimais apie prekes ar paslaugas",
+            "title": "Pasidalykite savo atsiliepimais"
+          },
+          "tips": {
+            "description": "Sužinokite, kaip gauti geriausią patirtį naudojant „myHP“ ir savo įrenginius",
+            "title": "Patarimai ir pamokos"
+          },
+          "title": "Tvarkyti pranešimus",
+          "turnOff": "„Windows“ pranešimai išjungti",
+          "turnOn": "Įjunkite, kad gautumėte myHP pranešimus"
+        },
+        "privacy": "Privatumas",
+        "Privacy": {
+          "clickHere": "paspauskite čia.",
+          "hpInformation": "HP sistemos informacijos duomenų rinkimas ",
+          "infoUsed": "Norėdami sužinoti daugiau apie tai, kaip naudojama jūsų informacija, peržiūrėkite",
+          "hpPrivacyStatement": "HP privatumo pareiškimą",
+          "learnMore": "Norėdami sužinoti daugiau, eikite į ",
+          "privacyContent": "„myHP“ funkcijos yra specialiai sukurtos pagerinti ir suasmeninti jūsų bendrą kompiuterio patirtį. HP, gavusi jūsų leidimą, renka jūsų sistemos ir funkcijų analizę, kad pagerintų HP produktus ir paslaugas.",
+          "reviewPrivacy": "Peržiūrėkite privatumo parinktis",
+          "reviewPrivacySettings": "Norėdami peržiūrėti privatumo nustatymus, "
+        }
+      }
+    }
+  },
+  "lv-LV": {
+    "translation": {
+      "Settings": {
+        "about": "Par",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP gala lietotāja licences līgums",
+          "myHP": "myHP",
+          "privacy": "HP privātuma politika",
+          "version": "Versija"
+        },
+        "feedback": "Atsauksme",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Sniedziet papildu atsauksmes",
+          "characterLimitError": "Ir sasniegts maksimālais rakstzīmju ierobežojums 2000.",
+          "description": "Lūdzu, sniedziet atsauksmes, lai mēs varētu uzzināt, kā jums veicas.",
+          "feedbackDisclaimer": "Šīs aptaujas mērķis ir apkopot klientu atsauksmes par HP produktiem un pakalpojumiem. Šajā aptaujā apkopoto informāciju HP var izmantot kopā ar tā rīcībā esošo informāciju par jums, lai uzlabotu savus produktus un pakalpojumus atbilstoši savām vajadzībām. HP ir apņēmies cienīt jūsu privātumu saskaņā ar HP Privātuma paziņojumu.",
+          "feedbackThankYou": "Paldies!",
+          "privacyLink": "HP privātuma paziņojums",
+          "privacyText": "Sava privātuma un drošības nolūkos, lūdzu, neiekļaujiet komentāru sadaļā personisku informāciju, piemēram, savu tālruņa numuru vai e-pasta adresi. ",
+          "ratingDisclaimer": "(1 zvaigznīte = ļoti neapmierināts, 5 zvaigznītes = ļoti apmierināts)",
+          "ratingExperience": "Kāda ir jūsu vispārējā apmierinātība ar myHP pieredzi?",
+          "requiredFieldError": "Pirms iesniegšanas atlasiet vērtējumu ar zvaigznēm.",
+          "submitFeedback": "Iesniegt atsauksmi",
+          "thankYouDisclaimer": "Jūsu noderīgās atsauksmes palīdz mums uzlabot jums piedāvātās iespējas.",
+          "title": "Kopīgojiet savu atsauksmi ar mums"
+        },
+        "navItem": "Iestatījumi",
+        "notifications": "Paziņojumi",
+        "Notifications": {
+          "description": "Pārveidojiet paziņojumu preferences, lai pārvaldītu to veidu ziņojumus, kurus mēs jums nosūtām, un to saņemšanas veidu.",
+          "desktop": "Darbvirsmas paziņojumi",
+          "device": {
+            "description": "Atjauninājumi un atbalsta brīdinājumi par ierīci un kontu",
+            "title": "Ierīce un konts"
+          },
+          "doubleCheck": "Divreiz pārbaudiet Windows paziņojumu iestatījumus, lai nodrošinātu, ka jūs varat saņemt HPX paziņojumus.",
+          "news": {
+            "description": "Informācija par jauniem produktiem, pakalpojumiem un piedāvājumiem",
+            "title": "Jaunumi un piedāvājumi"
+          },
+          "off": "Izslēgt",
+          "on": "Ieslēgt",
+          "openSettings": "Atvērt Windows iestatījumus",
+          "share": {
+            "description": "Palīdziet mums uzlabot jūsu pieredzi, kopīgojot savu atsauksmi par produktiem vai pakalpojumiem",
+            "title": "Kopīgojiet savu atsauksmi"
+          },
+          "tips": {
+            "description": "Uzziniet, kā iegūt labāko pieredzi, izmantojot myHP un savas ierīces",
+            "title": "Ieteikumi un pamācības"
+          },
+          "title": "Pārvaldīt paziņojumus",
+          "turnOff": "Windows paziņojumi ir izslēgti",
+          "turnOn": "Ieslēdziet, lai saņemtu myHP paziņojumus"
+        },
+        "privacy": "Privātums",
+        "Privacy": {
+          "clickHere": "noklikšķiniet šeit.",
+          "hpInformation": "HP sistēmas informācijas datu ievākšana ",
+          "infoUsed": "Lai iegūtu papildinformāciju par jūsu informācijas izmantošanu, apmeklējiet",
+          "hpPrivacyStatement": "HP privātuma paziņojums",
+          "learnMore": "Lai uzzinātu vairāk, dodieties uz ",
+          "privacyContent": "myHP funkcijas ir īpaši izstrādātas, lai uzlabotu un personalizētu jūsu vispārējo pieredzi darbā ar datoru. HP ar jūsu atļauju ievāc analītikas datus par jūsu sistēmu un funkcijām, lai uzlabotu HP produktus un pakalpojumus.",
+          "reviewPrivacy": "Pārskatīt privātuma opcijas",
+          "reviewPrivacySettings": "Lai pārskatītu savus privātuma iestatījumus, "
+        }
+      }
+    }
+  },
+  "nb-NO": {
+    "translation": {
+      "Settings": {
+        "about": "Om",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HPs lisensavtale for sluttbruker",
+          "myHP": "myHP",
+          "privacy": "HPs personvernerklæring",
+          "version": "Versjon"
+        },
+        "feedback": "Tilbakemelding",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Gi oss eventuelle ytterligere tilbakemeldinger",
+          "characterLimitError": "Du har nådd maksgrensen på 2000 tegn.",
+          "description": "Gi oss tilbakemelding om hvor fornøyd du er med oss.",
+          "feedbackDisclaimer": "Formålet med denne undersøkelsen er å samle inn tilbakemeldinger fra kunder om HPs produkter og tjenester. HP kan bruke informasjonen som samles inn i denne undersøkelsen sammen med eksisterende informasjon vi har om deg, for å forbedre produktene og tjenestene våre slik at vi bedre kan møte behovene dine. HP har forpliktet seg til å respektere personvernet ditt i henhold til HPs personvernerklæring.",
+          "feedbackThankYou": "Tusen takk!",
+          "privacyLink": "HPs personvernerklæring",
+          "privacyText": "Av hensyn til personvernet og sikkerheten, ber vi deg om å ikke inkluder personlig informasjon som telefonnummer eller e-postadresse i kommentarfeltet. ",
+          "ratingDisclaimer": "(1 stjerne = Svært misfornøyd, 5 stjerner = Svært fornøyd)",
+          "ratingExperience": "Hvor fornøyd er du totalt sett med myHP-opplevelsen?",
+          "requiredFieldError": "Velg antall stjerner før du sender inn.",
+          "submitFeedback": "Send inn tilbakemelding",
+          "thankYouDisclaimer": "Dine verdifulle tilbakemeldinger hjelper oss med å forbedre opplevelsen din.",
+          "title": "Del tilbakemeldingen din med oss"
+        },
+        "navItem": "Innstillinger",
+        "notifications": "Varsler",
+        "Notifications": {
+          "description": "Endre innstillinger for varsler for å kontrollere typen meldinger vi sender deg og hvordan du mottar dem.",
+          "desktop": "Skrivebordsvarsler",
+          "device": {
+            "description": "Oppdateringer og støttevarsler på enheten og kontoen din",
+            "title": "Enhet og konto"
+          },
+          "doubleCheck": "Dobbeltsjekk innstillingene for Windows-varslinger for å kontrollere at du kan motta varsler fra HPX.",
+          "news": {
+            "description": "Informasjon om nye produkter, tjenester og tilbud",
+            "title": "Nyheter og tilbud"
+          },
+          "off": "Av",
+          "on": "På",
+          "openSettings": "Åpne Windows-innstillinger",
+          "share": {
+            "description": "Hjelp oss å forbedre opplevelsen din ved å dele tilbakemeldinger om produkter eller tjenester",
+            "title": "Del tilbakemeldingen din"
+          },
+          "tips": {
+            "description": "Få mer informasjon om hvordan du får den beste opplevelsen når du bruker myHP og enhetene dine",
+            "title": "Tips og veiledninger"
+          },
+          "title": "Administrere varsler",
+          "turnOff": "Windows-varsler er slått av",
+          "turnOn": "Aktiver for å motta myHP-varsler"
+        },
+        "privacy": "Personvern",
+        "Privacy": {
+          "clickHere": "klikk her.",
+          "hpInformation": "Datainnsamling for HP-systeminformasjon ",
+          "infoUsed": "Hvis du vil vite mer om hvordan informasjonen din brukes, gå til",
+          "hpPrivacyStatement": "HPs personvernerklæring",
+          "learnMore": "Hvis du vil vite mer, kan du gå til ",
+          "privacyContent": "Funksjonene i myHP er spesielt utviklet for å forbedre og tilpasse PC-opplevelsen din. HP, vil med din tillatelse, samle inn analyser om systemet og funksjonene for å forbedre HPs produkter og tjenester.",
+          "reviewPrivacy": "Se gjennom personvernalternativer",
+          "reviewPrivacySettings": "Hvis du vil se igjennom personverninnstillingene dine, "
+        }
+      }
+    }
+  },
+  "nl-NL": {
+    "translation": {
+      "Settings": {
+        "about": "Info",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP licentieovereenkomst voor de eindgebruiker",
+          "myHP": "myHP",
+          "privacy": "HP privacybeleid",
+          "version": "Versie"
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Geef aanvullende feedback",
+          "characterLimitError": "U hebt de maximale limiet van 2000 tekens bereikt.",
+          "description": "Geef uw feedback en laat ons weten hoe wij het doen.",
+          "feedbackDisclaimer": "Het doel van deze enquête is om feedback van klanten te verzamelen over producten en diensten va HP. HP gebruikt de informatie die in deze enquête wordt verzameld mogelijk in combinatie met bestaande informatie die HP over jou heeft om producten en diensten te verbeteren zodat die voldoen aan jouw wensen. HP vindt het belangrijk om je privacy te respecteren in overeenstemming met de privacyverklaring van HP.",
+          "feedbackThankYou": "Bedankt!",
+          "privacyLink": "Privacyverklaring van HP",
+          "privacyText": "Vermeld voor uw privacy en veiligheid in het commentaargedeelte geen persoonlijke informatie zoals uw telefoonnummer of e-mailadres. ",
+          "ratingDisclaimer": "(1 ster = zeer ontevreden, 5 sterren = zeer tevreden)",
+          "ratingExperience": "Hoe tevreden bent u over het algemeen met uw myHP-ervaring?",
+          "requiredFieldError": "Kies een sterbeoordeling voordat u uw feedback verzendt.",
+          "submitFeedback": "Feedback geven",
+          "thankYouDisclaimer": "Met uw waardevolle feedback kunnen wij uw ervaring verbeteren.",
+          "title": "Deel uw feedback met ons"
+        },
+        "navItem": "Instellingen",
+        "notifications": "Meldingen",
+        "Notifications": {
+          "description": "Wijzig uw meldingsvoorkeuren om het type berichten dat wij u sturen en hoe u deze ontvangt te bepalen.",
+          "desktop": "Bureaubladmeldingen",
+          "device": {
+            "description": "Updates en ondersteuningsmeldingen op uw apparaat en account",
+            "title": "Apparaat en account"
+          },
+          "doubleCheck": "Controleer de instellingen voor uw Windows-meldingen goed om ervoor te zorgen dat u HPX-meldingen kunt ontvangen.",
+          "news": {
+            "description": "Informatie over nieuwe producten, diensten en aanbiedingen",
+            "title": "Nieuws en aanbiedingen"
+          },
+          "off": "Uit",
+          "on": "Aan",
+          "openSettings": "Windows-instellingen openen",
+          "share": {
+            "description": "Deel uw feedback over producten en diensten zodat wij uw ervaring kunnen verbeteren.",
+            "title": "Deel uw feedback"
+          },
+          "tips": {
+            "description": "Ontdek hoe u de beste ervaring krijgt wanneer u myHP en uw apparaten gebruikt.",
+            "title": "Tips en zelfstudies"
+          },
+          "title": "Meldingen beheren",
+          "turnOff": "Windows-meldingen zijn uitgeschakeld",
+          "turnOn": "Inschakelen om myHP-meldingen te ontvangen"
+        },
+        "privacy": "Privacy",
+        "Privacy": {
+          "clickHere": "klik hier.",
+          "hpInformation": "HP systeeminformatie gegevens verzamelen ",
+          "infoUsed": "Ga voor meer informatie over hoe uw informatie wordt gebruikt naar de",
+          "hpPrivacyStatement": "HP Privacyverklaring",
+          "learnMore": "Ga voor meer informatie naar ",
+          "privacyContent": "De functies in myHP zijn specifiek ontworpen om je algehele pc-ervaring uit te breiden en te personaliseren. Met jouw toestemming verzamelt HP analyses over je systeem en functies om HP producten en services te verbeteren.",
+          "reviewPrivacy": "Privacyopties bekijken",
+          "reviewPrivacySettings": "Om je privacyinstellingen te bekijken, "
+        }
+      }
+    }
+  },
+  "pl-PL": {
+    "translation": {
+      "Settings": {
+        "about": "O",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Umowa licencyjna użytkownika końcowego HP",
+          "myHP": "myHP",
+          "privacy": "Polityka ochrony prywatności HP",
+          "version": "Wersja"
+        },
+        "feedback": "Informacje zwrotne",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Podaj dodatkowe informacje zwrotne",
+          "characterLimitError": "Osiągnięto maksymalny limit 2000 znaków.",
+          "description": "Prześlij opinię, aby poinformować nas, jak sobie radzimy.",
+          "feedbackDisclaimer": "Celem tej ankiety jest zebranie opinii klientów na temat produktów i usług HP. HP może wykorzystać informacje zebrane w tej ankiecie wraz z istniejącymi informacjami o użytkowniku w celu ulepszenia swoich produktów i usług zgodnie z potrzebami użytkownika. HP zobowiązuje się do poszanowania prywatności użytkowników zgodnie z Oświadczeniem HP o ochronie prywatności.",
+          "feedbackThankYou": "Dziękujemy!",
+          "privacyLink": "Oświadczenie HP o ochronie prywatności",
+          "privacyText": "W trosce o prywatność i bezpieczeństwo użytkowników prosimy o niepodawanie w sekcji komentarzy danych osobowych, takich jak numer telefonu czy adres e-mail. ",
+          "ratingDisclaimer": "(1 gwiazdka = bardzo niezadowolony, 5 gwiazdek = bardzo zadowolony)",
+          "ratingExperience": "Jak bardzo jesteś zadowolony ze swojego doświadczenia z myHP?",
+          "requiredFieldError": "Wybierz liczbę gwiazdek przed przesłaniem.",
+          "submitFeedback": "Prześlij opinię",
+          "thankYouDisclaimer": "Twoja cenna opinia pomoże nam poprawić Twoje wrażenia.",
+          "title": "Podziel się z nami swoją opinią"
+        },
+        "navItem": "Ustawienia",
+        "notifications": "Powiadomienia",
+        "Notifications": {
+          "description": "Zmodyfikuj preferencje dotyczące powiadomień, aby sterować rodzajem wiadomości, które będziemy Ci wysyłać, i określić sposób ich odbierania.",
+          "desktop": "Powiadomienia na pulpicie",
+          "device": {
+            "description": "Aktualizuje i obsługuje alerty dla urządzenia i konta",
+            "title": "Urządzenie i konto"
+          },
+          "doubleCheck": "Sprawdź dokładnie ustawienia powiadomień Windows, aby upewnić się, że włączono powiadomienia HPX.",
+          "news": {
+            "description": "Informacje o nowych produktach, usługach i ofertach",
+            "title": "Nowości i oferty"
+          },
+          "off": "Wył.",
+          "on": "Wł.",
+          "openSettings": "Otwórz ustawienia systemu Windows",
+          "share": {
+            "description": "Pomóż nam poprawić Twoje doświadczenia i podziel się z nami swoją opinią o produktach lub usługach.",
+            "title": "Podziel się swoją opinią"
+          },
+          "tips": {
+            "description": "Dowiedz się, jak optymalnie wykorzystać wszystkie możliwości myHP i urządzeń",
+            "title": "Wskazówki i samouczki"
+          },
+          "title": "Zarządzaj powiadomieniami",
+          "turnOff": "Powiadomienia Windows są wyłączone",
+          "turnOn": "Włącz, aby odbierać powiadomienia myHP"
+        },
+        "privacy": "Prywatność",
+        "Privacy": {
+          "clickHere": "kliknij tutaj.",
+          "hpInformation": "przejdź do strony Zbieranie danych z informacjami o systemie HP ",
+          "infoUsed": "Aby dowiedzieć się więcej o sposobie wykorzystywania informacji o użytkowniku, odwiedź",
+          "hpPrivacyStatement": "Oświadczenie HP o ochronie prywatności",
+          "learnMore": "Aby dowiedzieć się więcej, ",
+          "privacyContent": "Funkcje w myHP zostały specjalnie zaprojektowane, aby ulepszyć i spersonalizować ogólne wrażenia z korzystania z komputera. Firma HP, za Twoją zgodą, gromadzi dane analityczne dotyczące Twojego systemu i funkcji w celu ulepszania produktów i usług HP.",
+          "reviewPrivacy": "Przejrzyj opcje prywatności",
+          "reviewPrivacySettings": "Aby przejrzeć ustawienia prywatności, "
+        }
+      }
+    }
+  },
+  "pt-BR": {
+    "translation": {
+      "Settings": {
+        "about": "Sobre",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Contrato de licença do usuário final HP",
+          "myHP": "myHP",
+          "privacy": "Política de privacidade HP",
+          "version": "Versão"
+        },
+        "feedback": "Comentários",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Forneça comentários adicionais",
+          "characterLimitError": "Você atingiu o limite máximo de 2.000 caracteres.",
+          "description": "Por favor, compartilhe seus comentários para sabermos como estamos indo.",
+          "feedbackDisclaimer": "O propósito desta pesquisa é reunir comentários dos clientes sobre os produtos e serviços HP. A HP pode usar as informações coletadas nesta pesquisa em conjunto com informações que já tenha sobre você para melhorar seus produtos e serviços de modo a atender suas necessidades. A HP está comprometida a respeitar a sua privacidade de acordo com a Declaração de Privacidade da HP.",
+          "feedbackThankYou": "Obrigado!",
+          "privacyLink": "Declaração de Privacidade da HP",
+          "privacyText": "Para garantir sua privacidade e segurança, por favor, não inclua informações pessoais, como seu número de telefone ou endereço de e-mail, na seção de comentários. ",
+          "ratingDisclaimer": "(1 estrela = muito insatisfeito, 5 estrelas = muito satisfeito)",
+          "ratingExperience": "No geral, o quão satisfeito você está com sua experiência no myHP?",
+          "requiredFieldError": "Selecione uma classificação por estrelas antes de enviar.",
+          "submitFeedback": "Enviar comentários",
+          "thankYouDisclaimer": "Seu valioso comentário nos ajuda a melhorar sua experiência.",
+          "title": "Compartilhe seus comentários conosco"
+        },
+        "navItem": "Configurações",
+        "notifications": "Notificações",
+        "Notifications": {
+          "description": "Modifique suas preferências de notificação para controlar o tipo de mensagens que enviamos para você e como você as recebe.",
+          "desktop": "Notificações na área de trabalho",
+          "device": {
+            "description": "Atualizações e alertas de suporte no seu dispositivo e conta",
+            "title": "Dispositivo e conta"
+          },
+          "doubleCheck": "Verifique novamente suas configurações de notificações do Windows para garantir que você possa receber notificações do HPX.",
+          "news": {
+            "description": "Informações sobre novos produtos, serviços e ofertas",
+            "title": "Notícias e ofertas"
+          },
+          "off": "Desligado",
+          "on": "Ligado",
+          "openSettings": "Abrir configurações do Windows",
+          "share": {
+            "description": "Ajude-nos a melhorar sua experiência, compartilhando seus comentários sobre produtos ou serviços",
+            "title": "Compartilhe seus comentários"
+          },
+          "tips": {
+            "description": "Saiba como obter a melhor experiência quando usar o myHP e seus dispositivos",
+            "title": "Dicas e tutoriais"
+          },
+          "title": "Gerenciar notificações",
+          "turnOff": "As notificações do Windows estão desligadas",
+          "turnOn": "Ligar para receber notificações myHP"
+        },
+        "privacy": "Privacidade",
+        "Privacy": {
+          "clickHere": "clique aqui.",
+          "hpInformation": "Coleta de dados de informações do sistema HP ",
+          "infoUsed": "Para saber mais sobre como suas informações são usadas, visite",
+          "hpPrivacyStatement": "Declaração de Privacidade HP",
+          "learnMore": "Para saber mais, acesse ",
+          "privacyContent": "Os recursos no myHP são especificamente projetados para aperfeiçoar e personalizar a sua experiência geral no PC. A HP, com a sua permissão, coleta análises do seu sistema e recursos para melhorar os produtos e serviços HP.",
+          "reviewPrivacy": "Revise as opções de privacidade",
+          "reviewPrivacySettings": "Para revisar suas configurações de privacidade, "
+        }
+      }
+    }
+  },
+  "pt-PT": {
+    "translation": {
+      "Settings": {
+        "about": "Sobre",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Acordo de licença de utilizador final HP",
+          "myHP": "myHP",
+          "privacy": "Política de privacidade HP",
+          "version": "Versão"
+        },
+        "feedback": "Comentários",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Forneça outros comentários adicionais",
+          "characterLimitError": "Atingiu o limite máximo de 2000 caracteres.",
+          "description": "Forneça-nos os seus comentários para conhecermos o nosso nível de desempenho.",
+          "feedbackDisclaimer": "A finalidade deste inquérito é recolher os comentários do cliente sobre os produtos e serviços da HP. A HP pode utilizar as informações recolhidas neste inquérito, em conjunto com outras informações existentes que tenha sobre si, para melhorar os seus produtos e serviços de modo a ir ao encontro das suas necessidades. A HP está empenhada em respeitar a sua privacidade de acordo com a Declaração de Privacidade da HP.",
+          "feedbackThankYou": "Obrigado!",
+          "privacyLink": "Declaração de Privacidade da HP",
+          "privacyText": "Para sua privacidade e segurança, não inclua informações pessoais como o seu número de telefone ou endereço de e-mail na secção dos comentários. ",
+          "ratingDisclaimer": "(1 estrela = Muito insatisfeito, 5 estrelas = Muito satisfeito)",
+          "ratingExperience": "De um modo geral, até que ponto está satisfeiro com a sua experiência myHP?",
+          "requiredFieldError": "Selecione uma classificação de estrelas antes de enviar.",
+          "submitFeedback": "Enviar comentários",
+          "thankYouDisclaimer": "Os seus valiosos comentários ajudam-nos a proporcionar-lhe uma melhor experiência.",
+          "title": "Partilhe os seus comentários connosco"
+        },
+        "navItem": "Definições",
+        "notifications": "Notificações",
+        "Notifications": {
+          "description": "Modifique as suas preferências de notificação para controlar o tipo de mensagens que enviamos e a forma como as recebe.",
+          "desktop": "Notificações do amviente de trabalho",
+          "device": {
+            "description": "Atualizações e alertas de suporte no seu dispositivo e conta",
+            "title": "Dispositivo e conta"
+          },
+          "doubleCheck": "Verifique as suas definições de notificação Windows para garantir que é capaz de receber notificações HPX.",
+          "news": {
+            "description": "Informações sobre novos produtos, serviços e ofertas",
+            "title": "Novidades e ofertas"
+          },
+          "off": "Desligado",
+          "on": "Ligado",
+          "openSettings": "Abrir definições Windows",
+          "share": {
+            "description": "Ajude-nos a melhorar a sua experiência através da partilha dos seus comentários sobre produtos ou serviços",
+            "title": "Partilhe os seus comentários"
+          },
+          "tips": {
+            "description": "Saiba como pode obter a melhor experiência quando usa a myHP e os seus dispositivos",
+            "title": "Sugestões e tutoriais"
+          },
+          "title": "Gerir notificações",
+          "turnOff": "As notificações Windows estão desligadas",
+          "turnOn": "Ligue para receber notificações myHP"
+        },
+        "privacy": "Privacidade",
+        "Privacy": {
+          "clickHere": "clique aqui.",
+          "hpInformation": "Recolha de dados de informações do sistema HP ",
+          "infoUsed": "Para saber mais sobre como sao utilizadas as suas informações, consulte a",
+          "hpPrivacyStatement": "Declaração de Privacidade da HP",
+          "learnMore": "Para saber mais vá a ",
+          "privacyContent": "As funcionalidades em myHP foram especificamente concebidas para melhorar e personalizar a sua experiência geral de PC. A HP, com a sua permissão, recolhe análises sobre o seu sistema e funcionalidades para melhorar os produtos e serviços HP.",
+          "reviewPrivacy": "Rever opções de privacidade",
+          "reviewPrivacySettings": "Para rever as suas definições de privacidade, "
+        }
+      }
+    }
+  },
+  "ro-RO": {
+    "translation": {
+      "Settings": {
+        "about": "Despre",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Acord de licenţă pentru utilizatorul final HP",
+          "myHP": "myHP",
+          "privacy": "Politica de confidenţialitate HP",
+          "version": "Versiune"
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Furnizaţi orice feedback suplimentar",
+          "characterLimitError": "Aţi atins limita maximă de 2000 de caractere.",
+          "description": "Vă rugăm să oferiţi un feedback pentru a ne informa cum să facem.",
+          "feedbackDisclaimer": "Scopul acestui sondaj este de a colecta feedback de la clienţi despre produsele şi serviciile HP. HP poate utiliza informaţiile colectate în acest sondaj, împreună cu informaţiile existente pe care le are despre dvs., pentru a-şi îmbunătăţi produsele şi serviciile şi a răspunde nevoilor dvs. HP se angajează să vă respecte confidenţialitatea în conformitate cu Declaraţia de confidenţialitate HP.",
+          "feedbackThankYou": "Vă mulţumim!",
+          "privacyLink": "Declaraţia de confidenţialitate HP",
+          "privacyText": "Pentru confidenţialitate şi securitate, vă rugăm să nu includeţi informaţii personale, cum ar fi numărul dvs. de telefon sau adresa de e-mail în secţiunea de comentarii. ",
+          "ratingDisclaimer": "(1 stea = Foarte nemulţumit, 5 stele = Foarte mulţumit)",
+          "ratingExperience": "În general, cât de mulţumiţi sunteţi de experienţa dvs. cu myHP?",
+          "requiredFieldError": "Selectaţi o evaluare cu stele înainte de trimitere.",
+          "submitFeedback": "Trimitere feedback",
+          "thankYouDisclaimer": "Feedback-ul dvs. preţios ne ajută să vă îmbunătăţim experienţa.",
+          "title": "Partajaţi cu noi un feedback"
+        },
+        "navItem": "Setări",
+        "notifications": "Notificări",
+        "Notifications": {
+          "description": "Modificaţi preferinţele pentru notificări, pentru a controla tipul de mesaje pe care vi le trimitem şi modul în care le primiţi.",
+          "desktop": "Notificări pe desktop",
+          "device": {
+            "description": "Alerte de actualizări şi de asistenţă pe dispozitivul şi în contul dvs.",
+            "title": "Dispozitiv şi cont"
+          },
+          "doubleCheck": "Verificaţi de două ori setările pentru notificări în Windows, pentru a vă asigura că puteţi primi notificări HPX.",
+          "news": {
+            "description": "Informaţii despre noi produse, servicii şi oferte",
+            "title": "Ştiri şi oferte"
+          },
+          "off": "Dezactivat",
+          "on": "Activat",
+          "openSettings": "Deschideţi setările Windows",
+          "share": {
+            "description": "Ajutaţi-ne să vă îmbunătăţim experienţa trimiţându-ne un feedback referitor la produse sau servicii",
+            "title": "Trimiteţi-ne un feedback"
+          },
+          "tips": {
+            "description": "Aflaţi cum puteţi obţine cea mai bună experienţă atunci când utilizaţi myHP şi dispozitivele dvs.",
+            "title": "Sfaturi şi tutoriale"
+          },
+          "title": "Gestionaţi notificările",
+          "turnOff": "Notificările Windows sunt dezactivate",
+          "turnOn": "Activaţi pentru a primi notificări myHP"
+        },
+        "privacy": "Confidenţialitate",
+        "Privacy": {
+          "clickHere": "faceţi clic aici.",
+          "hpInformation": "Colectarea datelor cu informaţii despre sistemul HP ",
+          "infoUsed": "Pentru a afla mai multe despre modul în care sunt utilizate informaţiile dvs., vizitaţi",
+          "hpPrivacyStatement": "Declaraţie de confidenţialitate HP",
+          "learnMore": "Pentru a afla mai multe, accesaţi ",
+          "privacyContent": "Caracteristicile din myHP sunt special concepute pentru a îmbunătăţi şi personaliza experienţa generală pe PC. HP, cu permisiunea dvs., colectează date analitice despre sistemul şi caracteristicile dvs. pentru a îmbunătăţi produsele şi serviciile HP.",
+          "reviewPrivacy": "Revedeţi opţiunile de confidenţialitate",
+          "reviewPrivacySettings": "Pentru a vă revizui setările de confidenţialitate, "
+        }
+      }
+    }
+  },
+  "ru-RU": {
+    "translation": {
+      "Settings": {
+        "about": "О программе",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Лицензионное соглашение HP с конечным пользователем",
+          "myHP": "myHP",
+          "privacy": "Политика конфиденциальности HP",
+          "version": "Версия"
+        },
+        "feedback": "Обратная связь",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Укажите дополнительные замечания",
+          "characterLimitError": "Вы достигли максимального ограничения в 2000 символов.",
+          "description": "Пожалуйста, оставьте отзыв, чтобы мы знали, насколько хорошо мы справляемся.",
+          "feedbackDisclaimer": "Цель этого опроса — собрать отзывы клиентов о продуктах и услугах HP. Компания HP может использовать информацию, собранную в этом опросе, вместе с имеющейся у нее информацией о вас для улучшения своих продуктов и услуг в соответствии с вашими потребностями. Компания HP обязуется уважать вашу конфиденциальность в соответствии с Заявлением HP о конфиденциальности.",
+          "feedbackThankYou": "Спасибо!",
+          "privacyLink": "Заявление HP о конфиденциальности",
+          "privacyText": "В целях конфиденциальности и безопасности, пожалуйста, не указывайте в разделе комментариев личную информацию, такую как номер телефона или адрес электронной почты. ",
+          "ratingDisclaimer": "(1 звезда — очень низкая удовлетворенность, 5 звезд — очень высокая)",
+          "ratingExperience": "Насколько в целом вы удовлетворены опытом работы с myHP?",
+          "requiredFieldError": "Перед отправкой выберите оценку в звездочках.",
+          "submitFeedback": "Отправить отзыв",
+          "thankYouDisclaimer": "Ваши ценные отзывы помогут нам сделать вашу работу более удобной.",
+          "title": "Поделитесь с нами своим мнением"
+        },
+        "navItem": "Настройки",
+        "notifications": "Уведомления",
+        "Notifications": {
+          "description": "Измените настройки уведомлений, чтобы управлять типом сообщений, которые мы отправляем вам, а также тем, как вы их получаете.",
+          "desktop": "Уведомления на рабочем столе",
+          "device": {
+            "description": "Обновления и оповещения службы поддержки на вашем устройстве и в учетной записи",
+            "title": "Устройство и учетная запись"
+          },
+          "doubleCheck": "Проверьте еще раз настройки уведомлений Windows и убедитесь, что вы можете получать уведомления HPX.",
+          "news": {
+            "description": "Информация о новых продуктах, услугах и предложениях",
+            "title": "Новости и предложения"
+          },
+          "off": "Выкл",
+          "on": "Вкл",
+          "openSettings": "Откройте настройки Windows",
+          "share": {
+            "description": "Помогите нам улучшить ваш опыт, поделившись своим отзывом о продуктах или услугах",
+            "title": "Поделитесь своим отзывом"
+          },
+          "tips": {
+            "description": "Узнайте, как добиться наилучших результатов при использовании myHP и ваших устройств.",
+            "title": "Советы и руководства"
+          },
+          "title": "Управление уведомлениями",
+          "turnOff": "Уведомления Windows отключены",
+          "turnOn": "Включите, чтобы получать уведомления myHP"
+        },
+        "privacy": "Конфиденциальность",
+        "Privacy": {
+          "clickHere": "щелкните здесь.",
+          "hpInformation": "Сбор данных о системе компанией HP ",
+          "infoUsed": "Чтобы получить дополнительные сведения о том, как используется ваша информация, посетите страницу",
+          "hpPrivacyStatement": "Заявление HP о конфиденциальности",
+          "learnMore": "Для получения дополнительных сведений перейдите в раздел ",
+          "privacyContent": "Функции myHP предназначены специально для улучшения и персонализации работы с ПК. Компания HP с вашего разрешения собирает аналитические сведения о вашей системе и функциях для улучшения продуктов и служб HP.",
+          "reviewPrivacy": "Проверьте параметры конфиденциальности",
+          "reviewPrivacySettings": "Для проверки параметров конфиденциальности "
+        }
+      }
+    }
+  },
+  "sk-SK": {
+    "translation": {
+      "Settings": {
+        "about": "Informácie",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Licenčná zmluva koncového používateľa spoločnosti HP",
+          "myHP": "myHP",
+          "privacy": "Vyhlásenie spoločnosti HP o ochrane osobných údajov",
+          "version": "Verzia"
+        },
+        "feedback": "Spätná väzba",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Poskytnite nám ďalšiu spätnú väzbu",
+          "characterLimitError": "Dosiahli ste maximálny limit 2000 znakov.",
+          "description": "Poskytnite nám spätnú väzbu, aby sme zistili, ako sa nám darí.",
+          "feedbackDisclaimer": "Účelom tohto prieskumu je získať od zákazníkov spätnú väzbu k produktom a službám spoločnosti HP. Spoločnosť HP môže používať informácie zhromaždené v tomto prieskume spoločne s existujúcimi informáciami, ktoré o vás má, na zlepšovanie svojich produktov a služieb, aby vyhovovali vašim potrebám. Spoločnosť HP sa zaviazala rešpektovať vaše súkromie v súlade s Vyhlásením spoločnosti HP o ochrane osobných údajov.",
+          "feedbackThankYou": "Ďakujeme.",
+          "privacyLink": "Vyhlásenie spoločnosti HP o ochrane osobných údajov",
+          "privacyText": "V záujme ochrany vašich osobných údajov a bezpečnosti neuvádzajte v sekcii komentárov osobné údaje, napríklad telefónne číslo ani e-mailovú adresu. ",
+          "ratingDisclaimer": "(1 hviezdička = veľká nespokojnosť, 5 hviezdičiek = veľká spokojnosť)",
+          "ratingExperience": "Aká je vaša celková spokojnosť s aplikáciou myHP?",
+          "requiredFieldError": "Pred odoslaním vyberte hodnotenie hviezdičkami.",
+          "submitFeedback": "Odoslať spätnú väzbu",
+          "thankYouDisclaimer": "Vaša cenná spätná väzba nám pomôže zlepšiť váš zážitok.",
+          "title": "Podeľte sa s nami o svoju spätnú väzbu"
+        },
+        "navItem": "Nastavenia",
+        "notifications": "Oznámenia",
+        "Notifications": {
+          "description": "Úpravou predvolieb oznámení ovládajte typ hlásení, ktoré vám posielame, a spôsob ich prijímania.",
+          "desktop": "Oznámenia na pracovnej ploche",
+          "device": {
+            "description": "Aktualizácie a upozornenia podpory na vašom zariadení a v konte",
+            "title": "Zariadenie a konto"
+          },
+          "doubleCheck": "Dôkladne skontrolujte nastavenia oznámení systému Windows, aby ste sa uistili, že môžete prijímať oznámenia služby HPX.",
+          "news": {
+            "description": "Informácie o nových produktoch, službách a ponukách",
+            "title": "Novinky a ponuky"
+          },
+          "off": "Vypnúť",
+          "on": "Zapnúť",
+          "openSettings": "Otvoriť nastavenia systému Windows",
+          "share": {
+            "description": "Zdieľajte svoje pripomienky k produktom a službám, aby ste ich pomohli zlepšiť",
+            "title": "Zdieľajte svoje pripomienky"
+          },
+          "tips": {
+            "description": "Zistite, ako najlepšie používať službu myHP a vaše zariadenia",
+            "title": "Tipy a kurzy"
+          },
+          "title": "Spravovať oznámenia",
+          "turnOff": "Oznámenia systému Windows sú vypnuté",
+          "turnOn": "Zapnite, ak chcete dostávať oznámenia služby myHP"
+        },
+        "privacy": "Ochrana osobných údajov",
+        "Privacy": {
+          "clickHere": "kliknite sem.",
+          "hpInformation": "Zhromažďovanie údajov o systéme HP ",
+          "infoUsed": "Ak chcete získať ďalšie informácie o tom, ako sa používajú vaše údaje, prečítajte si",
+          "hpPrivacyStatement": "Vyhlásenie spoločnosti HP o ochrane osobných údajov",
+          "learnMore": "Ak sa chcete dozvedieť viac, prejdite na ",
+          "privacyContent": "Funkcie v aplikácii myHP sú špeciálne navrhnuté na zlepšenie a prispôsobenie celkového používania počítača. Spoločnosť HP s vaším súhlasom zhromažďuje analýzy o vašom systéme a funkciách s cieľom zlepšiť produkty a služby HP.",
+          "reviewPrivacy": "Kontrola možností ochrany osobných údajov",
+          "reviewPrivacySettings": "Ak chcete skontrolovať nastavenia ochrany osobných údajov, "
+        }
+      }
+    }
+  },
+  "sl-SI": {
+    "translation": {
+      "Settings": {
+        "about": "Osnovni podatki",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP-jeva licenčna pogodba za končnega uporabnika",
+          "myHP": "myHP",
+          "privacy": "HP-jev pravilnik o zasebnosti",
+          "version": "Različica"
+        },
+        "feedback": "Povratne informacije",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Vnesite morebitne dodatne povratne informacije",
+          "characterLimitError": "Dosegli ste največjo dovoljeno omejitev 2.000 znakov.",
+          "description": "Pošljite nam povratne informacije, da bomo vedeli, kako nam gre.",
+          "feedbackDisclaimer": "S to anketo želimo zbrati povratne informacije uporabnikov o HP-jevih izdelkih in storitvah. HP lahko uporabi podatke, zbrane v tej anketi, skupaj z obstoječimi podatki, ki jih hrani o vas, za izboljšanje svojih izdelkov in storitev, tako da bodo ustrezali vašim potrebam. HP je v skladu s HP-jevo izjavo o zasebnosti zavezan k spoštovanju vaše zasebnosti.",
+          "feedbackThankYou": "Hvala!",
+          "privacyLink": "HP-jeva izjava o zasebnosti",
+          "privacyText": "Zaradi zasebnosti in varnosti v razdelek s komentarji ne vključujte osebnih podatkov, kot sta telefonska številka ali e-poštni naslov. ",
+          "ratingDisclaimer": "(1 zvezdica = Zelo nezadovoljen, 5 zvezdic = Zelo zadovoljen)",
+          "ratingExperience": "Kako ste na splošno zadovoljni z izkušnjo myHP?",
+          "requiredFieldError": "Pred pošiljanjem izberite oceno z zvezdico.",
+          "submitFeedback": "Pošlji povratne informacije",
+          "thankYouDisclaimer": "Vaše dragocene povratne informacije nam omogočajo, da izboljšamo vašo izkušnjo.",
+          "title": "Pošljite nam svoje povratne informacije"
+        },
+        "navItem": "Nastavitve",
+        "notifications": "Obvestila",
+        "Notifications": {
+          "description": "Spremenite nastavitve obvestil za nadzorovanje vrste sporočil, ki vam jih pošljemo in načina, na katerega jih prejmete.",
+          "desktop": "Namizna obvestila",
+          "device": {
+            "description": "Opozorila o posodobitvah in podpori za napravo in račun",
+            "title": "Naprava in račun"
+          },
+          "doubleCheck": "Natančno preglejte nastavitve obvestil za sistem Windows, da boste lahko prejemali obvestila HPX.",
+          "news": {
+            "description": "Informacije o novih izdelkih, storitvah in ponudbah",
+            "title": "Novice in ponudbe"
+          },
+          "off": "Izklopljeno",
+          "on": "Vklopljeno",
+          "openSettings": "Odpri nastavitve za Windows",
+          "share": {
+            "description": "Pomagajte nam izboljšati izkušnjo z deljenjem povratnih informacij o izdelkih ali storitvah",
+            "title": "Delite povratne informacije"
+          },
+          "tips": {
+            "description": "Preberite, kako si zagotovite najboljšo izkušnjo pri uporabi funkcije myHP in svojih naprav",
+            "title": "Namigi in vadnice"
+          },
+          "title": "Upravljanje obvestil",
+          "turnOff": "Obvestila sistema Windows so izklopljena",
+          "turnOn": "Vklopite, da boste prejemali obvestila myHP"
+        },
+        "privacy": "Zasebnost",
+        "Privacy": {
+          "clickHere": "kliknite tukaj.",
+          "hpInformation": "Zbiranje podatkov o informacijah o HP-jevem sistemu ",
+          "infoUsed": "Če želite izvedeti več o tem, kako uporabljamo vaše podatke, obiščite",
+          "hpPrivacyStatement": "HP-jeva izjava o zasebnosti",
+          "learnMore": "Če želite izvedeti več, pojdite na ",
+          "privacyContent": "Funkcije v myHP so posebej oblikovane za izboljšanje in prilagoditev splošne izkušnje z računalnikom. HP z vašim dovoljenjem zbira analitične podatke o sistemu in funkcijah, da lahko izboljšuje HP-jeve izdelke in storitve.",
+          "reviewPrivacy": "Preglejte možnosti zasebnosti",
+          "reviewPrivacySettings": "Za pregled nastavitev zasebnosti "
+        }
+      }
+    }
+  },
+  "sr-LATN-rs": {
+    "translation": {
+      "Settings": {
+        "about": "Osnovni podaci",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP ugovor o licenciranju sa krajnjim korisnikom",
+          "myHP": "myHP",
+          "privacy": "HP politika privatnosti",
+          "version": "Verzija"
+        },
+        "feedback": "Povratne informacije",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Pošaljite povratne informacije",
+          "characterLimitError": "Dostigli ste maksimalno ograničenje od 2000 znakova.",
+          "description": "Pošaljite povratne informacije da biste nas obavestili kako radimo.",
+          "feedbackDisclaimer": "Svrha ove ankete je prikupljanje povratnih informacija od korisnika o HP proizvodima i uslugama. HP može da koristi informacije prikupljene u ovoj anketi uz postojeće informacije koje poseduje o vama kako bi poboljšao svoje proizvode i usluge tako da ispunjavaju vaše potrebe. HP je posvećen poštovanju vaše privatnosti u skladu sa HP izjavom o privatnosti.",
+          "feedbackThankYou": "Hvala!",
+          "privacyLink": "Izjava o privatnosti kompanije HP",
+          "privacyText": "Zbog svoje privatnosti i bezbednosti u odeljku za komentare nemojte da navodite lične informacije kao što je broj telefona ili adresa e-pošte. ",
+          "ratingDisclaimer": "(1 zvezdica = veoma nezadovoljan/na, 5 zvezdica = veoma zadovoljan/na)",
+          "ratingExperience": "Koliko ste generalno zadovoljni utiskom pri radu u aplikaciji myHP?",
+          "requiredFieldError": "Izaberite ocenu u zvezdicama pre nego što pošaljete.",
+          "submitFeedback": "Prosledite povratne informacije",
+          "thankYouDisclaimer": "Vaše dragocene povratne informacije nam pomažu da poboljšamo vaše iskustvo.",
+          "title": "Pošaljite nam povratne informacije"
+        },
+        "navItem": "Postavke",
+        "notifications": "Obaveštenja",
+        "Notifications": {
+          "description": "Izmenite podešavanja obaveštenja da biste kontrolisali tip poruka koje vam šaljemo i način na koji ih primate.",
+          "desktop": "Obaveštenja na radnoj površini",
+          "device": {
+            "description": "Ažuriranja i obaveštenja o podršci na vašem uređaju i nalogu",
+            "title": "Uređaj i nalog"
+          },
+          "doubleCheck": "Još jednom proverite podešavanja obaveštenja operativnog sistema Windows da biste bili sigurni da možete da primate HPX obaveštenja.",
+          "news": {
+            "description": "Informacije o novim proizvodima, uslugama i ponudama",
+            "title": "Novosti i ponude"
+          },
+          "off": "Isključeno",
+          "on": "Uključeno",
+          "openSettings": "Otvorite podešavanja operativnog sistema Windows",
+          "share": {
+            "description": "Pomozite nam da poboljšamo vaše iskustvo tako što ćete deliti povratne informacije o proizvodima ili uslugama",
+            "title": "Delite povratne informacije"
+          },
+          "tips": {
+            "description": "Saznajte kako da dobijete najbolje iskustvo kada koristite myHP i svoje uređaje",
+            "title": "Saveti i uputstva"
+          },
+          "title": "Upravljajte obaveštenjima",
+          "turnOff": "Windows obaveštenja su isključena",
+          "turnOn": "Uključite da biste primali myHP obaveštenja"
+        },
+        "privacy": "Privatnost",
+        "Privacy": {
+          "clickHere": "kliknite ovde.",
+          "hpInformation": "Prikupljanje podataka o HP sistemskim informacijama ",
+          "infoUsed": "Da biste saznali više o tome kako se koriste vaše informacije, posetite",
+          "hpPrivacyStatement": "HP izjava o privatnosti",
+          "learnMore": "Da biste saznali više idite na ",
+          "privacyContent": "Funkcije u usluzi myHP u su posebno dizajnirane da poboljšaju i personalizuju vaše celokupno iskustvo na računaru. HP, uz vašu dozvolu, prikuplja analitiku o vašem sistemu i funkcijama kako bi poboljšao HP proizvode i usluge.",
+          "reviewPrivacy": "Pregledajte opcije privatnosti",
+          "reviewPrivacySettings": "Da biste pregledali podešavanja privatnosti, "
+        }
+      }
+    }
+  },
+  "sr-BA": {
+    "translation": {
+      "Settings": {
+        "about": "Osnovni podaci",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP ugovor o licenciranju sa krajnjim korisnikom",
+          "myHP": "myHP",
+          "privacy": "HP politika privatnosti",
+          "version": "Verzija"
+        },
+        "feedback": "Povratne informacije",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Pošaljite povratne informacije",
+          "characterLimitError": "Dostigli ste maksimalno ograničenje od 2000 znakova.",
+          "description": "Pošaljite povratne informacije da biste nas obavestili kako radimo.",
+          "feedbackDisclaimer": "Svrha ove ankete je prikupljanje povratnih informacija od korisnika o HP proizvodima i uslugama. HP može da koristi informacije prikupljene u ovoj anketi uz postojeće informacije koje poseduje o vama kako bi poboljšao svoje proizvode i usluge tako da ispunjavaju vaše potrebe. HP je posvećen poštovanju vaše privatnosti u skladu sa HP izjavom o privatnosti.",
+          "feedbackThankYou": "Hvala!",
+          "privacyLink": "Izjava o privatnosti kompanije HP",
+          "privacyText": "Zbog svoje privatnosti i bezbednosti u odeljku za komentare nemojte da navodite lične informacije kao što je broj telefona ili adresa e-pošte. ",
+          "ratingDisclaimer": "(1 zvezdica = veoma nezadovoljan/na, 5 zvezdica = veoma zadovoljan/na)",
+          "ratingExperience": "Koliko ste generalno zadovoljni utiskom pri radu u aplikaciji myHP?",
+          "requiredFieldError": "Izaberite ocenu u zvezdicama pre nego što pošaljete.",
+          "submitFeedback": "Prosledite povratne informacije",
+          "thankYouDisclaimer": "Vaše dragocene povratne informacije nam pomažu da poboljšamo vaše iskustvo.",
+          "title": "Pošaljite nam povratne informacije"
+        },
+        "navItem": "Postavke",
+        "notifications": "Obaveštenja",
+        "Notifications": {
+          "description": "Izmenite podešavanja obaveštenja da biste kontrolisali tip poruka koje vam šaljemo i način na koji ih primate.",
+          "desktop": "Obaveštenja na radnoj površini",
+          "device": {
+            "description": "Ažuriranja i obaveštenja o podršci na vašem uređaju i nalogu",
+            "title": "Uređaj i nalog"
+          },
+          "doubleCheck": "Još jednom proverite podešavanja obaveštenja operativnog sistema Windows da biste bili sigurni da možete da primate HPX obaveštenja.",
+          "news": {
+            "description": "Informacije o novim proizvodima, uslugama i ponudama",
+            "title": "Novosti i ponude"
+          },
+          "off": "Isključeno",
+          "on": "Uključeno",
+          "openSettings": "Otvorite podešavanja operativnog sistema Windows",
+          "share": {
+            "description": "Pomozite nam da poboljšamo vaše iskustvo tako što ćete deliti povratne informacije o proizvodima ili uslugama",
+            "title": "Delite povratne informacije"
+          },
+          "tips": {
+            "description": "Saznajte kako da dobijete najbolje iskustvo kada koristite myHP i svoje uređaje",
+            "title": "Saveti i uputstva"
+          },
+          "title": "Upravljajte obaveštenjima",
+          "turnOff": "Windows obaveštenja su isključena",
+          "turnOn": "Uključite da biste primali myHP obaveštenja"
+        },
+        "privacy": "Privatnost",
+        "Privacy": {
+          "clickHere": "kliknite ovde.",
+          "hpInformation": "Prikupljanje podataka o HP sistemskim informacijama ",
+          "learnMore": "Da biste saznali više idite na ",
+          "privacyContent": "Funkcije u usluzi myHP u su posebno dizajnirane da poboljšaju i personalizuju vaše celokupno iskustvo na računaru. HP, uz vašu dozvolu, prikuplja analitiku o vašem sistemu i funkcijama kako bi poboljšao HP proizvode i usluge.",
+          "reviewPrivacy": "Pregledajte opcije privatnosti",
+          "reviewPrivacySettings": "Da biste pregledali podešavanja privatnosti, "
+        }
+      }
+    }
+  },
+  "sv-SE": {
+    "translation": {
+      "Settings": {
+        "about": "Om",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HPs licensavtal för slutanvändare",
+          "myHP": "myHP",
+          "privacy": "HPs sekretesspolicy",
+          "version": "Version"
+        },
+        "feedback": "Feedback",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Ge oss ytterligare feedback om sådan finns",
+          "characterLimitError": "Du har nått maxgränsen på 2000 tecken.",
+          "description": "Ge oss feedback för att berätta om det finns något vi kan göra bättre.",
+          "feedbackDisclaimer": "Syftet med den här undersökningen är att samla in kunders feedback om HP-produkter och -tjänster. HP kan använda informationen som samlas in i den här undersökningen tillsammans med redan befintlig information om dig, för att förbättra sina produkter och tjänster och möta dina behov. HP åtar sig att respektera din integritet i enlighet med HPs integritetspolicy.",
+          "feedbackThankYou": "Tack!",
+          "privacyLink": "HPs integritetspolicy",
+          "privacyText": "Vi tänker på din integritet och säkerhet. Inkludera därför inte personlig information såsom telefonnummer eller e-postadress i kommentarsfältet. ",
+          "ratingDisclaimer": "(1 stjärna = mycket missnöjd, 5 stjärnor = mycket nöjd)",
+          "ratingExperience": "Hur nöjd är du över lag med din myHP-upplevelse?",
+          "requiredFieldError": "Välj antalet stjärnor som betyg innan du skickar in.",
+          "submitFeedback": "Skicka in feedback",
+          "thankYouDisclaimer": "Din värdefulla feedback hjälper oss förbättra upplevelsen.",
+          "title": "Dela din feedback med oss"
+        },
+        "navItem": "Inställningar",
+        "notifications": "Meddelanden",
+        "Notifications": {
+          "description": "Ändra dina meddelandeinställningar för att kontrollera vilka typ av meddelanden vi skickar till dig och hur de tas emot.",
+          "desktop": "Skrivbordsmeddelanden",
+          "device": {
+            "description": "Uppdateringar och supportvarningar på din enhet och konto",
+            "title": "Enhet och konto"
+          },
+          "doubleCheck": "Dubbelkolla inställningarna för Windows-meddelanden för att säkerställa att du kan ta emot HPX-meddelanden.",
+          "news": {
+            "description": "Information om nya produkter, tjänster och erbjudanden",
+            "title": "Nyheter och erbjudanden"
+          },
+          "off": "Av",
+          "on": "På",
+          "openSettings": "Öppna Windows-inställningar",
+          "share": {
+            "description": "Hjälp oss förbättra din upplevelse genom att dela feedback om produkter eller tjänster",
+            "title": "Dela din feedback"
+          },
+          "tips": {
+            "description": "Läs om den bästa upplevelsen när du använder myHP och dina enheter",
+            "title": "Tips och självstudier"
+          },
+          "title": "Hantera meddelanden",
+          "turnOff": "Windows-meddelanden är avstängda",
+          "turnOn": "Slå på för att ta emot myHP-meddelanden"
+        },
+        "privacy": "Sekretess",
+        "Privacy": {
+          "clickHere": "kan du klicka här.",
+          "hpInformation": "HP-datainsamling av systeminformation ",
+          "infoUsed": "För mer information om hur din information används kan du besöka",
+          "hpPrivacyStatement": "HPs integritetspolicy",
+          "learnMore": "Gå till för mer information ",
+          "privacyContent": "Funktionerna i myHP är speciellt designade för att förbättra och anpassa din generella datorupplevelse. HP samlar, med din tillåtelse, in analyser om ditt system och funktioner för att förbättra HP-produkter och -tjänster.",
+          "reviewPrivacy": "Granska sekretessalternativ",
+          "reviewPrivacySettings": "För att granska dina sekretessinställningar, "
+        }
+      }
+    }
+  },
+  "th-TH": {
+    "translation": {
+      "Settings": {
+        "about": "เกี่ยวกับ",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "ข้อตกลงการอนุญาตใช้งานสำหรับผู้ใช้ HP",
+          "myHP": "myHP",
+          "privacy": "นโยบายความเป็นส่วนตัวของ HP",
+          "version": "เวอร์ชัน"
+        },
+        "feedback": "คำติชม",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "โปรดให้คำติชมใดๆ เพิ่มเติม",
+          "characterLimitError": "คุณใช้ครบขีดจำกัดจำนวนอักขระสูงสุดที่ 2000 ตัวแล้ว",
+          "description": "โปรดให้คำติชมเพื่อบอกเราว่าคุณคิดอย่างไรกับการดำเนินงานของเรา",
+          "feedbackDisclaimer": "แบบสำรวจนี้มีเป้าหมายเพื่อรวบรวมคำติชมของลูกค้าเกี่ยวกับผลิตภัณฑ์และบริการของ HP HP อาจนำข้อมูลที่รวบรวมจากผลสำรวจและข้อมูลเกี่ยวกับคุณที่มีอยู่แล้วในระบบมาใช้ เพื่อปรับปรุงผลิตภัณฑ์และบริการต่างๆ ให้สามารถตอบโจทย์ความต้องการของคุณได้ HP มุ่งมั่นที่จะเคารพในความเป็นส่วนตัวของคุณ โดยปฏิบัติตามคำชี้แจงสิทธิส่วนบุคคลของ HP",
+          "feedbackThankYou": "ขอบคุณ!",
+          "privacyLink": "คำชี้แจงสิทธิส่วนบุคคลของ HP",
+          "privacyText": "เพื่อความเป็นส่วนตัวและความปลอดภัยของคุณ โปรดอย่าใส่ข้อมูลส่วนบุคคล เช่น หมายเลขโทรศัพท์หรือที่อยู่อีเมลของคุณลงในส่วนความคิดเห็น ",
+          "ratingDisclaimer": "(1 ดาว = ไม่พึงพอใจอย่างมาก, 5 ดาว = พึงพอใจอย่างมาก)",
+          "ratingExperience": "โดยรวม คุณพึงพอใจกับประสบการณ์ myHP มากน้อยเพียงใด",
+          "requiredFieldError": "เลือกการให้คะแนนด้วยอันดับดาวก่อนส่ง",
+          "submitFeedback": "ส่งคำติชม",
+          "thankYouDisclaimer": "คำติชมที่มีค่าของคุณจะช่วยให้เราปรับปรุงประสบการณ์การใช้งานของคุณได้",
+          "title": "แชร์คำติชมของคุณกับเรา"
+        },
+        "navItem": "การตั้งค่า",
+        "notifications": "การแจ้งเตือน",
+        "Notifications": {
+          "description": "แก้ไขการกำหนดลักษณะการแจ้งเตือนของคุณ เพื่อควบคุมประเภทข้อความที่เราจะส่งถึงคุณ และวิธีการที่คุณจะได้รับ",
+          "desktop": "การแจ้งเตือนเดสก์ท็อป",
+          "device": {
+            "description": "การแจ้งเตือนการอัปเดตและการสนับสนุนเกี่ยวกับอุปกรณ์และบัญชีผู้ใช้ของคุณ",
+            "title": "อุปกรณ์และบัญชีผู้ใช้"
+          },
+          "doubleCheck": "ตรวจสอบการตั้งค่าการแจ้งเตือน Windows ของคุณซ้ำอีกครั้ง เพื่อให้แน่ใจว่าคุณสามารถรับการแจ้งเตือน HPX ได้",
+          "news": {
+            "description": "ข้อมูลเกี่ยวกับผลิตภัณฑ์ บริการ และข้อเสนอใหม่ๆ",
+            "title": "ข่าวสารและข้อเสนอ"
+          },
+          "off": "ปิด",
+          "on": "เปิด",
+          "openSettings": "เปิดการตั้งค่า Windows",
+          "share": {
+            "description": "ช่วยเราปรับปรุงประสบการณ์ของคุณ โดยการแชร์คำติชมของคุณเกี่ยวกับผลิตภัณฑ์หรือบริการ",
+            "title": "แชร์คำติชมของคุณ"
+          },
+          "tips": {
+            "description": "ศึกษาวิธีการรับประสบการณ์ที่ดีที่สุดขณะใช้งาน myHP และอุปกรณ์ของคุณ",
+            "title": "เคล็ดลับและคู่มือการใช้งาน"
+          },
+          "title": "จัดการการแจ้งเตือน",
+          "turnOff": "การแจ้งเตือน Windows ถูกปิดไว้",
+          "turnOn": "เปิดเพื่อรับการแจ้งเตือน myHP"
+        },
+        "privacy": "ความเป็นส่วนตัว",
+        "Privacy": {
+          "clickHere": "คลิกที่นี่",
+          "hpInformation": "คอลเลกชันข้อมูลระบบของ HP ",
+          "infoUsed": "หากต้องการศึกษาข้อมูลเพิ่มเติมเกี่ยวกับวิธีการนำข้อมูลของคุณไปใช้ โปรดไปที่",
+          "hpPrivacyStatement": "คำชี้แจงสิทธิส่วนบุคคลของ HP",
+          "learnMore": "หากต้องการศึกษาข้อมูลเพิ่มเติม โปรดไปที่ ",
+          "privacyContent": "คุณลักษณะใน myHP ได้รับการออกแบบโดยเฉพาะเพื่อปรับปรุงและปรับแต่งค่าความเป็นส่วนตัวประสบการณ์การใช้งาน PC โดยรวมของคุณ หลังจากได้รับอนุญาตจากคุณ HP จะเก็บรวบรวมข้อมูลการวิเคราะห์เกี่ยวกับระบบและคุณลักษณะของคุณเพื่อปรับปรุงผลิตภัณฑ์และบริการของ HP",
+          "reviewPrivacy": "ตรวจสอบตัวเลือกด้านความเป็นส่วนตัว",
+          "reviewPrivacySettings": "หากต้องการตรวจสอบการตั้งค่าความเป็นส่วนตัวของคุณ "
+        }
+      }
+    }
+  },
+  "tr-TR": {
+    "translation": {
+      "Settings": {
+        "about": "Hakkında",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "HP Son Kullanıcı Lisans Sözleşmesi",
+          "myHP": "myHP",
+          "privacy": "HP Gizlilik Politikası",
+          "version": "Sürüm"
+        },
+        "feedback": "Geri Bildirim",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Her türlü ek geri bildirim sağlayın",
+          "characterLimitError": "Maks. 2000 karakter sınırına ulaştınız.",
+          "description": "Nasıl olduğumuzu öğrenmemiz için lütfen geri bildirim sağlayın.",
+          "feedbackDisclaimer": "Bu anketin amacı, HP ürünleri ve servisleri hakkında müşteri geri bildirimlerini toplamaktır. HP, bu ankette toplanan bilgileri ve bunun yanı sıra sizin hakkınızdaki mevcut bilgileri, ihtiyaçlarınızı karşılamak amacıyla ürünlerini ve servislerini geliştirmek için kullanabilir. HP; HP'nin Gizlilik Beyanına uygun olarak gizliliğinize saygı gösterir.",
+          "feedbackThankYou": "Teşekkür ederiz!",
+          "privacyLink": "HP’nin Gizlilik Beyanı",
+          "privacyText": "Gizliliğiniz ve güvenliğiniz için yorumlar bölümünde, telefon numaranız veya e-posta adresiniz gibi kişisel bilgileri vermeyin. ",
+          "ratingDisclaimer": "(1 Yıldız = Hiç memnun değilim, 5 Yıldız = Çok memnunum)",
+          "ratingExperience": "Genel olarak myHP deneyiminizden ne kadar memnunsunuz?",
+          "requiredFieldError": "Göndermeden önce bir yıldız puanı seçin.",
+          "submitFeedback": "Geri Bildirimi Gönder",
+          "thankYouDisclaimer": "Değerli geri bildiriminiz deneyiminizi geliştirmemizi sağlayacaktır.",
+          "title": "Geri bildiriminizi bizimle paylaşın"
+        },
+        "navItem": "Ayarlar",
+        "notifications": "Bildirimler",
+        "Notifications": {
+          "description": "Size gönderdiğimiz mesaj türleri ve bunları alma yönteminizi kontrol etmek için bildirim tercihlerinizi değiştirin.",
+          "desktop": "Masaüstü Bildirimleri",
+          "device": {
+            "description": "Cihazını ve hesabınızdaki güncellemeler ve destek uyarıları",
+            "title": "Cihaz ve hesap"
+          },
+          "doubleCheck": "HPX bildirimlerini alabildiğinizden emin olmak için Windows bildirim ayarlarınız tekrar kontrol edin.",
+          "news": {
+            "description": "Yeni ürünler, servisler ve teklifler hakkında bilgiler",
+            "title": "Haberler ve teklifler"
+          },
+          "off": "Kapalı",
+          "on": "Açık",
+          "openSettings": "Windows ayarlarını aç",
+          "share": {
+            "description": "Ürünler ve servisler hakkındaki geri bildiriminizi paylaşarak deneyiminizi iyileştirmemize yardımcı olun",
+            "title": "Geri bildiriminizi paylaşın"
+          },
+          "tips": {
+            "description": "myHP ve cihazlarınızı kullanırken en iyi deneyimi nasıl alacağınızı öğrenin",
+            "title": "İpuçları ve kılavuzlar"
+          },
+          "title": "Bildirimleri yönet",
+          "turnOff": "Windows bildirimleri kapatılmış",
+          "turnOn": "myHP bildirimlerini almak için açın"
+        },
+        "privacy": "Gizlilik",
+        "Privacy": {
+          "clickHere": "buraya tıklayın.",
+          "hpInformation": "HP Sistem Bilgileri Veri Toplama ",
+          "infoUsed": "Bilgilerinizin nasıl kullanıldığı hakkında daha fazla bilgi için şurayı ziyaret edin",
+          "hpPrivacyStatement": "HP Gizlilik Beyanı",
+          "learnMore": "Daha fazla bilgi için şuraya gidin ",
+          "privacyContent": "myHP dahilindeki özellikler, genel bilgisayar deneyiminizi geliştirmek ve kişiselleştirmek için özel olarak tasarlanmıştır. HP, sizin izninizle HP ürünlerini ve hizmetlerini iyileştirmek için sisteminize ve özelliklerinize ilişkin analizler toplamaktadır.",
+          "reviewPrivacy": "Gizlilik seçeneklerini inceleyin",
+          "reviewPrivacySettings": "Gizlilik ayarlarınızı incelemek için, "
+        }
+      }
+    }
+  },
+  "uk-UA": {
+    "translation": {
+      "Settings": {
+        "about": "Інформація",
+        "About": {
+          "copyright": "Copyright 2023 HP Development Company, L.P.",
+          "license": "Ліцензійна угода між компанією HP та кінцевим користувачем",
+          "myHP": "myHP",
+          "privacy": "Політика конфіденційності компанії HP",
+          "version": "Версія"
+        },
+        "feedback": "Зворотний зв’язок",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "Надайте додатковий відгук",
+          "characterLimitError": "Досягнуто максимального обмеження, що становить 2000 символів.",
+          "description": "Надайте відгук, щоб повідомити нас про наші справи.",
+          "feedbackDisclaimer": "Мета цього опитування — зібрати відгуки клієнтів щодо продуктів і послуг HP. Компанія HP може використовувати інформацію, зібрану в цьому опитуванні, у поєднанні з наявною про вас інформацією для вдосконалення своїх продуктів і послуг відповідно до ваших потреб. Компанія HP зобов’язується поважати вашу конфіденційність відповідно до Заяви про конфіденційність HP.",
+          "feedbackThankYou": "Дякуємо!",
+          "privacyLink": "Заява про конфіденційність HP",
+          "privacyText": "Задля своєї конфіденційності та безпеки не вказуйте в коментарях особисту інформацію, таку як номер телефону або адресу електронної пошти. ",
+          "ratingDisclaimer": "(1 зірка = дуже незадоволений/-а, 5 зірок = дуже задоволений/-а)",
+          "ratingExperience": "Загалом, наскільки ви задоволені досвідом використання myHP?",
+          "requiredFieldError": "Виберіть рейтинг у зірках, перш ніж надіслати.",
+          "submitFeedback": "Надіслати відгук",
+          "thankYouDisclaimer": "Ваш цінний відгук допоможе нам покращити взаємодію з вами.",
+          "title": "Поділіться з нами своїми відгуками"
+        },
+        "navItem": "Параметри",
+        "notifications": "Сповіщення",
+        "Notifications": {
+          "description": "Керуйте налаштуваннями своїх сповіщень, щоб контролювати, які типи повідомлень ви отримуєте від нас і яким чином.",
+          "desktop": "Сповіщення на робочому столі",
+          "device": {
+            "description": "Оповіщення про оновлення та підтримку на вашому пристрої та в обліковому записі",
+            "title": "Пристрій та обліковий запис"
+          },
+          "doubleCheck": "Перевірте налаштування сповіщень у Windows, щоб переконатися, що отримуватимете сповіщення HPX.",
+          "news": {
+            "description": "Інформація про нові продукти, послуги й пропозиції",
+            "title": "Новини та пропозиції"
+          },
+          "off": "Вимк.",
+          "on": "Увімк.",
+          "openSettings": "Відкрити параметри Windows",
+          "share": {
+            "description": "Допоможіть покращити ваші враження від наших продуктів або послуг, залишивши про них відгук",
+            "title": "Залишити відгук"
+          },
+          "tips": {
+            "description": "Дізнайтеся, як користуватися myHP та своїми пристроями найбільш ефективно",
+            "title": "Підказки та навчальні матеріали"
+          },
+          "title": "Керувати сповіщеннями",
+          "turnOff": "Сповіщення Windows вимкнені",
+          "turnOn": "Увімкніть, щоб отримувати сповіщення myHP"
+        },
+        "privacy": "Конфіденційність",
+        "Privacy": {
+          "clickHere": "натисніть тут.",
+          "hpInformation": "Збір даних про системну інформацію HP ",
+          "infoUsed": "Щоб дізнатися більше про те, як використовується ваша інформація, відвідайте",
+          "hpPrivacyStatement": "Заява про конфіденційність HP",
+          "learnMore": "Щоб дізнатися більше перейдіть до ",
+          "privacyContent": "Функції в myHP спеціально розроблено для покращення і персоналізації вашого досвіду роботи на ПК. Компанія HP, з вашого дозволу, збирає аналітичні дані про вашу систему й функції з метою вдосконалення продуктів і послуг HP.",
+          "reviewPrivacy": "Перегляньте параметри конфіденційності",
+          "reviewPrivacySettings": "Для перегляду налаштувань конфіденційності "
+        }
+      }
+    }
+  },
+  "zh-Hans": {
+    "translation": {
+      "Settings": {
+        "privacy": "隐私",
+        "notifications": "通知",
+        "about": "关于",
+        "navItem": "设置",
+        "Notifications": {
+          "title": "管理通知",
+          "description": "修改您的通知首选项，以控制我们向您发的消息类型以及您的接收方式。",
+          "on": "开",
+          "off": "关",
+          "turnOff": "Windows 通知已关闭",
+          "turnOn": "开启以接收 myHP 通知",
+          "desktop": "桌面通知",
+          "openSettings": "打开 Windows 设置",
+          "doubleCheck": "仔细检查您的 Windows 通知设置，以确保您能够接收 HPX 通知。",
+          "device": {
+            "title": "设备和帐户",
+            "description": "您的设备和帐户中的更新和支持警报"
+          },
+          "tips": {
+            "title": "提示和教程",
+            "description": "了解如何在使用 myHP 和您的设备时获得最佳体验"
+          },
+          "news": {
+            "title": "新闻和优惠",
+            "description": "有关新产品、服务和优惠的信息"
+          },
+          "share": {
+            "title": "分享您的反馈",
+            "description": "请分享您对产品或服务的反馈来帮助我们改善您的体验"
+          }
+        },
+        "feedback": "反馈",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "提供任何其他反馈",
+          "characterLimitError": "您已达到 2000 个字符数的上限。",
+          "description": "请提供反馈，说一说我们的表现如何。",
+          "feedbackDisclaimer": "本调查的目的是收集客户对 HP 产品和服务的反馈。HP 可能会将本调查中收集的信息与其拥有的有关您的现有信息结合使用，以帮助改进 HP 的产品和服务来满足您的需求。HP 承诺依照 HP 的隐私声明尊重您的隐私。",
+          "feedbackThankYou": "谢谢！",
+          "privacyLink": "HP 隐私声明",
+          "privacyText": "为了您的隐私和安全，请不要在评论区包含电话号码或电子邮件地址等个人信息。 ",
+          "ratingDisclaimer": "（1 星 = 非常不满意，5 星 = 非常满意）",
+          "ratingExperience": "总的来说，您对 myHP 体验的满意度如何？",
+          "requiredFieldError": "提交前选择星级。",
+          "submitFeedback": "提交反馈",
+          "thankYouDisclaimer": "您的宝贵反馈有助于我们改善您的体验。",
+          "title": "与我们分享您的反馈"
+        },
+        "Privacy": {
+          "reviewPrivacy": "查看隐私选项",
+          "privacyContent": "myHP 中的功能专为增强和个性化您的整体 PC 体验而设计。在您的许可下，HP 会收集有关您的系统和功能的分析，以改进 HP 产品和服务。",
+          "infoUsed": "要进一步了解我们如何使用您的信息的，请访问",
+          "hpPrivacyStatement": "HP 隐私声明",
+          "learnMore": "要了解更多信息，请访问 ",
+          "hpInformation": "HP 系统信息数据收集 ",
+          "reviewPrivacySettings": "要查看您的隐私设置， ",
+          "clickHere": "请单击此处。"
+        },
+        "About": {
+          "myHP": "myHP",
+          "version": "版本",
+          "privacy": "HP 隐私政策",
+          "license": "HP 最终用户许可协议",
+          "copyright": "Copyright 2023 HP Development Company, L.P."
+        }
+      }
+    }
+  },
+  "zh-Hant-HK": {
+    "translation": {
+      "Settings": {
+        "privacy": "私隱",
+        "notifications": "通知",
+        "about": "關於",
+        "feedback": "意見回饋",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "請提供任何其他意見反饋",
+          "characterLimitError": "你已達到 2000 個字元的上限。",
+          "description": "請提供意見反饋，讓我們知道你的體驗如何。",
+          "feedbackDisclaimer": "本問卷調查旨在收集客戶對 HP 產品和服務的意見回饋。HP 可能會將本問卷調查中收集的資料結合現有的關於你的資料，一併使用，改進其產品和服務以滿足你的需求。HP 承諾會根據 HP 私隱聲明，尊重你的私隱。",
+          "feedbackThankYou": "謝謝你!",
+          "privacyLink": "HP 私隱聲明",
+          "privacyText": "為確保你的私隱與安全，切勿在評論欄填寫你的電話號碼、電郵地址等個人資料。 ",
+          "ratingDisclaimer": "(1 星 = 非常不滿意，5 星 = 非常滿意)",
+          "ratingExperience": "整體而言，你對 myHP 體驗有多滿意?",
+          "requiredFieldError": "提交前，請先選擇星級制評價。",
+          "submitFeedback": "提交意見回饋",
+          "thankYouDisclaimer": "你的寶意見將幫助我們改善你的體驗。",
+          "title": "向我們分享意見回饋"
+        },
+        "navItem": "設定",
+        "Notifications": {
+          "title": "管理通知",
+          "description": "修改通知偏好設計，以控制我們向你發送的訊息類型以及你接收此類訊息的方式。",
+          "on": "開啟",
+          "off": "關閉",
+          "turnOff": "Windows 通知已關閉",
+          "turnOn": "開啟以接收 myHP 通知",
+          "desktop": "桌面通知",
+          "openSettings": "開啟 Windows 設定",
+          "doubleCheck": "重覆檢查你的 Windows 通知設定，確保你能接收 HPX 通知。",
+          "device": {
+            "title": "裝置和帳戶",
+            "description": "你裝置和帳戶上的更新及支援警示"
+          },
+          "tips": {
+            "title": "貼士和教學",
+            "description": "了解如何在使用 myHP 和裝置時取得最佳體驗"
+          },
+          "news": {
+            "title": "新聞和優惠",
+            "description": "新產品、服務和優惠相關資訊"
+          },
+          "share": {
+            "title": "分享意見回饋",
+            "description": "透過分享你對產品或服務的意見回饋，協助我們改善你的體驗"
+          }
+        },
+        "Privacy": {
+          "reviewPrivacy": "細閱私隱選項",
+          "privacyContent": "myHP 中的功能經專門設計，以增強並帶來個人化的整體 PC 體驗。HP 在徵得你許可的情況下，會收集有關你的系統及功能的分析數據，以提升 HP 的產品和服務。",
+          "infoUsed": "如要進一步了解我們會如何使用你的資料，請瀏覽",
+          "hpPrivacyStatement": "HP 私隱聲明",
+          "learnMore": "如需進一步了解，請前往 ",
+          "hpInformation": "HP 系統資料數據收集 ",
+          "reviewPrivacySettings": "如需檢查你的私隱設定， ",
+          "clickHere": "點擊此處。"
+        },
+        "About": {
+          "myHP": "myHP",
+          "version": "版本",
+          "privacy": "HP 私隱政策",
+          "license": "HP 終端使用者授權協議",
+          "copyright": "Copyright 2023 HP Development Company, L.P."
+        }
+      }
+    }
+  },
+  "zh-Hant": {
+    "translation": {
+      "Settings": {
+        "privacy": "隱私權",
+        "notifications": "通知",
+        "about": "關於",
+        "feedback": "意見反應",
+        "Feedback": {
+          "additionalFeedbackPlaceholder": "提供任何額外意見反應",
+          "characterLimitError": "您已達到 2000 個字元的最大限制。",
+          "description": "請提供意見反應，讓我們知道我們的表現。",
+          "feedbackDisclaimer": "此調查的目的是收集客戶對 HP 產品和服務的意見反應。HP 可能會將本次調查中收集的資訊與其擁有、有關您的現有資訊結合使用，來改善產品和服務以滿足您的需求。HP 承諾根據 HP 的隱私權聲明尊重您的隱私權。",
+          "feedbackThankYou": "感謝您！!",
+          "privacyLink": "HP 隱私權聲明",
+          "privacyText": "為了您的隱私權和安全性，請勿在評論部分包含您的電話號碼或電子郵件地址等個人資訊。 ",
+          "ratingDisclaimer": "(1 星 = 非常不滿意，5 星 = 非常滿意)",
+          "ratingExperience": "總體而言，您對 myHP 體驗的滿意度如何？",
+          "requiredFieldError": "提交前選取星級評等。",
+          "submitFeedback": "提交意見反應",
+          "thankYouDisclaimer": "您的寶貴意見反應有助於我們改善您的體驗。",
+          "title": "與我們共享您的意見反應"
+        },
+        "navItem": "設定",
+        "Notifications": {
+          "title": "管理通知",
+          "description": "修改您的通知偏好設定以控制我們傳送給您的訊息類型和您接收的方式。",
+          "on": "開啟",
+          "off": "關閉",
+          "turnOff": "Windows 通知已關閉",
+          "turnOn": "開啟以接收 myHP 通知",
+          "desktop": "桌面通知",
+          "openSettings": "開啟 Windows 設定",
+          "doubleCheck": "仔細檢查您的 Windows 通知設定，以確認您能夠接收 HPX 通知。",
+          "device": {
+            "title": "裝置和帳戶",
+            "description": "您裝置和帳戶上的更新和支援警示"
+          },
+          "tips": {
+            "title": "提示和教學",
+            "description": "瞭解如何在使用 myHP 和您的裝置時獲得最佳體驗"
+          },
+          "news": {
+            "title": "新聞和優惠",
+            "description": "有關新產品、維修和優惠的資訊"
+          },
+          "share": {
+            "title": "共享您的意見反應",
+            "description": "共享您對產品或維修的意見反應來幫助我們改善您的體驗"
+          }
+        },
+        "Privacy": {
+          "reviewPrivacy": "檢閱隱私權選項",
+          "privacyContent": "myHP 中的功能專為增強和個人化您的整體電腦體驗而設計。HP 在您的許可下會收集有關您系統和功能的分析，以改善 HP 產品和服務。",
+          "infoUsed": "要瞭解有關如何使用您資訊的更多資訊，請造訪",
+          "hpPrivacyStatement": "HP 隱私權聲明",
+          "learnMore": "要瞭解更多資訊，請前往 ",
+          "hpInformation": "HP 系統資料資料收集 ",
+          "reviewPrivacySettings": "要檢視您的隱私權設定， ",
+          "clickHere": "按一下這裡。"
+        },
+        "About": {
+          "myHP": "myHP",
+          "version": "版本",
+          "privacy": "HP 隱私權政策",
+          "license": "HP 使用者授權合約",
+          "copyright": "Copyright 2023 HP Development Company, L.P."
+        }
+      }
+    }
+  }
+}

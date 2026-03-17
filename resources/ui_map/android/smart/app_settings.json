@@ -1,0 +1,108 @@
+{
+  "app_settings_title":{
+      "locator": {"str_id": "application_name"},
+      "ga": [
+        {
+          "ga_data":{
+            "screen": "/settings",
+            "count": 1},
+          "trigger": "wait_v",
+          "type": "screen"
+        }
+      ]
+    },
+  "sign_in_btn":{
+    "locator": {"id": "sign_in",
+                "str_id": "sign_in"}
+  },
+  "create_acc_btn":{
+    "locator": {"id": "create_account"}
+  },
+  "sign_out_btn": {
+    "_comment": "str_id is used for sign out btn on app setting, id is for popup",
+    "locator": {"text_ci": "{}",
+                "str_id": "sign_out",
+                "id": ["sign_out",
+                       "android:id/button1"]
+    }
+  },
+  "sign_out_alert_msg":{
+    "locator": {"str_id": "smb_signout_title",
+    "id": "dialog_main_text"}
+  },
+  "sign_out_alert_body_msg":{
+    "locator": {"str_id": "smb_signout_description"}
+  },
+  "hpc_username_txt":{
+    "locator": {"xpath": "//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/user_email' and @text='{}']",
+                "id": "user_email"}
+  },
+  "go_to_my_hpc_acc": {
+    "locator": {"id": "go_to_my_hp",
+    "str_id": "go_to_manage_hp_account"}
+  },
+  "on_off_btn": {
+    "locator": {"id": "switch_flag"}
+  },
+  "refresh_btn":{
+    "locator": {"id": "action_refresh_status"}
+  },
+  "app_improvement_program": {
+    "locator": {"str_id":  "app_settings_ga_title"}
+  },
+  "use_5ghz_wifi": {
+    "locator": {"str_id":  "use5ghzwifi"}
+  },
+  "my_account_text": {
+    "locator": {"str_id":  "title_account"}
+  },
+  "opt_item": {
+    "locator": {
+      "id": "adapter_item_tv_item",
+      "text": "{}"}
+  },
+  "item_title": {
+    "locator": {"xpath":  "//android.widget.TextView[@text = '{}']"}
+  },
+  "help_center": {
+    "locator": {"str_id":  "help_center"}
+  },
+  "notification_and_privacy": {
+    "locator": {"str_id": "notifications_and_privacy"}
+  },
+  "notification_settings": {
+    "locator": {"str_id":  "new_app_settings_notifications"}
+  },
+  "privacy_settings": {
+    "locator": {"str_id": "suresupplies_privacy_app_settings_header"}
+  },
+  "supply_status": {
+    "locator": {"str_id": "notifications_supply_status"}
+  },
+  "about": {
+    "locator": {"str_id": "about"}
+  },
+  "cancel_btn": {
+    "locator": {"id": "android:id/button2"}
+  },
+  "accept_cookies": {
+    "locator": {"xpath": ["//android.widget.Button[@text = 'Accept Cookies']", "//android.widget.Button[@resource-id = 'onetrust-accept-btn-handler']"]}
+  },
+  "management_my_personlized_promotions": {
+    "locator": {"str_id": "manage_privacy_settings"}
+  },
+  "having_trouble_signing_title":{
+    "locator": {"id": "login_title_textView"}
+  },
+  "close_button":{
+    "locator": {"id": "secondaryButton"}
+  },
+  "delete_account":{
+    "locator": {"str_id": "delete_account"}
+  },
+   "notification_privacy_settings_view": {
+    "locator": {
+      "id": "notificationPrivacySettingsRecyclerView"
+    }
+  }
+}

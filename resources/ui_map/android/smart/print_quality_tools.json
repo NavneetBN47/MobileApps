@@ -1,0 +1,11 @@
+{
+    "print_quality_tools_title":{
+        "locator": "xpath://*[@resource-id='com.hp.printercontrol.debug:id/adapter_item_tv_item']"
+    },
+    "print_quality_report_printer_btn":{
+        "locator": "//android.widget.FrameLayout[android.view.ViewGroup/android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/adapter_item_tv_item' and @text='Print quality report']]"
+    },
+    "view_all_print_quality_tools_arrow_btn":{
+        "locator": "//android.widget.FrameLayout[android.view.ViewGroup/android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/adapter_item_tv_item' and @text='View all print quality tools']]"
+    }
+}

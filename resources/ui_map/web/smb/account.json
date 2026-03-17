@@ -1,0 +1,549 @@
+{
+    "account_profile_tab":{
+        "locator": {
+            "css selector": "div[data-testid='setting-account-profile']"
+        }
+    },
+    "application_myAccount_profile_organization_tab":{
+        "locator": {
+            "css selector": "div#organization"
+        }
+    },
+    "application_myAccount_profile_personal":{
+        "locator": {
+            "css selector": "div#profile"
+        }
+    },
+    "organization_uid_txt": {
+        "locator": {
+            "css selector": "input[data-testid='organization-uid']"
+        }
+    },
+    "organization_name_txt": {
+        "locator": {
+            "css selector": "input[data-testid='organization-accountName']"
+        }
+    },
+    "organization_description_txt": {
+        "locator": {
+            "css selector": "textarea[data-testid='organization-description']"
+        }
+    },
+    "application_myAccount_profile_organization_uid": {
+        "locator": {
+            "css selector": "label#organization-uid-label"
+        }
+    },
+    "application_myAccount_profile_organization_name": {
+        "locator": {
+            "css selector": "label#organization-accountName-label"
+        }
+    },
+    "application_myAccount_profile_organization_description": {
+        "locator": {
+            "css selector": "label#organization-description-label"
+        }
+    },
+    "application_myAccount_modal_changeSuccess":{
+        "locator": {
+            "css selector": "div[role='alert'] div>div"
+        }
+    },
+    "application_myAccount_profile_button_applyChanges": {
+        "locator": {
+            "css selector": "button[data-testid='profile-contextual-toolbar-submit-button']"
+        }
+    },
+    "application_myAccount_profile_button_cancel": {
+        "locator": {
+            "css selector": "button[data-testid='profile-contextual-toolbar-cancel-button']"
+        }
+    },
+    "application_myAccount_modal_confirmModalTitle": {
+        "locator": {
+            "css selector": "label[data-testid='confirmation-modal-title']"
+        }
+    },
+    "application_myAccount_modal_toastLeavePage":{
+        "locator": {
+            "css selector": "div[data-testid='confirmation-modal-description']"
+        }
+    },
+    "application_myAccount_unsavedChanges_cancel": {
+        "locator": {
+            "css selector": "button[data-testid='confirmation-modal-cancel-btn']"
+        }
+    },
+    "application_myAccount_unsavedChanges_leave": {
+        "locator": {
+            "css selector": "button[data-testid='leave-button']"
+        }
+    },
+    "settings_header":{
+        "locator": {
+            "css selector": "div[data-testid='settings-title']"
+        }
+    },
+    "settings_body":{
+        "locator": {
+            "css selector": "div[data-testid='settings-description']"
+        }
+    },
+    "settings_accountProfile_header":{
+        "locator": {
+            "css selector": "[data-testid='setting-account-profile'] div:nth-child(2)>div:nth-child(1)"
+        }
+    },
+    "settings_accountProfile_body":{
+        "locator": {
+            "css selector": "[data-testid='setting-account-profile'] div:nth-child(2)>div:nth-child(2)"
+        }
+    },
+    "preferences_tab_title":{
+        "locator": {
+            "css selector": "[data-testid='setting-preferences'] div:nth-child(2)>div:nth-child(1)"
+        },
+        "localization": {
+            "en": "Preferences"
+        }
+    },
+    "preferences_tab_title_desc":{
+        "locator": {
+            "css selector": "[data-testid='setting-preferences'] div:nth-child(2)>div:nth-child(2)"
+        },
+        "localization": {
+            "en": "Manage your preferred settings."
+        }
+    },
+    "settings_shipping_header":{
+        "locator": {
+            "css selector": "div[data-testid='setting-shipping-tile-description-title']"
+        }
+    },    
+    "settings_shipping_body":{
+        "locator": {
+            "css selector": "div[data-testid='setting-shipping-tile-description-text']"
+        }
+    },
+    "settings_billing_header":{
+        "locator": {
+            "css selector": "div[data-testid='setting-billing-tile-description-title']"
+        }
+    },
+    "settings_billings_body":{
+        "locator": {
+            "css selector": "div[data-testid='setting-billing-tile-description-text']"
+        }
+    },
+    "application_myAccount_profile_description2":{
+        "locator": {
+            "css selector": "div[data-testid='account-profile-component']>div>div>div:nth-child(2)"
+        }
+    },
+    "application_myAccount_profile_mainHeader":{
+        "locator": {
+            "css selector": "div[data-testid='account-profile-component']>div>div>div:nth-child(1)"
+        }
+    },
+    "profile_personal_label":{
+        "locator": {
+            "css selector": "div#profile>span"
+        }
+    }, 
+    "profile_first_name_txt_box":{
+        "locator": {
+            "css selector": "input[data-testid='profile-givenName']"
+        }
+    }, 
+    "application_myAccount_profile_firstName": {
+        "locator": {
+            "css selector": "label#profile-givenName-label"
+        }
+    },
+    "profile_last_name_txt_box":{
+        "locator": {
+            "css selector": "input[data-testid='profile-familyName']"
+        }
+    },
+    "application_myAccount_profile_familyName": {
+        "locator": {
+            "css selector": "label#profile-familyName-label"
+        }
+    },
+    "profile_email_txt_box":{
+        "locator": {
+            "css selector": "input#profile-email"
+        }
+    },
+    "application_myAccount_profile_email":{
+        "locator": {
+            "css selector": "label#profile-email-label"
+        }
+    },
+    "organization_country_dropdown": {
+        "locator": {
+            "css selector": "input#organization-country"
+        }
+    }, 
+    "organization_country_dropdown_label":{
+        "locator": {
+            "css selector": "label#organization-country-label"
+        }
+    },
+    "profile_country_option": {
+        "locator": {
+            "css selector": "li#profile-country-option-{}"
+        }
+    },
+    "profile_phone_txt_box": {
+        "locator": {
+            "css selector": "input[data-testid='profile-phoneNumber"
+        }
+    },
+    "application_myAccount_profile_phoneNumber":{
+        "locator": {
+            "css selector": "label#profile-phoneNumber-label"
+        }
+    },
+    "application_myAccount_profile_constraints_invalidPhoneNumber":{
+        "locator":{
+            "css selector": "p#profile-phoneNumber-helper-text span:nth-child(2)"
+        }
+    },
+    "application_myAccount_profile_link_changePassword":{
+        "locator": {
+            "css selector": "div[data-testid='user-profile-changePassword-link']>a"
+        }
+    },
+    "settings_preferences_header":{
+        "locator": {
+            "css selector": "div[data-testid='settings-preferences-title']"
+        }
+    },
+    "settings_preferences_body":{
+    "locator": {
+        "css selector": "div[data-testid='settings-description']"
+        }
+    },
+    "settings_preferences_notifications":{
+    "locator": {
+        "css selector": "div#preferences-notifications-tab>span"
+        }
+    },
+    "settings_preferences_privacy":{
+    "locator": {
+        "css selector": "div#preferences-privacy-tab>span"
+        }
+    },
+    "settings_preferences_language":{
+    "locator": {
+        "css selector": "div#preferences-language-tab>span"
+        }
+    },
+    "privacy_tab":{
+        "locator": {
+            "css selector": "div#preferences-privacy-tab"
+        }
+    },
+    "language_tab":{
+        "locator": {
+            "css selector": "div#preferences-language-tab"
+        }
+    },
+    "notifications_tab":{
+        "locator": {
+            "css selector": "div#preferences-notifications-tab"
+        }
+    },
+    "settings_preferences_notificationPreferences_body":{
+    "locator": {
+        "css selector": "div[data-testid='notifications-preferences-header']"
+        }
+    },
+    "preferences_tab":{
+        "locator": {
+            "css selector": "div[data-testid='setting-preferences']"
+            }
+    },
+    "settings_preferences_notificationPreferences_printer_title":{
+        "locator": {
+            "css selector": "div[data-testid='notifications-preferences-table-printer-title']"
+            }
+    },
+    "settings_preferences_notificationPreferences_billing_title":{
+        "locator": {
+            "css selector": "div[data-testid='billing-title']"
+            }
+    },
+    "settings_preferences_notificationPreferences_promotions_title":{
+        "locator": {
+            "css selector": "div[data-testid='promotions-title']"
+            }
+    },
+    "settings_preferences_notificationPreferences_feature_title":{
+        "locator": {
+            "css selector": "div[data-testid='feature-title']"
+            }
+    },
+    "settings_preferences_notificationPreferences_printer_description":{
+        "locator": {
+            "css selector": "div[data-testid='notifications-preferences-table-printer-description']"
+            }
+    },
+    "settings_preferences_notificationPreferences_billing_description":{
+        "locator": {
+            "css selector": "div[data-testid='billing-description']"
+            }
+    },
+    "settings_preferences_notificationPreferences_promotions_description":{
+        "locator": {
+            "css selector": "div[data-testid='promotions-description']"
+            }
+    },
+    "settings_preferences_notificationPreferences_feature_description":{
+        "locator": {
+            "css selector": "div[data-testid='feature-description']"
+            }
+    },
+    "printer_type_toggle":{
+        "locator":{
+            "css selector":"#notifications-preferences-table-printer-toggle"
+        }
+    },
+    "billing_type_toggle":{
+        "locator":{
+            "css selector":"tr:nth-child(2) input[data-testid='action-toggle']+span"
+        }
+    },
+    "promotions_type_toggle":{
+        "locator":{
+            "css selector":"tr:nth-child(3) input[data-testid='action-toggle']+span"
+        }
+    },
+    "feature_type_toggle":{
+        "locator":{
+            "css selector":"tr:nth-child(4) input[data-testid='action-toggle']+span"
+        }
+    },
+    "printer_type_status":{
+        "locator":{
+            "css selector":"span#notifications-preferences-table-printer-toggle-label"
+        }
+    },
+    "required_button_status":{
+        "locator":{
+            "css selector":"span#required-toggle"
+        }
+    },
+    "billing_type_status":{
+        "locator":{
+            "css selector":"tr:nth-child(2) input[data-testid='action-toggle'] +span +span"
+        }
+    },
+    "promotions_type_status":{
+        "locator":{
+            "css selector":"tr:nth-child(3) input[data-testid='action-toggle'] +span +span"
+        }
+    },
+    "feature_type_status":{
+        "locator":{
+            "css selector":"tr:nth-child(4) input[data-testid='action-toggle'] +span +span"
+        }
+    },
+    "settings_preferences_notificationPreferences_toast_success":{
+        "locator":{
+            "css selector":"div[role='alert'] div>span"
+        }
+    },
+    "settings_preferences_notificationPreferences_toast_error":{
+        "locator":{
+            "css selector":"div[role='alert'] div>span"
+        }
+    },
+    "notification_table_headers":{
+        "locator":{
+            "css selector":"div#extended-preferences-notifications-tab tr th"
+        }
+    },
+    "privacy_tab_learnmore_hyperlink":{
+        "locator":{
+            "css selector": "div[id='settings-container-body'] p a"
+        },
+        "localization": {
+            "en": "Learn more"
+        }
+    },
+    "required_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "xpath": "//label[contains(text(),'Required')]"
+        },
+        "localization": {
+            "en": "Required"
+        }
+    },
+    "printer_analytics_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "div#settings-container-body ul li:nth-child(3) div:nth-child(2) label"
+        },
+        "localization": {
+            "en": "Printer Analytics"
+        }
+    },
+    "advertising_label":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "div#settings-container-body ul li:nth-child(5) div:nth-child(2) label"
+        },
+        "localization": {
+            "en": "Advertising"
+        }
+    },
+    "required_toggle_button_status" :{
+        "locator":{
+            "css selector": "span#required-toggle"
+        }
+    },
+    "printer_analytics_toggle_button_status":{
+        "locator":{
+            "css selector": "span#app-analytics-toggle"
+        }
+    },
+    "advertising_toggle_button_status":{
+        "locator":{
+            "css selector": "span#advertising-toggle"
+        }
+    },
+    "required_description":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "xpath": "//p[contains(text(),'HP will collect data')]"
+        },
+        "localization": {
+            "en": "HP will collect data from the printer to support HP Smart features and operation. We use the necessary data for required features. HP does not access the content of any shared or printed files."
+        }
+    },
+    "printer_analytics_description_part_1":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "xpath": "//p[contains(text(),'As an administrator,')]"
+        },
+        "localization": {
+            "en": "As an administrator, you are consenting for all users on behalf of the company."
+        }
+    },
+    "printer_analytics_description_part_2":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "xpath": "//p[contains(text(),'Your consent allows')]"
+        },
+        "localization": {
+            "en": "Your consent allows HP to track and analyze printer usage data from all users to improve future products and services, conduct research and development, and support business strategy and operations."
+        }
+    },
+    "advertising_description":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "xpath": "//p[contains(text(),'See relevant ad content from HP,')]"
+        },
+        "localization": {
+            "en": "See relevant ad content from HP, based on printer usage data. Some data will be shared with Google and Facebook. HP will not be advertising to your users, only to you, the administrator."
+        }
+    },
+    "settings_preferences_languageSelectDescription":{
+        "locator":{
+            "css selector": "div[aria-labelledby='preferences-language-tab'] p"
+        }
+    },
+    "language_tab_dropdown":{
+        "locator":{
+            "css selector": "div[aria-labelledby='preferences-language-tab'] >div"
+        }
+    },
+    "settings_preferences_searchLanguagePlaceholder":{
+        "locator":{
+            "css selector": ["input[placeholder='Search by language']",
+                            "input[placeholder='Busca por idioma']",
+                            "input[placeholder='Suche nach Sprache']",
+                            "input[placeholder='Buscar por idioma']"]
+        }
+    },
+    "settings_preferences_select_showingResult":{
+        "locator":{
+            "css selector": "ul#select-language-listbox>span"
+        }
+    },
+    "settings_preferences_select_showingResults":{
+        "locator":{
+            "css selector": "ul#select-language-listbox>span"
+        }
+    },
+    "settings_preferences_select_noResults":{
+        "locator":{
+            "xpath": "//div[contains(text(),'No results found')]"
+        }
+    },
+    "language_tab_dropdown_option":{
+        "locator":{
+            "css selector": "li#select-language-option-0"
+        }
+    },
+    "language_tab_dropdown_option_list":{
+        "locator":{
+            "css selector": "ul#select-language-listbox li"
+        }
+    },
+    "settings_preferences_apply":{
+        "locator":{
+            "css selector": ["button[data-testid='contextual-toolbar-action-confirm-apply-button']",
+                             "button[data-testid='contextual-toolbar-actions-apply-button']"]
+        }
+    },
+    "settings_preferences_cancel":{
+        "locator":{
+            "css selector": ["button[data-testid='contextual-toolbar-action-confirm-cancel-button']",
+                             "button[data-testid='contextual-toolbar-actions-cancel-button']"]
+        }
+    },
+    "settings_preferences_notificationPreferences_notificationType":{
+        "locator":{
+            "css selector": "th#notificationType"
+        }
+    },
+    "settings_preferences_notificationPreferences_email":{
+        "locator":{
+            "css selector": "th#email"
+        }
+    },
+    "settings_preferences_notificationPreferences_toggle_off":{
+        "locator":{
+            "css selector": "span#notifications-preferences-table-printer-toggle-label"
+        }
+    },
+    "settings_preferences_notificationPreferences_toggle_on":{
+        "locator":{
+            "css selector": "span#notifications-preferences-table-printer-toggle-label"
+        }
+    },
+    "settings_preferences_unsavedChangesModal_title": {
+        "locator": {
+            "css selector": "div[data-testid='modal-header'] div[class*='title']"
+        }
+    },
+    "settings_preferences_unsavedChangesModal_body":{
+        "locator": {
+            "css selector": "div[data-testid='body-text']"
+        }
+    },
+    "preferences_unsaved_changes_popup_cancel_button": {
+        "locator": {
+            "css selector": "button[data-testid='cancel-btn']"
+        }
+    },
+    "preferences_unsaved_changes_popup_leave_button": {
+        "locator": {
+            "css selector": "button[data-testid='leave-btn']"
+        }
+    }
+}  

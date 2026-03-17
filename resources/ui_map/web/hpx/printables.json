@@ -1,0 +1,33 @@
+{
+    "accept_all_btn": {
+        "locator": {
+            "id": "onetrust-accept-btn-handler",
+            "xpath": "//*[@Name='Accept']"
+        }
+    },
+    "search_edit": {
+        "locator": {
+            "id": "search-disable-click"
+        }
+    },
+    "happy_4_item": {
+        "locator": {
+            "xpath": "//Text[@Name='Happy 4']"
+        }
+    },
+    "happy_4_image": {
+        "locator": {
+            "xpath": "//HyperLink[@Name='Home']/following-sibling::HyperLink[1]"
+        }
+    },
+    "web_print_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Print Icon Print']"
+        }
+    },
+    "dialog_print_btn": {
+        "locator": {
+            "xpath": "//Button[@Name='Print']"
+        }
+    }
+}

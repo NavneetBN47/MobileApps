@@ -1,0 +1,22 @@
+{
+  "doc_provider_tab_nav": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@name='Doc Provider']"
+    }
+  },
+  "event_history_tab_nav": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Event History']"
+    }
+  },
+  "weblet_tab_nav": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Weblet']"
+    }
+  },
+  "application_window": {
+    "locator": {
+      "xpath": "//XCUIElementTypeApplication"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "new_mark_header": {
+    "locator": {
+      "css selector": "[data-testid='header-title']"
+    }
+  },
+  "new_mark_button": {
+    "locator": {
+      "css selector": "[data-coachmark='new-mark-button']"
+    }
+  },
+  "stroke_thickness_btn": {
+    "locator": {
+      "css selector": "[data-testid='stroke-thickness-button-{}']"
+    }
+  },
+  "markup_text_option": {
+    "locator": {
+      "css selector": "[data-testid='text-button']"
+    }
+  },
+  "markup_textbox": {
+    "locator": {
+      "css selector": "[data-testid='signature-pad-input']"
+    }
+  },
+  "dismiss_scribble_pop_up_btn": {
+    "locator": {
+      "css selector": "[aria-label='Close coachmark']"
+    }
+  },
+  "scribble_pad": {
+    "locator": {
+      "css selector": "[data-testid='signature-pad-canvas']"
+    }
+  },
+  "trash_btn": {
+    "locator": {
+      "css selector": "[data-testid='trash-button']"
+    }
+  },
+  "save_btn": {
+    "locator": {
+      "css selector": "[data-coachmark='done-button']"
+    }
+  },
+  "drawn_mark": {
+    "locator": {
+      "css selector": "[data-coachmark='markup-element']"
+    }
+  },
+  "place_mark_coachmark_popup": {
+    "locator": {
+      "css selector": "[data-testid='coachmark']"
+    }
+  },
+  "place_mark_coachmark_next_btn": {
+    "locator": {
+      "css selector": "[aria-label='Next']"
+    }
+  },
+  "place_mark_coachmark_popup_close_btn": {
+    "locator": {
+      "css selector": "[aria-label='Close coachmark']"
+    }
+  },
+  "saved_marks_btn": {
+    "locator": {
+      "css selector": "[data-testid='markups-list-button']"
+    }
+  },
+  "select_saved_marks_btn": {
+    "locator": {
+      "css selector": "[data-testid='action-button']"
+    }
+  },
+  "saved_mark_image": {
+    "locator": {
+      "css selector": "[data-testid='grid-list-column-content']"
+    }
+  },
+  "saved_mark_image_unchecked": {
+    "locator": {
+      "css selector": "[data-testid='grid-list-column-content'] [aria-checked='false']"
+    }
+  },
+  "saved_mark_image_data": {
+    "locator": {
+      "css selector": "[data-testid='grid-list-column-content'] img"
+    }
+  },
+  "delete_selected_btn": {
+    "locator": {
+      "css selector": "[data-testid='delete-selected-button']"
+    }
+  },
+  "empty_marks_list_text": {
+    "locator": {
+      "css selector": "[data-testid='markup-list-no-items-text']"
+    }
+  },
+  "full_page_selection": {
+    "locator": {
+      "css selector": "[data-testid='full-page-selection']"
+    }
+  },
+  "full_page_image": {
+    "locator": {
+      "css selector": "[data-testid='document-page']"
+    }
+  },
+  "grid_page_first_image": {
+    "locator": {
+      "css selector": "[alt*='page 1']"
+    }
+  },
+  "grid_page_selection": {
+    "locator": {
+      "css selector": "[data-testid='tile-page-selection']"
+    }
+  },
+  "grid_view_btn": {
+    "locator": {
+      "css selector": "[data-testid='view-mode-switch-button-tiles']"
+    }
+  },
+  "scribble_back_btn": {
+    "locator": {
+      "css selector": "[data-testid='history-back-icon']"
+    }
+  }
+}

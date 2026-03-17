@@ -1,0 +1,57 @@
+{
+    "no_issue_found_title_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/DiagnoseFoundNoIssues/Text"}
+    },
+    "here_are_your_results_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/DiagnoseResultHeader/Text"}
+    },
+    "did_that_solve_the_problem_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/VerifyIssueSolvedHeader/Text"}
+    },
+    "chat_with_virtual_agent_link": {
+        "_comment": "Chat with Virtual Agent",
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/VirtualAgentChatLink/Content"}
+    },
+    "online_troubleshooting_link": {
+        "_comment": "Online Troubleshooting",
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/OnlineTroubleshootingLink/Content"}
+    },
+    "software_and_driver_downloads_link": {
+        "_comment": "Software and Driver Downloads",
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/SoftwareAndDriverDownLoadLink/Content"}
+    },
+    "hp_support_forum_link": {
+        "_comment": "HP Support Forum",
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/HPSupportForumLink/Content"}
+    },
+    "test_print_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/TestPrint/Content"} 
+    },
+    "done_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/Done/Content",
+                    "xpath": "//List[@AutomationId='DiagnoseResultListView']/following-sibling::Button[1]"} 
+    },
+    "exit_diagnosing_and_fix_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/ConfirmExit_Title/Text"}
+    },
+    "exit_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/ConfirmExit_YesBtn/Content"}
+    },
+    "continue_btn": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/ContinueButton/Content"}
+    },
+    "diagnoseing_and_fixing_text": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/DiagnoseProgressMessage/Text"}
+    },
+    "still_having_problems_title": {
+        "locator": {"str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/StillProblemUseAdditionalResources/Text"}
+    },                         
+    "try_again_btn": {
+        "locator": {"xpath": "//Button[@Name='Try Again']",
+        "str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/TryAgain/Content"} 
+    },
+    "next_btn": {
+        "locator": {"xpath": "//Button[@Name='Next']",
+        "str_id": "HP.Framework.Extensions.PsDrSoftware/Resources/Next/Content"} 
+    }
+}

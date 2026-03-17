@@ -1,0 +1,73 @@
+{
+    "touchpad_header": {
+        "locator": {
+            "id": "AUID_pctrackpad-core_NavBreadcrumb_Pctrackpad-core"
+        }
+    },
+    "touchpad_card": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core"
+        }
+    },
+    "touchpad_card_title": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core-text"
+        }
+    },
+    "touchpad_card_discription": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core-description"
+        }
+    },
+    "touchpad_title": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_touchpad_title"
+        }
+    },
+    "touchpad_tooltip": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_tooltip_info"
+        }
+    },
+    "touchpad_enable_toggle_switch": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GestureSwitch_gestures_switch"
+        }
+    },
+    "touchpad_brightness_string": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_text_brightness"
+        }
+    },
+    "touchpad_volume_string": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_text_volume"
+        }
+    },
+    "touchpad_win_setting": {
+        "locator": {
+            "id": "AUID_PCTrackpad_GesturesView_touchpad_settings_button"
+        }
+    },
+    "win_setting_touchpad_feedback_enable_toggle": {
+        "locator": {
+            "id": "SystemSettings_Input_Touch_FeedbackGroup_ToggleSwitch"
+        }
+    },
+    "touchpad_device_page_header": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core"
+        }
+    },
+    "touchpad_device_page_header_text": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core-text"
+        }
+    },
+    "touchpad_device_page_header_description": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureCard_pctrackpad-core-description"
+        }
+    }
+    
+}

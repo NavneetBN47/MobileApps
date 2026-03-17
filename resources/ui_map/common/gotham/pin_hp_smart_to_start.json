@@ -1,0 +1,38 @@
+{
+    "pin_hp_smart_to_start_title": {
+        "locator": {
+            "id": "HpTitle",
+            "str_id": "HP.Framework.Extensions.HelpExtension/Resources/PinningSetting"
+        }
+    },
+    "pin_hp_smart_to_start_back_btn": {
+        "locator": {"id": "TitleBackButton"}
+    },
+    "make_it_easy_to_find": {
+        "locator": {"id": "WelcomePinTitleText"}
+    },
+    "pin_this_app_to_the_start_screen": {
+        "locator": {"id": "WelcomePinDescriptionText"}
+    },
+    "pin_to_start_btn": {
+        "locator": {"id": "PinToStartButton"}
+    },
+    "note_you_can_unpin": {
+        "locator": {"id": "WelcomePinNoteText"}
+    },
+    "pin_to_start_image": {
+        "locator": {"id": "PinToStartImage2"}
+    },
+    "do_you_want_to_pin_dialog": {
+        "locator": {"xpath": "//Window[@AutomationId='Popup Window']/Text[@AutomationId='Title']"}
+    },
+    "do_you_want_to_pin_dialog_yes_btn": {
+        "locator": {"id": "Button1"}
+    },
+    "do_you_want_to_pin_dialog_no_btn": {
+        "locator": {"id": "Button0"}
+    },
+    "app_is_already_pinned": {
+        "locator": {"id": "AppAlreadyPinnedText"}
+    }
+}

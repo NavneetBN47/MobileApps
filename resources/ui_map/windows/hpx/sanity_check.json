@@ -1,0 +1,179 @@
+{
+    "support_module_title":{
+        "locator": {
+            "id": "AUID_Support_support-header"
+        }
+    },
+    "programmable_save_button":{
+        "locator": {
+            "id": "AUID_HPPK_Assign_SaveButton"
+        }
+    },
+    "programmable_title":{
+        "locator": {
+            "id": "AUID_HPPK_Progkey_personalizedShorcuts"
+        }
+    },
+
+    "smartCamV3_camera":{
+        "locator": {
+            "name": "HP IR RGB Camera1"
+        }
+    },
+    "home_section_title":{
+        "locator": {
+            "id": "AUID_ControlYourPC_Section_SectionTitle"
+        }
+    },
+    "display_control_module":{
+        "locator": {
+            "name": "Brightness & Contrast"
+        }
+    },
+    "smartcamV3_close_btn":{
+        "locator": {
+            "name": "Close"
+        }
+    },
+    "top_build_version":{
+        "locator": {
+            "id": "appVerText"
+        }
+    },
+    "snooze_duration_text": {
+        "locator": {
+            "name": "Snooze Duration"
+        }
+    },
+    "dimming_restore_button": {
+        "locator": {
+            "name": "Restore Default Settings"
+        }
+    },
+    "fiveG_connectivity": {
+        "locator": {
+            "name": "5G Connectivity"
+        }
+    },
+    "enable_rgb_lighting": {
+        "locator": {
+            "id": "AUID_RGB_KEYBOARD_Switch_RGB_Lighting"
+        }
+    },
+    "pen_top_button": {
+        "locator": {
+            "id": "AUID_PenControl_Heading_upper barrel"
+        }
+    },
+    "pc_device_section": {
+        "locator": {
+            "id": "AUID_PCDevicePage_Section_SectionTitle"
+        }
+    },
+    "support_card": {
+        "locator": {
+            "id": "AUID_Support_device_card_CND2390V16"
+        }
+    },
+    "support_guide_title": {
+        "locator": {
+            "id": "AUID_Support_title-device-support"
+        }
+    },
+    "bell_icon": {
+        "locator": {
+            "id": "AUID_APPBAR_Bellnotifications_BellIcon"
+        }
+    },
+    "notifications_tips": {
+        "locator": {
+            "name": "Notifications"
+        }
+    },
+    "bell_flyout_notification": {
+        "locator": {
+            "id": "AUID_APPBAR_Bellnotifications_FlyoutContent"
+        }
+    },
+    "new_message": {
+        "locator": {
+            "name": "No new messages!"
+        }
+    },
+    "system_control_subtitle_consumer": {
+        "locator": {
+            "id": "AUID_PCSystemControl_subTitle_consumer"
+        }
+    },
+    "system_control_subtitle_commercial": {
+        "locator": {
+            "id": "AUID_PCSystemControl_title_commercial"
+        }
+    },
+    "screen_time_subtitle": {
+        "locator": {
+            "name": "Manage and track the time you spend on your PC. This feature requires access to your camera."
+        }
+    },
+    "screen_distance_subtitle": {
+        "locator": {
+            "name": "Set Preferred Distance"
+        }
+    },
+    "touchpad_title": {
+        "locator": {
+            "id": "AUID_pctrackpad-core_NavBreadcrumb_Pctrackpad-core"
+        }
+    },
+    "touchpad_gesture_control": {
+        "locator": {
+            "name": "Enable gesture control"
+        }
+    },
+    "right_itg": {
+        "locator": {
+            "id": "AUID_PenControl_Button_upper barrel"
+        }
+    },
+    "home_next_step": {
+        "locator": {
+            "id": "AUID_CEPRenderer_NextSteps_Title"
+        }
+    },
+    "audio_module_itg": {
+        "locator": {
+            "id": "AUID_PCDevicePage_FeatureItem_pcaudio-core-text"
+        }
+    },
+    "audio_card_home": {
+        "locator": {
+            "id": "AUID_FeatureCard_FeatureCard_pcaudio-core"
+        }
+    },
+    "battery_information": {
+        "locator": {
+            "id": "AUID_PCBatteryManager_BatteryInformation_Header"
+        }
+    },
+    "charging_options": {
+        "locator": {
+            "id": "AUID_PCBatteryManager_chargingOptions_Header"
+        }
+    },
+    "attention_focus": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_FEATURE_DETAILS_TITLE_ATTENTIONFOCUS"
+        }
+    },
+    "onlooker_detection": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_FEATURE_DETAILS_TITLE_ONLOOKERDETECTION"
+        }
+    },
+    "enable_screen_blur": {
+        "locator": {
+            "id": "AUID_SMARTEXPERIENCE_SUBFEATURE_TITLE_ENABLE SCREEN BLUR"
+        }
+    }
+
+}

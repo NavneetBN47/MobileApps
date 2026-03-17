@@ -1,0 +1,117 @@
+{
+    "assign_printer_owner_page":{
+        "locator":{"css selector":"[data-testid='assign-org-page']"},
+        "analytics":[{
+            "event":"ScreenDisplayed,CompanyName,/PortalOobe/,DomainNotExist,AssignOwnership-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "header":{
+        "locator":{"css selector":"[data-testid='text-header']"}
+    },
+    "subheader":{
+        "locator":{"css selector":"[data-testid='text-subheader']"}
+    },
+    "organization_name_group_container":{
+        "locator":{"css selector":".vn-radio-button__span-text"},
+        "analytics":[{
+            "event":"ControlButtonClicked,CompanyName,/PortalOobe/,RadioButton,DomainExist,ExistingOrg,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "assign_organization":{
+        "locator":{"css selector":"[data-testid='account-creation-page']"}
+    },
+    "assign_orgnazation_container":{
+        "locator":{"css selector":"[data-testid='assign-org-page']"}
+    },
+    "organization_name_box":{
+        "locator":{"css selector":"#organization"},
+        "analytics":[{
+            "event":"ControlButtonClicked,CompanyName,/PortalOobe/,OrgNameText,DomainNotExist,Provided,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "assign_printer_owner_radiogroup":{
+        "locator":{"css selector":"[name='radiobutton_default']"}
+    },
+    "select_new_organization_radio_button":{
+        "locator":{"css selector":"[data-testid='radio-button-new']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,CompanyName,/PortalOobe/,RadioButton,DomainExist,NewOrg,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    },
+    "hp_smart_terms_conditions_url":{
+        "locator":{"css selector":"a[href='https://www.hpsmart.com/us/en/admin-tou']"}
+    },
+    "hp_smart_terms_conditions_title":{
+        "locator":{"css selector":"[data-testid='smb-admin-tou']"}
+    },
+    "organization_labels_name":{
+        "locator":{"css selector":"#organization-label"}
+    },
+    "organization_labels_invalid_name_text":{
+        "locator":{"css selector":"[data-testid='invalid-org-name-error']"}
+    },
+    "organization_labels_country":{
+        "locator":{"css selector":"#vn-select-1-label"}
+    },
+    "organization_country_region_drop_down":{
+        "locator":{"css selector":"[data-testid='select_field']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,CompanyName,/PortalOobe/,SelectCountryDropDown,DomainNotExist,US,AssignOwnership-v01",
+            "trigger":"wait_v"
+        }]  
+    },
+    "organization_country_region_selector":{
+        "locator":{"css selector":"[data-testid='veneer-select']"}
+    },
+    "organization_country_region_option_from_the_drop_down":{
+        "locator":{"css selector":["#vn-select-1-option-0", "[data-option-index='0']"]}
+    },
+    "country_region_drop_down_listbox":{
+        "locator":{"css selector":["#vn-select-1-listbox","[role='listbox']"]}
+    },
+    "trinidad_tobago_country_selector":{
+        "locator":{"css selector":["#vn-select-1-option-162", "[data-value='TT']"]}
+    },
+    "united_states_country_selector":{
+        "locator":{"css selector":["#vn-select-1-option-168", "[data-value='US']"]}
+    },
+    "supported_countries_hyperlink_btn":{
+        "locator":{"css selector":"[href='#']"}
+    },
+    "hp+_supported_countries_modal":{
+        "locator":{"css selector":"[data-testid='supported-countries-modal']"}
+    },
+    "printer_is_not_supported_in_selected_region_modal":{
+        "locator":{"css selector":"[aria-describedby='error-modal-desc']"}
+    },
+    "printer_is_not_supported_in_selected_region_modal_support_btn":{
+        "locator":{"css selector":"[data-testid='support']"}
+    },
+    "organization_labels_country_error_text":{
+        "locator":{"css selector":"[data-testid='country-error']"}
+    },
+    "organization_labels_description":{
+        "locator":{"css selector":"#organization-description-label"}
+    },
+    "organization_description_box":{
+        "locator":{"css selector":"#organization-description"},
+        "analytics":[{
+            "event":"ControlButtonClicked,CompanyName,/PortalOobe/,OrgDescText,DomainNotExist,Blank,AssignOwnership-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "agreement_terms":{
+        "locator":{"css selector":"[data-testid='assign-org-tou']"}
+    },
+    "continue_button_text":{
+        "locator":{"css selector":"[data-testid='submit']"},
+        "analytics":[{
+            "event":"ControlButtonClicked,CompanyName,/PortalOobe/,ContinueButton,DomainNotExist,AssignOwnership-v01",
+            "trigger":"click"
+        }]
+    }
+}

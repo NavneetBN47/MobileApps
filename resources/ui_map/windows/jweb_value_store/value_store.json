@@ -1,0 +1,17 @@
+{
+  "get_btn": {
+    "locator": {
+      "name": "Get Values"
+    }
+  },
+  "put_btn": {
+    "locator": {
+      "name": "Set Key-Value Pairs"
+    }
+  },
+  "remove_btn": {
+    "locator": {
+      "name": "Remove Key-Value Pairs"
+    }
+  }
+}

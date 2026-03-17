@@ -1,0 +1,22 @@
+{
+  "doc_source_button": {
+    "locator": {
+      "name": "Doc Source"
+    }
+  },
+  "file_system_doc_source_button": {
+    "locator": {
+      "name": "FileSystem Doc Source"
+    }
+  },
+  "doc_transformer_button": {
+    "locator": {
+      "name": "Doc Transformer"
+    }
+  },
+  "doc_destination_button": {
+    "locator": {
+      "name": "Doc Destination"
+    }
+  }
+}

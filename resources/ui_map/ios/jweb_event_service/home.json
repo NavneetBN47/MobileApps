@@ -1,0 +1,22 @@
+{
+  "publishers_tab_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@label='Publishers']"
+    }
+  },
+  "subscribers_tab_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@label='Subscribers']"
+    }
+  },
+  "events_tab_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@label='Events']"
+    }
+  },
+  "weblet_tab_btn": {
+    "locator": {
+      "xpath":"//XCUIElementTypeButton[@label='Weblet']"
+    }
+  }
+} 

@@ -1,0 +1,109 @@
+{
+  "tests_nav_btn": {
+    "locator": {
+      "name": "Tests"
+    }
+  },
+  "log_nav_btn": {
+    "locator": {
+      "name":"Log"
+    }
+  },
+  "cred_nav_btn": {
+    "locator": {
+      "name": "Cred"
+    }
+  },
+  "devices_nav_btn": {
+    "locator": {
+      "name": "Devices"
+    }
+  },
+  "messages_nav_btn": {
+    "locator": {
+      "name": "Messages"
+    }
+  },
+  "roam_nav_btn": {
+    "locator":{
+      "name": "Roam"
+    }
+  },
+  "jweb_nav_btn":{
+    "locator":{
+      "name": "JWeb"
+    }
+  },
+  "custom_auth_nav_btn":{
+    "locator":{
+      "name":"CustomAuth"
+    }
+  },
+  "push_nav_btn": {
+    "locator": {
+      "name": "Push"
+    }
+  },
+  "options_nav_btn": {
+    "locator": {
+      "name": "Options"
+    }
+  },
+  "create_account_btn":{
+    "locator":{
+      "name": "Create account"
+    }
+  },
+  "ok_btn":{
+    "locator":{
+      "name":"Ok"
+    }
+  },
+  "reference_btn":{
+    "locator":{
+      "name":"Reference"
+    }
+  },
+  "menu_btn":{
+    "locator":{
+      "xpath":"//Group[@AutomationId='jwebSideMenu']"
+    }
+  },
+  "expand_plugins_menu_btn":{
+    "locator":{
+      "name": "Plugins",
+      "xpath":"//ListItem[@AutomationId='pluginsSideMenuItem']"
+    }
+  },
+  "plugin_item":{
+    "locator":{
+      "xpath": "//ListItem[@Name='{}']/HyperLink"
+    }
+  },
+  "nav_back_btn":{
+    "locator":{
+      "xpath":"//Window[@ClassName='ApplicationFrameWindow']"
+    }
+  },
+  "maximize_btn":{
+    "locator":{
+      "xpath":"//Button[@AutomationId='Maximize']"
+    }
+  },
+  "select_auth_provider_option":{
+    "locator":{
+      "xpath":"//ListItem[@Name='OneCloudUsingBrowser']",
+      "name":"StratusUsingBrowser" 
+    }
+  },
+  "one_cloud_using_browser_option":{
+    "locator":{
+      "name":"OneCloudUsingBrowser"
+    }
+  },
+  "stratus_using_browser_option":{
+    "locator":{
+      "name":"StratusUsingBrowser"
+  }
+}
+}

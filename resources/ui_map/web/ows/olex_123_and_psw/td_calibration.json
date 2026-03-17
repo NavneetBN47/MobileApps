@@ -1,0 +1,74 @@
+{
+    "title_header":{
+        "locator":{"css selector":"[data-testid='instruction-page-header-alignment']"}
+    },
+    "animation_card_instruction_0":{
+        "locator":{"css selector":"[data-testid='instruction-modal-0']"}
+    },
+    "animation_card_step_0":{
+        "locator":{"css selector":"[data-testid='animation-0']"}
+    },
+    "animation_card_instruction_1":{
+        "locator":{"css selector":"[data-testid='instruction-modal-1']"}
+    },
+    "animation_card_step_1":{
+        "locator":{"css selector":"[data-testid='animation-1']"}
+    },
+    "animation_card_instruction_2":{
+        "locator":{"css selector":"[data-testid='instruction-modal-2']"}
+    },
+    "animation_card_step_2":{
+        "locator":{"css selector":"[data-testid='animation-2']"}
+    },
+    "animation_card_instruction_3":{
+        "locator":{"css selector":"[data-testid='instruction-modal-3']"}
+    },
+    "animation_card_step_3":{
+        "locator":{"css selector":"[data-testid='animation-3']"}
+    },
+    "animation_card_instruction_4":{
+        "locator":{"css selector":"[data-testid='instruction-modal-4']"}
+    },
+    "animation_card_step_4":{
+        "locator":{"css selector":"[data-testid='animation-4']"}
+    },
+    "animation_card_instruction_5":{
+        "locator":{"css selector":"[data-testid='instruction-modal-5']"}
+    },
+    "alignment_card_image_0":{
+        "locator":{"css selector":"[data-testid='image-list-0']"}
+    },
+    "alignment_card_image_1":{
+        "locator":{"css selector":"[data-testid='image-list-1']"}
+    },
+    "alignment_card_image_2":{
+        "locator":{"css selector":"[data-testid='image-list-2']"}
+    },
+    "alignment_card_image_3":{
+        "locator":{"css selector":"[data-testid='image-list-3']"}
+    },
+    "alignment_card_image_4":{
+        "locator":{"css selector":"[data-testid='image-list-4']"}
+    },
+    "alignment_card_image_5":{
+        "locator":{"css selector":"[data-testid='image-list-5']"}
+    },
+    "alignment_card_instruction_0":{
+        "locator":{"css selector":"[data-testid='instruction-list-0']"}
+    },
+    "alignment_card_instruction_1":{
+        "locator":{"css selector":"[data-testid='instruction-list-1']"}
+    },
+    "alignment_card_instruction_2":{
+        "locator":{"css selector":"[data-testid='instruction-list-2']"}
+    },
+    "alignment_card_instruction_3":{
+        "locator":{"css selector":"[data-testid='instruction-list-3']"}
+    },
+    "alignment_card_instruction_4":{
+        "locator":{"css selector":"[data-testid='instruction-list-4']"}
+    },
+    "alignment_card_instruction_5":{
+        "locator":{"css selector":"[data-testid='instruction-list-5']"}
+    }
+}

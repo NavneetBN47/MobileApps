@@ -1,0 +1,45 @@
+{
+    "remediations_activity_page_breadcrumb":{
+        "locator": {
+            "css selector": "#activity span[aria-current='page']"
+        }
+    },
+    "remediations_activity_add_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Add')]/parent::button"
+        }
+    },    
+    "add_activity_page_title":{
+        "locator": {
+            "css selector": "p[class*='title-regular']"
+        },
+        "localization": {
+            "en": "Add Activity"
+        }
+    },
+    "add_activity_page_cancel_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Cancel')]/parent::button"
+        }
+    },
+    "activity_page_title":{
+        "locator": {
+            "css selector": "div[data-testid='wex-summary-card'] h3>div>div:nth-child(1)"
+        }
+    },
+    "activity_page_activity_name":{
+        "locator": {
+            "css selector": "div#wex-details-section-field-0 div[class*='editable-value'] div:nth-child(1)"
+        }
+    },
+    "activity_page_edit_button":{
+        "locator": {
+            "css selector": "div[class='col']>div:nth-child(1) button"
+        }
+    },
+    "activity_page_delete_button":{
+        "locator": {
+            "css selector": "button[data-testid='mobile-inlineBtns-0']"
+        }
+    }
+}

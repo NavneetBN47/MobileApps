@@ -1,0 +1,119 @@
+{
+    "dock_station_module": {
+        "locator": {
+            "id": "pcdock_core_NavigationViewItem_ID"
+        }
+    },"dock_station_title": {
+        "locator": {
+            "id": "AUID_PCDock_Header_DeviceName_customName"
+        }
+    },"dock_station_content": {
+        "locator": {
+            "id": "AUID_PCDock_Header_DeviceName_Txt_DeviceNameInputv4"
+        }
+    },"dock_station_title_edit_button": {
+        "locator": {
+            "id": "AUID_PCDock_Header_DeviceName_DeviceNameEditBtnv4"
+        }
+    },"dock_station_module_name": {
+        "locator": {
+            "id": "AUID_PCDock_Header_DeviceName_ModelName"
+        }
+    },"dock_station_module_name1": {
+        "locator": {
+            "name": "HP Thunderbolt Dock G4"
+        }
+    },"dock_station_support_button": {
+        "locator": {
+            "id": "AUID_PCDock_SupportButton"
+        }
+    },"dock_station_scroll_view_page": {
+        "locator": {
+            "id": "AUID_PCDock_ScrollView"
+        }
+    },"dock_station_image": {
+        "locator": {
+            "xpath": "//*[@AutomationId='AUID_PCDock_ScrollView']/*[@ClassName='DynamicAutomationPeer']"
+        }
+    },"dock_station_connection_button": {
+        "locator": {
+            "id": "AUID_PCDock_Header_Status_USB_v4"
+        }
+    },"dock_station_connection_button1": {
+        "locator": {
+            "id": "AUID_PCDock_Header_Status_USB_ToolTip"
+        }
+    },"dock_station_infor_button": {
+        "locator": {
+            "id": "AUID_PCDock_Header_InfoPopOver_v4"
+        }
+    },"dock_station_clear_button": {
+        "locator": {
+            "name": "Delete"
+        }
+    },
+    "dock_station_serial_number": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/*[@ClassName='DynamicAutomationPeer'][2]"
+        }
+    },
+    "dock_station_firmware_version": {
+        "locator": {
+            "xpath": "//*[@ClassName='Windows.UI.Core.CoreWindow']/*[@ClassName='DynamicAutomationPeer'][5]"
+        }
+    },
+    "dock_station_rename_error_message": {
+        "locator": {
+            "id": "AUID_PCDock_ValidationTooltipText"
+        }
+    },"serial_number_dock_station": {
+        "locator": {
+            "id": "AUID_PCDock_Header_DeviceInfo_CopyableValue_SerialNumberAnalyticsId_v4"
+        }
+    },
+    "copy_icon_dock_station": {
+        "locator": {
+            "id": "AUID_PCDock_Header_DeviceInfo_CopyIcon_SerialNumberAnalyticsId_v4"
+        }
+    },
+    "firmware_version_dock_station": {
+        "locator": {
+            "id": "AUID_PCDock_Header_DeviceInfo_DeviceInfoValue_Status_Value_FirmwareVersionAnalyticsId"
+        }
+    },
+    "file_button_on_notepad": {
+        "locator": {
+            "name": "File"
+        }
+    },
+    "new_tab_on_notepad": {
+        "locator": {
+            "name": "New tab"
+        }
+    },
+    "version_on_notepad": {
+        "locator": {
+            "name": "*5CG427Z7HM - Notepad"
+        }
+    },
+    "version_paste_on_notepad": {
+        "locator": {
+            "name": "Text editor"
+        }
+    },
+    "support_module": {
+        "locator": {
+            "name": "navigate_support_module"
+        }
+    },
+    "settings_module": {
+        "locator": {
+            "name": "navigate_settings_module"
+        }
+    },
+    "bell_icon": {
+        "locator": {
+            "id": "AUID_APPBAR_Bellnotifications_BellIcon"
+        }
+    }
+}

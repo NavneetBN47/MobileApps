@@ -1,0 +1,35 @@
+{
+    "connected_printing_services_continue_btn":{
+        "locator": {"id": ["consent-button", "consent-accept-all-button"],
+                    "css selector":["button[data-testid='button']", "#continue-button", "#consent-button"]}
+    },
+    "connected_printing_services_title":{
+        "locator":{"css selector":"#title-text"}
+    },
+    "printer_consents_content":{
+        "locator":{"css selector":"#hpsmart-content"},
+        "comment": "Adding Printer Pairing Code Success data-analytics event here as pairingcode success page not static enough to validate and this is a consents page is a common page after pairing code success page for flows LF,SMB,HP+,onboard",
+        "analytics":[{
+            "event":"ScreenDisplayed,PairingCodeSuccess,/PortalOobe/,BizModel,Factory_Flex,PairingCode-v01",
+            "trigger":"wait_v"
+        }]
+    },
+    "printer_consents_container":{
+        "locator":{"css selector":"#content-container"}
+    },
+    "connected_printing_services_manage_options_btn":{
+        "locator":{"css selector":"#consent-manage-options-button"}
+    },
+    "manage_options_modal":{
+        "locator":{"css selector":"#regular-modal-desc"}
+    },
+    "learn_more_hyperlink":{
+        "locator":{"xpath":"//*[@id='settings-container-body']/p/a"}
+    },
+    "manage_options_back_button":{
+        "locator":{"css selector":"#smb-consent-back-button"}
+    },
+    "cloudflare_error_message":{
+        "locator":{"css selector":"#cf-error-details"}
+    }
+}

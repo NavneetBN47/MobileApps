@@ -1,0 +1,304 @@
+{
+  "printer_title":{
+    "locator": {"str_id": ["add_printer", "printer_setting"]}
+  },
+  "search_btn":{
+    "locator": {"id": "menu_search"}
+  },
+  "search_tf":{
+    "locator": {"id": "search_src_text"}
+  },
+  "printers_lv":{
+    "locator": {"id": "networkPrinterRecyclerView"}
+  },
+  "search_for_printer_txt_box":{
+    "locator": {
+      "str_id": "device_picker_search_for_printer_hint",
+      "xpath": "//*[@resource-id = 'com.hp.printercontrol.debug:id/search_src_text']"
+    }
+  },
+  "select_printer":{
+    "locator":{
+      "xpath" : ["//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup/android.widget.TextView[@text='{}']"]
+    }
+  },
+  "printer_status_txt": {
+    "locator": {"id": "connection_status",
+                "xpath": ["//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/connection_status' and contains(@text, '{}')]",
+                          "//android.widget.TextView[@resource-id = 'com.hp.printercontrol:id/connection_status' and contains(@text, '{}')]",
+                          "//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/ssid' and contains(@text, '{}')]"]}
+  },
+  "wifi_direct_printer_title": {
+    "locator":{"str_id": "wifi_direct_printers"}
+  },
+  "wifi_direct_lv":{
+    "locator": {"id": "apRecyclerView"}
+  },
+  "wifi_direct_connection_status": {
+    "locator": {"id": "connection_status"}
+  },
+  "wifi_direct_desc": {
+    "locator": {"id": "wireless_direct_msg"}
+  },
+  "wifi_direct_disconnect_from_printer_button": {
+    "locator": {"id": "wifi_direct_reconnect_to_network"}
+  },
+  "wifi_direct_connect_to_printer_button": {
+    "locator": {"id": "connect_to_wireless_direct"}
+  },
+  "pwd_cancel_button": {
+    "locator": {"id": "cancel_button"}
+  },
+  "pwd_connect_button": {
+    "locator": {"id": "connect_button"}
+  },
+  "pwd_edit_tf": {
+    "locator": {"id": "wireless_password_edit_view"}
+  },
+  "wifi_direct_wrong_long_pwd_title":{
+    "locator": {"id": "alertTitle",
+                "str_id": "problem"}
+  },
+  "wifi_direct_wrong_long_pwd_txt":{
+    "locator": {"str_id": "delay_try_connect_again_with_password"}
+  },
+  "wifi_direct_wrong_pwd_txt":{
+    "locator": {"id": "wrong_password_label",
+                "str_id": "awc_password_popup_title"}
+  },
+  "looking_for_wifi_direct_printers_btn":{
+    "locator": {"id": "showWifiDirectPrintersButton"}
+  },
+  "search_printers_popup_title":{
+    "locator": {"id": "dialog_title"}
+  },
+  "search_printers_popup_continue_btn":{
+    "locator": {"str_id": "continue_text"}
+  },
+  "add_printer_btn":{
+    "locator": {"str_id": "add_printer_item"}
+  },
+  "alternative_add_printer_btn":{
+    "locator": {"id": "setupNewPrinterButton"}
+  },
+  "add_printer_title":{
+    "locator": {"str_id": "add_printer"}
+  },
+  "printer_setup_title":{
+    "locator": {"str_id": "printer_setting"}
+  },
+  "add_printer_lv":{
+    "locator": {"id": "apRecyclerView"}
+  },
+  "add_printer_cell":{
+    "locator": {"class name": "android.widget.RelativeLayout"}
+  },
+  "add_printer_ssid":{
+    "locator": {"id": "ssid",
+                "xpath": "//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/ssid' and contains(@text, '{}')]"}
+  },
+  "add_printer_connection_status":{
+    "locator": {"id": "connection_status"}
+  },
+  "add_printer_printer_not_found_layout":{
+    "locator": {"id": "printersNotFoundLayout"}
+  },
+  "add_printer_no_printers_txt":{
+    "locator": {"str_id": "no_printers_in_setup_mode_updated"}
+  },
+  "my_printer_is_not_listed_button": {
+    "locator": {"id": ["ap_selection_printer_not_present", "printerNotListedButton"],
+                "str_id": "ap_selection_printer_not_present"}
+  },
+  "printer_not_listed_btn": {
+    "_comment": "on Android 10 and up for Printer Setup screen (Add printer)",
+    "locator": {"id": ["printerNotListed", "printerNotListedButton"],
+                "str_id": "printer_not_listed"}
+  },
+  "search_again_btn": {
+    "locator": {"id": "searchAgainButton"}
+  },
+  "exit_setup_btn": {
+    "locator": {"id": "exitSetupButton"}
+  },
+  "prepare_ethernet_header_txt": {
+      "locator": {"str_id": "ethernet_connectivity_info_header"}
+  },
+  "prepare_wifi_header_txt": {
+    "locator": {"str_id": "wifi_connectivity_info_header"}
+  },
+  "prepare_wifi_printer_learn_more_txt": {
+    "locator": {"id": "wifiInfoBody4"}
+  },
+  "wifi_learn_more_popup_title_txt": {
+    "locator": {"str_id": "location_info_dialog_header"}
+  },
+  "wifi_learn_more_popup_body_txt": {
+    "locator": {"id": "msgTextView"}
+  },
+  "wifi_learn_more_popup_ok_btn": {
+    "locator": {"id": "buttonOK"}
+  },
+  "get_more_help_button": {
+    "locator": {"str_id": "get_more_help"}
+  },
+  "find_printer_btn":{
+    "locator": {"id": "findPrinter"}
+  },
+  "printer_oobe_name":{
+    "locator": {"text": "{}"}
+  },
+  "setup_printer_continue_btn":{
+    "locator": {"id": "continueButton"}
+  },
+  "select_network_ssid":{
+    "locator": {"text": "{}"}
+  },
+  "try_again_button": {
+    "locator": {"id": "printersetup_tryagain_button"}
+  },
+  "cancel_button": {
+    "locator": {"id": "printersetup_cancel_button"}
+  },
+  "select_printer_spinner":{
+    "locator": {"id": "printersetup_printerlist_spinner"}
+  },
+  "select_printer_lists":{
+    "locator": {"class name": "android.widget.ListView"}
+  },
+  "select_printer_item":{
+    "locator": {"partial_text":  "{}"}
+  },
+  "my_printer_is_not_listed_txt":{
+    "locator": {"str_id": "my_printer_is_not_listed_item"}
+  },
+  "printer_not_listed_help_text": {
+    "locator": {"id": "printer_setup_printer_not_listed_textView"}
+  },
+  "printer_setup_mode_cb":{
+    "locator": {"id": "printersetup_setupmode_checkBox"}
+  },
+  "setup_mode_inst_link": {
+    "locator": {"id": "printersetup_furtherhelp_setupmode"}
+  },
+  "setup_mode_inst_popup_title":{
+    "locator": {"str_id": "dialog_restore_network_defaults_title_textview"}
+  },
+  "setup_mode_inst_popup_ok_btn": {
+    "locator": {"id": "new_printer_dialog_setup_mode_button_ok"}
+  },
+  "printer_network_setup_cb":{
+    "locator": {"id": "printersetup_networkcredentials_checkBox"}
+  },
+  "network_setup_inst_link":{
+    "locator": {"id": "printersetup_furtherhelp_network"}
+  },
+  "network_setup_inst_popup_title":{
+    "locator": {"str_id": "dialog_find_ssid_and_password_title"}
+  },
+  "network_setup_inst_popup_ok_btn": {
+    "locator": {"id": "new_printer_dialog_network_info_button_ok"}
+  },
+  "printer_hp_envy_7100_series": {
+    "locator": {"partial_text_ci": "HP Envy 7100",
+                "id": "text1"}
+  },
+  "hide_printer_btn": {
+    "locator": {"str_id": "hide_printer"}
+  },
+  "find_printer_text": {
+    "locator": {"id": "findPrinter",
+    "str_id": "find_printer_button"}
+  },
+  "option_add_btn": {
+    "locator": {"id": "addPrinter"}
+  },
+  "option_get_started_btn": {
+    "locator": {"id": "getStarted"}
+  },
+  "option_get_started_img": {
+    "locator": {"id": "setupNewPrinterImage"}
+  },
+  "option_add_printer_img": {
+    "locator": {"id": "addExistingPrinterImage"}
+  },
+  "connection_type_title": {
+    "locator": {"id": "chooseTypeOfConnectionTitle"}
+  },
+  "connection_type_wifi_rb": {
+    "locator": {"id": "wifiRadio"}
+  },
+  "connection_type_ethernet_rb": {
+    "locator": {"id": "ethernetRadio"}
+  },
+  "location_notice_title_txt": {
+    "locator": {"str_id": "location_disclaimer_dialog_title"}
+  },
+  "location_notice_txt": {
+    "locator": {
+      "id": "dialog_main_text"
+    },
+    "_comment": "Always use the str_id value as the format_specifier for itself to locate this element"
+  },
+  "location_notice_continue_btn": {
+    "locator": {"id": "moobe_dialog_button_left"}
+  },
+  "turn_on_bluetooth_title_txt": {
+    "locator": {"str_id": "ble_message_dialog_title"}
+  },
+  "turn_on_bluetooth_txt": {
+    "locator": {"str_id": "ble_mandatory_message_dialog_body"}
+  },
+  "turn_on_bluetooth_btn": {
+    "locator": {
+      "xpath": "//android.widget.Button[@text='{}']",
+      "str_id": "continue_text"
+    },
+    "_comment": "Always use the uppercase str_id value as the format_specifier for itself to locate this element"
+  },
+  "turn_on_location_title_txt": {
+    "locator": {"str_id": "awc_turn_on_location_to_set_up_your_printer"}
+  },
+  "turn_on_location_settings_btn": {
+    "locator": {
+      "xpath": "//android.widget.Button[@text='{}']",
+      "str_id": "awc_open_settings"
+    },
+    "_comment": "Always use the uppercase str_id value as the format_specifier for itself to locate this element"
+  },
+  "provide_permissions_popup_title_txt": {
+    "locator": {
+      "id": "titleTextView",
+      "xpath": "//*[@resource-id='com.hp.printercontrol.debug:id/titleTextView' and @text='{}']"
+    },
+    "_comment": "Use provide_permissions_popup_*_title_str locators str_id values for format_specifier"
+  },
+  "provide_permissions_popup_nearby_device_title_str": {
+    "locator": {"str_id": "nearby_permission_dialog_title"}
+  },
+  "provide_permissions_popup_precise_location_title_str": {
+    "locator": {"str_id": "precise_permission_dialog_title"}
+  },
+  "provide_permissions_popup_all_permissions_title_str": {
+    "locator": {"str_id": "nearby_location_bt_permission_dialog_title"}
+  },
+  "provide_permissions_popup_all_permissions_old_title_str": {
+    "locator": {"str_id": "nearby_location_bt_permission_dialog_title_olderOS"},
+    "_comment": "Android 11 and below have different all_permissions title text"
+  },
+  "provide_permissions_popup_permissions_btn": {
+    "locator": {"id": "buttonOpenPermission"}
+  },
+  "provide_permissions_popup_exit_btn": {
+    "locator": {"id": "buttonExitSetup"}
+  },
+  "continue_turn_on_bluetooth":{
+    "locator":{ "id": "android:id/button1" }
+  },
+  "allow_bluetooth":{
+    "locator":  {"str_id": "allow" }
+  },
+  "help_find_your_printer_msg":{
+    "locator": {"str_id": "connectivity_not_listed_header"}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "device_info_test_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@title, 'getInfo')]/following::XCUIElementTypeButton[@title='Test']"
+    }
+  },
+  "language_code_test_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@title, 'getLanguageCode')]/following::XCUIElementTypeButton[@title='Test']"
+    }
+  },
+  "device_info_test_result": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@title, 'getInfo')]/following::XCUIElementTypeStaticText[contains(@value, '{')]"
+    }
+  },
+  "language_test_result": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[contains(@title, 'getLanguageCode')]/following::XCUIElementTypeStaticText[contains(@value, '{')]"
+    }
+  }
+}

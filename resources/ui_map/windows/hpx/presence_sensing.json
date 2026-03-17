@@ -1,0 +1,12 @@
+{
+    "presence_sensing_module_on_home_page":{
+        "locator": {
+            "id": "AUID_FeatureCard_FeatureCard_presencesensing-core"
+        }
+    },
+    "navigate_settings_module": {
+        "locator": {
+            "id": "settings_core_NavigationViewItem_ID"
+        }
+    }
+}

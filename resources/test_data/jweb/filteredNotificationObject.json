@@ -1,0 +1,117 @@
+{
+    "version": "1.3.0",
+    "events": [
+      {
+        "version": "1.4.0",
+        "dateTime": "2022-11-18T00:18:09.701Z",
+        "eventCategory": "transitionComCent",
+        "eventDetail": {
+          "version": "1.0.0",
+          "ClassVersion": "1.0.0",
+          "EventId": "1e52d812-ee69-461c-8e56-8179852c0f86",
+          "EventCategory": "Navigation",
+          "EventType": "ScreenView",
+          "EventName": "ReachScreen",
+          "EventPar1": "",
+          "EventPar2": "",
+          "EventPar3": "",
+          "EventPar4": "",
+          "EventPar5": "",
+          "EventPar6": "",
+          "EventPar7": "DummyData",
+          "EventPar8": "DummyData"
+        },
+        "filter": {
+          "filterId": 1265817339,
+          "filterType": "inclusion",
+          "attributes": [
+            "$.version",
+            "$.EventType",
+            "$.EventPar4",
+            "$.EventPar3",
+            "$.EventId",
+            "$.EventPar2",
+            "$.EventPar1",
+            "$.EventPar8",
+            "$.EventPar7",
+            "$.EventPar6",
+            "$.EventPar5",
+            "$.EventName",
+            "$.ClassVersion",
+            "$.EventCategory"
+          ],
+          "resourceId": "com.hp.cdm.domain.telemetry.type.eventDetail.category.transitionComCent.version.1"
+        },
+        "eventDetailType": "com.hp.cdm.domain.telemetry.type.eventDetail.category.transitionComCent.version.1",
+        "sequenceNumber": 162,
+        "sequenceNumberGlobal": 503
+      },
+      {
+        "version": "1.4.0",
+        "dateTime": "2022-11-08T15:24:05.051Z",
+        "eventCategory": "systemInformation",
+        "eventDetail": {
+          "version": "1.0.0",
+          "osArchitecture": "bit_64",
+          "osCountryRegion": "US",
+          "osLanguage": "en",
+          "osName": "Windows 10.0.19042.2130",
+          "osScreenResolution": "1920x1080",
+          "osVersion": "10.0.19042.2130",
+          "sysArchitecture": "x64",
+          "sysBatteryEnabled": "true",
+          "sysCategory": "desktop",
+          "sysManufacturer": "HP",
+          "sysModelName": "SSWETHA22",
+          "sysTouchEnabled": "false",
+          "sysSku": "5FD92UC#ACJ"
+        },
+        "filter": {
+          "filterId": 652964987,
+          "filterType": "inclusion",
+          "attributes": [
+            "$.version",
+            "$.sysArchitecture",
+            "$.sysCategory",
+            "$.sysModelName",
+            "$.sysBatteryEnabled",
+            "$.osArchitecture",
+            "$.osLanguage",
+            "$.sysTouchEnabled",
+            "$.osName",
+            "$.osCountryRegion",
+            "$.osVersion",
+            "$.sysManufacturer",
+            "$.osScreenResolution",
+            "$.sysSku"
+          ],
+          "resourceId": "com.hp.cdm.domain.telemetry.type.eventDetail.category.systemInformation.version.1"
+        },
+        "eventDetailType": "com.hp.cdm.domain.telemetry.type.eventDetail.category.systemInformation.version.1",
+        "sequenceNumber": 37,
+        "sequenceNumberGlobal": 78
+      }
+    ],
+    "originator": {
+      "originatorDetail": {
+        "version": "1.1.0",
+        "currentDateTime": "2022-11-08T15:24:05.137Z",
+        "sysUuid": "6ec57c55-c027-fe94-60a0-bcb5e2203a62",
+        "osPlatform": "iOS",
+        "appName": "hp.jarvis.datacollection.reference.uwp",
+        "appVersion": "1.0.0.0",
+        "appPackageId": "HP_Jarvis_DataCollection_Reference_UWP/1.0",
+        "appPackageDeployedUuid": "9f568fcc-c5c2-4a95-bea2-85e488c6549d"
+      },
+      "originatorDetailType": "com.hp.cdm.domain.telemetry.type.originatorDetail.originator.ucdeSoftware.version.1"
+    },
+    "originatorContext": {
+      "originatorContextDetail": {
+        "version": "1.4.0",
+        "associatedDeviceUuid": "e20c9d99-0659-4bc7-ac46-dae63c767b94",
+        "associatedStratusUserId": "6346218a46cf10bf2843979",
+        "appCaid": "urn:daid:c6074f2d40610eaffbda1187852107fa"
+      },
+      "originatorContextDetailType": "com.hp.cdm.domain.telemetry.type.originatorContextDetail.originator.ucdeSoftware.version.1"
+    }
+  }

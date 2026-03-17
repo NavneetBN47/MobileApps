@@ -1,0 +1,213 @@
+{
+    "simple_print_window": {
+        "locator": {"xpath": "//Window[last()]"}
+    },
+    "vertical_scrollbar": {
+        "_comment": "ScrollBar",
+        "locator": {"id": "VerticalScrollBar"}
+    },
+    "preview_image": {
+        "_comment": "ScrollBar",
+        "locator": {"id": "ZoomScrollViewer"}
+    },
+    "all_files_combo": {
+        "_comment": "File Picker dialog: All files(*.pdf)",
+        "locator": {"id": "1136"}
+    },
+    "dynamic_file_item": {
+        "_comment": "File Picker dialog: All files(*.pdf)",
+        "locator": {"xpath": "//ListItem[@Name='{}']"}
+    },
+    "file_name_combo_box_edit": {
+        "_comment": "File Name Combo box Edit on File Picker dialog",
+        "locator": {"xpath": "//Edit[@AutomationId='1148']"}
+    },
+    "file_picker_dialog_print_btn": {
+        "_comment": "Print/Select Photos to Print button on File Picker dialog",
+        "locator": {"xpath": "//Button[@AutomationId='1']"}
+    },
+    "file_picker_dialog_cancel_btn": {
+        "_comment": "Cancel button on File Picker dialog",
+        "locator": {"xpath": "//Button[@AutomationId='2']"}
+    },
+    "file_picker_dialog_close_btn": {
+        "_comment": "close button on File Picker dialog",
+        "locator": {"xpath": "//Window[@Name='Open']/TitleBar[1]/Button[1]"}
+    },
+    "simple_print_dialog_close_btn": {
+        "locator": {"xpath": ["//Button[@Name='Close Simple PDF print - Print']", "//Button[@Name='Close Simple photo print - Print']"]}
+    },
+    "simple_print_dialog_print_btn": {
+        "locator": {"id": "PrintButton"}
+    },
+    "simple_print_dialog_cancel_btn": {
+        "locator": {"id": "CloseButton"}
+    },
+    "file_name_edit_on_save_print_output_as_dialog": {
+        "locator": {"id": "1001"}
+    },
+    "save_btn_on_save_print_output_as_dialog": {
+        "locator": {"id": "1"}
+    },
+    "simple_preview_image": {
+        "_comment": "Simple PDF & photo print dialog",
+        "locator": {"id": "PreviewImage"}
+    },
+    "total_page_num": {
+        "_comment": "Simple PDF & photo print dialog",
+        "locator": {"id": "TotalPageNumber"}
+    },
+    "printer_combo_box": {
+        "_comment": "Simple PDF & photo print dialog",
+        "locator": {"id": "printerSelector"}
+    },
+    "printer_list_item": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='printerSelector']/ListItem[contains(@Name, '{}')]"}
+    },
+    "print_to_pdf_item": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='printerSelector']/ListItem[contains(@Name, 'Microsoft Print to PDF')]"}
+    },
+    "let_the_app_toggle": {
+        "_comment": "Simple PDF & photo print dialog",
+        "locator": {"id": "UseAppFeaturesCheckBox"}
+    },
+    "orientation_text": {
+        "locator": {"id": "PageOrientation_DisplayName"}
+    },
+    "orientation_setting": {
+        "locator": {"id": "PageOrientation_ItemList"}
+    },
+    "dynamic_orientation_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='PageOrientation_ItemList']/ListItem[@Name='{}']"}
+    },                                       
+    "paper_size_text": {
+        "locator": {"id": "PageMediaSize_DisplayName"}
+    },
+    "paper_size_setting": {
+        "locator": {"id": "PageMediaSize_ItemList"}
+    },
+    "dynamic_paper_size_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='PageMediaSize_ItemList']/ListItem[@Name='{}']"}
+    },
+    "dynamic_paper_size_num": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='PageMediaSize_ItemList']/ListItem[{}]"}
+    },
+    "paper_type_text": {
+        "locator": {"id": "PageMediaType_DisplayName"}
+    },
+    "paper_type_setting": {
+        "locator": {"id": "PageMediaType_ItemList"}
+    },
+    "dynamic_paper_type_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='PageMediaType_ItemList']/ListItem[@Name='{}']"}
+    },
+    "output_quality_text": {
+        "locator": {"id": "PageOutputQuality_DisplayName"}
+    },
+    "output_quality_setting": {
+        "locator": {"id": "PageOutputQuality_ItemList"}
+    },               
+    "dynamic_output_quality_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='PageOutputQuality_ItemList']/ListItem[@Name='{}']"}
+    },
+    "copies_text": {
+        "locator": {"id": "JobCopiesAllDocuments_DisplayName"}
+    },
+    "copies_number_box": {
+        "locator": {"id": ["JobCopiesAllDocuments_NumberText", "InputBox"]}
+    },
+    "copies_number_minus_btn": {
+        "locator": {"id": ["JobCopiesAllDocuments_DecreaseButton", "DownSpinButton"]}
+    },
+    "copies_number_plus_btn": {
+        "locator": {"id": ["JobCopiesAllDocuments_IncreaseButton", "UpSpinButton"]}
+    },
+    "duplex_printing_text": {
+        "locator": {"id": "DocumentDuplex_DisplayName"}
+    },
+    "duplex_printing_setting": {
+        "locator": {"id": "DocumentDuplex_ItemList"}
+    },
+    "dynamic_duplex_printing_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='DocumentDuplex_ItemList']/descendant::Text[@Name='{}']"}
+    },
+    "page_range_text": {
+        "locator": {"id": "psRange_DisplayName"}
+    },
+    "page_range_setting": {
+        "locator": {"id": "psRange_ItemList"}
+    },
+    "dynamic_page_range_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='psRange_ItemList']/ListItem[@Name='{}']"}
+    },
+    "page_range_edit_text": {
+        "locator": {"id": "psRangeEdit_DisplayName"}
+    },
+    "page_range_edit": {
+        "locator": {"id": "psRangeEdit_ValueText"}
+    },
+    "more_settings_link": {
+        "locator": {"id": "moreOptionsButton"}
+    },
+    "more_settings_menu_dialog_ok_btn": {
+        "locator": {"id": ["OkButton", "Button1"]}
+    },
+    "photo_size_text": {
+        "locator": {"id": "psPhotoSize_DisplayName"}
+    },
+    "photo_size_setting": {
+        "locator": {"id": "psPhotoSize_ItemList"}
+    },
+    "dynamic_photo_size_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='psPhotoSize_ItemList']/ListItem[@Name='{}']"}
+    },
+    "select_a_layout_text": {
+        "locator": {"id": "psLayout_DisplayName"}
+    },
+    "select_a_layout_setting": {
+        "locator": {"id": "psLayout_ItemList"}
+    },
+    "dynamic_select_a_layout_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='psLayout_ItemList']/ListItem[@Name='{}']"}
+    },                                                 
+    "scaling_text": {
+        "locator": {"id": "psScaling_DisplayName"}
+    },
+    "scaling_setting": {
+        "locator": {"id": "psScaling_ItemList"}
+    },
+    "dynamic_scaling_value": {
+        "locator": {"xpath": "//ComboBox[@AutomationId='psScaling_ItemList']/ListItem[@Name='{}']"}
+    },
+    "combo_box_close_btn": {
+        "locator": {"id": "Light Dismiss"}
+    },
+    "portrait_text": {
+        "locator": {"xpath": "//Text[@Name='Portrait']"}
+    },
+    "password_needed_dialog": {
+        "locator": {"xpath": "//Text[@Name='Password needed']"}
+    },
+    "enter_a_password_text": {
+        "locator": {"xpath": "//Text[@Name='Enter a password to open file']"}
+    },
+    "dynamic_text": {
+        "locator": {"xpath": "//Text[@Name='{}']"}
+    },
+    "password_edit": {
+        "locator": {"xpath": "//*[@Name='Password needed']/following-sibling::Edit[1]"}
+    },
+    "dialog_cancel_btn": {
+        "locator": {"xpath": "//Button[@Name='Cancel']"}
+    },
+    "dialog_ok_btn": {
+        "locator": {"xpath": "//Button[@Name='OK']"}
+    },
+    "password_incorrect_text": {
+        "locator": {"xpath": "//Text[@Name='The Password is incorrect. Try again']"}
+    },
+    "landscape_text": {
+        "locator": {"xpath": "//Text[@Name='Landscape']"}
+    }
+
+}

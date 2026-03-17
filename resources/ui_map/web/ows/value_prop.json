@@ -1,0 +1,84 @@
+
+{
+    "image_carousel": {
+        "locator": {
+            "css selector": ".value-prop-image"
+        }
+    },
+    "background_image": {
+        "locator": {
+            "css selector": ["[class*='prop-background']", ".value-prop-image"],
+            "name": "HP Product Setup"
+        }
+    },
+    "ucde_create_hp_account_and_benefits_page":{
+        "locator":{"css selector":"#moobe"}
+    },
+    "ucde_account_prop_skip_activation":{
+        "locator":{"css selector":["button.btn-enabled.ng-binding.btn-tertiary", "[event-id='decline-account']"],
+                   "xpath":"//button[conatins(ng-click, 'skip()']"}
+    },
+    "ucde_account_prop_sign_in_btn":{
+        "locator":{"css selector":["button.btn-enabled.btn-secondary.footer-button.ng-binding.ng-scope", "[event-id='sign-in']"],
+                   "xpath":"//button[conatins(ng-click, 'signIn()']"}
+    },
+    "ucde_account_prop_create_account_btn":{
+        "locator":{"css selector":"button.btn-enabled.btn-primary.footer-button.ng-binding",
+                   "xpath":"//button[conatins(ng-click, 'createAccount()']"}
+    },
+    "shell_title_printer_setup":{
+        "locator":{"str_id":"HP.Framework.Extensions.OobeSetup/Resources/OobeSetup"}
+    },
+    "shell_title_exit_setup":{
+        "locator":{"str_id":"Resources/ExitButton/Content"}
+    },
+    "_shared_primary_btn": {
+        "locator": {
+            "css selector": ".btn-primary",
+            "name": "Set Up a New Printer",
+            "xpath": "//Button[@Name='Set Up a New Printer']"
+        }
+    },
+    "_shared_secondary_btn": {
+        "locator": {
+            "css selector": [".btn-secondary", "button[event-id='sign-in']"],
+            "name": "Sign In",
+            "xpath": ["//Button[@Name='Sign In']", "//Text[@Name='Sign In']"]
+        }
+    },
+    "_shared_tertiary_btn": {
+        "locator": {
+            "css selector": ".btn-tertiary",
+            "name": "Skip for now",
+            "xpath": ["//Button[@Name='Skip for now']", "//Pane[@AutomationId='OwsWebView']/Pane[last()]/Button[last()]"]
+        }
+    },
+    "sign_in_btn_hpx":{
+        "locator": {
+            "comment": "Sign in button in HPX",
+            "name": "Sign in"
+        }
+    },
+    "continue_as_guest_btn_hpx":{
+        "locator": {
+            "comment": "Continue as guest buttonf in HPX",
+            "name": "Continue as guest"
+        }
+    },
+    "offline_retry_popup_title":{
+        "locator": {
+            "class name": "android.widget.TextView",
+            "text": ["//*[@text='You are currently offline']", "//*[@text='Please reconnect to the internet and try again.']"],
+            "xpath": ["//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/noNetworkConnectionDialogTitle']",
+                      "//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/noNetworkConnectionDialogMsg1']"]
+        }
+    },
+    "offline_retry_popup_ok":{
+        "locator": {
+            "class name": "android.widget.Button",
+            "text": "//*[@text='Retry']",
+            "xpath": "//android.widget.Button[@resource-id='com.hp.printercontrol.debug:id/noNetworkConnectionDialogContinueButton']"
+
+        }
+    }
+}

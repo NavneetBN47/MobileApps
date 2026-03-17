@@ -1,0 +1,260 @@
+{
+  "create_subscriber_id_textbox": {
+    "locator": {
+      "css selector": "#subscriberIdField"
+    }
+  },
+  "create_publisher_id_textbox": {
+    "locator": {
+      "css selector": "#publisherIdField"
+    }
+  },
+  "create_subscriber_btn": {
+    "locator": {
+      "css selector": "#createSubscriberButton"
+    }
+  },
+  "first_generated_subscriber": {
+    "locator": {
+      "css selector": "#subscribersGeneratedItem button"
+    }
+  },
+  "first_generated_publisher": {
+    "locator": {
+      "css selector": "#publisherGeneratedContent button"
+    }
+  },
+  "subscribe_event_name_textbox": {
+    "locator": {
+      "css selector": "#subscribeEventName",
+      "xpath": "//XCUIElementTypeOther[contains(@label,'Event Name')]/following::XCUIElementTypeTextField"
+    }
+  },
+  "subscribe_publisher_id_textbox": {
+    "locator": {
+      "css selector": "#subscribePublisherId"
+    }
+  },
+  "create_publisher_btn": {
+    "locator": {
+      "css selector": "#createPublisherButton"
+    }
+  },
+  "publisher_event_name_textbox": {
+    "locator": {
+      "css selector": "#publisherEventName",
+      "xpath": "//XCUIElementTypeOther[@name='com.hp.jarvis.new.app.publisher']/following::XCUIElementTypeTextField[1]"
+    }
+  },
+  "publisher_event_data_textbox": {
+    "locator": {
+      "css selector": "#eventData",
+      "xpath": "//XCUIElementTypeOther[@name='com.hp.jarvis.new.app.publisher']/following::XCUIElementTypeTextField[2]"
+    }
+  },
+  "publish_btn": {
+    "locator": {
+      "css selector": "#publisher-modal-desc #eventServiceButton"
+    }
+  },
+  "subscribe_btn": {
+    "locator": {
+      "css selector": "#subscribeButton"
+    }
+  },
+  "unsubscribe_event_name_textbox": {
+    "locator": {
+      "css selector": "#unsubscribeEventName"
+    }
+  },
+  "unsubscribe_publisher_id_textbox": {
+    "locator": {
+      "css selector": "#unsubscribePublisherId"
+    }
+  },
+  "unsubscribe_btn": {
+    "locator": {
+      "css selector": "#unsubscribeButton"
+    }
+  },
+  "subscription_generated_event_name": {
+    "locator": {
+      "css selector": "#subscriptionsGeneratedItem li div div span"
+    }
+  },
+  "subscription_generated_publisher_id": {
+    "locator": {
+      "css selector": "#subscriptionsGeneratedItem li div div p"
+    }
+  },
+  "toast_notification": {
+    "locator": {
+      "css selector": "[role=alert]"
+    }
+  },
+  "native_select_existing_subscribe": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='chevron']"
+    }
+  },
+  "native_select_add_new_subscriber_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Add']"
+    }
+  },
+  "native_create_subscriber_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Create new subscriber']"
+    }
+  },
+  "native_is_persist_yes_subscriber": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Yes']"
+    }
+  },
+  "native_is_persist_no_subscriber": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='No']"
+    }
+  },
+  "native_select_newly_created_subscriber": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[2]//XCUIElementTypeButton[@name='chevron']"
+    }
+  },
+  "native_pause_events_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Pause events']"
+    }
+  },
+  "native_resume_events_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Resume events']"
+    }
+  },
+  "native_subscriptions_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Subscriptions']"
+    }
+  },
+  "native_select_publisher": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Publishers']/following::XCUIElementTypeStaticText[contains(@name,'{}')]"
+    }
+  },
+  "native_publish_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Publish']"
+    }
+  },
+  "native_select_add_subscriptions_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Add']"
+    }
+  },
+  "native_select_subscriptions_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Subscribe']"
+    }
+  },
+  "native_select_add_publisher_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Add']"
+    }
+  },
+  "native_enter_new_publisher_id_textbox": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Publisher ID']/following::XCUIElementTypeTextField"
+    }
+  },
+  "native_enter_new_event_name_textbox": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Event Name']/following::XCUIElementTypeTextField"
+    }
+  },
+  "native_create_publisher_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Create']"
+    }
+  },
+  "native_persist_events_toggle": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Subscriber']/following::XCUIElementTypeButton"
+    }
+  },
+  "native_verify_first_publisher_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[1]//XCUIElementTypeStaticText[@label='{}']"
+    }
+  },
+  "native_verify_second_publisher_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[2]//XCUIElementTypeStaticText[@label='{}']"
+    }
+  },
+  "native_verify_third_publisher_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[1]//XCUIElementTypeStaticText[@label='{}']"
+    }
+  },
+  "native_verify_event_data_table": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[contains(@name,'newpublisher')]"
+    }
+  },
+  "native_back_btn_navigate_back_to_subscriber": {
+    "locator": {
+      "xpath": "//XCUIElementTypeNavigationBar[@name = 'Subscriptions']/child::XCUIElementTypeButton"
+    }
+  },
+  "native_subscription_status": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@name,'{}')]"
+    }
+  },
+  "native_subscription_callback_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name = 'Callback']"
+    }
+  },
+  "native_subscription_error_pop_up_text": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@name,'missingRequiredKeys')]"
+    }
+  },
+  "delete_subscriber_btn": {
+    "locator": {
+      "css selector": "button[aria-label='Actions']"
+    }
+  },
+  "delete_publisher_btn": {
+    "locator": {
+      "css selector": "div#publisherGeneratedContent [aria-label='Actions']"
+    }
+  },
+  "persistent_dropdown":{
+    "locator": {
+      "id": "isPersistentSelect" 
+    }
+  },
+  "persistent_false":{
+    "locator": {
+      "id": "isPersistentSelect-option-1"
+    }
+  },
+  "pause_btn": {
+    "locator": {
+      "css selector": "#pauseEventsButton"
+    }
+  },
+  "resume_btn": {
+    "locator": {
+      "css selector": "#resumeEventsButton"
+    }
+  },
+  "persistent_true":{
+    "locator": {
+      "id": "isPersistentSelect-option-0" 
+    }
+  }
+}

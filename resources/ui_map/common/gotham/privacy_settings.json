@@ -1,0 +1,110 @@
+{
+    "privacy_settings_title": {
+        "locator": {
+            "id": "HpTitle"
+        } 
+    },
+    "terms_and_agreements_title": {
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_TermsAgreementsTitle/Text"
+        }
+    },
+    "hp_smart_terms_of_use_link": {
+        "_comment": "Terms and Agreements",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_TermsOfUse/Content"
+        }
+    },
+    "end_user_license_agreement_link": {
+        "_comment": "Terms and Agreements",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_EndUserLicenseAgreement/Content"
+        }
+    },
+    "data_collection_title": {
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_DataCollectionTitle/Text"
+        }
+    },
+    "data_collection_sub_title": {
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_DataCollectionDesc/Text"
+        }
+    },
+    "hp_print_account_data_usage_notice_link": {
+        "_comment": "HP Print Account Data Usage Notice",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_AccountDataUsageNotice/Content"
+        }
+    },
+    "data_collection_notice_link": {
+        "_comment": "Data Collection Notice for the HP Smart Experience",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_AppDataCollectionNotice/Content"
+        }
+    },
+    "hp_printer_data_collection_notice_link": {
+        "_comment": "HP Printer Data Collection Notice",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_HPPrinterDataCollectionNotice/Content"
+        }
+    },
+    "hp_privacy_statement_link": {
+        "_comment": "HP Privacy Statement",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacyStatement/Content"
+        }
+    },
+    "app_improvement_title": {
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_PeptoTitle/Text"
+        }
+    },
+    "app_improvement_sub_title": {
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_PeptoDesc/Text"
+        }
+    },
+    "google_analytics_privacy_policy_link": {
+        "_comment": "App Improvement",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_GoogleAnalyticsLink/Content",
+            "xpath":"//HyperLink[@Name='Google Analytics Privacy Policy']"
+        }
+    },
+    "adobe_privacy_link": {
+        "_comment": "App Improvement",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_AdobePrivacyLink/Content"
+        }
+    },    
+    "optimizely_link": {
+        "_comment": "App Improvement",
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_OptimizelyLink/Content",
+            "xpath":"//HyperLink[@Name='Optimizely']"
+        }
+    },
+    "manage_my_privacy_preference_link": {
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_ManagePrivacyLink/Content"
+        }
+    },
+    "delete_account_data_link": {
+        "locator": {
+            "str_id": "HP.Framework.Libs.PrinterControlContent/Resources/PrivacySettings_DeleteAccountDataLink/Content"
+        }
+    },
+    "manage_my_personalized_promotion_consent_link": {
+        "_comment": "verify it's removed",
+        "locator": {
+            "xpath": "//HyperLink[contains(@Name, 'Manage my Personalized Promotion consent')]"
+        }
+    },
+    "app_improvement_toggle": {
+        "_comment": "verify it's removed",
+        "locator": {
+            "xpath": "//Pane[last()]/Button"
+        }
+    }
+}

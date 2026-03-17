@@ -1,0 +1,50 @@
+{
+    "version": "1.3.0",
+    "originator": {
+        "originatorDetail": {
+            "appVersion": "1.2.7.201",
+            "appName": "com.hp.jarvis.datacollection.example",
+            "sysUuid": "4b255858-3611-4f8d-b698-e8df0df729e1",
+            "osPlatform": "iOS",
+            "appPackageDeployedUuid": "f2add6c7-532f-4527-90e8-6e876f9c8650",
+            "version": "1.0.0",
+            "appPackageId": "Jarvis_Data_Collection/1.2",
+            "currentDateTime": "2021-07-26T22:45:18.148Z"
+        },
+        "originatorDetailType": "com.hp.cdm.domain.telemetry.type.originatorDetail.originator.ucdeSoftware.version.1"
+    },
+    "events": [
+        {
+            "dateTime": "2021-07-26T22:45:18.151Z",
+            "eventCategory": "systemInformation",
+            "eventDetail": {
+                "sysCategory": "simulator",
+                "osName": "iOS 14.5",
+                "version": "1.0.0",
+                "sysArchitecture": "x86",
+                "sysBatteryEnabled": "false",
+                "osLanguage": "en",
+                "osVersion": "14.5.0.0",
+                "osArchitecture": "bit_64",
+                "sysSku": "unknown",
+                "osCountryRegion": "US",
+                "sysModelName": "MacBookPro14,3 (x86_64)",
+                "sysTouchEnabled": "true",
+                "osScreenResolution": "1170x2532",
+                "sysManufacturer": "Apple"
+            },
+            "version": "1.3.0",
+            "sequenceNumberGlobal": 24,
+            "sequenceNumber": 17,
+            "eventDetailType": "com.hp.cdm.domain.telemetry.type.eventDetail.category.systemInformation.version.1"
+        }
+    ],
+    "originatorContext": {
+        "originatorContextDetailType": "com.hp.cdm.domain.telemetry.type.originatorContextDetail.originator.ucdeSoftware.version.1",
+        "originatorContextDetail": {
+            "version": "1.0.0",
+            "associatedDeviceUuid": "e74f523f-9e1a-4e94-aaf4-644ae3b9b30a",
+            "associatedDeviceProductNumber": "AB12345"
+        }
+    }
+}

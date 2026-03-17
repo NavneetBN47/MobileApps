@@ -1,0 +1,12 @@
+{
+  "server_stack_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Server Stack']"
+    }
+  },
+  "stack_option": {
+    "locator": {
+      "xpath": "//android.widget.CheckedTextView[contains(@text,'{}')]"
+    }
+  }
+}

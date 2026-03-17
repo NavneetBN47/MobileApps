@@ -1,0 +1,5021 @@
+{
+    "fleet_management_devices_printers_button":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_printers']"
+        }
+    },
+    "printer_details_info_section":{
+        "locator": {
+            "css selector": "div#accordion-for-detail-info"
+        }
+    },
+    "devices_printers_page_devices_breadcrumb":{
+        "locator": {
+            "css selector": "[aria-current='page']"
+        },
+        "localization": {
+            "en": "Printers"
+        }
+    },
+    "printers_refresh_button":{
+        "locator": {
+            "css selector": "div[class*='TableRefreshButton'] button"
+        }
+    },
+    "printers_export_all_btn":{
+        "locator": {
+            "css selector": "button[data-testid='export-device-button']"
+        }
+    },
+    "printers_add_btn":{
+        "locator": {
+            "css selector": "button[data-testid='table-add-device-add-button']"
+        }
+    },
+    "printers_column_option_settings_gear_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "export_popup_modal":{
+        "locator": {
+            "css selector": "div[data-testid='export-modal']"
+        }
+    },
+    "export_popup_export_btn":{
+        "locator": {
+            "css selector": "button[data-testid='export-button']"
+        },
+        "localization": {
+            "en": "Export"
+        }
+    },
+    "bottom_toast_msg":{
+        "locator":{
+            "css selector": "div[id*='toast-title']"
+        }
+    },
+    "bottom_toast_close_btn": {
+        "locator": {
+            "css selector": "button[aria-label='close']"
+        }
+    },
+    "export_devices_popup_title":{
+        "locator": {
+            "css selector": "#form-modal-label"
+        },
+        "localization": {
+            "en": "Export Devices"
+        }
+    },
+    "export_devices_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='description']"
+        }
+    },
+    "export_devices_popup_cancel_btn":{
+        "locator": {
+            "css selector": "div[class*='ExportDevice'] [data-testid='cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "export_devices_popup_select_file_dropdown":{
+        "locator": {
+            "css selector": "#export-type"
+        }
+    },
+    "export_devices_popup_select_file_dropdown_options":{
+        "locator": {
+            "css selector": "ul[role='listbox'] li"
+        }
+    },
+    "printers_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "printers_table_select_all_checkbox":{
+        "locator": {
+            "css selector": "thead .vn-checkbox__span"
+        }
+    },
+    "printers_table_checkbox_selected":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator":{
+            "css selector": "tr.css-1q91w1r"
+        }
+    },
+    "printers_floating_menu":{
+        "locator": {
+            "css selector": "div[class*='ButtonGroup']  button[aria-haspopup='menu']"
+        }
+    },
+    "printers_floating_menu_options":{
+        "locator": {
+            "css selector": "li button[id*='wex-menu-list-item']"
+        }
+    },
+    "printers_move_to_group_button":{
+        "locator": {
+            "xpath": ["//div[contains(@class, 'ButtonRow')]//button[./span[text()='Move to group']]", "//div[@data-testid='wex_menu_item_Move to group']"]
+        },
+        "localization": {
+            "en": "Move to group"
+        }
+    },
+    "printers_download_app_configuration_btn":{
+        "locator": {
+            "xpath": ["//div[contains(@class, 'ButtonRow')]//button[./span[text()='Download app configuration']]", "//div[@data-testid='wex_menu_item_Download app configuration']"]
+        },
+        "localization": {
+            "en": "Download app configuration"
+        }
+    },
+    "printers_configure_device_button":{
+        "locator": {
+            "xpath": ["//div[contains(@class, 'ButtonRow')]//button[./span[text()='Configure printers']]", "//div[@data-testid='wex_menu_item_Configure printers']"]
+        },
+        "localization": {
+            "en": "Configure device"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label"
+        }
+    },
+    "column_option_popup_options_label":{
+        "locator": {
+            "xpath": ".//span[contains(@class, 'checkbox__span--text') and text()='{}']"
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column Options"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": ["div[aria-describedby='column-options-desc'] div[class*='footer'] button:nth-child(2)",
+                             "div[aria-labelledby='column-options-label'] div[class*='footer'] button:nth-child(2)"]
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "css selector": ["div[aria-describedby='column-options-desc'] div[class*='footer'] button:nth-child(1)",
+                            "div[aria-labelledby='column-options-label'] div[class*='footer'] button:nth-child(1)"]
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "printers_name_table_header":{
+	"locator":{
+            "css selector": ["thead #deviceName",
+		             "thead #modelName"]
+	    }
+    },
+    "printers_connection_table_header":{
+        "locator":{
+            "css selector": "thead th#connectionState"
+	    }
+    },
+    "printers_group_table_header":{
+        "locator":{
+            "css selector": "thead th#group"
+        }
+    },
+    "printers_wiredipv4_table_header":{
+        "locator":{
+            "css selector": "thead th#wiredIPv4"
+        }
+    },
+    "printers_company_name_table_header":{
+        "locator":{
+            "css selector": "thead th#companyName"
+        }
+    },
+    "printers_contact_person_table_header":{
+        "locator":{
+            "css selector": "thead th#contactPerson"
+        }
+    },
+    "printers_control_panel_language_table_header":{
+        "locator":{
+            "css selector": "thead th#controlPanelLanguage"
+        }
+    },
+    "printers_manufacturer_table_header":{
+        "locator":{
+            "css selector": "thead th#manufacturer"
+        }
+    },
+    "printers_date_added_table_header":{
+	"locator":{
+            "css selector": ["thead th#addedDate"]
+	    }
+    },
+    "printers_serial_number_table_header":{
+        "locator":{
+            "css selector": "thead th#serialNumber"
+        }
+    },
+    "printers_model_name_table_header":{
+        "locator":{
+            "css selector": "thead th#modelName"
+        }
+    },
+    "printers_policy_date_run_table_header":{
+        "locator":{
+            "css selector": "thead th#policyDateRun"
+        }
+    },
+    "printers_device_name_table_header":{
+        "locator":{
+            "css selector": "thead th#deviceName"
+        }
+    },
+    "printers_wiredip_hostname_table_header":{
+        "locator":{
+            "css selector": "thead th#wiredHostname"
+        }
+    },
+    "group_side_bar_expand_btn":{
+        "locator": {
+            "css selector": "div[data-testid='main-group-side-bar-wrapper'] button[aria-label='Expand']"
+        }
+    },
+    "group_side_bar_collapse_btn":{
+        "locator": {
+            "css selector": "div[data-testid='main-group-side-bar-wrapper'] button[aria-label='Collapse']"
+        }
+    },
+    "groups_side_bar_title":{
+        "locator": {
+            "css selector": "div[data-testid='main-group-wrapper-upper-area'] div[class*='Title']"
+        },
+        "localization": {
+            "en": "Groups"
+        }
+    },
+    "printers_groups_create_group_btn":{
+        "locator": {
+            "css selector": "button[data-testid='create-group-button']"
+        }
+    },
+    "printers_groups_edit_groups_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-button']"
+        }
+    },
+    "printers_manage_group_button":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Manage')]/parent::button"
+        },
+        "localization": {
+            "en": "Manage"
+        }
+    },
+    "groups_all_group_title":{
+        "locator": {
+            "css selector": "[class*='expand-icon']+span"
+        },
+        "localization": {
+            "en": "All groups"
+        }
+    },
+    "groups_all_group_count":{
+        "locator": {
+            "css selector": "[class*='expand-icon']+span+span"
+        }
+    },
+    "groups_all_group_expand_btn":
+    {
+        "locator": {
+            "css selector": "[class*='expand-icon']"
+        }
+    },
+    "printers_groups_group_name":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//*[@data-testid='main-group-tree-view']//span[contains(text(),'{}')]"
+        }
+    },
+    "printers_group_group_names_list":{
+        "locator": {
+            "css selector": "ul[role='group'] li span:nth-child(1)"
+        }
+    },
+    "printers_groups_device_count":{
+        "locator":{
+            "css selector": "ul[role='group'] li span:nth-child(2)"
+        }
+    },
+    "printers_groups_name":{
+        "locator": {
+            "css selector": "ul[role='group'] li span:nth-child(1)"
+        }
+    },
+    "printers_groups_group_count":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//span[contains(text(),'{}')]/following-sibling::span"
+        }
+    },
+    "printers_remove_from_group_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='remove-from-group-modal-title']"
+        },
+        "localization": {
+            "en": "Remove from group"
+        }
+    },
+    "printers_remove_from_group_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='remove-from-group-modal-desc']"
+        },
+        "localization": {
+            "en": "Are you sure you want to remove the selected devices from the group?"
+        }
+    },
+    "printers_remove_from_group_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='remove-from-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "printers_remove_from_group_popup_remove_btn":{
+        "locator": {
+            "css selector": "button[data-testid='remove-from-group-modal-action-button']"
+        },
+        "localization": {
+            "en": "Remove"
+        }
+    },
+    "printers_move_to_group_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='move-to-group-modal-title']"
+        },
+        "localization": {
+            "en": "Move to group"
+        }
+    },
+    "printers_move_to_group_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='move-to-group-modal-desc']"
+        },
+        "localization": {
+            "en": "Choose a group to move the selected printers to. When moved to a group, printers will inherit that group’s policies. Previous group policies will be removed."
+        }
+    },
+    "printers_move_to_group_popup_groups_to_move":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//ul[@role='tree'])[2]"
+        }
+    },
+    "printers_move_to_group_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='move-to-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "printers_move_to_group_popup_move_btn":{
+        "locator": {
+            "css selector": "button[data-testid='move-to-group-modal-action-button']"
+        },
+        "localization": {
+            "en": "Move"
+        }
+    },
+    "create_group_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='create-new-group-modal-title']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "create_group_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-description']"
+        },
+        "localization": {
+            "en": "Create a new group."
+        }
+    },
+    "create_group_popup_group_name_txt":{
+        "locator": {
+            "css selector": "#text-box"
+        }
+    },
+    "create_group_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='create-new-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "create_group_popup_create_btn":{
+        "locator": {
+            "css selector": "button[data-testid='create-new-group-modal-action-button']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "edit_groups_popup_title":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-title']"
+        },
+        "localization": {
+            "en": "Manage Groups"
+        }
+    },
+    "edit_groups_popup_desc":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-desc']"
+        },
+        "localization": {
+            "en": "Create, rename and delete device groups."
+        }
+    },
+    "edit_groups_popup_delete_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-tree-delete-button']"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "edit_groups_popup_create_tab":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-create-tab-header']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "edit_groups_popup_rename_tab":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-rename-tab-header']"
+        },
+        "localization": {
+            "en": "Rename"
+        }
+    },
+    "edit_groups_popup_close_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Close"
+        }
+    },
+    "group_list_group_name":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "(//span[contains(text(),'{}')])[2]"
+        }
+    },
+    "edit_groups_popup_group_name":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//*[@id='edit-group-tree']//span[contains(text(),'{}')]"
+        }
+    },
+    "delete_group_popup_title":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//label[contains(text(),'Delete')]"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "delete_group_popup_desc":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//div[contains(text(),'Are you sure')]"
+        },
+        "localization": {
+            "en": "Are you sure you want to delete the selected groups?"
+        }
+    },
+    "delete_group_popup_description":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Devices in')]"
+        },
+        "localization": {
+            "en": "Devices in this group will be moved to Ungrouped."
+        }
+    },
+    "delete_group_popup_delete_btn":{
+        "locator": {
+            "css selector": "button[data-testid='delete-group-modal-delete-button']"
+        },
+        "localization": {
+            "en": "Delete"
+        }
+    },
+    "delete_group_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='delete-group-modal-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "create_tab_desc":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-description']"
+        },
+        "localization": {
+            "en": "Create a new group. Make sure to use a new group name."
+        }
+    },
+    "create_tab_group_name_lbl":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-name-label']"
+        },
+        "localization": {
+            "en": "Group name"
+        }
+    },
+    "create_tab_group_name_txt":{
+        "locator": {
+            "css selector": "input#text-box"
+        }
+    },
+    "create_tab_parent_group_lbl":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-create-tab-parent-group-label']"
+        },
+        "localization": {
+            "en": "Parent group"
+        }
+    },
+    "create_tab_parent_group_dropdown":{
+        "locator": {
+            "css selector": "[data-testid='edit-group-modal-create-tab-select-group']>div"
+        }
+    },
+    "create_tab_create_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-modal-create-tab-action-button']"
+        },
+        "localization": {
+            "en": "Create"
+        }
+    },
+    "rename_tab_desc":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-description']"
+        },
+        "localization": {
+            "en": "Rename the selected group"
+        }
+    },
+    "rename_tab_select_group_warning_message":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//div[contains(text(),'Please select a group')]"
+        },
+        "localization": {
+            "en": "Please select a group."
+        }
+    },
+    "rename_tab_existing_group_warning_message":{
+        "locator": {
+            "css selector": "p#text-box-helper-text"
+        }
+    },
+    "rename_tab_group_name_lbl":{
+        "locator": {
+            "css selector": "[data-testid='group-text-box-name-label']"
+        },
+        "localization": {
+            "en": "Group name"
+        }
+    },
+    "rename_tab_group_name_txt":{
+        "locator": {
+            "css selector": "input#text-box"
+        }
+    },
+    "rename_tab_rename_btn":{
+        "locator": {
+            "css selector": "button[data-testid='edit-group-modal-rename-tab-action-button']"
+        },
+        "localization": {
+            "en": "Rename"
+        }
+    },
+	"bottom_toast_message":{
+        "locator": {
+            "css selector": "div[role='alert'] div>span"
+        }
+    },
+    "add_printers_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-title']"
+        },
+        "localization": {
+            "en": "Add printers"
+        }
+    },
+    "add_printers_popup_desc":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-description']"
+        },
+        "localization": {
+            "en": "Select how you want to connect printers to the HP Workforce Experience Platform."
+        }
+    },  
+    "add_printers_popup_close_btn":{
+        "locator": {
+            "css selector": "[data-testid='add-printers-close-button']"
+        }
+    },
+    "add_printers_popup_cancel_btn":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup'] [data-testid='cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "add_printers_popup_cloud_connect_btn":{
+        "locator": {
+            "css selector": "[data-testid='connect-through-cloud'] div[class*='Button']"
+        }
+    },
+    "add_printers_popup_print_fleet_proxy_connect_btn":{
+        "locator": {
+            "css selector": "[data-testid='connect-through-fleet-proxy'] div[class*='Button']"
+        }
+    },
+    "add_printers_popup_cloud_connect_btn_name":{
+        "locator": {
+            "css selector": "[data-testid='connect-through-cloud'] [class*='CardTitle']"
+        },
+        "localization": {
+            "en": "Connect through the cloud"
+        }
+    },
+    "add_printers_popup_cloud_connect_btn_description":{
+        "locator": {
+            "css selector": "[data-testid='connect-through-cloud'] [class*='CardDescription']"
+        },
+        "localization": {
+            "en": "Connect printers directly to the HP cloud for remote management on the internet"
+        }
+    },
+    "add_printers_popup_print_fleet_proxy_connect_btn_name":{
+        "locator": {
+            "css selector": "[data-testid='connect-through-fleet-proxy'] [class*='CardTitle']"
+        },
+        "localization": {
+            "en": "Connect through Print Fleet Proxy"
+        }
+    },
+    "add_printers_popup_print_fleet_proxy_connect_btn_description":{
+        "locator": {
+            "css selector": "[data-testid='connect-through-fleet-proxy'] [class*='CardDescription']"
+        },
+        "localization": {
+            "en": "Connect Web Jetadmin printers to the HP cloud using the Print Fleet Proxy app. This allows on-premises printers to be managed remotely in the platform."
+        }
+    },
+    "add_printers_enter_manually_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup-title']"
+        },
+        "localization": {
+            "en": "Add printers"
+        }
+    },
+    "add_printers_enter_manually_popup_desc":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup-description']"
+        },
+        "localization": {
+            "en": "Select how to add printers to the platform."
+        }
+    },
+    "add_printers_cloud_connect_enter_manually_btn_title":
+    {
+        "locator": {
+            "css selector": "[data-testid='enter-manually-button'] h3"
+        },
+        "localization": {
+            "en": "Enter manually"
+        }
+    },
+    "add_printers_cloud_connect_enter_manually_btn_desc":
+    {
+        "locator": {
+            "css selector": "[data-testid='enter-manually-button'] h3+div"
+        },
+        "localization": {
+            "en": "Add up to 10 printers at once by entering serial numbers and product numbers."
+        }
+    },
+    "add_printers_cloud_connect_enter_manually_btn":{
+        "locator": {
+            "css selector": "div[data-testid='enter-manually-button'] [data-testid='icon-chevron-right']"
+        }
+    },
+    "add_printers_enter_manually_popup_close_btn":{
+        "locator": {
+            "css selector": "button[data-testid='close-button']"
+        }
+    },
+    "add_printers_enter_manually_popup_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='continue-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "add_printers_enter_manually_popup_printer_details_desc":{
+        "locator": {
+            "css selector": "div[data-testid='add-printers-popup-description']"
+        },
+        "localization": {
+            "en": "Enter the serial and product number for each printer you want to connect. You can add up to 10 printers at once."
+        }
+    },
+    "add_printers_printer1_field_name_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-1-title']"
+        },
+        "localization": {
+            "en": "Printer 1"
+        }
+    },
+    "add_printers_printer1_field_serial_number_label":{
+        "locator": {
+            "css selector": "label[data-testid='printer-1-serial-number-input-label']"
+        },
+        "localization": {
+            "en": "Serial number"
+        }
+    },
+    "add_printers_printer1_field_serial_number_textbox":{
+        "locator": {
+            "css selector": "input[data-testid='printer-1-serial-number-input']"
+        }
+    },
+    "add_printers_printer1_field_product_number_label":{
+        "locator": {
+            "css selector": "label[data-testid='printer-1-product-number-input-label']"
+        },
+        "localization": {
+            "en": "Product number"
+        }
+    },
+    "add_printers_printer1_field_product_number_textbox":{
+        "locator": {
+            "css selector": "input[data-testid='printer-1-product-number-input']"
+        }
+    },
+    "add_printers_printer1_field_delete_btn":{
+        "locator": {
+            "css selector": "button[data-testid='printer-1-delete-button']"
+        }
+    },
+    "add_printers_enter_manually_popup_add_another_printer_link":{
+        "locator": {
+            "css selector": "button[data-testid='add-another-printer-button']"
+        },
+        "localization": {
+            "en": "Add another printer"
+        }
+    },
+    "add_printers_printer2_field":{
+        "locator": {
+            "xpath": "//div[@data-testid='printer-2-title']/parent::div"
+        }
+    },
+    "add_printers_printer2_field_name_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-2-title']"
+        },
+        "localization": {
+            "en": "Printer 2"
+        }
+    },
+    "add_printers_printer2_field_serial_number_label":{
+        "locator": {
+            "css selector": "label[data-testid='printer-2-serial-number-input-label']"
+        },
+        "localization": {
+            "en": "Serial number"
+        }
+    },
+    "add_printers_printer2_field_serial_number_textbox":{
+        "locator": {
+            "css selector": "input[data-testid='printer-2-serial-number-input']"
+        }
+    },
+    "add_printers_printer2_field_product_number_label":{
+        "locator": {
+            "css selector": "label[data-testid='printer-2-product-number-input-label']"
+        },
+        "localization": {
+            "en": "Product number"
+        }
+    },
+    "add_printers_printer2_field_product_number_textbox":{
+        "locator": {
+            "css selector": "input[data-testid='printer-2-product-number-input']"
+        }
+    },
+    "add_printers_printer2_field_delete_btn":{
+        "locator": {
+            "css selector": "button[data-testid='printer-2-delete-button']"
+        }
+    },
+    "add_printers_enter_manually_details_popup_back_btn":{
+        "locator": {
+            "css selector":[ "button[data-testid='arrow']",
+                            "button[data-testid='back-button']"]
+        },
+        "localization": {
+            "en": "Back"
+        }
+    },
+    "add_printers_enter_manually_details_popup_close_button":{
+        "locator": {
+            "css selector": "button[data-testid='close-button']"
+        }
+    },
+    "add_printers_enter_manually_details_popup_submit_button":{
+        "locator": {
+            "css selector": "button[data-testid='submit-button']"
+        },
+        "localization": {
+            "en": "Submit"
+        }
+    },
+    "add_printers_enter_manually_details_popup_cancel_button":{
+        "locator": {
+            "css selector": "button[data-testid='cancel-button']:nth-child(3)"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "add_printers_print_fleet_proxy_popup_back_btn":{
+        "locator": {
+            "css selector": ["div[data-testid='mfe-loader'] button",
+                             "button[data-testid='arrow']"]
+        }
+    },
+    "add_printers_print_fleet_proxy_popup_title":{
+        "locator": {
+            "css selector":["div[data-testid='fleet-proxy-title']",
+                           "div[data-testid='mfe-loader'] svg"]
+        },
+        "localization": {
+            "en": "Add printers"
+        }
+    },
+    "add_printers_print_fleet_proxy_popup_desc":{
+        "locator": {
+            "css selector": "div[data-testid='fleet-proxy-description']"
+        },
+        "localization": {
+            "en": "Install the HP Print Fleet Proxy and continue on the tray app."
+        }
+    },
+    "add_printers_print_fleet_proxy_label":{
+        "locator": {
+            "css selector": "div[data-testid='fleet-proxy-tile'] h3"
+        },
+        "localization": {
+            "en": "HP Print Fleet Proxy"
+        }
+    },
+    "add_printers_print_fleet_proxy_version":{
+        "locator": {
+            "css selector": "div[data-testid='fleet-proxy-tile'] h3+div"
+        }
+    },
+    "add_printers_print_fleet_proxy_download_link":{
+        "locator": {
+            "css selector": "[data-testid='icon-download']"
+        }
+    },
+    "add_printers_print_fleet_proxy_done_btn":{
+        "locator": {
+            "css selector": "button[data-testid='fleet-proxy-done-button']"
+        },
+        "localization": {
+            "en": "Done"
+        }
+    },
+    "add_printers_discard_changes_popup_title":{
+        "locator": {
+            "css selector": "div[data-testid='printer-info-modal'] div[class*='Title']"
+        },
+        "localization": {
+            "en": "Discard changes?"
+        }
+    },
+    "add_printers_discard_changes_popup_desc":{
+        "locator": {
+            "xpath": "//div[contains(text(),'The serial and product numbers you’ve entered will not be saved. These printers will not be added to the platform.')]"
+        },
+        "localization": {
+            "en": "The serial and product numbers you’ve entered will not be saved. These printers will not be added to the platform."
+        }
+    },
+    "add_printers_discard_changes_popup_go_back_button":{
+        "locator": {
+            "css selector": "div[gutter='4'] button[data-testid='goBack']"
+        },
+        "localization": {
+            "en": "Go back"
+        }
+    },
+    "add_printers_discard_changes_popup_discard_button":{
+        "locator": {
+            "css selector": "div[gutter='4'] button[data-testid='discard']"
+        },
+        "localization": {
+            "en": "Discard"
+        }
+    },
+    "add_printers_discard_changes_popup_close_button":{
+        "locator": {
+            "css selector": "button[data-testid='close-button']"
+        }
+    },
+    "printers_filter_button":{
+        "locator":{
+            "css selector":"button[aria-label='Filters']"
+        }
+    },
+    "printers_filter_side_bar_title":{
+        "locator":{
+            "css selector":"[id='filter-title']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "printers_filter_side_bar_description":{
+        "locator":{
+            "css selector":"[id='filter-subtitle']"
+        },
+        "localization": {
+            "en": "Select filters to view in the list"
+        }
+    },
+    "printers_filter_side_bar_search_box":{
+        "locator":{
+            "css selector":"[placeholder='Search filters'] "
+        }
+    },
+    "printers_filter_side_bar_connectivity_label":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Connectivity')]"
+        },
+        "localization": {
+            "en": "Connectivity"
+        }
+    },
+    "printers_filter_side_bar_close_btn":{
+        "locator":{
+            "css selector":"[id='filter-sidebar'] button"
+        }
+    },
+    "printers_built_in_filter_options":{
+        "locator":{
+            "css selector":"#filter-sidebar label span:nth-child(3)"
+        }
+    },
+    "printers_compliance_filter_options":{
+        "locator":{
+            "css selector":"input[name*='policyCompliance']+span+span"
+        }
+    },
+    "printers_filter_side_bar_connectivity_status_tags":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Connectivity: {}')]"
+        }
+    },
+    "printers_filter_side_bar_security_assessment_status_tags":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Security Assessment: {}')]"
+        }
+    },
+    "printers_filter_side_bar_connectivity_status_tag_close_btn":{
+        "locator": {
+            "css selector": "div[class*='TableHeader'] button[aria-label='clear']"
+        }
+    },
+    "printers_filter_side_bar_security_assessment_status_tag_close_btn":{
+        "locator": {
+            "css selector": "div[class*='TableHeader'] button[aria-label='clear']"
+        }
+    },
+    "printers_filter_side_bar_device_status_column_status_tags":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Status: {}')]"
+        }
+    },
+    "printers_filter_side_bar_device_status_column_status_tag_close_btn":{
+        "locator": {
+            "css selector": "div[class*='TableHeader'] button[aria-label='clear']"
+        }
+    },
+    "printers_filter_side_bar_policy_compliance_status_tags": {
+        "locator": {
+            "xpath": "//span[contains(text(),'Policy Compliance: {}')]"
+        }
+    },
+    "printers_filter_side_bar_policy_compliance_status_tag_close_btn": {
+        "locator": {
+            "css selector": "div[class*='TableHeader'] button[aria-label='clear']"
+        }
+    },
+    "printers_filter_table_checkbox":{
+        "locator":{
+            "css selector":"table tbody td .vn-checkbox__span"
+        }
+    },
+    "printers_filter_side_bar_connectivity_status_clear_all_tag":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Clear all')]/parent::button"
+        },
+        "localization": {
+            "en": "Clear All"
+        }
+    },
+    "printers_filter_side_bar_connectivity_online_tag":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Connectivity: Online')]"
+        }
+    },
+    "printers_filter_side_bar_connectivity_offline_tag":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Connectivity: Offline')]"
+        }
+    },
+    "printers_details_connectivity_status":{
+        "locator": {
+            "css selector": ["[data-testid='connectivity-text']+button", 
+                             "[data-testid='connectivity-text']+div button"]
+        }
+    },
+    "printers_device_status_message":{
+        "locator": {
+            "css selector": "span[class*='DeviceStatusMessage__Text']"
+        }
+    },
+    "printers_details_status":{
+        "locator": {
+            "css selector": "[class*='DeviceStatus__WXText']"
+        }
+    },
+    "printers_details_status_updated_date_and_time":{
+        "locator": {
+            "css selector": "[class*='DeviceStatusUpdated__StatusUpdatedDetail']"
+        }
+    },
+    "printers_details_serial_number":{
+        "locator": {
+            "css selector": "[data-testid='serial-number-value']"
+        }
+    },
+    "printers_details_wiredipv4":{
+        "locator": {
+            "css selector": "[data-testid='wired0-ipv4-value']"
+        }
+    },
+    "printers_details_wiredip_hostname":{
+        "locator": {
+            "css selector": "[data-testid='wired0-hostname-value']"
+        }
+    },
+    "general_information_section_manufacturer_name":{
+        "locator": {
+            "css selector": "div[data-testid='manufacturer-value'] div[title]"
+        }
+    },
+    "general_information_section_wiredipv6_value":{
+        "locator": {
+            "css selector": "div[data-testid='wired0-ipv6-value']"
+        }
+    },
+    "general_information_section_wiredmac_value":{
+        "locator": {
+            "css selector": "div[data-testid='wired0-mac-value']"
+        }
+    },
+    "devices_printers_details_page_details_breadcrumb":{
+        "locator": {
+            "css selector": "span[aria-current='page']"
+        }
+    },
+    "printers_details_supplies_chart":{
+        "locator": {
+            "css selector": "div#device-details-info-section div[class*='Supplies__Wrapper']"
+        }
+    },
+    "printers_details_overview_tab":{
+        "locator": {
+            "css selector": ["a[data-testid='overview-tab']", "[id='0']"]
+        },
+        "localization": {
+            "en": "Overview"
+        }
+    },
+    "printers_details_properties_tab":{
+        "locator": {
+            "css selector": ["a[data-testid='configuration-tab']", "[id='2']"]
+        },
+        "localization": {
+            "en": "Properties"
+        }
+    },
+    "printers_details_hp_secure_fleet_manager_tab":{
+        "locator": {
+            "css selector": ["a[data-testid='fleetmanager-tab']", "[id='5']"]
+        },
+        "localization": {
+            "en": "HP Secure Fleet Manager Report"
+        }
+    },
+    "printers_details_hp_sds_event_log_tab":{
+        "locator": {
+            "css selector": ["a[data-testid='eventlog-tab']", "[id='6']"]
+        },
+        "localization": {
+            "en": "Event Log"
+        }
+    },
+    "printers_details_anchor_list":{
+        "locator": {
+            "css selector": "nav#react-ecp-device-details-overview-anchor-menu"
+        }
+    },
+    "printers_details_info_section_printer_title":{
+        "locator": {
+            "css selector": "div[data-testid='details-accordion__model-name']"
+        }
+    },
+    "printer_details_info_section_expand_btn":{
+        "locator": {
+            "css selector": "[aria-controls='device-details-info-section']>svg"
+        }
+    },
+    "printers_details_info_section_printer_type_label":{
+        "locator": {
+            "css selector": ["div[data-testid='proxy-tag']", "div[data-testid='cloud-tag']"]
+        }
+    },
+    "printers_details_info_section_printer_image":{
+        "locator": {
+            "css selector": "img[data-testid='device-info-printer-image']"
+        }
+    },
+    "printers_details_info_section_printer_friendly_name":{
+        "locator": {
+            "css selector": "div#device-info__name"
+        }
+    },
+    "printers_details_info_section_printer_location":{
+        "locator": {
+            "css selector": ["div#device-info__location", "div#evice-info__location"]
+        }
+    },
+    "printers_details_info_section_printer_status_title":{
+        "locator": {
+            "css selector": "div[data-testid='status-text']"
+        },
+        "localization": {
+            "en": "STATUS"
+        }
+    },
+    "printers_details_info_section_printer_status":{
+        "locator": {
+            "css selector": "svg[data-testid='device-status-state-check-circle-icon']+label"
+        }
+    },
+    "printers_details_info_section_printer_status_updated_title":{
+        "locator": {
+            "css selector": "div[data-testid='lastSynced-text']"
+        },
+        "localization": {
+            "en": "STATUS UPDATED"
+        }
+    },
+    "printers_details_info_section_printer_status_updated_date_and_time":{
+        "locator": {
+            "css selector": "div[data-testid='lastSynced-text']+div"
+        }
+    },
+    "printers_details_info_section_printer_connectivity_title":{
+        "locator": {
+            "css selector": "div[data-testid='connectivity-text']"
+        },
+        "localization": {
+            "en": "CONNECTIVITY"
+        }
+    },
+    "printers_details_info_section_printer_connectivity_status":{
+        "locator": {
+            "css selector": "div[class*='DeviceConnectivity__WXText']"
+        }
+    },
+    "printers_details_info_section_printer_status_message_title":{
+        "locator": {
+            "css selector": "div[class*='DeviceStatusMessage__Title']"
+        },
+        "localization": {
+            "en": "DEVICE STATUS MESSAGE"
+        }
+    },
+    "printers_details_info_section_printer_status_message":{
+        "locator": {
+            "css selector": "div[class*='DeviceStatusMessage__Value']"
+        }
+    },
+    "printers_details_supplies_chart_start_scroll_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Scroll Start']"
+        }
+    },
+    "printers_details_supply_chart_ink_cartridges_tab":{
+        "locator": {
+            "css selector": "div#tab__cartridges"
+        },
+        "localization": {
+            "en": "Ink Cartridges"
+        }
+    },
+    "printers_details_supply_chart_printhead_tab":{
+        "locator": {
+            "css selector": "div#tab__printHead"
+        },
+        "localization": {
+            "en": "Printhead"
+        }
+    },
+    "printers_details_supply_chart_media_tab":{
+        "locator": {
+            "css selector": "div#tab__media"
+        },
+        "localization": {
+            "en": "Media"
+        }
+    },
+    "printers_details_supply_chart_other_supplies_tab":{
+        "locator": {
+            "css selector": "div#tab__otherSupplies"
+        },
+        "localization": {
+            "en": "Other Supplies"
+        }
+    },
+    "printers_details_supplies_chart_end_scroll_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Scroll End']"
+        }
+    },
+    "printers_details_supplies_chart_estimated_supplies_label":{
+        "locator": {
+            "css selector": "div[data-testid='device-security-label']"
+        },
+        "localization": {
+            "en": "Estimated Supply Levels"
+        }
+    },
+    "printers_details_supplies_chart_ink_cartridges_chart":{
+        "locator": {
+            "css selector": "div[data-testid='ink']"
+        }
+    },
+    "printer_details_properties_tab_device_card":{
+        "locator": {
+            "css selector": "div[aria-controls='device-body']"
+        },
+        "localization": {
+            "en": "Device"
+        }
+    },
+    "printer_details_properties_tab_ews_card":{
+        "locator": {
+            "css selector": "div[aria-controls='ews-body']"
+        },
+        "localization": {
+            "en": "Embedded Web Server"
+        }
+    },
+    "printer_details_properties_tab_network_card":{
+        "locator": {
+            "css selector": "div[aria-controls='network-body']"
+        },
+        "localization": {
+            "en": "Network"
+        }
+    },
+    "printer_details_properties_tab_securiry_card":{
+        "locator": {
+            "css selector": "div[aria-controls='security-body']"
+        },
+        "localization": {
+            "en": "Security"
+        }
+    },
+    "printer_details_properties_tab_supplies_card":{
+        "locator": {
+            "css selector": "div[aria-controls='supplies-body']"
+        },
+        "localization": {
+            "en": "Supplies"
+        }
+    },
+    "printer_details_properties_tab_digital_sending_card":{
+        "locator": {
+            "css selector": "div[aria-controls='digitalSend-body']"
+        },
+        "localization": {
+            "en": "Digital Sending"
+        }
+    },
+    "printer_details_properties_tab_web_services_card":{
+        "locator": {
+            "css selector": "div[aria-controls='webServices-body']"
+        },
+        "localization": {
+            "en": "Web Services"
+        }
+    },
+    "printer_device_details_device_property_card":{
+        "locator": {
+            "css selector": "div#fe-{}"
+        }
+    },
+    "printer_device_details_device_property_value":{
+        "locator": {
+            "css selector": "#{}-value"
+        }
+    },
+    "printer_device_details_authentication_property_value":{
+        "locator": {
+            "css selector": "#dot1x-authentication-serverid-value>div>div"
+        }
+    },
+    "reports_dropdown":{
+        "locator":{
+            "css selector":"#Report_Select"
+        }
+    },
+    "hp_secure_fleet_manager_tab_export_as_pdf_button":{
+        "locator": {
+            "css selector": "[data-testid='device-report-export']"
+        }
+    },
+    "hp_secure_fleet_manager_tab_no_reports_selected_icon":{
+        "locator": {
+            "css selector": "[data-testid='warningIcon']"
+        }
+    },
+    "hp_secure_fleet_manager_tab_no_reports_selected_message":{
+        "locator": {
+            "css selector": "div[data-testid='warningLabel']"
+        },
+        "localization": {
+            "en": "No report has been selected."
+        }
+    },
+    "hp_secure_fleet_manager_tab_note_message":{
+        "locator": {
+            "css selector": "section[id='@jarvis/react-ecp-endpointsecurity-devicespage'] p"
+        },
+        "localization": {
+            "en": "This report is provided for general comparison only. The information contained is based on manufacturer's published and internal specifications, and proprietary data and algorithms. The information is not guaranteed accurate by HP Development Company. Users can customize the security policies used in the analysis, which will affect the results. Actual results may vary."
+        }
+    },
+    "printer_details_general_information_section":{
+        "locator": {
+            "css selector": "[aria-controls='item-general-information-body']"
+        }
+    },
+    "printer_details_connectivity_type_section":{
+        "locator": {
+            "css selector": "[aria-controls='item-connectivity-type-body']"
+        }
+    },
+    "printer_details_general_information_section_title":{
+        "locator": {
+            "css selector": "div#item-general-information label"
+        },
+        "localization": {
+            "en": "General Information"
+        }
+    },    
+    "printer_details_connectivity_type_section_title":{
+        "locator": {
+            "css selector": "div#item-connectivity-type label"
+        },
+        "localization": {
+            "en": "Connectivity Type"
+        }
+    },
+    "general_information_section_asset_number_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Asset number')]"
+        },
+        "localization": {
+            "en": "Asset number "
+        }
+    },    
+    "general_information_section_asset_number":{
+        "locator": {
+            "css selector": "div[data-testid='asset-number-value']"
+        }
+    },    
+    "general_information_section_device_group_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Device group')]"
+        },
+        "localization": {
+            "en": "Device group "
+        }
+    },    
+    "general_information_section_device_group":{
+        "locator": {
+            "css selector": "div[data-testid='device-group-value']"
+        }
+    },
+    "general_information_section_date_added_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Date added')]"
+        },
+        "localization": {
+            "en": "Date added "
+        }
+    },   
+    "general_information_section_date_added":{
+        "locator": {
+            "css selector": "div[data-testid='date-added-value']"
+        }
+    },
+    "general_information_section_firmware_version_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Firmware version')]"
+        },
+        "localization": {
+            "en": "Firmware version "
+        }
+    },
+    "general_information_section_firmware_version":{
+        "locator": {
+            "css selector": "div[data-testid='firmware-version-value']"
+        }
+    },
+    "general_information_section_serial_number_title":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Serial number')]"
+        },
+        "localization": {
+            "en": "Serial number "
+        }
+    },
+    "general_information_section_serial_number":{
+        "locator": {
+            "css selector": "div[data-testid='serial-number-value']"
+        }
+    },
+    "general_information_section_hostname":{
+        "locator": {
+            "css selector": "div[data-testid='wired0-hostname-value']"
+        }
+    },
+    "general_information_section_ipv4_address":{
+        "locator": {
+            "css selector": "div[data-testid='wired0-ipv4-value']"
+        }
+    },
+    "reports_dropdown_area":{
+        "locator":{
+            "css selector":"[data-testid='warningLabel']"
+        }
+    },
+    "select_device_assessment_option":{
+        "locator":{
+            "css selector":["li#Report_Select-option-0", "li[id*='option-0']"]
+        }
+    },
+    "select_device_remediation_option":{
+        "locator":{
+            "css selector":["li#Report_Select-option-1", "li[id*='option-1']"]
+        }
+    },
+    "device_assessment_report_type":{
+        "locator": {
+            "css selector": "[data-testid='device-report-type']"
+        },
+        "localization": {
+            "en": "Device Assessment Details"
+        }
+    },
+    "device_remediation_report_type":{
+        "locator": {
+            "css selector": "[data-testid='device-report-type']"
+        },
+        "localization": {
+            "en": "Device Remediation Details"
+        }
+    },
+    "device_report_desc":{
+        "locator": {
+            "css selector": "[data-testid='device-report-header'] p[data-testid='device-report-text']"
+        },
+        "localization": {
+            "en": "View the most recent reports of security policies."
+        }
+    },
+    "reports_dropdown_options":{
+        "locator":{
+            "css selector":"ul[id='Report_Select-listbox'] li"
+        }
+    },
+    "report_content":{
+        "locator":{
+            "css selector":"[aria-controls='device-report-policyname-0']"
+        }
+    },
+    "printers_details_policies_tab":{
+        "locator": {
+            "css selector": ["a[data-testid='policy-tab']", "[id='4']"]
+        },
+        "localization": {
+            "en": "Policies"
+        }
+    },
+    "printers_details_policies_tab_compliance_status_widget":{
+        "locator": {
+            "css selector": "div#status-accordion"
+        }
+    },
+    "printers_details_policies_tab_compliance_status_widget_title":{
+        "locator": {
+            "css selector": "[data-testid='compliance-info-title']"
+        },
+        "localization": {
+            "en": "Compliance Status"
+        }
+    },
+    "compliance_status_widget_run_now_button":{
+        "locator": {
+            "css selector": "[data-testid='compliance-info-run-button']"
+        }
+    },
+     "compliance_status_widget_run_now_button_disabled":{
+        "locator": {
+            "css selector": "button[data-testid='compliance-info-run-button'][disabled]"
+        }
+    },
+    "compliance_status_widget_no_items_found_message":{
+        "locator": {
+            "css selector": "div[role='img']+span"
+        },
+        "localization": {
+            "en": "No policy settings to display"
+        }
+    },
+    "policy_started_to_check_compliance_bottom_toast":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div#toast-title-id-toast-run-now-done"
+        }
+    },
+    "policy_started_to_check_compliance_bottom_toast_end_part":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(), 'the process is finished.')]"
+        }
+    },
+    "compliance_status_widget_expand_button":{
+        "locator": {
+            "css selector": "[aria-controls='complianceInfo']"
+        }
+    },
+    "printers_details_policies_tab_policy_widget":{
+        "locator": {
+            "css selector": "div#policy-accordion"
+        }
+    },
+    "printers_details_policies_tab_edit_button":{
+        "locator": {
+            "css selector": "button#device-policy-preview-accordion-button"
+        }
+    },
+    "printers_details_policies_tab_policy_widget_expand_button":{
+        "locator": {
+            "css selector": "[aria-controls='id-device-specific']"
+        }
+    },
+    "printers_details_policy_tab_no_policy_warning_message": {
+        "locator": {
+            "xpath": "//p[contains(text(), 'No Device-Specific Policy Found')]"
+        },
+        "localization": {
+            "en": "No Device-Specific Policy Found"
+        }
+    },
+    "printers_details_policy_tab_no_policy_warning_message_end_part": {
+        "locator": {
+            "css selector": "#id-device-specific div[class*='Text']+div"
+        },
+        "localization": {
+            "en": "You can edit policy settings that apply to this device only."
+        }
+    },
+    "edit_select_policy_settings_tab_all_dropdown":{
+        "locator": {
+            "css selector": "#all div:nth-child(1)"
+        }
+    },
+    "policy_settigs_search_txt": {
+        "locator": {
+            "css selector": "input[id='id-select-policy-attribute-search']"
+        }
+    },
+    "policy_setting_result":{
+        "locator": {
+            "css selector": "table[data-testid='id-policy-attribute-table'] p"
+        }
+    },
+    "edit_specific_policy_table_checkbox": {
+        "locator": {
+            "css selector": "thead .vn-checkbox__span"
+        }
+    },
+    "edit_specific_policy_next_btn": {
+        "locator": {
+            "css selector": "#nextBtn"
+        }
+    },
+    "edit_specific_policy_remove_btn": {
+        "locator": {
+            "css selector": "#createBtn"
+        }
+    },
+    "device_specific_policy_settings_card":{
+        "locator":{
+            "css selector": "div#accordion-settings button[aria-controls='{}']"
+        }
+    },
+    "ignore_unsupported_item_toggle":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Ignore Unsupported Item')]"
+        }
+    },
+    "device_specific_policy_device_property_value_txt": {
+        "locator": {
+            "css selector": "input[id='{}.value']"
+        }
+    },
+    "edit_device_policy_settings_title":{
+        "locator":{
+            "css selector": "h5.createPolicyTitle"
+        },
+        "localization": {
+            "en": "Edit Device-Specific Policy"
+        }
+    },
+    "policies_compliance_status_widget_policy_name":{
+        "locator": {
+            "css selector": "tr td:nth-child(1)"
+        }
+    },
+    "policies_compliance_status_widget_compliance_status":{
+        "locator": {
+            "css selector": "tr td:nth-child(3)"
+        }
+    },
+    "policies_compliance_status_widget_compliance_status_reason":{
+        "locator": {
+            "css selector": "tr td:nth-child(4)"
+        }
+    },
+    "cartridge_threshold_black_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-black.value']"
+        }
+    },
+    "cartridge_threshold_cyan_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-cyan.value']"
+        }
+    },
+    "cartridge_threshold_magenta_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-magenta.value']"
+        }
+    },
+    "cartridge_threshold_yellow_text_box":{
+        "locator":{
+            "css selector": "input[id='cartridge-threshold-yellow.value']"
+        }
+    },
+    "set_options_settings_checkbox":{
+        "locator":{
+            "xpath": "//input[@id='{}.check']/following-sibling::span/following-sibling::span"
+        } 
+    },
+    "control_panel_language_dropdown":{
+        "locator":{
+            "css selector": "input[id='ctrl-panel-language.code']"
+        }
+    },
+    "control_panel_language_option":{
+        "locator":{
+            "css selector": "ul li[data-value='language-code.{}']"
+        }
+    },
+    "embedded_web_server_language_dropdown":{
+        "locator":{
+            "css selector": "input[id='ews-language.code']"
+        }
+    },
+    "embedded_web_server_language_option":{
+        "locator":{
+            "css selector": "ul li[data-value='language-code.{}']"
+        }
+    },
+    "retain_print_stored_jobs_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Retain Print Jobs')]"
+        }
+    },
+    "temporary_stored_job_dropdown":{
+        "locator":{
+            "css selector": "[id='retain-jobs.temporary']"
+        }
+    },
+    "temporary_stored_job_30_minutes_option":{
+        "locator":{
+            "css selector": "[id*='-option-0']"
+        }
+    },
+    "temporary_stored_job_1_hour_option":{
+        "locator":{
+            "css selector": "[id*='-option-1']"
+        }
+    },
+    "temporary_stored_job_never_option":{
+        "locator":{
+            "css selector": "[id*='-option-6']"
+        }
+    },
+    "standard_job_retention_dropdown":{
+        "locator":{
+            "css selector": "[id='retain-jobs.standard']"
+        }
+    },
+    "standard_job_retention_30_minutes_option":{
+        "locator":{
+            "css selector": "[id*='-option-0']"
+        }
+    },
+    "standard_job_retention_1_hour_option":{
+        "locator":{
+            "css selector": "[id*='-option-1']"
+        }
+    },
+    "standard_job_retention_never_option":{
+        "locator":{
+            "css selector": "[id*='-option-6']"
+        }
+    },
+    "user_requested_tray_first_radio_button":{
+        "locator":{
+            "css selector": "[id='use-requested-tray.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "user_requested_tray_exclusively_radio_button":{
+        "locator":{
+            "css selector": "[id='use-requested-tray.mode'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "remediation_checkbox":{
+        "locator":{
+            "css selector": "input[id*='remediation']+span"
+        }
+    },
+    "proxy_device_date_month_year_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'DD/MM/YYYY')]"
+        } 
+    },
+    "proxy_device_year_month_date_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'YYYY/MM/DD')]"
+        } 
+    },
+    "proxy_device_month_date_year_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'MM/DD/YYYY')]"
+        } 
+    },
+    "proxy_device_24_hour_format":{
+        "locator":{
+            "xpath": "//span[contains(text(),'24 Hours (24:00:00)')]"
+        }
+    },
+    "proxy_device_12_hour_format":{
+        "locator":{
+            "xpath": "//span[contains(text(),'12 Hours (12:00:00 PM)')]"
+        }
+    },
+    "sleep_settings_sleep_mode_textbox":{
+        "locator":{
+            "css selector":"input[id='sleep-settings.value']"
+        }
+    },
+    "sleep_settings_wake_all_events_radio_button":{
+        "locator":{
+            "css selector":"div[id='sleep-settings.on-events'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "sleep_settings_wake_network_port_radio_button":{
+        "locator":{
+            "css selector":"div[id='sleep-settings.on-events'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "sleep_settings_wake_power_button_only_radio_button":{
+        "locator":{
+            "css selector":"div[id='sleep-settings.on-events'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "sleep_settings_auto_off_textbox":{
+        "locator":{
+            "css selector":"input[id='sleep-settings.off-value']"
+        }
+    },
+    "printers_table_data":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child({})"
+       }
+    },
+    "printers_details_anchor_list_items":{
+        "locator": {
+            "css selector": "nav#react-ecp-device-details-overview-anchor-menu li"
+        }
+    },
+    "printers_details_anchor_list_item":{
+        "locator": {
+            "css selector": "nav#react-ecp-device-details-overview-anchor-menu li:nth-child({})"
+        }
+    },
+    "printers_details_anchor_list_item_highlighted":{
+        "locator": {
+            "css selector": "nav#react-ecp-device-details-overview-anchor-menu li:nth-child({}) a"
+        }
+    },
+    "connectivity_type_section_printer_connectivity_description":{
+        "locator": {
+            "css selector": "div[data-testid='list-item-leading-area-title']+div"
+        }
+    },
+   "connectivity_type_section_printer_connectivity_status":{
+        "locator": {
+            "css selector": "div[class*='ConnectivityTypeSection__Text']"
+        }
+    },
+    "connectivity_type_section_printer_connectivity_type":{
+        "locator": {
+            "css selector": "div[data-testid='list-item-leading-area-title']"
+        }
+    },
+    "connectivity_type_section_proxy_view_details_link":{
+        "locator": {
+            "css selector": "div[data-testid='list-item-trailing-area-hp-link-icon']"
+        }
+    },
+    "printers_table_headers":{
+        "locator": {
+            "css selector": "table thead th"
+        }
+    },
+    "devices_printers_menu_drop_down_option":{
+        "locator": {
+            "css selector": "button[data-testid='wex_horizontal_menu_']+div ul div:nth-child({}) li"
+        }
+    },
+    "_shared_table_checkbox_col_by_index":{
+        "locator": {
+            "css selector": "tr > td:nth-of-type({})"
+        }
+    },
+    "printer_connectivity_table_header":{
+        "locator": {
+            "css selector": "#connectionState"
+        }
+    },
+    "checkbox_column_table_header":{
+        "locator": {
+            "css selector": "thead th:nth-child(1)"
+        }
+    },
+    "change_not_recommended_popup_confirm_button":{
+        "locator":{
+            "css selector":"#idConfirm"
+        }
+    },
+    "ps_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Allow PS Access')]"
+        }
+    },
+    "pjl_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Allow PJL Access')]"
+        }
+    },
+    "file_erase_non_secure_radio_button":{
+        "locator":{
+            "css selector": "[id='file-erase.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "remediation_item_toggle":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Remediation')]"
+        }
+    },
+    "enable_set_color_access_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//span[contains(text(),'Set Custom Color Access')]"
+        }
+    },
+    "restrict_color_settings_grayscale_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='restrict-color.mode'] label:nth-child(2) span"
+        }
+    },
+    "restrict_color_settings_customize_color_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='restrict-color.mode'] label:nth-child(3) span"
+        }
+    },
+    "restrict_by_user_permissions_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Restrict By User Permissions')]"
+        }
+    },
+    "restrict_by_application_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Restrict By Application')]"
+        }
+    },
+    "default_permissions_grayscale_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='restrict-color.def-app-perm'] label:nth-child(2) span"
+        }
+    },
+    "non_default_applications_add_button":{
+        "locator": {
+            "css selector": "button#addResistColorPermission"
+        }
+    },
+    "add_popup_application_name_textbox":{
+        "locator": {
+            "css selector": "input#restrict-color-application_name"
+        }
+    },
+    "add_popup_add_button":{
+        "locator": {
+            "css selector": "div[data-testid='id-restrict-color-modal'] button:nth-child(1)"
+        }
+    },
+    "service_access_code_textbox_disabled":{
+        "locator":{
+            "css selector": "input[id='svc-access-code.value']"
+        }
+    },
+    "service_access_code_text_box":{
+        "locator":{
+            "css selector": "input[id='svc-access-code.value']"
+        }
+    },
+    "service_access_code_confirm_text_box":{
+        "locator":{
+            "css selector": "input[id='svc-access-code.value.confirm']"
+        }
+    },
+    "manual_feed_prompt_unless_loaded":{
+        "locator":{
+            "css selector": "[id='manual-feed-prompt.mode'] label:nth-child(3) span:nth-child(2)"
+        }
+    },
+    "manual_feed_prompt_always":{
+        "locator":{
+            "css selector": "[id='manual-feed-prompt.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "manual_feed_first_radio_button":{
+        "locator":{
+            "css selector": "[id='manual-feed.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "manual_feed_cassette_radio_button":{
+        "locator":{
+            "css selector": "[id='manual-feed.mode'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "report_date":{
+        "locator":{
+            "css selector":"span[data-testid*='device-report-policydaterun']"
+        }
+    },
+    "hp_secure_device_details_latest_report_result":{
+        "locator": {
+            "css selector": "div#device-report-policyname-0 [data-testid*='device-report-policyitem-setting']+div"
+        }
+    },
+    "cors_setting_add_button":{
+        "locator":{
+            "css selector": "button[id='add']"
+        }
+    },
+    "cors_setting_site_name_textbox":{
+        "locator":{
+            "css selector": "input[id='address']"
+        }
+    },
+    "cors_setting_add_popup_add_button":{
+        "locator":{
+            "css selector": "[data-testid='id-simple-table-modal'] button:nth-child(1)"
+        }
+    },
+    "enter_control_panel_timeout":{
+        "locator":{
+            "css selector": "[id='ctrl-panel-timeout.value']"
+        }
+    },
+    "host_usb_plug_and_play_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Host USB Plug and Play')]"
+        }
+    },
+    "proxy_device_settings_checkbox":{
+        "locator":{
+            "xpath": "//input[@id='{}']/following-sibling::span"
+        }
+    },
+    "require_admin_password_for_access_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Require Admin Password for Access')]"
+        }
+    },
+    "display_print_page_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Display Print Page')]"
+        }
+    },
+    "display_job_log_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Display Job Log')]"
+        }
+    },
+    "snmp_v1v2_disable_radio_btn":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Disable')]"
+        }
+    },
+    "snmpv1v2_enable_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//div[@data-testid='id-device-column'] //span[contains(text(),'SNMPv1/v2')]"
+        }
+    },
+    "snmp_v1v2_read_only_radio_btn":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Read-Only')]"
+        }
+    },
+    "snmp_v1v2_read_write_radio_btn":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//fieldset //span[contains(text(),'Read and Write')]"
+        }
+    },
+    "snmp_v3_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//div[@data-testid='id-device-column'] //span[contains(text(),'SNMPv3')]"
+        }
+    },
+    "secure_boot_presence_checkbox":{
+        "locator":{
+            "css selector": "input[id='secure-boot-presence.check']"
+        }
+    },
+    "whitelisting_presence_checkbox":{
+        "locator":{
+            "css selector": "input[id='whitelist-presence.check']"
+        }
+    },
+    "printer_firmware_update_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Printer Firmware Update (send as Printjob)')]"
+        }
+    },
+    "printers_table_no_item_found_msg":{
+        "locator": {
+            "css selector": "div[data-testid='table-empty-msg']"
+        },
+        "localization": {
+            "en": "No Devices Found"
+        }
+    },
+    "printers_policies_table_header":{
+        "locator":{
+            "css selector": "th#policies"
+        }
+    },
+    "printers_device_table_policies_status":{
+        "locator":{
+            "css selector": "tr td:nth-child(9)"
+        }
+    },
+    "printers_device_table_connectivity_status":{
+        "locator":{
+            "css selector": "tr td:nth-child(4)"
+        }
+    },
+    "printers_policy_compliance_table_header":{
+        "locator":{
+            "css selector": "th#policyCompliance"
+        }
+    },
+    "printers_device_table_policy_compliance_status":{
+        "locator":{
+            "css selector": "tr td:nth-child(12)"
+        }
+    },
+    "device_detail_policy_tab_policy_text":{
+        "locator":{
+            "css selector":"[data-testid='compliance-info-policy-name']"
+        }
+    },
+    "device_detail_policy_tab_compliance_status":{
+        "locator":{
+            "css selector":"[data-testid='compliance-info-status-name']"
+        }
+    },
+    "device_specific_name_policy": {
+        "locator": {
+            "css selector": "div[aria-controls*='{}']"
+        }
+    },
+    "policy_device_details_total_policy_count":{
+        "locator": {
+            "css selector": "div[data-testid='compliance-info-total-counts']"
+        }
+    },
+    "device_details_policies_tab_settings_name":{
+        "locator": {
+            "css selector": "div#compliance-accordion-settings button[aria-controls*='{}']"
+        }
+    },
+    "printers_details_policies_tab_high_priority_settings_button":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(1) button[aria-controls*='https']"
+        }
+    },
+    "device_details_high_priority_policy_checkmark_icon":{
+        "locator": {
+            "css selector": "button[aria-controls*='{}'] div:nth-child(2) div svg"
+        }
+    },
+    "device_details_high_priority_policy_warning_icon":{
+        "locator": {
+            "css selector": "button[aria-controls*='{}'] div:nth-child(2) div svg"
+        }
+    },
+    "device_details_high_priority_policy_warning_message":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Noncompliant policy setting')]"
+        }
+    },
+    "printers_device_details_priority_policy_name_2":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2) div.centralAreaAccordion"
+        }
+    },
+    "printers_device_details_priority_2_compliance_status":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2) p"
+        }
+    },
+    "printers_device_details_priority_2_policy_button":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2)>div>div button"
+        }
+    },
+    "printers_details_policies_tab_priority_2_settings_button":{
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(2) button[aria-controls*='https']"
+        }
+    },
+    "device_details_low_priority_policy_name":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "xpath": "//div[@id='policy-accordion']//div[contains(text(),'{}')]"
+        }
+    },
+    "device_details_low_priority_policy_status":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "xpath": "//p[contains(text(),'{}')]"
+        }
+    },
+    "device_details_low_priority_policy_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(3)"
+        }
+    },
+    "device_details_low_priority_policy_warning_icon":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(3) button[aria-controls*='https'] div:nth-child(2) div svg"
+        }
+    },
+    "device_details_low_priority_policy_warning_message":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Inactive policy setting')]"
+        }
+    },
+    "device_details_low_priority_policy_settings_button":{
+        "comment": "locator bad waiting for dev to fix: ticket- ",
+        "locator": {
+            "css selector": "div#policy-accordion>div:nth-child(3) button[aria-controls*='https']"
+        }
+    },
+    "printer_assessment_status_table_header":{
+        "locator": {
+            "css selector": "th#assessment"
+        }
+    },
+    "printers_details_properties_tab_copier_card":{
+        "locator": {
+            "css selector": "div[aria-controls='copier-body']"
+        },
+        "localization": {
+            "en": "Copier"
+        }
+    },
+    "printer_details_properties_tab_solutions_card":{
+        "locator": {
+            "css selector": "div[aria-controls='solutions-body']"
+        },
+        "localization": {
+            "en": "Solutions"
+        }
+    },
+    "printer_details_properties_tab_wireless_card":{
+        "locator": {
+            "css selector": "div[aria-controls='wireless-body']"
+        },
+        "localization": {
+            "en": "Wireless"
+        }
+    },
+    "show_editable_items_only_radio_btn":{
+        "locator": {
+            "css selector": "input[data-testid='id-batch-view-show-selected-items-toggle']+span"
+        }
+    },
+    "property_tab_device_category_setting_list_items": {
+        "locator": {
+            "css selector": "#device-body > div > ul > li"
+        }
+    },
+    "printers_details_properties_tab_anchor_list":{
+        "locator": {
+            "css selector": "nav[data-testid='id-anchor-menu'] li"
+        }
+    },
+    "property_tab_copier_category_setting_list_items": {
+        "locator": {
+            "css selector": "#copier-body > div > ul > li"
+        }
+    },
+    "property_tab_ews_category_setting_list_items": {
+        "locator": {
+            "css selector": "#ews-body > div > ul > li"
+        }
+    },
+    "property_tab_network_category_setting_list_items":{
+        "locator": {
+            "css selector": "#network-body > div > ul > li"
+        }
+    },
+    "property_tab_security_category_setting_list_items":{
+        "locator": {
+            "css selector": "#security-body > div > ul > li"
+        }
+    },
+    "property_tab_supplies_category_setting_list_items":{
+        "locator": {
+            "css selector": "#supplies-body > div > ul > li"
+        }
+    },
+    "property_tab_solutions_category_setting_list_items":{
+        "locator": {
+            "css selector": "#solutions-body > div > ul > li"
+        }
+    },
+    "property_tab_digital_sending_category_setting_list_items":{
+        "locator": {
+            "css selector": "#digitalSend-body > div > ul > li"
+        }
+    },
+    "property_tab_web_services_category_setting_list_items":{
+        "locator": {
+            "css selector": "#webServices-body > div > ul > li"
+        }
+    },
+    "property_tab_wireless_category_setting_list_items":{
+        "locator": {
+            "css selector": "#wireless-body > div > ul > li"
+        }
+    },
+    "printer_device_details_device_property_edit_button":{
+        "locator": {
+            "css selector": "#fe-{} [data-testid='edit-ews-action-button']"
+        },
+        "localization": {
+            "en": "Edit"
+        }
+    },
+    "printers_details_property_anchor_list_item":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//li//a//div[contains(text(),'{}')]/parent::a"
+        }
+    },
+    "printers_details_property_anchor_list_item_highlighted":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//li//a//div[contains(text(),'{}')]/parent::a"
+        }
+    },
+    "printers_details_tab_name_highlighted":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//*[contains(text(),'{}')]/parent::div"
+        }
+    },
+    "printers_details_policies_tab_anchor_list":{
+        "locator": {
+            "css selector": "nav#device-compliance-anchor li"
+        }
+    },
+    "printers_details_policy_anchor_list_item":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//li//a//span[contains(text(),'{}')]"
+        }
+    },
+    "printers_details_policy_anchor_list_item_highlighted":{
+        "comment": "locator bad waiting for dev to fix: ",
+        "locator": {
+            "xpath": "//li//a//span[contains(text(),'{}')]/parent::a"
+        }
+    },
+    "energy_settings_inactivity_dropdown":{
+        "locator":{
+            "css selector":"div[id='energy-settings.off-inactivity']"
+        }
+    },
+    "energy_settings_off_inactivity_one_minute_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.off-inactivity-option-0']"
+        }
+    },
+    "energy_settings_off_inactivity_five_minutes_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.off-inactivity-option-1']"
+        }
+    },
+    "energy_settings_off_inactivity_fifteen_minutes_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.off-inactivity-option-2']"
+        }
+    },
+    "energy_settings_off_inactivity_thirty_minutes_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.off-inactivity-option-3']"
+        }
+    },
+    "energy_settings_off_inactivity_one_hour_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.off-inactivity-option-4']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_dropdown":{
+        "locator":{
+            "css selector":"div[id='energy-settings.shut-down-inactivity']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_two_hour_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.shut-down-inactivity-option-0']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_four_hour_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.shut-down-inactivity-option-1']"
+        }
+    },
+    "energy_settings_shutdown_inactivity_eight_hour_option":{
+        "locator":{
+            "css selector":"li[id='energy-settings.shut-down-inactivity-option-2']"
+        }
+    },
+    "auto_send_checkbox":{
+        "locator":{
+            "css selector":"input[id='auto-send.check']"
+        }
+    },
+    "auto_send_every_days_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Days (1-28)')]"
+        }
+    },
+    "auto_send_every_days_and_month_textbox":{
+        "locator":{
+            "css selector":"input[id='value']"
+        }
+    },
+    "auto_send_every_weeks_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Weeks (1-4)')]"
+        }
+    },
+    "auto_send_every_months_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Months (1-6)')]"
+        }
+    },
+    "auto_send_every_pages_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Pages (50-30000)')]"
+        }
+    },
+    "auto_send_to_hp_using_https_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Send to HP Using HTTPS')]"
+        }
+    },
+    "auto_send_to_url_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Send to URL')]"
+        }
+    },
+    "auto_send_to_url_add_button":{
+        "locator":{
+            "css selector":"div[id='auto-send'] div:nth-child(6) button[id='add']"
+        }
+    },
+    "auto_send_to_url_web_address_textbox":{
+        "locator":{
+            "css selector":"input[id='address']"
+        }
+    },
+    "auto_send_add_popup_add_button":{
+        "locator":{
+            "css selector":"div[data-testid='id-simple-table-modal'] button:nth-child(1)"
+        }
+    },
+    "auto_send_to_email_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Send to Email')]"
+        }
+    },
+    "auto_send_to_email_add_button":{
+        "locator":{
+            "css selector":"div[id='auto-send'] div:nth-child(8) button[id='add']"
+        }
+    },
+    "auto_send_to_email_email_address_textbox":{
+        "locator":{
+            "css selector":"input[id='address']"
+        }
+    },
+    "time_zone_select_an_option_dropdown":{
+        "locator":{
+            "css selector":"[id='time-zone.zone']"
+        }
+    },
+    "time_zone_africa_casablanca_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-40']"
+        }
+    },
+    "time_zone_africa_harare_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-47']"
+        }
+    },
+    "time_zone_africa_nairobi_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-60']"
+        }
+    },
+    "time_zone_africa_tripoli_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-52']"
+        }
+    },
+    "time_zone_asia_bangkok_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-79']"
+        }
+    },
+    "time_zone_asia_beirut_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-44']"
+        }
+    },
+    "time_zone_west_center_africa_option":{
+        "locator":{
+            "css selector":"[id='time-zone.zone-option-42']"
+        }
+    },
+    "time_zone_dst_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Automatically adjust clock for daylight saving time (DST)')]"
+        }
+    },
+    "hp_sds_event_log_tab_event_log_title":{
+        "locator": {
+            "xpath": "//div[@data-testid='tab-mfe']//div[contains(text(),'Event Log')]"
+        },
+        "localization": {
+            "en": "Event Log"
+        }
+    },
+    "hp_sds_event_log_tab_event_log_description":{
+        "locator": {
+            "xpath": "//div[@data-testid='tab-mfe']//p"
+        },
+        "localization": {
+            "en": "View printer events and insights for the last 30 days. Select Filters to view events by type, or from any timeframe in the last 90 days."
+        }
+    },
+    "sds_event_log_tab_event_log_table_empty_msg":{
+        "locator": {
+            "css selector": "div.wex-empty-state-widget-text"
+        }
+    },
+    "sds_event_log_tab_event_log_table_empty_msg_img":{
+        "locator": {
+            "css selector": "div.wex-empty-state-widget-img"
+        }
+    },
+    "sds_event_log_table_no_events_msg":{
+        "locator": {
+            "css selector": "div.wex-empty-state-widget-text div.state-title"
+        },
+        "localization": {
+            "en": "No events to display"
+        }
+    },
+    "sds_event_log_table_no_events_subtitle_msg":{
+        "locator": {
+            "css selector": "div.wex-empty-state-widget-text div.state-subtitle"
+        },
+        "localization": {
+            "en": "There is no event log data for the last 90 days."
+        }
+    },
+    "sds_event_log_tab_filters_button":{
+        "locator": {
+            "css selector": "button[aria-label='Filters']"
+        },
+        "localization": {
+            "en": "Filters"
+        }
+    },
+    "sds_event_log_tab_column_options_button":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "sds_event_log_table_data":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child({})"
+       }
+    },
+    "sds_event_log_table_headers":{
+        "locator": {
+            "css selector": "table thead th"
+        }
+    },
+    "event_log_table_code_column_header":{
+        "locator": {
+            "css selector": "th#code"
+        }
+    },
+    "event_log_table_description_column_header":{
+        "locator": {
+            "css selector": "th#desc"
+        }
+    },
+    "event_log_table_recommended_action_column_header":{
+        "locator": {
+            "css selector": "th#link"
+        }
+    },
+    "event_log_code_table_header":{
+        "locator":{
+            "css selector": "thead th#code"
+        }
+    },
+    "event_log_date_table_header":{
+        "locator": {
+            "css selector": "thead th#date"
+        }
+    },
+    "event_log_type_table_header":{
+        "locator": {
+            "css selector": "thead th#type"
+        }
+    },
+    "event_log_cycle_table_header":{
+        "locator": {
+            "css selector": "thead th#cycles"
+        }
+    },
+    "event_log_firmware_version_table_header":{
+        "locator": {
+            "css selector": "thead th#fwVersion"
+        }
+    },   
+    "event_log_filter_side_bar_title": {
+        "locator": {
+            "css selector": "div.wex-lib-sidebar-title"
+        },
+        "localization": {
+            "en": "Filters"
+        }
+    },
+    "event_log_filter_side_bar_clear_all_button":{
+        "locator": {
+            "css selector": "div.wex-lib-sidebar-title-container a"
+        },
+        "localization": {
+            "en": "Clear all"
+        }
+    },
+    "event_log_filter_side_bar_event_type_dropdown_label":{
+        "locator": {
+            "xpath": "(//*[contains(text(),'Event Type')])"
+        },
+        "localization": {
+            "en": "Event Type"
+        }
+    },
+    "event_log_filter_side_bar_event_type_dropdown":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div[class*='sidebar-content-container']>div>div:nth-child(1) div[aria-haspopup='listbox']"
+        }
+    },
+    "event_log_filter_side_bar_timeframe_dropdown_label":{
+        "locator": {
+            "xpath": "(//*[contains(text(),'Timeframe')])"
+        },
+        "localization": {
+            "en": "Timeframe"
+        }
+    },
+    "event_log_filter_side_bar_timeframe_dropdown":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "css selector": "div[class*='sidebar-content-container']>div>div:nth-child(2) div[aria-haspopup='listbox']"
+        }
+    },
+    "event_log_filter_side_bar_done_button":{
+        "locator": {
+            "css selector": "div[class*='wex-lib-sidebar-action-container'] button"
+        },
+        "localization": {
+            "en": "Done"
+        }
+    },
+    "event_log_filter_side_bar_event_type_dropdown_options":{
+        "locator": {
+            "css selector": "ul[id*='vn-select'] li"
+        }
+    },
+    "event_log_filter_side_bar_timeframe_dropdown_options":{
+        "locator": {
+            "css selector": "ul[id*='vn-select'] li"
+        }
+    },
+    "event_log_table_first_guide_me_link":{
+        "locator": {
+            "css selector": ["tbody tr:nth-child(1) td:nth-child(3) a",
+                            "tbody tr:nth-child(2) td:nth-child(3) a"]
+        }
+    },
+    "event_log_table_first_link_description":{
+        "locator": {
+            "css selector": "tbody tr:nth-child(1) td:nth-child(2)"
+        }
+    },
+    "guide_me_link_page_description":{
+        "locator": {
+            "css selector": ["h1[class*='title']+p", "h1[class*='title']+div p:nth-child(1)"]
+        }
+    },
+    "event_log_filter_side_bar_start_date":{
+        "locator": {
+            "css selector": "input#date_picker-start-input"
+        }
+    },
+    "event_log_filter_side_bar_end_date":{
+        "locator": {
+            "css selector": "input#date_picker-end-input"
+        }
+    },
+    "sds_table_entries_with_type":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child(5)"
+        }
+    },
+    "browser_language_settings_checkbox":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'View Pages in Browser Language')])"
+        }
+    },
+    "printer_language_settings_checkbox":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'View Pages in Printer Language')])"
+        }
+    },
+    "select_a_language_dropdown":{
+        "locator":{
+            "xpath": "(//span[contains(text(),'Select a Language')])"
+        }
+    },
+    "time_services_do_not_sync_network_time_server":{
+        "locator":{
+            "css selector": "[id='time-services.drift-correction'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "time_services_automatic_sync_custom_network_time_server":{
+        "locator":{
+            "css selector": "[id='time-services.drift-correction'] label:nth-child(4) span:nth-child(3)"
+        }
+    },
+    "time_services_server_address_ip":{
+        "locator":{
+            "css selector":"[id='time-services.server-address']"
+        }
+    },
+    "time_services_port_value":{
+        "locator":{
+            "css selector":"[id='time-services.port']"
+        }
+    },
+    "time_services_hours_value":{
+        "locator":{
+            "css selector":"[id='time-services.sync-hours']"
+        }
+    },
+    "email_notification_settings_do_not_distrub_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Do Not Notify')]"
+        }
+    },
+    "email_notification_settings_notify_job_fails_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify Only If Job Fails')]"
+        }
+    },
+    "email_notification_settings_notify_job_completes_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify When Job Completes')]"
+        }
+    },
+    "email_notification_settings_deliver_notification_print_radio_button":{
+        "locator":{
+            "css selector":"[id='email-notification.method'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "email_notification_settings_deliver_notification_email_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "css selector":"[id='email-notification.method'] label:nth-child(3) span:nth-child(2)"
+        }
+    },
+    "email_notification_settings_deliver_notification_email_textbox":{
+        "locator":{
+            "css selector":"input[id='email-notification.address']"
+        }
+    },
+    "proxy_server_address_txt":{
+        "locator":{
+            "css selector": "[id='proxy-server.address']"
+        }
+    },
+    "proxy_server_port_txt":{
+        "locator":{
+            "css selector": "[id='proxy-server.port']"
+        }
+    },
+    "verify_certificate_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Verify Certificate for IPP/IPPS Pull Printing')]"
+        }
+    },
+    "hp_web_services_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'HP Web Services')]"
+        }
+    },
+    "hp_eprint_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'HP ePrint')]"
+        }
+    },
+    "print_apps_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Print Apps')]"
+        }
+    },
+    "cartridge_very_low_action_black_prompt_to_continue_radio_button":{
+        "locator":{
+            "css selector":"[id='very-low-action-black.action'] label:nth-child(3) span:nth-child(3)"
+        }
+    },
+    "cartridge_very_low_action_black_continue_radio_button":{
+        "locator":{
+            "css selector":"[id='very-low-action-black.action'] label:nth-child(4) span:nth-child(3)"
+        }
+    },
+    "cartridge_very_low_action_color_prompt_to_continue_radio_button":{
+        "locator":{
+            "css selector":"[id='very-low-action-color.action'] label:nth-child(3) span:nth-child(3)"
+        }
+    },
+    "cartridge_very_low_action_color_continue_radio_button":{
+        "locator":{
+            "css selector":"[id='very-low-action-color.action'] label:nth-child(4) span:nth-child(3)"
+        }
+    },
+    "cartridge_very_low_action_color_stop_radio_button":{
+        "locator":{
+            "css selector":"[id='very-low-action-color.action'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "cartridge_very_low_action_black_stop_radio_button":{
+        "locator":{
+            "css selector":"[id='very-low-action-black.action'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "intrusion_detection_presence_checkbox":{
+        "locator":{
+            "css selector": "input[id='intrusion-detect-presence.check']"
+        }
+    },
+    "configure_ip_label":{
+        "locator":{
+            "xpath":"//div[contains(text(),'Configuration Server IP Address (v4/v6)')]"
+        }
+    },
+    "device_announcement_agent_server_ip":{
+        "locator":{
+            "css selector":"[id='device-announcement.ip-address']"
+        }
+    },
+    "device_announcement_agent_auth_certificate_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Require Mutual Authentication via Certificates')]"
+        }
+    },
+    "devices_printers_details_devices_breadcrumb":{
+        "locator":{
+            "css selector":"a[href='/ui/view/devices/printers']"
+        },
+        "localization": {
+            "en": "Printers"
+        }
+    },
+    "printers_search_box_default_text":{
+        "locator":{
+            "css selector":"input[placeholder='Search in {}']"
+        }
+    },
+    "printers_search_box_clear_button":{
+        "locator":{
+            "css selector":"button[aria-label='Clear']"
+        }
+    },
+    "configure_device_popup_title":{
+        "locator":{
+            "css selector":"h5[data-testid='id-batch-view-title']"
+        },
+        "localization": {
+            "en": "Configure Device"
+        }
+    },
+    "configure_device_popup_desc":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "css selector":"div[class*='SubTitle']"
+        },
+        "localization": {
+            "en": "Select device settings and set options."
+        }
+    },
+    "configure_device_popup_cancel_btn":{
+        "locator":{
+            "css selector": "button[data-testid='id-batch-view-cancel']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "configure_device_popup_configure_btn":{
+        "locator":{
+            "css selector":"button[data-testid='id-batch-view-save']"
+        },
+        "localization": {
+            "en": "Configure"
+        }
+    },
+    "configure_device_popup_category_section_title":{
+        "locator":{
+            "css selector":"h5[class*='CategoryTreeTitle']"
+        },
+        "localization": {
+            "en": "Category"
+        }
+    },
+    "configure_device_popup_all_category_option":{
+        "locator":{
+            "css selector":"li[id='all'] button+span"
+        },
+        "localization": {
+            "en": "All"
+        }
+    },
+    "configure_device_popup_all_category_expand_btn":{
+        "locator":{
+            "css selector":"li[id='all'] button"
+        }
+    },
+    "configure_device_popup_all_category_expanded":{
+        "locator":{
+            "css selector":"li[id='all'] div[class*='animated-height__container--entered']"
+        }
+    },
+    "configure_device_popup_category_options":{
+        "locator":{
+            "css selector":"li[id='all'] ul[role='group'] li"
+        }
+    },
+    "configure_device_popup_edit_category_name":{
+        "locator":{
+            "css selector":"div[id='edit-batch-{}']"
+        }
+    },
+    "configure_device_popup_search_box_default_text":{
+        "locator":{
+            "css selector":"input[data-testid='id-batch-view-search'][placeholder='Search in {}']"
+        }
+    },
+    "configure_device_popup_show_selected_items_only_toggle_btn":{
+        "locator":{
+            "css selector":"span[class*='vn-toggle']"
+        }
+    },
+    "configure_device_popup_show_selected_items_only_toggle_btn_value":{
+        "locator":{
+            "css selector":"label[class*='ToggleButton']>input"
+        }
+    },
+    "configure_device_popup_show_selected_items_only_toggle_btn_name":{
+        "locator":{
+            "css selector":"[class*='EditableToggleText']"
+        },
+        "localization": {
+            "en": "Show Selected Items Only"
+        }
+    },
+    "configure_device_popup_no_settings_selected_msg":{
+        "locator":{
+            "css selector":"div[class*='NoFilterDataDesc'] p:nth-child(1)"
+        },
+        "localization": {
+            "en": "No Settings Selected in All Category"
+        }
+    },
+    "configure_device_popup_search_box":{
+        "locator":{
+            "css selector":"input[data-testid='id-batch-view-search']"
+        }
+    },
+    "configure_device_popup_outgoing_servers_setting":{
+        "locator":{
+            "css selector":"div[data-testid='id-batch-view-edit-feature-title']"
+        }
+    },
+    "configure_device_popup_search_results":{
+        "locator":{
+            "css selector":"div[data-testid='id-batch-view-edit-feature-title']"
+        }
+    },
+    "configure_device_popup_no_settings_found_msg":{
+        "locator":{
+            "xpath":"//p[contains(text(),'No Settings Found in {} Category')]"
+        }
+    },
+    "configure_device_popup_search_in_all_btn":{
+        "locator":{
+            "css selector":"div[class*='NoFilterDataDesc'] a"
+        }
+    },
+    "configure_device_popup_search_box_clear_button":{
+        "locator":{
+            "css selector":"button[title='Clear']"
+        }
+    },
+    "dhcpv6_policy_stateless_config_radio_button":{
+        "locator":{
+            "css selector":"fieldset[id='ipv6-info.dhcp-policy'] label:nth-child(2) span"
+        }
+    },
+    "enable_ipv6_info_checkbox":{
+        "locator":{
+            "xpath": "//span[contains(text(),'Enable IPv6')]"
+        } 
+    },
+    "dhcpv6_policy_only_requested_by_router_radio_button":{
+        "locator":{
+            "css selector":"fieldset[id='ipv6-info.dhcp-policy'] label:nth-child(3) span"
+        }
+    },
+    "ipv6_domain_name_textbox":{
+        "locator":{
+            "css selector":"input[id='ipv6-info.domain']"
+        }
+    },
+    "primary_ipv6_dns_textbox":{
+        "locator":{
+            "css selector":"input[id='ipv6-info.primary-dns']"
+        }
+    },
+    "secondary_ipv6_dns_textbox":{
+        "locator":{
+            "css selector":"input[id='ipv6-info.secondary-dns']"
+        }
+    },
+    "show_qr_code_control_panel_event_details_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Show QR Code in Control Panel Event Details')]"
+        }
+    },
+    "show_links_in_ews_event_log_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Show Links in the EWS Event Log')]"
+        }
+    },
+    "restrict_online_solutions_to_administrator_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Restrict Online Solutions to Administrator')]"
+        }
+    },
+    "tcpip_bootp_server_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'BOOTP Server')]"
+        }
+    },
+    "tcpip_dhcp_server_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'DHCP Server')]"
+        }
+    },
+    "tcpip_auto_ip_radio_button":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Auto IP')]"
+        }
+    },
+    "allow_use_of_digital_send_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Allow Use of Digital Send')]"
+        }
+    },
+    "allow_transfer_to_new_digital_send_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Allow Transfer to New Digital Send')]"
+        }
+    },
+    "primary_dns_server_ip_textbox":{
+        "locator":{
+            "css selector":"input[id='dns-server.primary']"
+        }
+    },
+    "secondary_dns_server_ip_textbox":{
+        "locator":{
+            "css selector":"input[id='dns-server.secondary']"
+        }
+    },
+    "clear_primary_dns_server_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Clear Primary DNS server IP')]"
+        }
+    },
+    "clear_secondary_dns_server_checkbox":{
+        "locator":{
+            "xpath":"//span[contains(text(),'Clear Secondary DNS server IP')]"
+        }
+    },
+    "dns_server_domain_name_textbox":{
+        "locator":{
+            "css selector":"input[id='dns-server.domain']"
+        }
+    },
+    "copy_background_cleanup_policy_contextual_footer_select_action_dropdown":{
+        "locator": {    
+            "css selector": ["[id='copy-bg-cleanup.mode']","[id='common-bg-cleanup']"]
+        }    
+    },    
+    "copy_background_cleanup_policy_contextual_footer_select_action_dropdown_options":{  
+        "locator": {    
+            "css selector": ["ul[id*='-list'] li","ul[id='common-bg-cleanup-listbox'] li"]
+        }
+    },
+    "copy_contrast_policy_contextual_footer_select_action_dropdown":{
+        "locator": {
+            "css selector": ["[id='copy-contrast.mode']","[id='common-contrast']"]
+        }
+    },
+    "copy_contrast_policy_contextual_footer_select_action_dropdown_options":{
+        "locator": {
+            "css selector": ["ul[id*='-list'] li","ul[id='common-contrast-listbox'] li"]
+        }
+    },
+    "copy_darkness_option_dropdown":{
+        "locator":{
+            "css selector": ["[id='copy-darkness.mode']","[id='common-darkness']"]
+        }
+    },
+    "copy_darkness_select_action_dropdown_option":{
+        "locator": {
+            "css selector": ["ul[id*='-list'] li","ul[id='common-darkness-listbox'] li"]
+        }
+    },
+    "copy_optimize_printed_picture_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "copy_optimize_photograph_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(3) span:nth-child(3)"
+        }
+    },
+    "copy_optimize_text_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(4) span:nth-child(3)"
+        }
+    },
+    "copy_optimize_mixed_radio_button":{
+        "locator":{
+            "css selector": "[id='copy-optimize.optimize-text-picture'] label:nth-child(5) span:nth-child(3)"
+        }
+    },
+    "copy_tray_paper_options_dropdown":{
+        "locator":{
+            "css selector": "[id='copy-tray.tray']"
+        }
+    },
+    "copy_tray_paper_select_action_dropdown_option":{
+        "locator": {
+            "css selector": "ul[id*='-list'] li"
+        }
+    },
+    "copy_sharpness_option_dropdown":{
+        "locator":{
+            "css selector": ["[id='copy-sharpness.mode']","[id='common-sharpness']"]
+        }
+    },
+    "copy_sharpness_select_action_dropdown_option":{
+        "locator": {
+            "css selector": ["ul[id*='-list'] li","ul[id='common-sharpness-listbox'] li"]
+        }
+    },
+    "disk_encryption_inactive_status":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[contains(text(),'Inactive')]"
+        }
+    },
+    "fax_header_test_phone_number_textbox":{
+        "locator":{
+            "css selector":"input[id='fax-header.phone-number']"
+        }
+    },
+    "fax_header_company_name_textbox":{
+        "locator":{
+            "css selector":"input[id='fax-header.company-name']"
+        }
+    },
+    "fax_header_location_dropdown":{
+        "locator":{
+            "xpath": "//input[@id='fax-header.location']/parent::div /div /div[@role='button']"
+        }
+    },
+    "fax_header_location_option":{
+        "locator":{
+            "css selector": "ul li[data-value='country-code.{}']"
+        }
+    },
+    "fax_send_and_receive_set_common_job_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[normalize-space()='Set Common Job']/parent::button"
+        }
+    },
+    "fax_send_conditions_to_notify_dropdown":{
+        "locator":{
+            "css selector":"input[id='common-notification-condition']"
+        }
+    },
+    "fax_send_do_not_notify_option":{
+        "locator":{
+            "css selector":"li[data-value='notification-condition.none']"
+        }
+    },
+    "fax_send_notify_if_job_fails_option":{
+        "locator":{
+            "css selector":"li[data-value='notification-condition.fail']"
+        }
+    },
+    "fax_send_notify_when_job_completes_option":{
+        "locator":{
+            "css selector":"li[data-value='notification-condition.done']"
+        }
+    },
+    "method_used_to_deliver_notification_dropdown":{
+        "locator":{
+            "css selector":"input[id='common-notification-method']"
+        }
+    },
+    "fax_send_and_receive_set_common_job_print_option":{
+        "locator":{
+            "css selector":"li[data-value='notification-method.print']"
+        }
+    },
+    "fax_send_and_receive_set_common_job_email_option":{
+        "locator":{
+            "css selector":"li[data-value='notification-method.email']"
+        }
+    },
+    "condition_on_which_to_notify_email_address_textfield":{
+        "locator":{
+            "css selector":"input[id='common-notification-address']"
+        }
+    },
+    "set_common_job_popup_save_button":{
+        "locator":{
+            "css selector":["div[data-testid='id-fax-send-common-modal'] button:nth-child(1)","div[data-testid='id-fax-receive-common-modal'] button:nth-child(1)"]
+        }
+    },
+    "fax_send_internet_fax_service_radio_button":{
+        "locator":{
+            "css selector":"fieldset[id='id-fax-send-method'] label:nth-child(3) span:nth-child(3)"
+        },
+       "localization": {
+            "en": "Internet Fax Service"
+        } 
+    },
+    "fax_send_set_internet_fax_service_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[normalize-space()='Set Internet Fax Service']/parent::button"
+        }
+    },
+    "fax_send_set_internet_fax_service_domain_textfield":{
+        "locator":{
+            "css selector":"input[id='internet-domain']"
+        }
+    },
+    "fax_send_set_internet_fax_service_email_address_textfield":{
+        "locator":{
+            "css selector":"input[id='internet-email']"
+        }
+    },
+    "fax_send_set_internt_fax_service_save_button":{
+        "locator":{
+            "css selector":"div[data-testid='id-fax-send-internet-modal'] button:nth-child(1)"
+        }
+    },
+    "fax_send_ip_fax_radio_button":{
+        "locator":{
+            "css selector":"fieldset[id='id-fax-send-method'] label:nth-child(4) span:nth-child(3)"
+        },
+        "localization": {
+            "en": "IP Fax"
+        }
+    },
+    "fax_send_internal_modem_radio_button":{
+        "locator":{
+            "css selector":"fieldset[id='id-fax-send-method'] label:nth-child(2) span:nth-child(3)"
+        },
+        "localization": {
+            "en": "Internal Modem"
+        }
+    },
+    "fax_send_and_receive_set_internal_modem_option":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//span[normalize-space()='Set Internal Modem']/parent::button"
+        }
+    },
+    "fax_send_error_correction":{
+        "locator":{
+            "xpath": "//span[contains(text(),' Error Correction Mode')]"
+        }
+    },
+    "fax_send_jbig_compression":{
+        "locator":{
+            "xpath": "//span[contains(text(),'JBIG Compression')]"
+        }
+    },
+    "set_internal_modem_popup_save_button":{
+        "locator":{
+            "css selector":["div[data-testid='id-fax-send-modem-modal'] button:nth-child(1)","div[data-testid='id-fax-internal-modem-modal'] button:nth-child(1)"]
+        }
+    },
+    "fax_receive_paper_selection_dropdown":{
+        "locator":{
+            "css selector":"input[id='common-tray']"
+        }
+    },
+    "fax_receive_paper_selection_tray1":{
+        "locator":{
+            "css selector":"li[data-value='media-tray.tray-1']"
+        }
+    },
+    "fax_receive_paper_selection_tray2":{
+        "locator":{
+            "css selector":"li[data-value='media-tray.tray-2']"
+        }
+    },
+    "fax_receive_paper_selection_auto":{
+        "locator":{
+            "css selector":"li[data-value='media-tray.auto']"
+        }
+    },
+    "fax_receive_ip_fax_method_option":{
+        "locator":{
+            "css selector": "fieldset[id='id-fax-receive-method'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "fax_receive_internal_modem_method_option":{
+        "locator":{
+            "css selector": "fieldset[id='id-fax-receive-method'] label:nth-child(1) span:nth-child(2)"
+        }
+    },
+    "internal_modem_ringer_volume_high_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-1']"
+        }
+    },
+    "internal_modem_ringer_volume_low_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-2']"
+        }
+    },
+    "internal_modem_ringer_volume_off_option":{
+        "locator":{
+            "css selector": "li[id='modem-ringer-volume-option-0']"
+        }
+    },
+    "internal_modem_rings_to_answer_textbox":{
+        "locator":{
+            "css selector": "input[id='modem-rings-to-answer']"
+        }
+    },
+    "email_scan_settings_printed_picture_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture'] label:nth-child(2)"
+        }
+    },
+    "email_scan_settings_photograph_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture']  label:nth-child(3)"
+        }
+    },
+    "email_scan_settings_text_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture']  label:nth-child(4)"
+        }
+    },
+    "email_scan_settings_mixed_radio_button":{
+        "locator":{
+            "css selector":"[id='email-scan.optimize-text-picture']  label:nth-child(5)"
+        }
+    },
+    "network_folder_notification_settings_do_not_disturb_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Do Not Notify')]"
+        }
+    },
+    "network_folder_notification_settings_notify_job_fails_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify Only If Job Fails')]"
+        }
+    },
+    "network_folder_notification_settings_notify_job_completes_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Notify When Job Completes')]"
+        }
+    },
+    "network_folder_notification_settings_deliver_notification_print_radio_button":{
+        "locator":{
+            "css selector":"[id='network-folder-notification.method'] label:nth-child(2) span:nth-child(3)"
+        }
+    },
+    "network_folder_notification_settings_deliver_notification_email_radio_button":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Email')]"
+        }
+    },
+    "network_folder_notification_settings_deliver_notification_email_textbox":{
+        "locator":{
+            "css selector":"input[id='network-folder-notification.address']"
+        }
+    },
+    "ip_fax_settings_company_name_text_box":{
+        "locator":{
+            "css selector" : "input[id='ip-fax.company-name']"
+        }
+    },
+    "ip_fax_settings_fax_id_text_box":{
+        "locator":{
+            "css selector" : "input[id='ip-fax.fax-id']"
+        }
+    },
+    "address_field_from_address_book_radio_btn":{
+        "locator":{
+            "css selector": "fieldset[id='email-message.restrictions'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "set_email_address_message_button":{
+        "locator":{
+            "css selector": "button[id='setEmailMesssage']"
+        }
+    },
+    "email_default_from_dropdown":{
+        "locator":{
+            "css selector": "input[id='from']"
+        }
+    },
+    "email_default_from_user_address_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "default_from_email_address_text_box":{
+        "locator":{
+            "css selector": "input[id='def-from']"
+        }
+    },
+    "default_from_display_name_text_box":{
+        "locator":{
+            "css selector": "input[id='def-name']"
+        }
+    },
+    "email_address_from_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(2) div:nth-child(2) label>span:nth-child(2)"
+        }
+    },
+    "to_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "input[id='to']"
+        }
+    },
+    "to_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "email_address_to_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(4) label>span:nth-child(2)"
+        }
+    },
+    "cc_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "input[id='cc']"
+        }
+    },
+    "cc_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "email_address_cc_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(5) label>span:nth-child(2)"
+        }
+    },
+    "bcc_sign_in_required_dropdown":{
+        "locator":{
+            "css selector": "input[id='bcc']"
+        }
+    },
+    "bcc_user_address_sign_in_required_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "email_address_bcc_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(6) label>span:nth-child(2)"
+        }
+    },
+    "email_address_subject_text_box":{
+        "locator":{
+            "css selector": "input[id='subject']"
+        }
+    },
+    "email_address_subject_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(7) label>span:nth-child(2)"
+        }
+    },
+    "email_address_message_text_box":{
+        "locator":{
+            "css selector": "[id='message']"
+        }
+    },
+    "email_address_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "[data-testid='id-set-email-address-modal'] div:nth-child(8) label>span:nth-child(2)"
+        }
+    },
+    "email_address_message_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-set-email-address-modal'] button:nth-child(1)"
+        }
+    },
+    "allow_invalid_email_address_checkbox":{
+        "locator":{
+            "css selector": "#email-message div:nth-child(3) div:nth-child(3) label>span:nth-child(2)"
+        }
+    },
+    "digitally_email_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[id='email-message'] div:nth-child(5) label>span:nth-child(2)"
+        }
+    },
+    "encrypt_email_message_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[id='email-message'] div:nth-child(7) label>span:nth-child(2)"
+        }
+    },
+    "configuration_precedence_manual_button":{
+        "locator": {
+            "xpath": "//*[contains(text(),'Manual')]/parent::tr"
+        }
+    },
+    "configuration_precedence_tftp_button":{
+        "locator": {
+            "xpath": "//*[contains(text(),'TFTP')]/parent::tr"
+        }
+    },
+    "configuration_precedence_dhcpv6_button":{
+        "locator": {
+            "xpath": "//*[contains(text(),'DHCPv6')]/parent::tr"
+        }
+    },
+    "configuration_precedence_dhcpv4_button":{
+        "locator": {
+            "xpath": "//*[contains(text(),'DHCP/BOOTP')]/parent::tr"
+        }
+    },
+    "configuration_precedence_priority_high_button":{
+        "locator": {
+            "css selector": "div[data-testid='priority-list-table']+div button:nth-child(1)"
+        }
+    },
+    "configuration_precedence_priority_low_button":{
+        "locator": {
+            "css selector": "div[data-testid='priority-list-table']+div button:nth-child(2)"
+        }
+    },
+    "security_802_1x_authentication_setting_title":{
+        "locator": {
+            "css selector": "div[id='fe-dot1x-authentication'] div[data-testid='id-single-mode-feature-accordian-title']"
+        },
+        "localization": {
+            "en": "802.1x Authentication"
+        }
+    },
+    "security_802_peap_configure_certificate":{
+        "locator": {
+            "xpath": "//span[contains(text(),'PEAP')]"
+        }
+    },
+    "security_802_leap_configure_certificate":{
+        "locator": {
+            "xpath": "//span[contains(text(),'LEAP')]"
+        }
+    },
+    "security_802_eap_tls_configure_certificate":{
+        "locator": {
+            "xpath": "//span[contains(text(),'EAP-TLS')]"
+        }
+    },
+    "security_802_username_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth.user']"
+        }
+    },
+    "security_802_password_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth.password']"
+        }
+    },
+    "security_802_confirm_password_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth.password.confirm']"
+        }
+    },
+    "security_802_server_id_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth.server-id']"
+        }
+    },
+    "security_802_require_exact_match_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Require Server Name to Match Certificate')]"
+        }
+    },
+    "security_802_connect_anyway_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Connect Anyway')]"
+        }
+    },
+    "security_802_reauthenticate_on_apply_checkbox":{
+        "locator": {
+            "css selector": "div[id='edit-fe-dot1x-authentication-body'] div:nth-child(8) label"
+        }
+    },
+    "edit_setting_popup_save_button":{
+        "locator": {
+            "css selector": "button[data-testid='id-single-mode-edit-view-save']"
+        }
+    },
+    "email_file_setting_set_file_name_button":{
+        "locator":{
+            "css selector": "button[id='email-file.name.addFileName']"
+        }
+    },
+    "email_and_network_folder_file_settings_file_name_prefix_dropdown":{
+        "locator":{
+            "css selector": "[id='prefix']"
+        }
+    },
+    "email_file_name_prefix_date_month_year_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "email_file_name_prefix_month_date_year_option":{
+        "locator":{
+            "css selector": "li[id*='-option-2']"
+        }
+    },
+    "email_file_name_prefix_device_hostname_pqdn_option":{
+        "locator":{
+            "css selector": "li[id*='-option-8']"
+        }
+    },
+    "email_and_network_folder_default_file_name_text_box":{
+        "locator":{
+            "css selector": "input[id='textBox']"
+        }
+    },
+    "email_and_network_folder_file_name_user_editable_checkbox":{
+        "locator":{
+            "css selector": "div[data-testid='id-file-name-modal'] label span:nth-child(2)"
+        }
+    },
+    "email_and_network_folder_file_file_name_suffix_dropdown":{
+        "locator":{
+            "css selector": "[id='suffix']"
+        }
+    },
+    "email_file_name_suffix_date_month_year_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "email_file_name_suffix_month_date_year_option":{
+        "locator":{
+            "css selector": "li[id*='-option-2']"
+        }
+    },
+    "email_file_name_suffix_device_hostname_pqdn_option":{
+        "locator":{
+            "css selector": "li[id*='-option-8']"
+        }
+    },
+    "email_and_network_folder_file_name_popup_save_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-file-name-modal'] button:nth-child(1)"
+        }
+    },
+    "email_file_original_size_dropdown":{
+        "locator":{
+            "css selector": "input[id='email-file.media-size']"
+        }
+    },
+    "email_file_original_size_a4_option":{
+        "locator":{
+            "xpath": "//span[contains(text(),'A4 (ISO/JIS 210x297 mm)')]"
+        }
+    },
+    "email_file_default_output_quality_dropdown":{
+        "locator":{
+            "css selector": "div[id='email-file.quality']"
+        }
+    },
+    "email_file_default_output_quality_low_option":{
+        "locator":{
+            "css selector": "li[id='email-file.quality-option-1']"
+        }
+    },
+    "email_file_default_output_quality_medium_option":{
+        "locator":{
+            "css selector": "li[id='email-file.quality-option-2']"
+        }
+    },
+    "email_file_default_output_quality_high_option":{
+        "locator":{
+            "css selector": "li[id='email-file.quality-option-0']"
+        }
+    },
+    "email_file_default_file_type_dropdown":{
+        "locator":{
+            "css selector": "input[id='email-file.type']"
+        }
+    },
+    "email_file_file_type_tiff_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.tiff']"
+        }
+    },
+    "email_file_default_resolution_dropdown":{
+        "locator":{
+            "css selector": "input[id='email-file.resolution']"
+        }
+    },
+    "email_file_default_resolution_75_dpi_option":{
+        "locator":{
+            "css selector": "li[data-value='75']"
+        }
+    },
+    "email_file_default_resolution_150_dpi_option":{
+        "locator":{
+            "css selector": "li[data-value='150']"
+        }
+    },
+    "email_file_default_resolution_300_dpi_option":{
+        "locator":{
+            "css selector": "li[data-value='300']"
+        }
+    },
+    "email_file_default_resolution_400_dpi_option":{
+        "locator":{
+            "css selector": "li[data-value='400']"
+        }
+    },
+    "email_and_network_folder_file_pdf_encryption_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'PDF Encryption')]"
+        }
+    },
+    "email_and_network_folder_file_blank_page_suppression_checkbox":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//span[contains(text(),'Blank Page Suppression')]"
+        }
+    },
+    "email_file_file_type_mtiff_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.mtiff']"
+        }
+    },
+    "email_file_file_type_pdf_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.pdf']"
+        }
+    },
+    "email_file_grey_scale_tiff_compression_method_dropdown":{
+        "locator":{
+            "css selector": "input[id='email-file.compression-color']"
+        }
+    },
+    "email_file_grey_scale_tiff_compression_method_lzw_option":{
+        "locator":{
+            "css selector": "li[data-value='compression-color.lzw']"
+        }
+    },
+    "email_file_compression_dropdown":{
+        "locator":{
+            "css selector": "input[id='email-file.compression']"
+        }
+    },
+    "email_file_compression_normal_option":{
+        "locator":{
+            "css selector": "li[data-value='email-file.compression-option-1']"
+        }
+    },
+
+
+    "network_folder_file_setting_set_file_name_button":{
+        "locator":{
+            "css selector": "button[id='network-folder-file.name.addFileName']"
+        }
+    },
+    "network_folder_file_file_name_prefix_dropdown":{
+        "locator":{
+            "css selector": "[id='prefix']"
+        }
+    },
+    "network_folder_file_name_prefix_date_month_year_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_DDMMYYYY%']"
+        }
+    },
+    "network_folder_file_name_prefix_month_date_year_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_MMDDYYYY%']"
+        }
+    },
+    "network_folder_file_name_prefix_year_month_date_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_YYMMDD%']"
+        }
+    },
+    "network_folder_file_name_prefix_year_year_month_date_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_YYYYMMDD%']"
+        }
+    },
+    "network_folder_file_name_prefix_time_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_TIME_HHMMSS%']"
+        }
+    },
+    "network_folder_file_name_prefix_username_option":{
+        "locator":{
+            "css selector": "li[data-value='%SECURITY_USERNAME%']"
+        }
+    },
+    "network_folder_file_name_prefix_hostname_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_HOSTNAME%']"
+        }
+    },
+    "network_folder_file_prefix_device_hostname_pqdn_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_HOSTNAME_PQDN%']"
+        }
+    },
+    "network_folder_file_name_suffix_date_month_year_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_DDMMYYYY%']"
+        }
+    },
+    "network_folder_file_name_suffix_month_date_year_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_MMDDYYYY%']"
+        }
+    },
+    "network_folder_file_name_suffix_year_month_date_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_YYMMDD%']"
+        }
+    },
+    "network_folder_file_name_suffix_year_year_month_date_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_DATE_YYYYMMDD%']"
+        }
+    },
+    "network_folder_file_name_suffix_time_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_TIME_HHMMSS%']"
+        }
+    },
+    "network_folder_file_name_suffix_username_option":{
+        "locator":{
+            "css selector": "li[data-value='%SECURITY_USERNAME%']"
+        }
+    },
+    "network_folder_file_name_suffix_hostname_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_HOSTNAME%']"
+        }
+    },
+    "network_folder_file_suffix_device_hostname_pqdn_option":{
+        "locator":{
+            "css selector": "li[data-value='%DEVICE_HOSTNAME_PQDN%']"
+        }
+    },
+    "network_folder_file_original_size_dropdown":{
+        "locator":{
+            "css selector": "[id='network-folder-file.media-size']"
+        }
+    },
+    "network_folder_file_original_size_a4_option":{
+        "locator":{
+            "css selector": "li[id*='-option-6']"
+        }
+    },
+    "network_folder_file_grey_scale_tiff_compression_method_dropdown":{
+        "locator":{
+            "css selector": "[id='network-folder-file.compression-color']"
+        }
+    },
+    "network_folder_file_grey_scale_tiff_compression_method_lzw_option":{
+        "locator":{
+            "css selector": "li[id*='-option-0']"
+        }
+    },
+    "network_folder_file_default_output_quality_dropdown":{
+        "locator":{
+            "css selector": "[id='network-folder-file.quality']"
+        }
+    },
+    "network_folder_file_default_resolution_dropdown":{
+        "locator":{
+            "css selector": "[id='network-folder-file.resolution']"
+        }
+    },
+    "network_folder_file_compression_dropdown":{
+        "locator":{
+            "css selector": "[id='network-folder-file.compression']"
+        }
+    },
+    "network_folder_file_compression_normal_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "network_folder_file_default_output_quality_low_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "network_folder_file_default_output_quality_medium_option":{
+        "locator":{
+            "css selector": "li[id*='-option-2']"
+        }
+    },
+    "network_folder_file_default_output_quality_high_option":{
+        "locator":{
+            "css selector": "li[id*='-option-0']"
+        }
+    },
+    "network_folder_file_default_resolution_75_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-0']"
+        }
+    },
+    "network_folder_file_default_resolution_100_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "network_folder_file_default_resolution_150_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-2']"
+        }
+    },
+    "network_folder_file_default_resolution_200_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-3']"
+        }
+    },
+    "network_folder_file_default_resolution_240_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-4']"
+        }
+    },
+    "network_folder_file_default_resolution_300_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-5']"
+        }
+    },
+    "network_folder_file_default_resolution_400_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-6']"
+        }
+    },
+    "network_folder_file_default_resolution_500_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-7']"
+        }
+    },
+    "network_folder_file_default_resolution_600_dpi_option":{
+        "locator":{
+            "css selector": "li[id*='-option-8']"
+        }
+    },
+    "network_folder_file_name_icon_plus_btn":{
+        "locator":{
+            "css selector": "button[id='iconPlus']"
+        }
+    },
+    "network_folder_file_name_suffix_text_box":{
+        "locator":{
+            "css selector": "[placeholder='Enter a suffix'][id='textArea']"
+        }
+    },
+    "network_folder_file_default_colour_preference_dropdown":{
+        "locator":{
+            "css selector": "[id='network-folder-file.color-preference']"
+        }
+    },
+    "network_folder_file_black_option":{
+        "locator":{
+            "css selector": "li[id*='-option-2']"
+        }
+    },
+    "network_folder_file_black_or_grey_option":{
+        "locator":{
+            "css selector": "li[data-value='file-color-preference.black-gray']"
+        }
+    },
+    "network_folder_file_colour_option":{
+        "locator":{
+            "css selector": "li[data-value='file-color-preference.color']"
+        }
+    },
+    "network_folder_file_automatically_detect_color_or_black_option":{
+        "locator":{
+            "css selector": "li[data-value='file-color-preference.color-black-auto']"
+        }
+    },
+    "network_folder_file_default_file_type_dropdown":{
+        "locator":{
+            "css selector": "input[id='network-folder-file.type']"
+        }
+    },
+    "network_folder_file_file_type_html_ocr_option":{
+        "locator":{
+            "css selector": "li[id*='-option-1']"
+        }
+    },
+    "network_folder_file_file_type_jpeg_option":{
+        "locator":{
+            "css selector": "li[id*='-option-2']"
+        }
+    },
+    "network_folder_file_type_mtiff_option":{
+        "locator":{
+            "css selector": "li[id*='-option-3']"
+        }
+    },
+    "network_folder_file_file_type_pdf_option":{
+        "locator":{
+            "css selector": "li[id*='-option-4']"
+        }
+    },
+    "network_folder_file_file_type_pdfa_option":{
+        "locator":{
+            "css selector": "li[id*='-option-5']"
+        }
+    },
+    "network_folder_file_file_type_rtf_ocr_option":{
+        "locator":{
+            "css selector": "li[id*='-option-6']"
+        }
+    },
+    "network_folder_file_file_type_searchable_pdf_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.pdf']"
+        }
+    },
+    "network_folder_file_file_type_searchable_pdf_a_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.pdfa']"
+        }
+    },
+    "network_folder_file_file_type_text_ocr_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.text']"
+        }
+    },
+    "network_folder_file_file_type_text_tiff_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.tiff']"
+        }
+    },
+    "network_folder_file_file_type_unicode_text_ocr_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.u-text']"
+        }
+    },
+    "network_folder_file_file_type_xps_option":{
+        "locator":{
+            "css selector": "li[data-value='file-type.xps']"
+        }
+    },
+    "bootloader_current_password_textbox":{
+        "locator":{
+            "css selector":"input[id='bootloader-password.current']"
+        }
+    },
+    "bootloader_new_password_textbox":{
+        "locator":{
+            "css selector":"input[id='bootloader-password.new']"
+        }
+    },
+    "bootloader_confirm_password_textbox":{
+        "locator":{
+            "css selector":"input[id='bootloader-password.new.confirm']"
+        }
+    },
+    "properties_tab_pjl_password_textbox":{
+        "locator": {
+            "css selector": "div[id='edit-fe-pjl-password-body'] div:nth-child(2) div:nth-child(1) input"
+        }
+    },
+    "properties_tab_pjl_confirm_password_textbox":{
+        "locator": {
+            "xpath": "//div[div/text()='Confirm Password']/following-sibling::div//input[@type='password']"
+        }
+    },
+    "security_snmp_v1v2_properties_tab_setting_title":{
+        "locator": {
+            "css selector": "div[id='fe-snmp-v1-v2'] div[data-testid='id-single-mode-feature-accordian-title']"
+        },
+        "localization": {
+            "en": "SNMPv1/v2"
+        }
+    },
+    "snmp_v1v2_read_community_name_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.read-password']"
+        }
+    },
+    "snmp_v1v2_read_community_name_confirm_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.read-password.confirm']"
+        }
+    },
+    "snmp_v1v2_read_write_community_name_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.read-write-password']"
+        }
+    },
+    "snmp_v1v2_read_write_community_name_confirm_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.read-write-password.confirm']"
+        }
+    },
+    "security_snmp_v3_properties_tab_setting_title":{
+        "locator": {
+            "css selector": "div[id='fe-snmp-v3'] div[data-testid='id-single-mode-feature-accordian-title']"
+        },
+        "localization": {
+            "en": "SNMPv3"
+        }
+    },
+    "snmp_v3_user_name_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.user-name']"
+        }
+    },
+    "snmp_v3_minimum_password_length_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.min-length']"
+        }
+    },
+    "snmp_v3_authentication_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.auth-passphrase']"
+        }
+    },
+    "snmp_v3_authentication_confirm_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.auth-passphrase.confirm']"
+        }
+    },
+    "snmp_v3_privacy_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.privacy-passphrase']"
+        }
+    },
+    "snmp_v3_privacy_confirm_password_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.privacy-passphrase.confirm']"
+        }
+    },
+    "snmp_v3_account_lockout_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Account Lockout')]"
+        }
+    },
+    "snmp_v3_maximum_attempts_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.max-attempts']"
+        }
+    },
+    "snmp_v3_reset_attempts_after_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.reset-after']"
+        }
+    },
+    "snmp_v3_lockout_duration_textbox":{
+        "locator": {
+            "css selector": "input[id='snmp.lockout-duration']"
+        }
+    },
+    "devices_view_pcs_page":{
+        "locator": {
+            "css selector": "div#devices span[aria-current='page']"
+        }
+    },
+    "pcs_status_clear_button":{
+        "locator": {
+            "css selector": ["div[area-label='Status'] button[aria-label='Clear']",
+                             "input#status+div button[aria-label='Clear']"]
+        }
+    },
+    "add_pcs_button":{
+        "locator": {
+            "css selector": "div#action_button button#download-client-software"
+        }
+    },
+    "delete_pcs_button":{
+        "locator": {
+            "css selector": "button#remove-device"
+        }
+    },
+    "export_pcs_button":{
+        "locator": {
+            "css selector": "button#export-device"
+        }
+    },
+    "devices_view_virtual_machines_page":{
+        "locator": {
+            "css selector": "div#devices span[aria-current='page']"
+        }
+    },
+    "add_virtual_machines_button":{
+        "locator": {
+            "css selector": "div#action_button button"
+        }
+    },
+    "delete_virtual_machines_button":{
+        "locator": {
+            "css selector": "button#btn_remove"
+        }
+    },
+    "export_virtual_machines_button":{
+        "locator": {
+            "css selector": "button#btn_export"
+        }
+    },
+    "devices_view_physical_assets_page":{
+        "locator": {
+            "css selector": "div#devices span[aria-current='page']"
+        }
+    },
+    "add_physical_assets_button":{
+        "locator": {
+            "css selector": "div#action_button button"
+        }
+    },
+    "delete_physical_assets_button":{
+        "locator": {
+            "css selector": "button#btn_remove"
+        }
+    },
+    "export_physical_assets_button":{
+        "locator": {
+            "css selector": "button#btn_export"
+        }
+    },
+    "web_encryption_change_ciphers_button":{
+        "locator": {
+            "css selector": "div[data-testid='id-device-column'] button"
+        }
+    },
+    "web_encryption_min_tls_1_0_radio_button":{
+        "locator": {
+            "css selector": "#tls-min label:nth-child(2)"
+        }
+    },
+    "web_encryption_min_tls_1_1_radio_button":{
+        "locator": {
+            "css selector": "#tls-min label:nth-child(3)"
+        }
+    },
+    "web_encryption_min_tls_1_2_radio_button":{
+        "locator": {
+            "css selector": "#tls-min label:nth-child(4)"
+        }
+    },
+    "web_encryption_max_tls_1_2_radio_button":{
+        "locator": {
+            "css selector": "#tls-max label:nth-child(4)"
+        }
+    },
+    "web_encryption_max_tls_1_3_radio_button":{
+        "locator": {
+            "css selector": "#tls-max label:nth-child(5)"
+        }
+    },
+    "web_encryption_model_table_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='id-web-encryption-modal-table'] thead tr th"
+        }
+    },
+    "web_encryption_AES128_SHA_cipher_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='id-web-encryption-modal-table'] tbody tr:nth-child(1) span"
+        }
+    },
+    "web_encryption_ECDHE_ECDSA_AES128_SHA_cipher_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='id-web-encryption-modal-table'] tbody tr:nth-child(21) span"
+        }
+    },
+    "web_encryption_TLS_AES_128_GCM_SHA256_cipher_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='id-web-encryption-modal-table'] tbody tr:nth-child(26) span"
+        }
+    },
+    "web_encryption_TLS_AES_128_CCM_SHA256_cipher_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='id-web-encryption-modal-table'] tbody tr:nth-child(25) span"
+        }
+    },
+    "web_encryption_ECDHE_RSA_AES256_SHA_cipher_checkbox":{
+        "locator": {
+            "css selector": "table[data-testid='id-web-encryption-modal-table'] tbody tr:nth-child(16) span"
+        }
+    },
+    "web_encryption_popup_save_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Save')]"
+        }
+    },
+    "ews_admin_password_textbox":{
+        "locator": {
+            "css selector": "input[id='ews-password.value']"
+        }
+    },
+    "ews_admin_confirm_password_textbox":{
+        "locator": {
+            "css selector": "input[id='ews-password.value.confirm']"
+        }
+    },
+    "stored_data_pin_protection_four_digit_pin_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Require all PINs to be 4 digits')]"
+        }
+    },
+    "stored_data_pin_protection_pin_required_to_store_a_scan_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Require a PIN to store scan jobs on the printer and access them later')]"
+        }
+    },
+    "stored_data_pin_protection_pin_required_for_driver_stored_jobs_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Require a PIN to store print driver jobs on the printer and access them later')]"
+        }
+    },
+    "stored_data_pin_protection_cancel_pin_jobs_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Cancel print driver jobs without a PIN when printing or storing them on the printer')]"
+        }
+    },
+    "duplex_binding_none_one_sided_radio_button":{
+        "locator": {
+            "css selector": "[id='duplex-binding.mode'] label:nth-child(2) span:nth-child(2)"
+        }
+    },
+    "duplex_binding_long_edge_radio_button":{
+        "locator": {
+            "css selector": "[id='duplex-binding.mode'] label:nth-child(3) span:nth-child(2)"
+        }
+    },
+    "duplex_binding_short_edge_radio_button":{
+        "locator": {
+            "css selector": "[id='duplex-binding.mode'] label:nth-child(4) span:nth-child(2)"
+        }
+    },
+    "outgoing_server_list_add_button":{
+        "locator": {
+            "css selector": "#addOutgoingServer"
+        }
+    },
+    "outgoing_server_server_name_textbox":{
+        "locator": {
+            "css selector": "input[id='address']"
+        }
+    },
+    "outgoing_server_port_textbox":{
+        "locator": {
+            "css selector": "input[id='portNumber']"
+        }
+    },
+    "outgoing_server_enable_smtp_ssl_tls_protocol_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Enable SMTP SSL/TLS Protocol')]"
+        }
+    },
+    "outgoing_server_smtp_validate_certificates_for_outgoing_server":{
+        "locator": {
+            "xpath" : "//span[contains(text(),'Validate Certificates for Outgoing Server Connections')]"
+        }
+    },
+    "outgoing_server_use_authentication_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Server Requires Authentication')]"
+        }
+    },
+    "outgoing_server_use_credential_control_panel_radio_button":{
+        "locator": {
+            "css selector": "[id='credential'] label:nth-child(1) span"
+        }
+    },
+    "outgoing_server_use_credential_defined_below_radio_button":{
+        "locator": {
+            "css selector": "[id='credential'] label:nth-child(2) span"
+        }
+    },
+    "outgoing_server_username_textbox":{
+        "locator": {
+            "css selector": "input[id='username']"
+        }
+    },
+    "outgoing_server_password_textbox":{
+        "locator": {
+            "css selector": "input[id='password']"
+        }
+    },
+    "outgoing_server_server_usage_send_to_email_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Send to Email')]"
+        }
+    },
+    "outgoing_server_server_usage_internet_fax_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Internet Fax')]"
+        }
+    },
+    "outgoing_server_server_usage_email_alerts_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Email Alerts')]"
+        }
+    },
+    "outgoing_server_server_usage_autosend_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'AutoSend')]"
+        }
+    },
+    "outgoing_server_add_popup_add_button":{
+        "locator": {
+            "xpath": "//div[contains(@class,'modal--footer')]//button[@type='button']//span[contains(text(),'Add')]"
+        }
+    },
+    "ldap_sign_in_enable_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'LDAP Sign In')]"
+        }
+    },
+    "ldap_server_address_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.address']"
+        }
+    },
+    "ldap_port_number_textbox":{
+        "locator":{
+            "css selector": "input[id='ldap-setup.port']"
+        }
+    },
+    "ldap_use_ssl_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Use SSL')]"
+        }
+    },
+    "ldap_mfp_user_credentials_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-setup.credential'] label:nth-child(2) span"
+        }
+    },
+    "ldap_admin_credentials_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-setup.credential'] label:nth-child(3) span"
+        }
+    },
+    "ldap_bind_prefix_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.bind-prefix']"
+        }
+    },
+    "ldap_server_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-sign-in.server']"
+        }
+    },
+    "ldap_port_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-sign-in.port']"
+        }
+    },
+    "ldap_admin_username_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.domain-name']"
+        }
+    },
+    "ldap_admin_password_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.password']"
+        }
+    },
+    "ldap_exact_match_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Exact Match On Group Attribute')]"
+        }
+    },
+    "ldap_bind_and_search_add_button":{
+        "locator": {
+            "css selector": "button[id='add']"
+        }
+    },
+    "ldap_root_name_textbox":{
+        "locator": {
+            "css selector": "input[id='address']"
+        }
+    },
+    "ldap_add_root_popup_add_button":{
+        "locator":{
+            "css selector": "div[data-testid='id-simple-table-modal'] button:nth-child(1)"
+        }
+    },
+    "ldap_match_attribute_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.match-name']"
+        }
+    },
+    "ldap_email_attribute_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.retrieve-email']"
+        }
+    },
+    "ldap_display_name_attribute_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.retrieve-name']"
+        }
+    },
+    "ldap_group_attribute_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-setup.retrieve-group']"
+        }
+    },
+    "ldap_address_book_enable_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Allow Access to LDAP Address Book')]"
+        }
+    },
+    "ldap_address_book_server_address_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.address']"
+        }
+    },
+    "ldap_address_book_port_number_textbox":{
+        "locator":{
+            "css selector": "input[id='ldap-ab-access.port']"
+        }
+    },
+    "ldap_address_book_no_authentication_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-ab-access.credential'] label:nth-child(2) span"
+        }
+    },
+    "ldap_address_book_windows_domain_authentication_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-ab-access.credential'] label:nth-child(4) span"
+        }
+    },
+    "ldap_use_simple_authentication_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-ab-access.credential'] label:nth-child(5) span"
+        }
+    },
+    "ldap_address_book_windows_domain_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.domain-name']"
+        }
+    },
+    "ldap_address_book_username_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.user-name']"
+        }
+    },
+    "ldap_address_book_password_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.password']"
+        }
+    },
+    "ldap_address_book_starting_point_directory_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.search-path']"
+        }
+    },
+    "ldap_address_book_active_directory_default_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-ab-access.name-source'] label:nth-child(2) span"
+        }
+    },
+    "ldap_address_book_exchange_55_default_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-ab-access.name-source'] label:nth-child(3) span"
+        }
+    },
+    "ldap_address_book_custom_attributes_radio_button":{
+        "locator": {
+            "css selector": "fieldset[id='ldap-ab-access.name-source'] label:nth-child(4) span"
+        }
+    },
+    "ldap_address_book_match_attribute_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.match-name']"
+        }
+    },
+    "ldap_address_book_email_attribute_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.retrieve-email']"
+        }
+    },
+    "ldap_address_book_fax_number_attribute_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.retrieve-fax-number']"
+        }
+    },
+    "ldap_address_book_search_filter_textbox":{
+        "locator": {
+            "css selector": "input[id='ldap-ab-access.filter']"
+        }
+    },
+    "security_802_authentication_wireless_no_security_wifi_access_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Enterprise')]"
+        }
+    },
+    "security_802_authentication_wireless_personal_wifi_access_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Personal')]"
+        }
+    },
+    "security_802_authentication_wireless_enterprise_wifi_access_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Enterprise')]"
+        }
+    },
+    "security_802_authentication_wireless_security_key_textbox":{
+        "locator":{
+            "css selector": "input[id='802-1x-auth-wifi.security-key']"
+        }
+    },
+    "security_802_authentication_wireless_username_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth-wifi.user']"
+        }
+    },
+    "security_802_authentication_wireless_password_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth-wifi.password']"
+        }
+    },
+    "security_802_authentication_wireless_confirm_password_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth-wifi.password.confirm']"
+        }
+    },
+    "security_802_authentication_wireless_server_id_textbox":{
+        "locator": {
+            "css selector": "input[id='802-1x-auth-wifi.server-id']"
+        }
+    },
+    "security_802_authentication_wireless_wpa2_wpa_version_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'WPA2')]"
+        }
+    },
+    "security_802_authentication_wireless_aes_wpa_encryption_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'AES')]"
+        }
+    },
+    "home_screen_customization_import_reference_button":{
+        "locator": {
+            "css selector": "#id-home-screen-custom-device"
+        }
+    },
+    "home_screen_import_device_data_popup_search_textbox":{
+        "locator": {
+            "css selector": "input[id='device-search']"
+        }
+    },
+    "home_screen_import_device_data_popup_device_model_name":{
+        "locator": {
+            "css selector": "div[data-testid='id-reference-device-modal'] table tbody tr"
+        }
+    },
+    "home_screen_import_device_data_popup_select_button":{
+        "locator": {
+            "css selector": "button[id='selectBtn']"
+        }
+    },
+    "home_screen_application_dropdown":{
+        "locator": {
+            "css selector": "input[id='home-screen-custom.app']"
+        }
+    },
+    "home_screen_application_tescopy_option":{
+        "locator": {
+            "css selector": "div[data-testid='id-device-column'] ul li:nth-child(2)"
+        }
+    },
+    "home_screen_application_default_hp_option":{
+        "locator": {
+            "css selector": "div[data-testid='id-device-column'] ul li:nth-child(1)"
+        }
+    },
+    "retain_jobs_after_reboot_do_not_retain_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Do Not Retain')]"
+        }
+    },
+    "retain_jobs_after_reboot_retain_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Retain')]"
+        }
+    },
+    "retain_jobs_after_reboot_personal_job_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Personal Job Only')]"
+        }
+    },
+    "smb_cifs_v1_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'SMBv1/CIFS Server')]"
+        }
+    },
+    "smb_cifs_v2_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'SMBv2')]"
+        }
+    },
+    "smb_cifs_v3_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'SMBv3')]"
+        }
+    },
+    "ews_password_password_complexity_checkbox":{
+        "locator": {
+            "xpath": "//span[contains(text(),'Password Complexity')]"
+        }
+    },
+    "temporary_job_storage_limit_textbox":{
+        "locator": {
+            "css selector": "input[id='job-storage-limit-temporary.value']"
+        }
+    },
+    "identity_certificate_fqdn_as_common_name_radio_button":{
+        "locator":{
+            "xpath": "//span[contains(text(),'FQDN (from EWS)')]"
+        }
+    },
+    "identity_certificate_ip_address_as_common_name_radio_button":{
+        "locator":{
+            "xpath": "//span[contains(text(),'IP Address')]"
+        }
+    },
+    "identity_certificate_organization_name_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.organization']"
+        }
+    },
+    "identity_certificate_organization_unit_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.organization-unit']"
+        }
+    },
+    "identity_certificate_city_name_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.city']"
+        }
+    },
+    "identity_certificate_state_name_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.state']"
+        }
+    },
+    "identity_certificate_country_dropdown":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.country']"
+        }
+    },
+    "identity_certificate_country_option":{
+        "locator": {
+            "css selector": "li[data-value='country-code.{}']"
+        }
+    },
+    "identity_certificate_fqdn_checkbox":{
+        "locator": {
+            "xpath": "//input[@id='fqdn-ews']/following-sibling::span[1]"
+        }
+    },
+    "identity_certificate_hostname_checkbox":{
+        "locator": {
+            "xpath": "//input[@id='hostname']/following-sibling::span[1]"
+        }
+    },
+    "identity_certificate_ip_address_checkbox":{
+        "locator": {
+            "xpath": "//input[@id='ip-address']/following-sibling::span[1]"
+        }
+    },
+    "identity_certificate_upn_checkbox":{
+        "locator": {
+            "xpath": "//input[@id='upn']/following-sibling::span[1]"
+        }
+    },
+    "identity_certificate_upn_username_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.upn-user']"
+        }
+    },
+    "identity_certificate_upn_domain_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.upn-domain']"
+        }
+    },
+    "uncheck_check_san_in_policy_assessment_checkbox":{
+        "locator": {
+            "xpath": "//input[@id='identity-certificate.assess-san']/following-sibling::span[1]"
+        }
+    },
+    "rsa_encryption_key_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'RSA')]"
+        }
+    },
+    "ecdsa_encryption_key_radio_button":{
+        "locator": {
+            "xpath": "//span[contains(text(),'ECDSA')]"
+        }
+    },
+    "identity_certificate_key_size_dropdown":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.key-length']"
+        }
+    },
+    "identity_certificate_encryption_key_option":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+    "identity_certificate_key_size_option":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    },
+     "identity_certificate_algorithm_sha256_radio_button":{
+        "locator": {
+            "xpath": "//input[@value='identity-certificate.algorithm.sha256']/following-sibling::span[1]"
+        }
+    },
+    "identity_certificate_algorithm_sha384_radio_button":{
+        "locator": {
+            "xpath": "//input[@value='identity-certificate.algorithm.sha384']/following-sibling::span[1]"
+        }
+    },
+    "identity_certificate_algorithm_sha512_radio_button":{
+        "locator": {
+            "xpath": "//input[@value='identity-certificate.algorithm.sha512']/following-sibling::span[1]"
+        }
+    },
+    "identity_certificate_est_connector_url_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.est-url']"
+        }
+    },
+    "identity_certificate_est_connector_port_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.est-port']"
+        }
+    },
+    "identity_certificate_est_server_username_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.est-user']"
+        }
+    },
+    "identity_certificate_est_server_password_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.est-server-password']"
+        }
+    },
+    "uncheck_authenticate_with_est_user_credentials_checkbox":{
+        "locator": {
+            "xpath": "//input[@id='identity-certificate.est-use-credentials']/following-sibling::span[1]"
+        }
+    },
+    "est_certificate_serial_number_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.est-serial-number']"
+        }
+    },
+    "est_certificate_password_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.est-certificate-password']"
+        }
+    },
+    "identity_certificate_arbitrary_label_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.est-arbitrary-label']"
+        }
+    },
+    "identity_certificate_renewal_threshold_text_box":{
+        "locator": {
+            "css selector": "input[id='identity-certificate.threshold']"
+        }
+    }
+}

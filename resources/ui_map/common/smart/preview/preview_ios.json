@@ -1,0 +1,1455 @@
+{
+    "_section": "Shared",
+    "title_txt": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeNavigationBar//XCUIElementTypeStaticText[@name='{}']",
+                "//XCUIElementTypeNavigationBar//XCUIElementTypeOther//XCUIElementTypeStaticText[@name='{}']"
+            ]
+        }
+    },
+    "_section": "Preview Landing screen",
+    "preview_title_str": {
+        "locator": {
+            "name": "Preview",
+            "str_id": "cPreview"
+        }
+    },
+    "print_preview_title": {
+        "locator": {
+            "name": "Print Preview",
+            "str_id": "cPrintPreview"
+        }
+    },
+    "auto_rotate_title_str": {
+        "locator": {
+            "name": "Rotate",
+            "str_id": "cRotate"
+        }
+    },
+    "page_cell": {
+        "locator": {
+            "name": "Print Page Collection Cells"
+        }
+    },
+    "auto_rotate_image": {
+        "locator": {
+            "xpath": "//*[@name='Print Preview Collection View']/XCUIElementTypeCell[{}]"
+        }
+    },
+    "auto_rotate_image_checkmark": {
+        "locator": {
+            "name": "print page check",
+            "xpath": "//*[@name='Print Preview Collection View']/XCUIElementTypeCell[{}]//*[@name='print page check']"
+        }
+    },
+    "auto_rotate_reset_btn": {
+        "locator": {
+            "name": "Reset"
+        }
+    },
+    "print_preview_coachmark": {
+        "locator": {
+            "name": "Swipe up to change print settings",
+            "xpath": "//XCUIElementTypeStaticText[@name='Swipe up to change print settings']"
+        }
+    },
+    "re_print_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@identifier='Print']",
+            "name": "Re‑Print"
+        }
+    },
+    "zoomed_mode": {
+        "locator": {
+            "name": "Full Screen Preview Collection View"
+        }
+    },
+    "top_toolbar": {
+        "locator": {
+            "xpath": "//XCUIElementTypeImage[contains(@name, '-info-panel')]/ancestor::XCUIElementTypeScrollView"
+        }
+    },
+    "add_btn": {
+        "locator": {
+            "id": "Add Page"
+        }
+    },
+    "reorder_btn": {
+        "locator": {
+            "name": "Reorder",
+            "str_id": "cReorder"
+        }
+    },
+    "rotate_btn": {
+        "locator": {
+            "id": "Rotate"
+        }
+    },
+    "text_extract_btn": {
+        "locator": {
+            "id": "Text Extract"
+        }
+    },
+    "reorder_title_str": {
+        "locator": {
+            "name": "Reorder",
+            "str_id": "cReorder"
+        }
+    },
+    "file_name_title": {
+        "locator": {
+            "str_id": "cFileName"
+        }
+    },
+    "file_settings_title": {
+        "locator": {
+            "str_id": "cFileSettings"
+        }
+    },
+    "file_type": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeCell/XCUIElementTypeStaticText[@label='File Type']/following-sibling::XCUIElementTypeStaticText[contains(@label,'{}')]",
+                "//XCUIElementTypeCell/XCUIElementTypeStaticText[@name='File Type']/following-sibling::XCUIElementTypeStaticText[contains(@name,'{}')]"
+            ],
+            "str_id": "cFileType"
+        }
+    },
+    "file_size": {
+        "locator": {
+            "str_id": "cFileSize"
+        }
+    },
+    "file_size_large": {
+        "locator": {
+            "name": "Large"
+        }
+    },
+    "share_settings_tip": {
+        "locator": {
+            "str_id": "cShareSettingsTip"
+        }
+    },
+    "scribble_btn": {
+        "locator": {
+            "id": "Scribble"
+        }
+    },
+    "redaction_btn": {
+        "locator": {
+            "id": "Redaction"
+        }
+    },
+    "bottom_navbar": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeCollectionView[@identifier='Landing Actions Toolbar']",
+                "//XCUIElementTypeImage[@name='landing-toolbar-shadow']/parent::*"
+            ]
+        }
+    },
+    "print_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@identifier='Print']",
+            "str_id": "cPrint",
+            "name": "Print"
+        }
+    },
+    "print_preview_btn": {
+        "locator": {
+            "id": "Print",
+            "str_id": "cPrintPreview",
+            "name": "Print Preview"
+        }
+    },
+    "shortcuts_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='Shortcuts']",
+            "str_id": "cSmartTasks"
+        }
+    },
+    "fax_btn": {
+        "locator": {
+            "str_id": "cMobileFax"
+        }
+    },
+    "preview_img": {
+        "locator": {
+            "name": "Print Preview Collection View",
+            "xpath": "//*[@name='Print Page Collection Cells']//XCUIElementTypeImage"
+        }
+    },
+    "preview_img_by_page": {
+        "locator": {
+            "xpath": "//*[@name='Print Page Collection Cells'][{}]//XCUIElementTypeImage"
+        }
+    },
+    "reorder_img": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell[@name='Print Page Collection Cells'][{}]//XCUIElementTypeImage"
+        }
+    },
+    "preview_page_count_txt": {
+        "locator": {
+            "name": "Page Number Label"
+        }
+    },
+    "processing_popup_header_txt": {
+        "locator": {
+            "str_id": "cProcessingPages"
+        }
+    },
+    "processing_popup_body_txt": {
+        "locator": {
+            "str_id": "cWaitWhilePrepareFile"
+        }
+    },
+    "processing_popup_cancel_btn": {
+        "locator": {
+            "str_id": "cCancel"
+        }
+    },
+    "_section": "Redaction Continue screen",
+    "redaction_title_str": {
+        "locator": {
+            "str_id": "cRedaction"
+        }
+    },
+    "continue_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Continue']",
+            "name": "Continue"
+        }
+    },
+    "_section": "Action(Share / Save) screen",
+    "share_save_title_str": {
+        "locator": {
+            "str_id": "cShareAndSave",
+            "name": "Share / Save"
+        }
+    },
+    "share_as_original_toggle_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSwitch[@name='ShareAsOriginalSwitcher']",
+            "str_id": "cShareAsOriginal"
+        }
+    },
+    "action_btn": {
+        "locator": {
+            "id": "Share / Save Button",
+            "xpath": [
+                "//XCUIElementTypeButton[@name='Share / Save']",
+                "//XCUIElementTypeButton[@name='Share / Save Button']"
+            ]
+        }
+    },
+    "file_type_menu_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeNavigationBar[@name='File Type']"
+        }
+    },
+    "file_type_dropdown": {
+        "locator": {
+            "name": "File Type"
+        }
+    },
+    "selected_file_type_option": {
+        "locator": {
+            "xpath": ["//XCUIElementTypeStaticText[@name='{}' and @visible='true']/following-sibling::XCUIElementTypeOther/XCUIElementTypeImage[@visible='true']",
+                      "//XCUIElementTypeStaticText[@name='{}' and @visible='true']/following-sibling::XCUIElementTypeOther[@visible='true']/XCUIElementTypeImage[@visible='true']",
+                      "//XCUIElementTypeStaticText[@value='{}' and @visible='true']/following::XCUIElementTypeOther[@visible='true']",
+                      "//XCUIElementTypeStaticText[@value='{}']/following-sibling::XCUIElementTypeOther//XCUIElementTypeImage"]
+        }
+    },
+    "basic_pdf": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='Basic PDF']",
+            "str_id": "cFileTypeBasicPDF"
+        }
+    },
+    "image_jpg": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='Image (*.jpg)']",
+            "str_id": "cFileTypeImage",
+            "name": "Image (*.jpg)"
+        }
+    },
+    "image_png": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='PNG']",
+            "name": "PNG"
+        }
+    },
+    "image_tif": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='TIF']",
+            "name": "TIF"
+        }
+    },
+    "image_heif": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@label='HEIF']",
+            "name": "HEIF"
+        }
+    },
+    "searchable_pdf": {
+        "locator": {
+            "str_id": "cFileTypeSearchablePDF"
+        }
+    },
+    "word_doc": {
+        "locator": {
+            "str_id": "cFileTypeWord",
+            "name": "Word Document (*.docx)"
+        }
+    },
+    "plain_txt": {
+        "locator": {
+            "str_id": "cFileTypePlainText",
+            "name": "Plain Text (*.txt)"
+        }
+    },
+    "file_name_txt": {
+        "locator": {
+            "name": "File Name Text Field",
+            "xpath": "//XCUIElementTypeTextField[@name='File Name Text Field']"
+        }
+    },
+    "clear_file_name_btn": {
+        "locator": {
+            "name": "Clear text"
+        }
+    },
+    "smart_filename_switch": {
+        "locator": {
+            "name": "SmartFileNameSwitcher",
+            "xpath": "//XCUIElementTypeSwitch[@name='Smart File Name']"
+        }
+    },
+    "smart_filename_txt": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Smart File Name']"
+        }
+    },
+    "smart_filename_info_btn": {
+        "locator": {
+            "name": "SmartFileNameInfoButton"
+        }
+    },
+    "language_option": {
+        "locator": {
+            "name": "Language"
+        }
+    },
+    "smart_filename_info_str": {
+        "locator": {
+            "name": "Automatically name files based on the most important, detected information"
+        }
+    },
+    "new_file_types_coachmark": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@label, 'New file types')]",
+                "//XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name, 'New file types')]"
+            ]
+        }
+    },
+    "pdf_password_switch": {
+        "locator": {
+            "name": "ProtectDocumentSwitcher"
+        }
+    },
+    "pdf_password_txt": {
+        "locator": {
+            "name": [
+                "Password Text Field",
+                "Manual input text field"
+            ]
+        }
+    },
+    "pwd_hint_str": {
+        "locator": {
+            "str_id": "cYourPasswordMustBe_Hint"
+        }
+    },
+    "short_pwd_hint_str": {
+        "locator": {
+            "str_id": "cPasswordErrorTooShort"
+        }
+    },
+    "short_pwd_with_spaces_hint_str": {
+        "locator": {
+            "str_id": "cPasswordErrorTooShortWithSpaces"
+        }
+    },
+    "long_pwd_hint_str": {
+        "locator": {
+            "str_id": "cPasswordErrorTooLong"
+        }
+    },
+    "long_pwd_with_spaces_hint_str": {
+        "locator": {
+            "str_id": "cPasswordErrorTooLongWithSpaces"
+        }
+    },
+    "pwd_with_spaces_hint_str": {
+        "locator": {
+            "str_id": "cPasswordErrorContainsSpaces"
+        }
+    },
+    "language_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Language']/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "selected_language_txt": {
+        "locator": {
+            "xpath": "//XCUIElementTypeImage[@name='blueCheckmark']/preceding-sibling::XCUIElementTypeStaticText"
+        },
+        "_comment": "The selected language on the language menu, denoted by the checkmark."
+    },
+    "language_menu_item": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeNavigationBar[@name='Language']/parent::*//XCUIElementTypeStaticText[@name!='Language' and @name!='Installed Languages' and @name!='Install New Language']",
+                "//XCUIElementTypeNavigationBar[@name='Language']/parent::*//XCUIElementTypeStaticText[@name='{}']"
+            ]
+        }
+    },
+    "language_info_btn": {
+        "locator": {
+            "xpath": "//*[@name='LanguageInfoButton']"
+        }
+    },
+    "language_info_str": {
+        "locator": {
+            "name": "Select what language your document is in to use the Convert to Text feature or to add a Smart File Name."
+        }
+    },
+    "file_size_btn": {
+        "locator": {
+            "name": "File Size",
+            "xpath": "XCUIElementTypeStaticText[@name='File Size']"
+        }
+    },
+    "file_size_item": {
+        "locator": {
+            "partial_text": "{}"
+        },
+        "_comment": "Use with file_size_* locator str_id values to locate file_size menu items"
+    },
+    "file_size_actual": {
+        "locator": {
+            "str_id": "cActual"
+        }
+    },
+    "file_size_small": {
+        "locator": {
+            "str_id": "cSmall"
+        }
+    },
+    "file_size_medium": {
+        "locator": {
+            "str_id": "cMedium"
+        }
+    },
+    "_section": "Text Extract screen",
+    "text_extract_title_str": {
+        "locator": {
+            "str_id": "cTextExtract"
+        }
+    },
+    "rotate_image_btn": {
+        "locator": {
+            "name": "Rotate",
+            "str_id": "cRotate"
+        }
+    },
+    "rotate_left_option": {
+        "locator": {
+            "name": "Left"
+        }
+    },
+    "rotate_right_option": {
+        "locator": {
+            "name": "Right"
+        }
+    },
+    "rotate_flip_h_option": {
+        "locator": {
+            "name": "Flip H"
+        }
+    },
+    "rotate_flip_v_option": {
+        "locator": {
+            "name": "Flip V"
+        }
+    },
+    "print_size_4x6_two_sided": {
+        "locator": {
+            "str_id": "c462Sided",
+            "name": "4x6\" 2‑Sided"
+        }
+    },
+    "document_size_8.5x11": {
+        "locator": {
+            "name": "8.5x11\" Letter"
+        }
+    },
+    "print_size_4x6": {
+        "locator": {
+            "name": "4x6\" Standard"
+        }
+    },
+    "print_size_5x7": {
+        "locator": {
+            "name": "5x7\""
+        }
+    },
+    "print_size_5x5": {
+        "locator": {
+            "name": "5x5\" Square"
+        }
+    },
+    "print_size_4x12": {
+        "locator": {
+            "name": "4x12\" Panoramic"
+        }
+    },
+    "two_side_print_unavailable_txt": {
+        "locator": {
+            "str_id": "cFormatAvailableWhenSingleImageSelected"
+        }
+    },
+    "print_preview_pan_view": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeImage[@identifier='landing-slide-dragger'][1]",
+                "//XCUIElementTypeOther[@name='pan view']"
+            ],
+            "name": "pan view"
+        }
+    },
+    "print_preview_share_btn": {
+        "locator": {
+            "name": "Share"
+        }
+    },
+    "printer_name": {
+        "locator": {
+            "name": "Printer Name"
+        }
+    },
+    "print_size_title_str": {
+        "locator": {
+            "name": "Print Size",
+            "str_id": "cPrintSize"
+        }
+    },
+    "print_copy_txt": {
+        "locator": {
+            "name": "Print (1) Copy",
+            "str_id": "cPrintOneCopy",
+            "xpath": "//XCUIElementTypeStaticText[contains(@name,'Copy')]"
+        }
+    },
+    "print_multiple_copies_txt": {
+        "locator": {
+            "str_id": "cPrintCopies",
+            "partial_text": "Copies"
+        }
+    },
+    "copies_minus_btn": {
+        "locator": {
+            "name": [
+                "−",
+                "-"
+            ]
+        }
+    },
+    "copies_plus_btn": {
+        "locator": {
+            "name": "+"
+        }
+    },
+    "paper_txt": {
+        "locator": {
+            "name": "Paper",
+            "str_id": "cPaper"
+        }
+    },
+    "paper_size_5x7": {
+        "locator": {
+            "name": "5x7 in/13x18 cm",
+            "str_id": "c5X7In13X18Cm"
+        }
+    },
+    "paper_size_4x6": {
+        "locator": {
+            "name": "4x6 in/10x15 cm",
+            "str_id": "c4X6In10X15Cm"
+        }
+    },
+    "paper_size_4x5": {
+        "locator": {
+            "name": "4x5 in/10x13 cm",
+            "str_id": "c4X5In10X13Cm"
+        }
+    },
+    "paper_size_4x12": {
+        "locator": {
+            "name": "4x12 in/10x30 cm",
+            "str_id": "cPhoto_4x12in"
+        }
+    },
+    "paper_size_8x10": {
+        "locator": {
+            "name": "8x10 in/20x25 cm"
+        }
+    },
+    "paper_size_letter": {
+        "locator": {
+            "name": "Letter",
+            "str_id": "cLetter"
+        }
+    },
+    "paper_size_a4": {
+        "locator": {
+            "name": "A4",
+            "str_id": "cA4"
+        }
+    },
+    "paper_size_legal": {
+        "locator": {
+            "name": "US Legal",
+            "str_id": "cLegal"
+        }
+    },
+    "paper_ready_to_use_txt": {
+        "locator": {
+            "name": "Paper ready to use",
+            "str_id": "cPaperReadyToUse"
+        }
+    },
+    "additional_paper_options_txt": {
+        "locator": {
+            "name": "Additional paper options",
+            "str_id": "cAdditionalPaperOptions"
+        }
+    },
+    "paper_option_value": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'Paper')]/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "color_title_txt": {
+        "locator": {
+            "name": "Color Options",
+            "str_id": "cColorOptions"
+        }
+    },
+    "black_only_option_txt": {
+        "locator": {
+            "str_id": "cBlackOnly"
+        }
+    },
+    "grayscale_option_txt": {
+        "locator": {
+            "str_id": "cGrayscale"
+        }
+    },
+    "color_option_txt": {
+        "locator": {
+            "str_id": "cColor"
+        }
+    },
+    "color_option_value": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'Color Options')]/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "page_range_txt": {
+        "locator": {
+            "name": "Page Range",
+            "str_id": "cPageRange"
+        }
+    },
+    "page_range_option_value": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'Page Range')]/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "select_all_txt": {
+        "locator": {
+            "str_id": "cSelectAll"
+        }
+    },
+    "deselect_all_txt": {
+        "locator": {
+            "str_id": "cDeselectAll"
+        }
+    },
+    "manual_input_txt": {
+        "locator": {
+            "name": "Manual Input"
+        }
+    },
+    "print_quality_txt": {
+        "locator": {
+            "name": "Print Quality",
+            "str_id": "cPrintQuality"
+        }
+    },
+    "draft_option": {
+        "locator": {
+            "str_id": "cDraft"
+        }
+    },
+    "normal_option": {
+        "locator": {
+            "str_id": "cNormal"
+        }
+    },
+    "best_option": {
+        "locator": {
+            "str_id": "cBest"
+        }
+    },
+    "print_quality_option_value": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'Print Quality')]/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "two_sided_txt": {
+        "locator": {
+            "name": "2-sided",
+            "str_id": "c2Sided"
+        }
+    },
+    "2_sided_off_option": {
+        "locator": {
+            "str_id": "cOff"
+        }
+    },
+    "2_sided_long_edge_option": {
+        "locator": {
+            "str_id": "cDoubleLongEdge"
+        }
+    },
+    "2_sided_short_edge_option": {
+        "locator": {
+            "str_id": "cDoubleShortEdge"
+        }
+    },
+    "2_sided_option_value": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'2‑sided')]/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "table_value": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther/XCUIElementTypeTable"
+        }
+    },
+    "orientation_option": {
+        "locator": {
+            "str_id": "cOrientation"
+        }
+    },
+    "orientation_landscape_option": {
+        "locator": {
+            "str_id": "cLandscape"
+        }
+    },
+    "orientation_portrait_option": {
+        "locator": {
+            "str_id": "cPortrait"
+        }
+    },
+    "feedback_popup_title": {
+        "locator": {
+            "name": "Let us know what you think"
+        }
+    },
+    "feedback_no_thanks_btn": {
+        "locator": {
+            "name": "No thanks"
+        }
+    },
+    "print_setting_options": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[@visible='true']"
+        }
+    },
+    "back_arrow_btn": {
+        "locator": {
+            "name": [
+                "Navigate Back",
+                "Back",
+                "back"
+            ],
+            "xpath": "//*[@name='Navigate Back']"
+        }
+    },
+    "file_type_back_arrow": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeNavigationBar[@identifier='File Type']/XCUIElementTypeButton[@identifier='Navigate Back']",
+                "//XCUIElementTypeNavigationBar[@name='File Type']/XCUIElementTypeButton[@name='Navigate Back']"
+            ]
+        }
+    },
+    "dynamic_button": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeButton[@name='{}']",
+                "//XCUIElementTypeButton[@label='{}']"
+            ]
+        }
+    },
+    "dynamic_text": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[contains(@name, '{}')]"
+        }
+    },
+    "printing_btn_txt": {
+        "locator": {
+            "name": "Printing…",
+            "str_id": "cPrintingEllipsis",
+            "partial_text": "Printing"
+        }
+    },
+    "print_job_sent_btn": {
+        "locator": {
+            "name": "Print Job Sent"
+        }
+    },
+    "cell_selected_value_txt": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'{}')]/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "page_selected_image": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther/XCUIElementTypeImage[@name='blue-round-check']/following-sibling::XCUIElementTypeStaticText[@name='{}']"
+        }
+    },
+    "page_range_options": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther/XCUIElementTypeStaticText[@visible='true']"
+        }
+    },
+    "resize_and_move_btn_txt": {
+        "locator": {
+            "name": "Resize & Move"
+        }
+    },
+    "resize_and_move_manual_option": {
+        "locator": {
+            "name": "Manual",
+            "str_id": "cManualCapture"
+        }
+    },
+    "resize_and_move_original_size_option": {
+        "locator": {
+            "name": "Original Size"
+        }
+    },
+    "resize_and_move_fit_to_page_option": {
+        "locator": {
+            "name": "Fit to Page"
+        }
+    },
+    "resize_and_move_fill_page_option": {
+        "locator": {
+            "name": "Fill Page"
+        }
+    },
+    "tf_cancel_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@identifier='Cancel']",
+            "name": "Cancel"
+        }
+    },
+    "tf_done_btn": {
+        "locator": {
+            "name": "Done"
+        }
+    },
+    "transform_title": {
+        "locator": {
+            "name": "Transform"
+        }
+    },
+    "bottom_navbar_handle": {
+        "locator": {
+            "name": "Landing Actions Toolbar"
+        }
+    },
+    "transform_collection_view": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCollectionView[@name='Landing Actions Toolbar']/XCUIElementTypeCell//XCUIElementTypeStaticText"
+        }
+    },
+    "reorder_page_collection": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell[@name='Print Page Collection Cells']//XCUIElementTypeStaticText"
+        }
+    },
+    "delete_page_icon": {
+        "locator": {
+            "name": "Delete Page"
+        }
+    },
+    "delete_btn": {
+        "locator": {
+            "name": "Delete",
+            "str_id": "cDelete"
+        }
+    },
+    "edit_btn": {
+        "locator": {
+            "name": "Edit"
+        }
+    },
+    "replace_btn": {
+        "locator": {
+            "name": "Replace"
+        }
+    },
+    "adjust_boundaries_title": {
+        "locator": {
+            "str_id": "cDetectEdges",
+            "name": "Detect Edges"
+        }
+    },
+    "next_btn": {
+        "locator": {
+            "str_id": "cNext",
+            "name": "Next"
+        }
+    },
+    "visible_dynamic_text": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeStaticText[@label='{}']",
+                "//XCUIElementTypeStaticText[@name='{}' and @visible='true']"
+            ]
+        }
+    },
+    "page_range_displayed_txt": {
+        "locator": {
+            "partial_text": "Pages"
+        }
+    },
+    "page_no_txt": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell//XCUIElementTypeStaticText[@name='{}']",
+            "name": "{}"
+        }
+    },
+    "manual_input_pop_up_msg": {
+        "locator": {
+            "name": "Type the range of pages you want to print"
+        }
+    },
+    "in_app_alert": {
+        "locator": {
+            "xpath": "//XCUIElementTypeAlert[@name='In-app Alert View']"
+        }
+    },
+    "manual_input_pop_up_warning_msg": {
+        "locator": {
+            "name": "Enter a valid page range."
+        }
+    },
+    "page_range_input_txt_field": {
+        "locator": {
+            "name": "Manual input text field",
+            "xpath": "//XCUIElementTypeTextField"
+        }
+    },
+    "clear_text_btn": {
+        "locator": {
+            "name": "Clear text"
+        }
+    },
+    "print_help_ok_btn": {
+        "locator": {
+            "str_id": "cOk",
+            "xpath": "//XCUIElementTypeButton[@name='OK']"
+        }
+    },
+    "option_selected_image": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[@name='{}']/following-sibling::XCUIElementTypeImage[@name='green-check']"
+        }
+    },
+    "multi_page_printing_txt": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[contains(@label, 'Printing page')]",
+            "str_id": "cPrintingPagePercent1DollardOfPercent2DollarDEllipsis",
+            "partial_text": "Printing page"
+        }
+    },
+    "printing_msg_txt": {
+        "locator": {
+            "name": "Please wait on this screen until job has been sent"
+        }
+    },
+    "choose_your_printer_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@value='Choose your Printer']",
+            "str_id": "cChooseYourPrinter",
+            "name": "Printer Name"
+        }
+    },
+    "auto_rotate_discard_title": {
+        "locator": {
+            "name": "Discard changes?"
+        }
+    },
+    "auto_rotate_discard_txt": {
+        "locator": {
+            "name": "Your changes will not be saved."
+        }
+    },
+    "auto_rotate_done_btn": {
+        "locator": {
+            "name": "Done"
+        }
+    },
+    "yes_btn": {
+        "locator": {
+            "name": "Yes",
+            "str_id": "cYes"
+        }
+    },
+    "no_btn": {
+        "locator": {
+            "name": "No",
+            "str_id": "cNo"
+        }
+    },
+    "print_job_cancel_pop_up_title": {
+        "locator": {
+            "name": "Cancel Job"
+        }
+    },
+    "print_job_cancel_pop_up_txt": {
+        "locator": {
+            "name": "Are you sure want to cancel your print job?"
+        }
+    },
+    "exit_popup_title": {
+        "locator": {
+            "name": "Are you done working?"
+        }
+    },
+    "exit_popup_home_btn": {
+        "locator": {
+            "name": "YesGoHome"
+        }
+    },
+    "exit_popup_scan_btn": {
+        "locator": {
+            "name": "YesStartNewScan"
+        }
+    },
+    "exit_popup_add_btn": {
+        "locator": {
+            "name": "NoAddImages"
+        }
+    },
+    "exit_popup_cancel_btn": {
+        "locator": {
+            "name": "Cancel"
+        }
+    },
+    "id_card_front": {
+        "locator": {
+            "str_id": "cIDCardFront"
+        }
+    },
+    "rotate_right_icon": {
+        "locator": {
+            "name": "rotate right icon"
+        }
+    },
+    "id_card_back": {
+        "locator": {
+            "str_id": "cIDCardBack"
+        }
+    },
+    "rotate_upsidedown_icon": {
+        "locator": {
+            "name": "rotate upsidedown icon"
+        }
+    },
+    "file_saved_popup_title": {
+        "locator": {
+            "str_id": "cYourFileHasBeenSaved",
+            "partial_text": "Your file has been saved"
+        }
+    },
+    "go_home_btn": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeButton[@identifier='Home' and @label='Go Home']",
+                "//XCUIElementTypeButton[@name='Home']"
+            ],
+            "str_id": "cGoHome"
+        }
+    },
+    "file_saved_popup_ok_btn": {
+        "locator": {
+            "name": "OK"
+        }
+    },
+    "blue_checkmark": {
+        "locator": {
+            "xpath": "//XCUIElementTypeImage[@name='blueCheckmark']"
+        }
+    },
+    "save_hp_smart_btn": {
+        "locator": {
+            "name": "Save to HP Smart"
+        }
+    },
+    "folder_name": {
+        "locator": {
+            "xpath": "//*[contains(@name, 'Folder')]"
+        }
+    },
+    "preview_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='Next']",
+            "name": "Next"
+        }
+    },
+    "ds_paper_main_tray": {
+        "locator": {
+            "name": "Main Tray"
+        }
+    },
+    "ds_paper_main_tray_selected": {
+        "locator": {
+            "name": "tray-sheet-selected"
+        }
+    },
+    "ds_paper_photo_tray": {
+        "locator": {
+            "name": "Photo Tray",
+            "xpath": [
+                "//XCUIElementTypeStaticText[@name='Photo Tray']",
+                "//XCUIElementTypeButton[@name='tray-photo-normal']"
+            ]
+        }
+    },
+    "ds_paper_photo_tray_selected": {
+        "locator": {
+            "name": "tray-photo-selected"
+        }
+    },
+    "ds_paper_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='page-size-tool' and @value='Paper']"
+        }
+    },
+    "printer_object_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeStaticText[@name='{}']"
+        }
+    },
+    "select_printer_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeStaticText[@name='Printers']"
+        }
+    },
+    "_shared_close": {
+        "locator": {
+            "str_id": "cClose",
+            "name": "Close",
+            "xpath": "//XCUIElementTypeButton[@name='Close']"
+        }
+    },
+    "ds_layout_btn": {
+        "locator": {
+            "name": "layout-tool",
+            "xpath": "//XCUIElementTypeStaticText[@name='layout-tool' and @value='Layout']"
+        }
+    },
+    "ds_cards_btn": {
+        "locator": {
+            "name": "cards-tool",
+            "xpath": "//XCUIElementTypeStaticText[@name='cards-tool' and @value='Cards']"
+        }
+    },
+    "ds_layout_fit_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-fit')]"
+        }
+    },
+    "ds_layout_fit_option_selected": {
+        "locator": {
+            "name": "layout-fit-selected"
+        }
+    },
+    "ds_layout_fill_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-fill')]"
+        }
+    },
+    "ds_layout_fill_option_selected": {
+        "locator": {
+            "name": "layout-fill-selected"
+        }
+    },
+    "ds_layout_crop_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-crop-normal')]",
+            "name": "layout-crop-normal"
+        }
+    },
+    "ds_layout_crop_option_selected": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-crop-selected')]",
+            "name": "layout-crop-selected"
+        }
+    },
+    "ds_layout_border_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-border')]"
+        }
+    },
+    "ds_layout_rotate_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-rotate-normal')]",
+            "name": "layout-rotate-normal"
+        }
+    },
+    "ds_layout_flip_h_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-flipH-normal')]"
+        }
+    },
+    "ds_layout_flip_v_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'layout-flipV')]"
+        }
+    },
+    "additional_paper_option": {
+        "locator": {
+            "name": "options-button"
+        }
+    },
+    "image_potrait_orientation_option": {
+        "locator": {
+            "name": "orientation-portrait"
+        }
+    },
+    "image_landscape_orientation_option": {
+        "locator": {
+            "name": "orientation-landscape"
+        }
+    },
+    "image_potrait_orientation_option_selected": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name='orientation-portrait' and @label='orientation-shevron']"
+        }
+    },
+    "image_landscape_orientation_option_selected": {
+        "locator": {
+            "name": "//XCUIElementTypeButton[@name='orientation-landscape' and @label='orientation-shevron']"
+        }
+    },
+    "undo_btn": {
+        "locator": {
+            "name": "undo"
+        }
+    },
+    "redo_btn": {
+        "locator": {
+            "name": "redo"
+        }
+    },
+    "front_btn": {
+        "locator": {
+            "name": "Front"
+        }
+    },
+    "back_btn": {
+        "locator": {
+            "name": "Back"
+        }
+    },
+    "mothers_day_template_option": {
+        "locator": {
+            "name": "Mothers Day"
+        }
+    },
+    "graduation_template_option": {
+        "locator": {
+            "name": "Graduation"
+        }
+    },
+    "check_mark_icon": {
+        "locator": {
+            "name": "ok-options-shevron"
+        }
+    },
+    "ds_paper_size_4x6": {
+        "locator": {
+            "name": "4x6 in"
+        }
+    },
+    "ds_paper_size_5x7": {
+        "locator": {
+            "name": "5x7 in"
+        }
+    },
+    "ds_paper_size_8x5_11": {
+        "locator": {
+            "name": "8.5x11 in"
+        }
+    },
+    "ds_paper_size_a4": {
+        "locator": {
+            "name": "A4"
+        }
+    },
+    "ds_default_paper_size": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='Main Tray']/preceding-sibling::XCUIElementTypeButton"
+        }
+    },
+    "ds_paper_size_warning_message": {
+        "locator": {
+            "name": "Load Selected Size"
+        }
+    },
+    "exit_without_saving_popup_title": {
+        "_comment": "Title of the popup we get when trying to leave ds screen",
+        "locator": {
+            "name": "Exit without saving?"
+        }
+    },
+    "exit_without_saving_yes_btn":{
+        "locator":{
+            "xpath":"//XCUIElementTypeButton[@name='Yes']"
+        }
+    },
+    "exit_without_saving_no_btn":{
+        "locator":{
+            "xpath":"//XCUIElementTypeButton[@name='No']"
+        }
+    },
+    "ds_info_unselected_btn": {
+        "locator": {
+            "name": "info-normal"
+        }
+    },
+    "ds_info_selected_btn": {
+        "locator": {
+            "name": "info-selected"
+        }
+    },
+    "ds_info_tooltip": {
+        "locator": {
+            "name": "Tap once to resize, double tap to crop"
+        }
+    },
+    "ds_retrieving_image_txt": {
+        "locator": {
+            "name": "Retrieving paper size info…"
+        }
+    },
+    "ds_image": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeButton[@name='left-chevron']/preceding-sibling::XCUIElementTypeOther",
+                "//XCUIElementTypeScrollView/preceding-sibling::XCUIElementTypeOther",
+                "//XCUIElementTypeButton[@name='redo']/following-sibling::XCUIElementTypeOther"
+            ]
+        }
+    },
+    "zoom_in_btn": {
+        "locator": {
+            "name": "ZoomIn"
+        }
+    },
+    "zoom_out_btn": {
+        "locator": {
+            "name": "ZoomOut"
+        }
+    },
+    "fax_preview": {
+        "locator": {
+            "str_id": "cFaxPreview",
+            "name": "Fax Preview"
+        }
+    },
+    "shortcuts_pan_view_expand_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@identifier='pan view']/XCUIElementTypeOther"
+        }
+    },
+    "single_shortcut_task": {
+        "locator": {
+            "xpath": [
+                "//XCUIElementTypeStaticText[@label='Start {}']",
+                "//XCUIElementTypeStaticText[@name='Start {}']"
+            ]
+        }
+    },
+    "go_to_activity_center_btn": {
+        "locator": {
+            "id": "Activity",
+            "xpath": "//XCUIElementTypeStaticText[@name='Activity Center']"
+        }
+    },
+    "finish_shortcut_btn": {
+        "locator": {
+            "name": "Finish Shortcut"
+        }
+    },
+    "_section": "Mac locators",
+    "preview_share_btn": {
+        "locator": {
+            "id": "Share"
+        }
+    },
+    "share_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeNavigationBar[@identifier='Share']"
+        }
+    },
+    "preview_save_btn": {
+        "locator": {
+            "id": "Save"
+        }
+    },
+    "hpsmart_window": {
+        "locator": {
+            "xpath": "//*[@identifier='SceneWindow' and @title='HP Smart']"
+        }
+    },
+    "delete_popup_msg": {
+        "locator": {
+            "name": "Are you sure you want to delete this item?"
+        }
+    },
+    "left_arrow_btn": {
+        "locator": {
+            "name": "left-chevron",
+            "xpath": "//XCUIElementTypeButton[@name='left-chevron']"
+        }
+    },
+    "right_arrow_btn": {
+        "locator": {
+            "name": "right-chevron",
+            "xpath": "//XCUIElementTypeButton[@name='right-chevron']"
+        }
+    }
+}

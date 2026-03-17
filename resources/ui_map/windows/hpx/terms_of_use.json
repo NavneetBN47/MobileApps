@@ -1,0 +1,7 @@
+{
+    "accept_button":{
+        "locator": {
+            "id": "AUID_termsofuse-core_termsOfUseModuleTestID_main-dialog_confirmButton"
+        }
+    }
+}

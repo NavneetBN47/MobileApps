@@ -1,0 +1,214 @@
+{
+    "warning": {
+        "cartridges_very_low_65546": {
+            "cartridges_very_low_65546_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "Cartridges that are very low might be sufficiently depleted to cause poor print quality. Select OK to continue printing or cancel the print job at the printer.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.\r\n\r\nCartridges can be recycled. Visit www.hp.com/recycle to learn more about HP's recycling programs.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "used_or_counterfeit_cartridges_detected_65592": {
+            "used_or_counterfeit_cartridges_detected_65592_header": "Used or Counterfeit Cartridges Detected",
+            "warning_icon": "Warning Alt",
+            "body": "The contents of the Original HP cartridges have been depleted.\r\nThis can occur when the cartridge prints more than expected.\r\nIf you have just installed the indicated cartridges and you believe they are new, Original HP cartridges, click Yes. Otherwise, click No.",
+            "button_info": "<Secondary>\r\n\"Yes\"\r\n\"No\"\r\n\"Get Supplies\""
+        },
+        "used_or_counterfeit_cartridges_installed_65594": {
+            "used_or_counterfeit_cartridges_installed_65594_header": "Used or Counterfeit Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "You have identified the indicated cartridges as new, Original HP cartridges. However, the printer has detected that these cartridges are not new, Original HP cartridges. The contents of the Original HP cartridges may have been depleted.\r\n\r\nNOTICES: \r\n* Information about cartridge levels will not be available.\r\n* The HP cartridge warranty does not cover counterfeit cartridges or cartridges with non-HP contents.\r\n* The HP printer warranty does not cover repairs or service due to use of counterfeit cartridges or cartridges with non-HP contents.\r\n* HP does not guarantee the quality or reliability of counterfeit cartridges or non-HP contents in HP cartridges.",
+            "button_info": "<Secondary>\r\n\"OK\"\r\n\"Get Supplies\""
+        },
+        "cartridge_usedorcounterfeit_question_continue_65592_65594": {
+            "cartridge_usedorcounterfeit_question_continue_65592_65594_header": "Used or Counterfeit Cartridges Detected",
+            "warning_icon": "Warning Alt",
+            "body": "You have identified the indicated cartridges as new, Original HP cartridges. However, the printer has detected that these cartridges are not new, Original HP cartridges. The contents of the Original HP cartridges may have been depleted.\r\n\r\nNOTICES: \r\n* Information about cartridge levels will not be available.\r\n* The HP cartridge warranty does not cover counterfeit cartridges or cartridges with non-HP contents.\r\n* The HP printer warranty does not cover repairs or service due to use of counterfeit cartridges or cartridges with non-HP contents.\r\n* HP does not guarantee the quality or reliability of counterfeit cartridges or non-HP contents in HP cartridges.",
+            "button_info": "<Secondary>\r\n\"Yes\"\r\n\"No\"\r\n\"OK\"\r\n\"Get Supplies\""
+        },
+        "counterfeit_or_used_cartridges_identified_65617": {
+            "counterfeit_or_used_cartridges_identified_65617_header": "Counterfeit or Used Cartridges Identified",
+            "warning_icon": "Warning Alt",
+            "body": "You have identified the indicated cartridges as new, Original HP cartridges. However, the printer has detected that these cartridges are not new, Original HP cartridges and might be counterfeit.\r\n\r\nIf these cartridges are newly-installed and were sold to you as new, Original HP cartridges, contact the store where they were purchased.\r\n\r\nIf you believe you purchased Original HP cartridges, visit the HP Anti-Counterfeit website (www.hp.com/go/anticounterfeit) for more information or to report fraud.\r\n\r\nTo continue using the indicated cartridges, click Continue.",
+            "button_info": "<Secondary>\r\n\"Continue\"\r\n\"Get More Help\""
+        },
+        "used_or_counterfeit_cartridges_detected_65685": {
+            "used_or_counterfeit_cartridges_detected_65685_header": "Used or Counterfeit Cartridges Detected",
+            "warning_icon": "Warning Alt",
+            "body": "The contents of the Original HP cartridges have been depleted.\r\nThis can occur when the cartridge prints more than expected.\r\nIf you have just installed the indicated cartridges and you believe they are new, Original HP cartridges, click Yes. Otherwise, click No.",
+            "button_info": "<Secondary>\r\n\"Yes\"\r\n\"No\""
+        },
+        "counterfeit_or_used_cartridges_identified_65686": {
+            "counterfeit_or_used_cartridges_identified_65686_header": "Counterfeit or Used Cartridges Identified",
+            "warning_icon": "Warning Alt",
+            "body": "You have identified the indicated cartridges as new, Original HP cartridges. However, the printer has detected that these cartridges are not new, Original HP cartridges and might be counterfeit.\r\n\r\nIf these cartridges are newly-installed and were sold to you as new, Original HP cartridges, contact the store where they were purchased.\r\n\r\nIf you believe you purchased Original HP cartridges, visit the HP Anti-Counterfeit website (www.hp.com/go/anticounterfeit) for more information or to report fraud.\r\n\r\nTo continue using the indicated cartridges, click Continue.\r\n\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"Continue\"\r\n\"Get More Help\""
+        },
+        "used_or_counterfeit_cartridges_installed_65687": {
+            "used_or_counterfeit_cartridges_installed_65687_header": "Used or Counterfeit Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "You have identified the indicated cartridges as new, Original HP cartridges. However, the printer has detected that these cartridges are not new, Original HP cartridges. The contents of the Original HP cartridges may have been depleted.\r\n\r\nNOTICES: \r\n* Information about cartridge levels will not be available.\r\n* The HP cartridge warranty does not cover counterfeit cartridges or cartridges with non-HP contents.\r\n* The HP printer warranty does not cover repairs or service due to use of counterfeit cartridges or cartridges with non-HP contents.\r\n* HP does not guarantee the quality or reliability of counterfeit cartridges or non-HP contents in HP cartridges.\r\n\r\nTo continue using this cartridge, click OK.\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"OK\""
+        },
+        "cartridges_very_low_65764": {
+            "cartridges_very_low_65764_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "You may replace the cartridge now or wait until it is causing poor print quality.\r\n\r\nSince your printer is enrolled in HP Instant Ink, you should have a replacement cartridge available or a delivery coming soon. \r\nPlease visit HP Instant Ink for information about your shipments.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridges_very_low_65776": {
+            "cartridges_very_low_65776_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "You may replace the cartridges now or wait until print quality is no longer acceptable. Select OK to continue printing or cancel the print job at the printer.\r\n\r\nContact HP Instant Ink if you don't have replacement cartridges.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridges_very_low_66241": {
+            "cartridges_very_low_66241_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "Cartridges that are very low might be sufficiently depleted to cause poor print quality. Select OK to continue printing or cancel the print job at the printer.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, you should already have a replacement cartridge. Sign in to your HP account on the home screen to check your status.\r\n\r\nCartridges can be recycled. Visit www.hp.com/recycle to learn more about HP's recycling programs.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "used_or_refilled_cartridges_installed_66098": {
+            "used_or_refilled_cartridges_installed_66098_header": "Used or Refilled Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "The printer has identified the indicated cartridges as having been refilled or remanufactured. The contents of the Original HP cartridges may have been depleted.\r\n\r\nNOTICES: \r\n* Information about cartridge levels will not be available.\r\n* The HP cartridge warranty does not cover non-HP cartridges or cartridges with non-HP contents.\r\n* The HP printer warranty does not cover repairs or service due to use of non-HP cartridges or cartridges with non-HP contents.\r\n* HP does not guarantee the quality or reliability of non-HP contents in HP cartridges.",
+            "button_info": "<Secondary>\r\n\"OK\"\r\n\"Get Supplies\""
+        },
+        "used_or_refilled_cartridges_installed_66099": {
+            "used_or_refilled_cartridges_installed_66099_header": "Used or Refilled Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "The printer has identified the indicated cartridges as having been refilled or remanufactured. The contents of the Original HP cartridges may have been depleted.\r\n\r\nNOTICES:\r\n* Information about cartridge levels will not be available.\r\n* The HP cartridge warranty does not cover non-HP cartridges or cartridges with non-HP contents.\r\n* The HP printer warranty does not cover repairs or service due to use of non-HP cartridges or cartridges with non-HP contents.\r\n* HP does not guarantee the quality or reliability of non-HP contents in HP cartridges.\r\n\r\nTo continue using this cartridge, click OK.\r\nFor problems with cartridges obtained from HP Instant Ink, contact HP Instant Ink Support.",
+            "button_info": "<Secondary>\r\n\"OK\""
+        },
+        "printer_supply_upgrade_available_65549": {
+            "printer_supply_upgrade_available_65549_header": "Printer Supply Upgrade Available",
+            "warning_icon": "Warning Alt",
+            "body": "The indicated cartridge can only be used to upgrade one printer. Select OK to use it on this printer. \r\n\r\nIf you do not wish to proceed with the supply upgrade for this printer, replace the cartridge.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "printer_supply_upgrade_available_65677": {
+            "printer_supply_upgrade_available_65677_header": "Printer Supply Upgrade Available",
+            "warning_icon": "Warning Alt",
+            "body": "The indicated cartridge can only be used to upgrade one printer. Select OK to use it on this printer. \r\n\r\nIf you do not wish to proceed with the supply upgrade for this printer, replace the cartridge.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "hp_instant_ink_cartridges_installed_65772": {
+            "hp_instant_ink_cartridges_installed_65772_header": "HP Instant Ink Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "Please complete HP Instant Ink enrollment at HP Instant Ink.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get Supplies\""
+        },
+        "used_or_counterfeit_cartridges_detected_66267": {
+            "used_or_counterfeit_cartridges_detected_66267_header": "Used or Counterfeit Cartridges Detected",
+            "warning_icon": "Warning Alt",
+            "body": "If you believe these are new, Original HP cartridges, click Yes. Otherwise, click No. \r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, you should already have a replacement cartridge. Sign in to your HP account at www.hpsmart.com for more information.",
+            "button_info": "<Secondary>\r\n\"Yes\"\r\n\"No\""
+        },
+        "cartridges_very_low_66710": {
+            "cartridges_very_low_66710_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "Cartridges that are very low might be sufficiently depleted to cause poor print quality. Select OK to continue printing or cancel the print job at the printer.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.\r\n\r\nCartridges can be recycled. Visit www.hp.com/recycle to learn more about HP's recycling programs.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridges_very_low_66712": {
+            "cartridges_very_low_66712_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "Cartridges that are very low might be sufficiently depleted to cause poor print quality. Select OK to continue printing or cancel the print job at the printer.\r\n\r\nYou might want to have replacements available to install when print quality is no longer acceptable.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, you should already have a replacement cartridge. Sign in to your HP account on the home screen to check your status.\r\n\r\nCartridges can be recycled. Visit www.hp.com/recycle to learn more about HP's recycling programs.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "counterfeit_or_used_cartridges_identified_66268": {
+            "counterfeit_or_used_cartridges_identified_66268_header": "Counterfeit or Used Cartridges Identified",
+            "warning_icon": "Warning Alt",
+            "body": "You have identified the indicated cartridges as new, Original HP cartridges. However, the printer has detected that these cartridges are not new, Original HP cartridges and might be counterfeit.\r\n\r\nIf these cartridges are newly-installed and were sold to you as new, Original HP cartridges, contact the store where they were purchased.\r\n\r\nIf you believe you purchased Original HP cartridges, visit the HP Anti-Counterfeit website (www.hp.com/go/anticounterfeit) for more information or to report fraud.\r\n\r\nTo continue using the indicated cartridges, click \"Continue\".",
+            "button_info": "<Secondary>\r\n\"Continue\"\r\n\"Get More Help\""
+        },
+        "counterfeit_or_used_cartridges_installed_66269": {
+            "counterfeit_or_used_cartridges_installed_66269_header": "Counterfeit or Used Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "The printer has detected that these cartridges are not new, Original HP cartridges.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, you should already have a replacement cartridge. Sign in to your HP account at www.hpsmart.com for more information.",
+            "button_info": "<Secondary>\r\n\"OK\"\r\n\"Get Supplies\""
+        },
+        "used_or_refilled_cartridges_installed_66443": {
+            "used_or_refilled_cartridges_installed_66443_header": "Used or Refilled Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "The printer has identified the indicated cartridges as having been refilled or remanufactured. The contents of the Original HP cartridges may have been depleted.\r\n\r\nNOTICES: \r\n* Information about cartridge levels will not be available.\r\n* The HP cartridge warranty does not cover non-HP cartridges or cartridges with non-HP contents.\r\n* The HP printer warranty does not cover repairs or service due to use of non-HP cartridges or cartridges with non-HP contents.\r\n* HP does not guarantee the quality or reliability of non-HP contents in HP cartridges.\r\n\r\nIf you have an HP+ printer, it requires Original HP cartridges.\r\n\r\nIf your printer is enrolled in HP Instant Ink, you should already have a replacement cartridge. Sign in to your HP account at www.hpsmart.com for more information.",
+            "button_info": "<Secondary>\r\n\"OK\"\r\n\"Get Supplies\""
+        },
+        "Cartridges_Very_Low_65848": {
+            "Cartridges_Very_Low_65848_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "Cartridges that are very low on ink may be sufficiently depleted to cause poor print quality.\r\nHP recommends you have a replacement available to install when print quality is no longer acceptable.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "tanks_very_low_66018": {
+            "tanks_very_low_66018_header": "Tanks Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "The indicated tanks are very low. You may fill the tanks now or wait until prompted.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "align_the_printheads_65569": {
+            "align_the_printheads_65569_header": "Align the Printheads",
+            "warning_icon": "Warning Alt",
+            "body": "For best print quality, align your new cartridges or printheads.",
+            "button_info": "<Primary>\r\n\"Align\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "empty_cartridges_65613": {
+            "empty_cartridges_65613_header": "Empty Cartridges?",
+            "warning_icon": "Warning Alt",
+            "body": "The contents of the indicated, Original HP cartridge have been depleted or the cartridge might be empty. \r\n\r\nReplace the cartridge or click OK to use it.\r\n\r\nNOTICE: Only use the indicated cartridge if you are sure it has not been depleted. Printing with a depleted cartridge causes air to enter the printing system, which can cause poor print quality. Also, to try to recover from this condition, the printer performs major cartridge servicing. This servicing shortens the life of the cartridge.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridges_very_low_65672": {
+            "cartridges_very_low_65672_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "The indicated cartridges are very low and will be depleted soon.\r\n\r\nWhile you do not have to replace the cartridges now, HP recommends you have a replacement available to install when cartridges are depleted and will need to be replaced.\r\n\r\nWhen you are ready to remove your cartridge, you can find information on how to recycle it at www.hp.com/recycle.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "hp_instant_ink_cartridges_installed_65934": {
+            "hp_instant_ink_cartridges_installed_65934_header": "HP Instant Ink Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "Your trial has ended. To continue using these cartridges, enroll at www.hpinstantink.com/enroll or insert non-HP Instant Ink cartridges.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get Supplies\""
+        },
+        "cartridges_very_low_65848": {
+            "cartridges_very_low_65848_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "Cartridges that are very low on ink may be sufficiently depleted to cause poor print quality.\r\n\r\nHP recommends you have a replacement available to install when print quality is no longer acceptable. ",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "tanks_very_low_66332": {
+             "tanks_very_low_66332_header": "Tanks Very Low",
+             "warning_icon": "Warning Alt",
+             "body": "The indicated tanks are very low. Your printer will stop printing when the tanks are depleted. HP recommends that you fill the tanks now or you can wait until prompted.\r\n\r\nIf your printer is enrolled in HP Instant Ink, you should already have a replacement bottle. Sign in to your HP account on the home screen to check your status.",
+             "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\""
+        },
+        "cartridges_very_low_66085": {
+            "cartridges_very_low_66085_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "The indicated cartridges are very low. \r\n\r\n The actual life remaining might vary and these cartridges do not have to be replaced now. \r\r\r\r You might want to have replacements available to install when print quality is no longer acceptable. \r\n\r\n Cartridges can be recycled. Visit www.hp.com/recycle to learn more about HP's recycling programs. \r\n\r\n Note: If the Very Low Behavior setting has been customer-configured to \"Prompt\", either replace the cartridges or see the control panel to continue using the installed cartridges.",
+            "button_info": "\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "printhead_used_with_non_hp_ink_66413": {
+            "printhead_used_with_non_hp_ink_66413_header": "Non-HP Ink in Use",
+            "warning_icon": "Warning Alt",
+            "body": "HP cannot guarantee the quality or reliability of printheads with non-HP contents.\r\n\r\nAny printer repair required as a result of using non-HP ink is not covered under warranty.",
+            "button_info": "<Primary>\r\n\"OK\""
+        },
+        "cartridges_very_low_66515": {
+            "cartridges_very_low_66515_header": "Cartridges Very Low",
+            "warning_icon": "Warning Alt",
+            "body": "The indicated cartridges are very low and will be depleted soon.\r\n\r\nWhile you do not have to replace the cartridges now, HP recommends you have a replacement available to install when cartridges are depleted and will need to be replaced.\r\n\r\nWhen you are ready to remove your cartridge, you can find information on how to recycle it at www.hp.com/recycle.",
+            "button_info": "<Primary>\r\n\"OK\"\r\n\r\n<Secondary>\r\n\"Get More Help\"\r\n\"Get Supplies\""
+        },
+        "cartridge_altered_66562": {
+            "cartridge_altered_66562_header": "Counterfeit or Used Cartridges Installed",
+            "warning_icon": "Warning Alt",
+            "body": "See the printer control panel for more information.",
+            "button_info": "None"
+        },
+        "calibration_required_66495": {
+            "calibration_required_66495_header": "Alignment Needed",
+            "warning_icon": "Warning Alt",
+            "body": "Alignment improves print quality.\r\n\r\nThis process uses ink and paper. Make sure that plain, white paper is loaded in the printer.",
+            "button_info": "<Primary>\r\n\"Align\"\r\n\r\n<Secondary>\r\n\"Later\""
+    }
+}
+}

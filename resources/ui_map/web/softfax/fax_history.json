@@ -1,0 +1,212 @@
+{
+  "title": {
+    "locator": {
+      "xpath": [
+        "//XCUIElementTypeStaticText[@label='Fax History']",
+        "//h1[@id = 'pageTitle' and contains(text(), 'Fax History')]"
+      ]
+    }
+  },
+  "menu_btn": {
+    "locator": {
+      "css selector": "button#menuButton",
+      "xpath": "//XCUIElementTypeWebView/XCUIElementTypeButton[1]"
+    }
+  },
+  "menu_select_btn": {
+    "locator": {
+      "css selector": "#selectFaxesMenu"
+    }
+  },
+  "edit_cancel_txt": {
+    "locator": {
+      "xpath": [
+        "//span[@id = 'rightAction']/a[contains(text(), 'Cancel')]",
+        "//*[@id = 'sentCancel']",
+        "//*[@id = 'draftCancel']"
+      ]
+    }
+  },
+  "edit_delete_btn": {
+    "locator": {
+      "css selector": "#deleteFax",
+      "xpath": "//*[@id='deleteFax']"
+    }
+  },
+  "edit_export_log_btn": {
+    "locator": {
+      "css selector": "a#exportLog"
+    }
+  },
+  "send_tab_btn": {
+    "_comment": "Webview, click() unsucessfully on iOS app so using Native App locator",
+    "locator": {
+      "css selector": "#sentTab",
+      "name": "Sent"
+    }
+  },
+  "empty_sent_fax_title": {
+    "locator": {
+      "css selector": "h2#emptySentFaxesTitle"
+    }
+  },
+  "empty_draft_fax_title": {
+    "locator": {
+      "css selector": "h2#emptyDraftsTitle"
+    }
+  },
+  "empty_sent_fax_message": {
+    "locator": {
+      "css selector": "p#emptySentFaxesMessage"
+    }
+  },
+  "draft_tab_btn": {
+    "_comment": "Webview, click() unsucessfully on iOS app so using Native App locator",
+    "locator": {
+      "css selector": "#draftTab",
+      "name": "Drafts"
+    }
+  },
+  "empty_draft_message": {
+    "locator": {
+      "css selector": "p#emptyDraftsMessage"
+    }
+  },
+  "sent_history_record_cell": {
+    "_comment": "Native App locator is used for swipe ()",
+    "locator": {
+      "xpath": [
+        "//*[contains(@id,'faxRecipient')]",
+        "//*[contains(@id, 'outboundItem')]",
+        "//XCUIElementTypeOther/XCUIElementTypeStaticText[@contains(@name,'+1')]"
+      ]
+    },
+    "css selector": "[id^='swipeableListItem']"
+  },
+  "draft_history_record_cell": {
+    "_comment": "Native App locator is used for swipe ()",
+    "locator": {
+      "name": "Drafts",
+      "css selector": "[id^='swipeableListItem']",
+      "xpath": [
+        "//*[contains(@id,'draft')]",
+        "//*[contains(@id, 'swipeableListItem')]",
+        "//span[contains(@id,'swipeableOutboundItem1')]",
+        "//XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name,'Drafts')]"
+      ]
+    }
+  },
+  "history_record_phone_number": {
+    "_comment": "it is common usage for sent and draft tabs",
+    "locator": {
+      "text": "{}",
+      "xpath": [
+        "//*[contains(text(), '{}')]",
+        "//XCUIElementTypeStaticText[contains(@name,'{}')]",
+        "//*[contains(@id, 'faxRecipient')]//span[contains(text(), '{}')]",
+        "//android.widget.TextView[contains(text(), '{}')]"
+      ]
+    }
+  },
+  "sent_record_status_icon": {
+    "locator": {
+      "xpath": "//img[contains(@id, 'icon')]"
+    }
+  },
+  "sent_record_number_pages_txt": {
+    "locator": {
+      "xpath": "//span[contains(@id, 'faxPages')]"
+    }
+  },
+  "sent_record_date_txt": {
+    "locator": {
+      "xpath": "//span[contains(@id, 'faxDate')]"
+    }
+  },
+  "failed_icon": {
+    "locator": {
+      "xpath": "//img[contains(@src, '/error')]"
+    }
+  },
+  "successful_icon": {
+    "locator": {
+      "xpath": "//img[contains(@src, '/history-sent')]"
+    }
+  },
+  "processing_icon": {
+    "locator": {
+      "xpath": "//img[contains(@src, 'history-loading')]"
+    }
+  },
+  "draft_record_label": {
+    "locator": {
+      "xpath": "//span[contains(@id, 'draftLabel')]"
+    }
+  },
+  "draft_record_phone_txt": {
+    "locator": {
+      "xpath": "//span[contains(@id, 'draftPhone')]"
+    }
+  },
+  "draft_record_number_pages_txt": {
+    "locator": {
+      "xpath": "//div[contains(@id, 'draftNumPages')]"
+    }
+  },
+  "draft_record_date_txt": {
+    "locator": {
+      "xpath": "//span[contains(@id, 'draftDate')]"
+    }
+  },
+  "record_delete_btn": {
+    "_comment": "To webview, click() is unsucessfully without error message (return True). Native App locator is for click() action",
+    "locator": {
+      "text": "Delete",
+      "xpath": "//android.view.View[@content-desc = 'Delete']",
+      "css selector": "span.actions > a.delete.error"
+    }
+  },
+  "delete_popup_cancel_btn": {
+    "locator": {
+      "css selector": "#cancelBtn"
+    }
+  },
+  "delete_popup_delete_btn": {
+    "locator": {
+      "css selector": "#deleteBtn"
+    }
+  },
+  "record_export_btn": {
+    "_comment": "To webview, click() is unsucessfully without error message (return True). Native App locator is for click() action",
+    "locator": {
+      "text": "Export",
+      "xpath": "//android.view.View[@content-desc = 'Export']",
+      "css selector": "span.actions > a.export.terciary"
+    }
+  },
+  "compose_new_fax_btn": {
+    "locator": {
+      "css selector": "#composeFaxBtn"
+    }
+  },
+  "compose_new_fax_popup_btn": {
+    "locator": {
+      "css selector": "#featureUpdateDialogComposeNewFaxButton"
+    }
+  },
+  "dismiss_popup_btn": {
+    "locator": {
+      "css selector": "#featureUpdateDialogDismissButton"
+    }
+  },
+  "save_as_draft_popup_exit_bn": {
+    "locator": {
+      "css selector": "button#draftDialogExitButton"
+    }
+  },
+  "save_as_draft_popup_save_draft_btn": {
+    "locator": {
+      "css selector": "button#draftDialogSaveButton"
+    }
+  }
+}

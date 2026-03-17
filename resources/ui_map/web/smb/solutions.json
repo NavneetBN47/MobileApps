@@ -1,0 +1,918 @@
+{
+    "solutions_overview_title": {
+        "locator": {
+            "css selector": "div[data-testid='solutions-title']"
+        }
+    },
+    "solutions_overview_description":{
+        "locator": {
+            "css selector": "div[data-testid='solutions-description']"
+        }
+    },
+    "solutions_hpPlus_name":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-subscription-name']"
+        }
+    },
+    "solutions_hp_plus_status_label":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-subscription-status-active']"
+        }
+    },
+    "solutions_printers_activated_label":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-subscription-trailing-text']"
+        }
+    },
+    "solutions_hp_plus_description":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-subscription-content-description']"
+        }
+    },
+    "solutions_hpPlus_action":{
+        "locator": {
+            "css selector": "[data-testid='hp-plus-subscription-content-description']>a"
+        }
+    },
+    "solutions_smartSecurity_title":{
+        "locator": {
+            "css selector": "div[data-testid='card-smart-security-title']"
+        }
+    },
+    "solutions_smartSecurity_description":{
+        "locator": {
+            "css selector": "div[data-testid='card-smart-security-description']"
+        }
+    },
+    "solutions_smart_security_button":{
+        "locator": {
+            "css selector": "div[data-testid='card-smart-security']"
+        }
+    },
+    "solutions_printAnywhere_title":{
+        "locator": {
+            "css selector": "div[data-testid='card-print-anywhere-title']"
+        }
+    },
+    "solutions_printAnywhere_description":{
+        "locator": {
+            "css selector": "div[data-testid='card-print-anywhere-description']"
+        }
+    },
+    "solutions_print_anywhere_button":{
+        "locator": {
+            "css selector": "div[data-testid='card-print-anywhere']"
+        }
+    },
+    "solutions_forestFirst_title":{
+        "locator": {
+            "css selector": "div[data-testid='card-forest-first-title']"
+        }
+    },
+    "solutions_forestFirst_description":{
+        "locator": {
+            "css selector": "div[data-testid='card-forest-first-description']"
+        }
+    },
+    "solutions_sustainability_forest_first_button":{
+        "locator": {
+            "css selector": "div[data-testid='card-forest-first']"
+        }
+    },
+    "solutions_hpSmartPro_name":{
+        "locator": {
+            "css selector": "div[data-testid='hp-smart-pro-subscription-name']"
+        }
+    },
+    "solutions_hp_smart_pro_status_label":{
+        "locator": {
+            "css selector": "[data-testid='hp-smart-pro-subscription-status-active']"
+        }
+    },
+    "solutions_hp_smart_pro_description":{
+        "locator": {
+            "css selector": "[data-testid='hp-smart-pro-subscription-content-description']"
+        }
+    },
+    "solutions_hpSmartPro_action":{
+        "locator": {
+            "xpath": "//*[contains(text(),'Discover All Features')]"
+        }
+    },
+    "solution_discover_all_hp_smart_pro_title":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector": "[id*='hp-smart-pro-react']>div:nth-child(2)>div>div:nth-child(2)"
+        }
+    },
+    "solutions_scanPro_title":{
+        "locator": {
+            "css selector": "div[data-testid='card-scan-pro-title']"
+        }
+    },
+    "solutions_scanPro_description":{
+        "locator": {
+            "css selector": "div[data-testid='card-scan-pro-description']"
+        }
+    },
+    "solutions_advScan_title":{
+        "locator": {
+            "css selector": "div[data-testid='card-advanced-scan-title']"
+        }
+    },
+    "solutions_advScan_description":{
+        "locator": {
+            "css selector": "div[data-testid='card-advanced-scan-description']"
+        }
+    },
+    "print_anywhere_header":{
+        "locator": {
+            "css selector": "h2[data-testid='device-title']"
+        },
+        "localization": {
+            "en": "Remote Printing"
+        }
+    },
+    "print_anywhere_tab":{
+        "locator": {
+            "css selector": "div[role='tablist'] span"
+        },
+        "localization": {
+            "en": "Print Anywhere"
+        }
+    },
+    "print_anywhere_description":{
+        "locator": {
+            "css selector": "[data-testid='device-title']+p"
+        },
+        "localization": {
+            "en": "Manage remote printing options for supported printers, such as Print Anywhere and Roam Queue."
+        }
+    },
+    "print_anywhere_detail_description":{
+        "locator": {
+            "css selector": "[id='extended-0'] p"
+        },
+        "localization": {
+            "en": "Print to any authorized web-connected printer any time, from any location by enabling Print Anywhere. Turn on Private Pickup to ensure that a print job is released only when the sender is near the selected printer."
+        }
+    },
+    "print_anywhere_refresh_button":{
+        "locator": {
+            "css selector": "button[data-testid='reload-button']"
+        }
+    },
+    "print_anywhere_refresh_date":{
+        "locator": {
+            "css selector": "span[data-testid='last-synced-date']"
+        }
+    },
+    "print_anywhere_search_box":{
+        "locator": {
+            "css selector": "input[data-testid='search-box']"
+        }
+    },
+    "smart_security_header":{
+        "locator": {
+            "css selector": "h1[data-testid='device-detail-title']"
+        },
+        "localization": {
+            "en": "Smart Security"
+        }
+    },
+    "smart_security_description":{
+        "locator": {
+            "css selector": "p[data-testid='device-detail-subtitle']"
+        },
+        "localization": {
+            "en": "Check and monitor the security status of your printers."
+        }
+    },
+    "smart_security_refresh_button":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "button[class*='LastUpdateRefresh']"
+        }
+    },
+    "smart_security_refresh_date":{
+        "locator": {
+            "css selector": "[data-testid='last-updated-status']"
+        }
+    },
+    "smart_security_search_box":{
+        "locator": {
+            "css selector": "input[data-testid='search-box']"
+        }
+    },
+    "smart_security_sorting_button":{
+        "locator": {
+            "css selector": "#deviceName button"
+        }
+    },
+    "table_entry_load":{
+        "locator":{
+            "css selector":"table[data-testid='device-list-table'] tbody "
+        }
+    },
+    "table_empty":{
+        "locator":{
+            "css selector":"tbody tr td span"
+        },
+        "localization": {
+            "en": "No Items Found"
+        }
+    },
+    "smart_securit_pagination_count":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator":{
+            "css selector":"[aria-label='Select page size']  + div + span"
+        }
+    },
+    "search_clear_btn":{
+        "comment": "locator mismatch between PIE & Stage - ",
+        "locator":{
+            "css selector":"[data-testid='search-box']+[aria-label='Clear']"
+        }
+    },
+    "table_entry_noitemsfound_warning_message":{
+        "locator": {
+            "css selector": "tbody span"
+        }
+    },
+    "table_entry_printer_name":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "div[data-testid*='device-name-AQAAAAGEXxk_LwAAAAF7qjmJ']"
+        }
+    },
+    "smart_security_table_headers":{
+        "locator":{
+            "css selector":"table[data-testid='device-list-table'] thead tr th"
+        }
+    },
+    "print_anywhere_table_headers":{
+        "locator":{
+            "css selector":"table[data-testid='devices-data-table'] thead tr th"
+        }
+    },
+    "smart_pro_hp_plus_page":{
+        "locator":{
+            "css selector":"[data-testid='external-link']"
+        }
+    },
+    "connectivity_table_header":{
+        "locator": {
+            "css selector": "#deviceConnectionState"
+        }
+    },
+    "print_anywhere_table_entry":{
+        "locator": {
+            "css selector": "tbody tr:nth-child(1)"
+        }
+    },
+    "print_anywhere_table_header":{
+        "locator": {
+            "css selector": "#printAnywhere"
+        }
+    },
+    "smart_security_first_entry_link":{
+        "locator":{
+            "css selector":"tr:nth-child(1) td div[data-testid*='device-name']"
+        }
+    },
+    "smart_security_printer_name":{
+        "locator":{
+            "css selector":"div[data-testid*='device-name-AQAAAAGEXxk_LwAAAAF7qjmJ']"
+        }
+    },
+    "smart_security_printer_model":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "css selector":"tr:nth-child(1) td div[class*='DeviceSecondaryName']"
+        }
+    },
+    "smart_security_printer_location":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "css selector":"tr:nth-child(1) [data-testid='device-location-undefined']"
+        }
+    },
+    "smart_security_printer_connectivity":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "css selector":"tr:nth-child(1) td:nth-child(3) span:nth-child(1) +span"
+        }
+    },
+    "smart_security_printer_security_status":{
+        "locator":{
+            "css selector":"[data-testid*='device-status-securityMonitored'] span:nth-child(2)"
+        }
+    },
+    "smart_security_printer_detail_name":{
+        "locator":{
+            "css selector":"[data-testid='device-friendly-name']"
+        }
+    },
+    "smart_security_printer_detail_model":{
+        "locator":{
+            "css selector":"[data-testid='device-name']"
+        }
+    },
+    "smart_security_printer_detail_location":{
+        "locator":{
+            "css selector":"[data-testid='device-name']+p"
+        }
+    },
+    "smart_security_printer_detail_connectivity":{
+        "locator":{
+            "css selector":"h6[data-testid='device-connect-status-online']"
+        }
+    },
+    "smart_security_printer_detail_security_status":{
+        "locator":{
+            "css selector":"h6[data-testid*='device-monitor-statustext']"
+        }
+    },
+    "smart_security_printer_detail_link":{
+        "locator":{
+            "css selector":"[data-testid='printer-details-link']"
+        }
+    },
+    "printer_table_empty":{
+        "_comment": "locator bad waiting for dev to fix: ticket - SDASH-5348",
+        "locator": {
+            "css selector": "table#printers-table td p"
+        }
+    },  
+    "printer_total_count":{
+        "locator": {
+            "css selector": ["div[role='presentation']+span", 
+                             "div[role='menu']+span"]
+        }
+    },
+    "smart_security_detail_refresh_button":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "css selector":"button[class*='LastUpdate']"
+        }
+    },
+    "smart_security_detail_refresh_label":{
+        "locator":{
+            "css selector":"[data-testid='last-updated-status']"
+        }
+    },
+    "smart_security_toggle_button":{
+        "locator":{
+            "css selector":"[id='monitor']"
+        }
+    },
+    "smart_security_toggle_status":{
+        "locator":{
+            "css selector":"[data-testid='security-monitor-toggle'] +span"
+        }
+    },
+    "smart_security_monitoring_toggle_status_message":{
+        "locator":{
+            "css selector":"h6[data-testid*='device-status-']"
+        }
+    },
+    "snmp_v3_toggle_status":{
+        "locator":{
+            "css selector":"#toggle-snmp-v3"
+        }
+    },
+    "snmp_v3_toggle_turned_on_warning_label":{
+        "locator":{
+            "css selector":"[data-testid='device-configSNMPv3-statustext-noncompliant']"
+        },
+        "localization": {
+            "en": "SNMP V3 is turned on"
+        }
+    },  
+    "snmp_v3_toggle_turned_on_warning_desc":{
+        "locator":{
+            "css selector":"[data-testid='device-configSNMPv3-statusdesc-noncompliant']"
+        },
+        "localization": {
+            "en": "You have set a username, an authentication passphrase, and a privacy passphrase to turn on SNMP V3. Please note the HP Essential Security Policy recommends turning SNMP V3 off."
+        }
+    },
+    "snmp_v1_v2_toggle_status":{
+        "locator":{
+            "css selector":"#snmpV1V2"
+        }
+    },
+    "snmp_v1_v2_toggle_turned_on_warning_label":{
+        "locator":{
+            "css selector":"[data-testid='device-configSNMPv1v2Write-statustext-noncompliant']"
+        },
+        "localization": {
+            "en": "SNMP V1/V2 (Write) is turned on"
+        }
+    },
+    "snmp_v1_v2_toggle_turned_on_warning_desc":{
+        "locator":{
+            "css selector":"[data-testid='device-configSNMPv1v2Write-statusdesc-noncompliant']"
+        },
+        "localization": {
+            "en": "SNMP V1/V2 (Write) is an unsecure internet protocol. The HP Essential Security Policy recommends turning this off."
+        }
+    },
+    "smart_security_monitor_title":{
+        "locator":{
+            "css selector":"[id='monitor']"
+        },
+        "localization": {
+            "en": "Security monitoring"
+        }
+    },
+    "smart_security_monitor_status":{
+        "locator":{
+            "css selector":"[data-testid='device-status-icon']+div>h6"
+        }
+    },
+    "smart_security_monitor_desc":{
+        "locator":{
+            "css selector":"[data-testid='device-status-desc']"
+        }
+    },
+    "smart_security_setting_title":{
+        "locator":{
+            "css selector":"h4[data-testid='security-setting-title']"
+        },
+        "localization": {
+            "en": "Security Settings"
+        }
+    },
+    "smart_security_setting_desc":{
+        "locator":{
+            "css selector":"p[data-testid='security-setting-desc']"
+        },
+        "localization": {
+            "en": "The security status of this printer is determined by these settings."
+        }
+    },
+    "smart_security_admin_pswd":{
+        "locator":{
+            "css selector":"[data-testid='policy-configAdminPasswordSet-title']"
+        },
+        "localization": {
+            "en": "Admin password"
+        }
+    },
+    "smart_security_admin_pswd_accordion_btn":{
+        "locator":{
+            "css selector":"[data-testid='policy-configAdminPasswordSet-info']"
+        }
+    },
+    "smart_security_admin_pswd_popup_title":{
+        "locator":{
+            "css selector":"h2[data-testid='infomodal-title-configAdminPasswordSet']"
+        },
+        "localization": {
+            "en": "Admin password"
+        }
+    },
+    "smart_security_admin_pswd_popup_desca":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"(//*[@id='smb-info-modal-desc']//p)[1]"
+        },
+        "localization": {
+            "en": "A password can help control who can make changes to the settings of your printer's Embedded Web Server (EWS)."
+        }
+    },
+    "smart_security_admin_pswd_popup_descb":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"(//*[@id='smb-info-modal-desc']//p)[2]"
+        },
+        "localization": {
+            "en": "If no password is set, anyone who has access can make changes. Setting a password can improve security and will require authentification."
+        }
+    },
+    "smart_security_popup_close":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"(//*[@aria-describedby='smb-info-modal-desc']/button)[1]"
+        }
+    },
+    "smart_security_admin_pswd_expand_button":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "css selector":"[aria-controls='policy-configAdminPasswordSet-noncompliant-icon']"
+        }
+    },
+    "smart_security_admin_pswd_status_desc":{
+        "locator":{
+            "css selector":"[data-testid='device-configAdminPasswordSet-infoText-compliant']"
+        },
+        "localization": {
+            "en": "Admin password is set."
+        }
+    },
+    "smart_security_firmware":{
+        "locator":{
+            "css selector":"[data-testid='policy-configAutoFWUpdate-title']"
+        },
+        "localization": {
+            "en": "Automatic firmware updates"
+        }
+    },
+    "smart_security_firmware_accordion_btn":{
+        "locator":{
+            "css selector":"[data-testid='policy-configAutoFWUpdate-info']"
+        }
+    },
+    "smart_security_firmware_popup_title":{
+        "locator":{
+            "css selector":"h2[data-testid='infomodal-title-configAutoFWUpdate']"
+        },
+        "localization": {
+            "en": "Automatic firmware updates"
+        }
+    },
+    "smart_security_firmware_popup_desca":{
+        "locator":{
+            "css selector":"[data-testid='infomodal-content-configAutoFWUpdate']:nth-child(2)"
+        },
+        "localization": {
+            "en": "Keep this setting toggled on to automatically receive firmware updates for your printer."
+        }
+    },
+    "smart_security_firmware_popup_descb":{
+        "locator":{
+            "css selector":"[data-testid='infomodal-content-configAutoFWUpdate']:nth-child(3)"
+        },
+        "localization": {
+            "en": "Printer security could be compromised if the firmware is not regularly updated."
+        }
+    },
+    "smart_security_firmware_popup_close":{
+        "locator":{
+            "css selector":"[data-testid='info-modal-configAutoFWUpdate'] button"
+        }
+    },
+    "smart_security_firmware_expand_button":{
+        "locator":{
+            "css selector":"[aria-controls='policy-configAutoFWUpdate-noncompliant-icon']"
+        }
+    },
+    "smart_security_firmware_status_desc":{
+        "locator":{
+            "css selector":"[data-testid='device-configAutoFWUpdate-infoText-compliant]"
+        },
+        "localization": {
+            "en": "Automatic updates are turned on."
+        }
+    },
+    "smart_security_firmware_toggle_btn":{
+        "locator":{
+            "css selector":"[id='auto-fw-toggle']"
+        }
+    },
+    "smart_security_snmp":{
+        "locator":{
+            "css selector":"[data-testid='policy-configSNMPv1v2Write-title']"
+        },
+        "localization": {
+            "en": "SNMP V1/V2 (Write)"
+        }
+    },
+    "smart_security_snmp_accordion_btn":{
+        "locator":{
+            "css selector":"[data-testid='policy-configSNMPv1v2Write-info']"
+        }
+    },
+    "smart_security_snmp_v3_accordion_btn":{
+        "locator":{
+            "css selector":"[data-testid='policy-configSNMPv3-info']"
+        }
+    },
+    "smart_security_snmp_popup_title":{
+        "locator":{
+            "css selector":"[data-testid='infomodal-title-configAutoFWUpdate']"
+        },
+        "localization": {
+            "en": "SNMP V1/V2 (Write)"
+        }
+    },
+    "smart_security_snmp_popup_desca":{
+        "locator":{
+            "css selector":"[data-testid='infomodal-content-configSNMPv1v2Write']:nth-child(2)"
+        },
+        "localization": {
+            "en": "Simple Network Management Protocol (SNMP) is a standard internet protocol for collecting and organizing information about managed devices, like this printer."
+        }
+    },
+    "smart_security_snmp_v3_popup_desca":{
+        "locator":{
+            "css selector":"[data-testid='infomodal-content-configSNMPv3']:nth-child(2)"
+        },
+        "localization": {
+            "en": "Simple Network Management Protocol (SNMP) is a standard internet protocol for collecting and organizing information about managed devices, like this printer."
+        }
+    },
+    "smart_security_snmp_v3_popup_descb":{
+        "locator":{
+            "css selector":"[data-testid='infomodal-content-configSNMPv3']:nth-child(3)"
+        },
+        "localization": {
+            "en": "While SNMP V3 is more secure than SNMP V1/V2 (Write), the HP Essential Security Policy recommends turning this off, unless you are familiar with how to use it or have a specific reason to do so."
+        }
+    },
+    "smart_security_snmp_popup_descb":{
+        "locator":{
+            "css selector":"[data-testid='infomodal-content-configSNMPv1v2Write']:nth-child(3)"
+        },
+        "localization": {
+            "en": "SNMP V1/V2 (Write) is an unsecured protocol. The HP Essential Security Policy recommends turning this off, unless you are familiar with how to use it or have a specific reason to do so."
+        }
+    },
+    "smart_security_snmp_popup_close":{
+        "locator":{
+            "css selector":"[data-testid='info-modal-configSNMPv1v2Write'] button"
+        }
+    },
+    "smart_security_snmp_v3_popup_close":{
+        "locator":{
+            "css selector":"[data-testid='info-modal-configSNMPv3'] button"
+        }
+    },
+    "smart_security_snmp_v3_expand_button":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"(//*[@aria-controls='policy-configSNMPv3-noncompliant-icon'])[1]"
+        }
+    },
+    "smart_security_snmp_expand_button":{
+        "locator":{
+            "css selector":"[aria-controls='policy-configSNMPv1v2Write-noncompliant-icon']"
+        }
+    },
+    "smart_security_snmp_status_desc":{
+        "locator":{
+            "css selector":"[data-testid='snmpv1v2-title']"
+        },
+        "localization": {
+            "en": "Enable SNMP V1/V2 (Write)"
+        }
+    },
+    "smart_security_snmp_toggle_btn":{
+        "locator":{
+            "css selector":"[id='snmpV1V2']"
+        }
+    },
+    "security_monitor_popup_title":{
+        "locator":{
+            "css selector":"[id='SM-confirmation-modal-desc'] h2"
+        },
+        "localization": {
+            "en": "Turn off security monitoring?"
+        }
+    },
+    "security_monitor_popup_desc":{
+        "locator":{
+            "css selector":"[id='SM-confirmation-modal-desc'] p:nth-child(1)"
+        },
+        "localization": {
+            "en": "If you turn off security monitoring, HP will no longer monitor these settings. HP recommends that security monitoring remain on to help protect your data."
+        }
+    },
+    "security_monitor_popup_descb":{
+        "locator":{
+            "css selector":"[id='SM-confirmation-modal-desc'] p:nth-child(2)"
+        },
+        "localization": {
+            "en": "Are you sure you want to turn it off?"
+        }
+    },
+    "security_monitor_cancel_btn":{
+        "locator":{
+            "css selector":"[data-testid='modal-no-btn']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "printer_details_link":{
+        "locator":{
+            "css selector":"[data-testid='printer-details-link']"
+        }
+    },
+    "snmp_v3_label":{
+        "locator":{
+            "css selector":"[data-testid='policy-configSNMPv3-title']"
+        },
+        "localization": {
+            "en": "SNMP V3"
+        }
+    },
+    "snmp_v1_v2_label":{
+        "locator":{
+            "css selector":"[data-testid='policy-configSNMPv1v2Write-title']"
+        },
+        "localization": {
+            "en": "SNMP V1/V2 (Write)"
+        }
+    },
+    "security_monitor_turnoff_btn":{
+        "locator":{
+            "css selector":"[data-testid='modal-yes-btn']"
+        },
+        "localization": {
+            "en": "Turn Off"
+        }
+    },
+    "snmp_v3_user_name_label":{
+        "locator":{
+            "css selector":"[data-testid='snmpV3-username-title']"
+        },
+        "localization": {
+            "en": "SNMP V3 user name*"
+        }   
+    },
+    "snmp_v3_user_name_text_box":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-username']"
+        }
+    },
+    "snmp_v3_authentication_passphrase_label":{
+        "locator":{
+            "css selector":"[data-testid='snmpV3-authPassphrase-title']"
+        },
+        "localization": {
+            "en": "Authentication passphrase*"
+        }
+    },
+    "snmp_v3_authentication_passphrase_set_passphrase_text_box":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-auth-passphrase']"
+        }
+    },
+    "snmp_v3_authentication_passphrase_confirm_passphrase_text_box":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-confirm-auth-passphrase']"
+        }
+    },
+    "snmp_v3_privacy_passphrase_label":{
+        "locator":{
+            "css selector":"[data-testid='snmpV3-privPassphrase-title']"
+        },
+        "localization": {
+            "en": "Privacy passphrase*"
+        } 
+    },
+    "snmp_v3_privacy_passphrase_set_passphrase_text_box":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-privacy-passphrase']"
+        }
+    },
+    "snmp_v3_privacy_passphrase_confirm_passphrase_text_box":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-confirm-privacy-passphrase']"
+        }
+    },
+    "snmp_v3_save_button_status":{
+        "locator":{
+            "css selector":"button[data-testid='snmpv3-form-submit']"
+        }
+    },
+    "snmp_v3_user_name_text_box_with_passing_single_text":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-username']"
+        }
+    },
+    "snmp_v3_user_name_text_box_with_single_text_error_message":{
+        "locator":{
+            "css selector":"#username-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "The username does not meet the requirements. Try again."
+        }
+    },
+    "snmp_v3_Authentication_set_passphrase_with_passing_single_text":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-auth-passphrase']"
+        }
+    },
+    "snmp_v3_Authentication_set_passphrase_with_single_text_error_message":{
+        "locator":{
+            "css selector":"#AuthenticationPassphrase-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "The authentication passphrase does not meet the requirements. Try again."
+        }
+    },
+    "snmp_v3_Authentication_confirm_passphrase_with_passing_wrong_single_text":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-confirm-auth-passphrase']"
+        }
+    },
+    "snmp_v3_Authentication_confirm_passphrase_with_single_text_error_message":{
+        "locator":{
+            "css selector":"#ConfirmAuthenticationPassphrase-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "The authentication passphrase did not match.Try again."
+        }
+    },
+    "snmp_v3_privacy_set_passphrase_with_passing_single_text":{
+        "locator":{
+            "css selector":"#PrivacyPassphrase"
+        }
+    },
+    "snmp_v3_privacy_set_passphrase_with_single_text_error_message":{
+        "locator":{
+            "css selector":"#PrivacyPassphrase-helper-text"
+        },
+        "localization": {
+            "en": "The privacy passphrase does not meet the requirements. Try again."
+        }
+    },
+    "snmp_v3_privacy_confirm_passphrase_with_passing_wrong_single_text":{
+        "locator":{
+            "css selector":"[data-testid='snmpv3-confirm-privacy-passphrase']"
+        }
+    },
+    "snmp_v3_privacy_confirm_passphrase_with_single_text_error_message":{
+        "locator":{
+            "css selector":"#ConfirmPrivacyPassphrase-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "The privacy passphrase did not match.Try again."
+        }
+    },
+    "smart_security_printer_status":{
+        "locator":{
+            "css selector":"[data-testid='device-connect-status']"
+        }
+    },
+    "security_monitoring_field_text":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//div[contains(text(),'No security data available')]"
+        },
+        "localization": {
+            "en": "No security data available"
+        }
+    },
+    "unable_to_load_error_message":{
+        "_comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath":"//h6[contains(text(),'Unable to load data')]"
+        },
+        "localization": {
+            "en": "Unable to load data. Connect your device to the network and try again."
+        }
+    },
+    "try_again_hyperlink":{
+        "locator":{
+            "css selector":"[data-testid='unknown-link']"
+        },
+        "localization": {
+            "en": "Try Again"
+        }
+    },
+    "security_detail_screen_printer_details_hyperlink":{
+        "locator":{
+            "css selector":"[data-testid='printer-details-link']"
+        }
+    },
+    "smart_security_printer_details_screen_unsaved_changes_popup_label":{
+        "locator":{
+            "css selector":"[data-testid='unsaved-modal-title']"
+        },
+        "localization": {
+            "en": "Unsaved changes"
+        }
+    },
+    "smart_security_printer_details_screen_unsaved_changes_popup_description":{
+        "locator":{
+            "css selector":"[data-testid='unsaved-modal-content']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? Your changes have not been saved and will be discarded if you leave now."
+        }
+    },
+    "smart_security_printer_details_screen_unsaved_changes_popup_cancel_button":{
+        "locator":{
+            "css selector":"[data-testid='modal-cancel-btn']"
+        }
+    },
+    "smart_security_printer_details_screen_unsaved_changes_leave_button":{
+        "locator":{
+            "css selector":"[data-testid='modal-leave-btn']"
+        }
+    },
+    "print_anywhere_toggle_button_status":{
+        "locator":{
+            "css selector":"input+span[id*='toggle_print']"
+        }
+    },
+    "private_pickup_toggle_button_status":{
+        "locator":{
+            "css selector":"input+span[id*='toggle_private']"
+        }
+    }
+} 

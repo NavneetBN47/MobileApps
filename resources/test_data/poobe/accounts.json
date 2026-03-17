@@ -1,0 +1,18 @@
+{
+    "Flex_pie": {
+        "username": "qa.mobiauto+2022_09_01_18_09_27_ZCN1SS@gmail.com",
+        "password": "123456aA"
+    },
+    "E2E_pie": {
+        "username": "qa.mobiauto+2022_09_01_18_11_55_DIFUB3@gmail.com",
+        "password": "123456aA"
+    },
+    "E2E_stage": {
+        "username": "qa.mobiauto+2022_09_01_18_10_21_FT56WG@gmail.com",
+        "password": "123456aA"
+    },
+    "Flex_stage": {
+        "username": "qa.mobiauto+2022_09_01_18_08_31_2TBSAJ@gmail.com",
+        "password": "123456aA"
+    }
+}

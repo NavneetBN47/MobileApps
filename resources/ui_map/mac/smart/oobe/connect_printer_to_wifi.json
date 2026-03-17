@@ -1,0 +1,354 @@
+{
+    "connect_printer_to_wifi_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:333']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:369']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:320']"]}
+    },
+    
+    "connect_printer_to_wifi_printer_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXImage[@AXIdentifier='_NS:313']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXImage[@AXIdentifier='_NS:93']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXImage[@AXIdentifier='_NS:314']"]}
+    },
+    
+    "connect_printer_to_wifi_printer_name":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXStaticText[@AXIdentifier='_NS:318']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXStaticText[@AXIdentifier='_NS:143']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXStaticText[@AXIdentifier='_NS:104']"]}
+    },
+ 
+    "info_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:178']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:357']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:179']"]}
+    },
+    
+    "wifi_network_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXStaticText[@AXIdentifier='_NS:246']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXStaticText[@AXIdentifier='_NS:283']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXStaticText[@AXIdentifier='_NS:278']"]}
+    },
+    
+    "router_name_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXStaticText[@AXIdentifier='_NS:384']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXStaticText[@AXIdentifier='_NS:112']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXStaticText[@AXIdentifier='_NS:84']"]}
+    },
+    
+    "change_network_link":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXButton[@AXIdentifier='_NS:10']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXButton[@AXIdentifier='_NS:186']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXButton[@AXIdentifier='_NS:312']"]}
+    },
+    
+    "enter_wifi_password_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXStaticText[@AXIdentifier='_NS:13']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXStaticText[@AXIdentifier='_NS:86']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXStaticText[@AXIdentifier='_NS:56']"]}
+    },
+        
+    "enter_wifi_password_box":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXTextField[@AXIdentifier='_NS:270' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXTextField[@AXIdentifier='_NS:102' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXTextField[@AXIdentifier='_NS:70' and @AXSubrole='AXSecureTextField']"]}
+    },
+    
+    "enable_diable_show_password_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXButton[@AXIdentifier='_NS:117']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXButton[@AXIdentifier='_NS:314']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXButton[@AXIdentifier='_NS:182']"]}
+    },
+    
+    "access_my_wifi_password_automatically_link":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXButton[@AXIdentifier='_NS:100']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXButton[@AXIdentifier='_NS:376']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXButton[@AXIdentifier='_NS:78']"]}
+    },
+       
+    "connect_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:144']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:198']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:94']"]}
+    },
+
+    "incorrect_pw_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:325']/AXStaticText[@AXIdentifier='_NS:65']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:359']/AXStaticText[@AXIdentifier='_NS:316']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:277']/AXStaticText[@AXIdentifier='_NS:177']"]}
+    },
+    
+    "access_wifi_password_dialog_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:13' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:52']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:9' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:74']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:54' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:99']"]}
+    },
+    
+    "access_wifi_password_dialog_content_1":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:13' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:124']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:9' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:73']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:54' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:101']"]}
+    },
+    
+    "access_wifi_password_dialog_content_2":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:13' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:9' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:54' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"]}
+    },
+    
+    "access_wifi_password_dialog_content_3":{
+    	"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:13' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:9' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:54' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"]}
+    },
+    
+    "access_wifi_password_dialog_content_4":{
+    	"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:13' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[2]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:9' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[2]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:54' and @AXSubrole='AXUnknown']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[2]"]}
+    },
+    
+    "access_wifi_password_dialog_no_thanks_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:13' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:42']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:9' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:11']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:54' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:11']"]}
+    },
+    
+    "access_wifi_password_dialog_continue_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:13' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:77']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:9' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:69']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:54' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:72']"]}
+    },
+
+    "unable_to_access_wifi_password_dialog_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:25' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:96']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:32' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:94']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:7' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:98']"]}
+    },
+
+    "unable_to_access_wifi_password_dialog_content":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:25' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:13']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:32' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:81']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:7' and @AXSubrole='AXUnknown']/AXStaticText[@AXIdentifier='_NS:72']"]}
+    },
+
+    "unable_to_access_wifi_password_dialog_ok_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:25' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:91']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:32' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:7']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:7' and @AXSubrole='AXUnknown']/AXButton[@AXIdentifier='_NS:93']"]}
+    },
+
+    "connect_printer_to_wifi_screen_title_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:238']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:390']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:11']"]}
+    },
+    
+    "connect_printer_to_wifi_screen_image_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:127']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:361']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:40']"]}
+    },
+    
+    "wifi_name_title_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:200']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:77']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:117']"]}
+    },
+    
+    "wifi_name_option_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:95']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:282']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:424']"]}
+    },
+    
+    "drop_list_btn_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:95']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:282']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:424']/AXButton[0]"]}
+    },
+    
+    "wifi_list_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:95']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:131']/AXTextField[@AXValue={}]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:282']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:237']/AXTextField[@AXValue={}]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:424']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:231']/AXTextField[@AXValue={}]"]}
+    },
+    
+    "wifi_name_title_pc_no_wifi_with_wifi_entry_field":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:304']"}
+    },
+    
+    "wifi_name_textfield_pc_no_wifi_with_wifi_entry_field":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:400']"}
+    },
+    
+    "refresh_network_list_btn_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:362']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:308']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:7']"]}
+    },
+    
+    "wifi_password_title_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:103']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:404']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:16']"]}
+    },
+    
+    "wifi_password_textfield_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:310' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:91' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:366' and @AXSubrole='AXSecureTextField']"]}
+    },
+    
+    "continue_btn_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:144']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:198']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:94']"]}
+    },
+    
+    "incorrect_pw_text_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:353']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:95']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:393']"]}
+    },
+  
+    "refreshing_network_list_text_pc_no_wifi":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:425' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:19']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:357' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:24']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:48']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:353']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:11']"]}
+    },
+
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_conetnt_1":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_conetnt_2":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_printer_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:698' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:98']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:40']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_enter_the_wifi_network_name_exactly_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:698' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:408']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:210']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_enter_wifi_network_name_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:698' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:184']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:201']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_enter_the_password_for_this_wifi_network_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:698' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:5']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:16']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_enter_wifi_password_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:698' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:10' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:366' and @AXSubrole='AXSecureTextField']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_entry_field_screen_continue_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:698' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:166']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:94']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:390']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:11']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_content_1":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_content_2":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_content_3":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_content_4":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_printer_image":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:361']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:40']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_choose_a_wifi_network_from_the_list_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:77']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:117']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_wifi_name_list_combobox_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:282']/AXButton[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:424']/AXButton[0]"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_wifi_name_list_items":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:282']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:237']/AXTextField[@AXValue={}]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXComboBox[@AXIdentifier='_NS:424']/AXScrollArea[0]/AXList[@AXIdentifier='_NS:231']/AXTextField[@AXValue={}]"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_refresh_network_list_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:308']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:7']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_enter_the_password_text":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:404']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:16']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_wifi_password_textfield":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:91' and @AXSubrole='AXSecureTextField']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXTextField[@AXIdentifier='_NS:366' and @AXSubrole='AXSecureTextField']"]}
+    },
+    
+    "connect_printer_to_wifi_with_wifi_list_field_screen_continue_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:198']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:94']"]}
+    },
+    
+    "choose_a_24ghz_network_dialog_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:43']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:144']"]}
+    },
+    
+    "choose_a_24ghz_network_dialog_content_1":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:75']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:117']"]}
+    },
+    
+    "choose_a_24ghz_network_dialog_content_2":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:6']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:49']"]}
+    },
+    
+    "choose_a_24ghz_network_dialog_content_3":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:146']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:199']"]}
+    },
+    
+    "choose_a_24ghz_network_dialog_content_4":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:138']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:80']"]}
+    },
+    
+    "choose_a_24ghz_network_dialog_ok_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:653' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:49']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:498' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:41']"]}
+    }
+
+}

@@ -1,0 +1,25 @@
+{
+  "device_info_test_btn": {
+    "locator": {
+      "id": "getInfoTestButton"
+    }
+  },
+  
+  "language_code_test_btn": {
+    "locator": {
+      "id": "getLanguageCodeTestButton"
+    }
+  },
+
+  "device_info_test_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getInfo']/descendant-or-self::Text[2]"
+    }
+  },
+
+  "language_test_result": {
+    "locator": {
+      "xpath": "//Group[@AutomationId='getLanguageCode']/descendant-or-self::Text[2]"
+    }
+  }
+}

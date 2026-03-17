@@ -1,0 +1,24 @@
+{
+  "toast": {
+    "error": {
+      "default": ""
+    }
+  },
+  "stage": {
+    "no-service": "",
+    "form": {
+      "result": "",
+      "biz-model": "",
+      "cloud-id": "",
+      "button": {
+        "confirm": ""
+      }
+    }
+  },
+  "your-react-component-here": {
+    "header": "",
+    "checkbox": {
+      "label": ""
+    }
+  }
+}

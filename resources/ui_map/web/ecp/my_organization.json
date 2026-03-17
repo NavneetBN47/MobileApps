@@ -1,0 +1,303 @@
+{
+    "avatar_my_organization_link":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//p[contains(text(),'My Organization')]"
+        }
+    },
+    "my_organization_title": {
+        "locator":{
+            "css selector": "section[id*='accounts-management'] h4"
+        },
+        "localization": {
+            "en": "My Organization"
+        }
+    },
+    "my_organization_description": {
+        "comment": "locator bad waiting for dev to fix",
+        "locator":{
+            "xpath": "//div[contains(text(),'Invite users')]"
+        },
+        "localization": {
+            "en": "Invite users for management of customers in the organization."
+        }
+    },
+    "my_organization_search_txt":{
+        "locator": {
+            "css selector": "input[data-testid='search-box']"
+        }
+    },
+    "my_organization_filter_button":{
+        "locator": {
+            "css selector": "button[data-testid='table-filter-button']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "my_organization_settings_button":{
+        "locator": {
+            "css selector": "button[data-testid='setting-button']"
+        },
+        "localization": {
+            "en": "Settings"
+        }
+    },
+    "my_organization_column_option_gear":{
+        "locator": {
+            "css selector": "button[aria-label='Column Options']"
+        }
+    },
+    "my_org_table_no_item_found_lbl":{
+        "locator": {
+            "css selector": ["[data-testid='invalid-search-label']",
+                            "[data-testid='invite-profile-label']"]
+        }
+    },
+    "column_option_popup_title":{
+        "locator": {
+            "css selector": "#column-options-label"
+        },
+        "localization": {
+            "en": "Column options"
+        }
+    },
+    "column_option_popup_options":{
+        "locator": {
+            "css selector": "ul[aria-labelledby='column-options-label'] label"
+        }
+    },
+    "my_org_table_data":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child({})"
+        }
+    },
+    "column_options_popup_reset_to_default_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Reset to Default')]/parent::button"
+        },
+        "localization": {
+            "en": "Reset to Default"
+        }
+    },
+    "column_options_popup_cancel_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224 & locator mismatch between PIE & Stage - ",
+        "locator": {
+            "xpath": ["(//span[contains(text(),'Cancel')]/parent::button)[2]",
+                        "(//span[contains(text(),'Cancel')]/parent::button)[4]"]
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "column_options_popup_save_btn":{
+        "comment": "locator bad waiting for dev to fix: ticket - JECP-224",
+        "locator": {
+            "xpath": "//span[contains(text(),'Save')]/parent::button"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "filter_side_bar_title":{
+        "locator": {
+            "css selector": "[data-testid='filter-sidebar-primary-title']"
+        },
+        "localization": {
+            "en": "Filter"
+        }
+    },
+    "filter_side_bar_close_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Close']"
+        }
+    },
+    "built_in_filter_options":{
+        "locator": {
+            "css selector": "#builtinList li label"
+        }
+    },
+    "my_org_table_username_column":{
+        "locator": {
+            "css selector": "table[data-testid='accounts-data-table'] th#name"
+        }
+    },
+    "my_org_table_email_column":{
+        "locator": {
+            "css selector": "table[data-testid='accounts-data-table'] th#email"
+        }
+    },
+    "my_org_table_role_column":{
+        "locator": {
+            "css selector": "table[data-testid='accounts-data-table'] th#role"
+        }
+    },
+    "my_org_table_status_column":{
+        "locator": {
+            "css selector": "table[data-testid='accounts-data-table'] th#tablestatus"
+        }
+    },
+    "my_org_table_assigned_to_column":{
+        "locator": {
+            "css selector": "table[data-testid='accounts-data-table'] th#assignedto"
+        }
+    },
+    "my_org_table_user_email_lbl":{
+        "locator": {
+            "css selector": "tbody tr td:nth-child(2)"
+        }
+    },
+    "settings_page_title":{
+        "locator": {
+            "css selector": "[id*=react-accounts-management] h4"
+        },
+        "localization": {
+            "en": "Settings"
+        }
+    },
+    "settings_page_desc":{
+        "locator": {
+            "css selector": "[id*=react-accounts-management] h4+div"
+        },
+        "localization": {
+            "en": "Set option values to manage users in the organization."
+        }
+    },
+    "settings_idp_dropdown":{
+        "locator": {
+            "css selector": "#select-usage1"
+        }
+    },
+    "settings_idp_default_dropdown_option":{
+        "locator": {
+            "css selector": "#select-usage1 span"
+        }
+    },
+    "settings_idp_dropdown_options":{
+        "locator": {
+            "css selector": "#select-usage1-listbox li"
+        }
+    },
+    "settings_domain_field_empty_error_msg":{
+        "locator": {
+            "css selector": "#settings-form-elements-textbox-helper-text"
+        },
+        "localization": {
+            "en": "This field cannot be blank"
+        }
+    },
+    "settings_domain_field_invalid_error_msg":{
+        "locator": {
+            "css selector": "#settings-form-elements-textbox-helper-text span:nth-child(2)"
+        },
+        "localization": {
+            "en": "Error Label"
+        }
+    },
+    "settings_contextual_footer":{
+        "locator": {
+            "css selector": "div[data-testid='footer']"
+        }
+    },
+    "settings_contextual_footer_cancel_btn":{
+        "locator": {
+            "css selector": "button#cancelBtn"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_contextual_footer_save_btn":{
+        "locator": {
+            "css selector": "button[data-testid='save-button']"
+        },
+        "localization": {
+            "en": "Save"
+        }
+    },
+    "settings_domain_field":{
+        "locator": {
+            "css selector": "input[data-testid='settings-form-elements-textbox']"
+        }
+    },
+    "settings_not_saved_title":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-title']"
+        },
+        "localization": {
+            "en": "Setting Not Saved"
+        }
+    },
+    "settings_not_saved_desc":{
+        "locator": {
+            "css selector": "[data-testid='navigation-blocker-modal-description']"
+        },
+        "localization": {
+            "en": "Are you sure you want to leave this page? All unsaved changes will be lost."
+        }
+    },
+    "settings_not_saved_cancel_btn":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-cancel-button']"
+        },
+        "localization": {
+            "en": "Cancel"
+        }
+    },
+    "settings_not_saved_leave_btn":{
+        "locator": {
+            "css selector": "button[data-testid='navigation-blocker-leave-button']"
+        },
+        "localization": {
+            "en": "Leave"
+        }
+    },
+    "bottom_toast_message":{
+        "locator": {
+            "css selector": "[role='alert']"
+        }
+    },
+    "my_org_details_username":{
+        "locator": {
+            "css selector": "[data-testid='account-detail-title']"
+        }
+    },
+    "my_org_details_email":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'EMAIL ADDRESS')]/following-sibling::div"
+        }
+    },
+    "my_org_details_role":{
+        "comment": "locator bad waiting for dev to fix",
+        "locator": {
+            "xpath": "//div[contains(text(),'ROLE')]/following-sibling::div"
+        }
+    },
+    "my_org_details_status":{
+        "locator": {
+            "css selector": "div[data-testid='account-status'] span"
+        }
+    },
+    "my_org_details_region":{
+        "locator": {
+            "css selector": "div[data-testid='account-detail-country']"
+        }
+    },
+    "my_org_details_phone":{
+        "locator": {
+            "css selector": "div[data-testid='account-detail-phone']"
+        }
+    },
+    "my_org_details_accounts":{
+        "locator": {
+            "css selector": "div[data-testid='account-detail-organization-value']"
+        }
+    },
+    "my_org_table_org_name_lbl":{
+        "locator": {
+            "css selector": "tbody tr:nth-child(1) td:nth-child(1)"
+        }
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "accounts_page_breadcrumb":{
+        "locator": {
+            "css selector": "#Account span[aria-current='page']"
+        }
+    },
+    "accounts_page_overview_tab":{
+        "locator": {
+            "css selector": "#overview div"
+        }
+    },
+    "accounts_page_users_tab":{
+        "locator": {
+            "css selector": "#users div"
+        }
+    },
+    "accounts_tab_add_ons_tab":{
+        "locator": {
+            "css selector": "#addons div"
+        }
+    },
+    "accounts_page_licenses_tab":{
+        "locator": {
+            "css selector": "#licenses div"
+        }
+    },
+    "accounts_page_assigned_partners_tab":{
+        "locator": {
+            "css selector": "#assigned-partner div"
+        }
+    },
+    "accounts_roles_and_permissions_tab":{
+        "locator": {
+            "css selector": "#rbac div"
+        }
+    },
+    "accounts_page_overview_tab_company_size_label":{
+        "locator": {
+            "css selector": "#company-size>div:nth-child(1)"
+        }
+    },
+    "accounts_page_overview_tab_company_name_label":{
+        "locator": {
+            "css selector": "#company-name>div:nth-child(1)"
+        }
+    },
+    "accounts_page_overview_tab_primary_administrator_title":{
+        "locator": {
+            "css selector": ["#primary-administrator-header h2", "#primary-administrator-header [class*='header-title']"]
+        }
+    },
+    "accounts_page_overview_tab_company_address_label":{
+        "locator": {
+            "css selector": "#company-address-header"
+        }
+    },
+    "accounts_page_overview_tab_company_address_edit_button":{
+        "locator": {
+            "css selector": "#edit-address"
+        }
+    },
+    "accounts_page_overview_tab_company_size_edit_button":{
+        "locator": {
+            "css selector": "#edit-company-size"
+        }
+    },
+    "accounts_page_overview_tab_company_name_edit_button":{
+        "locator": {
+            "css selector": "#edit-company-name"
+        }
+    },
+    "accounts_page_overview_tab_primary_administrator_edit_button":{
+        "locator": {
+            "css selector": "#edit-company-primary-account"
+        }
+    },
+    "accounts_page_add_ons_tab_hp_anyware_widget_title":{
+        "locator": {
+            "css selector": ["#anyware-addon [class='addon-card-header']", "#anyware-addon h3"]
+        }
+    },
+    "accounts_page_add_ons_tab_hp_anyware_widget_learn_more_link":{
+        "locator": {
+            "css selector": "#anyware-addon-learn-more-link"
+        }
+    },
+    "accounts_page_add_ons_tab_vyopta_widget_title":{
+        "locator": {
+            "css selector": ["#vyopta-addon [class='addon-card-header']", "#vyopta-addon h3"]
+        }
+    },
+    "accounts_page_add_ons_tab_vyopta_widget_connect_button":{
+        "locator": {
+            "css selector": "#vyopta-addon-connect-btn"
+        }
+    },
+    "accounts_page_add_ons_tab_vyopta_widget_learn_more_link":{
+        "locator": {
+            "css selector": "#vyopta-addon-learn-more-link"
+        }
+    },
+    "accounts_page_add_ons_tab_hp_wolf_widget_title":{
+        "locator": {
+            "css selector": ["#wpt-addon [class='addon-card-header']", "#wpt-addon h3"]
+        }
+    },
+    "accounts_page_add_ons_tab_hp_wolf_widget_learn_more_link":{
+        "locator": {
+            "css selector": "#wpt-addon-learn-more-link"
+        }
+    },
+    "accounts_page_licenses_tab_add_licenses_button":{
+        "locator": {
+            "css selector": ["#extended-licenses button", "#licenses"]
+        }
+    },
+    "accounts_page_licenses_tab_add_licenses_popup_title":{
+        "locator": {
+            "css selector": ["#dui-add-subscription-key-label", "#company-subscription-key-label"]
+        }
+    },
+    "accounts_page_licenses_tab_add_licenses_popup_cancel_button":{
+        "locator": {
+            "css selector": "#company-subscription-cancel"
+        }
+    },
+    "accounts_page_assigned_partners_tab_assignment_settings_label":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Assignment Settings')]"
+        }
+    },
+    "accounts_page_assigned_partners_tab_invitations_label":{
+        "locator": {
+            "xpath": "//div[contains(text(),'Invitations')]"
+        }
+    },
+    "accounts_page_assigned_partners_tab_assignment_delete_button":{
+        "locator": {
+            "css selector": "div[id*='company-partner'] div[class*='icon-button']"
+        }
+    },
+    "accounts_page_users_table_checkbox":{
+        "locator": {
+            "css selector": "tbody td .vn-checkbox__span"
+        }
+    },
+    "accounts_page_users_name_search_box":{
+        "locator": {
+            "css selector": "input#name"
+        }
+    },
+    "accounts_page_users_tab_invite_users_button":{
+        "locator": {
+            "css selector": "#btn_user_add"
+        }
+    },
+    "accounts_page_users_tab_invite_users_popup_title":{
+        "locator": {
+            "xpath": "//h4[contains(text(),'Add Users')]"
+        }
+    },
+    "accounts_page_users_tab_invite_users_popup_cancel_button":{
+        "locator": {
+            "css selector": "#btn_cancel"
+        }
+    },
+    "accounts_page_users_tab_delete_button":{
+        "locator": {
+            "css selector": "#btn_user_remove"
+        }
+    },
+    "accounts_page_users_tab_delete_popup_title":{
+        "locator": {
+            "xpath": "//h4[contains(text(),'Delete User')]"
+        }
+    },
+    "accounts_page_users_tab_delete_popup_cancel_button":{
+        "locator": {
+            "css selector": "#modal-cancel"
+        }
+    },
+    "accounts_page_users_tab_assign_roles_button":{
+        "locator": {
+            "css selector": "#btn_assign_roles"
+        }
+    },
+    "accounts_page_users_tab_assign_roles_popup_title":{
+        "locator": {
+            "css selector": "#rolesModal-label"
+        }
+    },
+    "accounts_page_users_tab_assign_roles_popup_cancel_button":{
+        "locator": {
+            "css selector": "#rolesCancelBtn"
+        }
+    },
+    "roles_and_permissions_tab_add_button":{
+        "locator": {
+            "css selector": "#add-custom-role"
+        }
+    },
+    "roles_and_permissions_tab_table":{
+        "locator": {
+            "css selector": "[class*='custom-role'] table"
+        }
+    }
+}

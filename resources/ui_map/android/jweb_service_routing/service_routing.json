@@ -1,0 +1,27 @@
+{
+  "settings_btn": {
+    "locator": {
+      "id": "settings"
+    }
+  },
+  "enforce_url_checkbox": {
+    "locator": {
+      "xpath": "//android.widget.TextView[contains(@text,'URL')]/parent::android.widget.RelativeLayout/parent::android.widget.LinearLayout/descendant::android.widget.CheckBox"
+    }
+  },
+  "enable_mocked_data_checkbox": {
+    "locator": {
+      "xpath": "//android.widget.TextView[contains(@text,'mocked data')]/parent::android.widget.RelativeLayout/parent::android.widget.LinearLayout/descendant::android.widget.CheckBox"
+    }
+  },
+  "change_stack_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[contains(@text,'Jarvis Service Repository')]/parent::android.widget.RelativeLayout/parent::android.widget.LinearLayout/descendant::android.widget.TextView"
+    }
+  },
+  "stack_option": {
+    "locator": {
+      "xpath": "//android.widget.CheckedTextView[contains(@text,'{}')]"
+    }
+  }
+}
