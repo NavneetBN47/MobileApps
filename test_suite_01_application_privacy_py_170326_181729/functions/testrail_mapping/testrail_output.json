@@ -1,0 +1,26 @@
+{
+  "C53304023": {
+    "testcase_name": "C53304023",
+    "details": "Invalid URL '{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304023': No scheme supplied. Perhaps you meant https://{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304023?"
+  },
+  "C53304024": {
+    "testcase_name": "C53304024",
+    "details": "Invalid URL '{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304024': No scheme supplied. Perhaps you meant https://{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304024?"
+  },
+  "C53304028": {
+    "testcase_name": "C53304028",
+    "details": "Invalid URL '{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304028': No scheme supplied. Perhaps you meant https://{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304028?"
+  },
+  "C53304029": {
+    "testcase_name": "C53304029",
+    "details": "Invalid URL '{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304029': No scheme supplied. Perhaps you meant https://{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/53304029?"
+  },
+  "C67872404": {
+    "testcase_name": "C67872404",
+    "details": "Invalid URL '{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/67872404': No scheme supplied. Perhaps you meant https://{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/67872404?"
+  },
+  "C67872405": {
+    "testcase_name": "C67872405",
+    "details": "Invalid URL '{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/67872405': No scheme supplied. Perhaps you meant https://{{testrail-base-url_string_true}}/index.php?/api/v2/get_case/67872405?"
+  }
+}
