@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "Context/testscripts/test_suite_01_application_privacy.py",
+    "function_name": "test_01_app_only_consents_screen_shown_if_app_consents_are_not_set_C53304023",
+    "function_code": "    @pytest.mark.regression\n    def test_01_app_only_consents_screen_shown_if_app_consents_are_not_set_C53304023(self):\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_manage_choices_btn()\n        self.app_consents.verify_close_app_privacy_btn()\n        self.app_consents.click_close_app_privacy_btn()\n        self.fc.reset_myHP_app_through_command(launch_app=True)\n        self.css.maximize_hp()\n        self.app_consents.verify_app_only_consents_screen()"
+  },
+  {
+    "filename": "Context/testscripts/test_suite_01_application_privacy.py",
+    "function_name": "test_02_app_only_consents_screen_is_not_shown_if_app_consents_already_set_C53304024",
+    "function_code": "    @pytest.mark.regression\n    def test_02_app_only_consents_screen_is_not_shown_if_app_consents_already_set_C53304024(self):\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_accept_all_button()\n        self.app_consents.verify_continue_as_guest_button_show_up()\n        self.app_consents.click_continue_as_guest_button()\n        assert self.devices_details_pc_mfe.verify_pc_device_name_show_up(), \"PC name not present on device details page\"\n        self.profile.click_close_hpx_btn()\n        self.fc.launch_myHP_command()\n        self.css.maximize_hp()\n        assert self.devices_details_pc_mfe.verify_pc_device_name_show_up(), \"PC name not present on device details page\""
+  },
+  {
+    "filename": "Context/testscripts/test_suite_01_application_privacy.py",
+    "function_name": "test_03_verify_necessary_notice_displays_C53304028",
+    "function_code": "    @pytest.mark.regression\n    def test_03_verify_necessary_notice_displays_C53304028(self):\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\""
+  },
+  {
+    "filename": "Context/testscripts/test_suite_01_application_privacy.py",
+    "function_name": "test_04_validate_app_only_consents_screen_content_for_US_C53304029",
+    "function_code": "    @pytest.mark.regression\n    def test_04_validate_app_only_consents_screen_content_for_US_C53304029(self):\n        self.app_consents.verify_your_data_and_privacy_title()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen for US region\""
+  },
+  {
+    "filename": "Context/testscripts/test_suite_01_application_privacy.py",
+    "function_name": "test_05_app_only_consents_screen_not_displayed_on_managed_device_C67872404",
+    "function_code": "    @pytest.mark.regression\n    def test_05_app_only_consents_screen_not_displayed_on_managed_device_C67872404(self):\n        self.fc.consent_managed_registry_key(self.driver.ssh, condition=True)\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_accept_all_button()\n        self.app_consents.verify_continue_as_guest_button_show_up()\n        self.app_consents.click_continue_as_guest_button()\n        assert self.device_card.verify_bell_icon_present(), \"Bell icon is not present on device card\"\n        device_name = self.fc.get_windows_system_name()\n        logging.info(f\"Device Name: '{device_name}'\")\n        self.devicesMFE.verify_sign_in_button_show_up()\n        self.devicesMFE.verify_bell_icon_show_up()"
+  },
+  {
+    "filename": "Context/testscripts/test_suite_01_application_privacy.py",
+    "function_name": "test_06_app_only_consents_screen_displayed_on_unmanaged_device_C67872405",
+    "function_code": "    @pytest.mark.regression\n    def test_06_app_only_consents_screen_displayed_on_unmanaged_device_C67872405(self):\n        self.fc.consent_managed_registry_key(self.driver.ssh, condition=False)\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.verify_necessary_text()"
+  }
+]
