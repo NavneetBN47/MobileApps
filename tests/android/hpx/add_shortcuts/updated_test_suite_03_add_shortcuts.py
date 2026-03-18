@@ -20,7 +20,7 @@ class Test_Suite_03_Add_Shortcut:
     
     def test_01_verify_the_screen_when_the_user_enables_only_the_email_destination_in_the_add_shortcut_screen(self):
         """
-        Description: C51953678
+        Description: C4391
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
@@ -81,7 +81,7 @@ class Test_Suite_03_Add_Shortcut:
     
     def test_03_verify_the_to_section_when_the_user_enters_a_valid_email_address_in_the_add_email_screen(self):
         """
-        Description: C51953680
+        Description: C4393
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -114,7 +114,7 @@ class Test_Suite_03_Add_Shortcut:
 
     def test_04_verify_the_to_section_when_the_user_enters_a_invalid_email_address_in_the_add_email_screen(self):
         """
-        Description: C51953681
+        Description: C4394
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -147,7 +147,7 @@ class Test_Suite_03_Add_Shortcut:
     
     def test_05_verify_the_to_section_when_the_user_enters_more_than_one_email_address_in_the_add_email_screen(self):
         """
-        Description: C51953682
+        Description: C4395
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -180,7 +180,7 @@ class Test_Suite_03_Add_Shortcut:
     
     def test_06_verify_the_to_section_when_the_user_enters_more_than_20_email_address_in_the_add_email_screen(self):
         """
-        Description: C51953683
+        Description: C4396
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -213,7 +213,7 @@ class Test_Suite_03_Add_Shortcut:
     
     def test_07_verify_the_body_section_of_the_add_email_screen_when_the_user_modifies_text(self):
         """
-        Description: C51953685
+        Description: C4397
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.

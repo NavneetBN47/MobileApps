@@ -20,7 +20,7 @@ class Test_Suite_05_Add_Shortcut:
     
     def test_01_verify_the_position_of_the_buttons_on_the_delete_this_shortcut_pop_up_window(self):
         """
-        Description: C51953702
+        Description: C4401
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to Shortcuts screen then click on edit link.
@@ -44,7 +44,7 @@ class Test_Suite_05_Add_Shortcut:
 
     def test_02_verify_the_screen_when_user_clicks_on_delete_button_in_pop_up_window(self):
         """
-        Description: C51953703
+        Description: C4402
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to Shortcut edit turn on screen.
@@ -69,7 +69,7 @@ class Test_Suite_05_Add_Shortcut:
 
     def test_03_verify_the_screen_when_user_clicks_on_the_print_email_and_save_section(self):
         """
-        Description: C51953705
+        Description: C4403
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -97,7 +97,7 @@ class Test_Suite_05_Add_Shortcut:
     
     def test_04_verify_the_screen_when_user_removes_the_print_destination_shortcut(self):
         """
-        Description: C51953706
+        Description: C4404
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -124,7 +124,7 @@ class Test_Suite_05_Add_Shortcut:
     
     def test_05_verify_the_screen_when_user_clicks_on_the_remove_button_of_print_destination_shortcut(self):
         """
-        Description: C51953707
+        Description: C4405
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -153,7 +153,7 @@ class Test_Suite_05_Add_Shortcut:
 
     def test_06_verify_the_screen_when_user_clicks_on_the_cancel_button_of_print_destination_shortcut(self):
         """
-        Description: C51953708
+        Description: C4406
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -183,7 +183,7 @@ class Test_Suite_05_Add_Shortcut:
     
     def test_07_verify_the_screen_when_user_removes_the_email_destination_shortcut(self):
         """
-        Description: C51953709
+        Description: C4407
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -214,7 +214,7 @@ class Test_Suite_05_Add_Shortcut:
 
     def test_08_verify_the_screen_when_user_clicks_on_the_remove_button_of_email_destination_shortcut(self):
         """
-        Description: C51953710
+        Description: C4408
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -248,7 +248,7 @@ class Test_Suite_05_Add_Shortcut:
     
     def test_09_verify_the_screen_when_user_clicks_on_the_cancel_button_of_email_destination_shortcut(self):
         """
-        Description: C51953711
+        Description: C4409
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.
@@ -279,7 +279,7 @@ class Test_Suite_05_Add_Shortcut:
     
     def test_10_verify_the_screen_when_user_removes_the_save_destination_shortcut(self):
         """
-        Description: C51953712
+        Description: C4410
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to printer details screen.

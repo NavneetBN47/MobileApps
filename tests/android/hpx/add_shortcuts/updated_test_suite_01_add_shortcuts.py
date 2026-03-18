@@ -20,7 +20,7 @@ class Test_Suite_01_Add_Shortcut:
 
     def test_01_verify_the_screen_when_user_clicks_on_the_create_your_own_shortcut_arrow_button_in_add_new_shortcuts_screen(self):
         """
-        Description: C51953660
+        Description: C4374
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
@@ -43,7 +43,7 @@ class Test_Suite_01_Add_Shortcut:
 
     def test_02_verify_the_screen_when_user_clicks_on_the_back_button_in_add_shortcut_screen(self):
         """
-        Description: C51953661
+        Description: C4375
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
@@ -60,7 +60,7 @@ class Test_Suite_01_Add_Shortcut:
     
     def test_03_verify_the_position_of_the_buttons_on_the_cancel_shortcut_creation_pop_up_window(self):
         """
-        Description: C51953662
+        Description: C4376
         Steps:
             1.Install and Launch the HPX app.
             2.Navigate to the shortcuts screen.
@@ -77,7 +77,7 @@ class Test_Suite_01_Add_Shortcut:
     
     def test_04_verify_the_screen_when_the_user_clicks_on_go_back_button(self):
         """
-        Description: C51953663
+        Description: C4377
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
@@ -96,7 +96,7 @@ class Test_Suite_01_Add_Shortcut:
 
     def test_05_verify_the_screen_when_user_clicks_on_the_yes_cancel_button(self):
         """
-        Description: C51953664
+        Description: C4378
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
@@ -115,7 +115,7 @@ class Test_Suite_01_Add_Shortcut:
     
     def test_06_verify_the_behavior_when_user_enables_the_print_destination_toggle_bar_in_add_shortcut_screen(self):
         """
-        Description: C51953665
+        Description: C4379
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.

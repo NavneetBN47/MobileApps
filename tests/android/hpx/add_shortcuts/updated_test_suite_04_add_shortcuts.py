@@ -20,7 +20,7 @@ class Test_Suite_04_Add_Shortcut:
     
     def test_01_verify_the_screen_when_the_user_enables_only_the_save_destination_in_the_add_shortcut_screen(self):
         """
-        Description: C51953686
+        Description: C4398
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
@@ -50,7 +50,7 @@ class Test_Suite_04_Add_Shortcut:
 
     def test_02_verify_the_screen_when_user_clicks_on_back_button_in_add_print_screen(self):
         """
-        Description: C51953687
+        Description: C4399
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
@@ -82,7 +82,7 @@ class Test_Suite_04_Add_Shortcut:
 
     def test_03_verify_the_screen_when_user_click_on_sign_in_link_of_any_cloud_accounts_under_add_accounts_in_add_save_screen(self):
         """
-        Description: C51953688
+        Description: C4400
         Steps:
             1.Install and Launch the HPX app.
             2.Click on the printer icon on the root view screen.
