@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "Context/testscripts/test_add_shortcuts.py",
+    "name": "setup_method",
+    "code": "    def setup_method(self):\n        self.driver = webdriver.Chrome()\n        self.driver.get('http://example.com')"
+  },
+  {
+    "filename": "Context/testscripts/test_add_shortcuts.py",
+    "name": "teardown_method",
+    "code": "    def teardown_method(self):\n        self.driver.quit()"
+  },
+  {
+    "filename": "Context/testscripts/test_add_shortcuts.py",
+    "name": "test_add_shortcut_success",
+    "code": "    def test_add_shortcut_success(self):\n        # Test successful shortcut addition\n        pass"
+  },
+  {
+    "filename": "Context/testscripts/test_add_shortcuts.py",
+    "name": "test_add_shortcut_duplicate",
+    "code": "    def test_add_shortcut_duplicate(self):\n        # Test adding duplicate shortcut\n        pass"
+  }
+]
