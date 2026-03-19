@@ -1,0 +1,57 @@
+[
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_01_validate_app_only_screen_content_for_india_C53304047",
+        "code": "    @pytest.mark.regression\n    def test_01_validate_app_only_screen_content_for_india_C53304047(self):\n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\""
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_02_verify_buttons_layout_on_app_ony_consents_screen_C53304055",
+        "code": "    @pytest.mark.regression\n    def test_02_verify_buttons_layout_on_app_ony_consents_screen_C53304055(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Accepted\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Rejected\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Accepted\")\n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_manage_choices_btn()\n        self.app_consents.verify_accept_all_button_show_up()\n        self.app_consents.verify_decline_optional_data()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_03_verify_app_only_consents_screen_content_C67872406",
+        "code": "    @pytest.mark.regression\n    def test_03_verify_app_only_consents_screen_content_C67872406(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Accepted\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Rejected\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Accepted\")\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_your_data_and_privacy_title()\n        self._click_links()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_04_verify_buttons_layout_on_manage_choice_screen_C53304058",
+        "code": "    @pytest.mark.regression\n    def test_04_verify_buttons_layout_on_manage_choice_screen_C53304058(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Accepted\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Rejected\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Accepted\")\n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_manage_choices_btn()\n        self.app_consents.verify_manage_choice_continue_btn()\n        self.app_consents.verify_manage_choice_back_btn()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_05_verify_buttons_layout_on_app_only_consents_screen_C67872408",
+        "code": "    @pytest.mark.regression\n    def test_05_verify_buttons_layout_on_app_only_consents_screen_C67872408(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Accepted\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Rejected\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Accepted\")\n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_manage_choices_btn()\n        self.app_consents.verify_accept_all_button_show_up()\n        self.app_consents.verify_decline_optional_data()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_06_verify_app_device_consents_contents_C67872414",
+        "code": "    @pytest.mark.regression\n    def test_06_verify_app_device_consents_contents_C67872414(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Unknown\")\n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.verify_your_data_and_privacy_title()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self._click_links()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_07_verify_buttons_on_app_consents_page_C67872415",
+        "code": "    @pytest.mark.regression\n    def test_07_verify_buttons_on_app_consents_page_C67872415(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Unknown\")      \n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_manage_choices_btn()\n        self.app_consents.verify_accept_all_button_show_up()\n        self.app_consents.verify_decline_optional_data()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_08_verify_manage_choice_page_contents_C67872416",
+        "code": "    @pytest.mark.regression\n    def test_08_verify_manage_choice_page_contents_C67872416(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Unknown\") \n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_manage_choices_btn()\n        self.app_consents.verify_manage_choices_screen()\n        self.app_consents.verify_manage_choice_body_text()\n        self.app_consents.verify_your_data_and_privacy_title()\n        self._click_links()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_09_verify_buttons_on_manage_choice_page_C67872417",
+        "code": "    @pytest.mark.regression\n    def test_09_verify_buttons_on_manage_choice_page_C67872417(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Unknown\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Unknown\")   \n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_manage_choices_btn()\n        self.app_consents.verify_manage_choices_screen()\n        self.driver.swipe(\"manage_choice_continue_btn\", direction=\"down\")\n        self.app_consents.verify_manage_choice_continue_btn()\n        self.app_consents.verify_manage_choice_back_btn()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "test_10_validate_manage_choice_screen_C67872407",
+        "code": "    @pytest.mark.regression\n    def test_10_validate_manage_choice_screen_C67872407(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Accepted\")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Rejected\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Accepted\")    \n        self.fc.change_system_region_to_india()\n        self.app_consents.verify_app_only_consents_screen()\n        assert self.app_consents.verify_necessary_text(), \"Failed to verify necessary text in app consent screen\"\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_manage_choices_btn()\n        self.app_consents.verify_manage_choices_screen()\n        self.app_consents.verify_manage_choice_body_text()\n        self.app_consents.verify_your_data_and_privacy_title()\n        self._click_links()"
+    },
+    {
+        "filename": "Context/testscripts/test_suite_05_app_privacy_india.py",
+        "name": "_click_links",
+        "code": "    def _click_links(self):\n        self.driver.swipe(distance=5)\n        self.app_consents.click_advertising_here_link()\n        self.hpx_support.verify_browser_pane()\n        tab_name = self.hpx_support.get_browser_tab_name()\n        logging.info(f\"Advertising link Browser tab name is: {tab_name}\")\n        self.fc.kill_chrome_process()\n        self.app_consents.click_terms_of_use_link()\n        self.hpx_support.verify_browser_pane()\n        tab_name = self.hpx_support.get_browser_tab_name()\n        logging.info(f\"Terms of Use link Browser tab name is: {tab_name}\")\n        self.fc.kill_chrome_process()\n        self.app_consents.click_end_user_license_agreement_link()\n        self.hpx_support.verify_browser_pane()\n        tab_name = self.hpx_support.get_browser_tab_name()\n        logging.info(f\"End User License Agreement link Browser tab name is: {tab_name}\")\n        self.fc.kill_chrome_process()"
+    }
+]
