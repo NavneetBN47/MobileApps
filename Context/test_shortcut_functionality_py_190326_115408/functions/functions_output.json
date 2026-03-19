@@ -1,0 +1,27 @@
+[
+    {
+        "filename": "Context/testscripts/test_shortcut_functionality.py",
+        "name": "setup_method",
+        "code": "def setup_method(self):\n        self.driver = webdriver.Chrome()\n        self.driver.get('http://example.com')"
+    },
+    {
+        "filename": "Context/testscripts/test_shortcut_functionality.py",
+        "name": "teardown_method",
+        "code": "def teardown_method(self):\n        self.driver.quit()"
+    },
+    {
+        "filename": "Context/testscripts/test_shortcut_functionality.py",
+        "name": "test_shortcut_click",
+        "code": "def test_shortcut_click(self):\n        # Test clicking on a shortcut\n        pass"
+    },
+    {
+        "filename": "Context/testscripts/test_shortcut_functionality.py",
+        "name": "test_shortcut_edit",
+        "code": "def test_shortcut_edit(self):\n        # Test editing a shortcut\n        pass"
+    },
+    {
+        "filename": "Context/testscripts/test_shortcut_functionality.py",
+        "name": "test_shortcut_delete",
+        "code": "def test_shortcut_delete(self):\n        # Test deleting a shortcut\n        pass"
+    }
+]
