@@ -1,0 +1,7 @@
+[
+    {
+        "filename": "Context/testscripts/test_add_shortcuts.py",
+        "name": "test_add_shortcuts",
+        "code": "    def test_add_shortcuts(self, driver):\n        # Wait for the main screen to load\n        wait = WebDriverWait(driver, 10)\n        \n        # Find and click the \"Add Shortcuts\" button\n        add_shortcuts_button = wait.until(\n            EC.presence_of_element_located(\n                (AppiumBy.ACCESSIBILITY_ID, \"Add Shortcuts\")\n            )\n        )\n        add_shortcuts_button.click()\n        \n        # Verify that we navigated to the shortcuts screen\n        shortcuts_title = wait.until(\n            EC.presence_of_element_located(\n                (AppiumBy.XPATH, \"//android.widget.TextView[@text='Shortcuts']\")\n            )\n        )\n        assert shortcuts_title.is_displayed(), \"Shortcuts screen not displayed\"\n        \n        print(\"Test passed: Successfully navigated to Add Shortcuts screen\")"
+    }
+]
