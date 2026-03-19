@@ -1,0 +1,7 @@
+{
+  "test_suite": "conftest.py",
+  "imports": "",
+  "fixtures": [{"name": "driver", "scope": "function", "parameters": [], "docstring": "", "code": "@pytest.fixture(scope=\"function\")\ndef driver():\n    options = UiAutomator2Options()\n    options.platform_name = \"Android\"\n    options.device_name = \"emulator-5554\"  # Change this to your device name\n    options.app_package = \"com.example.mobileapp\"  # Replace with your app package\n    options.app_activity = \".MainActivity\"  # Replace with your main activity\n    options.automation_name = \"UiAutomator2\"\n    \n    driver = webdriver.Remote(\"http://localhost:4723\", options=options)\n    yield driver\n    driver.quit()"}],
+  "list_of_pages": [],
+  "list_of_functions": []
+}
