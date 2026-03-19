@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "test_suite_08_app_privacy.py",
+    "name": "test_01_verify_no_consents_screen_managed_device_C67874089",
+    "code": "    @pytest.mark.regression\n    def test_01_verify_no_consents_screen_managed_device_C67874089(self):\n        self.fc.consent_managed_registry_key(self.driver.ssh, condition=True)\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Accepted   \")\n        self.fc.consent_allow_product_enhancement(self.driver.ssh, condition=\"Rejected\")\n        self.fc.consent_allow_support(self.driver.ssh,condition=\"Accepted\")\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_accept_all_button()\n        self.app_consents.verify_continue_as_guest_button_show_up()\n        self.app_consents.click_continue_as_guest_button()\n        assert self.devices_details_pc_mfe.verify_pc_device_name_show_up(), \"PC name not present on device details page\"\n        self.fc.consent_managed_registry_key(self.driver.ssh, condition=False)"
+  },
+  {
+    "filename": "test_suite_08_app_privacy.py",
+    "name": "test_02_verify_consents_displayed_when_not_preselected_C67874090",
+    "code": "    @pytest.mark.regression\n    def test_02_verify_consents_displayed_when_not_preselected_C67874090(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Unknown\")\n        self.app_consents.verify_app_and_device_common_consents_screen()\n        self.app_consents.verify_app_only_consents_screen()"
+  },
+  {
+    "filename": "test_suite_08_app_privacy.py",
+    "name": "test_03_verify_consents_page_shown_on_relaunch_C67874091",
+    "code": "    @pytest.mark.regression\n    def test_03_verify_consents_page_shown_on_relaunch_C67874091(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Unknown\")\n        self.app_consents.verify_app_and_device_common_consents_screen()\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.click_manage_choices_btn()\n        self.app_consents.verify_manage_choices_screen()\n        self.profile.click_close_hpx_btn()\n        self.fc.launch_myHP_command()\n        self.app_consents.verify_app_and_device_common_consents_screen()\n        self.app_consents.verify_app_only_consents_screen()"
+  },
+  {
+    "filename": "test_suite_08_app_privacy.py",
+    "name": "test_04_verify_necessary_notice_first_use_flow_C67874092",
+    "code": "    @pytest.mark.regression\n    def test_04_verify_necessary_notice_first_use_flow_C67874092(self):\n        self.fc.consent_allow_marketing(self.driver.ssh, condition=\"Unknown\")\n        self.app_consents.verify_app_and_device_common_consents_screen()\n        self.app_consents.verify_app_only_consents_screen()\n        self.app_consents.verify_necessary_text_from_app_and_device_consents_screen()"
+  }
+]
