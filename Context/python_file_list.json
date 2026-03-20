@@ -1,0 +1,4 @@
+{
+  "no_of_files": 5,
+  "testscript_files": ["updated_test_suite_01_add_shortcuts.py", "updated_test_suite_02_add_shortcuts.py", "updated_test_suite_03_add_shortcuts.py", "updated_test_suite_04_add_shortcuts.py", "updated_test_suite_05_add_shortcuts.py"]
+}
